@@ -63,7 +63,7 @@ assert "78%" not in home + supplies
 assert "Most likely in the next 30 days" not in home
 
 assert not list(root.rglob("*.apk")), "Never commit generated APKs"
-print(f"Static checks passed: {len(files)} Kotlin files, {len(xmls)} valid XML files, no dangerous permissions")
+
 
 # Pantry regression checks: real camera analysis, local database and editable stock.
 assert "ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST" in combined
@@ -72,3 +72,5 @@ assert "PantryStore(" in combined
 assert "world.openfoodfacts.org/api/v2/product/" in combined
 assert "CREATE TABLE pantry_items" in combined
 assert "pantryValidationError" in combined
+
+print(f"Static checks passed: {len(files)} Kotlin files, {len(xmls)} valid XML files, scoped camera/network permissions")
