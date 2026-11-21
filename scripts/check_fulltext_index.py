@@ -15,7 +15,7 @@ DATA = json.loads(MERGED.read_text(encoding="utf-8"))
 assert META["schema_version"] == 1
 assert META["tokenizer"] == "unicode-prefix-v2"
 assert META["shards"] == 16
-urban = json.loads((root / "app/src/main/assets/guides/uk_urban_guide_articles.json").read_text())
+urban = json.loads((ROOT / "app/src/main/assets/guides/uk_urban_guide_articles.json").read_text())
 expected_ids = {a["id"] for a in DATA["articles"]} | {a["topic_id"] for a in urban["articles"]}
 assert set(META["documents"]) == expected_ids, "Index coverage must include every imported and urban article"
 assert len(META["documents"]) >= 23, "Unexpected loss of baseline offline guides"
