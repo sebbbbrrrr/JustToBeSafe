@@ -31,7 +31,7 @@ class OfflineFullTextIndex private constructor(
             }
             val postings = shard[word] ?: emptySet()
             matches = if (matches == null) postings else matches.intersect(postings)
-            if (matches.isEmpty()) break
+            if (matches?.isEmpty() == true) break
         }
         matches ?: emptySet()
     }
@@ -56,9 +56,12 @@ class OfflineFullTextIndex private constructor(
 
     companion object {
         /** Unicode letter/number terms, same lowercasing rule as the Python compiler. */
+        private val stopWords = setOf("how", "to", "a", "an", "the", "do", "i", "can",
+            "what", "is", "for", "in", "of", "and", "my", "with", "on", "at")
+
         internal fun tokenize(query: String): List<String> =
             Regex("[\\p{L}\\p{N}]+").findAll(query.lowercase(java.util.Locale.ROOT))
-                .map { it.value }.toList()
+                .map { it.value }.filter { it !in stopWords }.toList()
 
         internal fun shardFor(word: String): Char {
             val bytes = MessageDigest.getInstance("SHA-256")
@@ -72,7 +75,7 @@ class OfflineFullTextIndex private constructor(
             val root = JSONObject(raw)
             require(root.getInt("schema_version") == 1)
             require(root.getInt("shards") == 16)
-            require(root.getString("tokenizer") == "unicode-alphanumeric-lowercase-v1")
+            require(root.getString("tokenizer") == "unicode-prefix-v2")
             require(root.getString("publication_state") == "internal_draft")
             val arr = root.getJSONArray("documents")
             val ids = (0 until arr.length()).map { arr.getString(it) }.toSet()
