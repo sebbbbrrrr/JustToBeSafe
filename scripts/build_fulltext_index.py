@@ -47,7 +47,11 @@ def documents():
     urban_info = {v["id"]: v for v in meta["topics"]}
     out = []
     for item in practical["articles"]:
-        text = " ".join([item["title"], item["category"], item["summary"], *item["tags"]] +
+        visual = item.get("visual") or {}
+        visual_words = [visual.get("caption", ""), visual.get("alt", ""),
+                        *(visual.get("labels") or [])]
+        text = " ".join([item["title"], item["category"], item["summary"], *item["tags"],
+                         *visual_words] +
                         [section["title"] + " " + " ".join(section["paragraphs"])
                          for section in item["sections"]])
         out.append((item["id"], text))
