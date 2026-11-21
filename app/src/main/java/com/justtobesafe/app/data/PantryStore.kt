@@ -37,7 +37,7 @@ class PantryStore(context: Context) : SQLiteOpenHelper(context.applicationContex
         val id = cursor.getColumnIndexOrThrow("id")
         val barcode = cursor.getColumnIndexOrThrow("barcode")
         val name = cursor.getColumnIndexOrThrow("name")
-        val brand = cursor.getColumnIndexOrThrow("brands")
+        val brand = cursor.getColumnIndexOrThrow("brand")
         val size = cursor.getColumnIndexOrThrow("pack_size")
         val quantity = cursor.getColumnIndexOrThrow("quantity")
         val expiry = cursor.getColumnIndexOrThrow("expiry_date")
