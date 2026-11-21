@@ -61,3 +61,28 @@ The Calm Utility direction is selected for the Android **prototype** only: soft 
 3. Verify secure plan read/write/reopen and failure scenarios, including rapid simultaneous taps, low storage, restart and app updates.
 4. Review typography and contrast in **actual emulator/device screenshots**, then refine spacing and illustration to better match the selected mockup.
 5. Secure expert content pipeline, legal review, real official-source metadata and privacy notice before a wider pilot. No live alert claims unless independently implemented and verified.
+
+
+## Calm Utility UI refinement (prototype branch)
+
+The founder selected **Calm Utility** for the Android design direction. A follow-up prototype UI pass improves fidelity to the chosen three-screen visual concept while retaining the current four-tab workflow:
+
+- **Home:** scenic countryside artwork derived from the original concept (bundled at `drawable-nodpi/calm_countryside.jpg`), clear supplies progress, local-information connection status, two adaptive shortcut tiles, and offline explanation. Progress measures the **eight stored inventory ticks only**; the concept's fictional 78% preparedness and local hazard probabilities are deliberately excluded.
+- **Guides:** searchable, filterable topic tiles; differentiated icon tints; polished detail screen with an explicit unreviewed placeholder status and an external official-resource action. The app has no reviewed emergency procedure content yet.
+- **Supplies:** better hierarchy, clearer item selection states, high-contrast checked-item treatment, short progress/colour transitions, and a single accessible checkbox activation surface per item.
+- **Plan:** setup progress for contact/meeting-point *entry only*, initial badges, contact avatars, labelled actions, privacy messaging, accessible dialogs, retained encrypted storage.
+- **Navigation and theme:** compact Android Material 3 navigation bar with 4 tabs; rail on >=600dp widths; unified light/dark colour roles, touch targets, typography and subtle fade-through transitions. Compose `tween` timings are disabled when Android's animation duration scale is set to zero. No autoplay/scroll reveal/motion loops.
+- **Preview fixtures:** `CalmUtilityPreviews.kt` includes compact, 320dp + 1.3x text, dark and standard screen fixtures. All preview inputs are fictional and contain no personal information.
+
+The 960x408 scenic JPEG is a *decorative* crop of the supplied/generative concept scene; it is not a photograph of any actual location and must never be described as real hazard/location data. The asset is bundled offline and introduces no networking or remote asset dependency.
+
+### UI verification record
+
+- Verified source-level app navigation semantics and error copy; all previous offline/privacy behaviour retained.
+- Pure Kotlin checklist-domain tests: passed locally using `scripts/check_domain.sh`.
+- Static XML / permission / boundary audit: passed using `python scripts/static_qa.py`.
+- Kotlin source parsed without a reported `expecting` or unclosed-token diagnostic. Android-dependent symbol resolution was **not** possible with only the standalone Kotlin compiler.
+- Gradle/Android SDK build: **not run here** (no accessible Android SDK / resolved Compose dependencies). No APK or Android emulator recording claimed.
+- Visual inspection of native screens, TalkBack, reduced-motion and real Huawei P30 performance: **still required**, documented in `docs/UI_POLISH_QA.md`.
+
+The implementation is a testable code milestone. The included manual APK build workflow must be deliberately dispatched and its output installed before this can be represented as a verified executable.
