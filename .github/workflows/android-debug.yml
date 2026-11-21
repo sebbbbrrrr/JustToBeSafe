@@ -9,6 +9,7 @@ on:
       - feature/full-offline-urban-guides
       - feature/offline-knowledge-library-engine
       - feature/offline-fulltext-search-and-bulk-pipeline
+      - feature/offline-illustration-pipeline-throughput
     paths:
       - '.github/workflows/android-debug.yml'
       - 'app/build.gradle.kts'
@@ -23,6 +24,7 @@ on:
       - 'scripts/import_knowledge_batches.py'
       - 'scripts/build_fulltext_index.py'
       - 'scripts/check_fulltext_index.py'
+      - 'scripts/check_content_quality.py'
 
 permissions:
   contents: read
@@ -59,6 +61,7 @@ jobs:
       - name: Validate and compile offline knowledge packs and full-text index
         run: |
           python3 scripts/import_knowledge_batches.py
+          python3 scripts/check_content_quality.py
           python3 scripts/build_knowledge_packs.py
           python3 scripts/check_knowledge_packs.py
           python3 scripts/build_fulltext_index.py
