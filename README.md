@@ -42,3 +42,10 @@ This is a public repository. Do not store secrets, personal contact lists, house
 ## Contribution workflow
 
 Plan changes on feature branches and review via pull requests. Preserve source provenance, licensing evidence, expert-review status and last-reviewed dates for each safety content item once the content pipeline begins.
+
+
+## Android Calm Utility UI prototype
+
+A native **Kotlin / Jetpack Compose** Android proof of concept is being built on branch `feature/android-calm-utility-prototype`, based on the founder-selected Calm Utility concept. See [Android prototype documentation](docs/ANDROID_PROTOTYPE.md) for build commands, scope, security boundaries and unverified checks. The prototype includes Home, Guides, Supplies and an encrypted local Household Plan; it is not a live emergency-alert service and publishes no unreviewed safety procedures.
+
+To compile in an Android development environment with Android SDK 36, Java 17 and Gradle 8.13: `gradle :app:testDebugUnitTest :app:assembleDebug`. A GitHub Actions workflow is supplied for **manual** debug APK builds; it does not trigger automatically.
