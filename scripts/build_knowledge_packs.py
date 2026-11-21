@@ -13,7 +13,7 @@ import re
 import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "content/offline_knowledge_articles.json"
+SOURCE = ROOT / "content/.generated/knowledge_articles.json"
 OUT = ROOT / "app/src/main/assets/knowledge"
 
 
@@ -51,6 +51,8 @@ def validate(source):
 
 
 def build():
+    if not SOURCE.exists():
+        raise FileNotFoundError("Run import_knowledge_batches.py first")
     source = json.loads(SOURCE.read_text(encoding="utf-8"))
     records = validate(source)
     if OUT.exists():
