@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "test-w3-food-water-01",
+      "title": "Rotating shelf-stable pantry food",
+      "category": "Food & water",
+      "summary": "Keep a practical record of food supplies without confusing best-before and use-by dates.",
+      "tags": [
+        "pantry",
+        "rotation",
+        "shelf stable",
+        "expiry",
+        "stock"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Know what is stored",
+          "paragraphs": [
+            "Record food name, quantity, expected storage location and any label date. Shelf-stable products still require appropriate conditions and packaging care.",
+            "Do not treat a barcode lookup or inventory record as proof that a particular package remains safe to eat."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Organise rotation",
+          "paragraphs": [
+            "Place commonly used suitable items where they can be found and used during normal meals. Keep an accessible list of replacement requirements rather than acquiring more than the household can maintain.",
+            "Best-before and use-by labels serve different purposes; always interpret the label and appropriate official food-safety advice rather than applying a universal rule."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Check package condition",
+          "paragraphs": [
+            "During stock reviews, identify packaging damage, leaks or other concerns and consult relevant product guidance. Record changes in household dietary requirements.",
+            "The draft does not give spoilage tests or food processing instructions and needs food-safety review before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w3-food-water-02",
+      "title": "Keeping drinking-water containers organised",
+      "category": "Food & water",
+      "summary": "Create a water-storage inventory with clear locations and maintenance responsibilities.",
+      "tags": [
+        "water",
+        "container",
+        "bottle",
+        "storage",
+        "household"
+      ],
+      "risk": "public-health",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose traceable containers",
+          "paragraphs": [
+            "Record containers intended for drinking water, their volumes, locations and any manufacturer requirements. Keep their purpose clear to avoid accidental use for cleaning liquids.",
+            "Container material, past contents, heat exposure and cleanliness may affect suitability, so follow appropriate manufacturer or public-health guidance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Maintain a simple record",
+          "paragraphs": [
+            "Use a regular reminder to confirm that containers are physically present, intact and stored as intended. A litre count in an app cannot establish water quality.",
+            "If a water supplier issues a current drinking-water notice, its restrictions take precedence over any static storage article."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review household needs",
+          "paragraphs": [
+            "Consider accessibility, infants, pets and mobility when deciding where water is stored. Avoid relying on a single hard-to-reach location.",
+            "This entry does not contain water disinfection methods or guaranteed storage-lifetime claims without qualified review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w3-food-water-03",
+      "title": "Planning meals without normal refrigeration",
+      "category": "Food & water",
+      "summary": "Keep an inventory of practical shelf-stable meal options for disruptions to cooking and refrigeration.",
+      "tags": [
+        "meals",
+        "no fridge",
+        "pantry",
+        "cooking",
+        "food"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Map available options",
+          "paragraphs": [
+            "Identify which foods already in the pantry are shelf-stable and suitable for your household. Consider whether each meal needs cooking, water, electricity or specialist equipment.",
+            "Meal planning should account for allergies and dietary restrictions rather than assuming that a generic emergency menu suits everyone."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid unsafe substitutes",
+          "paragraphs": [
+            "Normal kitchen equipment may not operate during a power cut. Do not assume an outdoor or fuel-burning stove is suitable indoors; fire and carbon monoxide hazards require care.",
+            "Use manufacturer-approved appliances in suitable environments and do not improvise hazardous cooking arrangements."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review after use",
+          "paragraphs": [
+            "Note which foods were easy to access and which produced avoidable waste. Update the inventory and replace normal-use supplies as needed.",
+            "This is a food-planning draft. Detailed temperature, storage and safe-cooking thresholds should be verified by relevant food-safety authorities."
+          ]
+        }
+      ]
+    }
+  ]
+}
