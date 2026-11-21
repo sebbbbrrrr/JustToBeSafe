@@ -5,6 +5,7 @@ import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.camera.core.CameraSelector
+import androidx.camera.core.ExperimentalGetImage
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
@@ -101,6 +102,7 @@ fun BarcodeScannerDialog(onDetected: (String) -> Unit, onDismiss: () -> Unit) {
     }
 }
 
+@OptIn(ExperimentalGetImage::class)
 @Composable
 private fun ScannerCamera(
     modifier: Modifier,
