@@ -29,7 +29,7 @@ STOPWORDS = {"how", "to", "a", "an", "the", "do", "i", "can", "what",
              "is", "for", "in", "of", "and", "my", "with", "on", "at"}
 
 def terms(text):
-    words = set(re.findall(r"[^\\W_]+", text.lower(), flags=re.UNICODE))
+    words = set(re.findall(r"[^\W_]+", text.lower(), flags=re.UNICODE))
     tokens = set()
     for word in words - STOPWORDS:
         tokens.add(word)
