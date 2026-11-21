@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-source = json.loads((root / "content/offline_knowledge_articles.json").read_text())
+source = json.loads((root / "content/.generated/knowledge_articles.json").read_text())
 assets = root / "app/src/main/assets/knowledge"
 manifest = json.loads((assets / "manifest.json").read_text())
 assert manifest["schema_version"] == 1
