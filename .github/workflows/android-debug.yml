@@ -33,7 +33,7 @@ jobs:
         with:
           gradle-version: '8.13'
       - name: Install Android SDK 36
-        run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+        run: "$ANDROID_HOME/cmdline-tools/16.0/bin/sdkmanager" 'platforms;android-36' 'build-tools;36.0.0'
       - name: Run checks and assemble debug APK
         run: gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon
       - name: Upload debug APK
