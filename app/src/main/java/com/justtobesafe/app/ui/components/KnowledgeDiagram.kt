@@ -81,18 +81,22 @@ fun KnowledgeDiagram(visual: KnowledgeVisual) {
                         }
                     }
                     "shelves" -> {
+                        // Each labelled storage zone corresponds to one column.
                         for (i in 0 until count) {
-                            val y = h * (i + .75f) / count
-                            drawLine(outline, Offset(w * .10f, y + h * .12f / count),
-                                Offset(w * .90f, y + h * .12f / count), strokeWidth = 7f)
-                            val a = Offset(w * .19f, y - h * .16f / count)
-                            val b = Offset(w * .44f, y - h * .16f / count)
-                            drawRoundRect(primary, topLeft = a,
-                                size = Size(w * .19f, h * .27f / count),
+                            val x = w * (i + .5f) / count
+                            val block = w * .55f / count
+                            drawLine(outline,
+                                Offset(x - w * .37f / count, h * .77f),
+                                Offset(x + w * .37f / count, h * .77f),
+                                strokeWidth = 7f, cap = StrokeCap.Round)
+                            drawRoundRect(primary,
+                                topLeft = Offset(x - block * .5f, h * .31f),
+                                size = Size(block, h * .42f),
                                 cornerRadius = androidx.compose.ui.geometry.CornerRadius(7f, 7f))
-                            drawRoundRect(secondary, topLeft = b,
-                                size = Size(w * .30f, h * .27f / count),
-                                cornerRadius = androidx.compose.ui.geometry.CornerRadius(7f, 7f))
+                            drawRoundRect(secondary,
+                                topLeft = Offset(x - block * .32f, h * .22f),
+                                size = Size(block * .64f, h * .09f),
+                                cornerRadius = androidx.compose.ui.geometry.CornerRadius(5f, 5f))
                         }
                     }
                     "route" -> {
