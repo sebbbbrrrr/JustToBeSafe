@@ -49,3 +49,9 @@ Plan changes on feature branches and review via pull requests. Preserve source p
 A native **Kotlin / Jetpack Compose** Android proof of concept is available on branch `feature/android-calm-utility-prototype`; its visual refinement is proposed on `feature/android-calm-utility-visual-polish`, following the selected Calm Utility concept. See [Android prototype documentation](docs/ANDROID_PROTOTYPE.md) for build commands, scope, security boundaries and unverified checks. The [UI refinement QA checklist](docs/UI_POLISH_QA.md) details the new screens, native previews and device tests still required. The prototype includes Home, Guides, Supplies and an encrypted local Household Plan; it is not a live emergency-alert service and publishes no unreviewed safety procedures.
 
 To compile in an Android development environment with Android SDK 36, Java 17 and Gradle 8.13: `gradle :app:testDebugUnitTest :app:assembleDebug`. A GitHub Actions workflow is supplied for **manual** debug APK builds; it does not trigger automatically.
+
+## Prototype pantry inventory (development branch)
+
+The separate feature branch `feature/pantry-barcode-inventory-mvp` extends the Calm Utility Android prototype's Supplies page with a searchable offline pantry, manual stock updates, an on-device CameraX/ML Kit barcode scanner, and optional online Open Food Facts product-name lookup. Permission prompts occur only when scanning; only the barcode is sent to the lookup provider. No emergency-duration or nutritional adequacy claims are made.
+
+This feature is **prototype source code awaiting an Android build and physical-device QA**, not an already-shipped application. See [Pantry MVP implementation and test notes](docs/PANTRY_MVP.md).

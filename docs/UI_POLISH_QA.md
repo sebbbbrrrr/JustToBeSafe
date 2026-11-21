@@ -22,6 +22,14 @@
 | Device | Huawei P30 (Android 10/EMUI 12), long content scroll | Fluid taps, no jank on 60Hz, correct system gesture and keyboard insets |
 | Tablet | 600dp+ width, landscape | Navigation rail replaces bottom nav, cards remain readable |
 
+## Pantry extension checks
+
+- Verify **Supplies → Food pantry** and checklist tabs remain operable at 320dp, dark mode and 1.3x font scale.
+- Open barcode scanner with camera granted / denied and ensure permission rationale and close action remain visible.
+- Check editor scrolling with keyboard raised, long product names, numeric bounds, edit/delete confirmation and offline fallback.
+- Confirm camera is released on close and inventory persists through restart; test on P30 before representing it as usable hardware footage.
+- The pantry branch remains unbuilt and unverified; see `docs/PANTRY_MVP.md` for detailed matrix.
+
 ## P0 launch restrictions
 
 - This app **does not** report current hazard probabilities, official live alerts or expert-reviewed instructions.

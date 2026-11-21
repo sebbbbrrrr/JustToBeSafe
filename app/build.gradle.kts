@@ -46,6 +46,13 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+    // CameraX + bundled on-device ML Kit; no Play Services download required.
+    val cameraxVersion = "1.5.2"
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
+    implementation("com.google.mlkit:barcode-scanning:17.3.0")
     debugImplementation("androidx.compose.ui:ui-tooling")
     testImplementation("junit:junit:4.13.2")
 }
