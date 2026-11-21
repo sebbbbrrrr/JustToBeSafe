@@ -7,6 +7,7 @@ on:
       - feature/family-profile-foundation
     paths:
       - '.github/workflows/android-debug.yml'
+      - 'app/build.gradle.kts'
 
 permissions:
   contents: read
