@@ -64,6 +64,7 @@ import com.justtobesafe.app.data.HouseholdPlan
 import com.justtobesafe.app.data.InventoryStore
 import com.justtobesafe.app.data.SecurePlanStore
 import com.justtobesafe.app.data.UrbanGuideCatalogue
+import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.domain.SuppliesCatalog
 import com.justtobesafe.app.ui.components.calmMotionDuration
 import com.justtobesafe.app.ui.screens.GuidesScreen
@@ -126,6 +127,7 @@ fun JustToBeSafeApp() {
     val inventory = remember(context) { InventoryStore(context) }
     val securePlan = remember(context) { SecurePlanStore(context) }
     val urbanGuides = remember(context) { UrbanGuideCatalogue.load(context).getOrNull() }
+    val offlineGuideArticles = remember(context) { OfflineGuideLibrary.load(context).getOrNull() }
     var checked by remember { mutableStateOf(inventory.read()) }
     var plan by remember { mutableStateOf(HouseholdPlan()) }
     var planLoaded by remember { mutableStateOf(false) }
@@ -247,7 +249,8 @@ fun JustToBeSafeApp() {
                     val selected = state.second
                     if (selected != null && tab == Destination.GUIDES) {
                         GuidesScreen(
-                            catalogue = urbanGuides, selectedGuideId = selected,
+                            catalogue = urbanGuides, offlineLibrary = offlineGuideArticles,
+                            selectedGuideId = selected,
                             onSelect = { selectedGuideId = it },
                             onBack = { selectedGuideId = null }, openOfficial = openOfficial
                         )
@@ -263,7 +266,7 @@ fun JustToBeSafeApp() {
                             }
                         )
                         Destination.GUIDES -> GuidesScreen(
-                            catalogue = urbanGuides,
+                            catalogue = urbanGuides, offlineLibrary = offlineGuideArticles,
                             onSelect = { selectedGuideId = it }, openOfficial = openOfficial
                         )
                         Destination.SUPPLIES -> SuppliesScreen(checked = checked, onToggle = toggleSupply, initialSection = "pantry")
