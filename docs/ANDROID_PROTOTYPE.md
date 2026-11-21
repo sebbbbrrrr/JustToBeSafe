@@ -86,3 +86,9 @@ The 960x408 scenic JPEG is a *decorative* crop of the supplied/generative concep
 - Visual inspection of native screens, TalkBack, reduced-motion and real Huawei P30 performance: **still required**, documented in `docs/UI_POLISH_QA.md`.
 
 The implementation is a testable code milestone. The included manual APK build workflow must be deliberately dispatched and its output installed before this can be represented as a verified executable.
+
+## Food pantry prototype extension (separate feature branch)
+
+The scanner and pantry source is tracked on `feature/pantry-barcode-inventory-mvp` rather than the published app. It adds `CAMERA` permission (in-context prompt) and `INTERNET` permission (only product barcode lookup) to the prior zero-permission prototype. It does not request location, contacts, notifications or phone permissions.
+
+The user-visible Supplies screen gains two tabs: **Supplies checklist** (unchanged) and **Food pantry** (new SQLite-backed local food inventory with native camera scanning). On-device ML Kit detection remains offline; Open Food Facts identification is optional online enrichment and may fail without preventing manual entry. No APK has yet been verified. See [Pantry QA instructions](PANTRY_MVP.md).
