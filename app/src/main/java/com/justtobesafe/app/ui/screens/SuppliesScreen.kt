@@ -113,7 +113,7 @@ fun SuppliesScreen(checked: Set<String>, onToggle: (String) -> Unit) {
             horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             FilterChip(selected = selected == "checklist",
-                onClick = { selected = "checklist" }, label = { Text("Supplies checklist") })
+                onClick = { selected = "checklist" }, label = { Text("Checklist") })
             FilterChip(selected = selected == "pantry",
                 onClick = { selected = "pantry" }, label = { Text("Food pantry") })
         }
