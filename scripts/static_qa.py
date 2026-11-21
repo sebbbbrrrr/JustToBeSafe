@@ -10,9 +10,12 @@ for path in xmls:
     ET.parse(path)
 
 manifest_text = manifest.read_text()
-for permission in ("INTERNET", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION",
+for permission in ("ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION",
                    "READ_CONTACTS", "CALL_PHONE", "POST_NOTIFICATIONS"):
     assert f'android.permission.{permission}' not in manifest_text, permission
+# Pantry adds an explicitly scoped camera permission and Open Food Facts product lookup.
+assert 'android.permission.CAMERA' in manifest_text
+assert 'android.permission.INTERNET' in manifest_text
 assert 'android:allowBackup="false"' in manifest_text
 assert 'android:dataExtractionRules=' in manifest_text
 
@@ -61,3 +64,11 @@ assert "Most likely in the next 30 days" not in home
 
 assert not list(root.rglob("*.apk")), "Never commit generated APKs"
 print(f"Static checks passed: {len(files)} Kotlin files, {len(xmls)} valid XML files, no dangerous permissions")
+
+# Pantry regression checks: real camera analysis, local database and editable stock.
+assert "ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST" in combined
+assert "BarcodeScanning.getClient(" in combined
+assert "PantryStore(" in combined
+assert "world.openfoodfacts.org/api/v2/product/" in combined
+assert "CREATE TABLE pantry_items" in combined
+assert "pantryValidationError" in combined
