@@ -6,6 +6,7 @@ on:
     branches:
       - feature/family-profile-foundation
       - feature/urban-guides-database-foundation
+      - feature/full-offline-urban-guides
     paths:
       - '.github/workflows/android-debug.yml'
       - 'app/build.gradle.kts'
@@ -13,6 +14,7 @@ on:
       - 'app/src/main/assets/guides/**'
       - 'app/src/test/java/**'
       - 'scripts/check_urban_guides.py'
+      - 'scripts/check_offline_articles.py'
 
 permissions:
   contents: read
@@ -49,6 +51,7 @@ jobs:
       - name: Validate urban guide metadata and static quality
         run: |
           python3 scripts/check_urban_guides.py
+          python3 scripts/check_offline_articles.py
           python3 scripts/static_qa.py
           bash scripts/check_domain.sh
       - name: Run checks and assemble debug APK
