@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "edition": "2026-11-21-prototype",
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-burns",
+      "title": "Burns and scalds",
+      "category": "First aid",
+      "summary": "Recognising when a burn needs prompt assistance and preparing a first-aid response.",
+      "tags": [
+        "burn",
+        "scald",
+        "hot water",
+        "skin",
+        "injury",
+        "first aid"
+      ],
+      "risk": "medical",
+      "illustration": "burn-safety-flow",
+      "priority": 1,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the situation",
+          "paragraphs": [
+            "Burns and scalds can result from heat, hot liquids, chemicals, electricity or radiation. The cause and seriousness affect what care is appropriate. This article is an editorial draft, not a clinical assessment.",
+            "Pay attention to warning signs such as large or deep injury, breathing problems, a burn involving an infant or vulnerable person, or a possible electrical or chemical cause. These situations may require urgent professional help."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "General first-aid planning",
+          "paragraphs": [
+            "Keep accessible contact information, a well-stocked first-aid kit and the location of the nearest appropriate medical service in your household plan.",
+            "Seek up-to-date professional first-aid guidance for cooling, covering and escalation. Do not put ice, greasy products or unverified home remedies on an injured area; inappropriate treatments can make injury worse."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Use emergency services for severe injury, difficulty breathing, or other signs of immediate danger. In the UK, 999 and 112 are emergency numbers. For non-emergency medical assessment, use the locally applicable health service.",
+            "A small-looking burn may still need assessment depending on cause, depth, location and the person affected. This draft cannot distinguish safe home management from injuries requiring treatment."
+          ]
+        },
+        {
+          "id": "s4",
+          "title": "Related supplies and source status",
+          "paragraphs": [
+            "A first-aid kit, working phone, emergency contacts and access to drinking water may be useful preparedness items, but they do not substitute for training.",
+            "This entry has not been clinically reviewed. A medical professional should approve the final wording and any instructional illustrations before it is released as a public safety guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-damaged-cable",
+      "title": "Damaged electrical cable",
+      "category": "Home & utilities",
+      "summary": "Identify warning signs and choose safer next steps rather than attempting risky cable repairs.",
+      "tags": [
+        "cable",
+        "wire",
+        "frayed",
+        "electric",
+        "extension lead",
+        "plug",
+        "repair"
+      ],
+      "risk": "electrical",
+      "illustration": "cable-do-not-use",
+      "priority": 2,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Signs that a cable needs attention",
+          "paragraphs": [
+            "Cracked insulation, exposed wires, scorch marks, unusual heat, damaged plug casings or intermittent operation may indicate an electrical problem. Electrical faults can present fire and shock risks.",
+            "A cable can appear intact while still being unsuitable for use; visual inspection alone cannot establish safety."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid improvised repairs",
+          "paragraphs": [
+            "Do not treat tape, glue or a makeshift splice as a safe repair to a mains cable. Keep people from using equipment known or suspected to be damaged and follow manufacturer instructions.",
+            "If there is smoke, arcing, burning smell, water exposure or immediate danger, prioritise personal safety and seek emergency or qualified help. Do not handle an energised, damaged cable."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Repair or replacement decision",
+          "paragraphs": [
+            "For mains wiring, fixed installations and uncertainty about electrical safety, use a competent electrician. For replaceable equipment leads, consult the manufacturer or an appropriately qualified professional about compatible replacement.",
+            "This library does not provide instructions for stripping, joining, rewiring or energising mains conductors, because incorrect work can cause serious injury or fire."
+          ]
+        },
+        {
+          "id": "s4",
+          "title": "Household record",
+          "paragraphs": [
+            "Note the device and its location, label it as needing attention and record the relevant manufacturer or electrician contact. Do not mark the task complete simply because a cable has been visually inspected.",
+            "This article is a general preparedness draft; UK electrical standards, product requirements and any repair procedures require qualified verification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-cuts",
+      "title": "Cuts and minor wounds",
+      "category": "First aid",
+      "summary": "First-aid kit planning, basic hygiene and reasons to seek medical assessment.",
+      "tags": [
+        "cut",
+        "wound",
+        "bleeding",
+        "bandage",
+        "plaster",
+        "hygiene"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "priority": 3,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Assess before acting",
+          "paragraphs": [
+            "Minor cuts and more serious wounds can look similar at first. Heavy bleeding, deep wounds, loss of sensation, contamination or injury to a child may require urgent assessment.",
+            "A first-aid kit is useful only when people know where it is and how to use its contents safely."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare suitable materials",
+          "paragraphs": [
+            "Record clean dressings, plasters, gloves and any other appropriate materials in the household inventory. Replace opened, wet or damaged items where necessary.",
+            "Keep a clear plan for getting medical help and for relevant individual needs such as medicine allergies or treatment considerations."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "After initial care",
+          "paragraphs": [
+            "Watch for changes that require professional advice, including worsening pain, swelling or other signs of possible infection. Follow clinician directions for wound care.",
+            "Detailed bleeding control, dressing methods and infection advice should be reviewed by a qualified first-aid or healthcare professional before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-water-leak",
+      "title": "Leak or burst pipe at home",
+      "category": "Home & utilities",
+      "summary": "Protect people, document problems and contact the right water or property service.",
+      "tags": [
+        "pipe",
+        "leak",
+        "water",
+        "plumbing",
+        "burst",
+        "flat",
+        "ceiling"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "priority": 4,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Locate the problem safely",
+          "paragraphs": [
+            "Water leaks can affect floor surfaces, ceilings, shared flats and electrical installations. Distinguish a dripping fitting from a significant leak only to the extent it is safe to observe.",
+            "Do not enter areas where water may be in contact with damaged electrical systems or unstable building materials."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Who is responsible",
+          "paragraphs": [
+            "Keep the details for your water supplier, landlord, managing agent, building emergency contact and plumber in the household plan.",
+            "The responsible party depends on whether the issue is inside your home, part of shared building infrastructure or on the supply network."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record and recover",
+          "paragraphs": [
+            "Document what you observed and the time of the problem, without risking injury. Use qualified tradespeople for repairs where appropriate.",
+            "After a serious leak, some electrical and building components may require professional assessment before use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-power-outage",
+      "title": "Food during a power cut",
+      "category": "Food & water",
+      "summary": "Why food-safety decisions depend on time, temperature and the type of product.",
+      "tags": [
+        "fridge",
+        "freezer",
+        "food",
+        "power cut",
+        "spoilage",
+        "temperature"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "priority": 5,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand food storage risk",
+          "paragraphs": [
+            "Refrigerated and frozen foods can become unsafe when storage temperatures are not maintained. The type of food, actual temperature and time outside recommended conditions matter.",
+            "An app cannot determine whether a particular item is safe to eat from its barcode or the time of a power cut alone."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare beforehand",
+          "paragraphs": [
+            "Keep an inventory of foods, storage locations and dates. Know which items are shelf-stable and which rely on refrigeration.",
+            "Record food-safety advice from your applicable national authority as part of the reviewed guide release; do not invent universal safe-hour thresholds."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "After service returns",
+          "paragraphs": [
+            "Review affected foods using official criteria that apply to your situation. When uncertain about safety, seek authoritative advice rather than relying on appearance or smell alone.",
+            "This article is an editorial draft pending review against Food Standards Agency and Food Standards Scotland guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-water-contamination",
+      "title": "Unsafe or contaminated water",
+      "category": "Food & water",
+      "summary": "Understand different water quality notices and why the precise wording matters.",
+      "tags": [
+        "water",
+        "boil water",
+        "contamination",
+        "tap",
+        "hygiene",
+        "supply"
+      ],
+      "risk": "public-health",
+      "illustration": null,
+      "priority": 6,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Different notices mean different things",
+          "paragraphs": [
+            "An interruption in water supply differs from a water quality warning. Boil-water, do-not-drink and do-not-use notices can require different responses.",
+            "Treat the current notice from the water company or public-health authority as the relevant instruction. This article cannot verify water safety."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a household plan",
+          "paragraphs": [
+            "Record your water provider contact and plan for anyone requiring water for feeding, personal care or medical equipment.",
+            "Inventory records can help identify stored drinking-water supplies, but they do not assess packaging integrity or actual water quality."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "When notices change",
+          "paragraphs": [
+            "Use official communications for changes to restrictions and restoration. Do not assume that normal pressure or clear-looking water proves that a warning has ended.",
+            "Detailed treatment procedures require qualified public-health review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communications-backup",
+      "title": "Contacting family without internet",
+      "category": "Communication",
+      "summary": "Simple arrangements when mobile data, broadband or online messaging are unavailable.",
+      "tags": [
+        "contact",
+        "phone",
+        "offline",
+        "internet",
+        "mobile",
+        "meeting place"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "priority": 7,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Plan ahead",
+          "paragraphs": [
+            "Agree how household members will communicate during service disruption and where they will look for official information. Write key contact numbers in a place accessible without unlocking a phone.",
+            "Decide who will check on people who may need assistance and how to avoid everyone independently travelling to the same location."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Choose practical backups",
+          "paragraphs": [
+            "A charged phone, power bank, paper contact sheet and battery-powered radio may be useful. Test equipment occasionally rather than relying solely on inventory counts.",
+            "Some communication services require electricity or network connectivity; no method can be guaranteed during every emergency."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review after a disruption",
+          "paragraphs": [
+            "Update stale contact details and revise any meeting arrangement that proved impractical. Avoid storing private household details inside the public reference library.",
+            "This is a general planning article and should be adapted to the needs and accessibility of each household."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-torch-check",
+      "title": "Check and maintain a torch",
+      "category": "Equipment",
+      "summary": "Routine preparedness inspection for lighting equipment stored at home.",
+      "tags": [
+        "torch",
+        "flashlight",
+        "battery",
+        "light",
+        "check",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "priority": 8,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Find and inspect the item",
+          "paragraphs": [
+            "Know which household storage location contains your torch or emergency light. Look for visible damage, corrosion or missing parts before relying on it.",
+            "A torch marked available in inventory might not work, so periodic physical checks are important."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check the power source",
+          "paragraphs": [
+            "Confirm that the torch works according to its manufacturer's instructions and that compatible batteries or charging accessories are available.",
+            "Do not use swollen, damaged, leaking or overheating rechargeable batteries; follow manufacturer and local waste-disposal guidance."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record the result",
+          "paragraphs": [
+            "Mark the inspection date in your household plan and identify any replacement needed. Keep a suitable light accessible to people likely to need it.",
+            "This is a low-complexity draft; product-specific maintenance instructions should still come from the equipment manufacturer."
+          ]
+        }
+      ]
+    }
+  ]
+}
