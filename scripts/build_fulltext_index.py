@@ -17,7 +17,7 @@ import shutil
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PRACTICAL = ROOT / "content/offline_knowledge_articles.json"
+PRACTICAL = ROOT / "content/.generated/knowledge_articles.json"
 URBAN = ROOT / "app/src/main/assets/guides/uk_urban_guide_articles.json"
 URBAN_META = ROOT / "app/src/main/assets/guides/uk_urban_guide_catalogue.json"
 OUT = ROOT / "app/src/main/assets/search"
@@ -25,12 +25,21 @@ OUT = ROOT / "app/src/main/assets/search"
 def compact(value):
     return json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
+STOPWORDS = {"how", "to", "a", "an", "the", "do", "i", "can", "what",
+             "is", "for", "in", "of", "and", "my", "with", "on", "at"}
+
 def terms(text):
-    # Align with Kotlin's Unicode letter-or-digit tokenizer. Do not use stemming
-    # without a versioned migration, as changed normalisation breaks old packs.
-    return set(re.findall(r"[^\W_]+", text.lower(), flags=re.UNICODE))
+    words = set(re.findall(r"[^\\W_]+", text.lower(), flags=re.UNICODE))
+    tokens = set()
+    for word in words - STOPWORDS:
+        tokens.add(word)
+        for length in range(4, min(len(word), 9)):
+            tokens.add(word[:length])
+    return tokens
 
 def documents():
+    if not PRACTICAL.exists():
+        raise FileNotFoundError("Run import_knowledge_batches.py first")
     practical = json.loads(PRACTICAL.read_text(encoding="utf-8"))
     urban = json.loads(URBAN.read_text(encoding="utf-8"))
     meta = json.loads(URBAN_META.read_text(encoding="utf-8"))
@@ -72,7 +81,7 @@ def build():
         path.write_bytes(gzip.compress(payload, compresslevel=9, mtime=0))
         compressed_bytes += path.stat().st_size
     manifest = {"schema_version": 1, "documents": sorted(doc_id for doc_id, _ in docs),
-                "shards": 16, "tokenizer": "unicode-alphanumeric-lowercase-v1",
+                "shards": 16, "tokenizer": "unicode-prefix-v2",
                 "publication_state": "internal_draft"}
     (OUT / "manifest.json").write_bytes(compact(manifest))
     compressed_bytes += (OUT / "manifest.json").stat().st_size
