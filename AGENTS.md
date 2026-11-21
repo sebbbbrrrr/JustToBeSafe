@@ -3,6 +3,7 @@
 Applies to all coding-agent work in this repository. Read `docs/PRODUCT_BRIEF.md`, `docs/PHASE_0_VALIDATION.md`, and `PRODUCT.md` before changing product direction.
 
 ## Current stage
+- Founder-authorised exception (21 November 2026): build a **local, native Android Calm Utility concept prototype** on a separate branch as an interactive validation tool. This does not approve a production MVP, live alerts, deployment, subscription/paywall or unreviewed safety content. All other Phase 0 safeguards remain in force.
 - Phase 0 is market validation. Prioritise an accessible, mobile-first landing page, clearly optional consent-based waitlist, customer research, and pricing experiments. Do not build a full mobile app or invent a final tech stack.
 - "JustToBeSafe" is a provisional working name, not a cleared brand. Pricing, pilot region, partners and subscription boundaries remain unapproved hypotheses.
 - This is a public repository: never commit secrets, customer emails, location information, real household plans or other personal data.

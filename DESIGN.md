@@ -28,3 +28,7 @@ Typography and font licensing; brand colours and contrast tokens; grid/breakpoin
 3. Use Emil's `emil-design-eng`, `animate`, `review-animations`, `break-ui` and performance-oriented skills for targeted details after direction is approved.
 4. Record evidence and visual decisions here; don't rebrand established choices during a polish pass.
 5. Verify actual renders if a runnable frontend exists; otherwise report design-only or code-only checks accurately.
+
+## Selected Android prototype direction — Calm Utility (21 November 2026)
+
+The founder selected **Calm Utility** from three Android app concepts. Implement as a native Material 3 **Operate** UI: ocean teal `#087C72`, mist backgrounds, slate secondary text, clean cards and high-contrast typography. The countryside vignette is a lightweight decorative illustration, not a hazard forecast. Use 170ms/100ms fade-through for destination continuity and restrained progress animation (~260ms), with native ripple feedback and Android system animation-duration settings respected. Follow `.agents/skills/impeccable/reference/android.md` and Emil's motion review rules; avoid ornamental loops, claims of readiness or false live status. Dark mode should use semantic colour roles. This selects the **prototype design only**, not a trademark-cleared final brand identity.
