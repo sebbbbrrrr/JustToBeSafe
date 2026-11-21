@@ -33,6 +33,7 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -64,6 +65,7 @@ import kotlinx.coroutines.launch
 fun PantryScreen() {
     val context = LocalContext.current
     val store = remember(context) { PantryStore(context) }
+    DisposableEffect(store) { onDispose { store.close() } }
     val lookup = remember { FoodProductLookup() }
     val scope = rememberCoroutineScope()
     val initial = remember(store) { runCatching { store.readAll() } }
