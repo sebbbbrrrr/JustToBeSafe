@@ -47,7 +47,8 @@ for required in ("AnimatedContent(", "NavigationBarItemDefaults.colors(", "Navig
     assert required in activity, required
 assert "Live hazards not connected" in home
 assert "not your safety or readiness level" in home
-assert "Search topics" in guides and "No matching topics" in guides
+assert "Search guide titles and full article text" in guides and "No matching topics" in guides
+assert "OfflineFullTextIndex.load(context)" in activity
 assert "NOT YET REVIEWED" in guides
 assert ".toggleable(" in supplies and "onCheckedChange = null" in supplies
 assert "not an assessment of emergency readiness" in supplies
