@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="156dp"
+    android:viewportWidth="320" android:viewportHeight="156">
+    <!-- Original small vector: intentionally depicts a damaged lead, not repair steps. -->
+    <path android:fillColor="#E5F0EC" android:pathData="M0,0h320v156h-320z"/>
+    <path android:strokeColor="#465B60" android:strokeWidth="21"
+        android:strokeLineCap="round" android:pathData="M18,94 L122,94"/>
+    <path android:strokeColor="#465B60" android:strokeWidth="21"
+        android:strokeLineCap="round" android:pathData="M200,94 L302,94"/>
+    <path android:strokeColor="#D46744" android:strokeWidth="5"
+        android:strokeLineCap="round" android:pathData="M129,85 L149,67 L164,94"/>
+    <path android:strokeColor="#D46744" android:strokeWidth="5"
+        android:strokeLineCap="round" android:pathData="M188,84 L171,115 L161,96"/>
+    <path android:strokeColor="#B64B38" android:strokeWidth="4"
+        android:strokeLineCap="round" android:pathData="M147,49 L139,40 M173,48 L179,37 M159,44 L159,32"/>
+    <path android:fillColor="#FBE6BD" android:strokeColor="#B96025"
+        android:strokeWidth="3" android:pathData="M160,8 L133,57 L187,57 Z"/>
+    <path android:fillColor="#8B441F" android:pathData="M157,22h6v20h-6z"/>
+    <path android:fillColor="#8B441F" android:pathData="M157,45h6v6h-6z"/>
+</vector>
