@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/android-debug.yml'
       - 'app/build.gradle.kts'
+      - 'app/src/main/java/**'
 
 permissions:
   contents: read
