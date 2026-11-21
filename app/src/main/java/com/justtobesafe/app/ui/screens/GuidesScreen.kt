@@ -1,5 +1,6 @@
 package com.justtobesafe.app.ui.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.rememberScrollState
@@ -39,6 +40,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import com.justtobesafe.app.R
 import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.data.OfflineKnowledgeLibrary
 import com.justtobesafe.app.data.UrbanGuideCatalogue
@@ -130,6 +134,29 @@ fun GuidesScreen(
                             "This topic involves health or electrical hazards. It is draft reference text, not professionally reviewed instructions. Seek suitable qualified help for risky tasks."
                         else "This is a development draft. Incident-specific official instructions and live warnings are not available offline."
                     )
+                }
+            }
+            val picture = when (knowledgeSelected.illustration) {
+                "cable-do-not-use" -> R.drawable.guide_cable_warning
+                "burn-safety-flow" -> R.drawable.guide_burn_awareness
+                else -> null
+            }
+            if (picture != null) {
+                item(key = "knowledge-illustration") {
+                    SoftCard {
+                        Column(Modifier.fillMaxWidth().padding(12.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Image(painter = painterResource(picture),
+                                contentDescription = if (knowledgeSelected.id == "home-damaged-cable")
+                                    "Illustration of a damaged electrical cable with a warning symbol"
+                                else "Illustration of a burn risk and warning symbol",
+                                modifier = Modifier.fillMaxWidth().height(170.dp),
+                                contentScale = ContentScale.Fit)
+                            Text("Illustrative warning graphic only; not a treatment or repair diagram.",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = colors.onSurfaceVariant)
+                        }
+                    }
                 }
             }
             if (knowledgeArticle == null) {
