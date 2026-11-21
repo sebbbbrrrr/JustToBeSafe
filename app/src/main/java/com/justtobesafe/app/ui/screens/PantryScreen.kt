@@ -34,6 +34,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -62,7 +63,7 @@ import com.justtobesafe.app.ui.components.SoftCard
 import kotlinx.coroutines.launch
 
 @Composable
-fun PantryScreen() {
+fun PantryScreen(startScanning: Boolean = false, onScannerClosed: () -> Unit = {}) {
     val context = LocalContext.current
     val store = remember(context) { PantryStore(context) }
     DisposableEffect(store) { onDispose { store.close() } }
@@ -71,7 +72,7 @@ fun PantryScreen() {
     val initial = remember(store) { runCatching { store.readAll() } }
     var products by remember(store) { mutableStateOf(initial.getOrDefault(emptyList())) }
     var search by rememberSaveable { mutableStateOf("") }
-    var scanning by remember { mutableStateOf(false) }
+    var scanning by remember { mutableStateOf(startScanning) }
     var editing by remember { mutableStateOf<PantryItem?>(null) }
     var deleting by remember { mutableStateOf<PantryItem?>(null) }
     var loading by remember { mutableStateOf(false) }
@@ -86,6 +87,7 @@ fun PantryScreen() {
         runCatching { store.save(item); reload() }.onSuccess {
             editing = null
             notice = "Saved locally. Your pantry is available offline."
+            if (startScanning) scanning = true
         }.onFailure { notice = "Could not save your item. Check storage and try again." }
     }
     fun handleBarcode(barcode: String) {
@@ -201,9 +203,15 @@ fun PantryScreen() {
         item { Spacer(Modifier.height(16.dp)) }
     }
 
-    if (scanning) BarcodeScannerDialog(onDetected = ::handleBarcode, onDismiss = { scanning = false })
+    if (scanning) BarcodeScannerDialog(onDetected = ::handleBarcode, onDismiss = {
+        scanning = false
+        if (startScanning) onScannerClosed()
+    })
     editing?.let { item ->
-        PantryEditorDialog(item = item, onDismiss = { editing = null }, onSave = ::save)
+        PantryEditorDialog(item = item, onDismiss = {
+            editing = null
+            if (startScanning) scanning = true
+        }, onSave = ::save)
     }
     deleting?.let { item ->
         AlertDialog(
