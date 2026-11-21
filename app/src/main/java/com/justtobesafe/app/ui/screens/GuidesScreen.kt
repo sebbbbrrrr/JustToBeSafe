@@ -48,6 +48,7 @@ import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.data.OfflineKnowledgeLibrary
 import com.justtobesafe.app.data.UrbanGuideCatalogue
 import com.justtobesafe.app.data.UrbanGuideTopic
+import com.justtobesafe.app.ui.components.KnowledgeDiagram
 import com.justtobesafe.app.ui.components.SafetyNotice
 import com.justtobesafe.app.ui.components.SectionTitle
 import com.justtobesafe.app.ui.components.SmallBadge
@@ -169,6 +170,11 @@ fun GuidesScreen(
                     SafetyNotice("The locally stored article could not be read. No instructions are displayed.")
                 }
             } else {
+                knowledgeArticle.visual?.let { diagram ->
+                    item(key = "knowledge-generated-diagram") {
+                        KnowledgeDiagram(diagram)
+                    }
+                }
                 items(knowledgeArticle.sections, key = { it.title }) { section ->
                     SoftCard {
                         Column(Modifier.fillMaxWidth().padding(17.dp),
