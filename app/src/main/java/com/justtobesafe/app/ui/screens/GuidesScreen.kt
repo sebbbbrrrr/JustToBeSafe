@@ -43,6 +43,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import com.justtobesafe.app.R
+import com.justtobesafe.app.data.OfflineFullTextIndex
 import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.data.OfflineKnowledgeLibrary
 import com.justtobesafe.app.data.UrbanGuideCatalogue
@@ -97,6 +98,7 @@ fun GuidesScreen(
     catalogue: UrbanGuideCatalogue? = null,
     offlineLibrary: OfflineGuideLibrary? = null,
     knowledge: OfflineKnowledgeLibrary? = null,
+    fullText: OfflineFullTextIndex? = null,
     selectedGuideId: String? = null,
     onSelect: (String) -> Unit,
     openOfficial: (String) -> Unit,
@@ -105,6 +107,9 @@ fun GuidesScreen(
     var query by rememberSaveable { mutableStateOf("") }
     var category by rememberSaveable { mutableStateOf("All") }
     val colors = MaterialTheme.colorScheme
+    val matchingIds = androidx.compose.runtime.remember(query, fullText) {
+        if (query.isBlank()) null else fullText?.search(query)?.getOrNull()
+    }
     val selected = catalogue?.find(selectedGuideId)
     val knowledgeSelected = knowledge?.find(selectedGuideId)
     val knowledgeArticle = androidx.compose.runtime.remember(knowledge, selectedGuideId) {
@@ -267,7 +272,7 @@ fun GuidesScreen(
                 OutlinedTextField(
                     value = query, onValueChange = { query = it.take(100) },
                     modifier = Modifier.fillMaxWidth(), singleLine = true,
-                    label = { Text("Search topics") },
+                    label = { Text("Search guide titles and full article text") },
                     leadingIcon = { Icon(Icons.Outlined.Search, contentDescription = null) },
                     trailingIcon = {
                         if (query.isNotBlank()) IconButton(onClick = { query = "" }) {
@@ -280,15 +285,18 @@ fun GuidesScreen(
                 item(key = "knowledge-filters") {
                     Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        (listOf("All") + knowledge.categories).forEach { value ->
+                        (listOf("All", "Urban emergencies") + knowledge.categories).forEach { value ->
                             FilterChip(selected = category == value,
                                 onClick = { category = value },
                                 label = { Text(value) })
                         }
                     }
                 }
-                val results = knowledge.search(query,
-                    category.takeUnless { it == "All" })
+                val results = if (category == "Urban emergencies") emptyList() else {
+                    val metadata = knowledge.search(if (matchingIds == null) query else "",
+                        category.takeUnless { it == "All" })
+                    if (matchingIds == null) metadata else metadata.filter { it.id in matchingIds }
+                }
                 if (results.isNotEmpty()) {
                     item(key = "knowledge-count") {
                         SectionTitle("Practical reference", results.size.toString() +
@@ -336,10 +344,16 @@ fun GuidesScreen(
                             color = colors.onSurfaceVariant)
                     }
                 }
-                val visible = if (category == "All" || category == "Urban emergencies")
-                    catalogue.search(query) else emptyList()
-                if (visible.isEmpty() && knowledge?.search(query,
-                        category.takeUnless { it == "All" })?.isEmpty() != false) {
+                val visible = if (category == "All" || category == "Urban emergencies") {
+                    val all = catalogue.search(if (matchingIds == null) query else "")
+                    if (matchingIds == null) all else all.filter { it.id in matchingIds }
+                } else emptyList()
+                if (visible.isEmpty() && (knowledge == null ||
+                    (if (category == "Urban emergencies") emptyList() else
+                        knowledge.search(if (matchingIds == null) query else "",
+                            category.takeUnless { it == "All" })
+                            .let { all -> if (matchingIds == null) all else
+                                all.filter { it.id in matchingIds } }).isEmpty())) {
                     item(key = "empty") {
                         SoftCard {
                             Column(Modifier.padding(18.dp),
@@ -359,6 +373,9 @@ fun GuidesScreen(
                     items(visible, key = { it.id }) { topic ->
                         UrbanGuideRow(topic, onClick = { onSelect(topic.id) })
                     }
+                }
+                if (query.isNotBlank() && fullText == null) item(key = "fts-unavailable") {
+                    SafetyNotice("Full-text index is unavailable. Showing title and topic matches only.")
                 }
                 item(key = "draft-notice") {
                     SafetyNotice("These articles are readable offline, but remain unreviewed editorial " +
