@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "test-w1-first-aid-01",
+      "title": "First aid kit stock audit",
+      "category": "First aid",
+      "summary": "Check the condition and accessibility of household first-aid supplies without treating inventory counts as proof of readiness.",
+      "tags": [
+        "first aid",
+        "kit",
+        "dressings",
+        "expiry",
+        "supply"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Inventory the actual contents",
+          "paragraphs": [
+            "Look at the first-aid kit you actually own and record the location, type and approximate condition of its contents. An item checked in a shopping list is not evidence that it is clean, undamaged or easy to find.",
+            "Different households may need different supplies because of ages, disabilities or other individual needs. A clinical or first-aid instructor should review any treatment-related content before it is released publicly."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check dates and packaging",
+          "paragraphs": [
+            "Note products with damaged or opened packaging and record replacement requirements. Follow the manufacturer instructions for storage and use rather than assigning a universal lifetime to every product.",
+            "Keep emergency contact arrangements in a separate private household plan. Do not put names, medical histories or personal treatment details in this shared offline reference article."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep it accessible",
+          "paragraphs": [
+            "Store supplies where authorised household members can find them and where accessibility needs are respected. Make sure children cannot access potentially hazardous items without supervision.",
+            "Review the kit after use and keep a simple record of items to replace. If an injury occurs, the correct clinical response depends on the person and situation, not on the kit inventory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w1-first-aid-02",
+      "title": "Recognising signs that someone needs medical help",
+      "category": "First aid",
+      "summary": "Understand when an injury or illness may require urgent professional assessment.",
+      "tags": [
+        "emergency",
+        "medical",
+        "call for help",
+        "symptoms",
+        "first aid"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe without diagnosing",
+          "paragraphs": [
+            "A person may need immediate help if they have difficulty breathing, are unresponsive, have severe bleeding or show other signs of serious illness or injury. The cause may not be obvious from a brief observation.",
+            "Do not let an offline article replace a clinical assessment or a response plan from a qualified healthcare provider. Avoid guessing a diagnosis based only on a symptom checklist."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare an escalation plan",
+          "paragraphs": [
+            "Know how to contact emergency services in the country where you are staying and keep essential contact details available without internet. In the UK, 999 and 112 can be used to request emergency help.",
+            "Consider how someone with hearing, speech or mobility needs would seek support. Provider-specific accessibility arrangements and communication services should be confirmed ahead of time."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record lessons safely",
+          "paragraphs": [
+            "After an incident, review whether household members knew how to summon help and where supplies were kept. Store any sensitive personal medical information securely and only where it is needed.",
+            "This guide is a general preparedness draft and needs qualified first-aid or clinical review before being presented as authoritative medical guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w1-first-aid-03",
+      "title": "Preparing a personal medication information card",
+      "category": "Health & hygiene",
+      "summary": "Organise access to medication information when connectivity is unavailable, with privacy safeguards.",
+      "tags": [
+        "medication",
+        "prescription",
+        "pharmacy",
+        "health",
+        "offline card"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record only what is needed",
+          "paragraphs": [
+            "If a clinician or pharmacist has recommended carrying medication information, keep it accurate and legible and consider whether an authorised caregiver also needs access.",
+            "Do not include sensitive personal medical information in a public shared knowledge library. Individual medication records belong in private, access-controlled household storage."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan for disruption",
+          "paragraphs": [
+            "Know the contact details for the relevant pharmacy, prescriber and equipment supplier. Arrange repeat medicines through normal authorised channels and ask a professional about any special storage or continuity needs.",
+            "Medication substitutions, interruption, dosages and emergency administration cannot safely be determined from a generic offline article; these decisions need individual professional advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review changes",
+          "paragraphs": [
+            "Update personal records whenever prescriptions or allergies change, and remove outdated cards from circulation if that is appropriate for your situation.",
+            "This article only discusses organisation and contact planning; professional approval is required before any personal treatment instructions are supplied."
+          ]
+        }
+      ]
+    }
+  ]
+}
