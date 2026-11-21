@@ -1,9 +1,7 @@
 package com.justtobesafe.app.ui.screens
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -15,19 +13,14 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.ArrowForwardIos
 import androidx.compose.material.icons.outlined.Bolt
-import androidx.compose.material.icons.outlined.Cloud
 import androidx.compose.material.icons.outlined.Close
-import androidx.compose.material.icons.outlined.MedicalServices
 import androidx.compose.material.icons.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Public
 import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material.icons.outlined.WaterDrop
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -41,90 +34,155 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import com.justtobesafe.app.data.UrbanGuideCatalogue
+import com.justtobesafe.app.data.UrbanGuideTopic
 import com.justtobesafe.app.ui.components.SafetyNotice
 import com.justtobesafe.app.ui.components.SectionTitle
 import com.justtobesafe.app.ui.components.SmallBadge
 import com.justtobesafe.app.ui.components.SoftCard
 
-/** Topics alone are available offline. These entries contain no unreviewed safety procedures. */
-enum class GuideTopic(val id: String, val title: String, val subtitle: String) {
-    POWER("power", "Power cuts", "Information to explore before an electricity interruption"),
-    FLOOD("flood", "Flooding", "Find official flood information and services"),
-    WEATHER("weather", "Severe weather", "Find the official UK weather warning service"),
-    FIRST_AID("aid", "First aid basics", "Procedures require specialist clinical review")
-}
-
-private fun topicIcon(topic: GuideTopic): ImageVector = when (topic) {
-    GuideTopic.POWER -> Icons.Outlined.Bolt
-    GuideTopic.FLOOD -> Icons.Outlined.WaterDrop
-    GuideTopic.WEATHER -> Icons.Outlined.Cloud
-    GuideTopic.FIRST_AID -> Icons.Outlined.MedicalServices
-}
-
 @Composable
-private fun TopicCard(topic: GuideTopic, onClick: () -> Unit) {
+private fun UrbanGuideRow(topic: UrbanGuideTopic, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val background = when (topic) {
-        GuideTopic.POWER -> colors.tertiaryContainer
-        GuideTopic.FLOOD -> colors.secondaryContainer
-        GuideTopic.WEATHER -> colors.surfaceVariant
-        GuideTopic.FIRST_AID -> colors.primaryContainer
-    }
-    val foreground = when (topic) {
-        GuideTopic.POWER -> colors.onTertiaryContainer
-        GuideTopic.FLOOD -> colors.onSecondaryContainer
-        GuideTopic.WEATHER -> colors.onSurfaceVariant
-        GuideTopic.FIRST_AID -> colors.onPrimaryContainer
-    }
     SoftCard {
         Row(
-            Modifier.fillMaxWidth().clickable(onClickLabel = "Open ${topic.title}", onClick = onClick)
-                .padding(horizontal = 14.dp, vertical = 14.dp),
+            modifier = Modifier.fillMaxWidth()
+                .clickable(onClickLabel = "Open " + topic.title, onClick = onClick)
+                .padding(horizontal = 16.dp, vertical = 17.dp),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(13.dp)
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            Box(
-                Modifier.size(57.dp).background(background, RoundedCornerShape(17.dp)),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(topicIcon(topic), contentDescription = null,
-                    modifier = Modifier.size(30.dp), tint = foreground)
-            }
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text(topic.title, style = MaterialTheme.typography.titleMedium)
-                Text(topic.subtitle, style = MaterialTheme.typography.bodySmall,
-                    color = colors.onSurfaceVariant)
-                Text("Topic preview", style = MaterialTheme.typography.labelSmall, color = colors.primary)
+            Icon(
+                if (topic.id == "power-cuts") Icons.Outlined.Bolt else Icons.Outlined.MenuBook,
+                contentDescription = null, tint = colors.primary, modifier = Modifier.size(28.dp)
+            )
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(topic.title, style = MaterialTheme.typography.titleMedium,
+                    maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(
+                    "Development order " + topic.priority + " · " + scopeLabel(topic.geographicScope),
+                    style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant
+                )
+                Text("NOT YET REVIEWED · Draft outline",
+                    style = MaterialTheme.typography.labelSmall, color = colors.primary)
             }
             Icon(Icons.Outlined.ArrowForwardIos, contentDescription = null,
-                tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
+                tint = colors.onSurfaceVariant, modifier = Modifier.size(15.dp))
         }
     }
 }
 
+private fun scopeLabel(scope: String): String = when (scope) {
+    "all-uk" -> "UK-wide topic"
+    "region-specific" -> "Regional details required"
+    "building-specific" -> "Building-specific"
+    "local-specific" -> "Local details required"
+    else -> "Scope to be verified"
+}
+
+/** Metadata-only urban guide library; editorial prompts and safety procedures are not shown. */
 @Composable
 fun GuidesScreen(
-    modifier: Modifier = Modifier,
-    selectedGuide: GuideTopic? = null,
+    catalogue: UrbanGuideCatalogue? = null,
+    selectedGuideId: String? = null,
     onSelect: (String) -> Unit,
     openOfficial: (String) -> Unit,
     onBack: () -> Unit = {}
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     val colors = MaterialTheme.colorScheme
-
+    val selected = catalogue?.find(selectedGuideId)
     LazyColumn(
-        modifier = modifier,
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 14.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
-        if (selectedGuide == null) {
+        if (selectedGuideId != null && selected != null) {
+            item(key = "back") {
+                OutlinedButton(onClick = onBack) {
+                    Icon(Icons.Outlined.ArrowBack, contentDescription = null,
+                        modifier = Modifier.size(18.dp))
+                    Spacer(Modifier.width(8.dp))
+                    Text("All topics")
+                }
+            }
+            item(key = "heading") {
+                Column(verticalArrangement = Arrangement.spacedBy(9.dp)) {
+                    SectionTitle(selected.title,
+                        "Urban preparedness · " + scopeLabel(selected.geographicScope))
+                    SmallBadge("NOT YET REVIEWED · OUTLINE ONLY")
+                }
+            }
+            item(key = "safety-status") {
+                SafetyNotice("This is an unpublished planning outline, not emergency safety guidance. " +
+                    "Procedures require qualified review and licensing clearance before publication. " +
+                    "No live warnings or current electricity status are connected.")
+            }
+            if (selected.sections.isNotEmpty()) {
+                item(key = "structure-title") {
+                    SectionTitle("Planned guide sections",
+                        "Available offline as a section index, not reviewed instructions")
+                }
+                items(selected.sections, key = { it.id }) { section ->
+                    SoftCard {
+                        Row(Modifier.fillMaxWidth().padding(16.dp),
+                            horizontalArrangement = Arrangement.spacedBy(12.dp),
+                            verticalAlignment = Alignment.Top) {
+                            Icon(Icons.Outlined.MenuBook, contentDescription = null,
+                                tint = colors.primary, modifier = Modifier.size(22.dp))
+                            Column(Modifier.weight(1f),
+                                verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                                Text(section.title, style = MaterialTheme.typography.titleMedium)
+                                Text(
+                                    if (section.status == "blocked_expert_review")
+                                        "Awaiting specialist safety review"
+                                    else "Editorial section planned · content pending review",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = colors.onSurfaceVariant
+                                )
+                            }
+                        }
+                    }
+                }
+            } else {
+                item(key = "not-written") {
+                    SoftCard {
+                        Column(Modifier.padding(18.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text("Guide being planned",
+                                style = MaterialTheme.typography.titleMedium)
+                            Text("The topic is included in our development roadmap. " +
+                                "No reviewed guide content is available yet.",
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = colors.onSurfaceVariant)
+                        }
+                    }
+                }
+            }
+            item(key = "source-status") {
+                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    SectionTitle("Official reference links",
+                        "External pages need internet and may be updated by their publishers")
+                    selected.sourceUrls.forEachIndexed { index, source ->
+                        OutlinedButton(onClick = { openOfficial(source) },
+                            modifier = Modifier.fillMaxWidth()) {
+                            Icon(Icons.Outlined.Public, contentDescription = null,
+                                modifier = Modifier.size(18.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text("Open source candidate " + (index + 1))
+                        }
+                    }
+                    Text("Links are reference candidates only. Their content, licences, " +
+                        "geographic applicability and review dates have not been cleared.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = colors.onSurfaceVariant)
+                }
+            }
+        } else {
             item(key = "guides-title") {
-                SectionTitle("Emergency topics", "Find your way to official UK information")
+                SectionTitle("Urban preparedness",
+                    "Explore practical topics, ordered for development relevance")
             }
             item(key = "search") {
                 OutlinedTextField(
@@ -136,114 +194,60 @@ fun GuidesScreen(
                         if (query.isNotBlank()) IconButton(onClick = { query = "" }) {
                             Icon(Icons.Outlined.Close, contentDescription = "Clear search")
                         }
-                    }, shape = RoundedCornerShape(15.dp)
+                    }
                 )
             }
-            item(key = "offline-status") {
-                Row(verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    SmallBadge("TOPIC INDEX SAVED OFFLINE")
-                }
-            }
-            val visible = GuideTopic.entries.filter {
-                query.isBlank() || it.title.contains(query.trim(), ignoreCase = true) ||
-                    it.subtitle.contains(query.trim(), ignoreCase = true)
-            }
-            if (visible.isEmpty()) {
-                item(key = "empty") {
-                    SoftCard {
-                        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            Text("No matching topics", style = MaterialTheme.typography.titleMedium)
-                            Text("Try a different search, or clear it to see every topic.",
-                                style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                        }
-                    }
+            if (catalogue == null) {
+                item(key = "unavailable") {
+                    SafetyNotice("The bundled guide index could not be loaded. " +
+                        "No emergency instructions are available in this preview. " +
+                        "You can still consult official sources when connected.")
                 }
             } else {
-                items(visible, key = { it.id }) { topic ->
-                    TopicCard(topic, onClick = { onSelect(topic.id) })
+                item(key = "offline-status") {
+                    Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                        SmallBadge(catalogue.topics.size.toString() +
+                            " DRAFT TOPICS · INDEX AVAILABLE OFFLINE")
+                        Text("Order reflects editorial development priorities, not " +
+                            "your local probability of an incident.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = colors.onSurfaceVariant)
+                    }
+                }
+                val visible = catalogue.search(query)
+                if (visible.isEmpty()) {
+                    item(key = "empty") {
+                        SoftCard {
+                            Column(Modifier.padding(18.dp),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Text("No matching topics",
+                                    style = MaterialTheme.typography.titleMedium)
+                                Text("Try a different search, or clear it to see every topic.",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = colors.onSurfaceVariant)
+                            }
+                        }
+                    }
+                } else {
+                    items(visible, key = { it.id }) { topic ->
+                        UrbanGuideRow(topic, onClick = { onSelect(topic.id) })
+                    }
+                }
+                item(key = "draft-notice") {
+                    SafetyNotice("NOT YET REVIEWED: These are topic and section outlines only. " +
+                        "Detailed emergency procedures are not published in this preview.")
                 }
             }
-            item(key = "source-link") {
+            item(key = "official-uk") {
                 OutlinedButton(
                     onClick = { openOfficial("https://beready.campaign.gov.uk/") },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Icon(Icons.Outlined.Public, contentDescription = null,
-                        modifier = Modifier.size(19.dp))
-                    Spacer(Modifier.width(9.dp))
-                    Text("Open official UK preparedness website")
-                }
-            }
-            item(key = "guides-disclaimer") {
-                SafetyNotice("Only topic titles and descriptions are available offline at present. Detailed emergency advice has not been published: qualified specialist and licensing review is still required.")
-            }
-        } else {
-            item(key = "return") {
-                OutlinedButton(onClick = onBack) {
-                    Icon(Icons.Outlined.ArrowBack, contentDescription = null,
                         modifier = Modifier.size(18.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text("All topics")
+                    Text("Official UK preparedness website")
                 }
-            }
-            item(key = "detail-hero") {
-                val background = when (selectedGuide) {
-                    GuideTopic.POWER -> colors.tertiaryContainer
-                    GuideTopic.FLOOD -> colors.secondaryContainer
-                    GuideTopic.WEATHER -> colors.surfaceVariant
-                    GuideTopic.FIRST_AID -> colors.primaryContainer
-                }
-                val foreground = when (selectedGuide) {
-                    GuideTopic.POWER -> colors.onTertiaryContainer
-                    GuideTopic.FLOOD -> colors.onSecondaryContainer
-                    GuideTopic.WEATHER -> colors.onSurfaceVariant
-                    GuideTopic.FIRST_AID -> colors.onPrimaryContainer
-                }
-                Box(Modifier.fillMaxWidth().background(background, RoundedCornerShape(18.dp))) {
-                    Column(Modifier.padding(21.dp), verticalArrangement = Arrangement.spacedBy(11.dp)) {
-                        Icon(topicIcon(selectedGuide), contentDescription = null,
-                            tint = foreground, modifier = Modifier.size(35.dp))
-                        Text(selectedGuide.title, style = MaterialTheme.typography.headlineMedium,
-                            color = foreground)
-                        Text(selectedGuide.subtitle, style = MaterialTheme.typography.bodyMedium,
-                            color = foreground)
-                    }
-                }
-            }
-            item(key = "review-status") {
-                SmallBadge("NOT YET REVIEWED · PLACEHOLDER",
-                    containerColor = colors.tertiaryContainer,
-                    textColor = colors.onTertiaryContainer)
-            }
-            item(key = "guidance-pending") {
-                SoftCard {
-                    Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Text("Guidance is in preparation", style = MaterialTheme.typography.titleLarge)
-                        Text("This page demonstrates the app's reading experience. Safety procedures will appear here only after expert review, source verification and rights checks.",
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = colors.onSurfaceVariant)
-                        Text("Offline today: this topic's title and status only.",
-                            style = MaterialTheme.typography.bodySmall)
-                    }
-                }
-            }
-            item(key = "official") {
-                Button(
-                    onClick = {
-                        openOfficial(if (selectedGuide == GuideTopic.WEATHER)
-                            "https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings"
-                        else "https://beready.campaign.gov.uk/")
-                    }, modifier = Modifier.fillMaxWidth()
-                ) {
-                    Icon(Icons.Outlined.Public, contentDescription = null,
-                        modifier = Modifier.size(19.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text("View official external guidance")
-                }
-            }
-            item(key = "network-note") {
-                SafetyNotice("Opening official sources requires a connection. This prototype does not reproduce, verify or monitor third-party guidance.")
             }
         }
         item(key = "bottom") { Spacer(Modifier.height(16.dp)) }
