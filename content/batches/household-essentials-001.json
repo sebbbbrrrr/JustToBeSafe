@@ -43,7 +43,17 @@
             "This guide is a planning draft. Applicable identification and data-protection requirements vary, and a generic checklist should not be treated as legal advice."
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kind": "checklist",
+        "alt": "Illustrated document checklist with three labelled rows: locate important records, protect offline copies, and review contact details.",
+        "caption": "Organise, protect and review documents. Concept illustration — not a legal checklist.",
+        "labels": [
+          "Locate records",
+          "Protect copies",
+          "Review updates"
+        ]
+      }
     },
     {
       "id": "equipment-check-calendar",
@@ -87,7 +97,17 @@
             "Keep the routine short enough to maintain over time, and review it following a real outage to capture equipment that was difficult to find or use."
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kind": "sequence",
+        "alt": "Three connected circles show an equipment maintenance workflow: locate equipment, check its condition, and record a follow-up.",
+        "caption": "A simple equipment-review cycle. Confirm physical condition, not just an app checkbox.",
+        "labels": [
+          "Locate",
+          "Inspect",
+          "Record"
+        ]
+      }
     },
     {
       "id": "small-flat-storage",
@@ -131,7 +151,17 @@
             "A storage plan should reflect the actual household rather than a fixed universal stockpile target; dietary, mobility and medical needs may change what is useful."
           ]
         }
-      ]
+      ],
+      "visual": {
+        "kind": "shelves",
+        "alt": "A three-tier storage schematic representing everyday supplies, emergency essentials and items that need checking.",
+        "caption": "Example storage organisation; actual locations and safe storage requirements differ.",
+        "labels": [
+          "Everyday",
+          "Essentials",
+          "Review"
+        ]
+      }
     }
   ]
 }
