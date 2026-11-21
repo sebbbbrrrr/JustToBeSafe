@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "test-w4-urban-01",
+      "title": "Reporting a lift failure in a block of flats",
+      "category": "Urban preparedness",
+      "summary": "Plan reliable building contact arrangements when a communal lift is unavailable.",
+      "tags": [
+        "lift",
+        "elevator",
+        "flat",
+        "building",
+        "accessibility"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Know the building dependency",
+          "paragraphs": [
+            "Some residents cannot safely use stairs, and lift outages may affect access to medicines, work or essential services. Each property may have its own approved response arrangements.",
+            "Ask the building manager in advance for the responsible maintenance contact, emergency reporting process and the policy for residents needing assistance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Report without experimenting",
+          "paragraphs": [
+            "Record the location and observed problem and inform the responsible service. Do not attempt to force open doors or access lift machinery.",
+            "A person trapped in a lift requires the applicable approved alarm and emergency response arrangements; a generic guide cannot safely replace them."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Update the household plan",
+          "paragraphs": [
+            "Keep contacts and approved accessibility contingencies available offline to authorised residents.",
+            "This is a planning outline, not lift rescue or technical maintenance guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w4-urban-02",
+      "title": "Card payment and cash machine disruption",
+      "category": "Urban preparedness",
+      "summary": "Prepare for temporary outages in local shops, ticket machines and payment terminals.",
+      "tags": [
+        "payment",
+        "cash",
+        "card",
+        "atm",
+        "shopping",
+        "outage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the dependency",
+          "paragraphs": [
+            "Shops, petrol stations, transport services and ticket machines may rely on power, telecommunications or payment networks. A working card does not guarantee a functioning terminal.",
+            "Before an interruption, consider realistic alternative access to essential supplies and transportation that fits your household's circumstances."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep options practical",
+          "paragraphs": [
+            "Record alternative nearby services where appropriate and consider how members would communicate if online payment tools were unavailable.",
+            "Do not share bank details, PINs, card numbers or passwords in public content or unsecured household notes."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Reflect after disruption",
+          "paragraphs": [
+            "Note which household tasks depended on a particular payment service and whether alternatives were feasible. Live provider updates are not available in this offline guide.",
+            "Any current financial or transport restrictions must be confirmed through the relevant service provider when possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w4-urban-03",
+      "title": "Preparing for temporary street closures",
+      "category": "Urban preparedness",
+      "summary": "Organise alternative travel and household communication when access routes change.",
+      "tags": [
+        "road closure",
+        "cordon",
+        "roadworks",
+        "transport",
+        "detour"
+      ],
+      "risk": "transport",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify essential routes",
+          "paragraphs": [
+            "Think about journeys that household members need for work, education, caregiving and shopping. Note whether the routes depend on a bridge, station or single access road.",
+            "Avoid interpreting a static map or old screenshot as a guarantee that a road or footpath is currently open."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan accessible alternatives",
+          "paragraphs": [
+            "Consider transport operator information, accessibility limitations, meeting points and realistic backup contact methods.",
+            "Police or emergency-service cordons and live restrictions take precedence over a saved household route. Do not try to bypass them."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Revisit the plan",
+          "paragraphs": [
+            "Update relevant saved contacts and destinations after a major infrastructure change. Keep personal location plans private.",
+            "This article is a general planning draft and does not offer incident-time routing instructions."
+          ]
+        }
+      ]
+    }
+  ]
+}
