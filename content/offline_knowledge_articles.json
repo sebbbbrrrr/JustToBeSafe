@@ -67,7 +67,11 @@
         "electric",
         "extension lead",
         "plug",
-        "repair"
+        "repair",
+        "fix",
+        "fixing",
+        "repairing",
+        "electricity"
       ],
       "risk": "electrical",
       "illustration": "cable-do-not-use",
