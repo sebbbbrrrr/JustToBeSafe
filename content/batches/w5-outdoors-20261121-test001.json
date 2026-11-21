@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "test-w5-outdoors-01",
+      "title": "Preparing an offline walking route card",
+      "category": "Outdoor skills",
+      "summary": "Store essential route information before heading to places with unreliable reception.",
+      "tags": [
+        "route",
+        "walking",
+        "hiking",
+        "offline",
+        "navigation"
+      ],
+      "risk": "outdoor",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record the route context",
+          "paragraphs": [
+            "A route card can capture a starting point, intended destination, key waypoints and an expected return arrangement. Check that the chosen route suits the experience and accessibility needs of the group.",
+            "A saved itinerary does not replace current weather, land-access information or a suitable map; conditions can change after planning."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Carry appropriate references",
+          "paragraphs": [
+            "Make important route details available without mobile signal, and know which people have access to the plan if contact is lost.",
+            "A paper map or an offline map may remain useful where phone services fail, but neither confirms that a path or crossing is safe at the time of use."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review after the activity",
+          "paragraphs": [
+            "Note unexpectedly confusing junctions, missing signage and changes to the route, without treating a single report as an authoritative map update.",
+            "This is an orientation and planning draft rather than an advanced navigation instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w5-outdoors-02",
+      "title": "Check a daypack before a short outdoor trip",
+      "category": "Outdoor equipment",
+      "summary": "Build a compact equipment and contact checklist suited to the actual conditions.",
+      "tags": [
+        "daypack",
+        "bag",
+        "kit",
+        "walking",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Start from the planned activity",
+          "paragraphs": [
+            "The duration, accessibility of the area, weather and other conditions determine which items may be useful. Keep your pack appropriate to the journey rather than following a fixed survival inventory.",
+            "Consider personal essentials, sufficient appropriate clothing, lighting and a way to access useful contact information when connectivity is limited."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Inspect rather than count",
+          "paragraphs": [
+            "Check that key items are physically present and functional. A digital checklist cannot determine battery condition, water suitability or whether footwear fits.",
+            "Follow manufacturer guidance for any specialist equipment and avoid carrying items that you do not know how to use safely."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Update the plan",
+          "paragraphs": [
+            "After a trip, note what was missing or unnecessary and revise your checklist for next time.",
+            "This is a general packing draft; hazardous terrain and exposure situations require additional context and qualified training."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w5-outdoors-03",
+      "title": "Recognising changing outdoor conditions",
+      "category": "Outdoor preparedness",
+      "summary": "Make conservative route decisions when visibility, weather or terrain changes.",
+      "tags": [
+        "weather",
+        "visibility",
+        "terrain",
+        "wind",
+        "outdoors"
+      ],
+      "risk": "outdoor",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Expect local variability",
+          "paragraphs": [
+            "Weather and visibility can vary considerably over short distances, especially near coasts, open hills and exposed areas. A forecast read hours earlier cannot describe every condition currently on the route.",
+            "Consider whether the group's clothing, experience and planned return time remain suitable when conditions change."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid relying on one signal",
+          "paragraphs": [
+            "A phone, GPS display, paper map or visual landmark can each have limitations. Maintain an understandable fallback plan without assuming that technology is infallible.",
+            "Weather warnings and local land-management notices should be checked through appropriate channels when access is available."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Reflect on decisions",
+          "paragraphs": [
+            "Record route changes or communications problems so future trips can be better planned.",
+            "This draft does not prescribe hazardous-weather rescue actions or specialist terrain techniques, which require appropriate expertise."
+          ]
+        }
+      ]
+    }
+  ]
+}
