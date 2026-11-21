@@ -63,9 +63,9 @@ import androidx.compose.ui.unit.dp
 import com.justtobesafe.app.data.HouseholdPlan
 import com.justtobesafe.app.data.InventoryStore
 import com.justtobesafe.app.data.SecurePlanStore
+import com.justtobesafe.app.data.UrbanGuideCatalogue
 import com.justtobesafe.app.domain.SuppliesCatalog
 import com.justtobesafe.app.ui.components.calmMotionDuration
-import com.justtobesafe.app.ui.screens.GuideTopic
 import com.justtobesafe.app.ui.screens.GuidesScreen
 import com.justtobesafe.app.ui.screens.HomeScreen
 import com.justtobesafe.app.ui.screens.PantryScreen
@@ -125,6 +125,7 @@ fun JustToBeSafeApp() {
     val scope = rememberCoroutineScope()
     val inventory = remember(context) { InventoryStore(context) }
     val securePlan = remember(context) { SecurePlanStore(context) }
+    val urbanGuides = remember(context) { UrbanGuideCatalogue.load(context).getOrNull() }
     var checked by remember { mutableStateOf(inventory.read()) }
     var plan by remember { mutableStateOf(HouseholdPlan()) }
     var planLoaded by remember { mutableStateOf(false) }
@@ -244,10 +245,9 @@ fun JustToBeSafeApp() {
                 ) { state ->
                     val tab = state.first
                     val selected = state.second
-                    val guide = selected?.let { id -> GuideTopic.entries.firstOrNull { it.id == id } }
-                    if (guide != null) {
+                    if (selected != null && tab == Destination.GUIDES) {
                         GuidesScreen(
-                            modifier = Modifier.fillMaxSize(), selectedGuide = guide,
+                            catalogue = urbanGuides, selectedGuideId = selected,
                             onSelect = { selectedGuideId = it },
                             onBack = { selectedGuideId = null }, openOfficial = openOfficial
                         )
@@ -263,6 +263,7 @@ fun JustToBeSafeApp() {
                             }
                         )
                         Destination.GUIDES -> GuidesScreen(
+                            catalogue = urbanGuides,
                             onSelect = { selectedGuideId = it }, openOfficial = openOfficial
                         )
                         Destination.SUPPLIES -> SuppliesScreen(checked = checked, onToggle = toggleSupply, initialSection = "pantry")

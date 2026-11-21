@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "collection_id": "uk-urban-preparedness",
+  "locale": "en-GB",
+  "edition": "editorial-draft-2026-11-21",
+  "publication_state": "internal_draft",
+  "disclaimer": "Metadata and planning prompts only. No reviewed emergency procedures are provided. Links are external, online-only and may change.",
+  "ranking_method": "Editorial development ranking based on plausible local disruption, household utility, cascading dependencies, and review complexity. NOT a numerical risk probability or a location-specific risk assessment.",
+  "required_for_publication": [
+    "named_qualified_reviewer",
+    "review_date",
+    "next_review_due",
+    "source_licence_verified",
+    "geographic_applicability_verified",
+    "author_signoff",
+    "content_version",
+    "reviewed_safety_copy"
+  ],
+  "topics": [
+    {
+      "id": "power-cuts",
+      "priority": 1,
+      "title": "Local power cuts",
+      "category": "electrical",
+      "development_priority": "high",
+      "geographic_scope": "all-uk",
+      "tags": [
+        "electricity",
+        "home",
+        "equipment"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-informed-about-hazards/power-cuts/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": [
+        {
+          "id": "overview",
+          "title": "What can stop working",
+          "kind": "context",
+          "draft_prompt": "Consider lights, refrigeration, cooking, charging, lifts, access systems, heating, internet and medical equipment. Identify building-specific dependencies.",
+          "status": "draft"
+        },
+        {
+          "id": "before",
+          "title": "Prepare beforehand",
+          "kind": "planning",
+          "draft_prompt": "Audit existing torches, batteries, phone chargers, important contact details, and equipment that depends on mains electricity. No unreviewed operational safety advice.",
+          "status": "draft"
+        },
+        {
+          "id": "during",
+          "title": "During an outage",
+          "kind": "safety_requires_review",
+          "draft_prompt": "Obtain specialist-reviewed guidance with verified official advice, building-specific constraints, and escalation when necessary. Not publishable as-is.",
+          "status": "blocked_expert_review"
+        },
+        {
+          "id": "after",
+          "title": "After power returns",
+          "kind": "safety_requires_review",
+          "draft_prompt": "Develop reviewed restoration, food-safety, equipment and follow-up checks. Not publishable as-is.",
+          "status": "blocked_expert_review"
+        },
+        {
+          "id": "household",
+          "title": "Household information to record",
+          "kind": "plan_fields",
+          "draft_prompt": "Electricity network contact, building-management contact, meeting arrangements, accessibility and mains-dependent equipment. Keep private household values out of the guide content database.",
+          "status": "draft"
+        },
+        {
+          "id": "supplies",
+          "title": "Related inventory and plan items",
+          "kind": "integration",
+          "draft_prompt": "Link optional torches, batteries, power banks, water, shelf-stable foods and manual equipment checks; never claim checked stock proves readiness.",
+          "status": "draft"
+        },
+        {
+          "id": "sources",
+          "title": "Official sources and review status",
+          "kind": "metadata",
+          "draft_prompt": "Track original source, scope, licences, reviewer, next review, offline snapshot version, live-online warning distinctions.",
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "severe-weather",
+      "priority": 2,
+      "title": "Severe weather and extreme temperatures",
+      "category": "weather",
+      "development_priority": "high",
+      "geographic_scope": "all-uk",
+      "tags": [
+        "storms",
+        "heat",
+        "cold"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "water-disruption",
+      "priority": 3,
+      "title": "Water supply interruption",
+      "category": "utilities",
+      "development_priority": "high",
+      "geographic_scope": "all-uk",
+      "tags": [
+        "drinking-water",
+        "sanitation"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-ready-for-emergencies/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "building-fire",
+      "priority": 4,
+      "title": "Flat and high-rise fire safety",
+      "category": "fire",
+      "development_priority": "high",
+      "geographic_scope": "building-specific",
+      "tags": [
+        "fire",
+        "evacuation"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://www.london-fire.gov.uk/safety/the-home/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "urban-flooding",
+      "priority": 5,
+      "title": "Urban flooding and drainage failure",
+      "category": "flood",
+      "development_priority": "high",
+      "geographic_scope": "region-specific",
+      "tags": [
+        "flood",
+        "transport"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://www.gov.uk/check-flooding"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "communications",
+      "priority": 6,
+      "title": "Mobile and internet outages",
+      "category": "communications",
+      "development_priority": "high",
+      "geographic_scope": "all-uk",
+      "tags": [
+        "telecoms",
+        "contacts"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-ready-for-emergencies/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "essential-supplies",
+      "priority": 7,
+      "title": "Food, medication and essential supplies",
+      "category": "supplies",
+      "development_priority": "high",
+      "geographic_scope": "all-uk",
+      "tags": [
+        "food",
+        "medicine",
+        "pantry"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-ready-for-emergencies/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "transport",
+      "priority": 8,
+      "title": "Public transport disruption",
+      "category": "transport",
+      "development_priority": "medium",
+      "geographic_scope": "region-specific",
+      "tags": [
+        "rail",
+        "bus",
+        "roads"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://www.gov.uk/government/organisations/department-for-transport"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "urban-evacuation",
+      "priority": 9,
+      "title": "Urban evacuation and accommodation",
+      "category": "evacuation",
+      "development_priority": "high",
+      "geographic_scope": "local-specific",
+      "tags": [
+        "assembly",
+        "temporary-accommodation"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-ready-for-emergencies/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "shared-infrastructure",
+      "priority": 10,
+      "title": "Shared building infrastructure failures",
+      "category": "housing",
+      "development_priority": "medium",
+      "geographic_scope": "building-specific",
+      "tags": [
+        "lifts",
+        "access",
+        "water-pumps"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://beready.campaign.gov.uk/be-ready-for-emergencies/"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "public-safety",
+      "priority": 11,
+      "title": "Public safety incidents and cordons",
+      "category": "public-safety",
+      "development_priority": "medium",
+      "geographic_scope": "local-specific",
+      "tags": [
+        "crowds",
+        "cordons"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://www.gov.uk/alerts"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    },
+    {
+      "id": "major-incidents",
+      "priority": 12,
+      "title": "Industrial chemical and national infrastructure emergencies",
+      "category": "major-incident",
+      "development_priority": "medium",
+      "geographic_scope": "local-specific",
+      "tags": [
+        "chemical",
+        "infrastructure"
+      ],
+      "state": "internal_draft",
+      "guide_version": 1,
+      "offline_body_available": false,
+      "safety_review": "pending",
+      "reuse_rights": "not_assessed",
+      "source_urls": [
+        "https://www.gov.uk/government/publications/national-risk-register-2026"
+      ],
+      "published_at": null,
+      "reviewed_at": null,
+      "next_review_due": null,
+      "reviewer": null,
+      "content_sections": []
+    }
+  ]
+}
