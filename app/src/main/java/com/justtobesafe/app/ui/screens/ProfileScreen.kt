@@ -181,7 +181,7 @@ fun ProfileScreen() {
     if (editing) {
         var draft by remember(name) { mutableStateOf(name) }
         val valid = draft.trim().isNotEmpty() && draft.trim().length <= 60 &&
-            draft.none { it.isISOControl() }
+            draft.none { Character.isISOControl(it) }
         AlertDialog(
             onDismissRequest = { editing = false },
             title = { Text("Household name") },
