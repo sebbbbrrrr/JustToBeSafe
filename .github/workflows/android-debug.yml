@@ -37,7 +37,7 @@ jobs:
           mkdir -p "$ANDROID_HOME/cmdline-tools/latest"
           curl -fLsS --retry 3 -o /tmp/android-tools.zip "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip"
           unzip -q /tmp/android-tools.zip -d /tmp/android-tools
-          cp -a /tmp/android-tools/cmdline-tools/. "$ANDROID_HOME/cmdline-tools/latest/"
+          cp -r /tmp/android-tools/cmdline-tools/. "$ANDROID_HOME/cmdline-tools/latest/"
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
           "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
       - name: Run checks and assemble debug APK
