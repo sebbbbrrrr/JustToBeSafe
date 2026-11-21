@@ -36,6 +36,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.data.UrbanGuideCatalogue
 import com.justtobesafe.app.data.UrbanGuideTopic
 import com.justtobesafe.app.ui.components.SafetyNotice
@@ -65,7 +66,7 @@ private fun UrbanGuideRow(topic: UrbanGuideTopic, onClick: () -> Unit) {
                     "Development order " + topic.priority + " · " + scopeLabel(topic.geographicScope),
                     style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant
                 )
-                Text("NOT YET REVIEWED · Draft outline",
+                Text("OFFLINE ARTICLE · Unreviewed draft",
                     style = MaterialTheme.typography.labelSmall, color = colors.primary)
             }
             Icon(Icons.Outlined.ArrowForwardIos, contentDescription = null,
@@ -82,10 +83,11 @@ private fun scopeLabel(scope: String): String = when (scope) {
     else -> "Scope to be verified"
 }
 
-/** Metadata-only urban guide library; editorial prompts and safety procedures are not shown. */
+/** Full offline editorial reader, with non-publishable draft safety status. */
 @Composable
 fun GuidesScreen(
     catalogue: UrbanGuideCatalogue? = null,
+    offlineLibrary: OfflineGuideLibrary? = null,
     selectedGuideId: String? = null,
     onSelect: (String) -> Unit,
     openOfficial: (String) -> Unit,
@@ -94,6 +96,7 @@ fun GuidesScreen(
     var query by rememberSaveable { mutableStateOf("") }
     val colors = MaterialTheme.colorScheme
     val selected = catalogue?.find(selectedGuideId)
+    val article = offlineLibrary?.articleFor(selectedGuideId)
     LazyColumn(
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 14.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp)
@@ -111,70 +114,66 @@ fun GuidesScreen(
                 Column(verticalArrangement = Arrangement.spacedBy(9.dp)) {
                     SectionTitle(selected.title,
                         "Urban preparedness · " + scopeLabel(selected.geographicScope))
-                    SmallBadge("NOT YET REVIEWED · OUTLINE ONLY")
+                    SmallBadge("OFFLINE TEXT · NOT YET REVIEWED")
                 }
             }
             item(key = "safety-status") {
-                SafetyNotice("This is an unpublished planning outline, not emergency safety guidance. " +
-                    "Procedures require qualified review and licensing clearance before publication. " +
-                    "No live warnings or current electricity status are connected.")
+                SafetyNotice("This is original, unreviewed editorial preview text stored on your device. " +
+                    "It is not approved operational emergency guidance. Current warnings and " +
+                    "incident-specific instructions are not available offline.")
             }
-            if (selected.sections.isNotEmpty()) {
-                item(key = "structure-title") {
-                    SectionTitle("Planned guide sections",
-                        "Available offline as a section index, not reviewed instructions")
+            if (article != null) {
+                item(key = "article-status") {
+                    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        SectionTitle("Read offline", "Complete local editorial draft · " +
+                            article.sections.size + " sections")
+                        Text("No connection, browser or account is needed to read the text below.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = colors.onSurfaceVariant)
+                    }
                 }
-                items(selected.sections, key = { it.id }) { section ->
+                items(article.sections, key = { it.id }) { section ->
                     SoftCard {
-                        Row(Modifier.fillMaxWidth().padding(16.dp),
-                            horizontalArrangement = Arrangement.spacedBy(12.dp),
-                            verticalAlignment = Alignment.Top) {
-                            Icon(Icons.Outlined.MenuBook, contentDescription = null,
-                                tint = colors.primary, modifier = Modifier.size(22.dp))
-                            Column(Modifier.weight(1f),
-                                verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                                Text(section.title, style = MaterialTheme.typography.titleMedium)
-                                Text(
-                                    if (section.status == "blocked_expert_review")
-                                        "Awaiting specialist safety review"
-                                    else "Editorial section planned · content pending review",
-                                    style = MaterialTheme.typography.bodySmall,
-                                    color = colors.onSurfaceVariant
-                                )
+                        Column(Modifier.fillMaxWidth().padding(17.dp),
+                            verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                            Text(section.title, style = MaterialTheme.typography.titleLarge)
+                            section.paragraphs.forEach { paragraph ->
+                                Text(paragraph, style = MaterialTheme.typography.bodyMedium,
+                                    color = colors.onSurface)
                             }
                         }
                     }
                 }
             } else {
-                item(key = "not-written") {
-                    SoftCard {
-                        Column(Modifier.padding(18.dp),
-                            verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            Text("Guide being planned",
-                                style = MaterialTheme.typography.titleMedium)
-                            Text("The topic is included in our development roadmap. " +
-                                "No reviewed guide content is available yet.",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = colors.onSurfaceVariant)
-                        }
-                    }
+                item(key = "article-unavailable") {
+                    SafetyNotice("Offline article text is unavailable on this installation. " +
+                        "No safety instructions are available in this screen. " +
+                        "Check app updates when a connection is available.")
                 }
             }
             item(key = "source-status") {
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    SectionTitle("Official reference links",
-                        "External pages need internet and may be updated by their publishers")
+                    SectionTitle("Sources and attribution", "Reference details stored offline")
+                    Text("This article is original draft writing, not a reproduced official document. " +
+                        "The following source candidates need attribution, rights and content review " +
+                        "before release. The source URLs are recorded here for reference; you do " +
+                        "not need to open them to read this article.",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = colors.onSurfaceVariant)
                     selected.sourceUrls.forEachIndexed { index, source ->
-                        OutlinedButton(onClick = { openOfficial(source) },
-                            modifier = Modifier.fillMaxWidth()) {
-                            Icon(Icons.Outlined.Public, contentDescription = null,
-                                modifier = Modifier.size(18.dp))
-                            Spacer(Modifier.width(8.dp))
-                            Text("Open source candidate " + (index + 1))
+                        SoftCard {
+                            Column(Modifier.padding(14.dp),
+                                verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                                Text("Reference " + (index + 1),
+                                    style = MaterialTheme.typography.titleSmall)
+                                Text(source, style = MaterialTheme.typography.bodySmall,
+                                    color = colors.onSurfaceVariant)
+                            }
                         }
                     }
-                    Text("Links are reference candidates only. Their content, licences, " +
-                        "geographic applicability and review dates have not been cleared.",
+                    SmallBadge("EDITORIAL DRAFT · NO REVIEW DATE")
+                    Text("Official live alerts, current utility status and source updates " +
+                        "cannot be guaranteed without connectivity.",
                         style = MaterialTheme.typography.bodySmall,
                         color = colors.onSurfaceVariant)
                 }
@@ -207,7 +206,7 @@ fun GuidesScreen(
                 item(key = "offline-status") {
                     Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
                         SmallBadge(catalogue.topics.size.toString() +
-                            " DRAFT TOPICS · INDEX AVAILABLE OFFLINE")
+                            " OFFLINE ARTICLES · UNREVIEWED DRAFTS")
                         Text("Order reflects editorial development priorities, not " +
                             "your local probability of an incident.",
                             style = MaterialTheme.typography.bodySmall,
@@ -234,8 +233,8 @@ fun GuidesScreen(
                     }
                 }
                 item(key = "draft-notice") {
-                    SafetyNotice("NOT YET REVIEWED: These are topic and section outlines only. " +
-                        "Detailed emergency procedures are not published in this preview.")
+                    SafetyNotice("These articles are readable offline, but remain unreviewed editorial " +
+                        "drafts. Do not treat them as incident-specific emergency instructions.")
                 }
             }
             item(key = "official-uk") {
@@ -246,7 +245,7 @@ fun GuidesScreen(
                     Icon(Icons.Outlined.Public, contentDescription = null,
                         modifier = Modifier.size(18.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text("Official UK preparedness website")
+                    Text("Optional: visit UK preparedness website")
                 }
             }
         }
