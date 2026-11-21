@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "collection_id": "uk-urban-preparedness",
+  "edition": "original-draft-2026-11-21",
+  "publication_state": "internal_draft",
+  "reader_mode": "offline_full_text_editorial_preview",
+  "description": "Original editorial explanatory text bundled for offline reading in the development APK. Not expert reviewed and not a substitute for live official advice.",
+  "articles": [
+    {
+      "topic_id": "power-cuts",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "What an urban power cut affects",
+          "paragraphs": [
+            "A power cut may affect more than the lights inside a home. Depending on your building and the duration of the disruption, refrigeration, cooking, hot water, internet routers, mobile charging and some heating controls may become unavailable. Communal spaces can have additional dependencies, including lifts, security doors, water pumps, corridor lighting and electronic entry systems. Do not assume that your building has working backup power.",
+            "A useful first preparation step is to write down which everyday services need electricity in your particular home. Include anything that another person relies on, such as a medical device, powered mobility equipment or telecare service. Check these arrangements with the equipment provider, clinical team or building management rather than assuming a generic backup will be suitable."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare your household before an outage",
+          "paragraphs": [
+            "Keep track of your working torches, spare batteries, charged power banks and any radio that can operate independently of mains electricity. Record where each item is stored, and set a reminder to check it periodically. Inventory quantities alone cannot tell you whether the item works or is appropriate for your household.",
+            "Save important contact numbers on paper as well as your phone. In England, Scotland and Wales, 105 connects callers to electricity network support; Northern Ireland has different electricity fault reporting arrangements. Keep your own network operator and building-management details in your private household plan. Review whether your internet, landline, door entry or alarm system needs mains power.",
+            "Plan how members of the household will check on one another if mobile coverage or home broadband is disrupted. Agree a straightforward method for sharing information and a meeting arrangement that does not require an online map."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "When electricity is interrupted",
+          "paragraphs": [
+            "First determine whether there are official updates from your electricity network operator or building management, if you can access them. An outage might affect only your home, a building or a wider neighbourhood; the app cannot diagnose the cause or report live network conditions. Treat any signs of fire, smoke, damaged electrical equipment or other immediate danger as a separate emergency requiring the appropriate emergency response.",
+            "Keep a record of when the disruption began and which household services have stopped working. Use your existing household plan to locate essential contacts, equipment and any support arrangements. If an essential medical or assistive device depends on power, follow the personalised contingency plan agreed with your healthcare or equipment provider; do not improvise with unsuitable alternative power sources.",
+            "If you use refrigerated or frozen food, consult the applicable food-safety guidance and consider how long its temperature has been affected. Time estimates are not guarantees: appliance conditions and temperature matter. Do not rely on this editorial draft alone to decide whether food is safe."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Food, temperature and household services",
+          "paragraphs": [
+            "Food safety during a power cut depends on the storage temperature, the type of food, the duration and whether appliance doors remain closed. The Food Standards Agency and Food Standards Scotland publish relevant consumer guidance. Check the guidance that applies to your household before discarding or eating potentially affected food.",
+            "Heating systems, boilers and communal services may depend on electricity even when the fuel supply is not electrical. If a service fails, refer to its manufacturer or qualified professional for safe operation. Never assume that an indoor combustion device, camping stove or generator is a suitable substitute inside a flat or enclosed space; carbon monoxide and fire hazards require particular care.",
+            "For high-rise residents, accessibility and communal infrastructure deserve specific attention. Ask building management in advance how powered access systems, lifts and communications are handled during an outage, and record the answer as building-specific information."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "When power returns",
+          "paragraphs": [
+            "A return of electricity does not necessarily mean every service has been restored or every appliance is ready to use. Check the status of building systems and equipment using the relevant provider instructions. Where there has been damage, water intrusion, unusual smells or equipment faults, seek qualified assistance rather than experimenting with electrical systems.",
+            "Review any chilled food whose temperature may have changed using the relevant food authority's criteria. Record supplies you used during the disruption, note any contacts or arrangements that failed and schedule replacement or checks for essential equipment."
+          ]
+        },
+        {
+          "id": "article-6",
+          "title": "Household details worth recording",
+          "paragraphs": [
+            "Record your electricity network operator, local power-cut contact, building manager or landlord, location of essential lighting, important phone numbers, and known power-dependent services. Identify household members who may need additional assistance in an outage. Only share this information with people who are authorised to access the household plan.",
+            "Add your own agreed communication and meeting arrangements. If you use powered medical equipment, keep its provider-approved backup arrangements with your private care information rather than in a public guide."
+          ]
+        },
+        {
+          "id": "article-7",
+          "title": "Supplies and sources checklist",
+          "paragraphs": [
+            "Relevant inventory categories include torches, working batteries, power banks, a battery-powered radio, accessible drinking water and shelf-stable food that suits your household. Link physical items to periodic checks; a scanned barcode confirms a product record, not its condition or availability in an emergency.",
+            "Source candidates for the reviewed version: UK Government Be Ready power-cut guidance, electricity network operators, the Food Standards Agency, Food Standards Scotland, telecoms providers and your building management. The content here is an original internal editorial draft based on these topics and has not completed professional safety or legal review."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "severe-weather",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Understanding local weather risks",
+          "paragraphs": [
+            "Urban areas can experience heavy rain, strong winds, heatwaves, cold spells and ice. Effects vary with the season, the building, transport links and local geography. Weather forecasts and warnings are time-sensitive; an offline article cannot describe today's conditions.",
+            "For the final guide, map each hazard to the appropriate Met Office information and applicable UK public-health advice, rather than treating all severe weather as one emergency."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare a home and travel plan",
+          "paragraphs": [
+            "Identify where you obtain official weather warnings and how you would contact family if travel were disrupted. Consider external windows and balconies, access to heating or cooling, essential medicines and any household member who may need assistance.",
+            "Keep reasonable indoor essentials on hand and note where charging equipment, torches, drinking water and other supplies are stored. Review building-specific weather maintenance and responsibilities with the landlord or managing agent."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "When a warning affects your area",
+          "paragraphs": [
+            "Check the type, geographic coverage, issue time and expiry of official warnings using live channels when connectivity exists. A warning is not the same as a certainty that your street will be affected. Follow instructions issued for your locality, especially when transport operators or councils announce changes.",
+            "Do not substitute a general offline paragraph for specialist instructions about floodwater, heat illness, damaged structures or fallen electrical cables."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "After severe weather",
+          "paragraphs": [
+            "Check for official all-clear or restoration information before assuming disrupted roads, services or buildings are safe. Record anything that needs professional attention and update your household plan where a dependency became obvious."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Related plans and sources",
+          "paragraphs": [
+            "Related household features: communication plan, essential supplies, transport alternatives, building contacts and equipment-check reminders.",
+            "Source candidates: Met Office warnings and UK Government Be Ready. Detailed heat-health, flood and electrical procedures await relevant expert review."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "water-disruption",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "What a water interruption changes",
+          "paragraphs": [
+            "Water disruptions can affect drinking, food preparation, washing, cleaning, toilets and some communal building equipment. A supply interruption is different from a water-quality incident; instructions depend on what the water provider says has happened."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Household information and supply planning",
+          "paragraphs": [
+            "Record the name and contact information of your water provider and any building-management contacts. Identify members who have higher water or hygiene requirements and note how much water you actually store, its location and any date or container checks required.",
+            "Consider that flats with shared pumps or storage tanks may experience building-specific problems even when the wider network is functioning. Ask the responsible manager how such faults are reported."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Understanding official notices",
+          "paragraphs": [
+            "A boil-water notice, a do-not-drink notice and a do-not-use notice are not interchangeable. Follow the precise current notice issued by the water provider or public-health authority. This offline draft cannot determine whether your tap water is safe or prescribe a treatment procedure."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Sanitation and accessibility",
+          "paragraphs": [
+            "Plan for hand hygiene, toilet interruptions and the needs of infants or people who require additional care. Avoid assuming that untreated floodwater or an unknown source is suitable for hygiene, cooking or drinking."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Restoration and sources",
+          "paragraphs": [
+            "After service returns, use the supplier's current instructions for any flushing or water-quality requirements. An apparent return of pressure does not itself prove water safety.",
+            "Source candidates: the relevant water company, water regulator and local public-health authority; regional advice must be checked before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "building-fire",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Understand your building's official fire strategy",
+          "paragraphs": [
+            "The correct fire response varies between buildings. Some have a stay-put strategy and others have an evacuation strategy, and those arrangements may change. Obtain the current policy directly from building management or the responsible person; do not apply a generic rule from another building.",
+            "Keep the policy, location of exits and relevant building contacts in your private household plan. If an immediate incident occurs, instructions from emergency responders take precedence over any static app text."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Alarms and responsibilities",
+          "paragraphs": [
+            "Record where domestic smoke and carbon monoxide alarms are installed, their test responsibilities and the contact for faults or maintenance. Building owners, landlords and occupants may have different responsibilities.",
+            "Be aware of communal corridors, fire doors and access routes. Do not assume lifts, stairwells or shared systems will behave the same in every building."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Personal and accessible planning",
+          "paragraphs": [
+            "People who may need assistance leaving a building should discuss individual arrangements with those responsible for the building and relevant professionals. Keep any approved personal plan accessible to authorised household members.",
+            "Avoid storing highly sensitive medical details in a shared general guide or public catalogue."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Incident information",
+          "paragraphs": [
+            "This editorial draft deliberately provides no universal stay-put, evacuation, firefighting or smoke-entry procedure. Those instructions require qualified fire safety review and building-specific context. In an immediate emergency, use the relevant emergency service and official incident instructions."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "After a building fire",
+          "paragraphs": [
+            "A return to a building or room requires appropriate clearance or advice from those responsible for the incident and property. Record insurance, housing and recovery contacts in your household plan.",
+            "Source candidates: local Fire and Rescue Service, responsible building manager and applicable government building fire safety publications."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "urban-flooding",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Why urban flooding varies by location",
+          "paragraphs": [
+            "Heavy rainfall can overwhelm drains, affect roads and underpasses or cause surface-water flooding away from rivers. Basement rooms, low-lying streets and underground transport spaces may face particular exposure. Flood risk is highly location-specific; a general urban guide cannot determine whether your property is at risk."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare using location-appropriate information",
+          "paragraphs": [
+            "Check whether official flood services, local council information or a property-level assessment identify risks where you live. Record important documents, contacts, relevant insurance information and the location of supplies.",
+            "If you live in shared accommodation or a managed building, ask who monitors drainage problems and where residents can obtain verified notices."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "During an incident",
+          "paragraphs": [
+            "Floodwater can conceal hazards and may be contaminated. Current emergency-service, council or flood authority instructions take precedence over this static text. Do not use the app's development ranking as a real-time flood warning."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Recovery considerations",
+          "paragraphs": [
+            "Flood-affected structures, electrical installations and drinking-water supplies may require qualified inspection and official advice before reuse. Keep records of damage, supporting contacts and decisions; do not assume an area is safe merely because water has receded."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Official sources and plans",
+          "paragraphs": [
+            "Use the appropriate flood authority for the nation of the UK concerned, plus local council and weather information. Connect household tasks to document storage, communication arrangements and region-specific warning sources."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "communications",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Know your communication dependencies",
+          "paragraphs": [
+            "Home broadband, Wi-Fi calling, some landlines and certain telecare devices need electrical power or network service. Mobile networks can also be congested or unavailable during an incident. A phone with charge does not guarantee a working connection."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare alternate contact methods",
+          "paragraphs": [
+            "Keep a small paper copy of key contacts, a household meeting arrangement and instructions about who should contact whom. Consider a battery radio for receiving broadcast information and decide where family members should look for official updates if messaging fails.",
+            "If a telecare service or essential communications device is involved, obtain its provider's precise resilience and backup advice."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "During a service outage",
+          "paragraphs": [
+            "Distinguish a phone problem from loss of mobile coverage or broadband service where possible using reliable provider notices. Avoid forwarding unverified incident reports. A screenshot or offline saved article is not evidence of a current official warning."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "After service returns",
+          "paragraphs": [
+            "Check with the provider about restoration, then update any contact arrangements that did not work. Keep personal contact details in private storage rather than in this static public guide."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Source candidates",
+          "paragraphs": [
+            "UK Government Be Ready phone and broadband information, Ofcom, network providers and telecare equipment suppliers. Emergency calling behaviour requires specialist review and cannot be guaranteed across devices."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "essential-supplies",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "What a practical urban stock record includes",
+          "paragraphs": [
+            "Everyday disruption supplies include food, water, lighting, charging equipment, hygiene necessities and household-specific essentials. Needs differ depending on household size, ages, diet, accessibility and available space.",
+            "The app's inventory counts products and packages; it should not claim that a certain package count proves days of safe coverage."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Manage food and water stock",
+          "paragraphs": [
+            "Organise shelf-stable items in identifiable locations and record quantities, storage requirements and dates. Separate best-before dates from use-by dates; product labels and suitable storage conditions remain important.",
+            "Use reliable food safety sources for any decisions after refrigeration loss, contamination or product spoilage. An expiry reminder is not a safety determination."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Medication and individual requirements",
+          "paragraphs": [
+            "Keep a plan for obtaining prescribed medicines and medical supplies in a disruption. Consult the prescribing clinician or pharmacist about storage, interruption and individual needs. Do not store identifiable treatment information in the public article library."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Rotation and replenishment",
+          "paragraphs": [
+            "Use a shopping list, periodic check reminders and an inventory audit to find expired, damaged or missing items. Distinguish an item being recorded in the app from a household member physically confirming it is present and usable."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Related plans and sources",
+          "paragraphs": [
+            "Connect categories to water, power cut and evacuation plans without double-counting shared stock. Source candidates: UK Government Be Ready and the relevant national food-safety authority."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "transport",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Why transport disruption matters",
+          "paragraphs": [
+            "A power cut, severe weather incident, road closure or industrial action can interrupt buses, trains, trams and roads. Disruption also affects households whose members rely on public transport for work, education, care or shopping."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare alternative arrangements",
+          "paragraphs": [
+            "Identify several realistic routes between essential locations and note any accessibility requirements. Record meeting points and contacts without assuming mobile data or ticketing apps will be available.",
+            "Consider how you would manage an interrupted journey when cashless payment, phone charging or lifts are unavailable."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Using live travel information",
+          "paragraphs": [
+            "Transport status is changeable, so live operator notices take priority over offline reference material. This guide cannot supply real-time departure information, route closures or safe access guarantees."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "After disruption",
+          "paragraphs": [
+            "Review which alternatives were feasible and adjust your personal transport and contact plan. Keep location-specific route details within a private household workspace."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Source candidates",
+          "paragraphs": [
+            "Local transport operators, National Rail where applicable, local councils and public transport accessibility information. Verify geographical relevance before publishing detailed routes."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "urban-evacuation",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Plan for temporary relocation",
+          "paragraphs": [
+            "Urban evacuation might be required because of building safety, flooding, utilities, a police incident or another local event. The reason changes what is safe, where to go and which authority is directing movement.",
+            "Planning beforehand should identify who needs help, how family members reconnect and where essential documents and supplies can be located."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare an accessible grab bag",
+          "paragraphs": [
+            "Consider basic identity and contact documents, suitable clothing, essential prescribed items, chargers and household-specific necessities. The contents should be practical to carry and must reflect individual requirements rather than a universal survival list."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Build household reunification arrangements",
+          "paragraphs": [
+            "Agree how household members will contact each other if home is inaccessible. Have a backup method if mobile connectivity fails. Include authorised arrangements for children, pets and family members needing assistance."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Follow incident-specific instructions",
+          "paragraphs": [
+            "A general guide cannot decide whether to leave a building, shelter indoors or take a particular route. Use the current directions from emergency responders or other competent local authorities; fire procedures are especially building-specific."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Temporary accommodation and return",
+          "paragraphs": [
+            "Record contacts for the landlord, council, insurer, trusted friends or other support arrangements. Keep important personal information private, and check for official clearance or professional advice before returning to damaged property.",
+            "Source candidates: UK Government Be Ready, the responsible local authority and incident-specific emergency services."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "shared-infrastructure",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Shared systems in blocks and estates",
+          "paragraphs": [
+            "Lifts, entry controls, electric gates, stairwell lights, water pumps, communal heating, alarms and internet infrastructure may be shared across multiple homes. A single fault can affect many households without affecting an entire district."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Who to contact and what to record",
+          "paragraphs": [
+            "Identify the building manager, managing agent, landlord or facilities provider and their out-of-hours reporting method. Keep their numbers in a household plan that works offline.",
+            "Ask who is responsible for inspecting key systems, what incident notifications residents receive and how accessibility arrangements are handled during a loss of service."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "Accessibility and alternative access",
+          "paragraphs": [
+            "An unavailable lift, door system or water pump may affect residents differently. Do not assume there is a universally safe workaround; obtain approved building-specific accessibility and contingency procedures."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "Reporting and restoration",
+          "paragraphs": [
+            "Record the observed issue and report it to the responsible provider. Follow official incident procedures for hazards. Once service resumes, check notices from the responsible party rather than assuming all communal systems are reliable."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Source candidates",
+          "paragraphs": [
+            "Building management, local authority housing information, relevant utility and fire services. The correct requirements depend on the property, location and system."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "public-safety",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "Understanding public incidents",
+          "paragraphs": [
+            "Police activity, major gatherings, suspicious-item reports or transport cordons can affect movement around city streets. Social-media accounts may spread incomplete or outdated information.",
+            "The app does not monitor police operations, validate rumours or give live incident directions."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Prepare before a disruption",
+          "paragraphs": [
+            "Keep household contact and meeting arrangements available offline. Identify trusted official information channels relevant to your local area and practical ways for family members to confirm that they are safe."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "During an incident",
+          "paragraphs": [
+            "Follow the instructions of police and emergency services and respect cordons or other restrictions. Specific actions depend on the incident type and location; this editorial article is not a tactical response guide."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "After the incident",
+          "paragraphs": [
+            "Check official updates for changes in access or service restoration. Review whether household contact and transport alternatives worked.",
+            "Source candidates: UK Government Emergency Alerts, local police and competent emergency services. No official endorsement is implied."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "major-incidents",
+      "status": "internal_draft",
+      "safety_review": "pending",
+      "display_notice": "Development draft. Not specialist-reviewed emergency instructions. In an active emergency, follow official services and current incident information.",
+      "sections": [
+        {
+          "id": "article-1",
+          "title": "What major incidents can involve",
+          "paragraphs": [
+            "Industrial accidents, hazardous air, chemical releases or serious infrastructure failures can affect an urban area. Consequences depend on the material, weather, location and incident response. Such events are not usefully handled with one generic procedure."
+          ]
+        },
+        {
+          "id": "article-2",
+          "title": "Know local dependencies",
+          "paragraphs": [
+            "Consider whether your home, workplace or travel route is near infrastructure that may have published emergency arrangements. Identify the competent local authority and official incident information channels."
+          ]
+        },
+        {
+          "id": "article-3",
+          "title": "When official instructions are issued",
+          "paragraphs": [
+            "The correct sheltering, evacuation, contamination or medical response must come from the responsible incident authorities and qualified professionals. The app cannot decide these actions from an offline article or alert a user to a live event."
+          ]
+        },
+        {
+          "id": "article-4",
+          "title": "After an incident",
+          "paragraphs": [
+            "Follow verified restrictions and recovery advice about access, water, food, buildings and health. These topics require specific expert review and must not be presented as a universal checklist."
+          ]
+        },
+        {
+          "id": "article-5",
+          "title": "Source candidates",
+          "paragraphs": [
+            "UK National Risk Register, local resilience forum, competent emergency services and environmental regulators. Regional applicability and source permissions must be verified before public release."
+          ]
+        }
+      ]
+    }
+  ]
+}
