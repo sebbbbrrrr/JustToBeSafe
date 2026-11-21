@@ -18,7 +18,17 @@ data class KnowledgeEntry(
 )
 
 data class KnowledgeSection(val title: String, val paragraphs: List<String>)
-data class KnowledgeArticle(val id: String, val sections: List<KnowledgeSection>)
+data class KnowledgeVisual(
+    val kind: String,
+    val alt: String,
+    val caption: String,
+    val labels: List<String>
+)
+data class KnowledgeArticle(
+    val id: String,
+    val sections: List<KnowledgeSection>,
+    val visual: KnowledgeVisual? = null
+)
 
 class OfflineKnowledgeLibrary private constructor(
     private val context: Context,
@@ -81,7 +91,24 @@ class OfflineKnowledgeLibrary private constructor(
                 }
             }
             require(sections.isNotEmpty())
-            articles[id] = KnowledgeArticle(id, sections)
+            val visual = raw.optJSONObject("visual")?.let { spec ->
+                val kind = spec.getString("kind")
+                require(kind in setOf("sequence", "checklist", "shelves", "route")) {
+                    "Unsupported illustration kind"
+                }
+                require(raw.getString("risk") !in
+                    setOf("medical", "electrical", "chemical", "public-health")) {
+                    "Unreviewed technical/clinical procedure diagrams are not allowed"
+                }
+                val labelsJson = spec.getJSONArray("labels")
+                val labels = (0 until labelsJson.length()).map { labelsJson.getString(it) }
+                require(labels.size in 2..4 && labels.all { it.isNotBlank() && it.length <= 36 })
+                val alt = spec.getString("alt")
+                val caption = spec.getString("caption")
+                require(alt.length in 30..240 && caption.length in 15..240)
+                KnowledgeVisual(kind, alt, caption, labels)
+            }
+            articles[id] = KnowledgeArticle(id, sections, visual)
         }
         return articles
     }
