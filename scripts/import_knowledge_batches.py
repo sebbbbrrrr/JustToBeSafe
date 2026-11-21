@@ -44,6 +44,23 @@ def validate_article(article: dict, origin: str):
             not isinstance(p, str) or len(p.strip()) <= 25 for p in section["paragraphs"]
         ):
             raise ValueError(f"{origin}/{ident}: empty/short paragraph")
+    visual = article.get("visual")
+    if visual is not None:
+        if not isinstance(visual, dict):
+            raise ValueError(f"{origin}/{ident}: visual must be a diagram object")
+        if article["risk"] in {"medical", "electrical", "chemical", "public-health"}:
+            raise ValueError(f"{origin}/{ident}: hazardous instructional diagrams require separate review")
+        if visual.get("kind") not in {"sequence", "checklist", "shelves", "route"}:
+            raise ValueError(f"{origin}/{ident}: unsupported visual template")
+        labels = visual.get("labels")
+        if not isinstance(labels, list) or len(labels) not in (2, 3, 4) or any(
+            not isinstance(label, str) or not 1 <= len(label.strip()) <= 36 for label in labels
+        ):
+            raise ValueError(f"{origin}/{ident}: diagram labels must be 2–4 short accessible strings")
+        for field, minimum in (("alt", 30), ("caption", 15)):
+            value = visual.get(field)
+            if not isinstance(value, str) or not minimum <= len(value.strip()) <= 240:
+                raise ValueError(f"{origin}/{ident}: missing accessible diagram {field}")
     return ident
 
 def read_collection(path: Path):
