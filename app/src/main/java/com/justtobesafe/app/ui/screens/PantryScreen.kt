@@ -66,13 +66,18 @@ fun PantryScreen() {
     val store = remember(context) { PantryStore(context) }
     val lookup = remember { FoodProductLookup() }
     val scope = rememberCoroutineScope()
-    var products by remember { mutableStateOf(runCatching { store.readAll() }.getOrDefault(emptyList())) }
+    val initial = remember(store) { runCatching { store.readAll() } }
+    var products by remember(store) { mutableStateOf(initial.getOrDefault(emptyList())) }
     var search by rememberSaveable { mutableStateOf("") }
     var scanning by remember { mutableStateOf(false) }
     var editing by remember { mutableStateOf<PantryItem?>(null) }
     var deleting by remember { mutableStateOf<PantryItem?>(null) }
     var loading by remember { mutableStateOf(false) }
-    var notice by remember { mutableStateOf<String?>(null) }
+    var notice by remember {
+        mutableStateOf<String?>(
+            if (initial.isFailure) "Could not read saved pantry data. Reopen the screen to retry." else null
+        )
+    }
 
     fun reload() { products = store.readAll() }
     fun save(item: PantryItem) {
@@ -132,7 +137,7 @@ fun PantryScreen() {
         item(key = "pantry-actions") {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Button(onClick = { scanning = true }, modifier = Modifier.weight(1f),
-                    enabled = !loading) {
+                    enabled = !loading && initial.isSuccess) {
                     Icon(Icons.Outlined.QrCodeScanner, contentDescription = null)
                     Spacer(Modifier.width(7.dp))
                     Text("Scan")
@@ -295,7 +300,7 @@ private fun PantryEditorDialog(
         onDismissRequest = onDismiss,
         title = { Text(if (item.id == 0L) "Add food" else "Edit food") },
         text = {
-            Column(Modifier.heightIn(max = 480.dp).verticalScroll(rememberScrollState()),
+            Column(Modifier.heightIn(max = 320.dp).verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 OutlinedTextField(name, { name = it }, label = { Text("Product name *") },
                     singleLine = true, modifier = Modifier.fillMaxWidth())
@@ -308,7 +313,7 @@ private fun PantryEditorDialog(
                 OutlinedTextField(packSize, { packSize = it },
                     label = { Text("Pack size (e.g. 400 g)") }, singleLine = true,
                     modifier = Modifier.fillMaxWidth())
-                OutlinedTextField(quantity, { quantity = it.filter { ch -> ch.isDigit() }.take(4) },
+                OutlinedTextField(quantity, { quantity = it.filter { ch -> ch in '0'..'9' }.take(4) },
                     label = { Text("Number of packs *") }, singleLine = true,
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                     modifier = Modifier.fillMaxWidth())
