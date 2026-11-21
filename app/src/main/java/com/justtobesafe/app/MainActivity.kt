@@ -24,6 +24,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.QrCodeScanner
+import androidx.compose.material.icons.outlined.PersonOutline
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material.icons.outlined.Inventory2
 import androidx.compose.material.icons.outlined.MenuBook
@@ -66,6 +68,8 @@ import com.justtobesafe.app.ui.components.calmMotionDuration
 import com.justtobesafe.app.ui.screens.GuideTopic
 import com.justtobesafe.app.ui.screens.GuidesScreen
 import com.justtobesafe.app.ui.screens.HomeScreen
+import com.justtobesafe.app.ui.screens.PantryScreen
+import com.justtobesafe.app.ui.screens.ProfileScreen
 import com.justtobesafe.app.ui.screens.PlanScreen
 import com.justtobesafe.app.ui.screens.SuppliesScreen
 import com.justtobesafe.app.ui.theme.CalmUtilityTheme
@@ -80,7 +84,7 @@ class MainActivity : ComponentActivity() {
 }
 
 private enum class Destination(val label: String) {
-    HOME("Home"), GUIDES("Guides"), SUPPLIES("Supplies"), PLAN("Plan")
+    HOME("Home"), GUIDES("Guides"), SUPPLIES("Inventory"), SCAN("Scan"), PLAN("Plans"), PROFILE("Profile")
 }
 
 @Composable
@@ -89,7 +93,9 @@ private fun DestinationIcon(destination: Destination) {
         Destination.HOME -> Icons.Outlined.Home
         Destination.GUIDES -> Icons.Outlined.MenuBook
         Destination.SUPPLIES -> Icons.Outlined.Inventory2
+        Destination.SCAN -> Icons.Outlined.QrCodeScanner
         Destination.PLAN -> Icons.Outlined.PeopleOutline
+        Destination.PROFILE -> Icons.Outlined.PersonOutline
     }
     Icon(icon, contentDescription = null)
 }
@@ -124,7 +130,8 @@ fun JustToBeSafeApp() {
     var planLoaded by remember { mutableStateOf(false) }
     var planError by remember { mutableStateOf<String?>(null) }
     var destinationName by rememberSaveable { mutableStateOf(Destination.HOME.name) }
-    val destination = Destination.valueOf(destinationName)
+    val destination = Destination.entries.firstOrNull { it.name == destinationName } ?: Destination.HOME
+    val navigationTabs = listOf(Destination.HOME, Destination.SUPPLIES, Destination.SCAN, Destination.PLAN, Destination.PROFILE)
     var selectedGuideId by rememberSaveable { mutableStateOf<String?>(null) }
     var showAbout by rememberSaveable { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
@@ -176,7 +183,7 @@ fun JustToBeSafeApp() {
         val expanded = maxWidth >= 600.dp
         Row(Modifier.fillMaxSize()) {
             if (expanded) NavigationRail(containerColor = MaterialTheme.colorScheme.surface) {
-                Destination.entries.forEach { tab ->
+                navigationTabs.forEach { tab ->
                     NavigationRailItem(
                         selected = tab == destination,
                         onClick = { setDestination(tab) },
@@ -206,7 +213,7 @@ fun JustToBeSafeApp() {
                         containerColor = MaterialTheme.colorScheme.surface,
                         tonalElevation = 0.dp
                     ) {
-                        Destination.entries.forEach { tab ->
+                        navigationTabs.forEach { tab ->
                             NavigationBarItem(
                                 selected = tab == destination,
                                 onClick = { setDestination(tab) },
@@ -258,7 +265,10 @@ fun JustToBeSafeApp() {
                         Destination.GUIDES -> GuidesScreen(
                             onSelect = { selectedGuideId = it }, openOfficial = openOfficial
                         )
-                        Destination.SUPPLIES -> SuppliesScreen(checked = checked, onToggle = toggleSupply)
+                        Destination.SUPPLIES -> SuppliesScreen(checked = checked, onToggle = toggleSupply, initialSection = "pantry")
+                        Destination.SCAN -> PantryScreen(startScanning = true,
+                            onScannerClosed = { setDestination(Destination.SUPPLIES) })
+                        Destination.PROFILE -> ProfileScreen()
                         Destination.PLAN -> PlanScreen(plan = plan, loaded = planLoaded,
                             error = planError, onSave = savePlan)
                     }
