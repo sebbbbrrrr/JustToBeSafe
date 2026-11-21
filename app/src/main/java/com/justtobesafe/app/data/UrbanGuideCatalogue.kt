@@ -98,7 +98,7 @@ data class UrbanGuideCatalogue(
             require(topics.map { it.priority }.toSet() == (1..topics.size).toSet()) {
                 "Guide editorial priorities must be sequential"
             }
-            UrbanGuideCatalogue(topics.sortedBy { it.priority }, root.getString("edition"))
+            return UrbanGuideCatalogue(topics.sortedBy { it.priority }, root.getString("edition"))
         }
     }
 }
