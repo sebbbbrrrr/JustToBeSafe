@@ -4,6 +4,7 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -28,6 +29,7 @@ import androidx.compose.material.icons.outlined.LocalDining
 import androidx.compose.material.icons.outlined.MedicalServices
 import androidx.compose.material.icons.outlined.Radio
 import androidx.compose.material.icons.outlined.WaterDrop
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -37,6 +39,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -101,6 +106,26 @@ private fun SupplyRow(item: SupplyItem, selected: Boolean, onToggle: () -> Unit)
 
 @Composable
 fun SuppliesScreen(checked: Set<String>, onToggle: (String) -> Unit) {
+    var selected by rememberSaveable { mutableStateOf("checklist") }
+    Column {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            FilterChip(selected = selected == "checklist",
+                onClick = { selected = "checklist" }, label = { Text("Supplies checklist") })
+            FilterChip(selected = selected == "pantry",
+                onClick = { selected = "pantry" }, label = { Text("Food pantry") })
+        }
+        Box(Modifier.weight(1f)) {
+            if (selected == "pantry") PantryScreen()
+            else SuppliesChecklist(checked = checked, onToggle = onToggle)
+        }
+    }
+}
+
+@Composable
+private fun SuppliesChecklist(checked: Set<String>, onToggle: (String) -> Unit) {
     val done = completedCount(checked)
     val total = SuppliesCatalog.items.size
     val percentage = completionPercent(done, total)
