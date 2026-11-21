@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "prepare-important-documents",
+      "title": "Keeping important documents accessible offline",
+      "category": "Household planning",
+      "summary": "Organise essential records and contact information before a disruption.",
+      "tags": [
+        "documents",
+        "paper",
+        "offline",
+        "insurance",
+        "identification",
+        "backup"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "organise",
+          "title": "Decide what needs to be accessible",
+          "paragraphs": [
+            "Record which documents your household relies upon, such as identification, essential contact information, property details and insurance references. Not every record needs to travel with every person; consider where and why the information might be needed.",
+            "Keep a short list of document locations in a place accessible to authorised household members, without exposing sensitive identifiers in a shared public reference file."
+          ]
+        },
+        {
+          "id": "offline-copies",
+          "title": "Prepare copies with privacy in mind",
+          "paragraphs": [
+            "Consider an appropriately secured physical copy or offline digital copy for information needed when internet or cloud accounts are unavailable. Think about theft, device loss, water damage and the risk of leaving sensitive information in an unprotected bag.",
+            "Periodically check that emergency contacts and any access instructions are current. A copied document may not replace the original for identity or legal purposes."
+          ]
+        },
+        {
+          "id": "after",
+          "title": "Review after changes",
+          "paragraphs": [
+            "Update the record when household members, insurers, housing arrangements or important contacts change. Note where sensitive copies are stored and restrict access to people who need it.",
+            "This guide is a planning draft. Applicable identification and data-protection requirements vary, and a generic checklist should not be treated as legal advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equipment-check-calendar",
+      "title": "Create a household equipment check routine",
+      "category": "Equipment",
+      "summary": "Build lightweight checks for torches, batteries, radios and supplies.",
+      "tags": [
+        "maintain",
+        "maintenance",
+        "calendar",
+        "battery",
+        "torch",
+        "radio",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "inventory",
+          "title": "List the equipment you depend on",
+          "paragraphs": [
+            "Start with equipment already recorded in the household inventory, such as lighting, charging accessories and radios. Give each item a clear storage location and note whether it has replaceable batteries, rechargeable cells or another power source.",
+            "Keep model-specific instructions from the manufacturer available where possible. A product category alone does not establish a safe maintenance method."
+          ]
+        },
+        {
+          "id": "routine",
+          "title": "Set a manageable review schedule",
+          "paragraphs": [
+            "Choose a realistic reminder interval based on manufacturer recommendations, the age of the equipment and household usage. Record the date of each check and whether the item was confirmed to work.",
+            "Avoid treating a reminder being dismissed as evidence that a physical check was completed. The household should be able to distinguish a planned task from a verified action."
+          ]
+        },
+        {
+          "id": "replace",
+          "title": "Handle problems and replacements",
+          "paragraphs": [
+            "Tag any missing, damaged or non-working item for replacement or qualified inspection. Use suitable disposal or recycling arrangements for batteries and electronics rather than placing damaged cells back into storage.",
+            "Keep the routine short enough to maintain over time, and review it following a real outage to capture equipment that was difficult to find or use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small-flat-storage",
+      "title": "Organising preparedness supplies in a small flat",
+      "category": "Household planning",
+      "summary": "Make essential supplies easy to find without overcrowding limited space.",
+      "tags": [
+        "apartment",
+        "flat",
+        "space",
+        "storage",
+        "organise",
+        "pantry",
+        "stockpile"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "choose",
+          "title": "Identify available storage",
+          "paragraphs": [
+            "List the cupboards, shelves and other accessible locations that can safely hold supplies in your home. Account for people who may need help lifting or reaching items, and avoid blocking access routes or emergency exits.",
+            "Different foods, medicines and equipment have different storage requirements, so group items by compatibility instead of assuming everything belongs in one container."
+          ]
+        },
+        {
+          "id": "label",
+          "title": "Keep locations simple and consistent",
+          "paragraphs": [
+            "Use clear location names in the inventory, such as kitchen shelf or hall cupboard. Make frequently used items easy to retrieve and distinguish everyday supplies from the optional emergency reserve.",
+            "Do not let a barcode or stored quantity replace a physical check of the item, its condition and whether it is still in the expected place."
+          ]
+        },
+        {
+          "id": "rotate",
+          "title": "Rotate without wasting supplies",
+          "paragraphs": [
+            "Periodically review dates, packaging condition and household needs. Prioritise using suitable everyday stock before purchasing excessive quantities that may expire or occupy valuable space.",
+            "A storage plan should reflect the actual household rather than a fixed universal stockpile target; dietary, mobility and medical needs may change what is useful."
+          ]
+        }
+      ]
+    }
+  ]
+}
