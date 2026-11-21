@@ -17,7 +17,7 @@ class LocalHouseholdStore(context: Context) {
 
     fun saveName(name: String): Boolean {
         val cleaned = name.trim()
-        if (cleaned.isEmpty() || cleaned.length > 60 || cleaned.any { it.isISOControl() }) {
+        if (cleaned.isEmpty() || cleaned.length > 60 || cleaned.any { Character.isISOControl(it) }) {
             return false
         }
         return preferences.edit().putString(KEY_NAME, cleaned).commit()
