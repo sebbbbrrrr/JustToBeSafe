@@ -15,8 +15,10 @@ DATA = json.loads(MERGED.read_text(encoding="utf-8"))
 assert META["schema_version"] == 1
 assert META["tokenizer"] == "unicode-prefix-v2"
 assert META["shards"] == 16
-assert len(DATA["articles"]) == 11, "Expected 8 baseline + 3 validated batch articles"
-assert len(META["documents"]) == 23, "Expected 11 practical + 12 urban articles"
+urban = json.loads((root / "app/src/main/assets/guides/uk_urban_guide_articles.json").read_text())
+expected_ids = {a["id"] for a in DATA["articles"]} | {a["topic_id"] for a in urban["articles"]}
+assert set(META["documents"]) == expected_ids, "Index coverage must include every imported and urban article"
+assert len(META["documents"]) >= 23, "Unexpected loss of baseline offline guides"
 assert len(set(META["documents"])) == len(META["documents"])
 
 STOPWORDS = {"how", "to", "a", "an", "the", "do", "i", "can", "what",
@@ -42,6 +44,12 @@ assert "home-damaged-cable" in query("how to fix a cable")
 assert "prepare-important-documents" in query("insurance documents")
 assert "power-cuts" in query("refrigeration")
 assert "equipment-check-calendar" in query("equipment inspection")
+if "test-w1-first-aid-01" in expected_ids:
+    assert "test-w1-first-aid-01" in query("first aid kit stock")
+if "test-w4-urban-01" in expected_ids:
+    assert "test-w4-urban-01" in query("lift failure")
+if "test-w5-outdoors-01" in expected_ids:
+    assert "test-w5-outdoors-01" in query("walking route card")
 assert query("unfindablezxy9876") == set()
 for nibble in "0123456789abcdef":
     assert (INDEX / f"terms_{nibble}.json.gz").stat().st_size > 30
