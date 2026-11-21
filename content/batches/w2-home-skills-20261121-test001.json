@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "test-w2-home-skills-01",
+      "title": "Identifying household water shutoff locations",
+      "category": "Home & utilities",
+      "summary": "Plan how to find the water isolation controls without attempting unsafe building work.",
+      "tags": [
+        "stopcock",
+        "stop tap",
+        "water",
+        "valve",
+        "shutoff"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify responsible controls",
+          "paragraphs": [
+            "A flat or house may have a main water stop tap, separate appliance controls or building-managed isolation points. Their location and responsibility vary, especially in shared properties.",
+            "Ask the landlord, managing agent or water supplier which controls residents are permitted to operate. Do not interfere with unknown communal pipework or inaccessible service areas."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Create an offline record",
+          "paragraphs": [
+            "Record an accurate description of approved controls in the private household plan and clarify which one serves your own home.",
+            "A simple labelled photo can aid recognition, but avoid publicly posting access details for secure building service rooms or equipment."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review before an incident",
+          "paragraphs": [
+            "If a control appears damaged, seized or unclear, request qualified plumbing help instead of forcing it. Do not assume that turning any nearby valve will isolate a leak.",
+            "Keep the plumber and building-management contacts available when the internet is unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w2-home-skills-02",
+      "title": "Window and door draught inspection",
+      "category": "Home maintenance",
+      "summary": "Spot drafts and maintenance gaps while respecting fire exits and building ventilation.",
+      "tags": [
+        "draught",
+        "draft",
+        "seal",
+        "window",
+        "door",
+        "heating"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Locate comfort problems",
+          "paragraphs": [
+            "Note areas where a window or external door appears to admit unwanted air. Record whether the concern is recurring, seasonal or associated with visible damage.",
+            "Do not obstruct required ventilation, fire doors, escape routes or manufacturer-specified air openings; some buildings rely on these for safe operation."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan appropriate work",
+          "paragraphs": [
+            "Consult the landlord or appropriate tradesperson when adjustments could affect safety, glazing, accessibility or communal elements. Choose compatible products only after checking the door or window instructions.",
+            "Temporary fixes must not interfere with locks, closing mechanisms, smoke seals or accessibility. This guide does not provide a universal sealing method."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Track follow-up",
+          "paragraphs": [
+            "Record the room, symptom and person responsible for maintenance. Review whether the issue was resolved after appropriate work.",
+            "For rented or shared accommodation, responsibilities and permission requirements may differ from owner-occupied homes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-w2-home-skills-03",
+      "title": "Safe storage of household cleaning products",
+      "category": "Home & utilities",
+      "summary": "Reduce accidental chemical exposure through organised storage and readable labels.",
+      "tags": [
+        "cleaning",
+        "chemicals",
+        "cupboard",
+        "hazard",
+        "labels"
+      ],
+      "risk": "chemical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand product labels",
+          "paragraphs": [
+            "Cleaning chemicals have different warnings, storage conditions and compatibility rules. Keep products in their original labelled containers wherever possible.",
+            "Never infer that household products are compatible because they are used in the same room. The manufacturer label and relevant safety instructions are the primary reference."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Separate and restrict access",
+          "paragraphs": [
+            "Choose storage appropriate to the products and away from children or pets when necessary. Keep packaging intact and avoid transferring a chemical into an unlabelled drinking container.",
+            "Do not mix substances or experiment with reactions to create homemade cleaners; hazardous fumes or splashes may result."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review the cupboard",
+          "paragraphs": [
+            "Periodically remove leaking or damaged containers using manufacturer and local waste guidance. Keep an inventory of product names only if useful for replacement planning.",
+            "The article is an informational storage draft, not a chemical-handling procedure, and any detailed hazardous steps need qualified review."
+          ]
+        }
+      ]
+    }
+  ]
+}
