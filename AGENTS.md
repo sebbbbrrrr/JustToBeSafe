@@ -17,7 +17,7 @@ Applies to all coding-agent work in this repository. Read `docs/PRODUCT_BRIEF.md
 ## Design workflow
 - Follow `DESIGN.md` as **provisional design principles**, not as a final brand identity. Do not overwrite or invent a fixed palette, logos, typography, or marketing claims without approval.
 - Prefer Impeccable for product-level UI structure, design critique, responsive behaviour and accessibility. Prefer Emil Kowalski's skills for motion details, animation performance, gesture quality and edge-case checks. Do not run two competing redesigns on the same surface.
-- The repo-local skill `.agents/skills/justtobesafe-design-workflow/SKILL.md` orchestrates these collections. Upstream collections are optional dependencies until installed separately using `scripts/install-design-skills.sh`.
+- The repo-local skill `.agents/skills/justtobesafe-design-workflow/SKILL.md` orchestrates the pinned, vendored Impeccable and Emil skill collections in `.agents/skills/`. Their contents and licences are recorded in `third_party/DESIGN_SKILLS_PROVENANCE.md`. Executable hooks, downloads and browser live-mode tools remain disabled unless explicitly reviewed.
 - Prioritise readable typography, clear state labels, accessible keyboard/focus flows, reduced-motion support, 320px-wide mobile layouts and credible trust signals. Avoid manipulative fear-based visuals.
 - Audit and document findings before making broad UI changes; ship small, testable improvements.
 

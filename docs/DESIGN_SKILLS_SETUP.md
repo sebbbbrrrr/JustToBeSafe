@@ -1,64 +1,48 @@
-# JustToBeSafe — Codex design skills setup
+# JustToBeSafe — Codex design skills
 
-## What is in this PR
-- `AGENTS.md`: global agent safety and product rules.
-- `PRODUCT.md`: validation-stage context used by Impeccable and other coding agents.
-- `DESIGN.md`: provisional design principles, **not** a locked design system.
-- `.agents/skills/justtobesafe-design-workflow/SKILL.md`: a usable repository-local skill to coordinate design tasks.
-- `scripts/install-design-skills.sh`: a **manual** installer for the upstream collections.
-- `scripts/verify-design-skills.sh`: a file-presence check.
+## Status: repository installation complete
 
-**Important distinction:** The original Impeccable and Emil collections are NOT vendored or installed by this GitHub-only PR. Their installers need a local or Codex development checkout with Node.js/npm and trusted execution permissions. The workflow skill is usable immediately when Codex reads this branch. GitHub connector access alone does not execute npm installations.
+This branch now contains the two **original**, version-pinned Codex design skill collections, plus a JustToBeSafe-specific orchestration skill. No manual copying, Codespaces setup or npm installation is necessary for Codex to **discover the skill instructions** after this branch is checked out.
 
-## Install the full upstream skills (optional)
+- `.agents/skills/impeccable/` — Impeccable Codex skill, playbooks, supporting scripts and agent configurations.
+- `.agents/skills/` — all 20 Emil Kowalski skill directories (29 files, including recipes and reviews).
+- `.agents/skills/justtobesafe-design-workflow/` — our own orchestration skill and project rules.
+- `PRODUCT.md`, `DESIGN.md`, `AGENTS.md` — JustToBeSafe product context, provisional design principles and persistent agent constraints.
+- `third_party/DESIGN_SKILLS_PROVENANCE.md` — exact upstream Git revisions, licence locations and security caveats.
 
-From a trusted checkout of this repository (after reviewing this PR and the upstream projects):
+The initial setup PR had a manual installer script. **It is no longer needed.** It now prints a deprecation message rather than fetching or running external code.
+
+## Recommended workflow
+
+1. Review/merge the stacked PRs: PR #1 (Phase 0) first, then PR #2 (design skills). Codex can also work directly from this branch before merging.
+2. Start a new Codex task on the `chore/codex-design-skills-foundation` branch and reload the session to discover repository-scoped skills.
+3. Invoke `$justtobesafe-design-workflow` and ask to shape the **Phase 0 landing page** with truthful status and optional waitlist consent.
+4. Use `$impeccable` for structure, visual direction, critique, layout and accessibility; use `$emil-design-eng`, `$animate`, `$review-animations` and `$break-ui` for animation/interaction and edge-case reviews.
+5. Keep `DESIGN.md` provisional until a direction is reviewed. Do not claim features, alerts, expert approvals, or finished safety information exist when they do not.
+6. Before deployment, test actual rendered mobile and desktop screens, accessibility and consent flows. Seek relevant safety/privacy reviews before launch.
+
+Example design prompt:
+
+> Use $justtobesafe-design-workflow and $impeccable to shape three distinctive, calm and trustworthy visual directions for JustToBeSafe's UK Phase 0 landing page. Preserve PRODUCT.md, DESIGN.md and Phase 0 scope. Show the differences in content hierarchy, visual identity and mobile usability. Make no false product or safety claims. Do not deploy or collect emails. Present the design proposal before implementing.
+
+## Verification and executable features
 
 ```bash
-bash scripts/install-design-skills.sh
+bash scripts/verify-design-skills.sh
 ```
 
-The script asks permission, then runs:
-```bash
-npx skills@latest add emilkowalski/skills --agent codex
-npx impeccable install --providers=codex --scope=project
-```
+This checks expected files and metadata from a working checkout. We also compared original Git blob SHA hashes while transferring both collections. **Neither the full skill runtime nor the Impeccable executable engine has been run**, since this GitHub-only session does not provide a trusted Codex project execution environment. There is no finished website to visually test yet.
 
-Their project-scoped installations are expected in `.agents/skills/`. Review the generated files before committing them; keep meaningful source/licence attribution. Installer behaviour and flags can change, so resolve any new prompts with care rather than bypassing them blindly. The verification script checks entrypoints but does not prove that binaries, references or hooks function correctly.
+Impeccable's scripts may download or execute a binary at first invocation. Its optional design hook, live browser tool and Apply fallback can execute additional commands. **No hooks were installed or activated by this PR.** Inspect their permissions before enabling, and avoid sandbox/approval bypass for unattended tasks.
 
-### Security
-Impeccable offers optional executable design hooks and a browser live mode. Treat these as third-party code. **Decline hooks initially** and inspect their scripts and command permissions before enabling them. On Codex, project hooks require explicit trust via `/hooks`. Impeccable live mode has an Apply fallback that may launch a local coding CLI with sandbox/approval bypass; keep live mode disabled until separately reviewed. Avoid this installation in unattended jobs or CI.
+No app source, GitHub Actions workflow, tracking service, deployment, payment form or live waitlist has been introduced.
 
-## First use in Codex
+## Update policy
 
-1. Checkout the branch containing this setup and reload Codex.
-2. Start with `$justtobesafe-design-workflow` on a narrow task (e.g. *shape the Phase 0 landing-page hero*).
-3. After full upstream install, verify with `bash scripts/verify-design-skills.sh`, then open `/skills` or invoke `$impeccable` / `$emil-design-eng` explicitly.
-4. Impeccable can use `$impeccable init` to read or complete product context and `$impeccable document` to document an existing design. **Do not overwrite the already created PRODUCT.md / provisional DESIGN.md without reviewing changes.** There is currently no finished UI to document.
-5. For landing-page design, run `$impeccable shape the validation landing page`, then implement a first page after direction is selected, then `$impeccable critique the landing page`.
-6. Use Emil's motion skills only when there is actual UI interaction to review; use `$break-ui` on the waitlist form before launch.
+Both source collections are vendored at pinned versions, so they do not auto-update. Future updates should be a separate reviewed PR, comparing upstream changes and licences. Do not run the old `npx` installation commands over the existing vendor directories without checking for conflicts.
 
-## Division of responsibility
+## Main references
 
-| Main question | Preferred workflow |
-|---|---|
-| Product structure, visual direction, typography, layout, accessible responsiveness | Impeccable |
-| Motion timing, easing, gesture craft, interaction details | Emil Kowalski skills |
-| Long labels, edge cases, broken layout | Emil `break-ui` and Impeccable `harden` (different passes) |
-| Frame drops in transitions | Emil `animation-performance`; verify on real hardware |
-| Global project constraints, claims, consent and Phase 0 release gates | AGENTS.md + PRODUCT.md + project-local orchestration skill |
-
-## Phase 0 acceptance checklist
-- [x] Product and design context committed to a dedicated branch.
-- [x] Repository-local Codex design workflow created.
-- [x] Manual install and file-verification scripts added.
-- [ ] Third-party package installation executed in a trusted development checkout.
-- [ ] Generated upstream skills reviewed and committed if desired.
-- [ ] Codex skill discovery and Impeccable executable command verified in the actual runtime.
-- [ ] First landing-page design proposed, reviewed and approved.
-- [ ] UI implementation, visual checks, privacy/legal review and waitlist release.
-
-## Upstream references
-- Emil: https://github.com/emilkowalski/skills
-- Impeccable: https://github.com/pbakaus/impeccable
-- Impeccable docs: https://impeccable.style/docs
+- [Emil Kowalski Skills](https://github.com/emilkowalski/skills)
+- [Impeccable](https://github.com/pbakaus/impeccable)
+- [Source/version provenance](../third_party/DESIGN_SKILLS_PROVENANCE.md)

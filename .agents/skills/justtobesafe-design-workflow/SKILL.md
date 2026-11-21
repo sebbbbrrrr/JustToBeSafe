@@ -27,4 +27,4 @@ Read the root `AGENTS.md`, `PRODUCT.md`, `DESIGN.md`, `docs/PRODUCT_BRIEF.md`, a
 - All emergency-procedure copy requires expert approval and rights verification before public release.
 - Do not download, install or run third-party hooks or scripts without explicit human review of their permissions and contents.
 - Do not commit visitor/customer data, API keys or private location information.
-- Use `docs/DESIGN_SKILLS_SETUP.md` for the **optional upstream installation**, rather than assuming these collections are embedded in this repository.
+- The original Impeccable and Emil skill instructions and supporting files are already vendored in `.agents/skills/`. See `docs/DESIGN_SKILLS_SETUP.md` and `third_party/DESIGN_SKILLS_PROVENANCE.md` for limitations, licences, and safe activation. Do not execute Impeccable's launcher without reviewing its download and permission behaviour.
