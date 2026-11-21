@@ -2,6 +2,11 @@ name: Android debug APK (manual)
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feature/family-profile-foundation
+    paths:
+      - '.github/workflows/android-debug.yml'
 
 permissions:
   contents: read
