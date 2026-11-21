@@ -86,8 +86,8 @@ Household records, precise user location, private member data and inventories **
 
 ## Implementation sequence
 **D1 (this branch):** seed 12 internal-draft urban topics with detailed power-cut section stubs and transparent source/review metadata.
-**D2:** add JSON validation, repository-level QA, versioned schema and migration strategy.
-**D3:** build read-only runtime catalogue loader and filterable Guides UI without exposing unreviewed procedures.
+**D2 (implemented foundation):** JSON schema-version checks, static catalogue validation, read-only parsing guardrails and regression checks. Full schema migration and content-signing remain future work.
+**D3 (implemented for Android prototype):** read-only bundled catalogue loader, searchable Guides UI, Power Cuts section headings, offline index, official external source links, and draft/review labels. No procedure text is displayed.
 **D4:** commission specialist-reviewed Power Cuts guide copy; rights check, source-claim mapping and UK regional review.
 **D5:** ship versioned offline Power Cuts guide with accessible reading, stale alerts and external official links.
 **D6:** repeat for weather/water, then fire, flood and rest of ranked backlog; log sign-offs and corrections.
@@ -97,7 +97,7 @@ Household records, precise user location, private member data and inventories **
 ## Verification from this delivery
 The seed defines 12 unique topic IDs and 7 Power Cuts section stubs, with `publication_state=internal_draft`, `offline_body_available=false`, `safety_review=pending`. Source and review fields are placeholders; none claim review has occurred.
 
-No Android build, GUI smoke test or professional safety review was performed for this content-only change. The preceding family-profile APK build remains the prior separate branch's test artifact.
+Android GitHub Actions runs Python metadata validation, static checks, existing domain checks, JVM unit tests and debug APK assembly for this branch. A passing build is required before calling the integrated APK available; physical P30 UX tests and professional content review remain outstanding.
 
 ## Evidence
 - https://www.gov.uk/government/publications/national-risk-register-2026
