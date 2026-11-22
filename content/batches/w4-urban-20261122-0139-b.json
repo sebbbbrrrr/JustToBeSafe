@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-flood-document-recovery-priority",
+      "title": "Prioritising household records after a flood",
+      "category": "Flood recovery",
+      "summary": "Plan how to identify and recover essential household records without entering unsafe spaces.",
+      "tags": [
+        "flood",
+        "records",
+        "insurance",
+        "documents",
+        "recovery",
+        "photos"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Safety first",
+          "List records",
+          "Contact owner"
+        ],
+        "alt": "An offline conceptual checklist illustration for prioritising household records after a flood, with the labelled stages Safety first, List records, Contact owner. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Separate immediate safety from paperwork",
+          "paragraphs": [
+            "After flooding, damaged rooms, electrical equipment and contaminated materials may present hazards. Do not enter an area simply to retrieve documents; follow the relevant authority, building manager and qualified professional advice before access.",
+            "When access is safe and permitted, identify which records are needed first: identity documents, tenancy or ownership details, insurance references, medical contacts and proof of important purchases. A record of where these were stored can help even if originals are inaccessible."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Make a recovery priority list",
+          "paragraphs": [
+            "Record the type of document, its last known location, the organisation that issued it and whether an authorised digital copy already exists. Avoid publishing passport numbers, financial identifiers or other sensitive details in a shared list.",
+            "Distinguish an item known to be damaged from one that has not been checked. A simple status such as missing, not yet inspected or replacement requested prevents the same work being repeated by household members."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Contact the right organisation",
+          "paragraphs": [
+            "When services are available, ask the document issuer or insurer about replacement and evidence requirements rather than assuming a photograph substitutes for an original. Keep a dated note of correspondence and any reference numbers in a private location.",
+            "Review the priority list once immediate needs are met. This guide does not assess whether a building is safe to enter, whether items are hygienically recoverable or what an insurer will accept."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-storm-window-observation",
+      "title": "Recording window damage after severe weather",
+      "category": "Storm preparedness",
+      "summary": "Create a factual record of visible window or external fixture damage without attempting hazardous inspection.",
+      "tags": [
+        "storm",
+        "wind",
+        "window",
+        "glass",
+        "landlord",
+        "damage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observe",
+          "Record",
+          "Report"
+        ],
+        "alt": "An offline conceptual checklist illustration for recording window damage after severe weather, with the labelled stages Observe, Record, Report. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Observe without approaching hazards",
+          "paragraphs": [
+            "After strong winds, look for obvious changes from a safe indoor or ground-level position only where it is safe to do so. Loose glass, overhead objects and unstable fittings may be dangerous even when the damage appears minor.",
+            "Do not climb, lean outside a window, touch broken glass or move damaged exterior fittings to obtain a better view. If the situation presents immediate danger, keep people clear and follow appropriate emergency advice."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Describe what you can confirm",
+          "paragraphs": [
+            "Record which room or elevation is affected, the approximate time the damage was noticed and whether a leak or draught was also observed. Use photographs only from a safe position and avoid including neighbours or private information unnecessarily.",
+            "Separate visible observations from guesses about the cause. A clear note such as 'crack visible in inner pane' is more useful to a responsible contractor than an unsupported claim about the whole window assembly."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Send a useful maintenance report",
+          "paragraphs": [
+            "Contact the landlord, building manager or appropriate contractor through the established reporting route. Explain any accessibility, heating or security implications so the responsible person can prioritise assessment.",
+            "Keep the report reference and note any temporary instructions given by the responsible professional. This is not a glazing repair guide and does not authorise entering unsafe areas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-mobile-network-fallback",
+      "title": "Preparing a household plan for mobile network disruption",
+      "category": "Household communication",
+      "summary": "Identify realistic non-mobile communication options before a local service disruption.",
+      "tags": [
+        "mobile",
+        "signal",
+        "network",
+        "phone",
+        "communication",
+        "landline",
+        "outage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify needs",
+          "Choose backup",
+          "Test access"
+        ],
+        "alt": "An offline conceptual sequence illustration for preparing a household plan for mobile network disruption, with the labelled stages Identify needs, Choose backup, Test access. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify who needs to communicate",
+          "paragraphs": [
+            "List situations in which household members rely on mobile service, such as contacting a carer, arranging a collection or checking in after a journey. Prioritise accessibility and any time-sensitive needs without storing private information in a public document.",
+            "A phone may lose data access while calls or messages behave differently; a household plan should not assume that every service will fail or recover together."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Choose practical alternatives",
+          "paragraphs": [
+            "Discuss suitable alternatives already available to the household, such as an agreed in-person meeting point, a working fixed-line service or a trusted local contact. Each alternative has limitations, including availability, privacy and accessibility.",
+            "Record essential numbers on paper or in an offline note. Do not rely on internet calling, a particular network, or an app notification as the only fallback; do not assume a landline operates without power."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Test the plan during normal conditions",
+          "paragraphs": [
+            "Ask participants to explain the fallback in their own words, and check whether the meeting place is reachable and appropriate for everyone. Keep arrangements voluntary and avoid making a neighbour responsible for someone without agreement.",
+            "Review the plan after moving, changing provider or altering caring arrangements. For an immediate emergency, follow current emergency-service instructions; this article does not verify network coverage or live outages."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-flood-property-inventory",
+      "title": "Creating a room-by-room property inventory before flooding",
+      "category": "Flood preparedness",
+      "summary": "Build a privacy-conscious record of household possessions to reduce confusion if property is damaged.",
+      "tags": [
+        "flood",
+        "inventory",
+        "contents",
+        "insurance",
+        "room",
+        "photos"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Room list",
+          "Key items",
+          "Private copy"
+        ],
+        "alt": "An offline conceptual shelves illustration for creating a room-by-room property inventory before flooding, with the labelled stages Room list, Key items, Private copy. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Decide what is useful to record",
+          "paragraphs": [
+            "Start with rooms and categories rather than attempting to catalogue every object. Focus on important appliances, furniture, specialist equipment and items that would be difficult to identify later.",
+            "A basic inventory can support household organisation, but insurance cover, proof requirements and replacement values depend on the actual policy. Avoid promising that an inventory will guarantee a claim."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Make a practical record",
+          "paragraphs": [
+            "For each significant item, note a plain-language description, room, approximate purchase period and where any receipt or warranty is stored. Photographs can be helpful when taken safely and with household consent.",
+            "Keep serial numbers, invoices and photographs in private storage with an appropriate backup. Do not publish a detailed list of valuable possessions or home security information in a shared or public location."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain without overcomplicating",
+          "paragraphs": [
+            "Update the list after major purchases, disposals or moves. A short annual review or review after an important household change is more sustainable than a detailed record that is never maintained.",
+            "If flooding occurs, prioritise personal safety and official advice over recovering property or taking photographs. This is a planning guide, not flood-entry or insurance advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bus-stop-accessibility-note",
+      "title": "Making an offline accessibility note for regular bus stops",
+      "category": "Urban transport",
+      "summary": "Record stable physical features and assistance needs without presenting an offline note as live service information.",
+      "tags": [
+        "bus",
+        "stop",
+        "accessibility",
+        "mobility",
+        "transport",
+        "shelter"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Stop location",
+          "Access needs",
+          "Verify"
+        ],
+        "alt": "An offline conceptual checklist illustration for making an offline accessibility note for regular bus stops, with the labelled stages Stop location, Access needs, Verify. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify a regular journey",
+          "paragraphs": [
+            "Choose a bus stop used for essential journeys and record its official name or stop code where available. Note whether the stop has a shelter, seating or a nearby crossing only from safe public observation.",
+            "Accessibility can depend on temporary works, vehicle type, pavement conditions and individual needs. A static description cannot guarantee that a stop or service will be usable on the day."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Capture useful stable details",
+          "paragraphs": [
+            "Record the approach from the public pavement, obvious step-free alternatives and any known information point. Keep descriptions factual and avoid presenting a personally estimated walking time as universally accessible.",
+            "If a person needs particular assistance, note the operator's published contact route and the questions to ask before travel. Do not share another person's disability or journey details without consent."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check before travel",
+          "paragraphs": [
+            "Review operator updates and local signage whenever connectivity is available, particularly after roadworks or route changes. Where appropriate, ask the operator about accessibility arrangements rather than assuming the offline note remains accurate.",
+            "Keep a paper or offline copy of the stop name and a backup journey option. This article is not a real-time bus timetable, accessible-route certification or traffic instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-street-drain-observation",
+      "title": "Reporting blocked street drains without entering floodwater",
+      "category": "Urban infrastructure",
+      "summary": "Prepare a clear public-infrastructure report from a safe position.",
+      "tags": [
+        "drain",
+        "gully",
+        "surface water",
+        "flood",
+        "street",
+        "council",
+        "report"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Keep clear",
+          "Note location",
+          "Report"
+        ],
+        "alt": "An offline conceptual sequence illustration for reporting blocked street drains without entering floodwater, with the labelled stages Keep clear, Note location, Report. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the limits of observation",
+          "paragraphs": [
+            "Standing water near a roadside gully may have several causes, including heavy rainfall, debris or wider drainage problems. Do not assume a visible puddle proves that a specific drain is blocked.",
+            "Never enter floodwater, lift covers, clear roadside debris in traffic or approach unstable surfaces to inspect a drain. Keep children and other household members away from obvious hazards."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Record a useful location",
+          "paragraphs": [
+            "From a safe public position, note the street name, nearest junction or recognisable public landmark and whether water is affecting a pavement or property access. Describe only what can be observed.",
+            "If safe, a photograph showing the surrounding public location can help the responsible authority understand the report. Avoid photographing people, private premises or vehicle registration plates unnecessarily."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Find the responsible reporting route",
+          "paragraphs": [
+            "Use the relevant highway, council, water company or property management reporting route when available; responsibility differs by location and asset. Include the observation date and a concise description rather than a speculative technical diagnosis.",
+            "If water is rising or there is an immediate danger, follow current official warnings and emergency instructions. A report does not establish that the site is safe or that a repair has been scheduled."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-heating-service-note",
+      "title": "Documenting a shared-building heating interruption",
+      "category": "Shared buildings",
+      "summary": "Organise building-specific facts and resident communications during a communal heating interruption.",
+      "tags": [
+        "district heating",
+        "communal heating",
+        "flats",
+        "radiators",
+        "building manager",
+        "outage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "What is affected",
+          "Who manages it",
+          "Follow up"
+        ],
+        "alt": "An offline conceptual checklist illustration for documenting a shared-building heating interruption, with the labelled stages What is affected, Who manages it, Follow up. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Distinguish shared from individual systems",
+          "paragraphs": [
+            "In some flats, heat or hot water comes from a communal plant rather than equipment controlled within the dwelling. Record the supplier or managing agent from tenancy, service or building information instead of guessing from symptoms.",
+            "A cold room does not by itself identify the fault. Avoid adjusting unfamiliar communal controls, entering locked plant rooms or attempting repairs to shared infrastructure."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Create a concise fault record",
+          "paragraphs": [
+            "Note the time the problem was noticed, which services seem affected and any reference number supplied by the responsible organisation. Share only factual observations and avoid publishing residents' names or medical circumstances.",
+            "For households with particular health or accessibility needs, identify the appropriate confidential route for requesting assistance. Do not post sensitive circumstances on a communal noticeboard."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep communications current",
+          "paragraphs": [
+            "Record when the building manager or supplier last confirmed information and distinguish a confirmed update from an estimate or rumour. Recheck official messages rather than assuming an offline note reflects current restoration times.",
+            "Follow qualified advice for heating, hot-water and electrical safety. This article does not specify emergency heating methods, diagnose plant faults or provide live restoration status."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-local-assembly-point-information",
+      "title": "Recording an agreed household meeting location",
+      "category": "Household communication",
+      "summary": "Create a simple, consent-based meeting-location reference for times when usual communication fails.",
+      "tags": [
+        "meeting point",
+        "household",
+        "family",
+        "offline",
+        "communication",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Choose place",
+          "Agree contact",
+          "Revisit plan"
+        ],
+        "alt": "An offline conceptual route illustration for recording an agreed household meeting location, with the labelled stages Choose place, Agree contact, Revisit plan. It is not a live map or official instruction.",
+        "caption": "Planning schematic only; current local conditions and responsible organisations take precedence."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose a realistic location",
+          "paragraphs": [
+            "Discuss a familiar public place that household members can identify without a phone map. Consider opening hours, weather exposure, accessibility, lighting and whether everyone can reach it safely.",
+            "An agreed meeting location is not an official evacuation or emergency assembly point. Do not choose a location that conflicts with building instructions, road closures or emergency-service directions."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Agree what the note should contain",
+          "paragraphs": [
+            "Record the public place name, a short identifying description and who has agreed to use it. Avoid publishing children's movements, private addresses or routine schedules in publicly accessible notes.",
+            "Make the arrangement clear enough for someone who has not seen the app recently. A simple paper backup may be useful if the device is unavailable or its battery is exhausted."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Revisit assumptions",
+          "paragraphs": [
+            "Check the location periodically and after changes in mobility, transport or household membership. If the location becomes inaccessible, choose a replacement with the people affected.",
+            "During an actual incident, official evacuation, shelter and emergency-service instructions take precedence over a household plan. This guide does not direct movement through hazardous areas."
+          ]
+        }
+      ]
+    }
+  ]
+}
