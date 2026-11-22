@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-parking-permit-portal-unavailable",
+      "title": "Keeping parking permit evidence when an online portal is unavailable",
+      "category": "Transport",
+      "summary": "An offline planning reference for keeping parking permit evidence when an online portal is unavailable.",
+      "tags": [
+        "permit",
+        "parking",
+        "council"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Save reference",
+          "Check rules",
+          "Contact issuer"
+        ],
+        "alt": "An original offline planning diagram about keeping parking permit evidence when an online portal is unavailable, showing the three concepts Save reference, Check rules, Contact issuer. It is not a live status map.",
+        "caption": "Planning reference: Save reference · Check rules · Contact issuer. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "Parking permission may depend on a specific vehicle, zone and date. A saved confirmation does not prove that an entitlement is currently valid. Record the issuing authority and permit reference privately rather than publishing vehicle identifiers.",
+            "If an online renewal fails, note the displayed error and check whether a payment was confirmed before trying again. An unavailable portal does not automatically suspend parking restrictions."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Keep an official contact route and a securely stored confirmation. Check current on-street signs before relying on an alternative parking space.",
+            "Use the issuer's published enquiry or appeal process where appropriate. Keep correspondence and update your record when an outcome is confirmed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-damaged-street-name-sign",
+      "title": "Reporting an unreadable or missing street-name sign",
+      "category": "Urban infrastructure",
+      "summary": "An offline planning reference for reporting an unreadable or missing street-name sign.",
+      "tags": [
+        "street",
+        "wayfinding",
+        "sign"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate safely",
+          "Describe fault",
+          "Report"
+        ],
+        "alt": "An original offline planning diagram about reporting an unreadable or missing street-name sign, showing the three concepts Locate safely, Describe fault, Report. It is not a live status map.",
+        "caption": "Planning reference: Locate safely · Describe fault · Report. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "A damaged or missing street-name sign can make navigation and deliveries harder, especially where nearby streets have similar names. Identify the public junction and describe the problem.",
+            "Note whether the plate is absent, rotated, obstructed or unreadable. Observe from a safe pedestrian position; do not enter traffic to inspect or photograph it."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Find the relevant local authority's street-sign reporting channel. A private road or managed estate may have a different responsible organisation.",
+            "For visitors, provide a verified nearby landmark rather than inventing a street name. Retain the report reference and check for an official response later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-grit-bin-status",
+      "title": "Recording a local grit-bin problem before cold weather",
+      "category": "Weather readiness",
+      "summary": "An offline planning reference for recording a local grit-bin problem before cold weather.",
+      "tags": [
+        "winter",
+        "grit",
+        "council"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify bin",
+          "Note condition",
+          "Report"
+        ],
+        "alt": "An original offline planning diagram about recording a local grit-bin problem before cold weather, showing the three concepts Identify bin, Note condition, Report. It is not a live status map.",
+        "caption": "Planning reference: Identify bin · Note condition · Report. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "Public grit bins may be maintained by different organisations, and their presence does not guarantee that nearby paths will be treated. Record the bin's location and visible identifier.",
+            "From a safe position, note obvious damage, obstruction or an apparently empty bin. Do not climb inside, enter a road or assume the contents are available for private use."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Use the responsible council or land manager's reporting channel and keep the reference. Do not assume any material is suitable for every surface.",
+            "Plan an accessible alternative for essential journeys when conditions are difficult. Follow current official winter-service information rather than relying on an offline diagram."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-transport-lost-property-offline",
+      "title": "Preparing a lost-property reference for disrupted journeys",
+      "category": "Transport",
+      "summary": "An offline planning reference for preparing a lost-property reference for disrupted journeys.",
+      "tags": [
+        "lost property",
+        "rail",
+        "bus"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record journey",
+          "Describe item",
+          "Contact operator"
+        ],
+        "alt": "An original offline planning diagram about preparing a lost-property reference for disrupted journeys, showing the three concepts Record journey, Describe item, Contact operator. It is not a live status map.",
+        "caption": "Planning reference: Record journey · Describe item · Contact operator. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "A lost-property enquiry is easier to describe when you know the operator, route, direction, approximate time and boarding or exit point. Record only details you can confirm.",
+            "Describe distinctive external features without publishing passcodes, document numbers or financial information. Keep ownership evidence privately for verified requests."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Transport operators and stations may have separate lost-property processes. Save official enquiry contacts ahead of time where practical.",
+            "Retain the case number and follow the operator's instructions. Do not travel to an unconfirmed collection point or assume an item has been recovered."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-accessible-entrance-temporary-change",
+      "title": "Planning for a temporary change to a public building entrance",
+      "category": "Accessibility",
+      "summary": "An offline planning reference for planning for a temporary change to a public building entrance.",
+      "tags": [
+        "step free",
+        "accessibility",
+        "entrance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Main entrance",
+          "Confirm access",
+          "Alternative"
+        ],
+        "alt": "An original offline planning diagram about planning for a temporary change to a public building entrance, showing the three concepts Main entrance, Confirm access, Alternative. It is not a live status map.",
+        "caption": "Planning reference: Main entrance · Confirm access · Alternative. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "A temporary entrance can change ramp access, door width, opening hours or the route to lifts. A sign saying use another door does not establish step-free access.",
+            "Before a necessary visit, identify the venue operator and the specific access features required. Avoid recording a person's private medical details in shared notes."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Ask whether the temporary entrance and the onward route to the intended service meet the traveller's needs. Arrange an alternative appointment if access cannot be confirmed.",
+            "Record who confirmed arrangements and when. Temporary works may change again, so retain a fallback contact method for the venue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-drinking-water-point-closure",
+      "title": "Responding to an unavailable public drinking-water point",
+      "category": "Urban infrastructure",
+      "summary": "An offline planning reference for responding to an unavailable public drinking-water point.",
+      "tags": [
+        "refill",
+        "drinking fountain",
+        "water"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check notice",
+          "Find alternative",
+          "Confirm supply"
+        ],
+        "alt": "An original offline planning diagram about responding to an unavailable public drinking-water point, showing the three concepts Check notice, Find alternative, Confirm supply. It is not a live status map.",
+        "caption": "Planning reference: Check notice · Find alternative · Confirm supply. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "A drinking fountain can close for maintenance, seasonal operation or other reasons. A closed outlet does not alone prove a wider supply issue.",
+            "Read posted notices without handling damaged fittings. Do not use an outlet marked out of service or assume that an unlabelled nearby tap provides drinking water."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Identify more than one legitimate refill option and consider access hours and personal needs. Saved directories may be outdated.",
+            "Report visible damage to the operator. If a notice concerns water quality, follow current responsible-authority instructions; an offline article cannot establish safety."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bicycle-parking-temporary-closure",
+      "title": "Preparing for temporary closure of public bicycle parking",
+      "category": "Transport",
+      "summary": "An offline planning reference for preparing for temporary closure of public bicycle parking.",
+      "tags": [
+        "cycle parking",
+        "bicycle",
+        "street works"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual stand",
+          "Check access",
+          "Other stand"
+        ],
+        "alt": "An original offline planning diagram about preparing for temporary closure of public bicycle parking, showing the three concepts Usual stand, Check access, Other stand. It is not a live status map.",
+        "caption": "Planning reference: Usual stand · Check access · Other stand. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "Cycle stands may be removed or fenced off during works and events. A marked cycle route does not guarantee parking at the destination.",
+            "Note the extent of the restriction without moving barriers or entering a work area. Identify permitted alternatives before an essential journey."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Choose a place that does not obstruct pavements, entrances or accessible routes. Do not assume a tree, railing or road sign is an authorised parking point.",
+            "Check locking facilities, access hours and operator conditions. Save official contact information and revisit it when restrictions change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-planned-noisy-street-works-notices",
+      "title": "Organising household information about planned noisy street works",
+      "category": "Household planning",
+      "summary": "An offline planning reference for organising household information about planned noisy street works.",
+      "tags": [
+        "street works",
+        "noise",
+        "notice"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Record notice",
+          "Plan access",
+          "Check updates"
+        ],
+        "alt": "An original offline planning diagram about organising household information about planned noisy street works, showing the three concepts Record notice, Plan access, Check updates. It is not a live status map.",
+        "caption": "Planning reference: Record notice · Plan access · Check updates. Check current official information."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and record the issue",
+          "paragraphs": [
+            "A works notice may give expected dates and hours, but programmes can change. Record the issuer, location, reference and date checked.",
+            "Separate confirmed access restrictions from guesses about noise. Consider effects on deliveries, work, school journeys and mobility needs without publishing household routines."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Contact the works promoter or highway authority about access and notifications. Different organisations may handle different questions.",
+            "Keep responses and update the household plan when works change. Do not interfere with barriers or equipment; follow current site instructions."
+          ]
+        }
+      ]
+    }
+  ]
+}
