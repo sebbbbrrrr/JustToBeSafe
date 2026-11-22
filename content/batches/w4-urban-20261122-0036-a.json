@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-building-entrance-record",
+      "title": "Recording building entrance information",
+      "category": "Urban access",
+      "summary": "A practical offline reference for recording building entrance information without relying on live network status.",
+      "tags": [
+        "address",
+        "entrance",
+        "estate",
+        "access",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Address",
+          "Entrance",
+          "Access notes"
+        ],
+        "alt": "A simple offline diagram illustrating address, entrance, access notes for recording building entrance information; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Check the complete postal address, entrance name and any public-facing signs; large estates often have several doors. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Describe the public approach without publishing private access codes or residents' personal details. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Review the record after building works and keep an offline copy where household members can find it. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-neighbour-checkin-consent",
+      "title": "Agreeing a voluntary neighbour check-in",
+      "category": "Community communication",
+      "summary": "A practical offline reference for agreeing a voluntary neighbour check-in without relying on live network status.",
+      "tags": [
+        "neighbours",
+        "consent",
+        "checkin",
+        "outage",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Ask first",
+          "Agree method",
+          "Review"
+        ],
+        "alt": "A simple offline diagram illustrating ask first, agree method, review for agreeing a voluntary neighbour check-in; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Ask neighbours whether they want to participate; never assume someone consents to sharing their details. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Agree a modest check-in method for local disruptions without presenting the arrangement as an emergency service. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Review the list when residents move and remove contact information on request. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-building-noticeboard",
+      "title": "Keeping a building noticeboard useful offline",
+      "category": "Shared buildings",
+      "summary": "A practical offline reference for keeping a building noticeboard useful offline without relying on live network status.",
+      "tags": [
+        "noticeboard",
+        "flats",
+        "communication",
+        "building",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "What happened",
+          "Contact",
+          "Updated"
+        ],
+        "alt": "A simple offline diagram illustrating what happened, contact, updated for keeping a building noticeboard useful offline; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Separate directly confirmed service faults from rumours and unknown restoration times. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Use large readable text, a date and an authorised management contact without exposing resident data. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Remove superseded notices promptly so outdated messages cannot be mistaken for current instructions. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-transport-alternatives-card",
+      "title": "Making an offline transport alternatives card",
+      "category": "Urban transport",
+      "summary": "A practical offline reference for making an offline transport alternatives card without relying on live network status.",
+      "tags": [
+        "transport",
+        "offline",
+        "bus",
+        "rail",
+        "accessibility",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual route",
+          "Alternative",
+          "Check status"
+        ],
+        "alt": "A simple offline diagram illustrating usual route, alternative, check status for making an offline transport alternatives card; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Identify journeys that would be difficult to postpone and note accessibility needs. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Record plausible alternative routes or contacts without claiming printed timetables reflect live services. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Before travelling, follow current operator notices and local signage rather than an old offline card. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-workspace-outage",
+      "title": "Preparing a low-tech workspace for a short outage",
+      "category": "Household planning",
+      "summary": "A practical offline reference for preparing a low-tech workspace for a short outage without relying on live network status.",
+      "tags": [
+        "workspace",
+        "internet",
+        "power",
+        "documents",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Paper notes",
+          "Offline files",
+          "Contacts"
+        ],
+        "alt": "A simple offline diagram illustrating paper notes, offline files, contacts for preparing a low-tech workspace for a short outage; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Choose essential tasks that can continue without connectivity and defer confidential work that requires secure systems. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Keep paper, suitable lighting and approved offline documents together, without improvising unsafe power arrangements. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Date handwritten records and reconcile them carefully when systems return to avoid duplicate submissions. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-planned-roadworks",
+      "title": "Planning household access during roadworks",
+      "category": "Urban transport",
+      "summary": "A practical offline reference for planning household access during roadworks without relying on live network status.",
+      "tags": [
+        "roadworks",
+        "street",
+        "deliveries",
+        "mobility",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Read notice",
+          "Plan access",
+          "Recheck"
+        ],
+        "alt": "A simple offline diagram illustrating read notice, plan access, recheck for planning household access during roadworks; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Read the official works notice for dates, pedestrian routes and any accessibility arrangements. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Consider care visits, deliveries, school travel and legal parking without moving barriers or entering work zones. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Recheck current signs before leaving and discard obsolete route notes once the works end. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-laundry-outage",
+      "title": "Reporting a shared laundry room outage",
+      "category": "Shared buildings",
+      "summary": "A practical offline reference for reporting a shared laundry room outage without relying on live network status.",
+      "tags": [
+        "laundry",
+        "flats",
+        "maintenance",
+        "hygiene",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify issue",
+          "Report fault",
+          "Update users"
+        ],
+        "alt": "A simple offline diagram illustrating identify issue, report fault, update users for reporting a shared laundry room outage; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Note whether the issue affects one machine, room access or payment systems without opening electrical panels. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Report factual observations and the machine identifier to the appointed operator; keep personal details private. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Use a dated notice where permitted and remove it after the operator confirms service restoration. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-contact-card-refresh",
+      "title": "Refreshing household offline contact cards",
+      "category": "Communication",
+      "summary": "A practical offline reference for refreshing household offline contact cards without relying on live network status.",
+      "tags": [
+        "contacts",
+        "offline",
+        "family",
+        "privacy",
+        "preparedness",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check details",
+          "Share securely",
+          "Replace copies"
+        ],
+        "alt": "A simple offline diagram illustrating check details, share securely, replace copies for refreshing household offline contact cards; the graphic is conceptual and does not show live conditions.",
+        "caption": "Conceptual planning diagram only; local conditions and official information take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Verify agreed contact names, phone numbers and fallback methods after moves or provider changes. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Write down what has been confirmed and what remains uncertain. Avoid copying personal details, unverified claims or predictions into a reference that may be shared with others."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a practical reference",
+          "paragraphs": [
+            "Share only necessary information and never print passwords or sensitive records on general-purpose cards. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Make the information legible and accessible to the people who actually use it. Prefer a short, dated offline note to a complicated document that is difficult to keep current."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain and review",
+          "paragraphs": [
+            "Replace outdated copies, mark the revision date and test contacts through ordinary non-emergency communication. This is a planning reference, not a live status report or an instruction issued by the responsible service provider.",
+            "Check whether the information is still relevant after a disruption, relocation or change in service. Follow the responsible organisation's latest instructions whenever they are available."
+          ]
+        }
+      ]
+    }
+  ]
+}
