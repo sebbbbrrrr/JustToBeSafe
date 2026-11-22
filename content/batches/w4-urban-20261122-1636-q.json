@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-public-rest-stop-alternatives",
+      "title": "Planning rest stops when public seating is unavailable",
+      "category": "Urban access",
+      "summary": "Offline planning and recordkeeping guidance for planning rest stops when public seating is unavailable.",
+      "tags": [
+        "seating",
+        "rest",
+        "mobility",
+        "journey"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual stop",
+          "Alternative",
+          "Confirm"
+        ],
+        "alt": "A three-part route schematic labelled Usual stop, Alternative, Confirm. It summarises safe information gathering and planning for planning rest stops when public seating is unavailable, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "On a familiar route, note places where public seating is normally provided, distinguishing outdoor benches from staffed premises with admission or opening restrictions. A map symbol does not establish that a seat is currently usable.",
+            "Consider whether the journey offers enough opportunities to pause for the people travelling, including anyone with reduced stamina. Record a shorter alternative rather than assuming everyone can complete the original distance."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "Where practical, confirm opening hours and accessibility with the responsible operator before leaving. If conditions change, prioritise a safe accessible alternative rather than continuing to an uncertain rest point.",
+            "Keep a paper note of possible rest locations, their limitations and the date last checked. Do not publish someone else's personal mobility needs in a shared guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-building-delivery-handover",
+      "title": "Agreeing a temporary parcel handover in a shared building",
+      "category": "Household communication",
+      "summary": "Offline planning and recordkeeping guidance for agreeing a temporary parcel handover in a shared building.",
+      "tags": [
+        "parcels",
+        "deliveries",
+        "shared building",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree",
+          "Record",
+          "Confirm"
+        ],
+        "alt": "A three-part sequence schematic labelled Agree, Record, Confirm. It summarises safe information gathering and planning for agreeing a temporary parcel handover in a shared building, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "When a communal entrance or parcel room is unavailable, ask the manager or carrier what temporary arrangements are authorised. A neighbour's suggestion does not automatically change delivery rules.",
+            "If another adult agrees to receive an item, record their consent and agreed method without displaying access codes, tracking links or flat numbers on a public noticeboard."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "Note the carrier, reference, recipient, agreed collection point and date in a private household record. Avoid unnecessary descriptions of parcel contents.",
+            "Confirm receipt with the recipient and close the record after collection. For medicines, valuables or identity documents, follow the carrier's security rules rather than an informal handover."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-pedestrian-refuge-obstruction",
+      "title": "Reporting an obstructed pedestrian refuge or crossing island",
+      "category": "Urban infrastructure",
+      "summary": "Offline planning and recordkeeping guidance for reporting an obstructed pedestrian refuge or crossing island.",
+      "tags": [
+        "crossing",
+        "pedestrian refuge",
+        "road safety",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Access impact",
+          "Report"
+        ],
+        "alt": "A three-part checklist schematic labelled Location, Access impact, Report. It summarises safe information gathering and planning for reporting an obstructed pedestrian refuge or crossing island, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "A refuge can become difficult to use when debris, equipment or parked objects narrow its space. Describe the location using a road name and nearby junction without entering traffic to inspect it.",
+            "Note whether the obstruction appears to affect wheelchair users, pushchairs or anyone needing the island to pause. Never assume an alternative gap in traffic is a safe crossing."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "Use the relevant highway authority's published reporting channel when available. Include a factual description, date and photo only if taken from a safe public position.",
+            "Retain a report reference and check for an official response. For immediate danger, use the appropriate local emergency reporting channel; this guide cannot assess live road conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-towpath-access-changes",
+      "title": "Checking access changes on a canal or riverside towpath",
+      "category": "Urban transport",
+      "summary": "Offline planning and recordkeeping guidance for checking access changes on a canal or riverside towpath.",
+      "tags": [
+        "towpath",
+        "canal",
+        "riverside",
+        "closures"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Access point",
+          "Closure check",
+          "Street option"
+        ],
+        "alt": "A three-part route schematic labelled Access point, Closure check, Street option. It summarises safe information gathering and planning for checking access changes on a canal or riverside towpath, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "Towpaths and riverside paths may have different managers, gates, steps and restricted sections. Record the named waterway, nearest public access point and responsible organisation where known.",
+            "A closure notice may apply only to a short section. An old downloaded map does not prove a route remains passable, especially after severe weather or flooding."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "Before a non-essential journey, identify a public street or accessible path alternative that does not require approaching floodwater or entering a closed area. Consider lighting, surfaces and step-free access.",
+            "Keep a dated note of the source consulted. Follow current signage and the responsible organisation's instructions; do not move barriers or take an unverified shortcut along the water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-mobility-aid-venue-parking",
+      "title": "Planning around unavailable mobility-aid parking at public venues",
+      "category": "Urban access",
+      "summary": "Offline planning and recordkeeping guidance for planning around unavailable mobility-aid parking at public venues.",
+      "tags": [
+        "mobility aid",
+        "accessibility",
+        "venue",
+        "parking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Ask venue",
+          "Confirm space",
+          "Review"
+        ],
+        "alt": "A three-part checklist schematic labelled Ask venue, Confirm space, Review. It summarises safe information gathering and planning for planning around unavailable mobility-aid parking at public venues, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "A venue may change where scooters, wheelchairs or other aids can be positioned during works. Ask staff about accessible entry, available space and whether an aid can remain with its user.",
+            "Do not assume informal storage is authorised or secure. Never obstruct exits, corridors or accessible routes, or leave an aid somewhere that prevents its user from leaving independently."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "Record the venue's confirmed arrangement, who provided it and any limitations affecting the visit. Include a way to contact staff if the agreed space becomes unavailable.",
+            "Review the plan before each visit while temporary changes remain. If essential accessibility needs cannot be met, ask about reasonable alternatives instead of improvising an unsafe arrangement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-paper-notice-contact-verification",
+      "title": "Verifying contact details printed on temporary public notices",
+      "category": "Community communication",
+      "summary": "Offline planning and recordkeeping guidance for verifying contact details printed on temporary public notices.",
+      "tags": [
+        "public notices",
+        "phone numbers",
+        "verification",
+        "scams"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice",
+          "Independent check",
+          "Record"
+        ],
+        "alt": "A three-part sequence schematic labelled Notice, Independent check, Record. It summarises safe information gathering and planning for verifying contact details printed on temporary public notices, not actual live conditions or a hazardous procedure.",
+        "caption": "Offline planning aid; current instructions from the responsible organisation take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the local arrangement",
+          "paragraphs": [
+            "A printed notice can be useful without internet, but a phone number or QR code on it does not prove authenticity. Record the named organisation, affected service and date without assuming the notice is current.",
+            "Compare contact details with an independently established number from a trusted household record or the responsible organisation. Never share passwords or payment details merely because a notice requests them."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare and verify a practical alternative",
+          "paragraphs": [
+            "If confirmed, record the notice date, affected service and the independent confirmation source. Clearly distinguish verified contacts from unverified numbers printed on the notice.",
+            "When notices conflict, seek clarification through an established organisational channel. This is a verification aid, not a statement about any live incident or service status."
+          ]
+        }
+      ]
+    }
+  ]
+}
