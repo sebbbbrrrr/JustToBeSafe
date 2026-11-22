@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-weather-warning-impact-planning",
+      "title": "Separating weather-warning likelihood from household impact",
+      "category": "Weather readiness",
+      "summary": "Use a dated forecast to identify personal dependencies without treating warning colour as a household-specific prediction.",
+      "tags": [
+        "weather warning",
+        "impact",
+        "household planning",
+        "forecast uncertainty"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Time and area",
+          "Personal exposure",
+          "Recheck source"
+        ],
+        "alt": "A 3-part checklist diagram labelled Time and area, Personal exposure, Recheck source. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand the two questions",
+          "paragraphs": [
+            "A weather warning describes a forecast hazard over a stated area and time. It does not establish that every street, building or journey in that area will experience the same conditions. Keep the warning's issue time, validity period and geographic coverage with any saved copy.",
+            "Consider exposure separately: a household with a long essential journey, limited mobility or an outdoor appointment may need a different contingency from a neighbour who can remain indoors. A lower-level warning does not mean that a particular location is risk-free."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record a proportionate response",
+          "paragraphs": [
+            "Write down which essential commitments could be affected, what would trigger a fresh check and which official forecast or local service source to consult when connectivity returns. Avoid copying a warning colour into a permanent risk label for the home.",
+            "An offline note can remind people what to verify, but cannot update the forecast. If an authority or responsible operator issues current instructions, those take precedence over this general planning draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-flood-journey-checkpoints",
+      "title": "Planning a journey that crosses several flood-prone locations",
+      "category": "Flood and travel",
+      "summary": "Think about the whole route rather than assuming a dry departure point means the destination is reachable.",
+      "tags": [
+        "flooding",
+        "journey",
+        "bridges",
+        "route planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Start",
+          "Crossings",
+          "Destination"
+        ],
+        "alt": "A 3-part route diagram labelled Start, Crossings, Destination. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Look beyond the endpoints",
+          "paragraphs": [
+            "A trip may pass low-lying roads, underpasses or river crossings even when the home and destination appear unaffected. A single blocked section can prevent the journey, and a mapping app's shortest route may not reflect temporary closures.",
+            "List the essential parts of the trip, including any interchange or pedestrian section. Use published transport and highway information to check each part before setting out; a saved map is not evidence of current safety."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a safe decision without improvising",
+          "paragraphs": [
+            "Record an alternative date, remote appointment option or contact for the destination if the journey is not essential. Tell the relevant person when plans change, rather than relying on an unconfirmed diversion.",
+            "Never enter floodwater or cross barriers to test whether a route is passable. Follow current official warnings and road-operator directions; this article provides no evacuation route or flood-depth assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-care-visit-transport-contingency",
+      "title": "Keeping care visits coordinated when local transport is disrupted",
+      "category": "Household communication",
+      "summary": "Prepare a consent-based contact plan for a scheduled support visit affected by transport delays.",
+      "tags": [
+        "care visit",
+        "transport delay",
+        "contact plan",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Expected visit",
+          "Check provider",
+          "Escalate if needed"
+        ],
+        "alt": "A 3-part sequence diagram labelled Expected visit, Check provider, Escalate if needed. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record the arrangement clearly",
+          "paragraphs": [
+            "Some households rely on scheduled visits from carers, support workers or trusted relatives. A disruption to buses, roads or lifts may affect the visit even when the person receiving support has not lost phone service.",
+            "With the person's agreement, record the service's normal contact channel, a backup contact and the visit window. Keep private details off public noticeboards and do not store sensitive medical information in a shared travel note."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Agree how changes are confirmed",
+          "paragraphs": [
+            "Ask the responsible care provider how it communicates delays, missed visits and urgent concerns. Record who is authorised to change the arrangement; an informal neighbour should not be presented as a substitute for a professional service.",
+            "If an expected visit does not occur, use the provider's established escalation route. For immediate danger use the appropriate emergency service. This draft does not prescribe care procedures or make assumptions about a provider's live availability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-lost-phone-offline-contact",
+      "title": "Preparing for a lost phone during a wider communications disruption",
+      "category": "Household communication",
+      "summary": "Keep a minimal, privacy-conscious fallback for essential contact when a handset is lost or inaccessible.",
+      "tags": [
+        "lost phone",
+        "offline contacts",
+        "communication",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Paper contacts",
+          "Meeting plan",
+          "Secure recovery"
+        ],
+        "alt": "A 3-part checklist diagram labelled Paper contacts, Meeting plan, Secure recovery. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep a small separate reference",
+          "paragraphs": [
+            "A lost or damaged phone can remove access to contact numbers, tickets and account recovery methods at the same time. An internet outage may make cloud backups unavailable, so relying on one handset creates a single point of failure.",
+            "Keep a small paper list of essential telephone numbers and a meeting arrangement in a secure place. Do not write passwords, one-time codes, full identity documents or sensitive account recovery answers on a public or easily lost card."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Separate recovery from immediate contact",
+          "paragraphs": [
+            "For an immediate journey, use a trusted alternative communication channel or a previously agreed meeting point. A borrowed phone may allow a call, but avoid signing into personal accounts on a stranger's device.",
+            "When secure access is available, use the handset provider's official lost-device and account-protection process. The offline note should help contact people, not attempt to replace live account security or tracking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-transport-audio-announcement-access",
+      "title": "Checking transport changes when audio announcements are hard to use",
+      "category": "Urban access",
+      "summary": "Plan a second accessible information channel for service changes announced only over loudspeakers.",
+      "tags": [
+        "hearing access",
+        "announcements",
+        "transport",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Announcement",
+          "Accessible check",
+          "Confirm route"
+        ],
+        "alt": "A 3-part sequence diagram labelled Announcement, Accessible check, Confirm route. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the information gap",
+          "paragraphs": [
+            "Platform changes and service disruptions may be announced over a loudspeaker that is difficult to hear or understand in a crowded station. A visual display may also be unavailable, out of date or placed away from the traveller's route.",
+            "Before an important journey, note the station's published assistance contact and which information formats work for the traveller. Do not assume that a single display, app or audio announcement provides the full current picture."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Ask for confirmation of the complete trip",
+          "paragraphs": [
+            "When a change occurs, request written, visual or direct staff confirmation of the platform, destination and any affected interchange. Check accessibility at the exit as well as at the boarding point.",
+            "Keep a short offline card explaining the preferred communication method without exposing unnecessary personal details. This is a request aid, not proof of what services or staff are available on a given day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-weather-closure-resumption-check",
+      "title": "Rechecking services after a severe-weather closure is lifted",
+      "category": "Urban services",
+      "summary": "Avoid assuming that reopening a road, school or venue restores every linked service immediately.",
+      "tags": [
+        "reopening",
+        "severe weather",
+        "transport",
+        "service dependencies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Site status",
+          "Linked services",
+          "Latest confirmation"
+        ],
+        "alt": "A 3-part checklist diagram labelled Site status, Linked services, Latest confirmation. It shows the distinct information checks or planning stages described in this guide, not a live status report or authorised route.",
+        "caption": "Offline planning reference only; confirm current information with responsible services."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Distinguish permission from readiness",
+          "paragraphs": [
+            "A closure ending may mean a particular restriction has been removed, not that every bus, lift, access road or appointment has returned to its usual pattern. A dated reopening notice should be read alongside the latest operator information.",
+            "For a necessary visit, identify the dependent services: access to the site, transport to reach it and any booking or assistance arrangements. A building being open does not establish that an individual service is staffed or accessible."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a short verification record",
+          "paragraphs": [
+            "Record the responsible operator, the service being checked and the time of the latest confirmation. If the information is inconsistent, contact the operator rather than treating an old screenshot or forwarded message as current.",
+            "Keep a backup arrangement for appointments or essential collections until the complete trip is confirmed. Do not remove barriers, enter restricted areas or interpret this offline article as live reopening advice."
+          ]
+        }
+      ]
+    }
+  ]
+}
