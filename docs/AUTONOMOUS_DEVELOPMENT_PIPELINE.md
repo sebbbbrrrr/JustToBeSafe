@@ -31,3 +31,27 @@ First prove ONE entire five-stage cycle without a merge, accidental CI run or in
 - Separate verification statuses: `passed_isolated`, `passed_integration`, `unverified_integration`, `failed_code`, `blocked_infrastructure`. Never collapse `blocked_infrastructure` into `failed_code`.
 - A manual isolated test from a faithfully copied source is evidence for the isolated function only, not proof that the full repository tests succeeded.
 - Worker lease must be acquired using the current file SHA before edits. If the lease cannot be claimed, fail closed. Leases are cleared after an atomic handoff. Never fabricate a lease or use stale state.
+
+## Operational validation runner and evidence (added 22 Nov 2026)
+The coordination branch contains `automation/run_validation.py` and `automation/check_state.py`. The current cycle branch `autodev/cycle-001` ALSO includes `automation/run_validation.py`. For future cycles, Worker 2 must copy the runner to its **isolated** work branch when the task needs Python offline-content/index validation, or use an approved existing repo runner. Never assume files on the coordination branch exist on the work branch.
+
+From a disposable checkout of the cycle branch, with Python 3 available, execute:
+```sh
+python3 automation/run_validation.py --output validation-report.json --timeout 120
+```
+This runs seven ordered Python checks: search shard regression, batch importer, quality, pack build/check, search index build/check. It writes machine-readable statuses `passed_integration`, `failed_code` or `blocked_infrastructure`, stdout/stderr tails and individual return codes. A PASS is scoped to this **Python offline pipeline** only, NOT Android build or device test. Do not publish the generated report if it could contain secrets; reports must be inspected first. Do not check in generated content unless reviewed.
+
+On the coordination branch, run:
+```sh
+python3 automation/check_state.py
+```
+before and after each handoff whenever a Python execution environment is available. For no-execution GitHub connector runs, inspect invariants explicitly and record "not executed".
+
+There is currently **no connected, available unattended project checkout/runner**. GitHub API read/write tools do not run shell commands. ChatGPT scheduled runs with `inline_run` are still manual execution in the current conversation, not proof of independently scheduled workers. GitHub Actions quota is exhausted until replenishment, and no Actions workflows have been created or dispatched for this pilot. Therefore the current `blocked_infrastructure` state must NOT be cleared just because the scripts exist. To resume: (1) connect and approve a genuine execution environment or restore available CI, (2) run the validation runner on the cycle branch, (3) record report plus exact commit SHA and environment, (4) clear blocked with compare-and-swap, and (5) rerun QA. Never auto-unblock based on a proposed command or invented log.
+
+### Security and scheduling limits
+- Never allow workflow runs from untrusted PRs to access write tokens or secrets; use read-only checkout and isolated disposable runners.
+- Do not use `pull_request_target` to execute feature-branch code. Avoid network-enabled scripts and unapproved dependencies. Prefer manual approval of CI budget consumption.
+- GitHub content write responses are not proof that source executes correctly; Python tests do not establish Android performance.
+- The platform schedules each worker hourly at :00, :12, :24, :36, :48 (Europe/London); it does not trigger immediately on commits.
+- Each task must acquire a compare-and-swap lease before mutation; verify `cycle_id`, `next_worker` and active lease; clear it on successful handoff. A stale lease is escalated rather than silently stolen.
