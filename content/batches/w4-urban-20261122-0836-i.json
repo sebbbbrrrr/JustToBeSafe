@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-temporary-road-sign-conflicts",
+      "title": "Understanding conflicting temporary road signs",
+      "category": "Transport",
+      "summary": "An offline household planning guide: understanding conflicting temporary road signs.",
+      "tags": [
+        "roadworks",
+        "temporary signs",
+        "diversion"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Note signs",
+          "Find issuer",
+          "Confirm route"
+        ],
+        "alt": "An original offline schematic for understanding conflicting temporary road signs, showing Note signs, then Find issuer, then Confirm route. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Note signs · Find issuer · Confirm route. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Temporary signs can disagree when roadworks change in stages, signs are moved, or different authorities manage adjoining roads. A diversion arrow is not proof that every part of a route is open.",
+            "Record the junction, direction of travel, exact wording and visible dates without entering the carriageway. Separate what a sign says from what you think it means."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Compare notices with the responsible highway authority or transport operator when current information is available. Save an official contact route for later clarification.",
+            "For essential journeys, identify an alternative public route that suits the traveller's access needs. Never remove signs or direct traffic yourself."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Write down when information was checked and who issued it. A saved screenshot may be out of date by the next journey.",
+            "If directions remain contradictory, report the precise location rather than treating this offline draft as live traffic guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-street-cleaning-parking",
+      "title": "Preparing for temporary street-cleaning parking restrictions",
+      "category": "Transport",
+      "summary": "An offline household planning guide: preparing for temporary street-cleaning parking restrictions.",
+      "tags": [
+        "street cleaning",
+        "parking",
+        "restriction"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Read notice",
+          "Plan parking",
+          "Check again"
+        ],
+        "alt": "An original offline schematic for preparing for temporary street-cleaning parking restrictions, showing Read notice, then Plan parking, then Check again. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Read notice · Plan parking · Check again. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Street-cleaning restrictions may cover particular bays, a single side of a street or limited hours. The actual rules depend on local notices and the relevant authority.",
+            "Record the affected street, dates, times and issuing organisation rather than assuming a whole neighbourhood is restricted."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Consider an authorised alternative parking location ahead of time, including mobility needs, permit conditions and loading arrangements.",
+            "If a vehicle is shared, tell its other users where it is expected to be parked and how they can check that location offline."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Recheck posted signs or updated council information before moving the vehicle because temporary arrangements can change.",
+            "Keep a factual record of unclear notices and refer enforcement questions to the responsible council."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-street-market-access",
+      "title": "Planning access around temporary street markets",
+      "category": "Transport",
+      "summary": "An offline household planning guide: planning access around temporary street markets.",
+      "tags": [
+        "street market",
+        "access",
+        "deliveries"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual entrance",
+          "Public route",
+          "Recheck"
+        ],
+        "alt": "An original offline schematic for planning access around temporary street markets, showing Usual entrance, then Public route, then Recheck. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Usual entrance · Public route · Recheck. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Street markets may move stalls, barriers and loading areas into places that are normally open. Routes may differ for pedestrians, deliveries and vehicles.",
+            "Identify the intended entrance using an organiser or council map. Do not assume a gap between stalls is a public through-route."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Write down a public alternative approach and a meeting point outside the busiest area, noting step-free access when necessary.",
+            "For a planned delivery, ask the organiser about permitted loading arrangements rather than improvising access through crowds."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Layouts and temporary controls can change with weather and crowd levels. Recheck official instructions before setting off where possible.",
+            "Respect stewards and barriers; an offline route note is not permission to enter a restricted area."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-hall-booking-outage",
+      "title": "Keeping community-hall booking details available offline",
+      "category": "Communication",
+      "summary": "An offline household planning guide: keeping community-hall booking details available offline.",
+      "tags": [
+        "community hall",
+        "booking",
+        "venue"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Save details",
+          "Keep contacts",
+          "Confirm"
+        ],
+        "alt": "An original offline schematic for keeping community-hall booking details available offline, showing Save details, then Keep contacts, then Confirm. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Save details · Keep contacts · Confirm. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "For a community-hall booking, record the venue, date, organiser contact, booking reference and agreed access window.",
+            "Protect payment details and personal contact information. A screenshot of a booking page does not prove the booking remains valid."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Save the venue's published contact method before an event and agree who will update attendees if its booking portal stops working.",
+            "Keep a short offline copy of agreed entrance information, but avoid placing door codes in an openly shared guide."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "If the portal is unavailable, ask the venue to confirm changes through its official contact route and record the confirmation date.",
+            "After the event, remove unnecessary shared contact details and update any recurring booking information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-cycle-lane-diversion",
+      "title": "Reading temporary cycle-lane diversion notices",
+      "category": "Transport",
+      "summary": "An offline household planning guide: reading temporary cycle-lane diversion notices.",
+      "tags": [
+        "cycle lane",
+        "cycling",
+        "roadworks"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Read notice",
+          "Find route",
+          "Recheck"
+        ],
+        "alt": "An original offline schematic for reading temporary cycle-lane diversion notices, showing Read notice, then Find route, then Recheck. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Read notice · Find route · Recheck. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "A temporary cycle-lane closure may affect one direction or a short section while changing how cyclists, pedestrians and traffic interact.",
+            "Record the affected section from a safe position. Do not assume a pavement or pedestrian-only path is automatically a cycling diversion."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Consult official highway information when available and consider a permitted cycling route or a different mode of transport.",
+            "Account for confidence, junction complexity and any need to dismount. A map line alone does not establish a route's suitability."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Keep the notice date with your route note and mark it for rechecking before the next journey.",
+            "Report missing or contradictory signs to the authority rather than publishing unofficial directions for other road users."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-clock-change-travel",
+      "title": "Checking travel plans around clock changes",
+      "category": "Household planning",
+      "summary": "An offline household planning guide: checking travel plans around clock changes.",
+      "tags": [
+        "clock change",
+        "timetable",
+        "appointment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check date",
+          "Confirm times",
+          "Share plan"
+        ],
+        "alt": "An original offline schematic for checking travel plans around clock changes, showing Check date, then Confirm times, then Share plan. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Check date · Confirm times · Share plan. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Printed timetables, phone reminders and appointment cards may have been prepared at different times. Clock changes can expose confusion about dates and local time.",
+            "Record the calendar date, place and stated local time together rather than writing only an hour or saving an undated screenshot."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Use current transport or appointment-provider information where possible, particularly for early or late services around a clock change.",
+            "Tell everyone involved which date and local time the plan uses. Write the essential details on paper for someone travelling without a phone."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Include a contact method and a reasonable fallback without promising that an alternative service will run.",
+            "Recheck the plan near the journey and remove outdated reminders that could be mistaken for confirmed times."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-unclear-public-notice",
+      "title": "Requesting clarification of an unclear public notice",
+      "category": "Communication",
+      "summary": "An offline household planning guide: requesting clarification of an unclear public notice.",
+      "tags": [
+        "public notice",
+        "clarification",
+        "plain language"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Capture words",
+          "Find issuer",
+          "Ask clearly"
+        ],
+        "alt": "An original offline schematic for requesting clarification of an unclear public notice, showing Capture words, then Find issuer, then Ask clearly. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Capture words · Find issuer · Ask clearly. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Public notices may contain abbreviations, vague place names or unexplained dates. A reader may be unsure whether a message applies to their building.",
+            "Record the notice wording, location, date and issuing body. Keep the original text separate from your interpretation."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Find independently published contact details for the issuing organisation instead of relying solely on a number printed on an unfamiliar notice.",
+            "Ask a specific question about the scope, date or accessible format. For immediate hazards, follow current official instructions instead of waiting for a reply."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Record who clarified the notice and when, using the minimum personal information necessary.",
+            "Do not circulate your paraphrase as an official announcement or rely on an unverified translation for safety-critical instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-calendar-offline",
+      "title": "Using a paper household schedule when calendars are unavailable",
+      "category": "Household planning",
+      "summary": "An offline household planning guide: using a paper household schedule when calendars are unavailable.",
+      "tags": [
+        "shared calendar",
+        "paper schedule",
+        "appointments"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Today",
+          "This week",
+          "To confirm"
+        ],
+        "alt": "An original offline schematic for using a paper household schedule when calendars are unavailable, showing Today, then This week, then To confirm. It is a planning diagram rather than live information.",
+        "caption": "Planning stages: Today · This week · To confirm. Recheck current information with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Shared online calendars can contain many reminders, but only a few commitments may need a reliable offline fallback during an outage.",
+            "Identify essential appointments, school pickups and care visits without copying sensitive notes into a public household notice."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a useful fallback",
+          "paragraphs": [
+            "Make a dated summary showing the event, local time, responsible person and suitable contact route. Distinguish confirmed events from those awaiting a reply.",
+            "Keep the summary accessible to authorised members and agree how changes will be marked to avoid conflicting updates."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "When the service returns, reconcile paper notes with the restored calendar and confirm discrepancies with the people involved.",
+            "Dispose of obsolete copies securely if they contain personal information, and mark the last update date on continuing backups."
+          ]
+        }
+      ]
+    }
+  ]
+}
