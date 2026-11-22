@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "food-recall-identifiers-offline",
+      "title": "Recording food batch identifiers for recall checks",
+      "category": "Food & water",
+      "summary": "Keep enough package detail to identify a product if an official recall notice is issued.",
+      "tags": [
+        "recall",
+        "batch code",
+        "lot number",
+        "food label",
+        "product identifier",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify item",
+          "Record code",
+          "Verify notice"
+        ],
+        "alt": "An offline checklist schematic for recording food batch identifiers for recall checks, showing identify item, record code, verify notice as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Capture the identifying details",
+          "paragraphs": [
+            "For packaged foods kept in reserve, record the brand, exact product name, package size and the batch or lot code when it is legible. Different sizes or variants of the same product may not be covered by the same notice.",
+            "Photograph or transcribe the code without guessing unclear characters. Keep a reference to where the original packaging is stored; a barcode alone may not identify a particular manufacturing batch."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Separate a record from a recall decision",
+          "paragraphs": [
+            "An offline inventory cannot determine whether a product is currently recalled. Check official recall notices and manufacturer information when connectivity is available, and follow the notice for the exact product and batch.",
+            "If a notice or product identity is unclear, do not interpret the absence of an offline match as proof of safety. Preserve the packaging and seek current, authoritative advice before making a decision."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Maintain a small useful record",
+          "paragraphs": [
+            "Prioritise products that are kept for a long time or decanted into other containers, while avoiding unnecessary personal purchase information. Keep the identifying record accessible to anyone who manages the pantry.",
+            "Remove entries when the relevant product has been used or disposed of, and periodically verify that labels and photos remain readable. This guide is an organisational draft, not a live recall service."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-filter-cartridge-record",
+      "title": "Keeping a household water-filter cartridge record",
+      "category": "Food & water",
+      "summary": "Make cartridge models, manufacturer instructions and replacement history easy to locate.",
+      "tags": [
+        "water filter",
+        "cartridge",
+        "manual",
+        "replacement",
+        "model number",
+        "maintenance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find model",
+          "Keep manual",
+          "Log change"
+        ],
+        "alt": "An offline checklist schematic for keeping a household water-filter cartridge record, showing find model, keep manual, log change as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the installed system",
+          "paragraphs": [
+            "Record the make and model of the filter housing and cartridge, and whether it is a jug, tap attachment or plumbed appliance. Similar-looking cartridges are not necessarily interchangeable.",
+            "Keep the original manufacturer instructions or a securely stored offline copy. Note the appliance location and where spare parts are kept without relying on memory."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Track maintenance without inventing intervals",
+          "paragraphs": [
+            "Record the date a cartridge was fitted, who performed the change and any service reminder supplied by the manufacturer. Follow the actual product instructions rather than a generic replacement interval.",
+            "A filter's presence does not establish that water is safe to drink or that it can remove a particular contaminant. During a water-quality incident, current water supplier and public-health instructions take precedence."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Make the record useful during disruption",
+          "paragraphs": [
+            "Keep a short list of compatible part numbers and supplier contacts so replacements can be identified when the internet is unavailable. Avoid buying unverified substitutes solely because their dimensions appear similar.",
+            "After a replacement, update the record and retain any relevant service information. This guide documents household equipment only and does not provide water treatment instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dish-drying-space-plan",
+      "title": "Planning space to dry everyday dishes and utensils",
+      "category": "Food & water",
+      "summary": "Avoid losing usable kitchen space when household routines or equipment change.",
+      "tags": [
+        "dish rack",
+        "drying",
+        "washing up",
+        "kitchen layout",
+        "counter space",
+        "utensils"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Wash area",
+          "Drying area",
+          "Clear access"
+        ],
+        "alt": "An offline shelves schematic for planning space to dry everyday dishes and utensils, showing wash area, drying area, clear access as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Map the normal drying area",
+          "paragraphs": [
+            "Identify where clean dishes and utensils normally drain or dry, including the footprint of any rack, mat or removable drainer. Note whether it blocks a sink, worktop or a frequently used cupboard.",
+            "Check that people can reach the area without stretching over unstable stacks or blocking an essential route through a small kitchen."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Plan for a different routine",
+          "paragraphs": [
+            "If a dishwasher or normal draining arrangement is unavailable, identify another suitable location for the drying equipment without assuming every surface is appropriate.",
+            "Keep the proposed area distinct from food waste, dirty utensils and cleaning-product storage. Consult relevant cleaning and hygiene instructions; this layout note is not a sanitisation method."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Record equipment and changes",
+          "paragraphs": [
+            "List the rack, tray or mat used, where it is stored and whether it is damaged or difficult to clean. A simple sketch helps other household members restore the normal layout.",
+            "Revisit the plan after moving appliances or changing household accessibility needs. Avoid presenting the sketch as a guarantee of hygienic drying."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sink-strainer-identification",
+      "title": "Identifying and maintaining a kitchen sink strainer",
+      "category": "Food & water",
+      "summary": "Keep track of removable strainers and their fit without attempting drain repairs.",
+      "tags": [
+        "sink",
+        "strainer",
+        "food scraps",
+        "drain",
+        "waste",
+        "kitchen equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify fit",
+          "Check condition",
+          "Record spare"
+        ],
+        "alt": "An offline checklist schematic for identifying and maintaining a kitchen sink strainer, showing identify fit, check condition, record spare as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the part",
+          "paragraphs": [
+            "Note whether the sink has a removable basket, plug-and-strainer combination or fixed fitting. Record the manufacturer's model if known and keep a photo or simple description of its shape.",
+            "A part that fits loosely or obstructs normal drainage should not be assumed compatible simply because its diameter looks similar."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Observe condition without dismantling plumbing",
+          "paragraphs": [
+            "During ordinary cleaning, note visible damage, missing handles, trapped debris or changes in how the removable part sits. Use the manufacturer's routine care instructions for that product.",
+            "Do not use this guide to investigate blocked pipework, chemical drain cleaners or a suspected plumbing fault. Stop and seek competent assistance when the issue is beyond routine removable-part care."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep the information findable",
+          "paragraphs": [
+            "Record where a compatible spare or the original product instructions are stored. Label the part clearly if several sinks use different sizes.",
+            "Update the entry after replacement and keep it separate from broader plumbing repair records. This is a simple equipment-identification guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freezer-compartment-location-map",
+      "title": "Making a freezer compartment location map",
+      "category": "Food & water",
+      "summary": "Help household members find ordinary frozen supplies without repeatedly searching.",
+      "tags": [
+        "freezer",
+        "compartment",
+        "drawers",
+        "inventory",
+        "food location",
+        "appliance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Label drawers",
+          "List contents",
+          "Review moves"
+        ],
+        "alt": "An offline shelves schematic for making a freezer compartment location map, showing label drawers, list contents, review moves as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Map the actual compartments",
+          "paragraphs": [
+            "Give each existing drawer or shelf a short, memorable name such as top drawer or left basket. Record which food groups are normally kept there rather than making a rigid rule for every product.",
+            "Use the appliance's own storage instructions and avoid obstructing vents or overloading drawers. A map describes locations; it does not establish appropriate temperatures or safe storage duration."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Connect locations to the inventory",
+          "paragraphs": [
+            "For frequently used items, record the compartment alongside the product name and package description. Mark temporary changes when a drawer is reorganised.",
+            "Avoid storing unnecessary personal data in a shared household inventory. Keep the list legible on paper if the digital device is unavailable."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review after a disruption",
+          "paragraphs": [
+            "If a power cut or equipment problem occurs, do not use the location map to infer whether food remains safe. Follow current food-safety guidance and the appliance manufacturer's instructions.",
+            "Once the situation has been assessed, update the location map to reflect what remains. This article does not provide thawing, refreezing or food-disposal thresholds."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reusable-container-lid-pairing",
+      "title": "Matching reusable food containers with their lids",
+      "category": "Food & water",
+      "summary": "Reduce confusion from similar lids and damaged storage boxes.",
+      "tags": [
+        "food container",
+        "lid",
+        "reusable",
+        "matching",
+        "kitchen organisation",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Pair pieces",
+          "Mark sets",
+          "Review wear"
+        ],
+        "alt": "An offline checklist schematic for matching reusable food containers with their lids, showing pair pieces, mark sets, review wear as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Sort by compatible sets",
+          "paragraphs": [
+            "Lay out the containers and lids already in use and match them by the maker's shape, seal and model where possible. Similar dimensions do not always mean two pieces are designed to fit together.",
+            "Keep containers intended for food separate from containers used for chemicals, tools or non-food materials. Do not repurpose an unverified container for food contact."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Record clear identification",
+          "paragraphs": [
+            "For sets that are often confused, use a small non-obstructive identifier or a simple inventory entry that pairs the container and lid. Record the storage location so household members can find both pieces.",
+            "Avoid labels that cover product safety markings or prevent cleaning. A pairing chart is a location aid, not evidence that a container is leakproof or suitable for heating."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Check condition before reuse",
+          "paragraphs": [
+            "Note cracked, warped or missing pieces and consult the manufacturer about suitability and replacement. Do not assume a damaged seal can be repaired with a makeshift insert.",
+            "Remove outdated pairings from the index after disposal or replacement. Keep the system small enough to update after routine kitchen cleaning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bin-liner-fit-reference",
+      "title": "Recording bin-liner sizes for household waste containers",
+      "category": "Food & water",
+      "summary": "Avoid buying incompatible liners for different kitchen and sanitation bins.",
+      "tags": [
+        "bin liner",
+        "waste bag",
+        "bin size",
+        "sanitation",
+        "shopping",
+        "container"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify bin",
+          "Check fit",
+          "Record type"
+        ],
+        "alt": "An offline checklist schematic for recording bin-liner sizes for household waste containers, showing identify bin, check fit, record type as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the containers",
+          "paragraphs": [
+            "List each bin by its room, intended use and model or approximate manufacturer-stated capacity. Similar-looking bins can require different liner shapes or closure types.",
+            "Record any specific product guidance for pedal bins, caddies or shared building waste systems. Do not assume a liner marketed by volume alone will fit every container of that capacity."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Compare actual compatibility",
+          "paragraphs": [
+            "Keep the product name or reference for a liner that has already worked with the bin. Note practical differences such as handles, drawstrings or a required caddy insert.",
+            "Do not use an ordinary bin bag as a substitute for specialist clinical, sharps or hazardous-waste containment. Follow the applicable waste service's rules for those materials."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep the purchasing note current",
+          "paragraphs": [
+            "Put the bin reference alongside the household shopping list and note where spare liners are stored. This can reduce duplicate purchases and last-minute substitutions.",
+            "Recheck the entry when a bin is replaced or collection rules change. This is a household inventory aid, not a waste-handling safety procedure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-cup-and-drinkware-count",
+      "title": "Keeping an accessible household cup and drinkware inventory",
+      "category": "Food & water",
+      "summary": "Know whether everyday drinkware is practical for residents and temporary visitors.",
+      "tags": [
+        "cups",
+        "drinkware",
+        "household supplies",
+        "accessibility",
+        "visitors",
+        "kitchen"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Count types",
+          "Check access",
+          "Note spares"
+        ],
+        "alt": "An offline checklist schematic for keeping an accessible household cup and drinkware inventory, showing count types, check access, note spares as labelled household organisation stages, not safety or treatment instructions.",
+        "caption": "Household organisation diagram only; follow product guidance and current safety notices."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Count usable everyday options",
+          "paragraphs": [
+            "Record the types of cups, mugs or other drinking vessels regularly used, including those with handles or other features that matter to household members. Do not treat a raw item count as proof that everyone can use them.",
+            "Note where the items are stored and whether someone who is seated or has limited grip can reach an appropriate vessel. Avoid creating a rigid allocation for guests or household members."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Check practical suitability",
+          "paragraphs": [
+            "Observe cracked or chipped items and set aside anything whose condition is uncertain. Check the maker's instructions for use with hot drinks, dishwashers or other appliances.",
+            "Keep drinkware intended for drinking distinct from vessels used for cleaning, gardening or chemical storage. Do not use this checklist to make claims about sanitisation."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Maintain a modest backup",
+          "paragraphs": [
+            "If the household frequently hosts visitors or shares facilities, note a realistic number of spare items and where they can be found. Consider storage space and routine use before purchasing more.",
+            "Update the inventory when items break or move. A short record should help people find usable equipment rather than encourage unnecessary stockpiling."
+          ]
+        }
+      ]
+    }
+  ]
+}
