@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-smoke-alarm-records",
+      "title": "Keeping a household alarm inspection record",
+      "category": "Home & utilities",
+      "summary": "Track alarm locations, test dates and faults without replacing the manufacturer’s instructions.",
+      "tags": [
+        "smoke alarm",
+        "carbon monoxide",
+        "alarm",
+        "test record",
+        "safety"
+      ],
+      "risk": "fire",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify each device",
+          "paragraphs": [
+            "Record the room, device type, model if legible and the location of the manufacturer instructions. Distinguish smoke alarms, heat alarms and carbon monoxide alarms rather than assuming they have identical requirements.",
+            "Note the installation or replacement date only when supported by a label, receipt or reliable household record. An unknown date should stay marked unknown."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record checks and concerns",
+          "paragraphs": [
+            "Follow the manufacturer’s documented testing and replacement schedule; record the date and outcome of each check. A calendar reminder alone is not proof that an alarm was tested.",
+            "Treat persistent fault indications, missing devices or uncertainty about suitability as matters for a qualified installer or relevant housing provider, not an invitation to dismantle equipment."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Maintain the record",
+          "paragraphs": [
+            "Keep a list of reported faults and any professional visits, with the action taken and the date it was confirmed.",
+            "An app record cannot verify that an alarm is working or that a building complies with applicable fire-safety requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-water-isolation-location-map",
+      "title": "Documenting household water isolation points",
+      "category": "Home & utilities",
+      "summary": "Create a private reference showing where authorised household members can find labelled water controls.",
+      "tags": [
+        "stop tap",
+        "water isolation",
+        "plumbing",
+        "utility",
+        "location"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Locate existing labels",
+          "paragraphs": [
+            "Identify any clearly labelled internal stop tap or appliance isolation control using household records, landlord information or installer documentation. Do not guess which control serves which area.",
+            "Record its location in plain language, including whether furniture or stored items block access; avoid sharing sensitive property details publicly."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Create a simple access reference",
+          "paragraphs": [
+            "Write a short route from an ordinary starting point such as the kitchen doorway to the labelled control, without relying on a photo alone.",
+            "Where a control is inaccessible, stiff, damaged or uncertain, ask the water provider, landlord or qualified plumber for clarification rather than forcing it."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep the map current",
+          "paragraphs": [
+            "Review the record after plumbing work, changes in occupancy or rearranged storage. Keep copies available to authorised occupants offline.",
+            "This is an identification and access guide, not an instruction to operate an unknown valve during an emergency."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Starting point",
+          "Labelled control",
+          "Confirm access"
+        ],
+        "alt": "A simple route diagram marks a starting point, a labelled water isolation control and an access check; it does not illustrate valve operation.",
+        "caption": "Record where a verified control is located, without guessing its function."
+      }
+    },
+    {
+      "id": "home-appliance-filter-inventory",
+      "title": "Inventorying appliance filters and consumables",
+      "category": "Home & utilities",
+      "summary": "Avoid purchasing incompatible filters by recording exact model-specific references.",
+      "tags": [
+        "filter",
+        "appliance",
+        "consumable",
+        "model number",
+        "maintenance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the appliance",
+          "paragraphs": [
+            "Record the appliance’s model number from a legible product label or official documentation, along with its location and the type of consumable it uses.",
+            "Do not assume two visually similar filters or cartridges are interchangeable; dimensions and appearance are not sufficient compatibility evidence."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record compatible parts",
+          "paragraphs": [
+            "Copy the manufacturer’s approved part reference and any care or replacement guidance from the model-specific manual. Include the source and date of the information.",
+            "Keep an unopened spare only when the manufacturer recommends it and storage conditions are appropriate; note any expiry or packaging requirements."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review before replacement",
+          "paragraphs": [
+            "Recheck the model and part reference before buying, and keep receipts or installation records if useful for warranty support.",
+            "Some filters and appliance compartments involve electrical, hot-water or hygiene hazards. This guide does not instruct disassembly or replacement."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Model",
+          "Part code",
+          "Manual"
+        ],
+        "alt": "A three-row checklist diagram shows the appliance model, the approved consumable part code and the matching manufacturer manual.",
+        "caption": "Confirm part compatibility from model-specific documentation."
+      }
+    },
+    {
+      "id": "home-window-covering-cord-safety",
+      "title": "Recognising hazards from blind and curtain cords",
+      "category": "Home & utilities",
+      "summary": "Record reachable loops and damaged fittings for safe professional follow-up.",
+      "tags": [
+        "blind cords",
+        "child safety",
+        "window coverings",
+        "loop",
+        "hazard"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe without dismantling",
+          "paragraphs": [
+            "From normal room use, note accessible dangling loops, loose cord-management components and damaged blind fittings. Consider children and visiting children who might reach the area.",
+            "Do not test cord strength, tie improvised knots or dismantle a tensioned mechanism to investigate a suspected hazard."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Document and escalate",
+          "paragraphs": [
+            "Record the room, window, type of covering and a concise description of the concern. Share the issue promptly with the responsible adult, landlord or competent installer.",
+            "Use model-specific manufacturer guidance and applicable child-safety advice for corrective measures; a generic diagram cannot establish whether a particular installation is safe."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Confirm follow-up",
+          "paragraphs": [
+            "Keep a record of the qualified assessment, replacement or approved adjustment and any remaining concerns.",
+            "Do not mark the issue resolved merely because the blind can still open and close."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-thermostat-setting-record",
+      "title": "Recording heating controls and room preferences",
+      "category": "Home & utilities",
+      "summary": "Make household heating settings understandable without altering boiler or electrical components.",
+      "tags": [
+        "thermostat",
+        "heating",
+        "room temperature",
+        "control",
+        "schedule"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the controls",
+          "paragraphs": [
+            "List the user-facing thermostats, programmers and room controls, recording the model if known and where the official user instructions are stored.",
+            "Distinguish an observed display reading from a verified room temperature. Different sensors and locations may show different values."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Capture existing settings",
+          "paragraphs": [
+            "With permission from the household, note current modes, schedules and any deliberate exceptions before making ordinary user-level changes.",
+            "Do not access installer menus, wiring terminals or boiler internals. If the controls behave unexpectedly, consult the manual or a qualified heating professional."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review comfort and faults",
+          "paragraphs": [
+            "Keep brief notes about rooms that are consistently uncomfortable, including time of day and whether the issue persists.",
+            "A settings log helps describe a problem but cannot diagnose a heating-system fault or guarantee safe operation."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Record",
+          "Review"
+        ],
+        "alt": "Three linked circles illustrate identifying a heating control, recording its user-facing settings and reviewing household comfort notes.",
+        "caption": "A settings record is not a heating-system diagnosis."
+      }
+    },
+    {
+      "id": "home-loft-storage-access-audit",
+      "title": "Assessing loft storage access and recordkeeping",
+      "category": "Home & utilities",
+      "summary": "Recognise access and load uncertainties before storing household items above ceiling level.",
+      "tags": [
+        "loft",
+        "attic",
+        "storage",
+        "access",
+        "ceiling"
+      ],
+      "risk": "structural",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Check access from a safe position",
+          "paragraphs": [
+            "Record whether access is via a purpose-built hatch, stairs or another arrangement and whether there are visible obstructions from the room below.",
+            "Do not climb into an unfamiliar loft, step on ceiling boards or test structural capacity as part of this checklist."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Identify unanswered questions",
+          "paragraphs": [
+            "Note whether the storage area is known to be designed for loads, whether there is suitable access and whether insulation or services could be disturbed.",
+            "A boarded-looking surface is not evidence that it can support people or stored goods. Ask the owner, building manager or competent specialist for advice where unclear."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep a conservative inventory",
+          "paragraphs": [
+            "Where safe, approved storage already exists, keep an inventory of what is stored and where, avoiding personal secrets in shared records.",
+            "Stop and seek specialist guidance if there are signs of damage, moisture, unstable access or unknown structural capacity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-cabinet-hinge-condition-log",
+      "title": "Observing cupboard hinges and drawer runners",
+      "category": "Home & utilities",
+      "summary": "Spot progressive wear and organise nonhazardous maintenance records.",
+      "tags": [
+        "cabinet",
+        "hinge",
+        "drawer",
+        "runner",
+        "furniture"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Look for changes in normal use",
+          "paragraphs": [
+            "Note whether a cupboard door catches, a drawer binds, a hinge is visibly loose or a panel appears cracked during ordinary opening and closing.",
+            "Avoid forcing stuck drawers or placing weight on a door or drawer that may detach."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the fitting",
+          "paragraphs": [
+            "Photograph the visible fitting if appropriate and note the cabinet location, maker or part identifier where known, and the observed issue.",
+            "Do not assume a replacement hinge or runner is compatible because it looks similar; check the furniture maker’s part details."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange a suitable response",
+          "paragraphs": [
+            "For minor nonhazardous maintenance, follow product-specific instructions or request a competent repair. Record the date and outcome.",
+            "Where furniture is wall-mounted, heavy or unstable, avoid disassembly and seek qualified assistance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Symptom",
+          "Follow-up"
+        ],
+        "alt": "A checklist graphic shows three record fields for a cabinet: location, observed symptom and follow-up status.",
+        "caption": "Record wear without forcing or dismantling unstable fittings."
+      }
+    },
+    {
+      "id": "home-outdoor-tap-winter-record",
+      "title": "Preparing an outdoor tap maintenance record",
+      "category": "Home & utilities",
+      "summary": "Keep model-specific winter care information ready before cold weather.",
+      "tags": [
+        "outdoor tap",
+        "frost",
+        "hose",
+        "plumbing",
+        "winter"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the installation",
+          "paragraphs": [
+            "Record the outdoor tap’s location and any known model or installation instructions, including whether it is part of a shared property.",
+            "Do not infer that a tap is frost-resistant or has an internal isolation control from its appearance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Review manufacturer and property guidance",
+          "paragraphs": [
+            "Check applicable product and property guidance for winter care, hose storage and inspection. Make a note of actions that need a plumber or landlord.",
+            "Do not use force on frozen fittings or apply improvised heat. Damage may be hidden, and unverified procedures can worsen a leak."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Update after cold spells",
+          "paragraphs": [
+            "Observe accessible areas for changes such as unexplained dampness or dripping during ordinary use, and report concerns promptly.",
+            "This record does not establish that pipes are protected against freezing or provide a repair procedure."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Check guidance",
+          "Review"
+        ],
+        "alt": "Three connected circles show identification of an outdoor tap, checking model-specific guidance and reviewing its condition after cold weather.",
+        "caption": "Follow the product and property instructions; do not force frozen fittings."
+      }
+    }
+  ]
+}
