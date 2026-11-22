@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-lift-service-disruption",
+      "title": "Planning around a shared-building lift outage",
+      "category": "Shared infrastructure",
+      "summary": "An offline household planning reference for planning around a shared-building lift outage.",
+      "tags": [
+        "lift",
+        "accessibility",
+        "building",
+        "mobility",
+        "stairs"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check access",
+          "Contact manager",
+          "Agree support"
+        ],
+        "alt": "A compact sequence diagram showing the three planning stages: Check access, Contact manager, Agree support. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Check access · Contact manager · Agree support."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify access dependencies",
+          "paragraphs": [
+            "Record which entrances, floors and shared facilities depend on the lift, and whether anyone needs step-free access. Do not assume that a resident or visitor can use stairs simply because they sometimes do.",
+            "Ask the managing agent for the building-specific accessibility and lift reporting arrangements. A generic guide cannot establish a safe alternative route for every building."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Coordinate appropriate support",
+          "paragraphs": [
+            "Save the building manager's normal and out-of-hours contact details offline, with the lift location or reference. Distinguish a reported fault from a confirmed repair time.",
+            "If someone is trapped, use the lift's emergency communication system and appropriate emergency services. Never attempt to open lift doors, enter a shaft or improvise a rescue."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Follow up privately",
+          "paragraphs": [
+            "Record updates received from the responsible operator and the time they were checked. Ask affected residents what support or information they actually want shared.",
+            "Avoid posting anyone's mobility or health information on a communal noticeboard without consent. Raise unresolved access barriers with the responsible manager."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-streetlight-fault-notes",
+      "title": "Recording a street-lighting fault for local reporting",
+      "category": "Urban infrastructure",
+      "summary": "An offline household planning reference for recording a street-lighting fault for local reporting.",
+      "tags": [
+        "streetlight",
+        "lighting",
+        "night",
+        "council",
+        "fault",
+        "public"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Observation",
+          "Report"
+        ],
+        "alt": "A compact checklist diagram showing the three planning stages: Location, Observation, Report. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Location · Observation · Report."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Observe from a safe position",
+          "paragraphs": [
+            "Note the street name, a nearby landmark and any visible lamp-column identifier from the pavement. Record whether one lamp or a wider stretch appears affected without guessing at the cause.",
+            "Do not enter the carriageway, climb equipment or approach exposed wires to inspect a light. Damaged electrical infrastructure needs an appropriate urgent report."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Find the responsible organisation",
+          "paragraphs": [
+            "Public roads, private estates and transport land may have different lighting operators. Keep a note of the official reporting route for streets you use regularly.",
+            "A saved web address or phone number may change, and an offline guide cannot confirm current repair status. Recheck the reporting route when connected."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep a useful record",
+          "paragraphs": [
+            "Save the date, approximate location and reference number if supplied. Use that reference for follow-up rather than sending contradictory duplicate reports.",
+            "A dark street does not establish a regional power failure. Use safe travel judgement rather than treating this article as live street-lighting information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-payment-terminal-outage",
+      "title": "Preparing for card-terminal and contactless payment outages",
+      "category": "Household planning",
+      "summary": "An offline household planning reference for preparing for card-terminal and contactless payment outages.",
+      "tags": [
+        "contactless",
+        "card",
+        "cash",
+        "payment",
+        "retail",
+        "outage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check options",
+          "Plan essentials",
+          "Keep receipts"
+        ],
+        "alt": "A compact sequence diagram showing the three planning stages: Check options, Plan essentials, Keep receipts. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Check options · Plan essentials · Keep receipts."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Recognise payment dependencies",
+          "paragraphs": [
+            "List everyday purchases that normally depend on cards or phone payments, including food and transport. Check which alternatives each provider accepts instead of assuming cash works everywhere.",
+            "A single checkout failure does not prove a bank-wide or regional outage. Do not share unverified claims about the cause."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare proportionate alternatives",
+          "paragraphs": [
+            "Consider a modest secure payment alternative suited to the household budget, and record where to find published payment policies. Avoid storing sensitive card details in a shared note.",
+            "For time-sensitive essentials, identify another verified merchant or payment channel without assuming it will remain available during a wider disruption."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Handle failed transactions carefully",
+          "paragraphs": [
+            "Ask the merchant whether a transaction completed before trying again, particularly if the terminal disconnected after a card was presented. Retain any receipt or reference.",
+            "Check your account through a trusted channel when service returns. Never disclose one-time banking codes to anyone claiming to resolve an outage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-school-closure-communication",
+      "title": "Keeping school-closure communication details offline",
+      "category": "Household planning",
+      "summary": "An offline household planning reference for keeping school-closure communication details offline.",
+      "tags": [
+        "school",
+        "closure",
+        "childcare",
+        "education",
+        "parents",
+        "contacts"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "School notice",
+          "Household contact",
+          "Backup plan"
+        ],
+        "alt": "A compact route diagram showing the three planning stages: School notice, Household contact, Backup plan. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: School notice · Household contact · Backup plan."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Keep trusted contact routes",
+          "paragraphs": [
+            "Save the school's published telephone number and official messaging channels. Record which services require internet access or a signed-in parent account.",
+            "Do not treat a social media repost or neighbour rumour as confirmation of a closure. Offline contact details are references, not live closure notices."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Agree communication responsibilities",
+          "paragraphs": [
+            "Identify authorised adults who can receive school updates and relay verified information if a usual device or network is unavailable. Store personal numbers privately.",
+            "Respect the school's safeguarding and collection permissions. Informal household arrangements should not override restrictions on who may collect a child."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare a practical contingency",
+          "paragraphs": [
+            "Discuss how work, transport and childcare plans might change after a verified closure. Identify who needs an update and which alternatives are genuinely available.",
+            "Check the latest school instructions whenever communications return. Do not presume that a child can travel or remain unsupervised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-rail-accessibility-disruption",
+      "title": "Preparing accessible alternatives when a rail facility is unavailable",
+      "category": "Transport",
+      "summary": "An offline household planning reference for preparing accessible alternatives when a rail facility is unavailable.",
+      "tags": [
+        "rail",
+        "train",
+        "station",
+        "step-free",
+        "accessibility",
+        "assistance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Check station",
+          "Ask operator",
+          "Review journey"
+        ],
+        "alt": "A compact route diagram showing the three planning stages: Check station, Ask operator, Review journey. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Check station · Ask operator · Review journey."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Record accessibility needs",
+          "paragraphs": [
+            "For regular journeys, note whether a lift, step-free platform access, assistance or a particular entrance is essential. A station's general accessibility label does not prove every platform is accessible at all times.",
+            "Keep the train operator's published assistance details and relevant station names offline. Current lift and train status requires an operator update."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Ask about suitable alternatives",
+          "paragraphs": [
+            "Ask the responsible operator what facilities are available and whether another accessible route or assistance arrangement can be provided. Record when the answer was supplied.",
+            "Replacement buses and taxis may have different accessibility arrangements. Confirm suitability rather than assuming a substitute is accessible."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Recheck before travel",
+          "paragraphs": [
+            "When possible, review current platform, lift and service information shortly before departure. Identify a way to contact the operator if the journey changes.",
+            "Never enter restricted railway areas or bypass closed facilities. Offline planning information cannot substitute for live operational advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-parcel-delivery-interruption",
+      "title": "Managing essential deliveries during local access disruption",
+      "category": "Household planning",
+      "summary": "An offline household planning reference for managing essential deliveries during local access disruption.",
+      "tags": [
+        "delivery",
+        "courier",
+        "parcel",
+        "roadworks",
+        "access",
+        "address"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Track order",
+          "Check access",
+          "Confirm handover"
+        ],
+        "alt": "A compact checklist diagram showing the three planning stages: Track order, Check access, Confirm handover. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Track order · Check access · Confirm handover."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Separate urgent from routine deliveries",
+          "paragraphs": [
+            "Keep a private record of expected parcels, providers, collection references and which items are time-sensitive. Do not publish tracking numbers or household addresses on public noticeboards.",
+            "For regulated or essential items, contact the supplier about approved contingency arrangements. An ordinary parcel drop-off may be unsuitable."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Check access with the right people",
+          "paragraphs": [
+            "If a road, entrance or shared lobby becomes inaccessible, ask the responsible authority, building manager or courier about permitted arrangements. Never direct a driver through a cordon.",
+            "Where allowed, update instructions through the provider's verified app or website, rather than responding to an unsolicited delivery message."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Verify the outcome",
+          "paragraphs": [
+            "Distinguish confirmed delivery, delayed shipment and a parcel held for collection. Check opening hours and identification requirements before travelling to collect.",
+            "Treat unexpected redelivery payment links cautiously. Use the known merchant or courier channel before providing personal or payment information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-update-verification",
+      "title": "Checking the reliability of neighbourhood disruption updates",
+      "category": "Household communication",
+      "summary": "An offline household planning reference for checking the reliability of neighbourhood disruption updates.",
+      "tags": [
+        "rumours",
+        "verification",
+        "neighbourhood",
+        "community",
+        "alerts",
+        "sources"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify source",
+          "Cross-check",
+          "Share carefully"
+        ],
+        "alt": "A compact sequence diagram showing the three planning stages: Identify source, Cross-check, Share carefully. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Identify source · Cross-check · Share carefully."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Separate observations from claims",
+          "paragraphs": [
+            "Label firsthand observations, secondhand reports and statements from responsible authorities differently. Record when and where an observation was made.",
+            "A forwarded screenshot can be old or omit context. Multiple reposts of one message do not amount to independent confirmation."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Cross-check responsibly",
+          "paragraphs": [
+            "For utility faults, transport changes or restrictions, use the relevant provider or authority's known channel when available. Keep official contact routes in an offline reference list.",
+            "If connectivity is absent, state that information is unverified. An old cached notice cannot establish present conditions."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Share only useful verified details",
+          "paragraphs": [
+            "When passing on information, include the source, date and remaining uncertainty. Avoid sharing identifiable household details or pictures of bystanders without good reason.",
+            "Correct earlier messages when better information arrives. Immediate danger should go to appropriate emergency channels rather than a neighbourhood poll."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-library-closure",
+      "title": "Planning access to local public services during temporary closures",
+      "category": "Urban infrastructure",
+      "summary": "An offline household planning reference for planning access to local public services during temporary closures.",
+      "tags": [
+        "library",
+        "council",
+        "public",
+        "services",
+        "closure",
+        "community",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Contact",
+          "Alternative"
+        ],
+        "alt": "A compact checklist diagram showing the three planning stages: Service, Contact, Alternative. This is a general organisational aid, not an official live status or safety instruction.",
+        "caption": "Offline planning aid: Service · Contact · Alternative."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify services you depend on",
+          "paragraphs": [
+            "Record whether you use a library or council building for internet access, printing, appointments or study space. A building closure may affect some services without stopping every remote service.",
+            "Keep official contact numbers and any appointment references offline. Avoid storing account passwords or identity documents in an unsecured note."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Ask about alternatives",
+          "paragraphs": [
+            "Ask whether another branch, telephone service, accessible option or rescheduled appointment is available. Confirm opening hours with the provider rather than relying on old printed times.",
+            "For time-sensitive legal or administrative deadlines, contact the responsible organisation directly. A closure does not automatically extend a deadline."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Maintain accurate household notes",
+          "paragraphs": [
+            "Record confirmed alternatives and when they were checked. Share relevant changes with household members who rely on the service.",
+            "Remove outdated notices after services resume. Offline notes must be presented as saved reference information, not a live service-status feed."
+          ]
+        }
+      ]
+    }
+  ]
+}
