@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-hearing-loop-unavailable",
+      "title": "Planning communication when a public hearing loop is unavailable",
+      "category": "Accessible public services",
+      "summary": "Prepare an alternative way to understand spoken information when an assistive listening system cannot be used.",
+      "tags": [
+        "hearing loop",
+        "accessibility",
+        "public service",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Venue",
+          "Alternative",
+          "Confirm"
+        ],
+        "alt": "A three-item checklist separates the venue's hearing-loop availability, a preferred alternative communication method and confirmation from staff; it is not a live accessibility report.",
+        "caption": "Ask about an accessible alternative before relying on a particular venue."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the communication barrier",
+          "paragraphs": [
+            "A hearing loop or other assistive listening system may be installed in a reception, meeting room or ticket counter, but its presence on an old venue listing does not establish that it is working today.",
+            "Record the specific room or service point and the kind of communication support that helps you. Avoid assuming that speaking louder, moving closer or relying on lip-reading will meet everyone's needs."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Arrange a workable alternative",
+          "paragraphs": [
+            "Contact the venue through its established channel to ask whether its system is available and what alternatives it can provide, such as written instructions, a quieter space or another accessible communication method.",
+            "Keep a short offline note of the appointment purpose, agreed arrangement and contact route. If the arrangement changes on arrival, ask staff to clarify important instructions in an accessible format rather than guessing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-automatic-entrance-door-fault",
+      "title": "Planning access when a public building's automatic entrance door fails",
+      "category": "Accessible public services",
+      "summary": "Separate access arrangements from unsafe attempts to force or repair an automatic door.",
+      "tags": [
+        "automatic doors",
+        "accessibility",
+        "public entrance",
+        "building access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Entrance",
+          "Staff contact",
+          "Alternative"
+        ],
+        "alt": "A three-item access checklist shows the affected entrance, a staff contact point and a confirmed alternative entrance; it contains no mechanical repair instructions.",
+        "caption": "Use an entrance confirmed as accessible rather than attempting to operate faulty equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the actual barrier",
+          "paragraphs": [
+            "An automatic door that does not open as expected may prevent independent access even when a building is otherwise listed as accessible. A nearby manual door may not be suitable for every visitor.",
+            "Note the entrance name, approximate time and what prevented access without touching exposed mechanisms or trying to override the door. Keep the description factual and avoid photographing other visitors without consent."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek a confirmed access arrangement",
+          "paragraphs": [
+            "Use a published venue contact or staffed point to ask for an accessible entrance and any assistance needed. Do not assume an emergency exit, service entrance or staff-only route is a permitted alternative.",
+            "If no workable route is available, ask the organisation how the service can be delivered another way or rescheduled. Keep a record of the response for a future visit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-computer-booking-disruption",
+      "title": "Keeping an essential public computer booking usable during service disruption",
+      "category": "Public services",
+      "summary": "Preserve booking details and identify alternatives without assuming a public terminal is available.",
+      "tags": [
+        "public computer",
+        "library computers",
+        "digital access",
+        "booking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Booking",
+          "Access check",
+          "Backup"
+        ],
+        "alt": "Three stages show an existing public computer booking, a check with the service provider and a separate backup access option; no stage indicates live availability.",
+        "caption": "An offline booking reference does not prove that a computer session can go ahead."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate a booking from service availability",
+          "paragraphs": [
+            "A library, community hub or council facility may offer booked computers for forms, documents or essential online tasks. A confirmation message may still be accessible offline after the venue's network, opening hours or equipment changes.",
+            "Keep the venue, date, booking reference and public contact method together. Avoid storing passwords, account recovery codes or copies of sensitive documents in an unprotected shared note."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan for an interruption",
+          "paragraphs": [
+            "Before an important deadline, check the provider's current access arrangements and whether a session can be moved. Ask about accessibility needs, printing availability and time limits rather than assuming every terminal provides the same functions.",
+            "If the service is unavailable, identify another legitimate access channel or contact the organisation responsible for the task to explain the disruption. Do not use an unfamiliar public device to save credentials or confidential files."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-street-event-delivery-access",
+      "title": "Planning essential deliveries around a temporary street event",
+      "category": "Urban transport",
+      "summary": "Clarify delivery access when a parade, market or event changes ordinary road use.",
+      "tags": [
+        "street event",
+        "delivery access",
+        "temporary road use",
+        "urban travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Event area",
+          "Delivery point",
+          "Recipient"
+        ],
+        "alt": "A checklist separates the event's affected area, a confirmed lawful delivery point and the person receiving the item; it is not a road-closure map.",
+        "caption": "Confirm an agreed delivery point instead of directing drivers through restrictions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand the delivery problem",
+          "paragraphs": [
+            "A temporary event can change where vehicles may stop, which entrances are reachable and when a recipient can collect an item. The usual postcode or map pin may lead a driver to an entrance that is temporarily inaccessible.",
+            "Record the delivery's importance, any time-sensitive handling requirements supplied by the sender and the recipient's reliable contact route. Do not publish private addresses or access codes in neighbourhood event groups."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Agree the handover",
+          "paragraphs": [
+            "Check organiser or local-authority notices for the affected area, then ask the carrier and recipient to confirm a permitted delivery point or rescheduled slot. Restrictions and exemptions vary by location; a saved notice is not a live traffic instruction.",
+            "Keep the agreed location, time window and contact details offline for the people involved. If access is uncertain, avoid instructing a driver to ignore barriers or staff directions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-visitor-parking-arrangement-change",
+      "title": "Keeping visitor parking arrangements clear in a shared building",
+      "category": "Shared buildings",
+      "summary": "Distinguish an agreed visitor bay or permit from an assumption that parking permission continues.",
+      "tags": [
+        "visitor parking",
+        "shared building",
+        "permit",
+        "property access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Bay",
+          "Permission",
+          "Expiry"
+        ],
+        "alt": "A three-item checklist distinguishes the designated visitor space, permission from the property manager and the applicable time limit; it is not a parking permit.",
+        "caption": "Check current building rules rather than relying on an old visitor pass."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record what the building actually permits",
+          "paragraphs": [
+            "Shared residential buildings may have visitor bays, booking systems, permits or time limits that differ from residents' parking arrangements. A visitor pass saved months earlier may no longer be accepted.",
+            "Keep the building's published parking contact, relevant bay information and any issued reference in a private note. Do not leave gate codes, vehicle registration details or residents' personal information on a public noticeboard."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Coordinate a change",
+          "paragraphs": [
+            "Ask the authorised building manager or parking operator to confirm whether visitor spaces are usable and what alternatives are allowed. A handwritten note on a dashboard does not itself establish permission.",
+            "Tell the visitor the agreed arrival point and any access restrictions in advance. If no permitted space is available, arrange another lawful stopping or parking option without obstructing emergency access."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-address-announcement-failure",
+      "title": "Preparing for unclear or unavailable public-address announcements",
+      "category": "Urban transport",
+      "summary": "Use accessible, independently confirmed information when station or venue loudspeakers cannot be relied on.",
+      "tags": [
+        "public address",
+        "station announcements",
+        "accessibility",
+        "travel information"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice issue",
+          "Ask staff",
+          "Confirm details"
+        ],
+        "alt": "Three stages depict an unclear announcement, a request for accessible staff assistance and a written confirmation of relevant journey details; the diagram does not show live departures.",
+        "caption": "Do not infer a platform, gate or departure from a partial announcement."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise what is missing",
+          "paragraphs": [
+            "An announcement may be inaudible, distorted or missed in a busy station or public venue. A person who hears only part of a message may not know whether it applies to their service, entrance or appointment.",
+            "Keep the service identifier or booking details to hand. Distinguish a general announcement about the venue from instructions addressed to a particular group; avoid following a crowd solely because others appear to have heard a message."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Confirm before acting",
+          "paragraphs": [
+            "Ask identifiable staff or use an official accessible display or communication channel to confirm the specific information needed. A cached timetable, photo of an old board or another traveller's interpretation may be out of date.",
+            "Where an announcement system remains unavailable, ask how changes will be communicated and what assistance can be provided. Record the confirmed details offline while recognising that they can change again."
+          ]
+        }
+      ]
+    }
+  ]
+}
