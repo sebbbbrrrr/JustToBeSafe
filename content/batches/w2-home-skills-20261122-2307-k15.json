@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-freestanding-coat-stand-stability",
+      "title": "Checking a freestanding coat stand for stability",
+      "category": "Home maintenance",
+      "summary": "A freestanding coat stand can become unsteady when hooks are unevenly loaded or the base is damaged.",
+      "tags": [
+        "coat stand",
+        "entryway",
+        "furniture"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Base",
+          "Hooks",
+          "Clear path"
+        ],
+        "alt": "A three-point observation checklist identifies the base of a freestanding coat stand, its hooks, and the nearby walking route. It does not show a load test or repair.",
+        "caption": "Inspect the stand and its surroundings without applying extra force."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check the stand in its normal position",
+          "paragraphs": [
+            "Look for an uneven base, loose-looking hooks, damaged feet and a lean that was not present when the stand was new. Keep children and pets away from an unstable stand rather than testing it by pulling on the hooks.",
+            "Compare the stand with the manufacturer's instructions and any load markings. A stand intended for light outerwear may not be suitable for heavy bags or a cluster of wet coats."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Keep the entryway usable",
+          "paragraphs": [
+            "Notice whether hanging items protrude into a doorway or narrow walking route. Move ordinary belongings out of the path without handling a stand that appears ready to fall.",
+            "Avoid using hooks as climbing aids or supporting a person with the stand. If it wobbles in everyday use, stop loading it until the cause is assessed."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Choose a sensible follow-up",
+          "paragraphs": [
+            "Photograph visible wear and record the product name, where available, before seeking replacement parts or support.",
+            "If a joint, base or hook is cracked or the stand cannot remain upright, retire it from use rather than improvising a load-bearing repair."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-ironing-board-cover-condition",
+      "title": "Recognising wear in a removable ironing-board cover",
+      "category": "Home maintenance",
+      "summary": "An ironing-board cover should fit its particular board and remain in suitable condition for the appliance and fabric being used.",
+      "tags": [
+        "ironing board",
+        "laundry",
+        "cover"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Surface",
+          "Edges",
+          "Fit"
+        ],
+        "alt": "A checklist marks the ironing-board cover surface, the fabric edges and the overall fit, all inspected while the iron is off and cool.",
+        "caption": "Check a cool board and use compatible manufacturer-approved covers."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the cover and padding",
+          "paragraphs": [
+            "Check the board manufacturer's guidance for compatible covers, heat resistance and any separate padding. A decorative fabric alone is not proof of suitability for ironing.",
+            "Look for scorching, thinning, torn seams or an exposed metal board surface when the board is cool and not in use. Do not assess damage by reheating a questionable cover."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Observe fit without heat",
+          "paragraphs": [
+            "With the iron disconnected and cool, look for bunching, slipping or loose drawcords on the cover. Keep long cords away from children and walking routes.",
+            "A cover that shifts unexpectedly may make ordinary ironing less predictable. Stop using a damaged or poorly fitted cover until an appropriate replacement is available."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Record and replace appropriately",
+          "paragraphs": [
+            "Keep the board's model or dimensions with the cover packaging or product instructions so a replacement can be matched without guesswork.",
+            "Follow the cover and iron manufacturers' directions; never cover vents or alter the board's structural fittings to make an incompatible cover fit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-laundry-basket-handles",
+      "title": "Checking laundry-basket handles and rim damage",
+      "category": "Home maintenance",
+      "summary": "Cracked basket handles and sharp rim edges can make ordinary laundry carrying uncomfortable or unreliable.",
+      "tags": [
+        "laundry basket",
+        "handles",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Grip",
+          "Rim",
+          "Load"
+        ],
+        "alt": "The visual identifies the laundry basket grip, the top rim and the intended load as separate considerations, without showing a lifting technique.",
+        "caption": "An intact grip and smooth rim matter as much as basket capacity."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the carrying points",
+          "paragraphs": [
+            "Check whether the basket has moulded handles, separate grips or an open rim. The intended carrying method may differ between flexible baskets and rigid containers.",
+            "With the basket empty, look for cracks, rough plastic edges or loosened grips. Avoid flexing a damaged handle to see whether it will hold."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Review everyday use",
+          "paragraphs": [
+            "Notice whether a loaded basket obstructs the person's view or requires an awkward grip on stairs. A smaller load or different container may be more practical.",
+            "Do not lift a heavy basket by one damaged handle. Keep damaged containers out of routes where children might catch clothing or skin on a sharp edge."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Choose a replacement",
+          "paragraphs": [
+            "Record the approximate basket size and preferred grip style before replacing a worn item.",
+            "Do not rely on tape or glue as a structural handle repair for a basket that will carry substantial weight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-removable-soap-dish",
+      "title": "Inspecting a removable soap dish and its drainage tray",
+      "category": "Home maintenance",
+      "summary": "A removable soap dish can trap moisture or become unstable when its tray is poorly seated.",
+      "tags": [
+        "soap dish",
+        "bathroom",
+        "tray"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Dish",
+          "Drainage",
+          "Surface"
+        ],
+        "alt": "A three-part schematic checklist names the soap dish, its removable drainage insert and the countertop surface beneath it.",
+        "caption": "Check moisture and stability before returning the dish to use."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the separate pieces",
+          "paragraphs": [
+            "Determine whether the soap dish is a loose countertop item, a removable insert or a wall-mounted accessory. Do not attempt to detach fixed fittings.",
+            "Check the maker's cleaning guidance and the surface beneath the dish; some finishes are vulnerable to standing moisture."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Check accessible condition",
+          "paragraphs": [
+            "With the dish empty, look for cracks, sharp edges, residue and pooled water. Check whether any removable drainage insert sits flat.",
+            "A dish near a basin edge can be knocked onto the floor. Keep it away from the edge and avoid placing it where it interferes with tap controls."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Maintain a practical routine",
+          "paragraphs": [
+            "Clean and dry removable pieces according to their material and manufacturer instructions, then confirm that the dish sits securely.",
+            "If the dish is broken or the mounting is loose, stop using the affected accessory rather than attaching an improvised heavy replacement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-furniture-levelling-feet",
+      "title": "Recognising worn adjustable feet on lightweight furniture",
+      "category": "Home maintenance",
+      "summary": "Adjustable feet may be fitted to lightweight tables and storage stands, but they are not a substitute for safe load-bearing design.",
+      "tags": [
+        "levelling feet",
+        "furniture",
+        "floor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Foot",
+          "Floor",
+          "Stability"
+        ],
+        "alt": "A schematic checklist names the visible levelling foot, the floor contact area and the furniture's observed stability, without depicting adjustment or lifting.",
+        "caption": "Use manufacturer-specific parts and avoid manipulating heavy furniture."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the fitted foot",
+          "paragraphs": [
+            "From a normal viewing position, note whether the furniture has a threaded levelling foot, a fixed glide or a manufacturer-specific base.",
+            "Look for missing caps, a visibly bent stem or floor marks without tilting, lifting or crawling beneath a heavy item."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Observe stability in normal use",
+          "paragraphs": [
+            "Notice whether the furniture rocks during ordinary use or has begun marking the floor. Do not perform a push or tipping test on loaded furniture.",
+            "Keep heavy cabinets, shelving and appliances out of this routine; instability or anchoring concerns on those items require suitable professional or manufacturer guidance."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Plan the right action",
+          "paragraphs": [
+            "Record the make, model and the affected corner for a manufacturer or competent repairer.",
+            "Do not substitute random screws or supports for a missing levelling foot. If the furniture is unstable, stop using it until properly assessed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-vacuum-floor-head-wheels",
+      "title": "Checking accessible wheels on a vacuum cleaner floor head",
+      "category": "Home maintenance",
+      "summary": "Small wheels and rollers on a vacuum floor head may collect fibres or show wear that affects movement.",
+      "tags": [
+        "vacuum",
+        "floor head",
+        "wheels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Head",
+          "Wheels",
+          "Floor"
+        ],
+        "alt": "A nonprocedural checklist labels the vacuum floor head, its externally visible wheels and the floor surface where marks may appear.",
+        "caption": "External inspection only; powered components are not opened."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the floor head",
+          "paragraphs": [
+            "Read the vacuum model's instructions to distinguish a passive floor head from a powered brush head. Some heads contain electrical connections or moving parts.",
+            "Disconnect the appliance from power and allow moving parts to stop before looking at any removable accessory. Do not open a powered head or expose internal wiring."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Look at accessible surfaces",
+          "paragraphs": [
+            "From the outside, note trapped hair, visibly cracked wheels, damaged edges or marks left on flooring. Do not pry at a wheel that the instructions do not identify as user-removable.",
+            "Check the floor-head type against the floor covering's care instructions; the wrong accessory can mark delicate surfaces."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Record and escalate",
+          "paragraphs": [
+            "Keep the exact floor-head model and observed symptoms with the appliance manual. Use only approved user-maintenance steps from the manufacturer.",
+            "If a powered head smells hot, makes abnormal noise or has damaged insulation, stop using it and seek appropriate servicing rather than continuing to test it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-furniture-corner-guards",
+      "title": "Checking removable furniture corner guards",
+      "category": "Home maintenance",
+      "summary": "Removable corner guards can become detached or damaged, and should not be treated as a substitute for supervision or safe furniture placement.",
+      "tags": [
+        "corner guards",
+        "furniture",
+        "children"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Guard",
+          "Adhesion",
+          "Edge"
+        ],
+        "alt": "The checklist identifies a corner guard, its attachment edge and the furniture corner beneath, with no fitting instructions.",
+        "caption": "A corner guard is supplementary protection, not a structural repair."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the guard type",
+          "paragraphs": [
+            "Check whether the guard is a removable adhesive accessory or an integrated part of the furniture. Read the product's age, placement and material warnings.",
+            "Look for peeling edges, cracked material or a loose guard without pulling at it in front of young children."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Consider the surrounding space",
+          "paragraphs": [
+            "A detached small guard may become a choking hazard. Keep loose pieces away from children and follow the product's safety instructions.",
+            "Check whether the furniture edge itself is damaged or sharp. A soft accessory cannot correct a broken structural corner."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Plan follow-up",
+          "paragraphs": [
+            "Record the guard brand and furniture surface before seeking a suitable replacement.",
+            "If a guard repeatedly detaches or leaves a hazard, remove the affected item from children's access and seek an appropriate alternative rather than layering unknown adhesives."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-reusable-mop-head-fit",
+      "title": "Checking the fit of a removable household mop head",
+      "category": "Home maintenance",
+      "summary": "A removable mop head needs to match its handle and attachment system to stay secure during ordinary floor cleaning.",
+      "tags": [
+        "mop",
+        "cleaning equipment",
+        "attachment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Handle",
+          "Connector",
+          "Head"
+        ],
+        "alt": "The diagram labels the mop handle, its compatible connector and the removable cleaning head, indicating parts to identify rather than a repair sequence.",
+        "caption": "Match removable heads to the exact connection type."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the connection",
+          "paragraphs": [
+            "Check whether the mop uses a clip, hook-and-loop pad, threaded head or proprietary fitting. Match the exact model before buying replacement parts.",
+            "Inspect the detached washable head only as the manufacturer permits, and check for worn fabric, damaged seams or a cracked plastic backing."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Observe fit and storage",
+          "paragraphs": [
+            "If the head detaches unexpectedly during normal use, stop and review compatibility rather than forcing it into place.",
+            "Keep a damp mop head away from sensitive flooring and storage surfaces. Follow the product's washing and drying instructions to prevent avoidable residue or odour."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep a maintenance note",
+          "paragraphs": [
+            "Record the mop model, compatible head type and replacement date if useful for shared household supplies.",
+            "Discard a head with sharp damaged parts or a connection that will not hold securely; avoid improvised fasteners that could scratch floors."
+          ]
+        }
+      ]
+    }
+  ]
+}
