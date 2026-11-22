@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-suspected-meningitis-awareness",
+      "title": "Possible meningitis or sepsis in a child: urgent warning awareness",
+      "category": "First aid",
+      "summary": "A serious infection may progress rapidly and does not always present with a distinctive rash.",
+      "tags": [
+        "meningitis",
+        "child",
+        "fever",
+        "rash",
+        "urgent care"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise an evolving illness",
+          "paragraphs": [
+            "Fever, unusual sleepiness, marked irritability, a stiff neck or a new rash may occur in some serious infections, but symptoms vary with age. The absence of one particular sign does not rule out serious illness.",
+            "A child who is difficult to wake, has breathing difficulties, a seizure or appears critically unwell needs immediate emergency attention. Do not wait for a rash or use a home checklist to exclude meningitis."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek urgent professional assessment",
+          "paragraphs": [
+            "Call 999 in the UK for immediately life-threatening symptoms. For other concerning changes, obtain urgent clinical advice rather than waiting for all symptoms to appear.",
+            "This article is not a diagnosis or treatment guide. Follow the emergency call handler or qualified clinician's advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Describe the changes",
+          "paragraphs": [
+            "Explain the child's age, what changed from usual behaviour and when the change was first noticed. Mention any uncertainty honestly.",
+            "Clinical photographs and symptom-comparison diagrams could falsely reassure and are deferred for qualified review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-asthma-breathing-crisis-awareness",
+      "title": "Asthma-related breathing crisis: recognising a need for urgent help",
+      "category": "First aid",
+      "summary": "An asthma-related breathing problem can become serious even when symptoms are not typical.",
+      "tags": [
+        "asthma",
+        "wheezing",
+        "breathing",
+        "inhaler",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise changes in breathing",
+          "paragraphs": [
+            "Breathlessness, difficulty speaking normally, unusual effort to breathe or a worsening pattern may be concerning. Not everyone wheezes audibly, and a quiet chest should not be taken as reassurance.",
+            "The person's own clinician-provided asthma plan may contain important individual instructions; an offline general article cannot replace it."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate without delay",
+          "paragraphs": [
+            "Call 999 in the UK if breathing is severely impaired, the person cannot speak normally because of breathlessness, becomes unresponsive or appears in immediate danger. Follow the call handler's instructions.",
+            "Do not improvise inhaler doses or substitute somebody else's medicine based on this draft. Treatment instructions require specialist approval."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share useful context",
+          "paragraphs": [
+            "Tell responders what symptoms were observed, any known asthma diagnosis, whether a personal plan is available and what help has already been given.",
+            "Device-use and positioning illustrations need qualified review and are not included."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-carbon-monoxide-exposure-awareness",
+      "title": "Possible carbon monoxide exposure: recognising a hidden household danger",
+      "category": "First aid",
+      "summary": "Carbon monoxide cannot be reliably detected by smell, and unexplained illness around combustion appliances needs caution.",
+      "tags": [
+        "carbon monoxide",
+        "gas appliance",
+        "headache",
+        "exposure",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Notice a possible exposure pattern",
+          "paragraphs": [
+            "Headache, dizziness, nausea or unusual tiredness may have many causes. Several people feeling unwell in the same building, especially near a fuel-burning appliance, can be an important contextual clue.",
+            "A carbon monoxide alarm is a warning device, not a medical test. A silent or absent alarm does not establish that a space is safe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prioritise safety and emergency help",
+          "paragraphs": [
+            "If carbon monoxide exposure is suspected, move to fresh air without re-entering a potentially hazardous area and seek urgent professional advice. Call 999 in the UK if anyone is seriously unwell or in immediate danger.",
+            "Do not attempt appliance diagnosis, gas repairs or repeated entry to gather evidence. Follow emergency services and the relevant gas emergency provider's instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Report facts without returning to danger",
+          "paragraphs": [
+            "Share the address, any alarm activation, number of affected people and observed symptoms when speaking with responders, only if known.",
+            "Technical airflow or appliance diagrams would require qualified gas-safety review and are deferred."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-water-incident-awareness",
+      "title": "After a water incident: recognising possible breathing complications",
+      "category": "First aid",
+      "summary": "Breathing difficulties after submersion need prompt assessment even if the person initially seems better.",
+      "tags": [
+        "water incident",
+        "submersion",
+        "breathing",
+        "children",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand why context matters",
+          "paragraphs": [
+            "A person rescued from water may cough, struggle to breathe, become unusually tired or develop other symptoms. The circumstances and symptoms matter more than a simplistic rule about how much water was swallowed.",
+            "Do not rely on internet labels such as 'dry drowning' to make a diagnosis. An offline draft cannot determine whether a person is safe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Get appropriate assistance",
+          "paragraphs": [
+            "Call 999 in the UK if the person is unresponsive, has serious breathing problems or appears critically unwell. Seek prompt clinical assessment for concerning symptoms after submersion.",
+            "Do not put yourself at risk attempting an unsafe rescue. Water rescue and resuscitation procedures are outside this unreviewed draft."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Explain the event",
+          "paragraphs": [
+            "If safely known, tell responders where the incident occurred, approximately when and what changes in breathing or responsiveness followed.",
+            "Rescue, recovery-position and resuscitation graphics are deferred for expert review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-electrical-injury-awareness",
+      "title": "Electrical injury: understanding hidden risks after a shock",
+      "category": "First aid",
+      "summary": "An electrical shock can cause harm that is not obvious from the skin's appearance.",
+      "tags": [
+        "electric shock",
+        "electrical injury",
+        "burns",
+        "heart",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise a hazardous scene",
+          "paragraphs": [
+            "An electrical source, damaged cable or wet environment can make the scene dangerous to others. Do not touch a person who may still be in contact with a live source or approach exposed electrical equipment.",
+            "An absence of visible burns does not reliably exclude internal injury. Symptoms and exposure circumstances require professional assessment."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek help without creating another casualty",
+          "paragraphs": [
+            "Call 999 in the UK for an immediately dangerous electrical incident, collapse, abnormal breathing or serious injury. Follow emergency service directions and do not attempt electrical repairs.",
+            "Only appropriately competent people should isolate or inspect electrical systems. This article provides no switching, testing or rescue technique."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Give a factual report",
+          "paragraphs": [
+            "Describe the source and event only from a safe location, noting any observed changes and any help already provided.",
+            "Circuit, contact and rescue diagrams are deferred for electrical and medical specialist review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-suspected-overdose-awareness",
+      "title": "Suspected medicine overdose: when to seek urgent help",
+      "category": "First aid",
+      "summary": "Taking too much of a medicine, or the wrong medicine, may be serious even before symptoms appear.",
+      "tags": [
+        "overdose",
+        "medicines",
+        "poisoning",
+        "tablets",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Do not wait for visible symptoms",
+          "paragraphs": [
+            "The medicine, amount, timing and individual circumstances can affect risk. Some harmful effects are delayed, so a person appearing well immediately afterwards is not proof of safety.",
+            "Avoid guessing from the package or using a home calculation to decide that an exposure is harmless."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Contact appropriate professionals",
+          "paragraphs": [
+            "Call 999 in the UK if someone is unconscious, has a seizure, has breathing problems or appears critically unwell. For a suspected overdose without immediate life-threatening symptoms, seek urgent professional advice promptly.",
+            "Do not induce vomiting, give additional medication or attempt a home remedy based on this draft. Follow qualified advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Preserve details safely",
+          "paragraphs": [
+            "If available without delaying help, keep the medicine container or a record of its name and strength to share with clinicians. Be clear about what is known versus estimated.",
+            "Dose charts, antidote sequences and treatment diagrams require clinical review and are not provided."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-heatstroke-awareness",
+      "title": "Possible heatstroke: recognising severe heat illness",
+      "category": "First aid",
+      "summary": "Heat-related illness can become a medical emergency when temperature stress affects awareness or organ function.",
+      "tags": [
+        "heatstroke",
+        "heat",
+        "confusion",
+        "collapse",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise concerning changes",
+          "paragraphs": [
+            "After heat exposure, marked confusion, collapse, seizure or reduced responsiveness can indicate serious illness. Sweating patterns alone do not reliably distinguish mild from severe heat illness.",
+            "Consider the setting, activity and person's condition, but do not use an offline article to grade severity."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Get emergency help",
+          "paragraphs": [
+            "Call 999 in the UK for suspected heatstroke or severe symptoms, and follow the call handler's instructions. Do not delay assistance to complete an observation record.",
+            "Cooling treatment methods and specific temperature thresholds require clinically reviewed guidance; none is supplied here."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share useful information",
+          "paragraphs": [
+            "Describe the location, recent heat exposure, activity and observed changes if known. Avoid guessing a core body temperature.",
+            "Body-cooling procedures and temperature comparison charts are deferred for specialist review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-anaphylaxis-context-awareness",
+      "title": "Anaphylaxis risk: preparing accurate information for responders",
+      "category": "First aid",
+      "summary": "A severe allergic reaction may involve breathing, circulation or awareness changes and needs emergency assessment.",
+      "tags": [
+        "anaphylaxis",
+        "allergy",
+        "adrenaline",
+        "emergency",
+        "medical alert"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition or treatment illustration requires qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise a serious pattern",
+          "paragraphs": [
+            "Breathing difficulty, throat or tongue swelling, collapse or sudden severe illness after a possible exposure can be concerning. Skin symptoms may be absent, and a previous mild reaction does not predict a future reaction.",
+            "A known allergy plan or prescribed emergency device may be relevant, but a general offline draft cannot replace individual training."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate promptly",
+          "paragraphs": [
+            "Call 999 in the UK for suspected anaphylaxis and follow emergency instructions. Do not delay the call while looking for a suspected trigger or completing an allergy record.",
+            "Adrenaline auto-injector technique, dose and repeat-use instructions require qualified review and are deliberately omitted."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Communicate accurately",
+          "paragraphs": [
+            "Share known allergies, suspected exposure, symptom onset and any prescribed treatment already administered, distinguishing facts from guesses.",
+            "Anatomical and auto-injector diagrams are marked for expert review rather than embedded."
+          ]
+        }
+      ]
+    }
+  ]
+}
