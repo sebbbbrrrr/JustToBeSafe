@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-washbag-air-dry",
+      "title": "Drying and storing a reusable personal washbag",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for washbag, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "wash bag",
+        "travel hygiene",
+        "moisture",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Empty bag",
+          "Dry separately",
+          "Check before use"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for washbag: Empty bag; Dry separately; Check before use. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising washbag; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "A reusable washbag may trap moisture when packed immediately after use, particularly if the lining or seams remain damp.",
+            "Empty the bag and identify any removable inserts. Check the care label for material-specific restrictions; do not assume every lining can be machine washed or heated."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Choose an accessible place where the empty bag can dry without touching food or clean towels. Keep damp contents separate rather than sealing them into a closed pouch."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Before repacking, look for lingering moisture, odour, tears or failed zips. Replace a damaged bag when it no longer protects or separates contents."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-wet-dry-toiletry-separation",
+      "title": "Separating damp and dry toiletries in a shared bathroom",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for toiletry separation, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "bathroom",
+        "wet storage",
+        "dry storage",
+        "personal hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Sort by state",
+          "Choose locations",
+          "Review access"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for toiletry separation: Sort by state; Choose locations; Review access. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising toiletry separation; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "Damp cloths, sealed packets and paper products have different storage needs, so one crowded container can make everyday items hard to identify and maintain.",
+            "Sort supplies by whether they are currently wet, clean and dry, or awaiting laundering. Do not use the same label for clean items and items waiting to be washed."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Give dry supplies a protected location away from splashes and give damp reusable items an appropriate drying place. Make the arrangement clear without disclosing private care needs."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Check the arrangement after guests, travel or a change of routine. Move supplies that are repeatedly getting wet rather than treating a label as proof they are clean."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-bar-soap-holder",
+      "title": "Choosing a practical place for an everyday bar-soap holder",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for soap holder, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "bar soap",
+        "bathroom",
+        "drainage",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Reach safely",
+          "Allow drainage",
+          "Review holder"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for soap holder: Reach safely; Allow drainage; Review holder. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising soap holder; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "A soap bar left in standing water may become difficult to handle, while an unstable holder can obstruct a small sink or bath ledge.",
+            "Identify who uses the sink and whether the holder can be reached without stretching or balancing on a wet surface. Check that it sits securely on its intended surface."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Choose a holder that allows ordinary drainage and can be lifted for routine cleaning. Follow the holder's material guidance; avoid sharp edges or unstable improvised supports."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Review whether water accumulates beneath the holder or nearby objects. Keep the location easy to describe to visitors and avoid moving essential supplies without telling regular users."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-pump-bottle-identity",
+      "title": "Keeping refillable personal-care pump bottles identifiable",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for pump bottles, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "soap bottle",
+        "refill",
+        "product label",
+        "bathroom"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify product",
+          "Label clearly",
+          "Update changes"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for pump bottles: Identify product; Label clearly; Update changes. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising pump bottles; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "Similar-looking pump bottles can make it difficult to tell which everyday non-medicated product they contain, especially when original packaging is discarded.",
+            "Keep the original product identity, intended use and any manufacturer warnings available. Never transfer medicines or hazardous chemicals into an unmarked personal-care bottle."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Use a clear written label on the refillable container and keep products in separate, appropriate locations. Confirm the container is compatible with the manufacturer's guidance before refilling."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "When the contents change, remove outdated labels and update the record. If identity is uncertain, do not guess from colour, scent or bottle shape."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-soiled-linen-bag",
+      "title": "Organising a separate bag for everyday used personal linens",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for used linen bag, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "washcloths",
+        "used towels",
+        "laundry",
+        "household hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify used",
+          "Collect separately",
+          "Review routine"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for used linen bag: Identify used; Collect separately; Review routine. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising used linen bag; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "A dedicated collection point for used personal linens can reduce confusion between items ready to use and items waiting for routine laundry.",
+            "Decide which everyday towels, washcloths and similar textiles belong in the collection bag. Keep this ordinary laundry arrangement separate from any clinical infection-control instructions."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Place the bag where users can reach it without blocking doorways or creating a trip hazard. Mark it with words rather than relying only on colour; follow textile and bag care labels."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Empty and clean the bag according to its care instructions. If linen is contaminated with bodily fluids or there is a suspected infectious illness, seek appropriate professional or public-health guidance instead of relying on this general organisation plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-toothbrush-head-compatibility",
+      "title": "Recording replacement head compatibility for electric toothbrushes",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for toothbrush heads, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "electric toothbrush",
+        "model number",
+        "personal hygiene",
+        "spares"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify model",
+          "Match spares",
+          "Update record"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for toothbrush heads: Identify model; Match spares; Update record. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising toothbrush heads; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "Replacement brush heads may look similar while fitting different models, so a household record should distinguish the exact equipment rather than relying on appearance.",
+            "Record the toothbrush make and model from the device or manual. Note the compatible head identifier only when confirmed by the manufacturer or original packaging."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Keep unopened spares associated with the correct toothbrush user or model without exposing unnecessary personal information. Separate incompatible products so they are not mistaken for usable replacements."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Update the record when a toothbrush is replaced. Product compatibility and replacement intervals should come from the manufacturer's current instructions, not an invented household rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-earplug-case",
+      "title": "Keeping reusable everyday earplugs and their cases identifiable",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for earplug case, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "hearing protection",
+        "storage case",
+        "personal hygiene",
+        "accessories"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Match owner",
+          "Store in case",
+          "Review condition"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for earplug case: Match owner; Store in case; Review condition. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising earplug case; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "Reusable everyday earplugs can be easily mixed up when several household members own similar pairs or cases.",
+            "Identify each person's ordinary nonclinical earplugs and the case supplied for that model. Preserve product instructions, including any cleaning or replacement limitations."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Choose a clearly marked, accessible case and keep it separate from used cleaning cloths and loose bathroom items. Do not share personal earplugs simply because they look identical."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Check cases for damage and make sure the correct product instructions remain findable. Hearing protection suitability and medical ear conditions require appropriate specialist advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-hygiene-hooks",
+      "title": "Assigning accessible hooks for everyday personal-care textiles",
+      "category": "First aid & household hygiene",
+      "summary": "An offline household hygiene reference for bathroom hooks, focused on practical organisation, accessible identification and routine review.",
+      "tags": [
+        "bathroom hooks",
+        "personal towels",
+        "accessibility",
+        "drying"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify items",
+          "Choose hooks",
+          "Check access"
+        ],
+        "alt": "Three-part nonclinical organisation checklist for bathroom hooks: Identify items; Choose hooks; Check access. The illustration shows labels only, not medical treatment or a safety procedure.",
+        "caption": "A compact offline reminder for organising bathroom hooks; follow product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand the everyday need",
+          "paragraphs": [
+            "Shared hooks can leave towels and other personal textiles difficult to distinguish, especially where several items are crowded together.",
+            "List the items that genuinely need hanging space and ask regular users about reachable locations. Avoid attaching hooks to unsafe surfaces or modifying fixtures without appropriate permission."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the arrangement usable",
+          "paragraphs": [
+            "Use existing suitable hooks or an approved fitting arrangement with clear written identifiers. Keep hanging items away from toilet surfaces and ensure they do not obstruct doors or mobility aids."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review limits and changes",
+          "paragraphs": [
+            "Review the layout when household needs change. A simple location map can help a guest or carer find the right item without revealing private health information."
+          ]
+        }
+      ]
+    }
+  ]
+}
