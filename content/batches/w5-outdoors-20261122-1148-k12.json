@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-boot-insole-condition",
+      "title": "Inspect removable insoles in walking footwear",
+      "category": "Outdoor equipment",
+      "summary": "Check comfort inserts for wear and moisture before an ordinary walk.",
+      "tags": [
+        "insole",
+        "walking boots",
+        "footwear",
+        "wear"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Look for uneven wear",
+          "paragraphs": [
+            "Remove an insole only if the footwear maker describes it as removable, then examine its top and underside in good light. Crumbling foam, curling edges and compressed patches may affect how the shoe feels.",
+            "Compare the left and right inserts rather than relying on a single worn area. Photograph a concerning change for a footwear specialist or retailer if a replacement is needed."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check fit without forcing",
+          "paragraphs": [
+            "Return each dry insert flat in its intended shoe and make sure the heel is seated and the edge is not folded beneath the foot.",
+            "Do not stack additional inserts or change the shoe's internal fit without checking compatibility; altered space can create pressure or rubbing."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep a simple record",
+          "paragraphs": [
+            "After a wet outing, follow the footwear maker's drying instructions and avoid placing inserts against intense heat sources.",
+            "Note the shoe model and insert size when ordering replacements. Stop using footwear that causes persistent pain and seek appropriate advice rather than trying to compensate with improvised padding."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect wear",
+          "Check fit",
+          "Record size"
+        ],
+        "alt": "A compact checklist diagram showing Inspect wear, Check fit, Record size as three labelled stages for inspect removable insoles in walking footwear. The diagram is an organisational summary, not a terrain or rescue procedure.",
+        "caption": "Three practical review points; read the article for limitations and context."
+      }
+    },
+    {
+      "id": "outdoor-map-file-storage-budget",
+      "title": "Check phone storage before downloading offline maps",
+      "category": "Outdoor navigation",
+      "summary": "Make room for the correct offline map area without deleting essential files by mistake.",
+      "tags": [
+        "offline maps",
+        "phone storage",
+        "downloads",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Estimate the needed area",
+          "paragraphs": [
+            "Open the mapping app's offline-download screen while connected and check the area and approximate storage requirement it displays. Map layers and zoom detail can change download size.",
+            "Avoid assuming a previously viewed online map is stored offline. Some apps cache tiles temporarily rather than retaining a complete selectable area."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Protect existing information",
+          "paragraphs": [
+            "Review available device space and preserve personal photos, documents and other essential files before deleting anything. Prefer the phone's own storage settings over unfamiliar cleaner apps.",
+            "Check whether the app stores maps internally or on removable storage; moving a file manually may break the app's map index."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Verify after download",
+          "paragraphs": [
+            "With the map downloaded, use the app's own installed-area list to check the region and update date. Test opening several relevant places in airplane mode before relying on it.",
+            "Leave capacity for normal device operation and future map updates. Offline files do not guarantee current path access or safe terrain conditions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check area",
+          "Check storage",
+          "Test offline"
+        ],
+        "alt": "A compact sequence diagram showing Check area, Check storage, Test offline as three labelled stages for check phone storage before downloading offline maps. The diagram is an organisational summary, not a terrain or rescue procedure.",
+        "caption": "Three practical review points; read the article for limitations and context."
+      }
+    },
+    {
+      "id": "outdoor-waist-pouch-inspection",
+      "title": "Inspect a small waist pouch for everyday outdoor essentials",
+      "category": "Outdoor equipment",
+      "summary": "Check pocket closures and fit so small belongings stay organised during a routine outing.",
+      "tags": [
+        "waist pouch",
+        "belt bag",
+        "organiser",
+        "zips"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify pocket purposes",
+          "paragraphs": [
+            "Lay the pouch empty on a clean surface and identify the main compartment, any hidden pocket and the belt adjustment. Decide which items need quick access and which should remain protected.",
+            "Avoid putting sharp, leaking or heavy objects beside fragile items such as spectacles or a phone; use suitable protective cases."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check seams and closure",
+          "paragraphs": [
+            "Look along stitching and belt attachment points for fraying, separation or stretched fabric. Operate zips and clips gently without forcing them.",
+            "A pouch that cannot close securely should not be trusted to hold important keys or documents until repaired or replaced."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Try a comfortable fit",
+          "paragraphs": [
+            "Adjust the empty pouch over ordinary clothing and check whether it sits comfortably without restricting movement. Add a modest everyday load and reassess before setting off.",
+            "Do not use an accessory pouch as a climbing harness, fall-arrest attachment or other safety-rated equipment. Follow the manufacturer's care instructions after use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check pockets",
+          "Inspect seams",
+          "Try fit"
+        ],
+        "alt": "A compact checklist diagram showing Check pockets, Inspect seams, Try fit as three labelled stages for inspect a small waist pouch for everyday outdoor essentials. The diagram is an organisational summary, not a terrain or rescue procedure.",
+        "caption": "Three practical review points; read the article for limitations and context."
+      }
+    },
+    {
+      "id": "outdoor-trail-route-source-notes",
+      "title": "Keep source notes with a saved walking route",
+      "category": "Outdoor navigation",
+      "summary": "Document where a route came from and which details still need checking.",
+      "tags": [
+        "route source",
+        "map attribution",
+        "offline notes",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the route source",
+          "paragraphs": [
+            "Record the route publisher, map or guide title, edition or update date, and the date you saved it. This helps distinguish a personal sketch from a maintained official route.",
+            "If the route was shared by another walker, mark it as an unverified personal suggestion rather than treating its line as authoritative access information."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Separate facts from assumptions",
+          "paragraphs": [
+            "Keep a short note distinguishing printed route details, your own observations and information that still requires checking. A route line does not prove a path is currently open.",
+            "Where a route depends on permissions, seasonal restrictions or transport, confirm these using current responsible sources before travelling; offline notes can become outdated."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Respect rights and privacy",
+          "paragraphs": [
+            "Store permitted links or attribution instead of copying whole copyrighted maps or guidebooks into a shared file. Follow the publisher's licence when making extracts.",
+            "Remove private home addresses, other people's precise locations and sensitive photographs before sharing route notes. Keep a local copy that remains understandable without a network connection."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Source",
+          "Verify",
+          "Share safely"
+        ],
+        "alt": "A compact shelves diagram showing Source, Verify, Share safely as three labelled stages for keep source notes with a saved walking route. The diagram is an organisational summary, not a terrain or rescue procedure.",
+        "caption": "Three practical review points; read the article for limitations and context."
+      }
+    }
+  ]
+}
