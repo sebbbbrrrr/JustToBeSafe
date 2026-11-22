@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-label-language-reference",
+      "title": "Understanding unfamiliar languages on food packaging",
+      "category": "Food & water",
+      "summary": "Organise reliable explanations of imported product labels without guessing at allergens.",
+      "tags": [
+        "labels",
+        "translation",
+        "imported food",
+        "allergen",
+        "language"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Keep original",
+          "Verify wording",
+          "Review changes"
+        ],
+        "alt": "Three labelled checklist stages show retaining an original food label, verifying important wording and reviewing the reference after packaging changes.",
+        "caption": "Keep original packaging alongside verified product information."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep the original label",
+          "paragraphs": [
+            "Record the exact product and packaging version when a household member cannot read important label text. Preserve the original ingredient, allergen, storage and date information instead of replacing it with a guessed translation.",
+            "Distinguish casual cooking suggestions from safety-critical product statements. A machine translation or similar-looking package cannot confirm whether a food meets someone's dietary needs."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Confirm and maintain the reference",
+          "paragraphs": [
+            "Seek clarification from the manufacturer, seller or another reliable product-specific source for information that affects suitability. Note where that explanation came from and which exact package it covers.",
+            "Recheck the record when a flavour, batch, recipe or supplier changes. This organisational draft does not certify ingredients or translate allergen declarations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-service-dependency-map",
+      "title": "Mapping the services needed for regular household meals",
+      "category": "Food & water",
+      "summary": "See which familiar meals depend on water, refrigeration, power and particular equipment.",
+      "tags": [
+        "meal planning",
+        "dependencies",
+        "water",
+        "fridge",
+        "power"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "List meals",
+          "Mark dependencies",
+          "Find alternatives"
+        ],
+        "alt": "Three linked steps illustrate listing familiar meals, marking their service dependencies and identifying alternatives without implying food safety.",
+        "caption": "A practical alternative must also meet household needs."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record what each meal actually needs",
+          "paragraphs": [
+            "Choose a few meals people in the household already eat and list their usual ingredients, equipment and services. Include access to clean water, refrigeration, a suitable opening tool and the normal cooking appliance where relevant.",
+            "Do not assume that a shelf-stable ingredient makes a prepared meal safe without refrigeration. Keep food-safety decisions separate from this household planning exercise."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Look for practical alternatives",
+          "paragraphs": [
+            "Identify meals that become impractical if one service is unavailable and record familiar alternatives that suit the household's dietary needs. Check whether the alternative still depends on another service or tool.",
+            "Never improvise indoor use of outdoor fuel-burning cooking equipment. This draft does not specify safe food temperatures, storage periods or emergency cooking procedures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-packaging-opening-access",
+      "title": "Checking whether stored food packages can be opened",
+      "category": "Food & water",
+      "summary": "Spot access barriers that an ordinary food inventory does not show.",
+      "tags": [
+        "packaging",
+        "accessibility",
+        "grip",
+        "lids",
+        "opening"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify packs",
+          "Check access",
+          "Record aids"
+        ],
+        "alt": "An accessible three-item checklist shows identifying difficult packaging, checking who can open it and noting suitable existing aids.",
+        "caption": "Count food that household members can actually access."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Look beyond quantity",
+          "paragraphs": [
+            "An inventory may show enough food while overlooking whether someone can open a tight lid, pull tab or sealed pouch. During ordinary use, ask household members which package formats work for them.",
+            "Avoid assumptions about people's abilities. A successful opening on one occasion does not prove that every future pack or different product size will be manageable."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make access part of shopping",
+          "paragraphs": [
+            "Record appropriate everyday opening aids already used in the home and where they are stored. Keep sharp tools safely and avoid improvised cutting techniques.",
+            "Where a package format is consistently difficult, consider accessible alternatives on the next normal shopping trip. This is access planning, not an assessment of damaged packaging or food safety."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-storage-zones",
+      "title": "Organising kitchen cleaning tools by storage area",
+      "category": "Food & water",
+      "summary": "Make everyday cleaning equipment easier to locate without confusing its intended use.",
+      "tags": [
+        "kitchen",
+        "cleaning",
+        "cloths",
+        "brushes",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Wash-up tools",
+          "Drying space",
+          "Other supplies"
+        ],
+        "alt": "A simple three-shelf schematic labels washing-up tools, a drying location and other supplies without illustrating chemical procedures.",
+        "caption": "Label storage locations clearly and keep products identifiable."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the tools already in use",
+          "paragraphs": [
+            "List the cloths, brushes, sponges and other ordinary cleaning equipment used in the kitchen, and note where each belongs. Clear storage names reduce confusion when several people share the space.",
+            "Keep cleaning chemicals in their original labelled containers and follow their instructions. Never infer that an unlabelled mixture is suitable for food-contact surfaces."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make locations understandable",
+          "paragraphs": [
+            "Use words rather than colour alone to distinguish storage areas and explain where replacement equipment belongs. Check whether tools have suitable space to dry and whether hazardous products are stored appropriately.",
+            "Review the arrangement with other household members. This article covers organisation only; cleaning, disinfection and chemical-handling procedures require verified product guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-substitution-agreement",
+      "title": "Agreeing acceptable grocery substitutions before shopping",
+      "category": "Food & water",
+      "summary": "Avoid unsuitable surprise replacements when a regular pantry item is unavailable.",
+      "tags": [
+        "substitution",
+        "shopping",
+        "preferences",
+        "allergens",
+        "brands"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Name item",
+          "Agree alternative",
+          "Check purchase"
+        ],
+        "alt": "Three stages show identifying a preferred food, agreeing a possible alternative and checking the actual purchased product.",
+        "caption": "Agree substitutions, then verify the real product label."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate preferences from requirements",
+          "paragraphs": [
+            "For regularly purchased foods, identify whether a preferred brand is optional or whether ingredients, accessibility or preparation requirements matter. Ask the people who use the food what alternatives are acceptable.",
+            "Products with similar names or appearances can have different ingredients. An alternative must not be assumed safe for an allergy or restriction without checking the actual label."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record a simple shopping decision",
+          "paragraphs": [
+            "Note which substitutes are agreed, which require a household member's confirmation and which should be omitted if unavailable. Keep sensitive personal information out of a shared public reference.",
+            "Recheck each replacement product at purchase, even if it was accepted previously. This draft does not verify allergen equivalence or certify a substitute as safe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-appliance-manual-index",
+      "title": "Keeping kitchen equipment manuals accessible offline",
+      "category": "Food & water",
+      "summary": "Find model-specific food equipment instructions without copying risky procedures.",
+      "tags": [
+        "manuals",
+        "appliances",
+        "kitchen",
+        "offline",
+        "models"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Record model",
+          "Store manual",
+          "Check version"
+        ],
+        "alt": "A three-part checklist illustrates recording the appliance model, storing the manufacturer's instructions and reviewing their applicability.",
+        "caption": "Original model-specific instructions take priority."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the exact equipment",
+          "paragraphs": [
+            "Create a list of appliances and manual kitchen tools for which instructions may be needed. Record the precise model or distinguishing details because similar-looking devices can require different accessories or operation.",
+            "Keep the original manufacturer documentation accessible where possible. Generic instructions for a different product are not a reliable replacement for model-specific safety information."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep documents usable offline",
+          "paragraphs": [
+            "Where permitted, save a personal offline copy of the manual or a note showing where the paper copy is stored. Preserve warnings and diagrams rather than replacing them with a short summary.",
+            "Update the reference when equipment is replaced or repaired. This is a document-organisation guide, not appliance repair, cooking or electrical safety instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-shortage-message",
+      "title": "Writing a clear household pantry shortage message",
+      "category": "Food & water",
+      "summary": "Communicate missing everyday supplies without treating a reminder as proof of replacement.",
+      "tags": [
+        "pantry",
+        "communication",
+        "shortage",
+        "shopping",
+        "requests"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Note missing",
+          "Assign follow-up",
+          "Confirm arrival"
+        ],
+        "alt": "Three connected stages depict noting a missing supply, agreeing who follows up and confirming the item is physically available.",
+        "caption": "A shopping request is not proof that stock arrived."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Describe what is missing",
+          "paragraphs": [
+            "When a routine pantry check finds a missing item, record the product or suitable category, its usual location and why it matters to planned meals. Distinguish an empty shelf from a quantity merely below preference.",
+            "Do not label ordinary shopping gaps as emergency warnings. Check the actual storage location before relying on an app count or an old household note."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Close the communication loop",
+          "paragraphs": [
+            "Agree who will check or obtain the item and whether a substitute is acceptable. Use plain states such as noted, requested and physically received rather than treating a dismissed reminder as completion.",
+            "Update the message when an item is found or delivered, and avoid repeated requests for the same supply. This article does not assess nutritional adequacy or live availability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reusable-food-carrier-storage",
+      "title": "Organising reusable shopping bags and food carriers",
+      "category": "Food & water",
+      "summary": "Record where reusable carriers belong and whether they remain suitable for their intended use.",
+      "tags": [
+        "bags",
+        "carriers",
+        "containers",
+        "reusable",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Shopping bags",
+          "Food containers",
+          "Spare carriers"
+        ],
+        "alt": "Three storage shelves distinguish shopping bags, food containers and spare carriers as separate categories of reusable equipment.",
+        "caption": "Organise carriers by their documented intended purpose."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "List carriers by purpose",
+          "paragraphs": [
+            "Record reusable shopping bags, food containers and insulated carriers already used by the household. Note where each belongs and whether its manufacturer specifies any important restrictions.",
+            "Do not assume a bag or container is suitable for direct food contact, hot contents or temperature control simply because it is reusable."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check condition and keep locations clear",
+          "paragraphs": [
+            "During ordinary use, notice damaged handles, missing lids or unclear labels that make a carrier less useful. Remove uncertain items from the ready-to-use list until they are assessed appropriately.",
+            "Use clear written location labels and update the list when equipment moves or is replaced. Appearance alone does not establish hygiene or food-transport safety; follow applicable product guidance."
+          ]
+        }
+      ]
+    }
+  ]
+}
