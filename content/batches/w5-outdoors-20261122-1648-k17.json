@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-route-overlay",
+      "title": "Distinguish a saved route line from downloaded map coverage",
+      "category": "Outdoor navigation",
+      "summary": "A route trace may be visible even when the surrounding map is missing.",
+      "tags": [
+        "map",
+        "offline",
+        "route",
+        "coverage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the two layers",
+          "paragraphs": [
+            "A route trace shows a proposed path or a recorded journey; the background map supplies neighbouring paths, boundaries and place names.",
+            "Saving the route does not necessarily save its background map. Some apps display the trace over a blank area when disconnected."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Check coverage in advance",
+          "paragraphs": [
+            "In a familiar place, switch off connectivity and open several points along the route. Check whether neighbouring paths and labels remain readable.",
+            "Inspect the whole intended map area rather than checking only the starting point. Keep a separate appropriate reference."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Recognise limits",
+          "paragraphs": [
+            "Map downloads may expire, require an account or be removed when phone storage is cleared.",
+            "A line on a screen cannot establish whether unfamiliar ground is currently passable or safe."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Route line",
+          "Map area",
+          "Offline test"
+        ],
+        "alt": "The diagram separates a saved route trace from its surrounding map coverage and a final offline check.",
+        "caption": "A saved route is not necessarily a saved map."
+      }
+    },
+    {
+      "id": "outdoor-screen-glare",
+      "title": "Prepare a phone screen for readable outdoor map checks",
+      "category": "Outdoor navigation",
+      "summary": "Assess legibility and battery trade-offs before relying on a digital map.",
+      "tags": [
+        "phone",
+        "glare",
+        "brightness",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise visibility limits",
+          "paragraphs": [
+            "Sunlight, rain droplets and tinted glasses can make small map labels difficult to read.",
+            "Increasing screen brightness can help in some conditions but may consume more battery."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Test ordinary settings",
+          "paragraphs": [
+            "At a familiar location, check map labels at your usual zoom and text settings in daylight.",
+            "Stop somewhere suitable before handling the phone; do not attempt repeated screen adjustments while moving."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Keep a fallback",
+          "paragraphs": [
+            "Record whether map labels disappear at certain zoom levels or under a different display theme.",
+            "A suitable independent map reference remains useful when a phone screen, battery or app becomes unusable."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Legibility",
+          "Battery",
+          "Backup"
+        ],
+        "alt": "A three-item checklist for readable labels, power use and a separate map reference.",
+        "caption": "Screen readability is part of navigation preparation."
+      }
+    },
+    {
+      "id": "outdoor-pack-sternum-strap",
+      "title": "Inspect the sternum strap on a daypack",
+      "category": "Outdoor equipment",
+      "summary": "Identify ordinary wear on a pack's chest strap and buckle.",
+      "tags": [
+        "daypack",
+        "sternum strap",
+        "buckle",
+        "wear"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Know the parts",
+          "paragraphs": [
+            "A daypack sternum strap joins its shoulder straps and may slide along small rails or loops.",
+            "This ordinary accessory is not a safety-rated restraint or lifting device."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Look for damage",
+          "paragraphs": [
+            "Inspect webbing for fraying, stitching for loose threads and plastic buckles for cracks.",
+            "Check whether the adjustment moves normally; do not force a damaged buckle or improvise a load-bearing repair."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Record the condition",
+          "paragraphs": [
+            "Note the pack model and affected part before seeking a compatible replacement.",
+            "If the strap causes discomfort or changes the pack's fit, avoid that adjustment until the cause is understood."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Webbing",
+          "Buckle",
+          "Fit"
+        ],
+        "alt": "A three-part visual check of a daypack sternum strap's webbing, buckle and ordinary fit.",
+        "caption": "Visual inspection is not a certification of strength."
+      }
+    },
+    {
+      "id": "outdoor-weatherproof-labels",
+      "title": "Read weather-resistance labels on outdoor accessories",
+      "category": "Outdoor equipment",
+      "summary": "Distinguish marketing claims from product-specific conditions and limitations.",
+      "tags": [
+        "water resistant",
+        "weatherproof",
+        "ratings",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Read the actual claim",
+          "paragraphs": [
+            "Terms such as splash-resistant and waterproof may refer to different test conditions and product designs.",
+            "Find the maker's stated rating and exclusions rather than assuming every product has the same protection."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Consider wear",
+          "paragraphs": [
+            "Damaged seals, open ports and incorrect closures can reduce protection from moisture.",
+            "A label does not guarantee that an older or visibly damaged accessory remains sealed."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Record limitations",
+          "paragraphs": [
+            "Keep a short note of the exact model and its care instructions if the packaging will be discarded.",
+            "Do not deliberately immerse valuable electronics to test an uncertain rating. Use protection appropriate to each item."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Rating",
+          "Condition",
+          "Limits"
+        ],
+        "alt": "Three labels separate a product's stated weather-resistance rating, its current condition and the maker's limitations.",
+        "caption": "Weather-resistance claims depend on the product and conditions."
+      }
+    },
+    {
+      "id": "outdoor-map-rotation-setting",
+      "title": "Recognise map rotation and north-up settings on a phone",
+      "category": "Outdoor navigation",
+      "summary": "Understand why the screen map turns while the terrain stays still.",
+      "tags": [
+        "north up",
+        "map rotation",
+        "orientation",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand display modes",
+          "paragraphs": [
+            "Some mapping apps keep north at the top; others rotate the map with device heading or travel direction.",
+            "A changing screen orientation does not mean landmarks or paths have moved."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Check the mode",
+          "paragraphs": [
+            "On a familiar route, locate the north indicator and observe whether the displayed map rotates when the phone turns.",
+            "Learn where the app's north-up control is, if one exists; controls differ by app and version."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Avoid false certainty",
+          "paragraphs": [
+            "Phone heading may be affected by nearby magnetic interference or sensor limitations.",
+            "Do not treat screen rotation alone as reliable direction-finding in unfamiliar terrain."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "North marker",
+          "Rotation",
+          "Cross-check"
+        ],
+        "alt": "A compact route schematic distinguishes the north marker, rotating display and independent orientation check.",
+        "caption": "Screen rotation changes the view, not the terrain."
+      }
+    },
+    {
+      "id": "outdoor-microfibre-towel-care",
+      "title": "Care for a compact microfibre towel after outdoor use",
+      "category": "Outdoor equipment",
+      "summary": "Keep a reusable towel clean and dry between routine outings.",
+      "tags": [
+        "towel",
+        "drying",
+        "cleaning",
+        "reusable"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Separate purposes",
+          "paragraphs": [
+            "A compact towel can help dry ordinary equipment after a walk.",
+            "An equipment towel is not a sterile dressing or a substitute for proper hygiene supplies."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Unpack after use",
+          "paragraphs": [
+            "Remove the towel from its pouch after a damp outing. Follow its care label for cleaning.",
+            "Avoid sealing it into long-term storage while damp, which can encourage unpleasant odours."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Store clearly",
+          "paragraphs": [
+            "Keep towels used for different everyday purposes distinct, and replace damaged material.",
+            "Unknown contamination requires appropriate separate cleaning or disposal advice; routine washing is not universally sufficient."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Unpack",
+          "Wash",
+          "Dry"
+        ],
+        "alt": "Three steps show removing a damp towel from storage, washing as directed and drying fully before repacking.",
+        "caption": "Dry reusable towels before storing them."
+      }
+    },
+    {
+      "id": "outdoor-pack-pocket-layout",
+      "title": "Organise daypack pockets for predictable access",
+      "category": "Outdoor equipment",
+      "summary": "Keep everyday walking items findable and protected.",
+      "tags": [
+        "daypack",
+        "pockets",
+        "organisation",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose locations",
+          "paragraphs": [
+            "Assign familiar places for a map sleeve, notebook and other ordinary frequently used items.",
+            "Separate fragile objects from hard equipment that may crush or scratch them."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Check closures",
+          "paragraphs": [
+            "Inspect pocket seams, mesh and zips before travel; a closed zip cannot compensate for a torn seam.",
+            "Keep loose objects from swinging or catching on vegetation, and avoid overloading small outer pockets."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Empty and review",
+          "paragraphs": [
+            "After the walk, remove damp items and dry the bag according to its care instructions.",
+            "Change the layout if essentials were difficult to locate, but do not rely on pocket organisation as the only backup plan."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Quick access",
+          "Protected",
+          "Empty later"
+        ],
+        "alt": "Three storage zones identify easy-access contents, protected items and the after-walk emptying check.",
+        "caption": "Consistent pocket locations reduce searching."
+      }
+    },
+    {
+      "id": "outdoor-pole-basket-check",
+      "title": "Inspect removable baskets on ordinary walking poles",
+      "category": "Outdoor equipment",
+      "summary": "Identify loose or damaged pole baskets and check model compatibility.",
+      "tags": [
+        "walking poles",
+        "baskets",
+        "attachments",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the fitting",
+          "paragraphs": [
+            "A basket is a small disc or shaped fitting near the tip of some walking poles.",
+            "Different manufacturers use different mounting methods; a basket does not replace a sound shaft or locking mechanism."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Inspect visibly",
+          "paragraphs": [
+            "Look for cracks, missing pieces and obvious looseness before a routine walk.",
+            "Do not assume a larger basket makes unstable or hazardous ground safe."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Match replacements",
+          "paragraphs": [
+            "Label spare baskets with the pole model and consult manufacturer instructions for replacement.",
+            "Avoid forcing incompatible threads or modifying attachments to make them fit."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Inspect",
+          "Match"
+        ],
+        "alt": "A checklist for identifying a pole basket, inspecting visible wear and matching replacements to the correct model.",
+        "caption": "Attachment compatibility varies between poles."
+      }
+    }
+  ]
+}
