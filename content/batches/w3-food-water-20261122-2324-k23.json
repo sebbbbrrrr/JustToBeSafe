@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-packaging-opening-tool-index",
+      "title": "Identifying pantry packages that need a separate opening tool",
+      "category": "Food & water",
+      "summary": "Record whether shelf-stable packages need a tin opener, scissors or another ordinary tool so a meal plan does not assume access that is missing.",
+      "tags": [
+        "tin opener",
+        "packaging",
+        "pantry",
+        "accessibility",
+        "kitchen tools"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Recognise the dependency",
+          "paragraphs": [
+            "Some shelf-stable foods come in pull-tab tins, while others require a separate opener. Similar-looking products can use different closures, so a list that only says 'tinned food' does not explain whether the household can actually open each item.",
+            "When checking ordinary shopping, note the closure shown on the specific package. Do not assume a pull tab will be present because a previous version of the product had one."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the tool findable",
+          "paragraphs": [
+            "Keep a simple note linking the package type to the usual opening tool and where that tool is stored. Include an accessible alternative when a household member cannot comfortably use the usual equipment.",
+            "The record should describe access rather than instruct someone to improvise with knives, sharp metal or damaged tools. A package that cannot be opened safely should not be forced."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review after substitutions",
+          "paragraphs": [
+            "Check the opening method again when a product size, supplier or variant changes. If the tool is missing or damaged, mark the meal ingredient as not currently accessible rather than treating it as ready to use.",
+            "This is an equipment-planning reference, not a judgement about food condition, safety or suitability. Follow product instructions and avoid using damaged packaging."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check closure",
+          "Find tool",
+          "Confirm access"
+        ],
+        "alt": "Three-part offline checklist for recording a pantry package's closure type, locating the matching everyday opening tool and confirming someone can use it.",
+        "caption": "Package access is separate from food safety; do not improvise with sharp tools."
+      }
+    },
+    {
+      "id": "food-storage-container-symbol-reference",
+      "title": "Recording manufacturer symbols on reusable food-storage containers",
+      "category": "Food & water",
+      "summary": "Keep container markings and their manufacturer explanations together rather than guessing what a familiar-looking symbol permits.",
+      "tags": [
+        "food containers",
+        "manufacturer symbols",
+        "care labels",
+        "kitchen",
+        "reference"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Find the original markings",
+          "paragraphs": [
+            "Reusable containers can carry moulded symbols, product numbers and written care instructions. These may be difficult to read on a translucent base or may be lost when the original packaging is discarded.",
+            "Record the brand or model where visible and make a legible note of the actual symbols. A photograph or transcription should preserve the mark as printed, without silently converting an unfamiliar icon into a claimed permission."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Link symbols to verified meaning",
+          "paragraphs": [
+            "Keep the manufacturer's explanation alongside the matching container. Separate confirmed information from uncertain interpretations, particularly for food contact, temperature exposure and cleaning methods.",
+            "Do not infer that a container is suitable for microwaves, dishwashers, freezers or hot liquids merely because its shape resembles another container. If the manufacturer information cannot be confirmed, mark that use as unknown."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain a practical index",
+          "paragraphs": [
+            "A short record can pair the container's recognisable description with its instruction source and storage location. Remove entries for discarded containers so outdated advice is not applied to replacements.",
+            "This guide is about preserving product information. It does not certify a container's material, hygiene, heat resistance or food-safety performance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Container mark",
+          "Product record",
+          "Maker guidance"
+        ],
+        "alt": "Three labelled reference positions link a reusable container's actual printed mark with its product record and verified manufacturer guidance; no suitability is inferred from the drawing.",
+        "caption": "Preserve the source of each symbol's meaning instead of guessing."
+      }
+    },
+    {
+      "id": "no-cook-meal-component-record",
+      "title": "Creating a no-cook meal component record for a household plan",
+      "category": "Food & water",
+      "summary": "Describe the ingredients, equipment and individual needs of an ordinary meal option without claiming any food remains safe during an outage.",
+      "tags": [
+        "meal planning",
+        "no-cook",
+        "ingredients",
+        "household plan",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Define the meal rather than a vague label",
+          "paragraphs": [
+            "A household note saying 'make sandwiches' may conceal missing bread, a required spread, utensils or an individual preference. A useful meal record identifies the intended components and any ordinary equipment needed.",
+            "Write down the actual ingredient names and approximate household portions as a planning aid, without treating an old stock count as proof that the items remain available or suitable."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep substitutions explicit",
+          "paragraphs": [
+            "Separate essential components from optional additions. If someone needs a different ingredient because of an allergy, dietary requirement or personal preference, make that distinction readable to the people using the plan.",
+            "Avoid asserting that a substitute is safe for an allergy or medical diet without checking the current product label and appropriate professional advice. The record can point to verified product information rather than duplicating uncertain claims."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check the plan against reality",
+          "paragraphs": [
+            "When reviewing the pantry, compare the planned components with actual stock and any equipment required. If a refrigerator, safe water source or other service is unavailable, the plan needs reassessment rather than an automatic assumption that the meal remains suitable.",
+            "This is a household coordination checklist, not a food-handling procedure. During an interruption, follow current official food and water safety advice and product instructions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Meal components",
+          "Individual needs",
+          "Check availability"
+        ],
+        "alt": "Offline three-part planning checklist listing meal components, individual dietary needs and a separate availability check, without depicting food preparation or safety procedures.",
+        "caption": "A meal plan does not establish whether ingredients are safe to eat."
+      }
+    },
+    {
+      "id": "household-cooking-equipment-dependency-map",
+      "title": "Mapping which everyday meals depend on powered kitchen equipment",
+      "category": "Food & water",
+      "summary": "Make visible which planned meals require appliances or services, without suggesting unsafe improvised cooking methods.",
+      "tags": [
+        "kitchen",
+        "power cut",
+        "meal planning",
+        "appliances",
+        "dependencies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the equipment assumptions",
+          "paragraphs": [
+            "Recipes and household meal routines often assume access to an oven, hob, kettle, microwave or refrigerator without naming them. When a service is disrupted, a shopping list alone cannot show which meals are still practical.",
+            "Create a brief meal-to-equipment reference using the appliances normally used at home. Record any important accessibility needs rather than assuming every household member can use each appliance."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Distinguish equipment from services",
+          "paragraphs": [
+            "A working appliance may still depend on mains electricity, gas or another service. Keep these dependencies explicit and avoid promising that an appliance will operate during a disruption.",
+            "Do not use camping stoves, barbecues, generators or improvised burners indoors as substitutes for normal cooking. This article provides no fuel-handling or emergency cooking instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Reassess the menu",
+          "paragraphs": [
+            "When a service changes, mark affected meals as needing a different plan and check what can be done safely using verified guidance. Keep the record simple enough to understand without internet access.",
+            "The diagram is an equipment-dependency reference, not a decision chart for food safety or a substitute for official advice during an outage."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Planned meal",
+          "Usual appliance",
+          "Needed service"
+        ],
+        "alt": "Three-stage offline relationship diagram linking a planned household meal to its normal kitchen appliance and the service that appliance requires; it does not show emergency cooking methods.",
+        "caption": "Record dependencies; never infer that improvised cooking is safe."
+      }
+    }
+  ]
+}

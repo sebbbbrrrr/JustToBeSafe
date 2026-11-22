@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-inventory-unit-conversion-notes",
+      "title": "Recording package units consistently in a pantry inventory",
+      "category": "Food & water",
+      "summary": "Keep counts of packs, individual pieces and weight units distinct so household stock records do not silently change meaning.",
+      "tags": [
+        "pantry",
+        "units",
+        "inventory",
+        "multipack",
+        "quantities"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the counted unit",
+          "paragraphs": [
+            "A pantry entry should say whether its quantity represents unopened packs, individual containers or a labelled weight or volume. Two identical-looking counts may describe very different amounts when one person records cartons and another records individual sachets.",
+            "Copy the printed unit from the package when available. If the item is a multipack, distinguish the outer package from its contents instead of assuming every product uses the same pack size."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Write an understandable record",
+          "paragraphs": [
+            "Use a short quantity description such as 'two sealed packs' rather than an unexplained number. Keep an original label or product description with the record so another household member can identify the same unit offline.",
+            "When changing a record from packs to pieces, note the reason and verify the actual packaging. Do not calculate an exact converted amount when the contents or package variant are uncertain."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Reconcile after use",
+          "paragraphs": [
+            "Update the quantity only after confirming what was removed or opened. A partly used package may need a separate descriptive status rather than a misleading precise count.",
+            "Review entries with mixed units before relying on a shopping list. The inventory helps organise supplies; it does not determine whether food is safe to eat."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify unit",
+          "Record quantity",
+          "Review change"
+        ],
+        "alt": "A compact checklist diagram for recording package units consistently in a pantry inventory: Identify unit, then Record quantity, then Review change. The labels are organisational reminders, not safety certification.",
+        "caption": "Use this visual as an offline household organisation aid, not a food-safety instruction."
+      }
+    },
+    {
+      "id": "food-cupboard-location-aliases",
+      "title": "Using location aliases for food stored in several cupboards",
+      "category": "Food & water",
+      "summary": "Make pantry searches work when different household members use different names for the same storage place.",
+      "tags": [
+        "cupboard",
+        "pantry",
+        "labels",
+        "offline search",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Map the names people already use",
+          "paragraphs": [
+            "One household member may say 'larder', another 'tall cupboard' and another 'hall shelf' for the same space. Capture those ordinary names without assuming a single label is obvious to everyone.",
+            "Describe the actual storage area using a stable physical reference, such as the room and a recognisable door or shelf. Avoid including private addresses in shared exports."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Choose a primary label",
+          "paragraphs": [
+            "Give each location one short primary name and store familiar alternatives as searchable aliases. Keep the label distinct from nearby cupboards so an offline search result points to one physical area.",
+            "Where several shelves share a cupboard, describe shelf positions in plain words. Do not depend only on colour, a photograph or a numbering system that users have not agreed."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check after rearranging",
+          "paragraphs": [
+            "When shelves or containers move, update the location record and any aliases that now point to the wrong place. Keep a simple note of changes until everyone knows the new arrangement.",
+            "A location map is an organisation aid, not evidence of suitable temperature, cleanliness or food safety. Follow the packaging's storage instructions separately."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Top shelf",
+          "Middle shelf",
+          "Lower shelf"
+        ],
+        "alt": "A compact shelves diagram for using location aliases for food stored in several cupboards: Top shelf, then Middle shelf, then Lower shelf. The labels are organisational reminders, not safety certification.",
+        "caption": "Use this visual as an offline household organisation aid, not a food-safety instruction."
+      }
+    },
+    {
+      "id": "pantry-empty-container-records",
+      "title": "Preventing empty containers from appearing as pantry stock",
+      "category": "Food & water",
+      "summary": "Distinguish a reusable food container from food that is actually available to the household.",
+      "tags": [
+        "containers",
+        "pantry",
+        "inventory",
+        "empty",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Separate container and contents",
+          "paragraphs": [
+            "An empty storage jar or reusable box can remain on a shelf long after its contents are gone. A pantry record that counts the container as food can make a shopping list or meal plan unreliable.",
+            "Give the container its own identity if it is useful to track. Record food contents separately, including a plain-language description of what is physically present."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Update the stock state",
+          "paragraphs": [
+            "When a container is emptied, change the food record to zero or remove that food entry according to the household's chosen system. Do not leave a previous quantity attached to the empty container.",
+            "If a container has been refilled with something different, update the contents label and inventory together. Avoid relying on an old label or memory to identify the new contents."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review before planning",
+          "paragraphs": [
+            "A quick visual check of the actual cupboard can catch empty jars, missing lids and stock that has moved. Mark uncertain quantities as needing confirmation instead of inventing a number.",
+            "Container suitability and cleaning requirements depend on the item and its manufacturer. This record does not certify that a reused container is suitable for a particular food."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check contents",
+          "Update record",
+          "Confirm shelf"
+        ],
+        "alt": "A compact sequence diagram for preventing empty containers from appearing as pantry stock: Check contents, then Update record, then Confirm shelf. The labels are organisational reminders, not safety certification.",
+        "caption": "Use this visual as an offline household organisation aid, not a food-safety instruction."
+      }
+    },
+    {
+      "id": "household-shopping-list-source-notes",
+      "title": "Keeping the reason for a pantry shopping-list item",
+      "category": "Food & water",
+      "summary": "Make shared shopping lists easier to interpret by distinguishing low stock, a planned meal and a specific request.",
+      "tags": [
+        "shopping list",
+        "pantry",
+        "planning",
+        "offline",
+        "shared household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record the reason briefly",
+          "paragraphs": [
+            "A shopping-list entry may come from a nearly empty pantry item, an upcoming meal or a request from another household member. Without context, someone may buy a duplicate or remove an item that still matters.",
+            "Add a short source note such as 'pantry count', 'meal plan' or 'requested' when it helps explain the entry. Keep notes factual and avoid storing unnecessary personal details."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep confirmation separate",
+          "paragraphs": [
+            "A suggested purchase is not the same as an item already bought. Use distinct statuses for proposed, confirmed purchased and physically put away, especially when several people share the list.",
+            "If the same product appears for two reasons, review whether one purchase can satisfy both instead of automatically doubling the quantity. Preserve different variants when the packaging or intended use matters."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Close the loop",
+          "paragraphs": [
+            "After shopping, reconcile the receipt or purchased items against the pantry itself. Mark an item stocked only when its actual location and quantity are known.",
+            "Keep the list available offline but recognise that it may be out of date when several devices have not synchronised. Confirm discrepancies with the household before treating a list as authoritative."
+          ]
+        }
+      ]
+    }
+  ]
+}

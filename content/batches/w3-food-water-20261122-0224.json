@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-open-package-tracker",
+      "title": "Track opened shelf-stable food packages",
+      "category": "Food & water",
+      "summary": "Make opened packets easier to identify and use without confusing opening dates with verified safety limits.",
+      "tags": [
+        "opened food",
+        "packets",
+        "date opened",
+        "dry goods",
+        "pantry",
+        "stock rotation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Record",
+          "Review"
+        ],
+        "alt": "Three connected steps show an opened package being identified, its opening information recorded, and its condition reviewed later.",
+        "caption": "An inventory helps locate opened packets; it does not certify that food is safe."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record what has been opened",
+          "paragraphs": [
+            "Choose a visible, simple way to distinguish an opened packet from an unopened one, such as an inventory note or a label that does not obscure the original packaging.",
+            "Record the food name, opening date and storage location. Keep the original product instructions available, because different products can have different handling requirements after opening."
+          ]
+        },
+        {
+          "id": "locate",
+          "title": "Keep contents and instructions linked",
+          "paragraphs": [
+            "Where a packet has been placed inside a larger container, retain enough of the original label to identify its contents, allergens and relevant manufacturer instructions.",
+            "Do not assume a packet remains suitable solely because it appears in an inventory. Condition, storage requirements and any applicable use-by information still need a separate check."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Make a brief regular review",
+          "paragraphs": [
+            "During an ordinary cupboard check, identify opened packages that are hard to recognise, have damaged closures or no longer have their relevant product details.",
+            "Update the inventory to match what is physically present. Where suitability is uncertain, consult the original instructions or appropriate food-safety guidance rather than inventing a universal shelf-life rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-stock-unit-consistency",
+      "title": "Use consistent quantities in a household food inventory",
+      "category": "Food & water",
+      "summary": "Keep stock counts understandable when foods are recorded as packets, tins, jars or other units.",
+      "tags": [
+        "quantity",
+        "unit",
+        "pack size",
+        "inventory",
+        "count",
+        "pantry"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Unit",
+          "Size",
+          "Count"
+        ],
+        "alt": "A three-row checklist illustrates recording the unit, package size and count as distinct pieces of stock information.",
+        "caption": "Count like-for-like packages and note partial packs separately."
+      },
+      "sections": [
+        {
+          "id": "units",
+          "title": "Pick a unit for each item",
+          "paragraphs": [
+            "Decide whether an item will be counted by whole packages, individual containers or another clearly named unit. Write that unit beside the item name, not just a bare number.",
+            "A count of three could mean three tins, three multipacks or three servings. Avoid presenting it as a precise measure of meals available unless the package and household needs support that interpretation."
+          ]
+        },
+        {
+          "id": "mixed",
+          "title": "Handle mixed package sizes",
+          "paragraphs": [
+            "When the same product comes in different sizes, record the sizes separately or note their sizes alongside the counts. This avoids adding unlike packages into one misleading total.",
+            "If someone removes only part of a package, note the remainder in plain language rather than pretending a partly used container is still full."
+          ]
+        },
+        {
+          "id": "audit",
+          "title": "Reconcile against the cupboard",
+          "paragraphs": [
+            "During a stock check, compare the inventory quantity and unit with the actual labelled packages. Correct any unclear or duplicated entries while the items are in front of you.",
+            "Keep the convention simple enough that everyone updating the list understands it. Inventory accuracy depends on the last physical check, not the apparent precision of a number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dry-food-storage-observation-log",
+      "title": "Record changes in a dry-food storage area",
+      "category": "Food & water",
+      "summary": "Notice recurring storage-area problems without mistaking a visual check for a food-safety assessment.",
+      "tags": [
+        "dry storage",
+        "cupboard",
+        "moisture",
+        "observations",
+        "pantry",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Top shelf",
+          "Middle",
+          "Lower"
+        ],
+        "alt": "Three horizontal shelves represent different storage positions that can be identified precisely in a cupboard observation record.",
+        "caption": "Record the affected location clearly; this diagram does not assess food condition."
+      },
+      "sections": [
+        {
+          "id": "baseline",
+          "title": "Describe the normal storage area",
+          "paragraphs": [
+            "Note which cupboard or shelf holds dry foods and whether the area is normally clean, dry and accessible. Record obvious issues such as nearby leaks or damaged shelving for appropriate follow-up.",
+            "Do not move food into an unsuitable area merely to make the inventory look tidy. Packaging directions and the household's actual storage conditions still govern where it belongs."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Log what changed",
+          "paragraphs": [
+            "If you notice new damp marks, unusual odours, visible pests or damaged packaging, write down where and when you observed them, using neutral descriptions rather than a diagnosis.",
+            "Keep observations separate from decisions about whether individual foods can be used. A generic appearance checklist cannot establish food safety or identify the cause of moisture."
+          ]
+        },
+        {
+          "id": "handoff",
+          "title": "Make follow-up traceable",
+          "paragraphs": [
+            "Record who is responsible for checking the property problem and where manufacturer or qualified advice can be found when needed. Avoid undertaking risky electrical or structural repairs as part of a food-storage check.",
+            "When a concern has been addressed, update the note so other household members do not rely on an outdated warning or assume the issue is still unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-delivery-disruption-contact-plan",
+      "title": "Plan around interruptions to regular food deliveries",
+      "category": "Food & water",
+      "summary": "Record practical alternatives when a household normally relies on deliveries or assisted shopping.",
+      "tags": [
+        "delivery",
+        "groceries",
+        "shopping support",
+        "accessibility",
+        "contacts",
+        "contingency"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual",
+          "Backup",
+          "Support"
+        ],
+        "alt": "Three connected points represent a regular food delivery arrangement, a feasible alternative and an agreed support contact, without suggesting physical travel directions.",
+        "caption": "A contact pathway is not a live delivery-status or route map."
+      },
+      "sections": [
+        {
+          "id": "dependency",
+          "title": "Identify what depends on delivery",
+          "paragraphs": [
+            "Write down which regular food deliveries, collection services or shopping assistance the household relies on, including the ordinary ordering channel and expected communication method.",
+            "Distinguish an essential dietary or accessibility requirement from a convenience preference. A delivery estimate is not a guarantee that food will arrive during a local disruption."
+          ]
+        },
+        {
+          "id": "alternatives",
+          "title": "Agree acceptable alternatives",
+          "paragraphs": [
+            "Discuss with relevant household members which nearby or remote options they can actually use, such as an accessible collection arrangement or a trusted person who has agreed to help.",
+            "Record the information needed to contact the service or helper without placing private addresses, payment details or account credentials in an openly shared document."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the plan realistic",
+          "paragraphs": [
+            "Revisit the plan when a service changes, a household member's mobility changes or a helper is no longer available. Check that alternatives are genuinely practical before relying on them.",
+            "During an actual disruption, follow the current provider information and prioritise urgent dietary or care needs through appropriate support channels rather than assuming the stored plan is current."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared-pantry-shelf-location-key",
+      "title": "Create a clear shelf-location key for shared food",
+      "category": "Food & water",
+      "summary": "Help people find the right food without relying on personal memory or unlabeled cupboard spaces.",
+      "tags": [
+        "shelf map",
+        "pantry",
+        "shared household",
+        "location key",
+        "storage",
+        "labels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Upper",
+          "Middle",
+          "Lower"
+        ],
+        "alt": "A simplified three-shelf cupboard shows how a location key can distinguish upper, middle and lower storage areas.",
+        "caption": "Illustrative shelf names only; adapt the key to your actual cupboard."
+      },
+      "sections": [
+        {
+          "id": "map",
+          "title": "Name locations consistently",
+          "paragraphs": [
+            "Give each food cupboard or shelf a short human-readable name, such as kitchen upper-left or hall lower shelf. Use the same name in the inventory and any small physical label.",
+            "Avoid codes that only one person understands. If a label is placed on a cupboard, make sure it does not cover a safety notice or manufacturer information."
+          ]
+        },
+        {
+          "id": "group",
+          "title": "Keep grouping understandable",
+          "paragraphs": [
+            "Place items in sensible groups based on their packaging and storage instructions, then note any important exceptions in the location key.",
+            "Do not force incompatible products into one area merely because a diagram has three rows. The key should describe the actual cupboard, not dictate unsafe storage."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Update when things move",
+          "paragraphs": [
+            "When supplies are moved, correct the shelf key and the inventory together. An outdated map can be less useful than a short accurate list.",
+            "Ask another household member to find a few everyday items using the key; revise confusing names before the system becomes part of an emergency plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-supply-sharing-boundaries",
+      "title": "Agree boundaries for shared household food supplies",
+      "category": "Food & water",
+      "summary": "Prevent confusion about communal, reserved and individually managed foods during normal use or disruption.",
+      "tags": [
+        "shared food",
+        "household agreements",
+        "reserved supplies",
+        "communal",
+        "dietary needs"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Shared",
+          "Reserved",
+          "Ask first"
+        ],
+        "alt": "A checklist with three labelled categories illustrates how a household can distinguish shared food, reserved items and supplies requiring permission.",
+        "caption": "Keep labels respectful and do not disclose private dietary or health information."
+      },
+      "sections": [
+        {
+          "id": "categories",
+          "title": "Agree what is shared",
+          "paragraphs": [
+            "Discuss which foods are genuinely communal and which are reserved for a person, dietary requirement or specific planned use. Use respectful labels rather than assuming everything in a shared cupboard is available.",
+            "Where someone has a dietary or allergy-related requirement, preserve the original food information and avoid casual substitution without their agreement."
+          ]
+        },
+        {
+          "id": "access",
+          "title": "Make access rules understandable",
+          "paragraphs": [
+            "Write a short household note explaining where communal food is kept and whom to ask before using reserved items. Keep it easy to update when circumstances change.",
+            "Avoid exposing sensitive health details in a communal inventory. A simple 'reserved—ask first' label may be enough without recording why."
+          ]
+        },
+        {
+          "id": "revisit",
+          "title": "Resolve mismatches early",
+          "paragraphs": [
+            "Review the arrangement when food is repeatedly misplaced or supplies run out unexpectedly. Correct unclear labels rather than blaming a person for following an ambiguous system.",
+            "The aim is a workable agreement, not an inflexible rationing scheme. Adapt the approach to household size, accessibility and changing needs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-waste-container-identification",
+      "title": "Identify kitchen waste containers clearly",
+      "category": "Food & water",
+      "summary": "Keep ordinary rubbish, food scraps and local recycling streams distinguishable without guessing collection rules.",
+      "tags": [
+        "waste",
+        "recycling",
+        "food scraps",
+        "bins",
+        "labels",
+        "sanitation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Food scraps",
+          "Recycling",
+          "Rubbish"
+        ],
+        "alt": "A three-row waste-sorting key names food scraps, recycling and general rubbish as illustrative container categories.",
+        "caption": "Check your local collection rules; the categories shown are not universal."
+      },
+      "sections": [
+        {
+          "id": "streams",
+          "title": "Check local collection categories",
+          "paragraphs": [
+            "Identify which kitchen waste streams are actually accepted by the local collection service. Record the service's current instructions separately from any household shorthand.",
+            "Rules vary by area and can change. Do not assume a familiar colour of bin or bag always means the same type of material."
+          ]
+        },
+        {
+          "id": "labels",
+          "title": "Make the containers obvious",
+          "paragraphs": [
+            "Label each container with its intended stream using clear words and, where useful, a simple symbol. Place labels where users can read them without touching waste.",
+            "Keep containers positioned so that they do not obstruct access or create avoidable spills. A diagram can identify streams but cannot determine whether an item is accepted by the local service."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Correct common mistakes",
+          "paragraphs": [
+            "If the same item is repeatedly put in the wrong container, update the label with a locally verified example rather than creating a long list nobody will read.",
+            "Review labels after a council or building collection change, and avoid presenting stored sorting notes as live collection information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-visibility-and-reach-audit",
+      "title": "Check whether essential food is easy to see and reach",
+      "category": "Food & water",
+      "summary": "Make pantry storage more usable for household members with different reach, vision or mobility.",
+      "tags": [
+        "accessibility",
+        "pantry",
+        "reach",
+        "visibility",
+        "mobility",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Easy reach",
+          "Shared",
+          "Less used"
+        ],
+        "alt": "Three cupboard shelves illustrate the idea of naming easy-reach, shared and less-frequently-used storage positions for accessibility planning.",
+        "caption": "The positions are illustrative; safe reach varies by person and furniture."
+      },
+      "sections": [
+        {
+          "id": "walkthrough",
+          "title": "Try finding common items",
+          "paragraphs": [
+            "Ask household members who use the pantry to locate several everyday foods without being directed. Notice hard-to-read labels, blocked access and shelves that require awkward reaching.",
+            "Do not require anyone to climb, overreach or move heavy loads as part of this check. Record an accessibility barrier rather than testing a risky manoeuvre."
+          ]
+        },
+        {
+          "id": "adjust",
+          "title": "Make low-risk changes",
+          "paragraphs": [
+            "Consider moving frequently used, suitable items to easier-to-reach positions and using clearer shelf names or larger text labels. Preserve all relevant product storage requirements.",
+            "A tidy arrangement is not automatically an accessible one. Check whether someone can see and retrieve what they need without relying on another person's memory."
+          ]
+        },
+        {
+          "id": "recheck",
+          "title": "Check the arrangement together",
+          "paragraphs": [
+            "After a change, ask the affected household members whether the new layout actually works for them. Keep any agreed locations consistent with the household inventory.",
+            "Revisit the arrangement when mobility, storage furniture or household needs change; do not treat one successful check as a permanent accessibility assessment."
+          ]
+        }
+      ]
+    }
+  ]
+}

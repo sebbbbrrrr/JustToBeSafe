@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "shelf-stable-meal-assembly-index",
+      "title": "Creating an offline index of shelf-stable meal combinations",
+      "category": "Food & water",
+      "summary": "Make a searchable reference of familiar meal combinations using ingredients already held at home.",
+      "tags": [
+        "meal index",
+        "shelf stable",
+        "recipes",
+        "pantry",
+        "meal planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "List meals",
+          "Match stock",
+          "Review choices"
+        ],
+        "alt": "A compact offline checklist diagram for creating an offline index of shelf-stable meal combinations, showing list meals, match stock, review choices as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "List familiar combinations",
+          "paragraphs": [
+            "Write down a handful of meals your household already eats that can be assembled from items normally kept in storage. Record ingredient names and packaging sizes rather than assuming an unfamiliar recipe will be acceptable during a disruption.",
+            "Separate meals that are ready to eat from those that depend on heating, refrigeration, water or an appliance. A cupboard full of ingredients is not automatically a set of usable meals."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Connect the index to actual stock",
+          "paragraphs": [
+            "For each combination, identify the pantry items it draws upon and where the household keeps them. Use ordinary names and any relevant dietary restrictions so someone other than the usual cook can interpret the entry.",
+            "Keep quantities flexible and avoid claiming that a fixed number of portions or calories suits every household. Needs change with household size, age, activity and individual circumstances."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Keep the reference practical",
+          "paragraphs": [
+            "Review the index after ordinary meals to remove combinations nobody likes and add options people have actually used. A printed one-page summary can remain accessible when a phone is unavailable.",
+            "This is an organisational draft, not a nutrition or food-safety plan. Check product instructions, storage conditions and suitability before preparing or consuming any ingredient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-food-source-provenance",
+      "title": "Recording where stored food came from",
+      "category": "Food & water",
+      "summary": "Keep a simple provenance note for food obtained through different shops, deliveries and shared purchases.",
+      "tags": [
+        "food provenance",
+        "receipts",
+        "purchase source",
+        "batch",
+        "household inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record source",
+          "Keep label",
+          "Find receipt"
+        ],
+        "alt": "A compact offline sequence diagram for recording where stored food came from, showing record source, keep label, find receipt as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Capture the useful origin",
+          "paragraphs": [
+            "When adding an item to a household inventory, record the shop, delivery or other source only when that information may help with later queries. A source note can be especially useful where several similar items arrived on different days.",
+            "Keep the original packaging and any printed product identifiers available when practical. A homemade inventory entry should not replace a manufacturer label, batch code or official product notice."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Avoid unnecessary personal records",
+          "paragraphs": [
+            "A short shop name or order reference may be enough to reconnect an item to its purchase. Do not copy full payment details, account passwords or other private information into a shared pantry record.",
+            "If the household uses paper records, keep sensitive receipts separately from an openly accessible cupboard list. Different people may need different levels of access."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Use the record when something changes",
+          "paragraphs": [
+            "If an item needs checking or replacing, its provenance may help find the correct receipt or supplier contact. Record what was verified rather than silently editing the history.",
+            "Do not infer that food is safe or unsafe merely from where it was bought. Current product notices and package-specific guidance require separate checks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-food-packaging-space-plan",
+      "title": "Planning shelf space for bulky food packaging",
+      "category": "Food & water",
+      "summary": "Compare package dimensions with actual cupboard space before buying larger reserve quantities.",
+      "tags": [
+        "package size",
+        "shelf clearance",
+        "bulk shopping",
+        "space planning",
+        "pantry"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Reachable",
+          "Bulky stock",
+          "Clear access"
+        ],
+        "alt": "A compact offline shelves diagram for planning shelf space for bulky food packaging, showing reachable, bulky stock, clear access as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Measure usable space",
+          "paragraphs": [
+            "Note the height, width and depth of the cupboard area that can be reached without moving heavy objects. Include clearance needed to open doors and retrieve items safely.",
+            "A nominally empty shelf may not be suitable for a large or heavy package. Consider weight limits, stability, ventilation and any manufacturer storage requirements rather than filling every gap."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Compare products before purchasing",
+          "paragraphs": [
+            "Check the physical dimensions of multipacks, cartons and containers instead of relying only on unit price. Consider whether a package can be moved and opened by the person likely to use it.",
+            "Avoid repackaging products solely to save space if doing so would lose labels, allergen details, batch identification or storage instructions."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Maintain usable access",
+          "paragraphs": [
+            "Keep regularly needed items visible and accessible, with enough space to remove them without disturbing unstable stacks. Note bulky purchases that repeatedly obstruct everyday use.",
+            "A simple shelf sketch can support shopping decisions without collecting photographs of the home or storing precise household layout information online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-supply-lending-return-record",
+      "title": "Tracking borrowed and returned shared food supplies",
+      "category": "Food & water",
+      "summary": "Prevent misunderstandings when neighbours or household members temporarily exchange packaged supplies.",
+      "tags": [
+        "shared supplies",
+        "lending",
+        "returns",
+        "neighbours",
+        "stock records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree",
+          "Record",
+          "Reconcile"
+        ],
+        "alt": "A compact offline sequence diagram for tracking borrowed and returned shared food supplies, showing agree, record, reconcile as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Agree what is being shared",
+          "paragraphs": [
+            "Before handing over supplies, distinguish a gift from an item expected to be replaced. Use plain language about the item, approximate quantity and whether any return is actually wanted.",
+            "Do not create pressure to repay essential supplies during a disruption. The purpose of the record is clarity and goodwill, not enforcement or monitoring of people in need."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Make a minimal record",
+          "paragraphs": [
+            "Where both parties find it useful, note the item name and date, and keep personal contact details out of publicly visible inventory notes. A simple household-only tick box can show that an exchange has been resolved.",
+            "Retain original packaging and allergen information when sharing food. Do not transfer unpackaged or uncertain-condition food based on an assumption that a record makes it suitable."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Close the loop respectfully",
+          "paragraphs": [
+            "Update the inventory after the exchange so the household does not count supplies it no longer has. If a replacement arrives, check that it is actually present before marking the quantity restored.",
+            "Discard old notes that are no longer useful. A small voluntary system is more reliable than an elaborate ledger nobody wants to maintain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-seasonal-demand-review",
+      "title": "Reviewing how household pantry needs change across the year",
+      "category": "Food & water",
+      "summary": "Spot predictable changes in food preferences, household occupancy and shopping patterns without setting rigid stock targets.",
+      "tags": [
+        "seasonal",
+        "shopping pattern",
+        "household size",
+        "pantry review",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observe",
+          "Compare",
+          "Adjust"
+        ],
+        "alt": "A compact offline checklist diagram for reviewing how household pantry needs change across the year, showing observe, compare, adjust as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Look for real changes",
+          "paragraphs": [
+            "Consider whether work, school holidays, guests or routine changes affect how often people eat at home. Base the review on recent household experience rather than assumptions about what every family should store.",
+            "Changes in appetite or preferred meals may be as important as the number of people. Keep the plan adaptable to dietary requirements and available storage."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Compare what gets used",
+          "paragraphs": [
+            "Look at a small sample of recent shopping and inventory corrections to identify items that repeatedly run out or remain unused. Avoid treating a single unusual week as a reliable trend.",
+            "Record the reason for a change when known, such as more meals at home or a temporary absence. That context helps prevent unnecessary repeat purchases."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Adjust without overstocking",
+          "paragraphs": [
+            "Make modest revisions to the shopping list and review whether they worked before increasing quantities further. Pay attention to wasted purchases and limited cupboard space.",
+            "This planning exercise does not establish safe shelf life, nutrition requirements or emergency reserve quantities. Those depend on the product and household circumstances."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-water-carrying-access",
+      "title": "Checking how household members carry water indoors",
+      "category": "Food & water",
+      "summary": "Identify practical access barriers between a water source and the places it is normally needed.",
+      "tags": [
+        "water access",
+        "mobility",
+        "containers",
+        "kitchen",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Water point",
+          "Clear route",
+          "Use area"
+        ],
+        "alt": "A compact offline route diagram for checking how household members carry water indoors, showing water point, clear route, use area as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Observe the ordinary route",
+          "paragraphs": [
+            "Consider the distance from the usual tap to the kitchen worktop or other normal-use areas, including steps, narrow doors and cluttered passages. Different household members may have different carrying abilities.",
+            "The aim is to notice avoidable access barriers, not to encourage carrying large or heavy loads. Keep routes clear and seek appropriate assistance where necessary."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Match containers to people",
+          "paragraphs": [
+            "Check whether existing jugs or containers are comfortable to grip and stable when set down. A smaller manageable container may be more practical than a larger vessel that is difficult to lift.",
+            "Keep drinking-water vessels identifiable and follow their intended-use and cleaning instructions. Do not assume an improvised container is suitable for potable water."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Record an accessible alternative",
+          "paragraphs": [
+            "If the usual route becomes inconvenient during an interruption, note who could help and which already suitable equipment is available. Keep the plan short enough for a temporary helper to understand.",
+            "This is a household accessibility overview, not advice on making unsafe water drinkable or moving water during an active hazard."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-multipack-unit-tracking",
+      "title": "Counting individual items inside household multipacks",
+      "category": "Food & water",
+      "summary": "Avoid stock-count errors when a case or multipack is partly used.",
+      "tags": [
+        "multipacks",
+        "unit count",
+        "inventory",
+        "cartons",
+        "stock"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Count cases",
+          "Open pack",
+          "Count units"
+        ],
+        "alt": "A compact offline sequence diagram for counting individual items inside household multipacks, showing count cases, open pack, count units as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Choose a consistent unit",
+          "paragraphs": [
+            "Decide whether the inventory counts sealed cases, individual packets or both. Record the unit beside each quantity so a note such as 'two' is not mistaken for two complete cartons.",
+            "A useful entry might distinguish one unopened case from several loose packets. Do not rely on an outer box count after the contents have been removed."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Update when packs are opened",
+          "paragraphs": [
+            "When a multipack is opened, change the count to reflect what is physically present. Keep products with different sizes or varieties separate where combining them would hide important differences.",
+            "If multiple people use the pantry, agree a simple way to note an opened case. Avoid making the system so demanding that everyday users stop recording changes."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Check the shelf against the record",
+          "paragraphs": [
+            "Occasionally compare the app or paper total with the actual contents of the cupboard. Correct discrepancies openly instead of silently carrying an incorrect number into future shopping decisions.",
+            "Counts help with organisation but do not verify product condition, expiry information or whether a particular item is suitable to consume."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanitation-supply-compatibility-index",
+      "title": "Keeping a compatibility index for household sanitation supplies",
+      "category": "Food & water",
+      "summary": "Make it easier to find manufacturer information for cleaning tools, refills and replacement consumables.",
+      "tags": [
+        "sanitation",
+        "refills",
+        "compatibility",
+        "manufacturer",
+        "cleaning supplies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify tool",
+          "Check label",
+          "Update index"
+        ],
+        "alt": "A compact offline checklist diagram for keeping a compatibility index for household sanitation supplies, showing identify tool, check label, update index as a non-technical planning overview.",
+        "caption": "Household organisation schematic; not food-safety or treatment instructions."
+      },
+      "sections": [
+        {
+          "id": "step-1",
+          "title": "Record exact product identities",
+          "paragraphs": [
+            "For ordinary household cleaning equipment, record the make or model of reusable tools and any refill or consumable reference printed on the package. Similar-looking products are not necessarily interchangeable.",
+            "Keep the original manufacturer's instructions available, particularly where materials, equipment or chemical products have specific compatibility requirements."
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "Separate information from instructions",
+          "paragraphs": [
+            "Use the index to find the correct manual or product label, not to invent substitutions or mixing combinations. Keep chemical products in their original labelled packaging and away from food storage.",
+            "A compatibility note should not claim that a cleaning product disinfects a surface, works against a particular organism or can be combined with another product without dependable product-specific evidence."
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "Review after replacing equipment",
+          "paragraphs": [
+            "When a tool is replaced, update the reference before buying more refills. Mark obsolete entries clearly so another household member does not rely on an outdated list.",
+            "If compatibility is unclear, consult the manufacturer or an appropriately qualified source rather than testing uncertain combinations."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-barcode-scan-exceptions",
+      "title": "Resolving barcode scan mismatches in a household pantry",
+      "category": "Food & water",
+      "summary": "Keep a food inventory accurate when a barcode identifies the wrong item or fails to scan.",
+      "tags": [
+        "barcode",
+        "scanner",
+        "pantry",
+        "inventory",
+        "product code",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the mismatch",
+          "paragraphs": [
+            "A barcode is an identifier, not a complete description of the food in your hand. Compare the name, pack size and visible variant on the physical package with the inventory result before accepting a suggested match.",
+            "Some products share similar-looking packaging, while multipacks and individual units may carry different codes. Record what was physically scanned rather than assuming the suggested item is correct."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Correct the record without losing context",
+          "paragraphs": [
+            "If the scanner cannot find a product, use a clearly labelled manual entry with the package name, unit and a short distinguishing description. Keep the printed barcode digits when legible so a later lookup can be reconciled.",
+            "If the scanner returns a different product, flag the proposed match for review and avoid silently overwriting an existing stock record. Distinguish an unrecognised code from a confirmed product match."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the process usable offline",
+          "paragraphs": [
+            "A local pantry list should still permit adding, locating and counting items when the product catalogue cannot be reached. A missing network lookup is not evidence that an item is absent from the cupboard.",
+            "When connectivity returns, compare any suggested catalogue correction against the package before merging records. Keep a short correction note so other household members can understand why an item name changed."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Scan code",
+          "Check package",
+          "Confirm entry"
+        ],
+        "alt": "Three-step barcode inventory check: scan a package code, compare the physical package details with the suggested result, then confirm or correct the local entry.",
+        "caption": "Treat a barcode result as a suggestion until the package details match."
+      }
+    },
+    {
+      "id": "meal-serving-vessel-capacity-notes",
+      "title": "Recording everyday serving-bowl and jug capacities",
+      "category": "Food & water",
+      "summary": "Keep a practical reference for the containers used to serve ordinary meals and drinks.",
+      "tags": [
+        "serving bowls",
+        "jugs",
+        "capacity",
+        "kitchen",
+        "portion planning",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose the vessels worth recording",
+          "paragraphs": [
+            "List the bowls, pitchers and other everyday serving containers that household members regularly use for meals or drinks. Record their ordinary names and storage places so the list remains useful without photographs.",
+            "A manufacturer's stated capacity may differ from a comfortable everyday fill level. Avoid treating a nominal number as a safe fill line, especially for hot contents or a vessel that is awkward to carry."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Use clear, consistent descriptions",
+          "paragraphs": [
+            "Record the unit printed on the vessel or its packaging, if present, and identify whether a number is an official marking or a household estimate. Do not guess an exact capacity from the container's appearance.",
+            "Include a distinguishing feature such as handle style, lid type or colour when two containers look alike. Keep the description short enough to read in an offline inventory card."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review when equipment changes",
+          "paragraphs": [
+            "Update the list when a jug is replaced, a bowl is chipped or a lid no longer fits. A container inventory is a location and planning aid, not proof that damaged equipment is suitable for continued use.",
+            "Where several people share the kitchen, agree one naming convention so a request for a particular jug or serving bowl points to the same item."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Name vessel",
+          "Record marking",
+          "Note location"
+        ],
+        "alt": "Checklist for a serving vessel record, showing a clear item name, any capacity marking copied from the vessel, and its household storage location.",
+        "caption": "Keep capacity markings separate from unverified estimates."
+      }
+    },
+    {
+      "id": "left-handed-kitchen-tool-access",
+      "title": "Making everyday kitchen tools easier to use for different hands",
+      "category": "Food & water",
+      "summary": "Identify access and handling issues with common kitchen tools before they interrupt a routine meal.",
+      "tags": [
+        "left handed",
+        "accessibility",
+        "kitchen tools",
+        "grip",
+        "shared kitchen",
+        "utensils"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Notice tool design rather than assuming fit",
+          "paragraphs": [
+            "Some everyday tools have asymmetrical handles, one-sided measurement markings or controls positioned for a particular hand. Ask the person using the tool what feels awkward rather than treating all tools as interchangeable.",
+            "List the specific task and tool involved, such as reading a measuring scale or opening a drawer while holding a utensil. Keep the note about access and comfort, not a claim that a tool is safe for every user."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Arrange an understandable storage area",
+          "paragraphs": [
+            "Place frequently used tools where the intended user can reach them without moving heavy or unstable items. Where the same item has several variants, use labels that distinguish the relevant feature instead of relying only on colour.",
+            "Avoid rearranging a shared kitchen without telling other users where essential items have moved. A simple shelf or drawer reference can reduce repeated searching when a routine is disrupted."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep alternatives and limitations visible",
+          "paragraphs": [
+            "Record a suitable alternative tool only when the person who will use it has confirmed that it works for them. Manufacturer instructions still govern the intended use and limitations of each item.",
+            "Revisit the layout when someone develops a new access need or when a tool is replaced. This is a household organisation guide, not a substitute for specialist occupational assessment."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Daily tools",
+          "Easy reach",
+          "Other tools"
+        ],
+        "alt": "Simple three-level storage schematic showing frequently used kitchen tools in an accessible area, with other items kept separately and clear labels for each zone.",
+        "caption": "Organise by the actual user's reach and handling needs, not assumptions."
+      }
+    },
+    {
+      "id": "water-jug-handle-condition-record",
+      "title": "Recording visible wear on household water-jug handles",
+      "category": "Food & water",
+      "summary": "Notice changes to handles and grips on everyday reusable jugs without attempting repairs.",
+      "tags": [
+        "water jug",
+        "handle",
+        "inspection",
+        "household equipment",
+        "grip",
+        "wear"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the jug and its usual use",
+          "paragraphs": [
+            "Record which reusable jug is being checked, including a distinctive feature and where it is kept. Different jugs may have different handles, lids and manufacturer limitations, so the note should identify the actual item.",
+            "Observe the jug while it is empty and accessible. The purpose is to recognise visible changes, not to test the strength of a damaged handle by loading or pulling it."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Describe what is visible",
+          "paragraphs": [
+            "Note cracks, looseness, sharp edges or a change in how a handle joins the body, using ordinary descriptive language. Avoid diagnosing a hidden structural fault from appearance alone.",
+            "If a handle looks damaged or insecure, keep the jug out of normal carrying use pending replacement or manufacturer guidance. Do not attempt an improvised adhesive or mechanical repair for a load-bearing handle."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Record follow-up and replacement",
+          "paragraphs": [
+            "Keep a short dated note identifying the issue and whether the jug was set aside or replaced. If a replacement is needed, record the manufacturer's model or product details when available.",
+            "Review other jugs of the same type if the household uses several. A condition record helps with equipment organisation but does not certify a jug as safe."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify jug",
+          "Note wear",
+          "Record action"
+        ],
+        "alt": "Three-item checklist for a reusable water jug: identify the specific jug, describe any visible handle wear while empty, and record whether it was set aside or replaced.",
+        "caption": "Do not load-test or improvise repairs on a visibly damaged handle."
+      }
+    },
+    {
+      "id": "shared-meal-preference-change-log",
+      "title": "Keeping a change log for shared meal preferences",
+      "category": "Food & water",
+      "summary": "Track updates to ordinary household meal preferences without confusing them with medical dietary restrictions.",
+      "tags": [
+        "meal planning",
+        "preferences",
+        "shared household",
+        "food choices",
+        "communication",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Separate preference from restriction",
+          "paragraphs": [
+            "Write down everyday preferences such as disliked ingredients, preferred meal formats or convenient alternatives using the household member's own words. Keep personal preferences separate from allergies or clinically necessary restrictions, which require a more careful and current record.",
+            "Do not assume a person's preference applies to everyone or stays unchanged. Give the note an owner or confirmation date so a shared list does not become an unquestioned rule."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record changes clearly",
+          "paragraphs": [
+            "When someone changes a preference, note the old entry, the updated wording and when the change was confirmed. Avoid replacing a shared note silently when other people may be using a paper or offline copy.",
+            "If two people want different meal options, record both rather than collapsing them into a single compromise. A practical list should support planning and shopping, not assign rigid food allocations."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep copies understandable",
+          "paragraphs": [
+            "Use a simple current-version heading and remove obsolete printed copies from routine use where practical. A brief explanation of what changed is more useful than an unexplained timestamp.",
+            "For allergies, food intolerances or medical diets, rely on direct, up-to-date information from the person concerned and appropriate professional advice. This planning log is not a food-safety verification system."
+          ]
+        }
+      ]
+    }
+  ]
+}

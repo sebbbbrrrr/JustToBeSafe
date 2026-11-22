@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "shared-kitchen-food-handover",
+      "title": "Creating a shared kitchen food handover note",
+      "category": "Food & water",
+      "summary": "Keep changes to shared food supplies clear when different people shop, cook or tidy.",
+      "tags": [
+        "household",
+        "shared kitchen",
+        "handover",
+        "shopping",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Stock changes",
+          "Needs checking",
+          "Tell others"
+        ],
+        "alt": "A simple checklist schematic with labelled concepts: Stock changes, Needs checking, Tell others. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Keep the note close to the task",
+          "paragraphs": [
+            "A shared kitchen can become confusing when several people replace groceries, move supplies or use the last of a staple. Choose one easy-to-find paper sheet or locally stored note for changes that affect the next person.",
+            "Record the item, its usual location and the change rather than adding unnecessary personal details. The note should complement a physical check of the cupboard, not pretend to be a live stock count."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Record only actionable changes",
+          "paragraphs": [
+            "Useful entries include an empty storage space, a moved item, damaged packaging set aside for assessment or a shopping item that could not be obtained. Distinguish an observation from a confirmed decision.",
+            "Avoid recording speculative food safety claims or telling another household member that an item is safe solely because someone wrote it down."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Close the loop",
+          "paragraphs": [
+            "Agree who checks the note and how completed actions are marked. When the item is restored or the question is resolved, update the record so old messages do not keep circulating.",
+            "Review the format with everyone who uses the kitchen, including people who prefer large print or do not use a smartphone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dietary-supply-alternatives-map",
+      "title": "Planning suitable food alternatives for household dietary needs",
+      "category": "Food & water",
+      "summary": "Map acceptable pantry options without assuming one substitute suits every person.",
+      "tags": [
+        "dietary",
+        "substitution",
+        "preferences",
+        "food alternatives",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Needs",
+          "Options",
+          "Confirm"
+        ],
+        "alt": "A simple sequence schematic with labelled concepts: Needs, Options, Confirm. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Record the need without exposing it",
+          "paragraphs": [
+            "A household may need foods that fit allergies, religious choices, texture needs, accessibility requirements or other preferences. Keep the working plan private to the household and avoid publishing individual health details.",
+            "Separate strict restrictions from flexible preferences so an emergency shopping list does not accidentally treat every replacement as interchangeable."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Identify realistic alternatives",
+          "paragraphs": [
+            "For each commonly used staple, note a few options the relevant person already knows they can use, including any preparation or storage requirements. Check actual ingredient and allergen information before selection.",
+            "A generic category such as bread, milk alternative or tinned meal is not proof that two products have equivalent ingredients, nutrition or suitability."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review with the people affected",
+          "paragraphs": [
+            "Ask the people who will eat the food whether the proposed options are practical, affordable and acceptable. Consider how a person would recognise the right product without an online account.",
+            "When a restriction is medically important, the list is a memory aid rather than a clinical decision tool; seek individual professional guidance where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-container-identification",
+      "title": "Labelling reusable pantry containers without losing product information",
+      "category": "Food & water",
+      "summary": "Make contents easy to identify while preserving the information needed for safe choices.",
+      "tags": [
+        "containers",
+        "labels",
+        "pantry",
+        "decanting",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Contents",
+          "Original pack",
+          "Review"
+        ],
+        "alt": "A simple checklist schematic with labelled concepts: Contents, Original pack, Review. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Make the contents unmistakable",
+          "paragraphs": [
+            "A plain storage container may hide the original product name, manufacturer, date markings and allergen statement. Use a clear descriptive label and retain a reliable link to the original packaging where relevant.",
+            "Avoid relying on colour-coded lids alone. A household member should be able to understand the label without memorising a colour scheme."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Preserve important distinctions",
+          "paragraphs": [
+            "Two foods with a similar appearance can have different ingredients or handling instructions. Keep batches or products distinguishable rather than combining unknown remnants in one unlabelled container.",
+            "If information has been lost, do not invent a date or claim the food is suitable for someone with a restriction. Refer to the actual pack or obtain reliable product details."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep labels maintainable",
+          "paragraphs": [
+            "Use writing that survives normal handling and can be replaced when the container is refilled. Agree on a simple method for removing outdated labels so they do not describe the previous contents.",
+            "Periodically compare the label with the contents during routine cupboard checks, and correct mismatches before they spread into the household inventory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-no-power-equipment-inventory",
+      "title": "Inventorying kitchen tools that do not require mains power",
+      "category": "Food & water",
+      "summary": "Identify familiar manual kitchen equipment before an interruption to normal appliances.",
+      "tags": [
+        "manual tools",
+        "kitchen",
+        "utensils",
+        "power cut",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Preparation",
+          "Serving",
+          "Cleaning"
+        ],
+        "alt": "A simple shelves schematic with labelled concepts: Preparation, Serving, Cleaning. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Start with familiar tools",
+          "paragraphs": [
+            "List manual tools already used in the kitchen, such as a hand-operated tin opener, mixing bowl, measuring cup and utensils. Record where each is stored and whether anyone needs assistance using it.",
+            "Do not treat an inventory as proof that a tool is clean, intact or suitable for a particular task. A quick physical check remains necessary."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Match tools to normal household tasks",
+          "paragraphs": [
+            "Think about food preparation, portioning, serving and clearing up separately. A tool may be useful for one task without replacing an electric appliance or making a food safe to eat.",
+            "Do not improvise indoor cooking or heating with outdoor burners, charcoal, generators or other combustion equipment. This guide covers only identifying ordinary manual tools."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep the inventory useful",
+          "paragraphs": [
+            "Mark tools that are missing, damaged or difficult to access, and record whether a household member has a suitable alternative. Prefer familiar equipment over purchases made only for a hypothetical scenario.",
+            "Review the list when kitchen arrangements change, especially after a move or when storage is reorganised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-pet-food-supply-notes",
+      "title": "Keeping household pet food and feeding information organised",
+      "category": "Food & water",
+      "summary": "Keep essential pet food details accessible without treating a generic list as veterinary advice.",
+      "tags": [
+        "pets",
+        "pet food",
+        "feeding",
+        "storage",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Food identity",
+          "Location",
+          "Contact"
+        ],
+        "alt": "A simple checklist schematic with labelled concepts: Food identity, Location, Contact. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Keep the product identifiable",
+          "paragraphs": [
+            "Record the usual food name, form and storage location for each animal, alongside the original packaging or a reliable product reference. A photograph of a bag may help identify a familiar product when shopping.",
+            "Different animals may have different feeding needs, and a similar-looking food is not necessarily interchangeable. Avoid creating universal portions or substitutions in a general household guide."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Plan for a disrupted routine",
+          "paragraphs": [
+            "Keep an accessible note of where bowls, feeding equipment and ordinary supplies are kept. Include a way for an authorised caregiver to find current instructions without exposing household contact details publicly.",
+            "Where a pet has a prescribed diet or medical need, follow the animal's veterinary plan rather than assuming a pantry alternative is appropriate."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Update the record",
+          "paragraphs": [
+            "Review the information when products change, an animal's needs change or another person takes over care. Remove outdated instructions to avoid conflicting messages.",
+            "A pet-food inventory supports organisation; it does not establish veterinary safety, product quality or how long a particular food remains suitable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-shopping-priority-list",
+      "title": "Making a realistic pantry shopping priority list",
+      "category": "Food & water",
+      "summary": "Separate essential replacements from optional purchases when normal shopping is disrupted.",
+      "tags": [
+        "shopping",
+        "priorities",
+        "pantry",
+        "budget",
+        "stock"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check stock",
+          "Rank needs",
+          "Recheck"
+        ],
+        "alt": "A simple sequence schematic with labelled concepts: Check stock, Rank needs, Recheck. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Use the stock already present",
+          "paragraphs": [
+            "Start by checking what is actually in the home, where it is kept and whether it remains appropriate for household needs. A digital count may be outdated if someone has used or moved an item.",
+            "Consider the number of people, their preferences and the usual way the household prepares meals. Do not copy a fixed emergency shopping quantity without context."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Distinguish needs from extras",
+          "paragraphs": [
+            "Group missing items by how directly they support ordinary meals and essential dietary requirements. Record optional variety or convenience purchases separately so a limited budget remains focused.",
+            "Avoid buying excessive stock that crowds exits, blocks access, cannot be stored appropriately or is unlikely to be used before its relevant date."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Update after shopping",
+          "paragraphs": [
+            "Mark only purchases actually obtained, and note substitutions that still require agreement from the people affected. Reconcile the list with the physical cupboard before relying on it.",
+            "Keep the process short enough to repeat. A concise priority list is more useful than a perfect spreadsheet nobody maintains."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-tool-location-guide",
+      "title": "Locating and maintaining basic kitchen cleaning equipment",
+      "category": "Food & water",
+      "summary": "Organise everyday cleaning equipment so household members can find and inspect it.",
+      "tags": [
+        "cleaning equipment",
+        "cloths",
+        "brushes",
+        "kitchen",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Cleaning tools",
+          "Storage",
+          "Replace"
+        ],
+        "alt": "A simple shelves schematic with labelled concepts: Cleaning tools, Storage, Replace. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify ordinary equipment",
+          "paragraphs": [
+            "Record where reusable cloths, brushes, washing-up equipment and other familiar cleaning items are kept. Use names that are meaningful to the household rather than unexplained abbreviations.",
+            "Keep cleaning chemicals and their original safety information separate from food and food-preparation items, following product labels and any relevant household precautions."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Notice wear and missing items",
+          "paragraphs": [
+            "A simple equipment check can record frayed or damaged tools, missing brushes and supplies that need replacing. Do not assume an item is hygienic merely because it is in its usual storage place.",
+            "Avoid inventing chemical mixtures, dilution ratios or disinfection procedures in a general preparedness inventory. Follow applicable product instructions and specialist guidance."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Support shared routines",
+          "paragraphs": [
+            "Agree who replenishes supplies and how people flag a problem. Store the note where it can be accessed without an internet connection, including by someone unfamiliar with the kitchen.",
+            "Review locations when cupboards are reorganised and keep instructions readable for people with different language or accessibility needs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-supply-information-card",
+      "title": "Creating a household water supplier information card",
+      "category": "Food & water",
+      "summary": "Keep the right supplier and account-free reporting routes easy to find during disruption.",
+      "tags": [
+        "water supplier",
+        "contacts",
+        "reporting",
+        "offline",
+        "utility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Supplier",
+          "Official route",
+          "Update"
+        ],
+        "alt": "A simple checklist schematic with labelled concepts: Supplier, Official route, Update. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the relevant organisation",
+          "paragraphs": [
+            "Record the name of the household's water supplier and its official information and reporting channels. The company responsible for water supply may differ from other utility or wastewater contacts.",
+            "Keep only information that is useful to household members, such as the supplier name and a verified general contact route. Do not publish personal account numbers or addresses in public guide content."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Distinguish saved details from live notices",
+          "paragraphs": [
+            "A saved number or website address is a reference, not evidence of current service conditions. Water quality notices, local supply interruptions and collection arrangements can change after an offline guide is compiled.",
+            "Where connectivity is available, check the supplier's current official information. If not, use an established official telephone or other locally available channel when possible."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review the card periodically",
+          "paragraphs": [
+            "Check that the supplier and contact details still apply after a move, provider change or household reorganisation. Make the card legible on paper and on a small phone screen.",
+            "Do not use a general contact card as an instruction to drink, store, treat or collect potentially unsafe water. Follow current official incident-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared-food-supply-audit-routine",
+      "title": "Agreeing a quick shared food supply audit",
+      "category": "Food & water",
+      "summary": "Use a repeatable observation routine to keep household food records aligned with reality.",
+      "tags": [
+        "audit",
+        "inventory",
+        "food storage",
+        "household",
+        "checklist"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Record",
+          "Resolve"
+        ],
+        "alt": "A simple sequence schematic with labelled concepts: Observe, Record, Resolve. It illustrates the organisation described in this article, not a safety procedure.",
+        "caption": "Concept diagram for household organisation; verify actual items and information."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Set a manageable scope",
+          "paragraphs": [
+            "Choose a small group of cupboards or food categories for each routine check rather than trying to recount every item at once. Record what was actually observed, not what an earlier shopping list predicted.",
+            "Include the people who normally use the supplies, and allow for paper notes when the app or internet is unavailable."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Separate observations from decisions",
+          "paragraphs": [
+            "A check can identify missing items, unreadable labels, damaged packaging or an unexpected storage location. Record those facts without guessing whether the contents are safe or when they should be consumed.",
+            "Where packaging or storage condition raises a food-safety concern, defer to the product's instructions and appropriate expert guidance instead of using an invented household rule."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep the record current",
+          "paragraphs": [
+            "Assign a clear next action and close it when confirmed. Avoid duplicate entries for the same observation and keep a brief history only where it helps prevent repeated confusion.",
+            "A useful audit is lightweight, accessible and consistent. Its purpose is to improve organisation, not certify food safety or emergency readiness."
+          ]
+        }
+      ]
+    }
+  ]
+}

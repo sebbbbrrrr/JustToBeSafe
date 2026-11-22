@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "shelf-stable-breakfast-options",
+      "title": "Planning breakfast choices from shelf-stable foods",
+      "category": "Food & water",
+      "summary": "Prepare a realistic list of morning meals that suit household preferences and available equipment.",
+      "tags": [
+        "breakfast",
+        "shelf-stable",
+        "meal planning",
+        "pantry",
+        "dietary needs"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "List options",
+          "Check needs",
+          "Review stock"
+        ],
+        "alt": "Conceptual offline diagram for planning breakfast choices from shelf-stable foods: List options, Check needs, Review stock. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Start with meals people actually eat",
+          "paragraphs": [
+            "Write down a small selection of breakfast combinations already familiar to household members, rather than buying unfamiliar emergency foods that may never be used. Note which combinations need water, refrigeration, heating or utensils, since a shelf-stable ingredient does not automatically make the whole meal independent of utilities.",
+            "Include dietary restrictions, texture preferences and accessibility needs in the same list. Keep options adaptable for different appetites rather than assuming one portion size suits everyone."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Match the list to the cupboard",
+          "paragraphs": [
+            "For each proposed breakfast, check that every ingredient is present and that packaging can be opened with equipment available in the home. Keep the original product storage and preparation directions accessible; a meal plan is not evidence that food remains safe.",
+            "Distinguish ingredients already used routinely from items reserved for disruptions. A list is most useful when it reflects quantities physically checked rather than hoped-for future purchases."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep it practical over time",
+          "paragraphs": [
+            "Review the breakfast list after shopping changes, dietary changes or a real disruption. Remove combinations nobody wants and note missing items without creating an unrealistic shopping obligation.",
+            "If a proposed meal depends on safe drinking water or another unavailable service, mark that dependency clearly and seek an appropriate alternative rather than improvising unsafe preparation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-food-replacement-cost-notes",
+      "title": "Estimating the cost of replacing everyday food supplies",
+      "category": "Food & water",
+      "summary": "Use rough replacement-cost notes to keep household preparedness spending proportionate.",
+      "tags": [
+        "budget",
+        "replacement cost",
+        "shopping",
+        "inventory",
+        "household planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Select items",
+          "Record prices",
+          "Review budget"
+        ],
+        "alt": "Conceptual offline diagram for estimating the cost of replacing everyday food supplies: Select items, Record prices, Review budget. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose a manageable set of staples",
+          "paragraphs": [
+            "Start with frequently used cupboard items rather than assigning a price to every spice or packet. Record a recognisable item name, pack size and approximate recent cost where a receipt or shelf label is available.",
+            "A replacement-cost note helps plan purchases, but it should not be treated as a real-time supermarket price or a promise that an item will be in stock."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate quantity from spending",
+          "paragraphs": [
+            "Record the quantity actually held and the approximate cost of replacing it. Keep pack size and units consistent so a small packet is not accidentally compared with a bulk container as if they were identical.",
+            "If prices are unknown, leave them blank rather than inserting estimates presented as facts. Household needs, cash flow and waste avoidance matter more than reaching a universal preparedness spending target."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review only when useful",
+          "paragraphs": [
+            "Update estimates after meaningful shopping changes, price changes or a household budget review. Avoid making constant manual price updates a requirement for using the offline guide.",
+            "Keep the record private when it reveals household spending or purchasing habits. It is a planning aid, not financial or nutritional advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-preparation-utility-dependency-card",
+      "title": "Creating a utility dependency card for favourite meals",
+      "category": "Food & water",
+      "summary": "Identify which familiar meals need electricity, water, refrigeration or specialist equipment.",
+      "tags": [
+        "meal preparation",
+        "utilities",
+        "equipment",
+        "electricity",
+        "water",
+        "dependency"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Choose meal",
+          "List services",
+          "Find alternative"
+        ],
+        "alt": "Conceptual offline diagram for creating a utility dependency card for favourite meals: Choose meal, List services, Find alternative. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Start with familiar meals",
+          "paragraphs": [
+            "Choose a few regular meals and list the equipment and services they rely upon: for example, a fridge for ingredients, an electric hob for cooking or clean water for preparation. Avoid assuming that all foods in the cupboard can be eaten without preparation.",
+            "Keep the card short enough to use at a glance. A clear list of dependencies is more useful than detailed recipes during an unexpected interruption."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Identify what changes during disruption",
+          "paragraphs": [
+            "Mark which meals would no longer be practical if a named service became unavailable. Include packaging access, washing-up and safe food storage, not just the heat source.",
+            "Do not treat an alternative cooking device as automatically suitable for indoor use. Follow manufacturer restrictions and qualified fire-safety advice; this card does not provide fuel or heating instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep alternatives realistic",
+          "paragraphs": [
+            "Where appropriate, note familiar commercially prepared foods that can be used as directed without the missing service. Record dietary suitability and whether the required equipment is actually available.",
+            "Recheck the card when appliances, household members or routines change. Food safety and current utility conditions require separate assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-food-access-from-pets",
+      "title": "Reducing accidental pet access to stored household food",
+      "category": "Food & water",
+      "summary": "Review whether pantry layouts keep human food and pet supplies secure and easy to distinguish.",
+      "tags": [
+        "pets",
+        "pantry",
+        "storage",
+        "cupboard",
+        "household",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Human food",
+          "Pet supplies",
+          "Check access"
+        ],
+        "alt": "Conceptual offline diagram for reducing accidental pet access to stored household food: Human food, Pet supplies, Check access. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Look at actual access points",
+          "paragraphs": [
+            "Walk through food storage locations and note where pets can reach bags, containers or shelves, especially after a cupboard has been left open. Observe the home as it is used rather than assuming a high shelf is always inaccessible.",
+            "Keep pet food and household food clearly identified, particularly where packaging is similar. The purpose is organisation and access prevention, not diagnosing poisoning risks."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Choose sensible storage boundaries",
+          "paragraphs": [
+            "Prefer secure, stable storage arrangements compatible with each product's label. Avoid leaving heavy containers where they might fall, and do not move food to an unsuitable warm or damp location simply to place it out of reach.",
+            "If a pet has consumed an unknown or potentially harmful substance, contact a veterinary professional promptly. This guide does not attempt to identify safe or unsafe foods for individual animals."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Include everyone in the routine",
+          "paragraphs": [
+            "Agree where opened bags and treats are returned after use, and make the system workable for children, visitors and anyone with limited reach or grip.",
+            "Review the arrangement after a new pet arrives, furniture changes or an access incident. Record problems without storing sensitive household details in public files."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-task-ownership",
+      "title": "Sharing routine kitchen cleaning responsibilities clearly",
+      "category": "Food & water",
+      "summary": "Make it easier for household members to know which ordinary kitchen cleaning tasks are assigned and completed.",
+      "tags": [
+        "kitchen",
+        "cleaning",
+        "household",
+        "tasks",
+        "responsibilities",
+        "hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Agree tasks",
+          "Assign owner",
+          "Record done"
+        ],
+        "alt": "Conceptual offline diagram for sharing routine kitchen cleaning responsibilities clearly: Agree tasks, Assign owner, Record done. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Name tasks instead of vague expectations",
+          "paragraphs": [
+            "List ordinary kitchen responsibilities in plain language, such as checking that cleaning equipment is put away or reporting a visibly damaged work surface. Distinguish routine tidying from specialist cleaning after contamination.",
+            "Keep the list realistic for the people and time available. Do not assume that a ticked task proves a surface has been disinfected or is safe for food preparation."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make handovers understandable",
+          "paragraphs": [
+            "Agree who normally checks each task and how another person can report that it was missed. Use dates or short notes only where they help avoid confusion, rather than collecting unnecessary personal performance data.",
+            "Store cleaning products according to their labels and away from food where required. Never combine chemical products or invent cleaning concentrations from this planning checklist."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Adjust after disruptions",
+          "paragraphs": [
+            "Review the list if water, power or waste services are interrupted, because normal routines may no longer be possible. Mark unavailable tasks honestly rather than recording them as completed.",
+            "For suspected food contamination or illness, seek appropriate food-safety or healthcare guidance; this organisational checklist is not an approved sanitation procedure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-contact-surface-condition-log",
+      "title": "Recording visible wear on food preparation surfaces",
+      "category": "Food & water",
+      "summary": "Track cracks, peeling finishes or other visible changes so maintenance concerns are not overlooked.",
+      "tags": [
+        "worktop",
+        "chopping board",
+        "surfaces",
+        "condition",
+        "kitchen",
+        "maintenance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Document",
+          "Report"
+        ],
+        "alt": "Conceptual offline diagram for recording visible wear on food preparation surfaces: Observe, Document, Report. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Inspect without diagnosing",
+          "paragraphs": [
+            "During ordinary use, note visible cracks, loose edges, peeling finishes or damage to surfaces used for food preparation. Record where the change appears and whether it is getting worse, without claiming to know the underlying cause.",
+            "A short description and date can help a household or property contact follow up. Avoid taking unnecessary photos of private documents or people in the background."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep the record separate from cleaning",
+          "paragraphs": [
+            "Surface condition and cleanliness are different questions. A visually tidy worktop may still need appropriate cleaning, and a damaged surface may need replacement or professional assessment even after ordinary cleaning.",
+            "Do not improvise coatings, sealants or chemical treatments for food-contact surfaces. Use product and manufacturer instructions and seek competent advice for repairs."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Escalate and close the loop",
+          "paragraphs": [
+            "Record who was contacted about a persistent defect and whether the item was inspected or replaced. Do not mark an issue resolved simply because it is less noticeable.",
+            "Review frequently used boards and work areas after a reported problem. This is a maintenance record, not a food-safety certification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-portion-demand-notes",
+      "title": "Recording how much of a planned meal households actually use",
+      "category": "Food & water",
+      "summary": "Reduce unnecessary food purchases by comparing planned meals with what was consumed.",
+      "tags": [
+        "portion planning",
+        "food waste",
+        "meal",
+        "inventory",
+        "consumption"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Plan amount",
+          "Observe use",
+          "Adjust later"
+        ],
+        "alt": "Conceptual offline diagram for recording how much of a planned meal households actually use: Plan amount, Observe use, Adjust later. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Start with observation, not targets",
+          "paragraphs": [
+            "For a small set of familiar meals, note whether the household generally prepares too much, too little or about the right amount. Use broad observations rather than requiring every person to weigh or log what they eat.",
+            "Appetite, guests, schedules and dietary needs change. Avoid rigid rationing or treating a planning estimate as an individual nutritional requirement."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate leftovers from safety decisions",
+          "paragraphs": [
+            "A record may show that a meal routinely creates leftovers, but it does not determine whether those leftovers are safe to store or eat. Follow appropriate product and food-safety guidance for handling and storage.",
+            "If the record suggests buying less of a perishable ingredient, compare that with packaging sizes and actual shopping habits. A smaller purchase is not always practical or available."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Update the plan gently",
+          "paragraphs": [
+            "Review after several ordinary meals and adjust future shopping or recipe quantities where sensible. Keep the record short and optional so it helps rather than burdens the household.",
+            "Do not use the notes to judge individual eating habits or track sensitive health details. The aim is reducing waste and avoiding shortages."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community-food-support-information-sheet",
+      "title": "Keeping local food support information available offline",
+      "category": "Food & water",
+      "summary": "Prepare a neutral reference sheet for food support contacts without assuming eligibility or availability.",
+      "tags": [
+        "food support",
+        "community",
+        "contacts",
+        "offline",
+        "food bank",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find contact",
+          "Record details",
+          "Verify later"
+        ],
+        "alt": "Conceptual offline diagram for keeping local food support information available offline: Find contact, Record details, Verify later. The labels show an organisational framework rather than technical instructions or food safety clearance.",
+        "caption": "Organisational schematic only; verify product instructions and current conditions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record organisations, not assumptions",
+          "paragraphs": [
+            "If a household relies on a community pantry, food bank or other support service, record its name, contact route, general location and any published access information. Use information directly from the organisation when available.",
+            "Avoid writing that a particular person is eligible or that food will be available on a future date. Referral requirements, stock and opening arrangements can change."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Prepare an offline reference",
+          "paragraphs": [
+            "Keep a concise paper or device-local copy of the relevant details, with the date they were checked. If travel is required, note practical accessibility considerations without publishing a household member's private circumstances.",
+            "An offline note cannot confirm current opening hours, referral rules or transport disruption. Where possible, verify with the organisation before travelling."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review respectfully",
+          "paragraphs": [
+            "Check contact details periodically and replace outdated information. If a service is no longer available, record the change and look for current local alternatives rather than relying on stale listings.",
+            "Keep financial, dietary and personal circumstances private. This guide is about maintaining a contact reference, not making promises about assistance."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-allergen-label-audit",
+      "title": "Checking allergen information in stored foods",
+      "category": "Food & water",
+      "summary": "Keep allergen information accessible when food is repacked, shared or selected during disruption.",
+      "tags": [
+        "allergy",
+        "ingredients",
+        "labels",
+        "pantry",
+        "food restrictions"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Check label",
+          "Record"
+        ],
+        "alt": "A three-row checklist diagram represents identifying the food, reading its original allergen information, and recording a reliable reference.",
+        "caption": "Concept checklist only; verify the actual packaging each time."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Preserve product identity",
+          "paragraphs": [
+            "Keep the original packaging or a reliable record of the complete ingredient and allergen statement when organising food at home. An inventory name or barcode alone is not a substitute for current packaging information.",
+            "If an item is decanted into another container, retain a clear link to its original product and any relevant warnings; do not guess from appearance or a generic product name."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Account for changes and people",
+          "paragraphs": [
+            "Manufacturers can change recipes or production arrangements. Check the actual pack when selecting food, particularly when someone has a diagnosed allergy or another strict dietary requirement.",
+            "Household food plans should record needs without publishing personal health details in shared public guide content. Do not rely on an old photo of a similar-looking product."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "When information is missing",
+          "paragraphs": [
+            "Set aside food whose identity or allergen information cannot be established for the person concerned. Seek the manufacturer's current information or appropriate professional advice instead of treating uncertainty as proof of safety.",
+            "This editorial draft does not assess whether a particular product is safe for an individual."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-storage-location-register",
+      "title": "Making a food storage location register",
+      "category": "Food & water",
+      "summary": "Create a simple, searchable map of where household food is kept.",
+      "tags": [
+        "cupboard",
+        "storage",
+        "inventory",
+        "pantry",
+        "location"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Cupboard",
+          "Reserve",
+          "Review"
+        ],
+        "alt": "A simple three-tier shelf diagram shows how separate labelled storage locations can be represented in a household food register.",
+        "caption": "Illustrative layout only; follow each product's storage directions."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Name each storage area",
+          "paragraphs": [
+            "Give shelves, drawers and containers short consistent names such as kitchen upper cupboard or hallway storage bin. A location name should be easy for another household member to understand without a floor plan.",
+            "Record only the categories of food stored there in a general reference guide; private household addresses and item counts belong in the user's own inventory."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Separate different storage needs",
+          "paragraphs": [
+            "Distinguish foods that can remain at room temperature from items requiring refrigeration or freezing, and follow the storage directions on each package.",
+            "Do not assume a cool-looking room or a sealed box provides the environmental conditions a product requires. Keep cleaning products and other incompatible materials separate from food."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Maintain the register",
+          "paragraphs": [
+            "When moving stock, update its location so an offline search still points to the correct cupboard. Periodically check that the stored item and its condition match the inventory entry.",
+            "A location record improves findability, but does not verify that food is edible, in date or available in the expected quantity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-packaging-condition-log",
+      "title": "Recording damaged food packaging before use",
+      "category": "Food & water",
+      "summary": "Recognise when packaging damage should prompt further checking rather than assumptions.",
+      "tags": [
+        "can",
+        "packet",
+        "seal",
+        "damage",
+        "inspection"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Notice changes to the container",
+          "paragraphs": [
+            "During routine pantry checks, look for obvious packaging damage such as torn seals, leaking contents, swelling, corrosion or evidence of pests. These observations are reasons to pause and assess rather than simply mark an item as present.",
+            "A package can look normal and still be unsuitable; appearance alone is not a comprehensive food-safety test."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep questionable items separate",
+          "paragraphs": [
+            "Avoid mixing a questionable item back into usable stock while checking manufacturer guidance or obtaining appropriate food-safety advice. Record the product name and the observed issue without opening it merely to investigate.",
+            "Do not taste food to decide whether damaged packaging has made it unsafe. This article intentionally avoids claiming that a particular dent, smell or date proves safety."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Update the inventory",
+          "paragraphs": [
+            "Note when an item is removed, replaced or returned through the appropriate process. Keep photographs or batch details only when helpful and handle them according to household privacy preferences.",
+            "Specific decisions about compromised canned, chilled or packaged foods require product-appropriate guidance and qualified review before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-date-label-reference",
+      "title": "Understanding use-by and best-before labels in an offline inventory",
+      "category": "Food & water",
+      "summary": "Keep food date labels meaningful instead of treating every date as the same signal.",
+      "tags": [
+        "use-by",
+        "best-before",
+        "expiry",
+        "date",
+        "stock"
+      ],
+      "risk": "food",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Read type",
+          "Record date",
+          "Review pack"
+        ],
+        "alt": "A three-stage checklist diagram depicts reading the date label type, recording the printed date, and checking the package when reviewing stock.",
+        "caption": "A reminder is not a food-safety clearance."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Record the label type",
+          "paragraphs": [
+            "When entering food into an inventory, capture whether the original package says use-by or best-before, along with the printed date where legible. Those label types are not interchangeable.",
+            "Avoid reducing both to a generic expiration field, because the distinction can matter for food safety and quality."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Avoid automated safety claims",
+          "paragraphs": [
+            "An inventory reminder is a prompt to inspect the actual item and follow current official food-safety guidance, not a declaration that an item is safe or unsafe.",
+            "Packaging instructions, storage history and product type also matter. A scanner may retrieve an old catalogue entry that does not match the item in hand."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review during stock rotation",
+          "paragraphs": [
+            "When organising shelves, make date labels visible and check that the app record corresponds to the same package. Do not overwrite the manufacturer's date with an estimated replacement date.",
+            "This draft deliberately gives no universal extension or consumption threshold and requires food-safety review before public guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-drinking-water-access-plan",
+      "title": "Planning access to drinking water for a household",
+      "category": "Food & water",
+      "summary": "Identify practical access needs and storage dependencies before water service is disrupted.",
+      "tags": [
+        "water",
+        "access",
+        "household",
+        "mobility",
+        "supply",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Storage",
+          "Access",
+          "Backup"
+        ],
+        "alt": "A three-point schematic route shows the relationship between a household's water storage location, accessible retrieval, and a backup arrangement.",
+        "caption": "Planning concept only; not a route or safety guarantee."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Map the household's needs",
+          "paragraphs": [
+            "Consider who relies on drinking water throughout the day, including people with mobility limitations, infants, visitors or equipment-specific requirements. Keep individual health information in private household records rather than public content.",
+            "An offline list of containers does not establish whether stored water is suitable for drinking or whether everyone can physically reach it."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Record supply and access points",
+          "paragraphs": [
+            "Identify where appropriate sealed drinking-water supplies are stored and who can access them. Note whether retrieving containers would require lifting, stairs, keys or help from another person.",
+            "Plan an alternative if the usual storage place becomes inaccessible, without obstructing escape routes or placing heavy items where they could fall."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep provider instructions separate",
+          "paragraphs": [
+            "Store water supplier and property-management contact details for offline reference. If an actual supply interruption or quality notice occurs, use current instructions from the relevant provider or public-health authority.",
+            "This planning article gives no water treatment instructions and does not guarantee that stored supplies remain potable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manual-dishwashing-supply-planning",
+      "title": "Preparing basic washing-up supplies for service disruption",
+      "category": "Food & water",
+      "summary": "List the equipment and dependencies needed for everyday kitchen cleaning.",
+      "tags": [
+        "washing-up",
+        "sink",
+        "soap",
+        "utensils",
+        "water",
+        "kitchen"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Supplies",
+          "Utilities",
+          "Review"
+        ],
+        "alt": "A three-row checklist represents locating washing-up supplies, identifying water and drainage dependencies, and reviewing their availability.",
+        "caption": "Inventory schematic; not a cleaning or disinfection procedure."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the normal workflow",
+          "paragraphs": [
+            "List the ordinary items your household uses to clean dishes and kitchen utensils, such as appropriate cleaning product, brushes, cloths and a place to dry items. Record where these are stored.",
+            "Think about whether the usual routine relies on hot water, electricity, drainage or a working sink. A supply list cannot replace the relevant hygiene instructions."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Check storage and condition",
+          "paragraphs": [
+            "Keep cleaning products in their original labelled containers and away from food. Check for worn or visibly contaminated cleaning tools and follow manufacturer directions for their care or replacement.",
+            "Do not combine household chemicals or improvise concentrated cleaning solutions. Product labels and applicable hygiene guidance govern use."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Plan for unavailable utilities",
+          "paragraphs": [
+            "If clean water, drainage or other essential services are unavailable, recognise that the normal washing-up process may not be appropriate. Refer to current utility and public-health advice for the actual situation.",
+            "This is an equipment-planning draft, not an instruction to wash or sanitise utensils with potentially unsafe water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-storage-pest-observation-record",
+      "title": "Keeping a record of pantry pest observations",
+      "category": "Food & water",
+      "summary": "Spot recurring storage issues without inventing pest treatment instructions.",
+      "tags": [
+        "pantry",
+        "pests",
+        "insects",
+        "packaging",
+        "storage",
+        "hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Record what was observed",
+          "paragraphs": [
+            "During normal cupboard checks, note visible evidence such as damaged packets, droppings or insects, along with the general storage location and date. Avoid claiming a pest species from uncertain visual clues.",
+            "A repeatable record can help distinguish a one-off damaged package from a continuing issue, but does not itself establish the cause."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Protect food and avoid improvisation",
+          "paragraphs": [
+            "Treat food that may have been affected as questionable and seek appropriate food-safety or pest-control advice. Keep household chemicals and pest treatments away from food and follow product labels.",
+            "Do not spray unapproved substances onto food or food-contact surfaces. Specific cleaning, disposal and pest treatment procedures need competent review."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Follow up systematically",
+          "paragraphs": [
+            "After obtaining suitable advice, record which storage areas were checked and whether the concern returned. Review packaging and access gaps as part of ordinary household maintenance.",
+            "The offline app cannot diagnose an infestation or certify food as safe from a photograph or an inventory record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-waste-collection-disruption",
+      "title": "Organising kitchen waste when collections are disrupted",
+      "category": "Food & water",
+      "summary": "Plan waste storage and communication when normal household collections are delayed.",
+      "tags": [
+        "waste",
+        "bins",
+        "collection",
+        "rubbish",
+        "odour",
+        "sanitation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify bins",
+          "Check notice",
+          "Update plan"
+        ],
+        "alt": "A three-step schematic shows identifying normal bins, checking current local collection notices, and updating the household plan.",
+        "caption": "Concept workflow only; collection rules depend on local services."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify existing waste arrangements",
+          "paragraphs": [
+            "Record which bins or shared collection points your household uses, who manages them and where local authority updates are normally published. Note any accessibility or shared-building constraints.",
+            "Keep bins and stored waste away from food preparation areas as appropriate, and do not block corridors, exits or access for other residents."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Separate planning from disposal advice",
+          "paragraphs": [
+            "Understand that different materials may have different collection or disposal requirements. Avoid treating a temporary service interruption as permission to burn, bury or dump household waste.",
+            "For potentially hazardous, clinical or chemical waste, follow the specific instructions of the relevant authority rather than improvising a disposal method."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Track changes and recovery",
+          "paragraphs": [
+            "Use current council or building-management notices to confirm changes to collection schedules. Record any missed collections and update the household plan after services resume.",
+            "This offline reference cannot know live collection arrangements or determine the safe handling of an unusual waste material."
+          ]
+        }
+      ]
+    }
+  ]
+}

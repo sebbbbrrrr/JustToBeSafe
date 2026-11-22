@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-cupboard-lighting-plan",
+      "title": "Planning how to find pantry supplies during a power cut",
+      "category": "Food & water",
+      "summary": "Keep food locations legible when fixed lighting is unavailable.",
+      "tags": [
+        "pantry lighting",
+        "torch",
+        "power cut",
+        "access",
+        "cupboard"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate",
+          "Light",
+          "Check"
+        ],
+        "alt": "A compact sequence diagram labels Locate, Light, Check to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Map storage before an outage",
+          "paragraphs": [
+            "Walk through the usual food storage areas in normal lighting and note which shelves, drawers and cupboards are difficult to distinguish without overhead lights.",
+            "Keep a simple written or offline location list, so household members can find essential supplies without searching unfamiliar spaces in the dark."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Choose safer ways to see contents",
+          "paragraphs": [
+            "Identify a working battery-powered light and a convenient storage position that can be reached without crossing cluttered areas.",
+            "Avoid open flames as cupboard lighting and do not place portable lights where they obstruct access, fall into water or create other avoidable hazards."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Practise a calm retrieval",
+          "paragraphs": [
+            "Try locating a common food item using the chosen portable light during an ordinary household check, without deliberately creating an unsafe blackout.",
+            "If the route is awkward, improve the storage arrangement rather than relying on memory. Update the list when cupboards or household needs change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-container-purpose-register",
+      "title": "Keeping a register of household water containers",
+      "category": "Food & water",
+      "summary": "Distinguish containers intended for drinking water from other household uses.",
+      "tags": [
+        "water containers",
+        "storage",
+        "label",
+        "drinking water",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Purpose",
+          "Location",
+          "Condition"
+        ],
+        "alt": "A compact checklist diagram labels Purpose, Location, Condition to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record what each container is for",
+          "paragraphs": [
+            "List reusable bottles, jugs and other household containers by their normal purpose and storage location. Distinguish containers intended for drinking water from those used for cleaning or other tasks.",
+            "Do not infer that an unlabelled container or a container used for non-food substances is suitable for drinking water. Material suitability and manufacturer instructions matter."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep identifying details visible",
+          "paragraphs": [
+            "Record container type, lid condition and any original product or care instructions in the inventory. Where a container is shared, use plain labels that remain legible after normal handling.",
+            "Avoid putting potentially misleading claims such as sterile or purified on a container merely because it has been cleaned. A label is an identification aid, not proof of water quality."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review before relying on it",
+          "paragraphs": [
+            "During a normal supply check, note containers with missing caps, unclear purpose, damage or uncertain history and keep them separate from drinking-water equipment.",
+            "Water quality and treatment decisions require reliable current guidance and appropriate expert review. This article only organises household container records."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-food-allocation-preferences",
+      "title": "Recording household food preferences without rigid rationing",
+      "category": "Food & water",
+      "summary": "Document preferences and access needs so supplies are practical for everyone.",
+      "tags": [
+        "food preferences",
+        "household",
+        "dietary needs",
+        "meal planning",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Ask",
+          "Record",
+          "Revisit"
+        ],
+        "alt": "A compact checklist diagram labels Ask, Record, Revisit to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Ask about practical needs",
+          "paragraphs": [
+            "Invite household members to describe foods they normally eat, avoid or cannot use, without pressuring them to disclose medical information to other household members.",
+            "Separate ordinary preferences from important restrictions that may affect whether a proposed food item is suitable. Avoid treating one person's preferred food as universally appropriate."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the record useful",
+          "paragraphs": [
+            "Use a short private household note to record preferred staple categories, preparation limitations and who should be consulted before shared supplies are changed.",
+            "Include the location of suitable alternatives where the household already has them. Do not turn this into a fixed ration or a substitute for individual nutrition advice."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Revisit as circumstances change",
+          "paragraphs": [
+            "Review the note when household membership, food access or equipment changes. Ask before replacing familiar supplies with unfamiliar products.",
+            "Keep the information accessible to authorised household members only. The goal is fewer unsuitable purchases and less confusion during a disruption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-shopping-receipt-crosscheck",
+      "title": "Reconciling pantry purchases with what arrived",
+      "category": "Food & water",
+      "summary": "Use a simple receipt check to avoid counting missing or substituted food.",
+      "tags": [
+        "receipt",
+        "delivery",
+        "inventory",
+        "shopping",
+        "substitution"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Compare",
+          "Inspect",
+          "Update"
+        ],
+        "alt": "A compact sequence diagram labels Compare, Inspect, Update to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Compare the order with actual items",
+          "paragraphs": [
+            "After a delivery or shop, compare the order or receipt with what physically arrived, paying attention to missing items, replacements and quantities.",
+            "A paid receipt does not confirm that every item is present. Avoid adding ordered quantities to the pantry inventory before checking the delivered goods."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check substitutions separately",
+          "paragraphs": [
+            "If a different brand or size was supplied, record its actual product name and amount rather than assuming it matches the original order.",
+            "Read the substituted item's own allergen and storage information where relevant. Similar packaging and product names are not evidence that ingredients or handling requirements are identical."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Update the household record",
+          "paragraphs": [
+            "Adjust stock counts only after the items have been put away in their real locations. Keep a brief note of unresolved missing or damaged items for follow-up with the seller.",
+            "Discard temporary receipt notes when no longer needed, especially if they include payment or address information that does not belong in a shared inventory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-supply-reorder-trigger",
+      "title": "Setting sensible reorder reminders for kitchen essentials",
+      "category": "Food & water",
+      "summary": "Create practical restocking prompts without pretending a stock threshold fits every household.",
+      "tags": [
+        "reorder",
+        "inventory",
+        "cleaning supplies",
+        "household planning",
+        "reminder"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice",
+          "Confirm",
+          "Restock"
+        ],
+        "alt": "A compact sequence diagram labels Notice, Confirm, Restock to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose items worth tracking",
+          "paragraphs": [
+            "Identify supplies whose absence would disrupt normal food preparation or household cleaning, such as washing-up materials, bin liners and commonly used shelf-stable ingredients.",
+            "Use ordinary household experience to decide which items need reminders. A single universal minimum quantity would ignore different household sizes, routines and storage space."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate reminders from real stock",
+          "paragraphs": [
+            "Create a reminder when supplies appear low, but mark it as a prompt rather than proof that a replacement has been purchased.",
+            "Check the physical storage area before placing an order. An app count can be out of date when someone uses, moves or shares an item without recording it."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Close the loop",
+          "paragraphs": [
+            "After restocking, record what actually arrived and where it was placed. Remove or defer reminders for items that are no longer needed.",
+            "Review reminder usefulness periodically; frequent false alerts make the system harder to trust during an actual disruption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temporary-food-prep-space-map",
+      "title": "Mapping a temporary food preparation area",
+      "category": "Food & water",
+      "summary": "Identify usable space and equipment when the usual kitchen layout is disrupted.",
+      "tags": [
+        "food preparation",
+        "workspace",
+        "kitchen",
+        "power cut",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Surface",
+          "Equipment",
+          "Clearance"
+        ],
+        "alt": "A compact shelves diagram labels Surface, Equipment, Clearance to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify a practical surface",
+          "paragraphs": [
+            "List clean, stable areas already used for ordinary food preparation and note which are accessible to household members with different mobility needs.",
+            "A surface should not block exits, access to utilities or shared routes. Do not assume a bedroom, bathroom or other improvised area is suitable for preparing food."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Match equipment to conditions",
+          "paragraphs": [
+            "Record which ordinary utensils, lighting and storage locations are accessible without depending on unavailable appliances.",
+            "Do not improvise indoor use of outdoor stoves, barbecues or fuel-burning equipment. Combustion equipment can create serious fire and carbon monoxide hazards."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the plan limited",
+          "paragraphs": [
+            "Use the map to find existing safe workspaces, not as an endorsement of unfamiliar cooking methods or food-storage conditions.",
+            "If water, refrigeration, ventilation or safe facilities are unavailable, consult appropriate current guidance rather than assuming that the temporary area can support every task."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-water-use-priority-notes",
+      "title": "Writing household water-use priority notes",
+      "category": "Food & water",
+      "summary": "Help a household discuss competing needs without claiming a universal daily water allowance.",
+      "tags": [
+        "water",
+        "household planning",
+        "accessibility",
+        "priorities",
+        "sanitation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Needs",
+          "Constraints",
+          "Contacts"
+        ],
+        "alt": "A compact checklist diagram labels Needs, Constraints, Contacts to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "List normal water dependencies",
+          "paragraphs": [
+            "Discuss the activities that ordinarily depend on water, including drinking, food preparation, hygiene and any household-specific care or equipment needs.",
+            "Some needs may be time-sensitive or medically important. Do not replace individual professional advice with a generic household allocation."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Note practical constraints",
+          "paragraphs": [
+            "Record whether household members have difficulty carrying containers, reaching taps or accessing alternative facilities. Keep the note concise and avoid unnecessary sensitive personal details.",
+            "Identify which existing contacts or providers the household would consult about a supply interruption. Do not assume a planned alternative source is currently available or safe."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep decisions adaptable",
+          "paragraphs": [
+            "Review the notes when circumstances change and when the household receives reliable information about a particular interruption.",
+            "The guide deliberately gives no universal water quantities or purification instructions. Water safety and public-health decisions require appropriate reviewed advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-incident-notes-template",
+      "title": "Keeping a neutral record of kitchen supply problems",
+      "category": "Food & water",
+      "summary": "Record food and water disruptions accurately for household follow-up.",
+      "tags": [
+        "incident log",
+        "kitchen",
+        "food",
+        "water",
+        "record",
+        "supplier"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Record",
+          "Follow up"
+        ],
+        "alt": "A compact sequence diagram labels Observe, Record, Follow up to organise the nonhazardous household planning concepts in this guide.",
+        "caption": "Planning aid only; this diagram does not certify food or water safety."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Capture observable facts",
+          "paragraphs": [
+            "Write down the date, affected item or service, and what was directly observed, such as an absent delivery, damaged package or interrupted tap supply.",
+            "Distinguish observation from assumption. For example, a change in appearance is a reason to seek appropriate advice, not proof of a specific contamination cause."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Avoid collecting unnecessary details",
+          "paragraphs": [
+            "Keep the note focused on the practical household issue and the contact or reference number needed for follow-up, if any.",
+            "Do not copy full payment details, medical records or other sensitive identifiers into a general shared log. Photos may help with supplier disputes but should be stored privately."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Record the outcome",
+          "paragraphs": [
+            "Update the entry after a supplier response, replacement, inspection or other resolution. Mark unresolved items clearly so nobody mistakes a pending question for a completed check.",
+            "Do not treat an administrative log as evidence that food or water is safe. Escalate safety concerns through appropriate current official or professional channels."
+          ]
+        }
+      ]
+    }
+  ]
+}
