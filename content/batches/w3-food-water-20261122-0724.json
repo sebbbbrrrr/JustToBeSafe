@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-offline-paper-index",
+      "title": "Keeping a paper backup of a digital pantry inventory",
+      "category": "Food & water",
+      "summary": "Make a small, maintainable paper reference when a phone or battery is unavailable.",
+      "tags": [
+        "offline",
+        "paper",
+        "inventory",
+        "backup",
+        "pantry"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose essentials",
+          "Copy locations",
+          "Update changes"
+        ],
+        "alt": "A checklist schematic with three labelled stages: Choose essentials, Copy locations, Update changes. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Choose essentials → Copy locations → Update changes. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Decide what belongs on paper",
+          "paragraphs": [
+            "A paper index works best as a short fallback, not a printed copy of every inventory field. Include only the supplies whose locations and approximate amounts household members need to find without opening an app.",
+            "Use familiar shelf names and clear item descriptions. Avoid copying account details, purchase histories or other personal information that is not needed to locate food."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep the reference usable",
+          "paragraphs": [
+            "Store the sheet somewhere agreed and accessible to the household without leaving sensitive information exposed to visitors. If the sheet is kept near a kitchen, protect it from spills and ordinary wear.",
+            "Use a simple date or revision mark to show when it was last checked. Explain on the sheet that stock levels may have changed since that date."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Reconcile after changes",
+          "paragraphs": [
+            "When food is moved, used or replenished, update the digital inventory first or mark the paper copy for later reconciliation. Avoid treating two conflicting records as equally current.",
+            "Test the fallback occasionally by asking someone who did not create the index to locate an ordinary item. Improve unclear labels rather than adding excessive detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-task-continuity-roles",
+      "title": "Assigning backup roles for everyday meal preparation",
+      "category": "Food & water",
+      "summary": "Keep routine meal organisation manageable when the usual cook or shopper is unavailable.",
+      "tags": [
+        "meals",
+        "roles",
+        "household",
+        "continuity",
+        "responsibilities"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify tasks",
+          "Choose backups",
+          "Share notes"
+        ],
+        "alt": "A sequence schematic with three labelled stages: Identify tasks, Choose backups, Share notes. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Identify tasks → Choose backups → Share notes. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "List the work behind a meal",
+          "paragraphs": [
+            "Food preparation includes more than cooking. Shopping, finding ingredients, checking dietary needs, cleaning equipment and returning supplies to storage may be done by different people.",
+            "Write down only the responsibilities that someone else would struggle to discover independently. Keep the list practical rather than assigning a rigid timetable for every meal."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Agree a workable handover",
+          "paragraphs": [
+            "Ask household members which tasks they can realistically cover, taking account of age, accessibility, experience and available time. Do not assume someone can safely use unfamiliar appliances or equipment.",
+            "For each essential task, note a backup person or a simpler alternative. Keep manufacturer instructions and any necessary dietary information easy to find without disclosing private details unnecessarily."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review after a disruption",
+          "paragraphs": [
+            "After an absence, late delivery or other change, identify which tasks were missed or confusing. Adjust responsibilities rather than attributing blame.",
+            "A role list is an organisation aid, not a food-hygiene qualification. Tasks involving food safety or equipment hazards still require suitable knowledge and instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-item-location-changes",
+      "title": "Recording temporary moves of stored food",
+      "category": "Food & water",
+      "summary": "Avoid losing track of supplies moved during cleaning, repairs or rearrangement.",
+      "tags": [
+        "pantry",
+        "relocation",
+        "storage",
+        "inventory",
+        "temporary"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Original place",
+          "Temporary place",
+          "Return or update"
+        ],
+        "alt": "A route schematic with three labelled stages: Original place, Temporary place, Return or update. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Original place → Temporary place → Return or update. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Mark the original location",
+          "paragraphs": [
+            "Before moving a group of food items, record the ordinary cupboard, shelf or box name so other household members know where those items usually belong.",
+            "Keep the note attached to the inventory or shelf key rather than creating a separate list that will be difficult to find later."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Name the temporary destination",
+          "paragraphs": [
+            "Use a recognisable location description and the date of the move. If an area is unsuitable for a particular food according to its packaging, do not use that area just because it is convenient.",
+            "Separate food from cleaning products, tools and other incompatible materials. Do not place heavy containers where they may fall or obstruct access routes."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Close the move record",
+          "paragraphs": [
+            "When the items are returned, verify the physical location and update the record. If the new arrangement is permanent, change the main shelf key instead of preserving an obsolete temporary note.",
+            "Check for overlooked items before discarding the temporary record. A clear close-out prevents duplicate inventory entries and unnecessary repeat purchases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-packaging-information-archive",
+      "title": "Saving essential information from discarded food packaging",
+      "category": "Food & water",
+      "summary": "Retain product details when original outer packaging is removed for storage.",
+      "tags": [
+        "packaging",
+        "labels",
+        "allergens",
+        "instructions",
+        "archive"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Keep identity",
+          "Retain directions",
+          "Link to item"
+        ],
+        "alt": "A checklist schematic with three labelled stages: Keep identity, Retain directions, Link to item. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Keep identity → Retain directions → Link to item. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify information that may be lost",
+          "paragraphs": [
+            "Outer packaging can carry the full product name, ingredients, allergen statements, preparation directions, storage instructions and identifying batch details. Removing it may leave an inner container difficult to recognise.",
+            "Where practical, keep the original label with the item. A household summary is not a substitute for the manufacturer's current information, particularly for allergies or food safety."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make a compact reference",
+          "paragraphs": [
+            "If packaging must be discarded, retain a legible photo or clearly labelled paper copy of the relevant product information, subject to the household's privacy preferences. Include enough product identity to match the reference to the actual contents.",
+            "Avoid shortening allergy statements into informal guesses. When the product identity or instructions cannot be established reliably, do not assume a similar-looking item has the same ingredients or requirements."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Retire stale references",
+          "paragraphs": [
+            "Remove the saved reference when the corresponding product is used up or replaced by a different formulation. Check new packaging rather than copying old information automatically.",
+            "If several products share similar names, include a distinctive description so household members do not apply one product's instructions to another."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-food-equipment-sharing",
+      "title": "Keeping shared kitchen utensils findable and available",
+      "category": "Food & water",
+      "summary": "Set clear places and simple handover expectations for commonly shared utensils.",
+      "tags": [
+        "utensils",
+        "shared",
+        "kitchen",
+        "equipment",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Everyday tools",
+          "Shared extras",
+          "Needs attention"
+        ],
+        "alt": "A shelves schematic with three labelled stages: Everyday tools, Shared extras, Needs attention. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Everyday tools → Shared extras → Needs attention. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose common locations",
+          "paragraphs": [
+            "Identify utensils used by several people, such as measuring cups, can openers and serving tools. Group them by everyday use and choose storage places that are easy to explain.",
+            "Avoid storing sharp, heavy or breakable items where they create hazards for children or people with limited reach. Use the household's normal accessibility arrangements."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make availability visible",
+          "paragraphs": [
+            "A short storage label or drawer index can prevent people from buying duplicates or searching several cupboards. Mark borrowed or temporarily relocated items in a simple shared note when necessary.",
+            "Do not use a digital checkmark as proof that an item has been cleaned or is ready for food contact. Physical condition and appropriate cleaning still matter."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Handle missing or unsuitable tools",
+          "paragraphs": [
+            "When a tool is damaged, missing or difficult to use, mark it for replacement or review instead of silently returning it to storage.",
+            "Review the layout after changes to household needs. A useful shared kitchen arrangement should work for the people who actually use it, not only for the person who organised it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-reserve-accessibility-handover",
+      "title": "Preparing a food cupboard handover for a temporary helper",
+      "category": "Food & water",
+      "summary": "Help a trusted helper locate agreed supplies without exposing unrelated household information.",
+      "tags": [
+        "helper",
+        "accessibility",
+        "handover",
+        "pantry",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree access",
+          "Show locations",
+          "Confirm return"
+        ],
+        "alt": "A sequence schematic with three labelled stages: Agree access, Show locations, Confirm return. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Agree access → Show locations → Confirm return. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Agree the scope of help",
+          "paragraphs": [
+            "Before asking someone to collect food or help with meals, identify which items and storage areas they actually need. Avoid giving unrestricted access to private documents, medicines or unrelated household records.",
+            "Check dietary requirements with the relevant household member instead of relying on assumptions. A helper may need a simple product-location map rather than a complete inventory."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Provide clear directions",
+          "paragraphs": [
+            "Use ordinary cupboard names, short item descriptions and a visible point of contact. Include any accessibility considerations, such as supplies kept on a reachable shelf or containers that are difficult to open.",
+            "Do not expect a helper to judge whether unfamiliar food is safe to eat from its appearance. Preserve original packaging instructions and seek appropriate advice when safety is uncertain."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Finish the handover",
+          "paragraphs": [
+            "Ask the helper to note which agreed supplies were taken or moved, and update the household inventory afterward. Return keys or access information according to the household's arrangements.",
+            "Remove temporary notes that expose private details when they are no longer needed. The goal is continuity without turning a small favour into an unnecessary permanent data-sharing arrangement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-inventory-error-corrections",
+      "title": "Correcting mistakes in a household food inventory",
+      "category": "Food & water",
+      "summary": "Keep stock records trustworthy when quantities or locations have been entered incorrectly.",
+      "tags": [
+        "inventory",
+        "errors",
+        "correction",
+        "stock",
+        "reconciliation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Spot mismatch",
+          "Check shelf",
+          "Correct record"
+        ],
+        "alt": "A sequence schematic with three labelled stages: Spot mismatch, Check shelf, Correct record. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Spot mismatch → Check shelf → Correct record. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Recognise a mismatch",
+          "paragraphs": [
+            "An inventory may show more food than is physically present, a product in the wrong cupboard or two entries for the same item. These errors can arise from shopping, shared use, scanning or simple typing mistakes.",
+            "Do not assume the app record is correct because it has a recent timestamp. Check the actual packaging, location and quantity when the discrepancy matters."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make a clear correction",
+          "paragraphs": [
+            "Correct the relevant item rather than creating a second entry to balance the total. If the original entry represents a different product or pack size, preserve that distinction.",
+            "Use a short neutral note where several people share the inventory, such as 'count checked on shelf'. Avoid recording blame or unnecessary details about who used an item."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Prevent repeat confusion",
+          "paragraphs": [
+            "Look for a simple cause: ambiguous shelf names, inconsistent units, similar packaging or a barcode matched to the wrong product variant. Fix the source of confusion where possible.",
+            "Periodic spot checks of a few important supplies are more maintainable than repeatedly recounting every cupboard. An inventory is a planning aid and never replaces checking food condition or label instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanitation-supply-location-map",
+      "title": "Mapping household sanitation supplies without mixing storage areas",
+      "category": "Food & water",
+      "summary": "Create a clear location reference for everyday hygiene and sanitation supplies.",
+      "tags": [
+        "sanitation",
+        "hygiene",
+        "supplies",
+        "storage",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Hand hygiene",
+          "Cleaning tools",
+          "Waste supplies"
+        ],
+        "alt": "A shelves schematic with three labelled stages: Hand hygiene, Cleaning tools, Waste supplies. The illustration summarises how to organise the household reference without depicting a hazardous procedure.",
+        "caption": "Organisation aid: Hand hygiene → Cleaning tools → Waste supplies. Confirm actual supplies and manufacturer instructions."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Group by intended use",
+          "paragraphs": [
+            "Make a short list of everyday hand-hygiene items, cleaning equipment and waste-handling supplies that household members may need during an interruption. Record where each category is normally stored.",
+            "Do not store household chemicals with food or drinking-water containers. Follow the manufacturer's storage instructions, especially where children or pets may access a cupboard."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Create a usable location map",
+          "paragraphs": [
+            "Use room and cupboard names rather than an elaborate diagram of the entire property. The map should help someone locate a supply quickly without revealing private household information.",
+            "For accessible use, pair any colour-coded shelf marker with written labels. Keep the location note readable on paper as well as in the offline app."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain the map",
+          "paragraphs": [
+            "When supplies move or run out, update the location or mark the category as needing attention. Do not treat a listed item as evidence that a usable quantity is still present.",
+            "Keep hazardous cleaning instructions out of the map. If a product's safe use or disposal is uncertain, refer to its label or appropriate professional guidance rather than improvising procedures."
+          ]
+        }
+      ]
+    }
+  ]
+}
