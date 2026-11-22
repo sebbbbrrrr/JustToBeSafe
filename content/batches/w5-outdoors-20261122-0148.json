@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-paper-map-protection",
+      "title": "Protect a paper map from rain and wear",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep a paper navigation backup legible without covering essential map information.",
+      "tags": [
+        "paper map",
+        "rain",
+        "map case",
+        "navigation",
+        "waterproof"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Cover",
+          "Read",
+          "Dry"
+        ],
+        "alt": "A schematic three-row checklist showing a map inside a protective cover, a readable map legend and careful drying after use.",
+        "caption": "Protect legibility without permanently altering the map."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose a practical cover",
+          "paragraphs": [
+            "Use a transparent map case or sleeve sized for the folded sheet, allowing the necessary route area and legend to remain visible. Check that seams, closures and corners are intact before leaving.",
+            "A cover reduces ordinary handling damage but is not a guarantee of waterproofing. Consider a second protected copy for a longer trip where a single wet or lost map would leave no useful reference."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep the map usable",
+          "paragraphs": [
+            "Fold the map on a clean, dry surface so the relevant area can be seen without repeated opening in bad weather. Avoid writing permanent route markings across printed rights of way, contours or place names.",
+            "Make sure the map scale, north indication and edition information are still accessible. A sealed sleeve can cause glare, so check readability in daylight before relying on it."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Care after a walk",
+          "paragraphs": [
+            "If the case becomes wet, separate the map from moisture when conditions allow and follow the publisher's material-care advice. Inspect the cover for trapped condensation, tears and closures that no longer seal.",
+            "A damaged or outdated map should be replaced rather than treated as a dependable sole navigation source."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-headtorch-readiness",
+      "title": "Check a headtorch before an outdoor trip",
+      "category": "Outdoor skills & navigation",
+      "summary": "Inspect portable lighting and its power source before it is needed.",
+      "tags": [
+        "headtorch",
+        "torch",
+        "battery",
+        "light",
+        "night walking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Light",
+          "Power",
+          "Pack"
+        ],
+        "alt": "Three connected circles depict checking a headtorch light, verifying its power supply and packing it where it can be reached.",
+        "caption": "Lighting is equipment preparation, not permission to enter unsafe terrain."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Confirm basic operation",
+          "paragraphs": [
+            "Switch on the headtorch in a suitable setting and check that the beam, controls and headband function as intended. Look for cracked housings, loose contacts or obvious damage, and consult the product manual for fault indicators.",
+            "Check the expected operating modes without shining a bright beam into another person's eyes. Do not assume a short successful switch-on proves a battery will last an entire journey."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Review the power source",
+          "paragraphs": [
+            "Identify whether the model uses replaceable cells or an integrated rechargeable battery. Check charge or replacement cells against the manufacturer's instructions, including correct type, polarity and transport precautions.",
+            "Avoid mixing old and new cells or using swollen, leaking or damaged batteries. Keep spare power protected from short circuits and moisture."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Pack for access",
+          "paragraphs": [
+            "Place the light where it can be retrieved without unpacking everything, and check that it cannot switch on accidentally in storage. Consider a second independent light source for journeys where darkness is foreseeable.",
+            "A headtorch does not make unfamiliar routes or poor visibility safe; route selection and current conditions still matter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-backpack-fit-check",
+      "title": "Adjust and assess daypack fit before walking",
+      "category": "Outdoor skills & navigation",
+      "summary": "Notice uncomfortable load distribution and attachment problems during a short pre-trip check.",
+      "tags": [
+        "backpack",
+        "rucksack",
+        "straps",
+        "fit",
+        "walking",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fit",
+          "Straps",
+          "Balance"
+        ],
+        "alt": "A three-item schematic checklist for backpack fit, sound straps and balanced contents before a day walk.",
+        "caption": "A short fit check can reveal issues before a longer journey."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Start with a realistic load",
+          "paragraphs": [
+            "Pack the items you actually intend to carry and put on the pack in a safe place. Observe whether it sits securely without persistent pressure points, unusual pulling or restricted movement.",
+            "Different pack designs have different adjustment systems. Follow the manufacturer's fitting guidance rather than assuming one strap arrangement works for every person."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check attachments and balance",
+          "paragraphs": [
+            "Inspect shoulder straps, buckles, zips and seams for damage. Secure loose cords and ensure bottles or external attachments cannot swing into people or catch on vegetation.",
+            "Distribute contents so the bag does not pull strongly to one side. Avoid packing sharp or heavy objects where they could press into the back or move unexpectedly."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Try it briefly",
+          "paragraphs": [
+            "Walk a short, familiar distance with the loaded pack and note any rubbing or imbalance. Adjust or reduce the load before committing to a longer outing, particularly when carrying shared equipment.",
+            "A comfortable pack does not establish that the planned route or carried load is suitable for the walker; assess personal capability separately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-path-signage-record",
+      "title": "Record public path signs without mistaking them for live access advice",
+      "category": "Outdoor skills & navigation",
+      "summary": "Understand what to note from route signs while recognising their limitations.",
+      "tags": [
+        "signpost",
+        "waymarker",
+        "rights of way",
+        "path",
+        "navigation",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Sign",
+          "Map",
+          "Confirm"
+        ],
+        "alt": "A three-point abstract route diagram connecting a path sign, the corresponding map information and an access-status check.",
+        "caption": "Waymarkers help orientation but do not replace current access information."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Read the full sign",
+          "paragraphs": [
+            "At a safe stopping point, note the place name, destination wording, route designation and any directional arrow. Photograph the sign only where it is appropriate and does not obstruct other path users.",
+            "Colours and symbols can differ between organisations and locations. An arrow or marker alone may not explain the length, gradient, accessibility or legal status of the route."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Compare with the map",
+          "paragraphs": [
+            "Match signposted destinations and junctions against the actual map, checking whether the intended path continues in the expected direction. Record discrepancies for later review rather than inventing a missing connection.",
+            "A sign may be damaged, obscured or outdated, while a map may omit a recent closure. Do not treat either as proof that a route is currently safe or open."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Respect local notices",
+          "paragraphs": [
+            "Look for clearly posted restrictions and official route notices when connectivity is available. Where access is unclear, choose a known permitted alternative instead of crossing fences or entering restricted land.",
+            "A saved sign photograph is a historical reference, not a live statement about present access."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-weatherproof-layer-inspection",
+      "title": "Inspect a waterproof jacket before a walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "Check closures, seams and care labels without assuming a garment guarantees protection.",
+      "tags": [
+        "jacket",
+        "raincoat",
+        "seams",
+        "zip",
+        "waterproof",
+        "layers"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Seams",
+          "Closure",
+          "Care"
+        ],
+        "alt": "A schematic checklist covering garment seam condition, functioning closures and the manufacturer's care instructions.",
+        "caption": "Check clothing condition before relying on it in wet conditions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Look at high-wear areas",
+          "paragraphs": [
+            "Inspect seams, cuffs, hood adjustments and pockets for tears, peeling tape or obvious wear. Try zips and fasteners without forcing them, and check that any hood or drawcord can be adjusted comfortably.",
+            "A garment may look intact yet perform poorly after repeated use or unsuitable washing. Manufacturer care and performance information are more useful than a generic waterproof label alone."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check compatibility with other layers",
+          "paragraphs": [
+            "Try the jacket over the clothing you expect to wear. Confirm that sleeves and hem allow ordinary movement and that a packed hood does not obscure vision or hearing.",
+            "Avoid relying on a single garment to manage all possible weather and exposure conditions. A jacket does not substitute for a suitable route, forecast check and realistic turnaround plan."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Store and maintain",
+          "paragraphs": [
+            "Follow the maker's cleaning, drying and reproofing advice for the specific fabric and membrane. Keep garments clean and dry for storage, and record damage requiring professional repair or replacement.",
+            "Do not apply unverified chemicals or heat treatments to coated materials; unsuitable care can damage the garment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trail-litter-hygiene",
+      "title": "Carry and manage small amounts of litter on a walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "Plan for ordinary packaging and personal waste without contaminating supplies.",
+      "tags": [
+        "litter",
+        "waste",
+        "pack out",
+        "hygiene",
+        "trail",
+        "leave no trace"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Separate",
+          "Contain",
+          "Dispose"
+        ],
+        "alt": "Three connected schematic stages show separating ordinary litter, containing it in a suitable bag and disposing of it at an appropriate facility.",
+        "caption": "Keep litter contained until a suitable disposal point is available."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Plan a small waste pocket",
+          "paragraphs": [
+            "Bring a durable, closable bag or compartment for wrappers and other ordinary litter. Keep it separate from drinking water, clean food containers and items that need to remain dry.",
+            "Estimate likely packaging from your own food and equipment instead of relying on bins being present along the route. Never leave waste beside an overflowing bin."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Handle waste with care",
+          "paragraphs": [
+            "Avoid picking up sharp, chemical, medical or otherwise suspicious waste; report hazards to the appropriate land manager when necessary. If handling ordinary litter, consider hand hygiene before eating.",
+            "Do not compress unknown containers or handle broken glass with bare hands. Keep personal waste secure from animals and wind until it can be disposed of appropriately."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Dispose responsibly",
+          "paragraphs": [
+            "Use suitable waste or recycling facilities after the walk, following local rules. Inspect the waste pocket for leaks and clean or replace it as appropriate before the next outing.",
+            "Some protected areas have additional requirements for waste and sanitation; check local guidance rather than assuming a single rule applies everywhere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-walking-pole-check",
+      "title": "Inspect walking poles and their attachments",
+      "category": "Outdoor skills & navigation",
+      "summary": "Identify obvious wear and locking problems before taking poles on a route.",
+      "tags": [
+        "walking poles",
+        "trekking poles",
+        "locks",
+        "tips",
+        "straps",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Lock",
+          "Tip",
+          "Strap"
+        ],
+        "alt": "Three-row schematic checklist showing a walking pole's locking section, ground-contact tip and hand strap.",
+        "caption": "Inspect poles according to their maker's instructions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check the shaft and joints",
+          "paragraphs": [
+            "Look for dents, cracks, corrosion or sections that do not extend or retract smoothly. Test the locking mechanism in accordance with the manufacturer instructions while stationary and without applying excessive force.",
+            "If a section slips, sticks or has visible damage, do not rely on the pole to support body weight. Some poles are not intended for weight-bearing or medical mobility use."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Inspect contact points",
+          "paragraphs": [
+            "Check that the tip or basket is attached correctly and suitable for the intended ordinary surface. Look for worn rubber covers and missing parts that may affect grip or create damage to indoor surfaces.",
+            "Accessories and attachments are model-specific; avoid forcing incompatible tips or improvised fasteners."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Carry and store",
+          "paragraphs": [
+            "Secure collapsed poles so their points do not injure another person or puncture a bag. After a trip, remove surface dirt and dry them as recommended by the maker before storage.",
+            "Walking poles do not make exposed, icy or steep terrain safe, and are not substitutes for a suitable route or appropriate mobility aid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-sun-protection-pack-check",
+      "title": "Prepare a practical sun-protection kit for an outdoor day",
+      "category": "Outdoor skills & navigation",
+      "summary": "Organise shade and clothing options without relying on a fixed weather assumption.",
+      "tags": [
+        "sun",
+        "shade",
+        "hat",
+        "sunglasses",
+        "clothing",
+        "forecast"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Hat",
+          "Shade",
+          "Review"
+        ],
+        "alt": "A checklist-style schematic representing a hat, an available shade plan and a review of current conditions.",
+        "caption": "Sun-protection planning should adapt to the person and conditions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Consider the setting",
+          "paragraphs": [
+            "Review the forecast and planned exposure before leaving, including whether there will be sheltered stopping places. Conditions can change, and cloud cover does not establish that ultraviolet exposure is absent.",
+            "Consider individual needs, age, skin sensitivity and relevant professional advice. This draft is a packing overview, not a clinical guide to sunburn or heat illness."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Pack useful options",
+          "paragraphs": [
+            "Check suitable clothing, a hat and sunglasses where appropriate, and any personally suitable sun-protection products according to their labels. Keep products accessible so they are not forgotten at the bottom of a bag.",
+            "Follow product directions and expiry information rather than assuming one application or product works in every situation. Shade and clothing can complement other protection choices."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Reassess plans",
+          "paragraphs": [
+            "Before departure, consider whether the intended route offers realistic opportunities to reduce exposure or shorten the outing. Make conservative decisions when conditions or individual needs exceed the original plan.",
+            "Seek qualified advice for medical questions, and do not treat a kit checklist as proof that prolonged exposure is safe."
+          ]
+        }
+      ]
+    }
+  ]
+}
