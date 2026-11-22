@@ -20,16 +20,12 @@
       "visual": {
         "kind": "checklist",
         "labels": [
-          "Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate.",
-          "Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method.",
-          [
-            "Original seal",
-            "Matching clip",
-            "Label retained"
-          ]
+          "Original seal",
+          "Matching clip",
+          "Label retained"
         ],
-        "alt": "An offline checklist diagram with labelled elements Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate., Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method., Original seal,Matching clip,Label retained. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate. · Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method. · Original seal,Matching clip,Label retained."
+        "alt": "A three-item checklist labelled Original seal, Matching clip, Label retained. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Original seal · Matching clip · Label retained."
       },
       "sections": [
         {
@@ -68,16 +64,12 @@
       "visual": {
         "kind": "checklist",
         "labels": [
-          "Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned.",
-          "Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance.",
-          [
-            "Meal",
-            "Utensil",
-            "Storage spot"
-          ]
+          "Meal",
+          "Utensil",
+          "Storage spot"
         ],
-        "alt": "An offline checklist diagram with labelled elements Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned., Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance., Meal,Utensil,Storage spot. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned. · Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance. · Meal,Utensil,Storage spot."
+        "alt": "A three-item checklist labelled Meal, Utensil, Storage spot. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Meal · Utensil · Storage spot."
       },
       "sections": [
         {
@@ -116,16 +108,12 @@
       "visual": {
         "kind": "checklist",
         "labels": [
-          "Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together.",
-          "When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute.",
-          [
-            "Bottle",
-            "Matching cap",
-            "Spare parts"
-          ]
+          "Bottle",
+          "Matching cap",
+          "Spare parts"
         ],
-        "alt": "An offline checklist diagram with labelled elements Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together., When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute., Bottle,Matching cap,Spare parts. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together. · When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute. · Bottle,Matching cap,Spare parts."
+        "alt": "A three-item checklist labelled Bottle, Matching cap, Spare parts. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Bottle · Matching cap · Spare parts."
       },
       "sections": [
         {
@@ -164,16 +152,12 @@
       "visual": {
         "kind": "shelves",
         "labels": [
-          "Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items.",
-          "Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance.",
-          [
-            "Food",
-            "Equipment",
-            "Non-food"
-          ]
+          "Food",
+          "Equipment",
+          "Non-food"
         ],
-        "alt": "An offline shelf layout diagram with labelled elements Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items., Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance., Food,Equipment,Non-food. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items. · Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance. · Food,Equipment,Non-food."
+        "alt": "A three-zone shelf diagram labelled Food, Equipment, Non-food. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Food · Equipment · Non-food."
       },
       "sections": [
         {
@@ -212,16 +196,12 @@
       "visual": {
         "kind": "checklist",
         "labels": [
-          "Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one.",
-          "Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging.",
-          [
-            "Container",
-            "Readable label",
-            "Shelf key"
-          ]
+          "Container",
+          "Readable label",
+          "Shelf key"
         ],
-        "alt": "An offline checklist diagram with labelled elements Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one., Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging., Container,Readable label,Shelf key. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one. · Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging. · Container,Readable label,Shelf key."
+        "alt": "A three-item checklist labelled Container, Readable label, Shelf key. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Container · Readable label · Shelf key."
       },
       "sections": [
         {
@@ -294,16 +274,12 @@
       "visual": {
         "kind": "checklist",
         "labels": [
-          "Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention.",
-          "This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe.",
-          [
-            "Cloths",
-            "Brushes",
-            "Spare area"
-          ]
+          "Cloths",
+          "Brushes",
+          "Spare area"
         ],
-        "alt": "An offline checklist diagram with labelled elements Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention., This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe., Cloths,Brushes,Spare area. It supports household identification and organisation, not food treatment or sanitation procedures.",
-        "caption": "Household reference: Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention. · This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe. · Cloths,Brushes,Spare area."
+        "alt": "A three-item checklist labelled Cloths, Brushes, Spare area. The illustration helps identify household storage or equipment and does not depict food treatment, disinfection or safety approval.",
+        "caption": "Household organisation reference: Cloths · Brushes · Spare area."
       },
       "sections": [
         {
