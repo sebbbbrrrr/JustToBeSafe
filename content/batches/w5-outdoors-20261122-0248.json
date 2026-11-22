@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-scale-distance",
+      "title": "Estimate route length using a map scale",
+      "category": "Outdoor skills & navigation",
+      "summary": "Understand why straight-line distance differs from actual walking distance.",
+      "tags": [
+        "map scale",
+        "distance",
+        "route planning",
+        "terrain",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Scale",
+          "Trace",
+          "Allow"
+        ],
+        "alt": "A three-row map planning checklist identifies the printed map scale, the traced path length and a separate allowance for terrain and route uncertainty.",
+        "caption": "Use the map's own scale; a schematic cannot measure a real route."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Read the printed scale",
+          "paragraphs": [
+            "Find the scale printed on the map or supplied by its publisher and confirm that a digital view has not been resized without preserving a scale bar. Different editions and products may use different scales, and a cropped screenshot may remove the information needed to estimate distance.",
+            "A scale relates distance on the map to distance on the ground. It does not say whether the mapped route is open, accessible or safe, so do not treat the calculation as a substitute for checking current conditions."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Follow the route rather than a straight line",
+          "paragraphs": [
+            "Trace the intended path through its actual bends and junctions rather than measuring only between the start and destination. A piece of string, map measuring tool or digital route planner can help approximate the path length when used according to its instructions.",
+            "Map measurements are estimates. Detours, diversions, inaccurate path lines and changes in access can increase the distance travelled, particularly where an offline map is out of date."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Keep distance separate from difficulty",
+          "paragraphs": [
+            "Record the approximate route distance alongside, not instead of, ascent, surface, exposure, daylight and the abilities of the group. A short route on paper may still be demanding, and a long route may contain straightforward sections.",
+            "Use conservative plans and suitable route information. If your measurements are uncertain, avoid relying on a precise arrival time or using the estimate as evidence that conditions will be manageable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gate-stile-etiquette",
+      "title": "Recognise gates and stiles on public walking routes",
+      "category": "Outdoor skills & navigation",
+      "summary": "Plan around access features without assuming they suit every walker.",
+      "tags": [
+        "gates",
+        "stiles",
+        "accessibility",
+        "footpaths",
+        "rights of way",
+        "walking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Approach",
+          "Assess",
+          "Alternative"
+        ],
+        "alt": "Three schematic route points represent approaching an access feature, checking whether it is suitable and choosing an appropriate lawful alternative if necessary.",
+        "caption": "Access features vary; the route sketch does not show a real path."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Notice the type of access feature",
+          "paragraphs": [
+            "Route descriptions may mention kissing gates, pedestrian gates, steps or stiles, but these features differ considerably in width, height and ease of use. A symbol on a map does not confirm that a particular person, pushchair or mobility aid can pass.",
+            "Check accessibility information and recent route descriptions before departure where possible. Do not assume a route is step-free simply because it is marked as a public path."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Consider the whole group",
+          "paragraphs": [
+            "Allow time to assess an unfamiliar access feature from a safe position. Keep clear of moving farm equipment and animals, and do not damage fences, gates or property to make a route passable.",
+            "Follow lawful access and local notices. If an obstacle cannot be passed safely or comfortably, use an appropriate known alternative rather than improvising a crossing."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Leave access features responsibly",
+          "paragraphs": [
+            "Where a gate is used, follow displayed instructions about whether it should be left open or closed, and avoid obstructing the entrance while regrouping. Be mindful that some gates serve livestock management or vehicle access.",
+            "Report damaged or blocked public-path infrastructure through the relevant land manager or local authority route rather than attempting repairs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-bag-rain-cover",
+      "title": "Check a rucksack rain cover before travel",
+      "category": "Outdoor skills & navigation",
+      "summary": "Understand the limits of a pack cover and keep sensitive items protected.",
+      "tags": [
+        "rain cover",
+        "rucksack",
+        "wet weather",
+        "packing",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Fit",
+          "Secure",
+          "Protect"
+        ],
+        "alt": "Three connected schematic circles show checking the rain cover fit, checking how it is secured and separately protecting moisture-sensitive contents.",
+        "caption": "A rain cover helps with spray and rain but is not a waterproof guarantee."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Match the cover to the pack",
+          "paragraphs": [
+            "Check the manufacturer's size range and whether the cover can enclose a fully packed rucksack without excessive tension. External bottles, poles or straps may change how a cover fits and can leave gaps.",
+            "Inspect elastic edges, buckles and any retaining strap for damage. A cover that repeatedly slips or flaps may be unsuitable for the pack or conditions."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check ordinary use before leaving",
+          "paragraphs": [
+            "Fit the cover at home and confirm it does not obstruct important straps, visibility features or access needed during a walk. Practice putting it away when dry so it can be stored without tangling other gear.",
+            "Use the product's instructions rather than relying on a universal fastening method. In strong winds or exposed places, stop in a safe location before adjusting loose equipment."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Protect contents independently",
+          "paragraphs": [
+            "Rain can enter around the back panel, seams and openings even when a cover is fitted. Consider manufacturer-suitable internal dry bags or waterproof pouches for items that must stay dry, especially maps and spare clothing.",
+            "Dry the cover according to its care label before prolonged storage. Do not treat a rain cover as evidence that electronics, medicines or emergency supplies will remain dry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gloves-care",
+      "title": "Inspect and pack walking gloves for changing conditions",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep suitable handwear available without assuming one pair suits every activity.",
+      "tags": [
+        "gloves",
+        "handwear",
+        "weather",
+        "layers",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fit",
+          "Condition",
+          "Spare"
+        ],
+        "alt": "Three-item illustrated checklist covers glove fit, visible condition and an optional dry spare pair for a planned walk.",
+        "caption": "Glove suitability depends on activity and conditions, not one universal rating."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose gloves for the activity",
+          "paragraphs": [
+            "Consider the planned activity, weather forecast, dexterity needs and the manufacturer's stated intended use. Gloves that are comfortable for ordinary walking may not offer the same protection against cold, abrasion or wet conditions.",
+            "Try them with any other layers you expect to wear. If they restrict movement, grip or circulation, reconsider the fit instead of assuming a thicker glove is always better."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Inspect before packing",
+          "paragraphs": [
+            "Check for holes, damaged seams, worn grip surfaces and wet or dirty lining. Confirm that closures work and that both gloves are present before departure.",
+            "Some technical materials lose performance after damage or incorrect washing. Follow product care labels and replace items that no longer provide the protection needed for the planned activity."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Keep a practical storage routine",
+          "paragraphs": [
+            "Store gloves clean and dry in a predictable pocket or bag section so they can be found without emptying the pack. A dry spare pair may be useful on a longer outing, subject to available space and conditions.",
+            "If hands become painful, numb or unusually discoloured, treat that as a reason to reassess exposure and seek appropriate assistance; this guide does not provide clinical treatment instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-binoculars-maintenance",
+      "title": "Care for compact binoculars on an outdoor walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep optical equipment clean and protected without damaging lens coatings.",
+      "tags": [
+        "binoculars",
+        "optics",
+        "lenses",
+        "equipment care",
+        "wildlife"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect",
+          "Clean",
+          "Store"
+        ],
+        "alt": "A three-stage schematic shows inspecting binoculars, using manufacturer-approved cleaning methods and storing them protected from moisture.",
+        "caption": "Optical cleaning should follow the maker's instructions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check condition before use",
+          "paragraphs": [
+            "Inspect the body, hinge, strap attachment and eyecups for obvious damage. Confirm that focus controls move as expected and that the view appears clear without forcing any stiff mechanism.",
+            "Binoculars can vary in water resistance and shock tolerance. Do not assume a product is waterproof because it is marketed for outdoor use."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Avoid abrasive cleaning",
+          "paragraphs": [
+            "Remove loose grit using the manufacturer's recommended method before wiping a lens. Use suitable optical cleaning materials, and avoid household abrasives or rough clothing that could scratch coatings.",
+            "Do not dismantle sealed optical equipment or apply solvents unless specifically permitted by the manufacturer. Persistent internal fogging or misalignment may require professional servicing."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Store for the next outing",
+          "paragraphs": [
+            "Use protective caps and a suitable case where available. Allow exterior moisture to dry according to the product instructions before longer storage, and keep straps organised to reduce snagging.",
+            "When observing wildlife, remain on lawful paths and at respectful distances. Optical magnification does not justify approaching nests, protected areas or dangerous terrain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gaiter-inspection",
+      "title": "Inspect walking gaiters before a muddy route",
+      "category": "Outdoor skills & navigation",
+      "summary": "Check fit, fastenings and wear before relying on lower-leg coverings.",
+      "tags": [
+        "gaiters",
+        "mud",
+        "boots",
+        "straps",
+        "equipment inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fit",
+          "Fasteners",
+          "Wear"
+        ],
+        "alt": "A checklist-style schematic reminds the reader to check gaiter fit, straps and fasteners, and fabric wear before setting out.",
+        "caption": "Gaiters reduce some debris and splashes; they do not make a route safe."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Confirm compatibility",
+          "paragraphs": [
+            "Check that gaiters fit over the intended trousers and footwear without excessive tightness or loose fabric. The manufacturer's sizing and fastening instructions should take priority over a generic arrangement.",
+            "Different designs may use underfoot straps, hooks, zips or hook-and-loop closures. Check that components are present and that nothing hangs where it could catch during ordinary walking."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Look for wear",
+          "paragraphs": [
+            "Inspect seams, closures and any underfoot strap for fraying or damage. Check that grit and mud have not prevented fasteners from closing securely.",
+            "Damaged gaiters may admit water or debris and can create a nuisance if they slip. Replace unsuitable parts where the manufacturer supports replacement, rather than improvising unsafe attachments."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Dry and store correctly",
+          "paragraphs": [
+            "Remove surface dirt and dry the gaiters according to their material care instructions before packing them away. Store spare parts together so the next pre-trip check is quick.",
+            "Gaiters are not substitutes for appropriate footwear, route choice or weather planning. Avoid assuming that protective clothing makes deep water or unstable ground safe to cross."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-daylight-note",
+      "title": "Record daylight information for a planned walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep sunrise and sunset estimates distinct from usable visibility.",
+      "tags": [
+        "daylight",
+        "sunset",
+        "route planning",
+        "visibility",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Date",
+          "Location",
+          "Margin"
+        ],
+        "alt": "Three-row checklist represents recording the correct date, location and a conservative margin when planning around daylight.",
+        "caption": "Daylight estimates are planning references, not guarantees of visibility."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Record the right place and date",
+          "paragraphs": [
+            "Check sunrise and sunset information for the actual location and date of the planned outing from a reliable source. Record the time zone and whether daylight saving applies when copying a time into offline notes.",
+            "A saved time can be wrong for another date or place. Cloud, terrain, woodland and weather may reduce practical visibility before a published sunset time."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Plan without a false precision",
+          "paragraphs": [
+            "Treat sunset as one planning input alongside walking pace, route complexity, rest stops and the group's experience. A numerical estimate does not establish that a route will be easy to follow in fading light.",
+            "Consider a conservative finish plan and a shorter alternative where appropriate. Avoid making a schedule that depends on everyone maintaining an exact pace."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Check equipment and conditions",
+          "paragraphs": [
+            "Confirm that suitable lighting equipment is available and functional when the activity may extend into low light. Check current access restrictions and forecasts before departure where connectivity permits.",
+            "If conditions change, reassess early. This article does not provide night-navigation, rescue or exposed-terrain instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trail-information-board",
+      "title": "Capture useful details from a trail information board",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep local notices identifiable without treating photographs as current advice.",
+      "tags": [
+        "trailhead",
+        "noticeboard",
+        "local rules",
+        "maps",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Publisher",
+          "Date",
+          "Contact"
+        ],
+        "alt": "A three-row checklist identifies the issuing organisation, the notice date and a contact or reference for later verification.",
+        "caption": "Photographed trail notices can become outdated after capture."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify the issuing organisation",
+          "paragraphs": [
+            "At a trail entrance, note who manages or published the information board and whether it shows a date or revision reference. Keep the full context when photographing it, rather than saving an isolated warning symbol.",
+            "Different boards may contain permanent interpretation, seasonal access information or temporary notices. A photograph does not indicate which notices remain in force later."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep only useful offline details",
+          "paragraphs": [
+            "Record the trail name, public access guidance, applicable restrictions and any published contact or website for checking updates. Do not copy private information or assume a displayed map is precise enough for independent navigation.",
+            "If the board gives an official route map, preserve its legend and scale rather than recreating it from memory. Respect copyright and licence terms when sharing material beyond private reference."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Recheck before returning",
+          "paragraphs": [
+            "When connectivity is available, confirm temporary closures or restrictions through the responsible organisation. Physical notices may be newer than a saved image, while a damaged or missing sign does not necessarily mean access is permitted.",
+            "If instructions conflict or the route appears unsafe, choose a conservative lawful alternative and seek clarification rather than relying on an old snapshot."
+          ]
+        }
+      ]
+    }
+  ]
+}
