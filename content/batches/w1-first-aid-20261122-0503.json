@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "healthcare-visitor-entrance-notes",
+      "title": "Giving visiting healthcare staff clear entrance information",
+      "category": "First aid",
+      "summary": "Keep simple directions and access information for a planned home visit.",
+      "tags": [
+        "entrance",
+        "visitor",
+        "access",
+        "home visit"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Entrance",
+          "Barriers",
+          "Contact"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for giving visiting healthcare staff clear entrance information: Entrance, then Barriers, then Contact. No medical treatment is depicted.",
+        "caption": "Household organisation only: Entrance · Barriers · Contact. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Identify the right entrance",
+          "paragraphs": [
+            "Write the building name, street entrance and any clearly identifiable features that could help an expected visitor locate the household. In shared buildings, distinguish the public entrance from the door to the home.",
+            "Avoid putting door codes or key locations in a public note. Share access credentials only through an appropriate private arrangement with an authorised visitor."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Explain practical barriers",
+          "paragraphs": [
+            "Note whether stairs, a lift, heavy doors or narrow approaches might affect a visitor carrying equipment. Check whether any alternative entrance actually permits access.",
+            "Do not assume a lift, intercom or automatic door will be available during an outage. Agree a fallback contact if necessary."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the note current",
+          "paragraphs": [
+            "Check the directions before a planned appointment and revise them after building works or changes to access arrangements.",
+            "This is a practical information aid, not a replacement for contacting emergency or professional services."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personal-care-item-separation",
+      "title": "Keeping personal care belongings separate at home",
+      "category": "First aid",
+      "summary": "Reduce confusion about ownership of everyday personal care belongings.",
+      "tags": [
+        "belongings",
+        "hygiene",
+        "ownership",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Separate",
+          "Review"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for keeping personal care belongings separate at home: Identify, then Separate, then Review. No medical treatment is depicted.",
+        "caption": "Household organisation only: Identify · Separate · Review. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Identify items that are easily mixed up",
+          "paragraphs": [
+            "Look for personal items such as toothbrushes, spectacles and reusable hygiene accessories whose owner matters. Ask household members which arrangements are comfortable and accessible.",
+            "Do not label a container with sensitive health details or someone's name in a shared space without their agreement."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Choose suitable storage",
+          "paragraphs": [
+            "Give each person's belongings a defined location and follow product-specific cleaning and storage instructions. Consider access needs before placing items on high shelves.",
+            "A general household organiser is not suitable for every clinical device or prescribed medicine; follow relevant specialist instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check labels after changes",
+          "paragraphs": [
+            "Remove outdated labels and confirm that replacement items have been returned to the intended place.",
+            "Avoid treating a neat storage layout as proof that an item has been cleaned or is ready for use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthcare-correspondence-status",
+      "title": "Sorting healthcare letters that require action",
+      "category": "First aid",
+      "summary": "Keep healthcare correspondence organised without exposing medical details on shared checklists.",
+      "tags": [
+        "letters",
+        "reply",
+        "booking",
+        "privacy",
+        "filing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Needs reply",
+          "Booked",
+          "Filed"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for sorting healthcare letters that require action: Needs reply, then Booked, then Filed. No medical treatment is depicted.",
+        "caption": "Household organisation only: Needs reply · Booked · Filed. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Separate correspondence from tasks",
+          "paragraphs": [
+            "Record the date, sender and whether a letter asks for a reply, appointment or another action. Keep the original correspondence in an appropriately private location.",
+            "Check any deadline or contact details directly against the original letter instead of relying on a shortened household note."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Track a simple status",
+          "paragraphs": [
+            "Use statuses such as needs reply, booked and filed, and note when an action was actually completed. A checked box should not be confused with confirmation from a healthcare service.",
+            "If the letter describes urgent action, follow the issuing service's instructions rather than waiting for a routine paperwork review."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Protect personal information",
+          "paragraphs": [
+            "Keep diagnoses, test results and other sensitive details out of shared household task boards.",
+            "This guide helps organise paperwork; it cannot interpret clinical results or decide whether follow-up is needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensory-friendly-care-visit-space",
+      "title": "Preparing a sensory-friendly space for a planned care visit",
+      "category": "First aid",
+      "summary": "Ask about light, sound and seating preferences before an expected home appointment.",
+      "tags": [
+        "sensory",
+        "lighting",
+        "sound",
+        "comfort",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Light",
+          "Sound",
+          "Seating"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for preparing a sensory-friendly space for a planned care visit: Light, then Sound, then Seating. No medical treatment is depicted.",
+        "caption": "Household organisation only: Light · Sound · Seating. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Ask about individual preferences",
+          "paragraphs": [
+            "Some people prefer softer lighting, less background noise or a particular seating arrangement. Ask the person directly instead of assuming a single setup suits everyone.",
+            "Do not obstruct access routes, cover safety alarms or change essential supervision arrangements for the sake of comfort."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Arrange ordinary room features",
+          "paragraphs": [
+            "Consider curtains, available chairs and whether distracting household devices can be turned off without affecting safety. Keep the approach to the room clear.",
+            "Do not change specialist medical equipment or monitoring settings as part of an ordinary comfort plan."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and respect privacy",
+          "paragraphs": [
+            "Record preferences only with the person's agreement and check whether they want the same arrangements at the next visit.",
+            "This is an environmental comfort checklist, not medical or therapeutic advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consensual-household-checkins",
+      "title": "Agreeing respectful household wellbeing check-ins",
+      "category": "First aid",
+      "summary": "Arrange optional social check-ins without turning them into intrusive monitoring.",
+      "tags": [
+        "wellbeing",
+        "consent",
+        "contact",
+        "privacy",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Ask",
+          "Agree",
+          "Review"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for agreeing respectful household wellbeing check-ins: Ask, then Agree, then Review. No medical treatment is depicted.",
+        "caption": "Household organisation only: Ask · Agree · Review. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Ask for permission first",
+          "paragraphs": [
+            "Ask whether an informal check-in would be helpful and how the person prefers to be contacted. They may prefer a short conversation, a message or no routine contact.",
+            "Do not assume consent from silence or treat a missed message as evidence of a medical problem."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Agree the purpose",
+          "paragraphs": [
+            "Keep the check-in narrow, such as confirming whether a planned household task is manageable. Decide whether an agreed backup contact would be useful.",
+            "If someone expresses an immediate safety concern, use appropriate professional or emergency support rather than relying on an informal schedule."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Avoid excessive records",
+          "paragraphs": [
+            "Review whether the arrangement is still wanted and avoid storing sensitive conversations in shared household software.",
+            "A social check-in is not a substitute for clinical assessment or professional monitoring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-course-selection",
+      "title": "Questions to ask when choosing a first aid course",
+      "category": "First aid",
+      "summary": "Compare training scope, accessibility and course delivery before booking.",
+      "tags": [
+        "training",
+        "course",
+        "provider",
+        "accessibility",
+        "refresh"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Scope",
+          "Access",
+          "Refresh"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for questions to ask when choosing a first aid course: Scope, then Access, then Refresh. No medical treatment is depicted.",
+        "caption": "Household organisation only: Scope · Access · Refresh. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Check the course scope",
+          "paragraphs": [
+            "Ask whether the course is aimed at workplaces, households, parents or outdoor activities, and which topics it actually covers. Check whether supervised practical assessment is included.",
+            "Similar course titles can cover different skills. Do not assume a brief online presentation is equivalent to hands-on training."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check participation needs",
+          "paragraphs": [
+            "Confirm location, duration, access adjustments and any physical participation requirements with the provider.",
+            "If a formal qualification matters, verify its recognition with the relevant organisation rather than relying on promotional language."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Plan for future learning",
+          "paragraphs": [
+            "Keep the course date, provider contact and any supplied materials together in a private training record.",
+            "This article supports training selection; it does not teach or certify first aid techniques."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trusted-care-supply-collection",
+      "title": "Arranging a trusted pickup for everyday care supplies",
+      "category": "First aid",
+      "summary": "Prepare a fallback for collecting suitable household care supplies when travel is difficult.",
+      "tags": [
+        "pickup",
+        "supplies",
+        "helper",
+        "collection",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree helper",
+          "Collect",
+          "Confirm"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for arranging a trusted pickup for everyday care supplies: Agree helper, then Collect, then Confirm. No medical treatment is depicted.",
+        "caption": "Household organisation only: Agree helper · Collect · Confirm. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Agree a suitable helper",
+          "paragraphs": [
+            "Ask whether a trusted person is willing to collect everyday care supplies and what information the recipient is comfortable sharing.",
+            "Do not assume someone may collect prescribed medicines or confidential healthcare products without authorisation; check the supplier's rules."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the request specific",
+          "paragraphs": [
+            "Provide the collection location, item names and an agreed payment arrangement if relevant. Confirm availability with the supplier where possible.",
+            "Avoid sharing personal health information in a group chat when a private message would suffice."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Confirm the handover",
+          "paragraphs": [
+            "Agree where the items will be placed and how the recipient will know they arrived. Record unavailable items rather than substituting them without permission.",
+            "A collection plan cannot guarantee that a particular product will remain available during a disruption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personal-care-textile-organisation",
+      "title": "Organising everyday towels and washable care textiles",
+      "category": "First aid",
+      "summary": "Keep ordinary personal care textiles labelled, accessible and stored appropriately.",
+      "tags": [
+        "laundry",
+        "towels",
+        "textiles",
+        "hygiene",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Read label",
+          "Sort",
+          "Store dry"
+        ],
+        "alt": "Three linked stages show an administrative household workflow for organising everyday towels and washable care textiles: Read label, then Sort, then Store dry. No medical treatment is depicted.",
+        "caption": "Household organisation only: Read label · Sort · Store dry. Not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Check product care information",
+          "paragraphs": [
+            "Identify towels, bedding and other everyday washable textiles used for personal care. Read the fabric care labels and follow the manufacturer's instructions.",
+            "Items used for clinical care or requiring infection-control precautions need relevant professional guidance, not a generic laundry rule."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate routine storage areas",
+          "paragraphs": [
+            "Choose practical places for used and clean textiles, without blocking walkways. Keep labels short and ensure containers are accessible to the people using them.",
+            "Avoid leaving damp textiles in closed storage, and consider individual allergies or sensitivities when selecting ordinary laundry products."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Update the arrangement",
+          "paragraphs": [
+            "Check the routine after changes to household needs and remove labels that no longer describe their contents.",
+            "This guide is about organisation, not specialist decontamination or infection treatment."
+          ]
+        }
+      ]
+    }
+  ]
+}
