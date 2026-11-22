@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-park-and-ride-disruption",
+      "title": "Planning around a temporary park-and-ride service suspension",
+      "category": "Urban transport",
+      "summary": "Keep a realistic backup for journeys that normally depend on a park-and-ride site.",
+      "tags": [
+        "park and ride",
+        "car park",
+        "bus connection",
+        "travel planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Site",
+          "Bus link",
+          "Alternative"
+        ],
+        "alt": "A three-stage route planning schematic showing the usual park-and-ride site, its connecting bus service and a separately checked alternative journey.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Check the full journey",
+          "paragraphs": [
+            "A park-and-ride journey depends on both parking access and the connecting bus. A car park can be open while its shuttle is reduced, or a bus can operate while the site entrance is closed. Check both parts with their respective operators rather than treating one notice as confirmation of the whole journey.",
+            "Look for the exact site name, direction of travel, dates and any distinction between a temporary timetable and a complete suspension. A saved screenshot is evidence of what was announced, not proof that it still applies."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare an accessible fallback",
+          "paragraphs": [
+            "Record one realistic alternative that fits the traveller's needs, such as a different staffed interchange, public transport from home or rearranging a non-essential appointment. Include likely walking distance, luggage and step-free requirements without guessing current availability.",
+            "Keep the parking operator and bus operator contact routes separately on a paper note. Before travel, verify the latest notices and obey any site barriers or staff directions; do not enter a closed parking area."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-tactile-paving-defect-report",
+      "title": "Reporting damaged tactile paving at a public crossing",
+      "category": "Urban infrastructure",
+      "summary": "Record a crossing accessibility defect without entering traffic or attempting repairs.",
+      "tags": [
+        "tactile paving",
+        "crossing",
+        "accessibility",
+        "highway reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Impact",
+          "Report"
+        ],
+        "alt": "A three-item reporting checklist showing location, observed accessibility impact and the responsible reporting channel.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Describe the defect from safety",
+          "paragraphs": [
+            "Tactile paving can help people detect a crossing edge or a change in walking environment. Loose, missing or obstructed paving may affect people using a long cane and other pedestrians. Note the road, junction and which side of the crossing is affected from a safe public position.",
+            "Do not step into traffic, move barriers or handle loose paving to get a better photograph. If the position is difficult to describe, use a nearby fixed landmark rather than sharing an unrelated person's image."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Send a useful report",
+          "paragraphs": [
+            "Use the responsible highway or site operator's published reporting route. State what you observed, the approximate date, whether access appears obstructed and any safe photograph; avoid asserting a technical defect you cannot verify.",
+            "Keep the reference number and check for a response if needed. For an immediate danger, use the locally appropriate urgent reporting route. This draft does not assess the crossing's safety or provide a substitute crossing route."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-station-escalator-outage",
+      "title": "Preparing for an unavailable station escalator",
+      "category": "Urban access",
+      "summary": "Identify whether a station journey still works for people who cannot use stairs.",
+      "tags": [
+        "escalator",
+        "station access",
+        "stairs",
+        "mobility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Entrance",
+          "Step-free option",
+          "Confirm"
+        ],
+        "alt": "A route-planning schematic separating the intended station entrance, a possible step-free alternative and the need to confirm accessibility with the operator.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand what has changed",
+          "paragraphs": [
+            "An escalator being unavailable does not establish whether a lift or another entrance is available. Stations may have several levels and separate access routes for different platforms. Record the affected entrance, direction and platform rather than assuming a station-wide closure.",
+            "A route that includes stairs may be unusable for someone with a mobility aid, heavy luggage or limited stamina. Do not treat an escalator outage notice as a complete accessibility assessment."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check an alternative before travel",
+          "paragraphs": [
+            "Consult the station or transport operator's accessibility information and assistance channels. Ask whether the whole journey, including any interchange and exit, can be completed without the unavailable escalator.",
+            "Keep a dated note of the operator's advice and a suitable alternative station or journey where possible. Follow current signage and staff directions; do not attempt to use a stopped escalator if it is cordoned off."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-information-kiosk-fault",
+      "title": "Keeping essential details when a public information kiosk is unavailable",
+      "category": "Urban communication",
+      "summary": "Plan a paper or staffed alternative to a broken public information terminal.",
+      "tags": [
+        "information kiosk",
+        "offline records",
+        "public services",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify service",
+          "Find alternative",
+          "Record"
+        ],
+        "alt": "A three-step sequence from identifying the missing kiosk service to finding an accessible alternative and recording the verified details.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify what the kiosk provided",
+          "paragraphs": [
+            "Public information terminals can provide directions, service opening times, ticket instructions or queue information. Record which function is missing and the exact location; a broken display does not necessarily mean the underlying service is closed.",
+            "If the terminal is the only accessible format available at the site, note that barrier when contacting the operator. Do not enter account credentials into an unfamiliar replacement device or a QR link placed over an official notice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Use an independent channel",
+          "paragraphs": [
+            "Look for an authorised staffed desk, printed notice, published phone number or official service page before relying on another source. Ask for the essential information in a format you can retain offline.",
+            "Write down the date, location and source of the information, especially where hours or access arrangements may change. A saved note helps with planning but cannot provide live service status."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-payphone-fault",
+      "title": "Recording a public payphone fault and planning another contact method",
+      "category": "Urban communication",
+      "summary": "Keep a practical backup when a public phone cannot be relied on.",
+      "tags": [
+        "payphone",
+        "telephone",
+        "contact plan",
+        "public infrastructure"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Phone location",
+          "Fault observed",
+          "Backup contact"
+        ],
+        "alt": "A checklist showing the payphone location, a nontechnical description of the fault and an independently available contact method.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the limitation",
+          "paragraphs": [
+            "A public payphone may be unavailable because of physical damage, a blank display or an out-of-service notice. Do not assume it will work during a mobile outage simply because it is marked on an older map.",
+            "Record the street and a nearby landmark from a safe position. Do not dismantle equipment, touch exposed wiring or insert money or cards into a visibly damaged unit."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a separate communication plan",
+          "paragraphs": [
+            "Use the operator's published fault-reporting details when available, and keep the reference if you submit a report. An alternative might be a staffed public facility or a trusted person's agreed phone access, subject to opening hours and consent.",
+            "For a household plan, note more than one contact route and the date each was checked. In an emergency, seek immediate help through the appropriate emergency service rather than relying on an untested payphone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-station-assistance-record",
+      "title": "Keeping an offline record of booked station assistance",
+      "category": "Urban transport",
+      "summary": "Organise assistance booking details without assuming an arrangement is confirmed.",
+      "tags": [
+        "rail assistance",
+        "booking reference",
+        "accessibility",
+        "offline travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Booking",
+          "Journey",
+          "Contact"
+        ],
+        "alt": "A three-item personal record checklist for assistance booking reference, exact journey details and the transport operator's contact channel.",
+        "caption": "Offline planning and reporting aid; confirm current arrangements with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep the right details together",
+          "paragraphs": [
+            "For a journey where assistance has been requested, note the operator, travel date, stations, departure information and booking reference. Keep only the personal details necessary for the traveller; a public-facing copy should not contain health information.",
+            "A request submission is not necessarily a confirmed booking. Distinguish the time a request was sent from any confirmation received, and check whether changes to the journey require the arrangement to be updated."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare for changed arrangements",
+          "paragraphs": [
+            "Keep the operator's accessible contact method and the agreed meeting point in a private offline note. Where a connection involves more than one operator, check who is responsible for each part rather than assuming a single booking covers every transfer.",
+            "Before leaving, confirm any time-sensitive changes through the operator's current channel. If assistance is not available as expected, ask staff for a safe alternative; this article cannot verify staffing or accessibility in real time."
+          ]
+        }
+      ]
+    }
+  ]
+}

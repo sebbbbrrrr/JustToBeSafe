@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-waste-collection-disruption",
+      "title": "Planning around a missed household waste collection",
+      "category": "Urban services",
+      "summary": "Organise waste storage and reporting when a scheduled local collection does not take place.",
+      "tags": [
+        "waste",
+        "collection",
+        "bins",
+        "council",
+        "street",
+        "disruption"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Store",
+          "Report"
+        ],
+        "alt": "A compact offline checklist schematic for planning around a missed household waste collection, showing the labelled concepts Identify, Store, Report. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Identify · Store · Report. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the missed service",
+          "paragraphs": [
+            "Check the normal collection schedule, the affected bin type and whether the issue appears limited to one property or the street. Do not assume a missed collection means an emergency or that the next pickup has been rescheduled.",
+            "Keep the service provider's published reporting route and any property reference in a private household note; do not publish addresses or residents' details on public message boards."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Keep storage manageable",
+          "paragraphs": [
+            "Keep waste in appropriate closed containers where available and avoid obstructing pavements, building entrances, accessible routes or fire exits. Different waste streams and local rules may require separate arrangements.",
+            "If waste presents a health concern, ask the responsible council or building manager for appropriate guidance rather than improvising disposal in public spaces."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Follow up without guessing",
+          "paragraphs": [
+            "Record the date, type of collection and the reporting reference if one is issued. Check the responsible provider for updated instructions, including whether an additional collection is actually confirmed.",
+            "Review the household's bin capacity and communication plan after service resumes. An offline record cannot confirm a current collection status."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-pedestrian-diversion-accessibility",
+      "title": "Recording accessible pedestrian alternatives during street works",
+      "category": "Transport accessibility",
+      "summary": "Prepare useful questions and notes when familiar footways or crossings are temporarily changed.",
+      "tags": [
+        "footpath",
+        "pavement",
+        "diversion",
+        "wheelchair",
+        "accessibility",
+        "roadworks"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual route",
+          "Check access",
+          "Update note"
+        ],
+        "alt": "A compact offline route schematic for recording accessible pedestrian alternatives during street works, showing the labelled concepts Usual route, Check access, Update note. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Usual route · Check access · Update note. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the usual journey",
+          "paragraphs": [
+            "List the essential walking or wheeling journeys affected by local street works, including kerbs, crossing points, gradients and the needs of people using mobility aids or pushchairs.",
+            "Do not treat a line on a map as proof that a route is step-free or passable. Conditions, barriers and permitted crossings may change."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Check alternatives appropriately",
+          "paragraphs": [
+            "Use current information from the responsible highways authority, transport operator or site manager where available. Ask about maintained pedestrian access, accessible crossings and safe alternatives rather than crossing barriers.",
+            "If the route cannot be verified, arrange a different journey or ask the responsible authority for advice. Never enter an active works area to test a shortcut."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep the note current",
+          "paragraphs": [
+            "Record the source, date and accessibility constraints of any alternative route. Share only necessary details with household members and do not present a past observation as live status.",
+            "After works end, remove obsolete detours from the household's offline travel notes to avoid following outdated advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-carpark-barrier-failure",
+      "title": "Preparing for a car park entrance or payment barrier fault",
+      "category": "Transport infrastructure",
+      "summary": "Keep practical contact and access details for disruptions to managed parking facilities.",
+      "tags": [
+        "parking",
+        "barrier",
+        "car park",
+        "vehicle",
+        "payment",
+        "operator"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate details",
+          "Contact staff",
+          "Record outcome"
+        ],
+        "alt": "A compact offline sequence schematic for preparing for a car park entrance or payment barrier fault, showing the labelled concepts Locate details, Contact staff, Record outcome. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Locate details · Contact staff · Record outcome. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Know the facility details",
+          "paragraphs": [
+            "Record the car park operator, site name, entrance reference and legitimate support contact. If the facility uses an app or ticket, note where its instructions can be found without copying sensitive payment credentials.",
+            "A barrier fault may affect entry, exit or payment separately; do not assume the same solution applies to each case."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Use authorised assistance",
+          "paragraphs": [
+            "Follow the posted operator instructions and contact the facility's support service. Do not force a barrier, tailgate another vehicle or drive through pedestrian-only or emergency access points.",
+            "If a vehicle is unable to leave, explain the situation to the operator and keep a record of the response. Where there is an immediate danger, contact the appropriate emergency service."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Document and review",
+          "paragraphs": [
+            "Keep a brief private record of the time, location, ticket or case reference and any confirmed instructions. Do not publicly post number plates, payment details or other motorists' information.",
+            "For essential journeys, identify a legitimate alternative parking or transport option in advance and verify it when needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-toilet-closure",
+      "title": "Planning around a temporary public toilet closure",
+      "category": "Public facilities",
+      "summary": "Make accessible sanitation information easier to find during travel or local disruption.",
+      "tags": [
+        "toilets",
+        "public facilities",
+        "accessibility",
+        "sanitation",
+        "travel",
+        "closure"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Main stop",
+          "Verify access",
+          "Backup stop"
+        ],
+        "alt": "A compact offline route schematic for planning around a temporary public toilet closure, showing the labelled concepts Main stop, Verify access, Backup stop. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Main stop · Verify access · Backup stop. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify important stops",
+          "paragraphs": [
+            "Note the public facilities that a regular journey depends on, especially accessible toilets, baby-changing spaces and locations relevant to personal needs. Keep information discreet when sharing a plan.",
+            "Do not assume a facility is open simply because it appears on an offline map, a saved webpage or a printed leaflet."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Find verified alternatives",
+          "paragraphs": [
+            "Check the relevant council, venue or transport operator for current opening and accessibility information. Consider whether an alternative has suitable access, opening hours and the facilities actually required.",
+            "Do not enter closed or restricted premises or rely on unconfirmed private businesses as guaranteed public facilities."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Maintain a simple reference",
+          "paragraphs": [
+            "Record the facility name, operator contact and date the information was checked. For people who need predictable access, consider more than one independently verified option.",
+            "Remove stale entries after a closure and avoid recording sensitive medical information in a shared household travel list."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-wifi-unavailable",
+      "title": "Preparing for unavailable public Wi-Fi during an essential journey",
+      "category": "Communications",
+      "summary": "Reduce reliance on public internet access for tickets, directions and contact details.",
+      "tags": [
+        "wifi",
+        "internet",
+        "offline",
+        "tickets",
+        "navigation",
+        "connectivity"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Save details",
+          "Plan contact",
+          "Verify later"
+        ],
+        "alt": "A compact offline checklist schematic for preparing for unavailable public wi-fi during an essential journey, showing the labelled concepts Save details, Plan contact, Verify later. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Save details · Plan contact · Verify later. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify online dependencies",
+          "paragraphs": [
+            "List which parts of a journey require a connection, such as ticket retrieval, map loading, account sign-in or contacting a service provider. Some digital tickets require a live check even when an image is saved.",
+            "Keep the official app or provider instructions accessible where possible and do not assume a screenshot is accepted as a valid ticket."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare appropriate offline copies",
+          "paragraphs": [
+            "Where permitted, download journey details, relevant documents and contact numbers before departure. Protect personal data and avoid leaving identity or payment information in an unlocked shared device.",
+            "Agree a reasonable communication fallback with companions, including what to do if a planned message cannot be sent."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Respond to loss of service",
+          "paragraphs": [
+            "Look for legitimate staffed assistance or an alternative connection only when safe and appropriate. Avoid entering passwords or sensitive information on unknown networks or devices.",
+            "When access returns, check whether saved information has changed. Offline notes cannot confirm live departure times, disruptions or network availability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-assistance-location",
+      "title": "Checking information about temporary community assistance locations",
+      "category": "Community communication",
+      "summary": "Evaluate notices about pop-up support sites without assuming they are official or currently operating.",
+      "tags": [
+        "community",
+        "support",
+        "assistance",
+        "venue",
+        "notice",
+        "verification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify claim",
+          "Verify source",
+          "Date the note"
+        ],
+        "alt": "A compact offline sequence schematic for checking information about temporary community assistance locations, showing the labelled concepts Identify claim, Verify source, Date the note. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Identify claim · Verify source · Date the note. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Read the claim carefully",
+          "paragraphs": [
+            "Record the name of the claimed organiser, the venue, date, opening window and any eligibility or accessibility details. A forwarded image or neighbourhood message may omit important restrictions or have an outdated date.",
+            "Treat an unofficial social post as a lead to verify, not as evidence that a support location is staffed, open or endorsed by emergency services."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Verify with a responsible source",
+          "paragraphs": [
+            "Check the named council, established charity, venue or responsible organisation through a known official channel. Ask whether the location is operating, what services it actually offers and whether travel is appropriate.",
+            "Do not send people into cordoned areas, floodwater or unsafe buildings based on a circulating map pin. Follow current instructions from responsible authorities during an incident."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Share a cautious reference",
+          "paragraphs": [
+            "If confirmed, record the source and the time of verification next to the details, and explain that arrangements may change. Avoid sharing personal circumstances or lists of vulnerable residents without consent.",
+            "Remove or correct the entry when the information becomes outdated; the app's offline guide does not itself verify an active assistance site."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-communal-entry-intercom",
+      "title": "Recording a shared-building entry intercom disruption",
+      "category": "Shared infrastructure",
+      "summary": "Help residents report entry communication problems without bypassing building security.",
+      "tags": [
+        "intercom",
+        "door entry",
+        "accessibility",
+        "shared building",
+        "security",
+        "manager"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify fault",
+          "Report safely",
+          "Confirm repair"
+        ],
+        "alt": "A compact offline checklist schematic for recording a shared-building entry intercom disruption, showing the labelled concepts Identify fault, Report safely, Confirm repair. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Identify fault · Report safely · Confirm repair. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the affected function",
+          "paragraphs": [
+            "Record whether the problem concerns a handset, doorbell, video display or managed entry system, and whether the issue affects one flat or several. Avoid collecting other residents' access codes or recordings.",
+            "Distinguish an inconvenient fault from a situation where someone cannot safely access their home or an emergency service cannot gain access."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Contact the responsible manager",
+          "paragraphs": [
+            "Use the building manager's approved fault-reporting channel and provide the location and observable symptoms. Do not bypass locks, wedge security doors open or attempt electrical repairs.",
+            "Ask the responsible operator for an authorised temporary access arrangement, including accessibility considerations. Do not publish temporary codes on a communal noticeboard."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep an accurate private record",
+          "paragraphs": [
+            "Record the report time, reference and confirmed response without exposing residents' private contact information. If an immediate safety issue exists, use the appropriate emergency or building-specific reporting route.",
+            "After resolution, confirm that authorised access works as intended and remove any obsolete temporary arrangements from household notes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-council-report-reference",
+      "title": "Keeping track of local service fault reports and case references",
+      "category": "Household communication",
+      "summary": "Maintain a small private log for non-emergency council or infrastructure reports.",
+      "tags": [
+        "council",
+        "report",
+        "reference",
+        "follow-up",
+        "infrastructure",
+        "case number"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Report",
+          "Save reference",
+          "Follow up"
+        ],
+        "alt": "A compact offline sequence schematic for keeping track of local service fault reports and case references, showing the labelled concepts Report, Save reference, Follow up. This is an organisational aid, not a live service status or official safety instruction.",
+        "caption": "Planning reference: Report · Save reference · Follow up. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose the correct reporting channel",
+          "paragraphs": [
+            "Identify which organisation is responsible for the issue before submitting it, such as a council, transport operator, utility provider or property manager. Do not treat a general web form as an emergency response channel.",
+            "Record a concise description and approximate location without unnecessarily collecting photos or identifiable details of bystanders."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Capture the acknowledgement",
+          "paragraphs": [
+            "If a reference number is issued, store it with the submission date, organisation and method used. An automatic acknowledgement does not mean a fault has been investigated or resolved.",
+            "Keep any follow-up deadline only if the responsible service actually provides one; avoid inventing expected repair times or service commitments."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Close the loop",
+          "paragraphs": [
+            "Check the operator's response when connectivity is available and update the log with confirmed facts. If responsibility changes, note the new contact without making duplicate or misleading reports.",
+            "Delete obsolete personal information when no longer needed and do not share case references publicly if they could expose household details."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-scaffolding-footway-obstruction",
+      "title": "Reporting scaffolding that obstructs a public footway",
+      "category": "Urban infrastructure",
+      "summary": "Make a factual, non-confrontational report about a scaffold or temporary work enclosure that blocks pedestrian access.",
+      "tags": [
+        "scaffolding",
+        "footway",
+        "accessibility",
+        "public works"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe from a safe public place",
+          "paragraphs": [
+            "Scaffolding, temporary hoarding or construction materials can reduce the usable width of a footway or conceal a familiar entrance. The difficulty may be greater for wheelchair users, people with sight loss and anyone accompanying children.",
+            "Describe the exact public location and what is visibly obstructed, without entering a fenced area, moving barriers or trying to judge the structure's stability."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Share a useful report",
+          "paragraphs": [
+            "Use the published contact for the works, the responsible property manager or the relevant highway authority. Note the date, location and any reference number, and describe the effect on access rather than speculating about the cause.",
+            "If access is unsafe or unclear, use a separately confirmed lawful alternative and follow instructions from responsible staff. A photo taken from a safe place may help a report, but avoid capturing identifiable passers-by unnecessarily."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Barrier",
+          "Report"
+        ],
+        "alt": "A three-part checklist records the public footway location, the observed access barrier and the relevant reporting contact, without depicting a route through construction works.",
+        "caption": "A recorded obstruction is not permission to enter a work zone."
+      }
+    },
+    {
+      "id": "urban-sewage-public-path-notice",
+      "title": "Recognising and reporting suspected sewage on a public path",
+      "category": "Urban infrastructure",
+      "summary": "Keep a safe observation record of suspected wastewater contamination without attempting cleanup or diagnosis.",
+      "tags": [
+        "sewage",
+        "public path",
+        "wastewater",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the concern without contact",
+          "paragraphs": [
+            "Unusual wastewater, strong odours or discoloured standing water near a drain or public path may have several causes. Appearance alone cannot establish whether it is sewage or whether the water is safe.",
+            "Do not walk through, touch, sample or attempt to clear suspected contaminated water. Keep people and animals away from the affected spot where practical without putting yourself at risk."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Pass on accurate observations",
+          "paragraphs": [
+            "Record the location, time, nearby landmark and what was actually observed. Use the water company's, local authority's or site operator's published reporting channel as appropriate; the responsible organisation can vary.",
+            "Avoid posting unsupported contamination claims as established facts. If a hazard presents immediate danger, contact the appropriate emergency service rather than relying on an offline article."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-polling-place-change-record",
+      "title": "Keeping polling-place change information clear and accessible",
+      "category": "Public services",
+      "summary": "Organise official election-location details without assuming a saved notice remains current.",
+      "tags": [
+        "polling place",
+        "election access",
+        "public notice",
+        "accessible travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate an address from its status",
+          "paragraphs": [
+            "A polling card or earlier election notice may contain an address, but arrangements can vary between elections or change under exceptional circumstances. An offline copy cannot verify a polling place for a particular date.",
+            "Keep the election date, issuing authority and official contact route with the address. Avoid relying on a forwarded screenshot with no identifiable source or date."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check practical access",
+          "paragraphs": [
+            "Use the relevant electoral authority's official information to confirm the current venue, access arrangements and any assistance available. Record public transport or accessible travel requirements separately from the venue's status.",
+            "Do not share personal voting identifiers or another person's private details in a public group. This article does not describe eligibility, voting deadlines or current election arrangements."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Official notice",
+          "Access needs",
+          "Recheck"
+        ],
+        "alt": "A three-stage information sequence begins with the official polling-place notice, records accessibility needs and ends with a fresh check of arrangements; it does not endorse any candidate or show a live polling location.",
+        "caption": "A saved polling-place notice is a reference, not live confirmation."
+      }
+    },
+    {
+      "id": "urban-outpatient-appointment-travel-disruption",
+      "title": "Preparing for travel disruption before a hospital outpatient appointment",
+      "category": "Urban transport",
+      "summary": "Keep appointment and transport information organised when an ordinary journey may not run as planned.",
+      "tags": [
+        "outpatient appointment",
+        "hospital travel",
+        "transport disruption",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep the essential details together",
+          "paragraphs": [
+            "A delayed train, inaccessible stop or closed road may affect attendance at a planned outpatient appointment. A booking message confirms what was arranged, not that transport or clinical services are unchanged.",
+            "Store the appointment date, department, public clinic contact and any reference in a private offline note. Avoid placing medical history or identifying details in shared travel-planning messages."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Clarify options early",
+          "paragraphs": [
+            "Check the transport operator's current information and any accessibility assistance before travelling. If attendance is uncertain, contact the hospital using its published channel to ask about the appointment and available options.",
+            "Do not infer that a medical appointment can safely be postponed. For urgent medical concerns, use appropriate healthcare advice rather than this travel-planning guide."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Appointment",
+          "Journey",
+          "Contact"
+        ],
+        "alt": "A three-item checklist separates the hospital appointment details, a checked travel arrangement and the clinic contact route; it does not imply transport or appointment availability.",
+        "caption": "Contact the clinic rather than assuming a disrupted journey cancels an appointment."
+      }
+    },
+    {
+      "id": "urban-wheelchair-space-bus-unavailable",
+      "title": "Planning when an accessible bus space is unavailable",
+      "category": "Accessible transport",
+      "summary": "Record the accessibility barrier and seek confirmed travel alternatives without making assumptions about vehicle capacity.",
+      "tags": [
+        "wheelchair space",
+        "bus accessibility",
+        "public transport",
+        "mobility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Describe the barrier precisely",
+          "paragraphs": [
+            "A bus may be advertised as accessible while a particular journey presents a different barrier, such as unavailable wheelchair space or an equipment problem. Capacity and assistance arrangements depend on the vehicle and operator.",
+            "Keep the route, direction, stop and approximate time together with a factual description. Do not attempt to alter vehicle equipment or pressure another passenger into an unsafe arrangement."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek reliable next steps",
+          "paragraphs": [
+            "Ask the driver or operator about the available arrangements and how to obtain accessible travel information. An offline timetable cannot confirm the next vehicle's configuration or space.",
+            "If the journey cannot continue, contact the operator through its published channel and record any reference number. Keep private mobility or health details out of public complaint posts unless you choose to share them."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Access issue",
+          "Alternative"
+        ],
+        "alt": "A three-item checklist identifies the intended bus service, the reported accessible-space barrier and an operator-confirmed alternative, without depicting vehicle boarding instructions.",
+        "caption": "A published accessible route does not guarantee space on a particular vehicle."
+      }
+    },
+    {
+      "id": "urban-keys-lost-during-home-disruption",
+      "title": "Organising safe help when household keys are lost during a disruption",
+      "category": "Household communication",
+      "summary": "Plan authorised access and key replacement without exposing addresses, codes or security information.",
+      "tags": [
+        "lost keys",
+        "home access",
+        "household plan",
+        "security"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the access problem",
+          "paragraphs": [
+            "A key can be misplaced during a rushed change of accommodation, a disrupted journey or an ordinary busy day. The practical issue is knowing who can authorise access without disclosing household security details.",
+            "Keep a trusted contact or property-management number available separately from the keys. Do not publish an address, key photograph, alarm code or the location of a spare key in a neighbourhood chat."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Use legitimate assistance",
+          "paragraphs": [
+            "Contact an authorised household member, landlord, building manager or reputable locksmith as appropriate. Verify the identity and role of anyone offering help before sharing access details.",
+            "If a missing key may compromise security, ask the responsible property owner or manager about appropriate changes. Never try to force a door, bypass a lock or enter a hazardous building."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Safe contact",
+          "Authorised help",
+          "Record change"
+        ],
+        "alt": "A three-stage sequence links a trusted household contact, authorised property access help and a private record of any changed arrangements; no lock-bypass method is shown.",
+        "caption": "Use authorised access channels, not improvised entry methods."
+      }
+    },
+    {
+      "id": "urban-bulky-waste-booking-disruption",
+      "title": "Keeping bulky-waste collection arrangements clear during disruption",
+      "category": "Public services",
+      "summary": "Track an authorised collection booking and avoid leaving items where they obstruct public access.",
+      "tags": [
+        "bulky waste",
+        "council collection",
+        "street access",
+        "booking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand what was booked",
+          "paragraphs": [
+            "A bulky-waste collection may have a specific date, item limit or placement rule that differs from routine household bins. Severe weather or local road restrictions can interrupt the service.",
+            "Keep the booking reference, list of accepted items and provider contact in an offline record. Do not treat a booking confirmation as proof that collection is operating on schedule."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid creating a new obstruction",
+          "paragraphs": [
+            "Check the collection provider's current instructions before putting items out. Do not place furniture, appliances or other bulky items on a pavement, shared escape route or access point unless explicitly permitted by the responsible service.",
+            "If collection is delayed, ask about revised arrangements and record the answer. Do not dismantle hazardous appliances or attempt to move an item that is unsafe to handle."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Booking",
+          "Placement rules",
+          "Recheck"
+        ],
+        "alt": "A three-item checklist separates the booking reference, provider-issued placement rules and a current service check; it does not show where to leave waste.",
+        "caption": "Only follow the collection provider's confirmed placement instructions."
+      }
+    },
+    {
+      "id": "urban-flood-photo-report-privacy",
+      "title": "Taking useful flood-related observation photos without exposing private information",
+      "category": "Flood and weather readiness",
+      "summary": "Document visible conditions from a safe position while protecting people, addresses and sensitive details.",
+      "tags": [
+        "flood photography",
+        "privacy",
+        "damage records",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Decide whether a photo is appropriate",
+          "paragraphs": [
+            "Photographs can help explain a blocked route, visible property damage or a public-space problem, but floodwater, unstable surfaces and moving traffic can make a viewpoint unsafe. A photo is optional, not a reason to approach danger.",
+            "Only document what can be seen from a safe location. Do not enter floodwater, cross barriers or stand in a carriageway for a better angle."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep the record proportionate",
+          "paragraphs": [
+            "A useful private note can include an approximate location, date, direction of view and what was observed. Avoid unnecessary images of identifiable people, house numbers, vehicle plates or documents.",
+            "Share the minimum necessary information with an insurer, property manager or responsible authority through an appropriate channel. An old image cannot establish current flood depth, road access or official incident status."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Safe viewpoint",
+          "Relevant detail",
+          "Private record"
+        ],
+        "alt": "A three-item checklist links a safe observation point, a relevant non-identifying detail and a private record; it is not an instruction to approach floodwater.",
+        "caption": "No photograph is worth entering a hazardous area."
+      }
+    }
+  ]
+}

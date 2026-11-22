@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-exam-venue-change-record",
+      "title": "Keeping an offline record of a changed examination venue",
+      "category": "Education and travel",
+      "summary": "Preserve the exact venue, reporting instructions and source of a timetable change without treating a rumour as confirmation.",
+      "tags": [
+        "exam venue",
+        "school travel",
+        "offline timetable",
+        "education"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Original notice",
+          "Confirmed change",
+          "Travel details"
+        ],
+        "alt": "Three stages show an original examination notice, a dated confirmation from the organiser, and a separate travel-details note; none implies the venue is open.",
+        "caption": "Keep the organiser's latest confirmed instructions separate from your journey plan."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Distinguish the examination from the journey",
+          "paragraphs": [
+            "A school, college or examination organiser may alter a room, building or reporting point without changing the examination itself. A forwarded message may omit the date, candidate group or exact entrance to which a change applies.",
+            "Keep the original timetable or admission instructions, then record the date and source of any amendment. Avoid placing candidate numbers, identification documents or private accommodation details on a shared notice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Confirm before travelling",
+          "paragraphs": [
+            "Use the organiser's established communication channel to check the exact venue, reporting time, accessible entrance and any required identification. An online map pin or another student's message should not be treated as official confirmation.",
+            "Make a separate offline journey note with the venue address and a contingency contact. If weather or transport is disrupted, ask the organiser about its own arrangements rather than assuming lateness or absence rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-rail-bicycle-carriage-change",
+      "title": "Checking bicycle carriage rules when a rail service changes",
+      "category": "Urban transport",
+      "summary": "Separate train changes from bicycle restrictions before relying on a replacement journey.",
+      "tags": [
+        "rail travel",
+        "bicycles",
+        "replacement transport",
+        "travel rules"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Cycle policy",
+          "Alternative"
+        ],
+        "alt": "A three-item checklist distinguishes the changed train service, the operator's bicycle policy and an alternative plan without showing a live timetable.",
+        "caption": "A ticket or reservation does not guarantee bicycle space on every replacement service."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Treat bicycle access as a separate condition",
+          "paragraphs": [
+            "A replacement train, rail-replacement bus or revised service can have different arrangements for bicycles, folding cycles and mobility equipment. A journey planner showing a connection does not necessarily confirm that a particular item can be carried.",
+            "Keep the operator name, service details and any cycle reservation together with the ticket record. Note whether the item is a conventional bicycle or folding cycle, because published rules may distinguish them."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check the relevant leg",
+          "paragraphs": [
+            "Consult the relevant operators' current carriage conditions for every leg, particularly when a replacement vehicle or another operator is involved. Do not assume a bicycle can be taken aboard because it was accepted on the original train.",
+            "If the revised service cannot accommodate the item, plan a lawful alternative or postpone the journey. Keep mobility aids distinct from leisure bicycles and seek specific accessibility assistance where required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-parking-receipt-offline",
+      "title": "Keeping parking payment evidence when a payment app becomes unavailable",
+      "category": "Urban transport",
+      "summary": "Record the location, period and payment confirmation without exposing payment credentials.",
+      "tags": [
+        "parking",
+        "payment receipt",
+        "mobile outage",
+        "travel records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Car park",
+          "Paid period",
+          "Receipt"
+        ],
+        "alt": "A compact checklist displays the car park identity, paid parking period and proof-of-payment reference as separate fields; it does not show a payment success indicator.",
+        "caption": "A saved screenshot is evidence to check, not an extension of parking permission."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Preserve what the receipt actually says",
+          "paragraphs": [
+            "Parking apps, pay-by-phone services and payment machines may provide different forms of confirmation. A payment request, pending bank transaction and issued parking session are not necessarily the same thing.",
+            "Keep the car park identifier, vehicle registration as privately appropriate, start and expiry time, operator and receipt reference. Avoid saving full card details or login credentials in an unprotected note."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Resolve uncertainty through the operator",
+          "paragraphs": [
+            "If the app stops responding, use the parking operator's posted instructions and independently verified contact route to establish whether a session exists. Do not assume a failed screen or delayed notification means a payment was accepted.",
+            "Record the time and method of any enquiry and preserve a dated response. Local rules and signage govern parking; this offline article does not confirm enforcement status or extend a paid session."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-queue-accessibility",
+      "title": "Preparing for temporary queuing arrangements at a public building",
+      "category": "Urban accessibility",
+      "summary": "Check entrance and queue arrangements before travelling, including an accessible way to request help.",
+      "tags": [
+        "public buildings",
+        "queues",
+        "accessibility",
+        "service changes"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Venue notice",
+          "Access question",
+          "Confirmed plan"
+        ],
+        "alt": "A sequence separates a venue's dated notice, an accessibility question and a confirmed arrival plan; it does not depict an evacuation or emergency route.",
+        "caption": "A queue notice may not describe every accessible arrangement."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand what has changed",
+          "paragraphs": [
+            "Building maintenance, ticketing faults or a temporary service desk may change where visitors queue. A notice about the main entrance may not describe seating, step-free access, quiet waiting space or assistance for visitors who cannot stand for long.",
+            "Before leaving, note the building name, intended service, appointment reference if relevant and any published access changes. Avoid assuming that a longer queue is the only available option."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Ask about a workable arrival",
+          "paragraphs": [
+            "Use the venue's official contact details to ask about a suitable entrance, waiting arrangement and the correct person to approach. Record only the accommodation you were actually offered and whether it requires advance notice.",
+            "On arrival, follow staff directions and posted access information rather than an old floor plan. This guide is for routine service access, not emergency evacuation instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-school-meal-closure-query",
+      "title": "Checking school meal arrangements during an unexpected closure",
+      "category": "Household communication",
+      "summary": "Keep meal-service questions separate from closure confirmation and avoid assuming provision.",
+      "tags": [
+        "school meals",
+        "school closure",
+        "family communication",
+        "service continuity"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Closure scope",
+          "Meal contact",
+          "Confirmed option"
+        ],
+        "alt": "A three-item checklist separates the school's closure scope, its published meal-service contact and any individually confirmed arrangement.",
+        "caption": "An offline checklist cannot establish whether meal support is being provided."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate closure information from meal provision",
+          "paragraphs": [
+            "A school closure or partial opening does not automatically establish whether a meal collection, replacement provision or other arrangement is available. Eligibility and delivery may depend on the school, local arrangements and the nature of the disruption.",
+            "Keep the dated school notice and note whether it applies to all pupils or particular groups. Do not share children's names, eligibility details or family circumstances in public community messages."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Use the school's verified channel",
+          "paragraphs": [
+            "Check the school's official communication route for meal-service updates and ask how eligible households should obtain information if normal digital messages are unavailable. Avoid travelling to an unconfirmed collection point.",
+            "If an arrangement is confirmed, record its date, location and any requirements privately. This article does not promise support, specify eligibility or replace the school's current instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-storm-shift-handover",
+      "title": "Making a clear work-shift handover when severe weather disrupts travel",
+      "category": "Household communication",
+      "summary": "Keep factual availability and handover notes distinct from assumptions about workplace policy.",
+      "tags": [
+        "work shifts",
+        "storm disruption",
+        "handover",
+        "communications"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Availability",
+          "Handover",
+          "Acknowledgement"
+        ],
+        "alt": "Three stages show a factual availability update, a task handover and acknowledgement from the responsible colleague, without implying the workplace is operating.",
+        "caption": "A sent message is not the same as an acknowledged handover."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Communicate the practical constraint",
+          "paragraphs": [
+            "Severe weather can affect journeys, childcare and connectivity at the same time. A brief factual message about expected availability is more useful than an unverified claim that all local roads or services are closed.",
+            "Record the shift date, the established workplace contact method and the work items that genuinely require handover. Do not put passwords, customer information or security codes into an ordinary group message."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Confirm responsibilities",
+          "paragraphs": [
+            "Use the employer's established absence and handover procedures. If messages are delayed, distinguish sent, delivered and acknowledged states rather than assuming someone has taken over a task.",
+            "For safety-sensitive work, leave operational decisions to authorised supervisors and existing workplace procedures. Keep a minimal offline record of the time and recipient of updates; this guide does not determine employment rights or incident response."
+          ]
+        }
+      ]
+    }
+  ]
+}

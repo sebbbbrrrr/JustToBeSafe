@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-post-office-relocation",
+      "title": "Preparing for a temporary post office relocation",
+      "category": "Urban services",
+      "summary": "A post office counter may relocate or reduce services during local disruption. Write down whether you need postage, parcel collection or a counte",
+      "tags": [
+        "postal",
+        "relocation",
+        "accessibility",
+        "opening hours"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Need",
+          "Verify",
+          "Visit"
+        ],
+        "alt": "A compact offline checklist illustration organising this topic into Need, Verify, Visit. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Need · Verify · Visit. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify the service",
+          "paragraphs": [
+            "A post office counter may relocate or reduce services during local disruption. Write down whether you need postage, parcel collection or a counter transaction rather than assuming all services move together.",
+            "Verify the replacement counter and the specific services offered through the operator's official contact channel. An old notice or community message may be out of date."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Check access",
+          "paragraphs": [
+            "Consider step-free access, public transport, identity requirements and whether a booked service needs a separate appointment. Avoid sharing personal references or document images in public neighbourhood groups.",
+            "If travel is difficult, ask the operator whether another supported method is available. Do not assume a temporary counter has the same opening times or accessibility features."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Review details",
+          "paragraphs": [
+            "Keep the official enquiry channel and the date you last checked the location in an offline household note. Treat opening hours as last verified rather than permanent.",
+            "Remove outdated directions when normal service resumes so an old temporary address is not mistaken for the current one."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-charging-unavailable",
+      "title": "Planning when a public phone-charging point is unavailable",
+      "category": "Urban infrastructure",
+      "summary": "Public charging sockets and kiosks may be occupied, faulty or incompatible with your device. Do not treat them as guaranteed access to navigation",
+      "tags": [
+        "charging",
+        "phone",
+        "battery",
+        "transport",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check",
+          "Conserve",
+          "Contact"
+        ],
+        "alt": "A compact offline sequence illustration organising this topic into Check, Conserve, Contact. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Check · Conserve · Contact. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Recognise limitations",
+          "paragraphs": [
+            "Public charging sockets and kiosks may be occupied, faulty or incompatible with your device. Do not treat them as guaranteed access to navigation or essential communication.",
+            "Before a journey, check the charge of devices used for tickets and contacts. Keep essential numbers written down when practical so a flat battery does not remove every communication option."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Choose a fallback",
+          "paragraphs": [
+            "Prioritise necessary phone functions and reduce optional screen use. A compatible maintained power bank may help, but avoid damaged cables or unknown electrical connections.",
+            "Check the transport provider's accepted alternatives for digital tickets. Screenshots and printed tickets are not universally valid, and some services need a working device."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Review reliability",
+          "paragraphs": [
+            "Note which charging arrangements worked without storing private account or device identifiers in shared records. Adjust the household travel kit if the same problem recurs.",
+            "Offline guidance cannot identify working public sockets, their current availability or the safety of any particular charging station."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-library-hub-closure",
+      "title": "Keeping alternatives for a closed local library or community hub",
+      "category": "Urban services",
+      "summary": "A library closure may interrupt printing, public computers, accessible facilities, study space or community appointments. Identify the particular",
+      "tags": [
+        "library",
+        "community",
+        "printing",
+        "computers",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Alternative",
+          "Confirm"
+        ],
+        "alt": "A compact offline checklist illustration organising this topic into Service, Alternative, Confirm. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Service · Alternative · Confirm. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify your need",
+          "paragraphs": [
+            "A library closure may interrupt printing, public computers, accessible facilities, study space or community appointments. Identify the particular service you need before selecting another location.",
+            "Check whether booked sessions and document collections have separate organiser contacts. A replacement building may not offer every service of the original."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Compare alternatives",
+          "paragraphs": [
+            "Keep an offline list of other potential public facilities and their official enquiry routes. Access requirements, privacy arrangements and opening hours may differ.",
+            "For shared computers and printing, consider the privacy of sensitive documents and remember to sign out. Do not put passwords into a public or shared household list."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Verify and update",
+          "paragraphs": [
+            "Confirm services through the responsible council or operator before travelling, and record when information was checked. Do not treat historical opening times as current.",
+            "Remove obsolete venue details after services resume. This reference article is not a live directory of open buildings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-appointment-road-closure",
+      "title": "Preparing an essential appointment journey around road closures",
+      "category": "Urban transport",
+      "summary": "Keep the destination, confirmed appointment time and provider contact in a private offline note. Record any mobility or assistance requirements w",
+      "tags": [
+        "road closure",
+        "appointment",
+        "diversion",
+        "transport",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Route",
+          "Alternative",
+          "Notify"
+        ],
+        "alt": "A compact offline route illustration organising this topic into Route, Alternative, Notify. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Route · Alternative · Notify. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Record appointment needs",
+          "paragraphs": [
+            "Keep the destination, confirmed appointment time and provider contact in a private offline note. Record any mobility or assistance requirements without sharing private details publicly.",
+            "Road closures may affect walking, bus stops and vehicle access differently. An old route screenshot is not evidence that a diversion is still accessible."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Consider alternatives",
+          "paragraphs": [
+            "Check the road authority and transport operator for planned restrictions when information is available. Consider another supported transport option or assistance if needed.",
+            "If travel is uncertain, contact the appointment provider early. Do not cross cordons, enter restricted areas or follow unsafe shortcuts to keep a booking."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Communicate changes",
+          "paragraphs": [
+            "Keep a contact method accessible without relying only on mobile data. If delayed, share only information needed to update the booking.",
+            "After the journey, retain useful provider contacts but discard unverified diversion instructions. Live conditions must be checked separately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-communal-leak-report",
+      "title": "Keeping a shared-building water leak report log",
+      "category": "Urban housing",
+      "summary": "A communal leak may appear as dripping, staining or a wet floor in a shared space. Record only visible details and the time without entering rest",
+      "tags": [
+        "communal",
+        "leak",
+        "water",
+        "building manager",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observe",
+          "Report",
+          "Record"
+        ],
+        "alt": "A compact offline checklist illustration organising this topic into Observe, Report, Record. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Observe · Report · Record. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Observe from safety",
+          "paragraphs": [
+            "A communal leak may appear as dripping, staining or a wet floor in a shared space. Record only visible details and the time without entering restricted rooms or touching damaged equipment.",
+            "If water is near electrical equipment or a ceiling looks unstable, keep clear and seek appropriate help. A resident's observation is not a diagnosis of the leak's source."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Report appropriately",
+          "paragraphs": [
+            "Use the building manager, landlord or maintenance contact already supplied to residents. Describe the location, visible change and any affected access route.",
+            "Ask for a case reference where offered. A submitted report does not prove a repair team has attended or that the affected area is safe."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Maintain chronology",
+          "paragraphs": [
+            "Record dates of reports, replies and changes visible from a safe location. Report new concerns rather than assuming an earlier ticket covers them.",
+            "Keep only necessary records after resolution and remove other residents' personal details. This article does not instruct plumbing repair."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-outdated-disruption-notice",
+      "title": "Checking whether a public disruption notice is out of date",
+      "category": "Urban communication",
+      "summary": "A public notice may remain posted after a disruption has ended. Look for a publication date, affected location, issuing organisation and any stat",
+      "tags": [
+        "notice",
+        "verification",
+        "date",
+        "rumour",
+        "public information"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Date",
+          "Source",
+          "Confirm"
+        ],
+        "alt": "A compact offline sequence illustration organising this topic into Date, Source, Confirm. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Date · Source · Confirm. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Read the context",
+          "paragraphs": [
+            "A public notice may remain posted after a disruption has ended. Look for a publication date, affected location, issuing organisation and any stated end date.",
+            "Forwarded photographs can omit context or later corrections. A familiar logo alone does not establish that a message is current."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Verify independently",
+          "paragraphs": [
+            "When possible, check the responsible organisation through a previously known official contact route. Avoid unfamiliar QR codes, payment links or requests for personal information on an unverified notice.",
+            "If confirmation is unavailable, label the information unverified and do not circulate it as a confirmed alert. Immediate danger requires appropriate emergency channels."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep offline context",
+          "paragraphs": [
+            "Save a notice's source, date and location alongside any offline copy. Mark it historical when its current validity is unknown.",
+            "Remove superseded notices from frequently used household lists. Saving a message offline does not preserve its truth indefinitely."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-cash-machine-unavailable",
+      "title": "Planning around an unavailable cash machine",
+      "category": "Urban services",
+      "summary": "A cash machine may be out of service, inaccessible or unable to complete a transaction. The screen alone cannot establish whether the fault affec",
+      "tags": [
+        "atm",
+        "cash",
+        "bank",
+        "payment",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Options",
+          "Security",
+          "Review"
+        ],
+        "alt": "A compact offline checklist illustration organising this topic into Options, Security, Review. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Options · Security · Review. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the problem",
+          "paragraphs": [
+            "A cash machine may be out of service, inaccessible or unable to complete a transaction. The screen alone cannot establish whether the fault affects your bank account.",
+            "Avoid repeatedly entering credentials into malfunctioning equipment or accepting unsolicited assistance. Follow official bank instructions if a card is retained."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Find alternatives",
+          "paragraphs": [
+            "Consider whether a merchant accepts another legitimate payment method or whether another verified cash-access location is suitable. Fees and accessibility may vary.",
+            "Use your bank's official channels to identify supported services when available. Do not assume a nearby shop offers cashback or that another machine is working."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Protect information",
+          "paragraphs": [
+            "Keep official help contacts securely, but never store a PIN, full card number or login details in shared preparedness notes.",
+            "For disputed transactions use the bank's own process. This is not live banking information or a guarantee of cash availability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-event-cancellation-contact",
+      "title": "Keeping household plans clear when a community event is cancelled",
+      "category": "Urban communication",
+      "summary": "An event may be cancelled, moved or rescheduled because of weather, venue problems or transport disruption. Check the organiser's own dated annou",
+      "tags": [
+        "event",
+        "cancellation",
+        "household",
+        "meeting",
+        "transport"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Verify",
+          "Inform",
+          "Update"
+        ],
+        "alt": "A compact offline sequence illustration organising this topic into Verify, Inform, Update. It is a conceptual planning diagram, not live information or an emergency procedure.",
+        "caption": "Planning concepts: Verify · Inform · Update. Verify current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Verify the change",
+          "paragraphs": [
+            "An event may be cancelled, moved or rescheduled because of weather, venue problems or transport disruption. Check the organiser's own dated announcement.",
+            "A forwarded screenshot may omit later corrections. Distinguish a confirmed cancellation from a rumour or one participant's decision not to attend."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Notify affected people",
+          "paragraphs": [
+            "Tell household members or companions what has been confirmed and which existing plans are affected. Keep messages short and avoid forwarding unverified venue details.",
+            "For children or people needing support, follow established collection and safeguarding arrangements instead of improvising a new pickup location in a public chat."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Update reminders",
+          "paragraphs": [
+            "Remove the old time from shared reminders and record questions about rebooking or refunds for the organiser. Do not assume a new date or refund is confirmed.",
+            "Afterwards, review whether your household contact method worked without mobile data, and keep useful organiser contacts offline."
+          ]
+        }
+      ]
+    }
+  ]
+}

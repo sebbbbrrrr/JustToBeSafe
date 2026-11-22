@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-traffic-signal-fault",
+      "title": "Recording a traffic signal fault for safe reporting",
+      "category": "Urban transport",
+      "summary": "Prepare a factual, location-aware report about an apparently faulty traffic signal without entering the carriageway or directing traffic.",
+      "tags": [
+        "traffic lights",
+        "signal",
+        "junction",
+        "report",
+        "road",
+        "pedestrian"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Observed fault",
+          "Report"
+        ],
+        "alt": "Original schematic showing Location, then Observed fault, then Report as a conceptual reference for recording a traffic signal fault for safe reporting. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Location · Observed fault · Report. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Observe from a safe place",
+          "paragraphs": [
+            "Traffic lights can appear unresponsive for reasons that are not obvious to a passer-by, including traffic phases or temporary controls. If a signal seems damaged or malfunctioning, avoid testing it by entering the road or approaching electrical equipment.",
+            "Write down the road names, direction of travel and the particular signal head affected only if you can do so without distraction or exposure to traffic. Do not assume that every light at a junction has the same problem."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Use an appropriate reporting channel",
+          "paragraphs": [
+            "For non-immediate faults, look for the road authority's published reporting route and give a concise description of what you saw. The responsible authority may differ between local roads and major trunk routes.",
+            "If people are in immediate danger, use the appropriate emergency route rather than relying on an ordinary online fault form. Never attempt to control traffic, move cones or touch a signal cabinet."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep the report useful",
+          "paragraphs": [
+            "Note when you made the observation and any case reference. Avoid publishing identifiable images of bystanders, vehicle registration plates or private travel details unnecessarily.",
+            "Treat a fault-report acknowledgement as confirmation of receipt, not proof that the junction has been repaired. Check the responsible authority's current updates before relying on a closure or repair date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-crossing-accessibility-fault",
+      "title": "Reporting a pedestrian crossing accessibility fault",
+      "category": "Urban accessibility",
+      "summary": "Record an accessibility-related crossing problem without treating a missing signal as permission to cross.",
+      "tags": [
+        "crossing",
+        "tactile",
+        "audible",
+        "push button",
+        "accessibility",
+        "report"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Describe",
+          "Report"
+        ],
+        "alt": "Original schematic showing Identify, then Describe, then Report as a conceptual reference for reporting a pedestrian crossing accessibility fault. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Identify · Describe · Report. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify the affected feature",
+          "paragraphs": [
+            "A crossing may have a push-button unit, audible indication, tactile feature or dropped kerb. A problem with one feature does not necessarily mean the entire crossing is out of service.",
+            "Observe from a safe footway whether the issue is a damaged button, missing tactile feedback, blocked approach or another visible obstacle. Do not test the crossing by stepping into traffic."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Make a clear accessibility report",
+          "paragraphs": [
+            "Describe the crossing location and the feature that appears unusable, using nearby street names or landmarks rather than a vague statement such as 'the lights are broken'.",
+            "Where possible, tell the relevant road authority whether the obstruction affects wheelchair users, people with visual impairments or others, without identifying a particular passer-by."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Plan around uncertainty",
+          "paragraphs": [
+            "A reported problem may remain unresolved for some time. People should use their own assessment and current accessible journey information rather than a generic route diagram supplied by this draft.",
+            "Keep a record of the report reference and date. If the issue creates immediate danger, seek appropriate urgent assistance rather than waiting for a routine response."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-council-online-form-outage",
+      "title": "Preparing alternatives when a council online form is unavailable",
+      "category": "Urban services",
+      "summary": "Keep essential local-authority requests moving when an online form or portal cannot be used.",
+      "tags": [
+        "council",
+        "website",
+        "form",
+        "outage",
+        "application",
+        "telephone",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record need",
+          "Find channel",
+          "Follow up"
+        ],
+        "alt": "Original schematic showing Record need, then Find channel, then Follow up as a conceptual reference for preparing alternatives when a council online form is unavailable. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Record need · Find channel · Follow up. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Separate the service from its website",
+          "paragraphs": [
+            "A council portal can fail while some telephone, postal or in-person services continue. Record what you need to request and whether there is a published deadline rather than repeatedly submitting a form that may not have saved.",
+            "Avoid assuming that an error screen means the authority has received a report. If the matter is urgent, use the authority's stated urgent contact route rather than waiting for the website."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Find an official alternative",
+          "paragraphs": [
+            "Use a previously saved official telephone number or correspondence address, or verify the current contact route when connectivity returns. Different departments may have different accepted methods and evidence requirements.",
+            "Do not send identification scans, payment details or sensitive household information to an address copied from an unverified social-media post. Ask for an accessible alternative if the online process is unsuitable."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Document the outcome",
+          "paragraphs": [
+            "Record the service name, date, reference number and any stated next action in a private household note. Do not put real personal case numbers into a public neighbourhood spreadsheet.",
+            "A verbal acknowledgement may not equal a completed application. Confirm any submission or deadline arrangement directly with the responsible council team."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-fuel-station-access-disruption",
+      "title": "Planning journeys when a fuel station is unavailable",
+      "category": "Urban transport",
+      "summary": "Reduce avoidable journey disruption when a usual petrol station or charging forecourt cannot be used.",
+      "tags": [
+        "fuel",
+        "petrol station",
+        "forecourt",
+        "vehicle",
+        "journey",
+        "closure",
+        "transport"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Journey",
+          "Alternative",
+          "Confirm"
+        ],
+        "alt": "Original schematic showing Journey, then Alternative, then Confirm as a conceptual reference for planning journeys when a fuel station is unavailable. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Journey · Alternative · Confirm. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand what is unavailable",
+          "paragraphs": [
+            "A forecourt may have temporary access restrictions, payment problems or equipment faults. These situations affect different fuels and services differently; an apparently open shop does not prove that every pump or charger works.",
+            "Before a time-sensitive journey, check the vehicle's ordinary range and whether a reasonable alternative exists. Do not treat old online opening hours or social posts as proof of current stock or availability."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Choose a practical fallback",
+          "paragraphs": [
+            "Identify a small number of suitable, established alternatives along normal routes rather than planning a long diversion around unverified rumours. Account for access needs, operating hours and whether a payment method is accepted.",
+            "Avoid carrying improvised fuel containers or attempting unsafe refuelling practices. Any storage or handling of fuel must follow applicable rules and manufacturer instructions."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Update the household plan",
+          "paragraphs": [
+            "Keep a short note of the last verified alternative and the date checked. This is a planning aid, not a live availability map or guarantee of supply.",
+            "If a journey is not essential and reliable access cannot be confirmed, consider whether postponing or using another suitable mode of transport would be more practical."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bus-arrival-display-outage",
+      "title": "Using bus services when live arrival displays are unavailable",
+      "category": "Urban transport",
+      "summary": "Distinguish scheduled timetables from live arrival predictions when a stop display or travel app is offline.",
+      "tags": [
+        "bus",
+        "arrival display",
+        "real time",
+        "timetable",
+        "stop",
+        "journey"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Route",
+          "Schedule",
+          "Verify"
+        ],
+        "alt": "Original schematic showing Route, then Schedule, then Verify as a conceptual reference for using bus services when live arrival displays are unavailable. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Route · Schedule · Verify. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Know what the display represents",
+          "paragraphs": [
+            "An electronic arrival board may be blank, delayed or disconnected while buses continue operating. A printed timetable is usually a scheduled plan rather than a guarantee of a vehicle's actual arrival.",
+            "Record the route number, direction and stop name you intend to use. Do not assume that a missing predicted time means a service has been cancelled."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare a non-digital reference",
+          "paragraphs": [
+            "Keep the operator's published timetable or an offline note of essential journeys, with the date and service version where available. Some routes change by weekday, school term or public holiday.",
+            "If accessibility support is needed, identify the operator's official contact route in advance. A timetable alone cannot confirm the availability of a particular vehicle or assistance at a particular moment."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Check changes without false certainty",
+          "paragraphs": [
+            "When a connection is available, use the operator's own updates to verify disruptions and temporary stops. Treat community posts as leads to verify, not official confirmations.",
+            "Leave extra flexibility for important appointments and avoid displaying personal trip details on public noticeboards. Replace old offline schedules when a new version is issued."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-pharmacy-collection-change",
+      "title": "Preparing for a temporary pharmacy collection change",
+      "category": "Urban services",
+      "summary": "Keep a private record of who to contact when a regular pharmacy changes opening or collection arrangements.",
+      "tags": [
+        "pharmacy",
+        "prescription",
+        "collection",
+        "closure",
+        "accessibility",
+        "medicine"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Contact",
+          "Confirm",
+          "Collect"
+        ],
+        "alt": "Original schematic showing Contact, then Confirm, then Collect as a conceptual reference for preparing for a temporary pharmacy collection change. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Contact · Confirm · Collect. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Check which service has changed",
+          "paragraphs": [
+            "A pharmacy may change its counter hours, prescription collection arrangements or location temporarily. A shop-front notice may not explain whether a particular item or service is affected.",
+            "Keep the pharmacy's verified contact details in a private household reference. Do not assume that a prescription or medicine can automatically be collected from a different pharmacy without confirmation."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Confirm arrangements directly",
+          "paragraphs": [
+            "For a time-sensitive medicine need, contact the pharmacy or the appropriate healthcare service through official channels to ask about current arrangements. Explain accessibility or transport constraints without posting medical details publicly.",
+            "If medicine is urgently needed or there is a health concern, seek advice from an appropriate healthcare professional or urgent service. This draft does not provide clinical substitution or dosing advice."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Protect personal information",
+          "paragraphs": [
+            "Record only the minimum details needed to remember a confirmed collection plan, such as the provider, date and next action. Keep prescription identifiers and personal health details out of shared or unsecured notes.",
+            "Review any temporary arrangements after normal service resumes. A previous successful collection location does not guarantee future availability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-taxi-rank-relocation",
+      "title": "Planning for a temporary taxi rank relocation",
+      "category": "Urban transport",
+      "summary": "Prepare a reliable meeting description when a taxi rank or pickup area moves during street works or events.",
+      "tags": [
+        "taxi",
+        "rank",
+        "pickup",
+        "accessibility",
+        "roadworks",
+        "transport"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Old rank",
+          "New pickup",
+          "Confirm"
+        ],
+        "alt": "Original schematic showing Old rank, then New pickup, then Confirm as a conceptual reference for planning for a temporary taxi rank relocation. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Old rank · New pickup · Confirm. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Identify the pickup arrangement",
+          "paragraphs": [
+            "Temporary roadworks, public events or access restrictions can change where licensed taxis may wait. A familiar rank sign or online map pin may no longer match the permitted pickup location.",
+            "Record the exact rank or pickup point as described by the responsible transport operator or local authority. Avoid assuming a nearby roadside stopping place is lawful or accessible."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Agree a safe meeting description",
+          "paragraphs": [
+            "Share a simple landmark and the side of the road where a confirmed pickup point is located, especially when arranging travel for someone with mobility or sensory needs.",
+            "Use the booking provider's own accessibility and vehicle arrangements where relevant. Do not rely on an unverified message claiming that a particular driver or vehicle is authorised."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep details current",
+          "paragraphs": [
+            "A temporary rank may return to its original position or move again. Date the information and recheck before an important journey.",
+            "For private bookings, share only necessary pickup information with the intended driver or traveller. Do not publish private household addresses or individual travel schedules in community groups."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-multilingual-public-notice",
+      "title": "Making local disruption notices understandable across languages",
+      "category": "Urban communication",
+      "summary": "Organise reliable translated explanations of local service notices without altering official safety instructions.",
+      "tags": [
+        "translation",
+        "language",
+        "notice",
+        "community",
+        "accessibility",
+        "verification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Source",
+          "Translate",
+          "Verify"
+        ],
+        "alt": "Original schematic showing Source, then Translate, then Verify as a conceptual reference for making local disruption notices understandable across languages. It does not represent live conditions or official safety instructions.",
+        "caption": "Planning stages: Source · Translate · Verify. Confirm details with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Start with the original notice",
+          "paragraphs": [
+            "A neighbourhood notice may contain dates, locations, exceptions and contact details that are easy to misread or lose in a short summary. Save the issuing organisation, publication date and exact topic before preparing a translation.",
+            "Distinguish an official notice from a resident's interpretation. A copied image without a date or issuing body is not enough to establish whether the information is still current."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Keep the meaning and uncertainty",
+          "paragraphs": [
+            "For routine non-emergency service information, translate key terms and include the original source reference so readers can check the wording. Avoid adding reassurance, deadlines or instructions that were not present.",
+            "Machine translation may mishandle place names, accessibility terms or conditions. For urgent safety messages, obtain authoritative accessible or professionally verified language support rather than treating an informal translation as an official warning."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Make it accessible and revisable",
+          "paragraphs": [
+            "Use clear headings, readable text and a contact route for corrections. Keep dates and service names visible rather than relying on colours or flags alone.",
+            "When the original notice is updated or withdrawn, mark the translation as superseded. Do not collect residents' language preferences or personal details unnecessarily."
+          ]
+        }
+      ]
+    }
+  ]
+}

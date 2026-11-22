@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-emergency-contact-chain",
+      "title": "Designing a household contact relay when messages fail",
+      "category": "Household communication",
+      "summary": "Set up a consent-based contact relay so important messages do not depend on one phone or one app.",
+      "tags": [
+        "contact relay",
+        "household",
+        "backup",
+        "communications",
+        "offline",
+        "consent"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree contacts",
+          "Choose backup",
+          "Review"
+        ],
+        "alt": "Original offline schematic for designing a household contact relay when messages fail: Agree contacts, then Choose backup, then Review. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Agree contacts · Choose backup · Review. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Choose a small relay group",
+          "paragraphs": [
+            "Ask each person whether they are willing to be part of a household contact relay. Record their preferred contact method and whether they are comfortable passing on a simple status message, rather than assuming all relatives want their details shared.",
+            "Choose a second person who can relay information if the usual contact is unavailable. Make sure everyone understands that a relay is an organisational fallback, not an emergency-service or welfare-check substitute."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Write a minimal offline card",
+          "paragraphs": [
+            "Keep a short paper or offline card with the agreed order of contact, alternative numbers and a neutral message format such as who is safe and when they last checked in. Do not include passwords, sensitive health details or a complete household itinerary.",
+            "Agree what to do when a message cannot be delivered: note the attempt and try the previously agreed alternative channel. Avoid repeated automated calls that could overwhelm someone or create confusion."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep expectations realistic",
+          "paragraphs": [
+            "Review the relay after a household move, phone-number change or change in consent. Remove contact details when someone withdraws permission, and keep the paper copy somewhere reasonably private.",
+            "A missing reply does not by itself indicate an emergency, and a sent message does not prove receipt. For immediate danger, use appropriate emergency services rather than waiting for the relay."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-utility-account-access-card",
+      "title": "Keeping utility provider access details offline without exposing secrets",
+      "category": "Household planning",
+      "summary": "Organise non-secret utility references so a household can identify its provider during a service disruption.",
+      "tags": [
+        "utility provider",
+        "account reference",
+        "offline",
+        "electricity",
+        "water",
+        "gas",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Provider",
+          "Reference",
+          "Safe storage"
+        ],
+        "alt": "Original offline schematic for keeping utility provider access details offline without exposing secrets: Provider, then Reference, then Safe storage. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Provider · Reference · Safe storage. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Separate useful facts from secrets",
+          "paragraphs": [
+            "List the provider name, official service contact route, supply address and any non-sensitive reference that the account holder is comfortable storing offline. Different providers may request different details to locate an account.",
+            "Never put online account passwords, one-time codes, full payment-card numbers or identity-document scans on a widely shared card. Consider a separate private record for sensitive account information."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Make the card usable without a signal",
+          "paragraphs": [
+            "Keep the provider names and contact routes legible in a physical or offline note. Distinguish normal customer-service details from fault reporting, because a billing line may not handle an outage.",
+            "If you rent or live in a managed building, note whether the landlord, building manager or individual resident normally reports particular service problems. This is a record of responsibilities, not a claim about legal obligations."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check after provider changes",
+          "paragraphs": [
+            "Review the card after moving, changing supplier or receiving updated provider correspondence. Confirm telephone numbers and addresses against current provider information whenever a connection is available.",
+            "Do not treat a stored provider number as a live outage update. A service incident may have different reporting channels, and emergencies involving gas, electricity or water require appropriate specialist response."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-communal-area-accessibility-note",
+      "title": "Making a shared-building accessibility disruption note",
+      "category": "Accessible planning",
+      "summary": "Record practical access barriers in shared spaces without publishing residents' private needs.",
+      "tags": [
+        "accessibility",
+        "communal",
+        "building",
+        "step-free",
+        "mobility",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Barrier",
+          "Contact"
+        ],
+        "alt": "Original offline schematic for making a shared-building accessibility disruption note: Location, then Barrier, then Contact. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Location · Barrier · Contact. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Describe the physical issue",
+          "paragraphs": [
+            "From a safe accessible location, record the affected entrance, corridor, doorway or shared facility and describe what is not working. A clear description is more useful than a vague label such as inaccessible.",
+            "Avoid entering restricted spaces or attempting repairs. Record whether the issue affects a route that people ordinarily use, without guessing about an individual resident's disability or personal circumstances."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Pass the report to the right person",
+          "paragraphs": [
+            "Use the building's normal maintenance or management contact route and give the location, observed condition and time. If an accessible alternative is officially designated, record how to find its current information.",
+            "Do not invent a substitute route or direct someone through stairs, service areas or unsafe exits. Where access is urgently unsafe, contact the responsible emergency or building service rather than relying on a routine ticket."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Protect privacy and follow up",
+          "paragraphs": [
+            "Keep a case reference and the date of any update. If neighbours need a general notice, describe the affected facility without naming residents, health conditions or private travel plans.",
+            "Review the note after a repair report, and avoid marking the route restored until the responsible organisation has confirmed the status or it has been appropriately checked."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-storm-debris-reporting",
+      "title": "Recording storm debris for safe public-space reporting",
+      "category": "Weather preparedness",
+      "summary": "Prepare a factual report of fallen branches or loose objects without approaching dangerous debris.",
+      "tags": [
+        "storm",
+        "fallen branch",
+        "debris",
+        "street",
+        "reporting",
+        "weather"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Stay clear",
+          "Note location",
+          "Report"
+        ],
+        "alt": "Original offline schematic for recording storm debris for safe public-space reporting: Stay clear, then Note location, then Report. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Stay clear · Note location · Report. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Prioritise distance and safety",
+          "paragraphs": [
+            "After high winds, debris may conceal broken glass, unstable objects or overhead hazards. Observe only from a safe position and do not move fallen trees, climb over damaged structures or approach suspected power lines.",
+            "If the scene poses immediate danger to people or traffic, use the appropriate emergency reporting route. This guide does not provide a method for assessing tree stability or handling damaged electrical equipment."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Capture useful location details",
+          "paragraphs": [
+            "If it is safe, note the nearest street, landmark or path entrance and the type of obstruction visible. Describe whether a public route appears affected without stepping into the road or crossing a cordon.",
+            "A photograph may help a maintenance team, but only take one from a safe position and avoid unnecessary images of identifiable people, homes or vehicles."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Use the responsible reporting route",
+          "paragraphs": [
+            "Look up the council, land manager or highway authority responsible for the location when connectivity is available. For private land, the appropriate contact may be different.",
+            "Record the report reference and any response, but do not assume that acknowledgement means the debris has been removed. Follow posted closures and current local information before travelling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-transport-backup",
+      "title": "Preparing alternatives when a community transport service is disrupted",
+      "category": "Urban transport",
+      "summary": "Make an offline contact and accessibility plan for journeys normally supported by community transport.",
+      "tags": [
+        "community transport",
+        "dial-a-ride",
+        "accessible travel",
+        "backup",
+        "appointment",
+        "mobility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual service",
+          "Alternative",
+          "Confirm"
+        ],
+        "alt": "Original offline schematic for preparing alternatives when a community transport service is disrupted: Usual service, then Alternative, then Confirm. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Usual service · Alternative · Confirm. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Identify journeys that matter most",
+          "paragraphs": [
+            "List recurring essential journeys such as appointments, shopping or caring commitments and which community transport service usually supports each. Note booking requirements and the usual advance notice without assuming these rules are the same everywhere.",
+            "If a journey requires wheelchair access, assistance or a companion, record the necessary service features in a private plan rather than publishing a person's health or mobility details."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare realistic alternatives",
+          "paragraphs": [
+            "Keep contact details for the usual provider and one or two independently verified alternatives, which might include another approved transport service, an agreed helper or rescheduling with the destination.",
+            "An ordinary taxi or public bus may not be a suitable substitute for every passenger. Confirm accessibility, availability, cost and safeguarding arrangements with the actual provider before relying on it."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Confirm before setting out",
+          "paragraphs": [
+            "When disruption is suspected, check the operator's current messages or speak to them when possible. Record booking references, pickup arrangements and how to cancel a journey safely.",
+            "An offline contact card cannot establish that a vehicle is operating today. If no safe and suitable journey can be confirmed, contact the appointment or destination to discuss alternatives rather than making assumptions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-paper-map-local-services",
+      "title": "Marking essential local services on a personal paper map",
+      "category": "Household planning",
+      "summary": "Create a privacy-conscious map index of useful public locations without treating them as open or safe during an incident.",
+      "tags": [
+        "paper map",
+        "services",
+        "offline",
+        "orientation",
+        "library",
+        "community"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose map",
+          "Mark places",
+          "Verify"
+        ],
+        "alt": "Original offline schematic for marking essential local services on a personal paper map: Choose map, then Mark places, then Verify. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Choose map · Mark places · Verify. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Start with a readable map",
+          "paragraphs": [
+            "Use a map with street names, an understandable scale and enough contrast for the people who will read it. Make sure the area covered includes the places your household normally uses, rather than trying to fit an entire region onto one tiny page.",
+            "Identify only a manageable set of useful public services such as a library, public transport interchange, pharmacy or local information centre. Do not assume they are emergency shelters or open during a disruption."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Add a simple legend",
+          "paragraphs": [
+            "Use a short symbol or number for each place and a separate legend naming its normal purpose. Mark only publicly available locations, and avoid adding private household addresses or sensitive routes to a map that others might see.",
+            "If someone needs step-free access, note where to verify current accessibility information rather than drawing an unconfirmed accessible route. A map is a reference aid, not a replacement for official diversion signs."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review with the household",
+          "paragraphs": [
+            "Check whether labels are legible in poor lighting and whether the map makes sense to someone who did not prepare it. Keep a clean backup copy if the map is likely to be handled often.",
+            "Update the legend after service moves or closures. Printed information may become outdated, so confirm actual opening and operating status before relying on any mapped service."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-building-notice-distribution",
+      "title": "Choosing reliable ways to distribute shared-building notices",
+      "category": "Household communication",
+      "summary": "Plan how a building can share non-sensitive service notices without depending on a single digital channel.",
+      "tags": [
+        "building",
+        "notice",
+        "communication",
+        "residents",
+        "offline",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Draft notice",
+          "Choose channels",
+          "Update"
+        ],
+        "alt": "Original offline schematic for choosing reliable ways to distribute shared-building notices: Draft notice, then Choose channels, then Update. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Draft notice · Choose channels · Update. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Decide what belongs in a shared notice",
+          "paragraphs": [
+            "A useful shared-building notice identifies the affected facility or service, the date the notice was issued, who provided the information and where to ask for updates. Keep the language neutral and avoid guessing at repair dates.",
+            "Do not publish individual residents' names, phone numbers, health needs, flat numbers or personal circumstances without a clear legitimate reason and appropriate permission."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Use more than one accessible channel",
+          "paragraphs": [
+            "Where permitted by building management, consider a clearly placed paper notice alongside an approved digital channel. Choose a readable type size, plain language and a location that does not block entrances or emergency information.",
+            "A noticeboard may be missed by people who are away or who cannot easily read it. Identify an agreed alternative distribution method and keep translated or accessible versions consistent with the original message."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the status traceable",
+          "paragraphs": [
+            "Put a clear issue date on the notice and state whether it is an initial report or an update. Remove or replace outdated notices so contradictory versions do not remain side by side.",
+            "Only the responsible organisation should confirm service restoration. A neighbour forwarding a notice is not evidence that the information is current or officially authorised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-power-cut-reopening-checklist",
+      "title": "Rechecking routine household arrangements after a power cut",
+      "category": "Household planning",
+      "summary": "Keep a non-technical follow-up list for communications, bookings and shared responsibilities after electricity returns.",
+      "tags": [
+        "power cut",
+        "follow-up",
+        "communications",
+        "appointments",
+        "inventory",
+        "recovery"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Confirm status",
+          "Check plans",
+          "Update notes"
+        ],
+        "alt": "Original offline schematic for rechecking routine household arrangements after a power cut: Confirm status, then Check plans, then Update notes. This is a planning aid, not live service information or an authorised emergency procedure.",
+        "caption": "Reference stages: Confirm status · Check plans · Update notes. Confirm details with responsible services."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Distinguish restoration from recovery",
+          "paragraphs": [
+            "Lights turning on does not establish that every household service, appliance or connected system is working correctly. Avoid opening electrical equipment or attempting repairs, and follow provider or manufacturer advice where an item appears damaged.",
+            "Check whether household members have received important messages that may have been missed during the outage. Prioritise information that affects care arrangements, scheduled visits and essential appointments."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Review disrupted arrangements",
+          "paragraphs": [
+            "Look at the household's existing list of planned deliveries, transport bookings, appointments and communications. Confirm directly with the relevant organisation if a booking or collection may have been affected.",
+            "Do not assume payment terminals, lifts, broadband or building entry systems are fully restored because the domestic lighting works. Treat each service as separate until its status is verified."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Capture useful improvements",
+          "paragraphs": [
+            "Write down which offline contacts, printed notes or backup arrangements were actually helpful. Record any missing details and update the plan while the experience is fresh.",
+            "This is an administrative follow-up checklist, not an electrical safety inspection. Report abnormal equipment behaviour to the responsible qualified person and avoid implying that the checklist certifies safety."
+          ]
+        }
+      ]
+    }
+  ]
+}

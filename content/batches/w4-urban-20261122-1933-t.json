@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-multiple-service-outage-dependencies",
+      "title": "Prioritising household needs when several services fail together",
+      "category": "Household outages",
+      "summary": "Map practical dependencies between power, water, communications and essential appointments without assuming one restoration fixes everything.",
+      "tags": [
+        "multi-service outage",
+        "dependencies",
+        "household priorities",
+        "continuity"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "List essentials",
+          "Note dependencies",
+          "Check separately"
+        ],
+        "alt": "A 3-part checklist diagram with stages List essentials, Note dependencies, Check separately. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate services from the tasks they support",
+          "paragraphs": [
+            "A household may experience more than one interruption at once, or one failure may make several ordinary tasks difficult. Rather than listing only utility names, write down the tasks that matter today: contacting someone, keeping an appointment, accessing a building or using essential equipment.",
+            "Identify which task depends on which service. A phone may still have battery but lack network coverage; a restored power supply does not establish that broadband, a lift or a payment terminal is working. Keep observations dated and distinguish them from operator announcements."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Set a manageable order of checks",
+          "paragraphs": [
+            "Put time-sensitive needs and people who depend on assistance at the top of a short household list. Agree who will contact a provider or relevant service, and avoid multiple people repeatedly making the same enquiry.",
+            "Keep a separate note for each provider's reference number and the time of its last confirmed update. Offline planning cannot tell you what is currently restored. Follow responsible operators and official instructions when available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-outage-estimate-change-log",
+      "title": "Recording changing restoration estimates without treating them as promises",
+      "category": "Utility communications",
+      "summary": "Keep a dated history of provider estimates and distinguish confirmed updates from neighbourhood speculation.",
+      "tags": [
+        "restoration estimate",
+        "utility outage",
+        "provider updates",
+        "record keeping"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Source",
+          "Time recorded",
+          "Next check"
+        ],
+        "alt": "A 3-part sequence diagram with stages Source, Time recorded, Next check. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand what an estimate means",
+          "paragraphs": [
+            "Service providers may publish an estimated restoration time while investigation or repairs are ongoing. The estimate can change as more information becomes available; a saved screenshot is a record of what was said, not a guarantee of when service will return.",
+            "Note the provider, affected service, date and time of the update, and whether the message is an estimate or a confirmed completion notice. Do not combine different services into one assumed return time."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Use a short, repeatable log",
+          "paragraphs": [
+            "Keep the latest provider message alongside earlier entries rather than silently replacing it. This can help household members understand why arrangements changed and avoid passing on an outdated time as current information.",
+            "Choose a reasonable next check based on the provider's stated update schedule. For urgent personal dependencies, contact the relevant responsible service directly; do not rely on an old estimate or unverified social post."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-school-collection-backup-consent",
+      "title": "Agreeing backup school collection contacts during transport disruption",
+      "category": "Family communication",
+      "summary": "Prepare a consent-based backup collection arrangement that respects the school's actual safeguarding rules.",
+      "tags": [
+        "school collection",
+        "transport disruption",
+        "parent contact",
+        "safeguarding"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Approved people",
+          "School rules",
+          "Confirm change"
+        ],
+        "alt": "A 3-part checklist diagram with stages Approved people, School rules, Confirm change. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Agree roles before a difficult journey",
+          "paragraphs": [
+            "A delayed train, closed road or missed bus can make a normal school collection plan unreliable. Households can reduce confusion by discussing who may be contacted and which trusted adult could be available if the usual collector is delayed.",
+            "Record only the minimum contact details needed and store them privately. An informal household note does not authorise anyone to collect a child: schools and childcare providers have their own identification and permission procedures."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make changes through the proper channel",
+          "paragraphs": [
+            "Ask the school or childcare provider how to register authorised collectors and how a same-day change must be communicated. Check that the backup adult has agreed and understands the expected time and location.",
+            "If disruption occurs, use the provider's established contact channel rather than asking a child to act on a message from an unknown number. Keep current arrangements clear to everyone involved, and never publish children's movements or personal details on community noticeboards."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-essential-address-landmark-card",
+      "title": "Making a clear offline address and landmark card for visitors",
+      "category": "Household communication",
+      "summary": "Create a concise location reference for trusted visitors when navigation apps or mobile data are unavailable.",
+      "tags": [
+        "offline address",
+        "wayfinding",
+        "landmarks",
+        "visitors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Full address",
+          "Entrance note",
+          "Trusted contact"
+        ],
+        "alt": "A 3-part checklist diagram with stages Full address, Entrance note, Trusted contact. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Write the address in a useful format",
+          "paragraphs": [
+            "A saved map pin may be hard to open when connectivity is poor. For a trusted visitor, a plain-text card with the complete address, postcode and the name of the building or entrance can be more reliable than a link alone.",
+            "Where a property has several entrances, add a short factual description of the ordinary visitor entrance. Avoid making claims about accessible access unless it has been confirmed, and do not include door codes or sensitive access instructions on publicly shared cards."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep private details under control",
+          "paragraphs": [
+            "A nearby permanent landmark can help someone distinguish similar streets, but temporary signs, shop names and construction works can change. Keep the wording simple enough to read aloud and update it after changes to the site.",
+            "Share the card only with people who need it and check the address against an authoritative record. This is an everyday wayfinding aid, not an emergency-service dispatch system or an authorised evacuation route."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-transport-disruption-accessibility-feedback",
+      "title": "Keeping useful accessibility feedback after a disrupted journey",
+      "category": "Accessible transport",
+      "summary": "Record a factual account of barriers encountered on public transport for follow-up with the responsible operator.",
+      "tags": [
+        "transport accessibility",
+        "journey record",
+        "feedback",
+        "barriers"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Journey details",
+          "Barrier observed",
+          "Operator follow-up"
+        ],
+        "alt": "A 3-part sequence diagram with stages Journey details, Barrier observed, Operator follow-up. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Describe the barrier rather than guessing its cause",
+          "paragraphs": [
+            "A disrupted journey may involve an inaccessible replacement stop, missing information, a broken facility or a change to booked assistance. A useful record describes what happened and how it affected the journey without assuming why staff or equipment behaved that way.",
+            "Note the route or service, approximate time, station or stop, and the specific barrier. Keep personal details to the minimum needed, and ask permission before recording identifiable information about another passenger."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Choose an appropriate follow-up",
+          "paragraphs": [
+            "Find the responsible transport operator's accessibility or customer-service channel when connectivity returns. Include a concise account and any existing booking or case reference, without sending sensitive documents through an unverified contact link.",
+            "If a barrier is still present, seek current staff or operator advice before travelling; an old incident record cannot establish whether access has been restored. This draft does not determine legal rights or guarantee a particular remedy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-support-offer-privacy",
+      "title": "Protecting personal information when requesting local disruption support",
+      "category": "Community communication",
+      "summary": "Decide what information is necessary before replying to a temporary assistance offer or neighbourhood support request.",
+      "tags": [
+        "community support",
+        "privacy",
+        "disruption",
+        "verification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Verify organiser",
+          "Share minimum",
+          "Keep a record"
+        ],
+        "alt": "A 3-part checklist diagram with stages Verify organiser, Share minimum, Keep a record. It summarises the information to record or verify, not a live service status or official instruction.",
+        "caption": "Offline planning aid only; verify current details with the responsible organisation."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Check the purpose and the organiser",
+          "paragraphs": [
+            "During local disruption, neighbours and community groups may offer transport, supplies or practical help. A message that sounds helpful does not by itself establish who runs the offer, whether it is still operating or how personal details will be used.",
+            "Check the organiser through an independently known channel when possible. Ask what assistance is offered, whether there is a cost, where and when it is available, and what information is genuinely required to arrange it."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Share only what is needed",
+          "paragraphs": [
+            "Avoid posting home occupancy patterns, medical details, identity documents or access codes in a public thread. If a trusted organiser needs a contact method, use a direct and appropriate channel and understand who will receive it.",
+            "Keep a short private record of what was agreed, with whom and when. If a request seems pressuring or inconsistent, do not send more details until it is clarified. An offline guide cannot verify a live support offer or certify an organiser."
+          ]
+        }
+      ]
+    }
+  ]
+}

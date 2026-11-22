@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-local-radio-backup",
+      "title": "Keeping local radio information available when internet access fails",
+      "category": "Household communication",
+      "summary": "A saved station list helps find broadcasts without assuming that they are current or always available.",
+      "tags": [
+        "radio",
+        "broadcast",
+        "offline",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Station",
+          "Frequency",
+          "Check date"
+        ],
+        "alt": "A checklist of planning prompts: Station, Frequency, Check date. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Record local radio stations that you have tuned or checked against broadcaster information, including their service name and the region served. Frequencies and local output can vary by transmitter.",
+            "A streaming phone app still needs connectivity, unlike a suitable broadcast receiver. Note whether your household device supports FM, AM or DAB and where its operating instructions are kept."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Write a clear paper station list and the date you last checked it. Include compatible battery details where relevant, without promising a listening duration.",
+            "Broadcast reception can fail and programmes may not concern your area. A saved station list is a way to seek information, not evidence of a current official warning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-ferry-terminal-change",
+      "title": "Preparing for a temporary ferry terminal or boarding-point change",
+      "category": "Urban transport",
+      "summary": "Ferry operators can change boarding arrangements without cancelling the whole service.",
+      "tags": [
+        "ferry",
+        "terminal",
+        "accessibility",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Booked terminal",
+          "Operator notice",
+          "Access check"
+        ],
+        "alt": "A route of planning prompts: Booked terminal, Operator notice, Access check. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Keep the booked operator, sailing reference and named terminal available. Similar pier names do not establish that passengers may board at an adjacent berth.",
+            "Separate changes to boarding points from cancellation notices. Foot passengers, cyclists and vehicle passengers may receive different instructions."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Before departure, confirm current operator instructions and accessible access, including any longer walk or different interchange. Ask the operator when arrangements are unclear.",
+            "Follow terminal staff and restricted-area signs. A saved offline diagram cannot verify sailing status or grant access to a berth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-car-share-bay-relocation",
+      "title": "Planning around a temporarily unavailable car-sharing bay",
+      "category": "Urban transport",
+      "summary": "A shared vehicle may be booked while its usual parking bay is closed or relocated.",
+      "tags": [
+        "car share",
+        "parking",
+        "booking",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check booking",
+          "Confirm bay",
+          "Plan fallback"
+        ],
+        "alt": "A sequence of planning prompts: Check booking, Confirm bay, Plan fallback. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Keep the car-share provider's official support channel and booking reference in a private place. A closed bay and a cancelled reservation are different problems.",
+            "Do not assume a shared vehicle may be collected or returned in any nearby parking space. Provider rules and local parking restrictions still apply."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Check the provider's latest authorised collection and return instructions before setting out. Consider another transport option when a fixed arrival time matters.",
+            "If a bay is blocked, ask the provider for an approved alternative and save the case reference. Never leave a vehicle in a restricted location based on an old map."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-parcel-locker-outage",
+      "title": "Keeping parcel collection details when a shared locker is unavailable",
+      "category": "Urban services",
+      "summary": "A communal or public parcel locker fault may delay collection without losing the delivery record.",
+      "tags": [
+        "parcel",
+        "locker",
+        "delivery",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Carrier",
+          "Collection code",
+          "Support"
+        ],
+        "alt": "A checklist of planning prompts: Carrier, Collection code, Support. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Identify the carrier or locker operator on the original notification. Store parcel references and collection deadlines privately, not on a communal noticeboard.",
+            "An inaccessible locker does not mean the parcel is lost. Redirected collection, code validity and deadlines depend on the operator."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Use the carrier's current official channel to establish whether the parcel is held or redirected. Do not force a locker compartment or use someone else's code.",
+            "Record any support reference and confirm the authorised collection point before travelling. Remove expired access codes from shared devices."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-roadside-assistance-record",
+      "title": "Making an offline roadside assistance contact card",
+      "category": "Urban transport",
+      "summary": "A compact contact card can help a driver locate breakdown support information without mobile data.",
+      "tags": [
+        "breakdown",
+        "vehicle",
+        "contact",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Provider",
+          "Policy reference",
+          "Vehicle details"
+        ],
+        "alt": "A shelves of planning prompts: Provider, Policy reference, Vehicle details. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Write down the breakdown provider, membership reference and official contact details. Keep account passwords and sensitive information off a visible dashboard card.",
+            "Check the actual policy coverage for the vehicle and driver. A number copied from an old leaflet may no longer be correct."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Keep basic vehicle identification available to the authorised driver and agree who will contact support if travelling together.",
+            "This is an administrative record, not a vehicle-repair or roadside-positioning procedure. Follow current emergency and road-authority instructions in dangerous locations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-wayfinding-sign-fault",
+      "title": "Recording a damaged public wayfinding sign for reporting",
+      "category": "Urban access",
+      "summary": "Missing or obscured signs can make public routes difficult to follow, especially for visitors.",
+      "tags": [
+        "sign",
+        "wayfinding",
+        "accessibility",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Sign location",
+          "Problem",
+          "Report route"
+        ],
+        "alt": "A checklist of planning prompts: Sign location, Problem, Report route. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "From a normal public position, note the street or facility, the sign's intended direction and what is unreadable or missing. Never enter restricted roadworks to inspect it.",
+            "Distinguish official wayfinding from advertising or event signs because different organisations may maintain them."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Report the fault through the relevant council, transport operator or site manager and retain a case reference. Photograph only when safe and respectful of bystanders.",
+            "Use other authorised signs or current operator information rather than guessing through a closed passage. This offline note is not a verified route map."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-pet-care-travel-disruption",
+      "title": "Preparing a pet-care handover when travel is unexpectedly delayed",
+      "category": "Household communication",
+      "summary": "An agreed backup carer can make routine pet arrangements clearer during delayed journeys.",
+      "tags": [
+        "pets",
+        "travel",
+        "handover",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree helper",
+          "Share routine",
+          "Confirm handover"
+        ],
+        "alt": "A sequence of planning prompts: Agree helper, Share routine, Confirm handover. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Ask a trusted person beforehand whether they can help with routine pet care. Do not assume a neighbour has agreed to enter the home.",
+            "Keep a private note of the animal's routine, usual supplies and veterinary contact. Do not post access codes or keys in a public message."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Agree how the helper will confirm that care has been provided and identify another authorised contact if the first person is unavailable.",
+            "Animals with medical or behavioural needs may require professional instructions. This article does not prescribe feeding amounts, treatment or unfamiliar-animal handling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-bike-repair-point",
+      "title": "Checking whether a public bicycle repair point is available",
+      "category": "Urban transport",
+      "summary": "A public bicycle pump or repair stand may be unavailable during an ordinary journey.",
+      "tags": [
+        "cycling",
+        "pump",
+        "repair stand",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate facility",
+          "Check condition",
+          "Backup option"
+        ],
+        "alt": "A checklist of planning prompts: Locate facility, Check condition, Backup option. This is not live service information or an authorised route.",
+        "caption": "Offline reference; verify current details with the responsible operator."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "Record the location and responsible operator of a public bicycle repair stand on a regular route. A map marker does not confirm its equipment works.",
+            "From a normal public position, look for a closure notice or obvious damage. Avoid using broken equipment or obstructing pedestrians."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare and follow up",
+          "paragraphs": [
+            "Plan an alternative such as a staffed cycle shop or another transport option when a journey depends on a working bicycle. Confirm business hours when relevant.",
+            "Report damaged public equipment through the responsible scheme's official channel. This planning guide does not provide mechanical repair procedures."
+          ]
+        }
+      ]
+    }
+  ]
+}

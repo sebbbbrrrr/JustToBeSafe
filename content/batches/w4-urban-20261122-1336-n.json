@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-streetlight-fault-record",
+      "title": "Recording a faulty public streetlight without approaching electrical equipment",
+      "category": "Urban infrastructure",
+      "summary": "A clear location reference helps report lighting faults while avoiding electrical hazards.",
+      "tags": [
+        "streetlight",
+        "lighting",
+        "public space",
+        "reporting",
+        "urban",
+        "offline"
+      ],
+      "risk": "electrical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Record from a safe place",
+          "paragraphs": [
+            "Identify the location by street name and a nearby landmark, or by a pole number only if it is already readable without approaching the equipment.",
+            "Note whether the lamp appears dark, flickering or damaged, and when this was observed. Avoid interpreting a single observation as evidence of the whole street's condition."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Report and review",
+          "paragraphs": [
+            "Use the relevant council, highway authority or lighting operator's published reporting channel; ownership may differ by road or site.",
+            "Never touch a damaged column, exposed wiring or fallen equipment. If there is an immediate danger, keep away and contact the appropriate emergency or infrastructure service."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-drainage-report",
+      "title": "Reporting a blocked public road drain before heavy rain",
+      "category": "Flood and weather readiness",
+      "summary": "Observation-based reporting helps distinguish a public drainage concern from a safe household task.",
+      "tags": [
+        "drain",
+        "gully",
+        "rain",
+        "flood",
+        "highway",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Safe location",
+          "Describe blockage",
+          "Report location"
+        ],
+        "alt": "A three-item checklist for noting a drainage concern from a safe location, describing visible debris and reporting the location without entering the road or touching a drain.",
+        "caption": "A reporting prompt, not a drain-clearing procedure."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Observe without intervening",
+          "paragraphs": [
+            "From a safe public position, note the road or pavement location and whether visible leaves, litter or standing water appear near a drainage opening.",
+            "Do not enter traffic, move a cover, step into floodwater or attempt to clear a public drain. What looks blocked may have another cause."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Send useful details",
+          "paragraphs": [
+            "Provide the nearest address or junction, observation date and an objective description through the responsible highway or drainage authority's reporting route.",
+            "A report does not establish that the drain has been repaired. Recheck official information if access or flooding risk affects a journey."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-weather-notice-superseded",
+      "title": "Distinguishing an expired weather warning from a superseded notice",
+      "category": "Flood and weather readiness",
+      "summary": "A saved warning may have been replaced even before its original end time.",
+      "tags": [
+        "weather",
+        "warning",
+        "timestamp",
+        "superseded",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Issued at",
+          "Valid period",
+          "Latest source"
+        ],
+        "alt": "A three-step reading sequence comparing the issue time, stated validity period and latest authoritative source for a saved weather warning.",
+        "caption": "A saved warning is historical information, not a live alert."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Read the notice accurately",
+          "paragraphs": [
+            "Preserve the original issuing organisation, issue time, geographical area, warning type and stated valid period when saving a notice offline.",
+            "A notice can be amended, cancelled or replaced. The end of its stated period and the date you saved it are different facts."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Avoid stale decisions",
+          "paragraphs": [
+            "When connectivity is available, consult the issuing organisation for the latest notice affecting the exact area; do not assume an older screenshot remains authoritative.",
+            "If offline, clearly label the copy as last checked at a specific time and use existing household plans rather than inventing a current warning status."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-lift-outage",
+      "title": "Preparing accessible alternatives when a public lift is unavailable",
+      "category": "Urban accessibility",
+      "summary": "Lift disruptions can affect step-free travel even when the building remains open.",
+      "tags": [
+        "lift",
+        "step free",
+        "accessibility",
+        "station",
+        "public building",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Step-free access",
+          "Staff contact",
+          "Alternative venue"
+        ],
+        "alt": "A checklist of three planning questions about confirmed step-free access, staff contact and a practical alternative venue or journey.",
+        "caption": "Confirm arrangements with the responsible operator; this is not an evacuation plan."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the specific access need",
+          "paragraphs": [
+            "Record the exact station, entrance, platform or public-building lift involved. A lift described as out of service may not be the only route, but never assume an alternative is step-free.",
+            "Consider the complete journey from arrival to destination, including connecting transport, doors and toilets where these matter to the person travelling."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Confirm a workable plan",
+          "paragraphs": [
+            "Ask the operator or venue about current access, assistance arrangements and any authorised alternative before setting out where possible.",
+            "Do not treat a static offline diagram as a route map or ask anyone to use unsafe stairs or improvised lifting. Revisit the plan if the disruption changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-storm-damage-reference",
+      "title": "Keeping a factual reference log after non-emergency storm damage",
+      "category": "Household communication",
+      "summary": "A simple record separates observations, reporting and follow-up without implying a damage assessment.",
+      "tags": [
+        "storm",
+        "damage",
+        "photos",
+        "report",
+        "records",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe safely",
+          "Record facts",
+          "Follow up"
+        ],
+        "alt": "A sequence showing safe observation, a factual record and follow-up with the responsible party; it does not show damage inspection techniques.",
+        "caption": "Keep evidence factual and avoid entering damaged areas."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Record only what is safely visible",
+          "paragraphs": [
+            "From a safe location, write down the date, affected area and visible changes. Photos may help when they can be taken without approaching unstable structures, downed lines or floodwater.",
+            "Do not infer structural safety from photographs or enter a damaged area to improve the record. If there is an immediate hazard, prioritise distance and appropriate emergency reporting."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Separate reports and outcomes",
+          "paragraphs": [
+            "Keep the contact route, reference number, date reported and any written response together. Distinguish an acknowledgement from a completed repair.",
+            "Store private addresses and insurance information securely rather than in public shared notes. Professional assessment and insurer requirements remain separate from this record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-school-closure-message",
+      "title": "Checking school closure messages during severe weather",
+      "category": "Household communication",
+      "summary": "School messages can change quickly and require a plan that respects each child's arrangements.",
+      "tags": [
+        "school",
+        "closure",
+        "weather",
+        "children",
+        "communication",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Official message",
+          "Child arrangements",
+          "Check again"
+        ],
+        "alt": "A three-item checklist for checking a school's own message, confirming individual arrangements and checking for updates.",
+        "caption": "This is a communication checklist, not a live school-status feed."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Check the source and scope",
+          "paragraphs": [
+            "Identify the school or childcare provider, date of the message and whether it applies to the whole site, a year group, transport or an individual activity.",
+            "Forwarded messages and screenshots can lose context. A weather warning for the wider region does not itself confirm a school closure."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Coordinate privately",
+          "paragraphs": [
+            "Use the school's established communication route and agreed household contacts to clarify collection, attendance or remote-learning arrangements.",
+            "Do not publish children's locations or contact details in open groups. Keep the message marked as provisional if the school has not confirmed arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-road-number",
+      "title": "Recognising a temporary bus route number or destination change",
+      "category": "Urban transport",
+      "summary": "Similar route numbers and destination displays can make disruption notices difficult to interpret.",
+      "tags": [
+        "bus",
+        "route number",
+        "destination",
+        "timetable",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Route number",
+          "Destination",
+          "Operator notice"
+        ],
+        "alt": "A checklist comparing a bus route number, displayed destination and current operator notice before travel.",
+        "caption": "Offline prompts cannot confirm which bus is running now."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Separate route identity from destination",
+          "paragraphs": [
+            "Record the operator, usual route number, direction of travel and intended stop. A temporary number or shortened destination display does not necessarily mean the entire route has changed.",
+            "Read the date and affected journeys on an operator notice; school-day, evening and weekend services may be described separately."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Confirm the boarding decision",
+          "paragraphs": [
+            "Where possible, verify the current stop and destination through the operator or staff rather than relying only on a previously saved timetable.",
+            "For accessibility needs, confirm boarding arrangements and onward connections. Retain a clear offline note but do not present it as live vehicle tracking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-support-notice",
+      "title": "Assessing the credibility of a temporary community support notice",
+      "category": "Household communication",
+      "summary": "A notice advertising help during disruption should be checked without sharing sensitive household details.",
+      "tags": [
+        "community",
+        "support",
+        "notice",
+        "verification",
+        "privacy",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Who issued it?",
+          "What is offered?",
+          "How to verify?"
+        ],
+        "alt": "A three-question checklist for checking the named issuer, the specific offer and an independent verification method before relying on a community support notice.",
+        "caption": "Do not assume a printed or forwarded notice is officially endorsed."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Check provenance and scope",
+          "paragraphs": [
+            "Look for a named organiser, date, intended location, opening conditions and a way to verify the announcement independently. A logo or forwarded social post alone does not prove authenticity.",
+            "Distinguish voluntary community help from official services. An offline copy cannot show whether the offer is still operating or has capacity."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Protect privacy and expectations",
+          "paragraphs": [
+            "Before travelling or sharing information, check the organiser's legitimate contact route when connectivity allows and clarify any accessibility or eligibility arrangements.",
+            "Avoid sending identification, payment details or household absence information to an unverified contact. Record only the minimum information needed for a practical enquiry."
+          ]
+        }
+      ]
+    }
+  ]
+}
