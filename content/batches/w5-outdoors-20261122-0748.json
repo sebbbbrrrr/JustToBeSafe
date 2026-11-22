@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-trail-closure-alternative-notes",
+      "title": "Record an alternative when a walking path is temporarily closed",
+      "category": "Navigation",
+      "summary": "A simple record of closures and fallback routes without treating saved notes as current access advice.",
+      "tags": [
+        "closure",
+        "detour",
+        "route",
+        "access",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Notice",
+          "Verify",
+          "Revise"
+        ],
+        "alt": "Original route schematic showing the three labelled concepts Notice, Verify, Revise for the guide record an alternative when a walking path is temporarily closed; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Notice · Verify · Revise. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Separate an observation from an instruction",
+          "paragraphs": [
+            "Write down where the closure notice was seen, its stated scope and the date of the observation. A photograph or saved note is historical evidence, not proof that a route is still closed or has reopened.",
+            "Distinguish a formal closure notice from a temporary obstruction or an unverified social-media report. Respect barriers and signs, and do not cross a closure to investigate its cause."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Document a practical alternative",
+          "paragraphs": [
+            "Record a named alternative route only if it has already been checked against appropriate current access information and is suitable for the group. Keep a separate note for uncertain paths rather than presenting them as a safe detour.",
+            "Include the point at which the plan should be reconsidered and a non-route option such as postponing the walk. Do not imply that the shortest line on a map is a lawful or accessible alternative."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review the note before another visit",
+          "paragraphs": [
+            "Check authoritative land-manager or rights-of-way information before relying on a saved diversion. Date the review and retain a clear distinction between confirmed and unresolved details.",
+            "Remove outdated shortcuts from shared route notes, especially where a closure affects bridges, steep ground or other areas needing specialist local assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-map-annotation-legend",
+      "title": "Create a consistent legend for personal map annotations",
+      "category": "Maps",
+      "summary": "Keep personal markings understandable without covering important published map detail.",
+      "tags": [
+        "annotation",
+        "legend",
+        "paper map",
+        "symbols",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose marks",
+          "Explain marks",
+          "Review"
+        ],
+        "alt": "Original checklist schematic showing the three labelled concepts Choose marks, Explain marks, Review for the guide create a consistent legend for personal map annotations; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Choose marks · Explain marks · Review. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Choose marks with clear meanings",
+          "paragraphs": [
+            "Use a small, consistent set of personal symbols for meeting places, questions to check and route notes. Keep your annotations visibly different from the map publisher's printed rights-of-way and terrain symbols.",
+            "Avoid placing handwritten marks over grid references, contour labels or other information needed to interpret the underlying map. Where space is limited, use a separate numbered note sheet."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Write a compact legend",
+          "paragraphs": [
+            "Describe every symbol in plain words, not colour alone. For example, distinguish a point to verify from a place the group has agreed to meet; those have different levels of certainty.",
+            "Check that the marks remain legible when the paper is folded or the image is viewed at the smallest expected phone size. Do not assume everyone in the group recognises your abbreviations."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the annotations current",
+          "paragraphs": [
+            "Add a date and map edition to the legend, and note when annotations refer to a particular trip rather than a permanent feature.",
+            "When sharing a marked map, include the legend and a short explanation of uncertain information. Remove or revise marks that could be mistaken for official access instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-footpath-surface-photo-log",
+      "title": "Make a useful photo log of walking-surface conditions",
+      "category": "Outdoor planning",
+      "summary": "Capture route-surface observations while protecting location privacy and avoiding unsupported safety ratings.",
+      "tags": [
+        "path",
+        "surface",
+        "photo",
+        "mud",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Capture",
+          "Describe",
+          "Recheck"
+        ],
+        "alt": "Original sequence schematic showing the three labelled concepts Capture, Describe, Recheck for the guide make a useful photo log of walking-surface conditions; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Capture · Describe · Recheck. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Record what a photograph can show",
+          "paragraphs": [
+            "A useful surface photograph includes enough surrounding context to distinguish a paved path, gravel, steps or a muddy section. Record the date and a general route section separately.",
+            "A photograph cannot establish current traction, stability, flood depth or whether a route is suitable for every person. Avoid assigning a universal safe or unsafe label from an image alone."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Describe the observation neutrally",
+          "paragraphs": [
+            "Use factual wording such as visible standing water or uneven stones rather than predicting what another walker will experience. Note if the view was obstructed or the image was taken from far away.",
+            "For group planning, keep accessibility questions distinct from assumptions about someone's abilities. Seek current information from the route manager when specific access details matter."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Share with privacy in mind",
+          "paragraphs": [
+            "Check photographs for faces, vehicle plates, home entrances and embedded location metadata before sharing. Ask permission before distributing identifiable images of other people.",
+            "Review older surface photographs before reuse, since maintenance and weather can change a path quickly. Never use a historical photo as live route condition advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-waterproof-notebook-choice",
+      "title": "Choose a notebook format for wet-weather field notes",
+      "category": "Equipment",
+      "summary": "Compare paper and digital note formats for outdoor use without assuming any one medium is failure-proof.",
+      "tags": [
+        "notebook",
+        "pencil",
+        "rain",
+        "field notes",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Readable",
+          "Protected",
+          "Backed up"
+        ],
+        "alt": "Original checklist schematic showing the three labelled concepts Readable, Protected, Backed up for the guide choose a notebook format for wet-weather field notes; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Readable · Protected · Backed up. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Identify the notes that matter",
+          "paragraphs": [
+            "List the information you may need to read while offline, such as route names, non-sensitive meeting notes and equipment check reminders. Keep private personal details out of a notebook that might be lost.",
+            "Choose a layout with generous writing space and visible headings. A compact page that cannot be read in poor light or with gloves on may be less useful than a larger, simpler one."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Compare practical formats",
+          "paragraphs": [
+            "Some paper resists moisture better than ordinary sheets, but binding, ink and handling still affect readability. Test a sample of your chosen pen or pencil on the actual paper before relying on it.",
+            "A phone can store more detail but depends on power, screen condition and local file access. Neither a water-resistant cover nor a device rating guarantees that notes remain available after damage."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep a recoverable copy",
+          "paragraphs": [
+            "For important non-sensitive route information, keep a second copy in another suitable format or with an agreed group member. Make the date and version easy to identify.",
+            "After the trip, dry and inspect physical notes and check that digital files still open without network access. Replace damaged pages before reusing the notebook."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trekking-umbrella-check",
+      "title": "Inspect a compact walking umbrella before a routine outing",
+      "category": "Equipment",
+      "summary": "Check everyday umbrella condition and storage without presenting it as protection in hazardous weather.",
+      "tags": [
+        "umbrella",
+        "canopy",
+        "ribs",
+        "storage",
+        "wind"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Open",
+          "Inspect",
+          "Dry"
+        ],
+        "alt": "Original sequence schematic showing the three labelled concepts Open, Inspect, Dry for the guide inspect a compact walking umbrella before a routine outing; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Open · Inspect · Dry. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Inspect in a clear, sheltered place",
+          "paragraphs": [
+            "Open the umbrella away from other people and examine the canopy for visible tears, loose seams and damaged rib ends. Check that the handle and closure operate normally without forcing a stuck mechanism.",
+            "Do not test the umbrella in strong wind or near overhead electrical equipment. A walking umbrella is not protective equipment for lightning, severe winds or exposed terrain."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Decide whether to pack it",
+          "paragraphs": [
+            "Consider whether the umbrella can be carried without interfering with walking aids, visibility or other equipment. A damaged locking mechanism or sharp exposed rib is a reason to remove it from use.",
+            "Keep it secured in the bag so loose parts do not snag on clothing or nearby people. Do not rely on an umbrella as the sole rain protection for an outdoor plan."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Dry and store it",
+          "paragraphs": [
+            "Allow the canopy and folding sections to dry in a suitable space before long-term storage. Check for trapped grit or visible corrosion rather than attempting a risky improvised repair.",
+            "Record recurring faults and replace the umbrella if it no longer operates reliably. Keep the inspection routine proportionate to ordinary nonhazardous use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-group-equipment-ownership",
+      "title": "Assign shared outdoor equipment without losing track of it",
+      "category": "Outdoor planning",
+      "summary": "Clarify who brings, carries and returns common nonhazardous equipment on group outings.",
+      "tags": [
+        "group",
+        "shared gear",
+        "inventory",
+        "handover",
+        "ownership"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Assigned",
+          "Carried",
+          "Returned"
+        ],
+        "alt": "Original shelves schematic showing the three labelled concepts Assigned, Carried, Returned for the guide assign shared outdoor equipment without losing track of it; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Assigned · Carried · Returned. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Separate ownership from responsibility",
+          "paragraphs": [
+            "Make a short list of shared items such as maps, spare stationery, a group groundsheet or binoculars. Record who owns an item separately from who has agreed to carry it on the day.",
+            "Avoid adding private addresses, medical information or unnecessary personal identifiers to a shared inventory. Use a group-agreed contact method instead."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Confirm the handover",
+          "paragraphs": [
+            "Before leaving, ask each person to confirm the items they have actually packed, rather than treating an unchecked list as proof. Note accessories that belong together, such as a case or charging cable.",
+            "If an essential shared item is missing, reconsider the plan rather than assuming another participant has brought a substitute. Do not describe the list as evidence of safety readiness."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Close the loop afterwards",
+          "paragraphs": [
+            "At the end, check what was returned, what needs cleaning and what may require replacement. Record any unresolved ownership question without blaming a participant.",
+            "Keep the list small and editable so it remains useful on future trips. Archive outdated copies to prevent contradictory equipment assignments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-local-map-print-check",
+      "title": "Check a printed map extract before an offline walk",
+      "category": "Maps",
+      "summary": "Make sure a personal printout retains useful context, scale and attribution.",
+      "tags": [
+        "printing",
+        "map extract",
+        "scale",
+        "paper",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Coverage",
+          "Legibility",
+          "Source"
+        ],
+        "alt": "Original checklist schematic showing the three labelled concepts Coverage, Legibility, Source for the guide check a printed map extract before an offline walk; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Coverage · Legibility · Source. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Check what the extract includes",
+          "paragraphs": [
+            "Verify that the printout includes the intended area and enough surrounding context to understand how the route connects to nearby paths. A tightly cropped page can hide useful junctions and landmarks.",
+            "Do not assume a screen zoom level is the same as the scale of a printed page. Check the source's printing guidance and whether any scale indicator remains accurate after resizing."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Inspect legibility on paper",
+          "paragraphs": [
+            "Read the smallest path labels and symbols at normal viewing distance. Check that faint colours remain distinguishable in greyscale and that grid or north indicators have not been cropped.",
+            "Keep a clear title, date and source attribution where required by the map licence. Printing a map for personal use does not automatically permit redistribution of the underlying artwork."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the printout in context",
+          "paragraphs": [
+            "Mark which original map edition or downloaded source the extract came from. If the route changes, replace the old printout rather than writing ambiguous corrections over essential detail.",
+            "Use the extract as a planning aid, not as a substitute for current land-manager access notices or conditions that may have changed since printing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gear-identification-tags",
+      "title": "Label similar outdoor equipment without damaging it",
+      "category": "Equipment",
+      "summary": "Use reversible identification methods for shared bags, cases and non-safety-critical accessories.",
+      "tags": [
+        "labels",
+        "equipment",
+        "tags",
+        "shared kit",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Attach",
+          "Review"
+        ],
+        "alt": "Original sequence schematic showing the three labelled concepts Identify, Attach, Review for the guide label similar outdoor equipment without damaging it; it does not depict a hazardous outdoor procedure.",
+        "caption": "A compact visual reminder: Identify · Attach · Review. Check the guide text for context."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Choose what needs distinguishing",
+          "paragraphs": [
+            "Focus on items that are commonly mixed up, such as matching water bottles, storage pouches or generic equipment cases. A short name or colour-plus-text identifier is often enough.",
+            "Avoid writing private contact details openly on gear that may be left unattended. Use an agreed return method that balances convenience and privacy."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Attach labels appropriately",
+          "paragraphs": [
+            "Prefer removable tags or manufacturer-approved identification points for ordinary accessories. Keep tags clear of zips, straps and moving parts where they could snag.",
+            "Do not modify helmets, climbing equipment, lifejackets or other safety-critical gear with adhesives, drilling or attachments unless the manufacturer explicitly permits it."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review labels over time",
+          "paragraphs": [
+            "Check that text remains readable after rain and cleaning, and replace labels that peel or obscure important product instructions. Make sure each item can still be matched to its correct case or accessories.",
+            "When lending equipment, distinguish a temporary borrower label from the owner's permanent identification. Remove outdated names before an item changes hands."
+          ]
+        }
+      ]
+    }
+  ]
+}
