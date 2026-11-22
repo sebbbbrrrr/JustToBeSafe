@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "garden-gate-hardware-log",
+      "title": "Recording garden gate latch and hinge condition",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for recording garden gate latch and hinge condition.",
+      "tags": [
+        "garden",
+        "gate",
+        "latch",
+        "hinge",
+        "fence",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Log",
+          "Arrange"
+        ],
+        "alt": "An accessible sequence schematic showing observe, then log, then arrange as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Observe from a safe position whether a garden gate closes consistently, catches at the latch or has visible changes around hinges and posts. A heavy or unstable gate can move unexpectedly, so do not lift, brace or dismantle it.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the affected entrance, when the issue first appeared and whether it is intermittent. Photographs from stable ground can help identify the hardware without handling a suspect assembly.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Keep the report open until the owner or competent contractor confirms an outcome. If the gate is a shared access or escape route, notify the responsible manager and avoid blocking it.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letterbox-flap-condition",
+      "title": "Checking a letterbox flap and draught opening",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for checking a letterbox flap and draught opening.",
+      "tags": [
+        "letterbox",
+        "post",
+        "mail",
+        "draught",
+        "flap",
+        "door"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Flap",
+          "Opening",
+          "Follow-up"
+        ],
+        "alt": "An accessible checklist schematic showing flap, then opening, then follow-up as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Note whether the flap is bent, rattling, stuck open or has sharp edges, without forcing a stiff mechanism. Visual observations cannot establish the security or fire performance of a door.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record whether the issue affects deliveries, access or comfort and identify the door model or building contact where known. Avoid publishing household address or security details in shared content.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "For a communal or fire-rated door, seek the responsible specialist before replacing or adding parts. Record the completed work rather than assuming a cosmetic adjustment restores performance.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bath-plug-stopper-inventory",
+      "title": "Identifying bath and basin plug types",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for identifying bath and basin plug types.",
+      "tags": [
+        "bath",
+        "basin",
+        "plug",
+        "stopper",
+        "chain",
+        "drain",
+        "replacement"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Bath",
+          "Basin",
+          "Spare"
+        ],
+        "alt": "An accessible shelves schematic showing bath, then basin, then spare as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Identify whether each fixture has a separate plug, chain stopper, pop-up control or integrated waste. Do not dismantle or force a built-in mechanism merely to discover its type.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the fixture, manufacturer and packaging details for clearly removable parts. Similar-looking plugs may have different dimensions, so do not assume a universal fit.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Store labelled spares safely away from small children and track which fixture they serve. A leak beneath a bath or basin is a plumbing concern, not proof that a new stopper is the solution.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-furniture-restraint-record",
+      "title": "Keeping furniture restraint and stability records",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for keeping furniture restraint and stability records.",
+      "tags": [
+        "wardrobe",
+        "bookcase",
+        "furniture",
+        "anti-tip",
+        "restraint",
+        "stability"
+      ],
+      "risk": "structural",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Tall wardrobes and bookcases can become unstable if children climb, drawers are extended or heavy items are stored high. Do not push or pull a unit to test whether it is stable.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Keep manufacturer instructions, model information and installation records together. Wall construction, concealed services and furniture design affect suitable restraint systems, so generic drilling instructions are inappropriate.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "If a unit leans, rocks unexpectedly or has damaged fittings, restrict access and seek competent assessment. This article intentionally has no procedural illustration because a generic restraint diagram could falsely imply safe installation.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cooker-extractor-filter-record",
+      "title": "Recording kitchen extractor filter types and replacement dates",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for recording kitchen extractor filter types and replacement dates.",
+      "tags": [
+        "cooker",
+        "hood",
+        "extractor",
+        "filter",
+        "grease",
+        "charcoal",
+        "ventilation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Record",
+          "Review"
+        ],
+        "alt": "An accessible sequence schematic showing identify, then record, then review as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Find the cooker hood model using accessible paperwork or a visible label. Some appliances use reusable grease filters, replaceable carbon filters or ducted extraction, and these need different care.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the filter reference, confirmed service date and manufacturer maintenance instructions. A reminder being dismissed does not prove that cleaning or replacement happened.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "If airflow changes, unusual noise occurs or servicing involves inaccessible electrical parts or ductwork, arrange competent assistance. Do not remove covers or service powered components based on this recordkeeping guide.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boiler-service-document-folder",
+      "title": "Organising boiler service and safety paperwork",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for organising boiler service and safety paperwork.",
+      "tags": [
+        "boiler",
+        "heating",
+        "gas",
+        "service",
+        "certificate",
+        "engineer",
+        "warranty"
+      ],
+      "risk": "gas",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "Keep appliance manuals, model details, installer information and service reports in a secure household folder. Documentation does not replace professional inspection of combustion appliances.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the landlord, owner or managing agent responsible for arranging work and verify current legal obligations from authoritative sources. A receipt or sticker alone is not evidence of a complete safety assessment.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "For a suspected dangerous appliance, prioritise personal safety and contact appropriate emergency or qualified services. No technical boiler diagram is included because it could encourage unsafe intervention.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wall-vegetation-observation",
+      "title": "Observing climbing plants near exterior walls",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for observing climbing plants near exterior walls.",
+      "tags": [
+        "ivy",
+        "climbing",
+        "plants",
+        "wall",
+        "render",
+        "vegetation",
+        "exterior"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Change",
+          "Report"
+        ],
+        "alt": "An accessible checklist schematic showing location, then change, then report as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "From accessible ground, note whether climbing plants cover vents, drains, windows or areas normally inspected for building condition. Vegetation alone does not prove wall damage.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the wall location using a neutral description and compare visible changes over time. Avoid ladders, pulling plants from uncertain masonry or disturbing possible wildlife habitat.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Ask the owner, manager or competent gardener about appropriate follow-up. Suspected structural deterioration requires a suitable building professional rather than an improvised clearance.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-worktop-sealant-log",
+      "title": "Recording visible sealant wear around a kitchen worktop",
+      "category": "Home maintenance",
+      "summary": "A practical observation and recordkeeping guide for recording visible sealant wear around a kitchen worktop.",
+      "tags": [
+        "worktop",
+        "sealant",
+        "silicone",
+        "splashback",
+        "sink",
+        "moisture"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice",
+          "Document",
+          "Arrange"
+        ],
+        "alt": "An accessible sequence schematic showing notice, then document, then arrange as a simple household maintenance record, without hazardous repair instructions.",
+        "caption": "A nontechnical recordkeeping illustration; not a repair or safety certification."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe or identify",
+          "paragraphs": [
+            "During routine cleaning, note gaps, peeling or persistent moisture around accessible worktop edges and splashbacks. Do not assume that a visible seal is the only moisture barrier.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful information",
+          "paragraphs": [
+            "Record the affected joint, surface material and whether moisture appears after normal use. Avoid lifting fixtures or probing concealed areas, especially near electrical equipment.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Ask a suitable tradesperson about the underlying cause and compatible materials. Cosmetic resealing is not a substitute for addressing a concealed leak, and this draft gives no sealant removal or application steps.",
+            "Keep the information in the household's private maintenance notes and use the relevant manufacturer's instructions or a competent professional where appropriate. This is an unreviewed editorial draft, not a technical certification or a substitute for property-specific advice."
+          ]
+        }
+      ]
+    }
+  ]
+}
