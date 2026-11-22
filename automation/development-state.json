@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "refinement_complete",
+  "status": "qa_rejected_unverified",
   "paused": false,
   "blocked": false,
   "cycle_id": 1,
-  "next_worker": 4,
+  "next_worker": 2,
   "task": {
     "id": "JTS-AUTODEV-001",
     "title": "Harden offline search index integrity checks",
@@ -44,29 +44,57 @@
   ],
   "qa_passed": false,
   "awaiting_merge": false,
-  "retry_count": 0,
+  "retry_count": 1,
   "max_retries": 3,
   "lease": null,
   "last_handoff": {
-    "from": 3,
-    "to": 4,
+    "from": 4,
+    "to": 2,
     "task_id": "JTS-AUTODEV-001",
     "branch": "autodev/cycle-001",
     "commits": [
       "16853c023e066bf715df0a353b2a1024ae6f3ca2",
       "3f83c39ddf277b2ca8d0721984c46221c9599aa0"
     ],
-    "changed_paths": [
-      "scripts/check_fulltext_index.py",
-      "scripts/test_search_shard_integrity.py"
-    ],
     "tests_run": [],
-    "tests_unverified": [
-      "Seven newly authored isolated regression cases are committed but not executed",
-      "Existing full-text index check not executed"
+    "static_review": [
+      "Actual verifier and test sources fetched from work branch",
+      "All 16 shards validated eagerly before sample queries",
+      "No Android/UI or CI files in recorded changed paths"
     ],
-    "result": "Refinement added seven isolated fixture tests covering missing/corrupt shard, invalid JSON, malformed postings, unknown document and shard misrouting.",
-    "blockers": []
+    "criteria": [
+      {
+        "criterion": 1,
+        "description": "Verifier fails clearly on missing one of sixteen compressed shard files or malformed gzip/JSON",
+        "status": "unverified_execution"
+      },
+      {
+        "criterion": 2,
+        "description": "Verifier detects malformed shard term/postings structure, rather than reporting a false PASS",
+        "status": "unverified_execution"
+      },
+      {
+        "criterion": 3,
+        "description": "Existing legitimate index remains valid; expected document coverage and natural-language checks preserved",
+        "status": "unverified_execution"
+      },
+      {
+        "criterion": 4,
+        "description": "No Android runtime behaviour, public safety guidance, CI workflows or generated index assets modified",
+        "status": "pass_on_static_review"
+      },
+      {
+        "criterion": 5,
+        "description": "Tests or exact reproducible manual validation included for corruption cases",
+        "status": "unverified_execution"
+      }
+    ],
+    "defects": [
+      "Run python3 scripts/test_search_shard_integrity.py in a runnable repository checkout and record stdout/exit status",
+      "Run index generation/import prerequisites and python3 scripts/check_fulltext_index.py on valid generated assets; record stdout/exit status",
+      "If execution cannot be arranged, keep QA unverified and do not claim completion"
+    ],
+    "result": "QA REJECTED — validation execution unavailable; implementation is present but not verified."
   },
   "history": [
     {
@@ -89,6 +117,13 @@
       "status": "refinement_complete",
       "commit": "3f83c39ddf277b2ca8d0721984c46221c9599aa0",
       "tests": "unverified"
+    },
+    {
+      "cycle_id": 1,
+      "worker": 4,
+      "status": "qa_rejected_unverified",
+      "retry_count": 1,
+      "notes": "No runnable checkout, no Actions usage. Returned to Worker 2 for executable test evidence."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes."
