@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-weather-notice-snapshot",
+      "title": "Understanding the date and area on a saved weather notice",
+      "category": "Weather readiness",
+      "summary": "A saved warning is a historical reference, not proof of current conditions.",
+      "tags": [
+        "weather notice",
+        "expiry",
+        "forecast",
+        "offline screenshot"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Issued at",
+          "Area covered",
+          "Check again"
+        ],
+        "alt": "An original offline checklist diagram with 3 labelled stages: Issued at, Area covered, Check again. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Issued at · Area covered · Check again. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Read the notice as a dated record",
+          "paragraphs": [
+            "A screenshot of a forecast or warning can remain on a phone long after the information has changed. Keep the issuing organisation, date, time, geographical area and any expiry or update wording visible when saving a copy.",
+            "A county name, map boundary or colour may cover more than one neighbourhood. Do not assume that a saved image describes conditions at your precise address or on a later journey."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Keep the original context",
+          "paragraphs": [
+            "Where possible, retain the complete heading and explanatory text rather than cropping the image to a coloured symbol. Record where the original was published so someone with connectivity can check the latest version.",
+            "Avoid forwarding an old screenshot without its date. If you share it as background information, label it clearly as a previous notice rather than an active warning."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Decide what offline information can do",
+          "paragraphs": [
+            "An offline copy may help explain why a household previously changed plans, but it cannot confirm whether a warning has started, ended or been revised.",
+            "For a real decision, seek the latest responsible-authority information when available and follow local directions. If communication is unavailable, do not infer safety from the absence of a new alert."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-replacement-bus-wayfinding",
+      "title": "Preparing for a rail replacement bus interchange",
+      "category": "Transport",
+      "summary": "A practical reference for locating replacement services without assuming a live timetable.",
+      "tags": [
+        "rail replacement",
+        "bus interchange",
+        "platform",
+        "accessible travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Rail station",
+          "Verify pickup",
+          "Bus stop"
+        ],
+        "alt": "An original offline route diagram with 3 labelled stages: Rail station, Verify pickup, Bus stop. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Rail station · Verify pickup · Bus stop. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the change",
+          "paragraphs": [
+            "A rail replacement bus may depart from a different street or entrance than the station's usual bus stop. The service may also use a different stopping pattern from the train it replaces.",
+            "Save the operator's published pickup description, station name and destination details before travel, while remembering that arrangements can change at short notice."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Plan an accessible interchange",
+          "paragraphs": [
+            "Check whether the route from station to pickup point is suitable for the traveller's mobility needs, luggage and accompanying children. A nearby stop is not necessarily step-free or easy to find.",
+            "Where accessibility or assistance matters, contact the transport operator in advance using an official channel and keep the relevant reference details offline."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Handle uncertainty on the day",
+          "paragraphs": [
+            "Allow time to identify signs and ask authorised staff for confirmation. Do not cross traffic, enter restricted areas or follow a guessed shortcut to reach a vehicle.",
+            "Treat any saved pickup sketch as a personal orientation note, not an approved route map or confirmation that a service is operating."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-ticket-machine-unavailable",
+      "title": "Keeping ticket information when a transport ticket machine is unavailable",
+      "category": "Transport",
+      "summary": "Record the information needed to seek an authorised ticketing alternative.",
+      "tags": [
+        "ticket machine",
+        "fare",
+        "rail",
+        "bus",
+        "payment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Fare rules",
+          "Help channel"
+        ],
+        "alt": "An original offline checklist diagram with 3 labelled stages: Service, Fare rules, Help channel. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Service · Fare rules · Help channel. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Separate the fault from the fare rules",
+          "paragraphs": [
+            "A broken vending machine does not automatically make travel free or change the operator's ticket requirements. Different networks and ticket types have different conditions.",
+            "Note the operator, station or stop, direction of travel and the machine's location if it is safe to do so. Avoid photographing other customers or payment details."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Find an authorised alternative",
+          "paragraphs": [
+            "Look for an official staffed counter, accessible ticketing option or operator guidance. A phone screenshot of an earlier ticket is not necessarily valid proof of a new journey.",
+            "If the only available alternative requires a device or network connection, record the operator's official help route before departure when possible."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Keep a factual record",
+          "paragraphs": [
+            "If a fault affects a purchase or later fare query, keep any permitted receipt, reference number and the approximate time. Do not share bank-card numbers or account credentials in public reports.",
+            "Check current conditions directly with the operator; an offline article cannot determine ticket validity, compensation entitlement or whether a machine is repaired."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-doorstep-disruption-visitor-check",
+      "title": "Checking the identity of unexpected doorstep visitors during a local disruption",
+      "category": "Household communication",
+      "summary": "A calm identity-checking routine for unexpected callers claiming to represent services.",
+      "tags": [
+        "doorstep",
+        "impersonation",
+        "utilities",
+        "identity",
+        "visitors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Keep distance",
+          "Verify independently",
+          "Decide"
+        ],
+        "alt": "An original offline sequence diagram with 3 labelled stages: Keep distance, Verify independently, Decide. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Keep distance · Verify independently · Decide. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the uncertainty",
+          "paragraphs": [
+            "After storms or outages, a caller may say they represent a utility, landlord, council or repair contractor. Clothing, logos and knowledge of a local incident are not proof of authorisation.",
+            "You do not need to make an immediate decision because someone claims the situation is urgent. Keep household members informed about expected visits without posting personal schedules publicly."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Use an independent contact route",
+          "paragraphs": [
+            "Where safe, speak through a closed door or other existing barrier and request the person's name, organisation and reason for visiting. Do not disclose account details or passwords to verify them.",
+            "Use a previously saved official contact number or an independently located operator channel rather than relying solely on a number supplied by the caller."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Record and escalate concerns",
+          "paragraphs": [
+            "If a visit was not expected, ask the organisation to confirm whether a visit was scheduled. Avoid letting uncertainty pressure you into granting access to private areas.",
+            "If a caller is threatening or there is immediate danger, prioritise personal safety and contact the appropriate emergency service. This article does not establish who is authorised to enter a property."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-mobility-device-charge-planning",
+      "title": "Planning charging access for a mobility device during a power disruption",
+      "category": "Accessibility",
+      "summary": "Record essential charging dependencies and support contacts without improvising electrical work.",
+      "tags": [
+        "mobility scooter",
+        "wheelchair",
+        "charging",
+        "accessibility",
+        "outage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Device details",
+          "Charging access",
+          "Support contact"
+        ],
+        "alt": "An original offline checklist diagram with 3 labelled stages: Device details, Charging access, Support contact. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Device details · Charging access · Support contact. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the dependency",
+          "paragraphs": [
+            "A powered wheelchair or mobility scooter may depend on a particular charger, battery condition and accessible socket location. The household should know which device instructions apply rather than assuming chargers are interchangeable.",
+            "Record the model, manufacturer's approved charging guidance and an appropriate support contact in a private offline household reference. Do not store access codes in a public note."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Plan before an outage",
+          "paragraphs": [
+            "Discuss realistic backup mobility arrangements with the person who uses the device, including consent, accessibility and how an essential journey would be handled.",
+            "Check with the manufacturer, service provider or relevant support organisation before considering alternative power arrangements. Do not connect a device to an improvised supply or incompatible charger."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Keep options realistic",
+          "paragraphs": [
+            "An available public socket does not mean it is permitted, compatible or accessible. Record any confirmed charging arrangements and their limitations rather than treating a map pin as a guarantee.",
+            "If an outage affects a person's immediate safety or ability to obtain essential care, seek appropriate assistance. This draft is planning information, not electrical or clinical instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-commuter-shift-disruption-message",
+      "title": "Preparing a work or shift update when local transport fails",
+      "category": "Household communication",
+      "summary": "Keep essential workplace communication concise when normal travel plans are disrupted.",
+      "tags": [
+        "shift work",
+        "commute",
+        "employer",
+        "transport",
+        "message"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Confirm impact",
+          "Contact work",
+          "Update plan"
+        ],
+        "alt": "An original offline sequence diagram with 3 labelled stages: Confirm impact, Contact work, Update plan. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Confirm impact · Contact work · Update plan. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Prepare the details that matter",
+          "paragraphs": [
+            "A delayed or cancelled journey can affect a shift, appointment or handover. Keep a private offline note of the correct workplace reporting channel and any agreed fallback contact.",
+            "Separate confirmed facts from estimates: a cancelled service, a missed connection and an uncertain arrival time are different pieces of information."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Send a useful update",
+          "paragraphs": [
+            "State which commitment is affected, what is known, whether an alternative is being explored and when another update may be possible. Avoid promising a travel time you cannot verify.",
+            "Use the employer's established absence or lateness procedure where one exists. Do not assume a text message has been received merely because it was composed or queued offline."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Protect personal information",
+          "paragraphs": [
+            "If contacting through a shared phone or colleague, disclose only the details necessary to pass on the message. Keep private contact information out of public transport discussions.",
+            "Once communication resumes, confirm receipt and revise the plan. This reference does not determine employment rights or transport compensation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-dropoff-access-change",
+      "title": "Recording temporary accessible drop-off changes at a public venue",
+      "category": "Accessibility",
+      "summary": "Help a household confirm a usable arrival point when normal vehicle access changes.",
+      "tags": [
+        "drop off",
+        "accessibility",
+        "venue",
+        "roadworks",
+        "vehicle"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual access",
+          "Check operator",
+          "Confirmed point"
+        ],
+        "alt": "An original offline route diagram with 3 labelled stages: Usual access, Check operator, Confirmed point. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Usual access · Check operator · Confirmed point. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the actual arrival need",
+          "paragraphs": [
+            "A public building may keep its main entrance open while moving its permitted vehicle drop-off area. A short walking distance on a map can still involve kerbs, gradients or unsuitable surfaces.",
+            "Record the venue name, intended entrance and accessibility requirements before a visit, without putting sensitive personal details in a public note."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Verify an authorised location",
+          "paragraphs": [
+            "Ask the venue or transport operator which drop-off point is permitted and whether assistance is available. Do not treat a loading bay, bus stop or emergency access as a suitable alternative without confirmation.",
+            "If a driver and passenger will separate, agree how they will communicate and where they can meet without blocking access or entering restricted areas."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Keep the note provisional",
+          "paragraphs": [
+            "An offline route sketch can show the relationship between the usual entrance and a confirmed alternative, but it cannot guarantee a route remains accessible.",
+            "Check signage and staff guidance on arrival. If access is unsuitable, contact the venue rather than attempting to bypass barriers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-household-temporary-address-record",
+      "title": "Keeping a temporary household correspondence address organised",
+      "category": "Household planning",
+      "summary": "Organise essential correspondence if a household is staying somewhere else temporarily.",
+      "tags": [
+        "temporary address",
+        "correspondence",
+        "relocation",
+        "mail",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Current address",
+          "Temporary contact",
+          "Update log"
+        ],
+        "alt": "An original offline shelves diagram with 3 labelled stages: Current address, Temporary contact, Update log. This is a planning schematic, not live service information or an authorised street map.",
+        "caption": "Planning aid: Current address · Temporary contact · Update log. Confirm current arrangements with the responsible provider."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Distinguish different address uses",
+          "paragraphs": [
+            "During a temporary stay, a residential address, delivery location and correspondence address may not be the same. Some organisations require particular evidence or only accept certain address changes.",
+            "List which essential services need contact updates and which can continue using an existing secure channel. Do not assume that a temporary postal address changes legal residence."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Protect household details",
+          "paragraphs": [
+            "Keep the temporary location private and share it only with people and organisations that need it. Consider whether redirected mail, collection or a trusted authorised contact is appropriate.",
+            "Record each organisation contacted, the date, the reference provided and whether confirmation was received. Avoid storing full account numbers or identity documents in a shared checklist."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Review when circumstances change",
+          "paragraphs": [
+            "When the household returns or moves again, revisit delivery instructions and service records to prevent important correspondence being sent to an outdated location.",
+            "Check the specific provider's process for changing an address. This article is organisational guidance and does not replace tenancy, insurance or legal advice."
+          ]
+        }
+      ]
+    }
+  ]
+}
