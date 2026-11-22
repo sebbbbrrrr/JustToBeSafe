@@ -3,15 +3,40 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "ready",
+  "status": "architecture_complete",
   "paused": false,
   "blocked": false,
   "cycle_id": 1,
-  "next_worker": 1,
-  "task": null,
-  "task_id": null,
-  "acceptance_criteria": [],
-  "excluded_scope": [],
+  "next_worker": 2,
+  "task": {
+    "id": "JTS-AUTODEV-001",
+    "title": "Harden offline search index integrity checks",
+    "original_goal": "Strengthen existing offline full-text index validation so damaged or missing shard data cannot pass unnoticed, without altering app runtime, content, generated assets or publishing.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md — S1 deterministic index verification and launch requirement for corrupted index diagnostics",
+    "scope": "scripts/check_fulltext_index.py and optional isolated standard-library regression test only; existing indexing source formats unchanged.",
+    "dependencies": [],
+    "verification_plan": [
+      "Inspect existing index schema and verifier first",
+      "Run existing Python full-text verification if generated assets are present",
+      "Run standard-library regression test or a temporary-copy corruption scenario without modifying checked-in generated assets",
+      "Report unexecuted checks honestly"
+    ]
+  },
+  "task_id": "JTS-AUTODEV-001",
+  "acceptance_criteria": [
+    "Verifier fails clearly on missing one of sixteen compressed shard files or malformed gzip/JSON",
+    "Verifier detects malformed shard term/postings structure, rather than reporting a false PASS",
+    "Existing legitimate index remains valid; expected document coverage and natural-language checks preserved",
+    "No Android runtime behaviour, public safety guidance, CI workflows or generated index assets modified",
+    "Tests or exact reproducible manual validation included for corruption cases"
+  ],
+  "excluded_scope": [
+    "Any public safety-content changes",
+    "Android UI changes",
+    "CI execution or new workflows",
+    "New dependencies",
+    "Production release or merge"
+  ],
   "work_branch": null,
   "commits": [],
   "qa_passed": false,
@@ -19,7 +44,24 @@
   "retry_count": 0,
   "max_retries": 3,
   "lease": null,
-  "last_handoff": null,
-  "history": [],
+  "last_handoff": {
+    "from": 1,
+    "to": 2,
+    "task_id": "JTS-AUTODEV-001",
+    "branch": null,
+    "commits": [],
+    "tests_run": [],
+    "result": "architecture defined; implementation not yet started",
+    "blockers": []
+  },
+  "history": [
+    {
+      "cycle_id": 1,
+      "worker": 1,
+      "status": "architecture_complete",
+      "task_id": "JTS-AUTODEV-001",
+      "notes": "Pilot task grounded in offline search roadmap; no code changed."
+    }
+  ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes."
 }
