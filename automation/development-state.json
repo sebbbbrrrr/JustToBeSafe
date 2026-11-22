@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_rejected_unverified",
+  "status": "awaiting_validation",
   "paused": false,
-  "blocked": false,
+  "blocked": true,
   "cycle_id": 1,
-  "next_worker": 2,
+  "next_worker": 4,
   "task": {
     "id": "JTS-AUTODEV-001",
     "title": "Harden offline search index integrity checks",
@@ -44,57 +44,28 @@
   ],
   "qa_passed": false,
   "awaiting_merge": false,
-  "retry_count": 1,
+  "retry_count": 0,
   "max_retries": 3,
   "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 2,
+    "from": "diagnostic",
+    "to": 4,
     "task_id": "JTS-AUTODEV-001",
     "branch": "autodev/cycle-001",
-    "commits": [
-      "16853c023e066bf715df0a353b2a1024ae6f3ca2",
-      "3f83c39ddf277b2ca8d0721984c46221c9599aa0"
-    ],
-    "tests_run": [],
-    "static_review": [
-      "Actual verifier and test sources fetched from work branch",
-      "All 16 shards validated eagerly before sample queries",
-      "No Android/UI or CI files in recorded changed paths"
-    ],
-    "criteria": [
+    "verification_status": "blocked_infrastructure",
+    "tests_run": [
       {
-        "criterion": 1,
-        "description": "Verifier fails clearly on missing one of sixteen compressed shard files or malformed gzip/JSON",
-        "status": "unverified_execution"
-      },
-      {
-        "criterion": 2,
-        "description": "Verifier detects malformed shard term/postings structure, rather than reporting a false PASS",
-        "status": "unverified_execution"
-      },
-      {
-        "criterion": 3,
-        "description": "Existing legitimate index remains valid; expected document coverage and natural-language checks preserved",
-        "status": "unverified_execution"
-      },
-      {
-        "criterion": 4,
-        "description": "No Android runtime behaviour, public safety guidance, CI workflows or generated index assets modified",
-        "status": "pass_on_static_review"
-      },
-      {
-        "criterion": 5,
-        "description": "Tests or exact reproducible manual validation included for corruption cases",
-        "status": "unverified_execution"
+        "name": "Local isolated Python regression harness reconstructed from committed function and test source",
+        "result": "7/7 pass",
+        "scope": "isolated source-copy harness; NOT full repository"
       }
     ],
-    "defects": [
-      "Run python3 scripts/test_search_shard_integrity.py in a runnable repository checkout and record stdout/exit status",
-      "Run index generation/import prerequisites and python3 scripts/check_fulltext_index.py on valid generated assets; record stdout/exit status",
-      "If execution cannot be arranged, keep QA unverified and do not claim completion"
+    "tests_unverified": [
+      "python3 scripts/test_search_shard_integrity.py in repository checkout",
+      "python3 scripts/check_fulltext_index.py with generated offline index assets"
     ],
-    "result": "QA REJECTED — validation execution unavailable; implementation is present but not verified."
+    "code_defects_confirmed": 0,
+    "notes": "Corrected prior misclassification of unavailable tests as a code-repair failure; no code or project integration test failed."
   },
   "history": [
     {
@@ -124,7 +95,22 @@
       "status": "qa_rejected_unverified",
       "retry_count": 1,
       "notes": "No runnable checkout, no Actions usage. Returned to Worker 2 for executable test evidence."
+    },
+    {
+      "cycle_id": 1,
+      "worker": "diagnostic",
+      "status": "blocked_infrastructure",
+      "notes": "Seven isolated fixture tests pass on reconstructed source. QA still requires real repository environment; false retry reset from 1 to 0."
     }
   ],
-  "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes."
+  "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
+  "verification_status": "blocked_infrastructure",
+  "verification_blocker": {
+    "reason": "Full generated-index verification requires runnable project checkout and assets; GitHub content connector cannot execute checkout-based tests. GitHub Actions quota intentionally not used.",
+    "required_checks": [
+      "python3 scripts/test_search_shard_integrity.py in repository checkout",
+      "python3 scripts/check_fulltext_index.py with generated offline index assets"
+    ],
+    "resume_condition": "Provide approved executable checkout or restore available CI; then clear blocked and rerun Worker 4 on the same cycle."
+  }
 }
