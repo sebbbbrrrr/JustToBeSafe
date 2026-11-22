@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-temperature-zone-record",
+      "title": "Recording different pantry storage conditions",
+      "category": "Food & water",
+      "summary": "Keep a simple record of locations with different warmth, light and moisture exposure.",
+      "tags": [
+        "pantry",
+        "storage",
+        "temperature",
+        "cupboard",
+        "conditions"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Warm areas",
+          "Dry storage",
+          "Check notes"
+        ],
+        "alt": "Original schematic for recording different pantry storage conditions: Warm areas, Dry storage, Check notes. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Schematic storage zones; follow each product's specific label."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify meaningful differences",
+          "paragraphs": [
+            "A cupboard next to a heat-producing appliance, a sunny shelf and a cool interior cupboard may expose stored goods to different conditions. Walk through storage locations and record what is actually observed rather than assuming all cupboards behave alike.",
+            "Include location names that people in the household can recognise. Note obvious sources of warmth, direct sunlight or dampness without attempting to diagnose building defects from a single observation."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Match products to their own instructions",
+          "paragraphs": [
+            "Read the manufacturer's storage wording on each product. Where instructions require conditions you cannot reasonably provide, seek a more suitable location or product rather than relying on a generic household temperature rule.",
+            "Keep the original label accessible when moving food into another container. This record is for organising storage, not for deciding whether questionable food is safe to consume."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Revisit after household changes",
+          "paragraphs": [
+            "Review the record when furniture, heating arrangements or appliance positions change, and after visible moisture problems. Log observations and any follow-up rather than silently changing old entries.",
+            "Escalate suspected damp, pest or equipment faults through the appropriate property or maintenance contact. Do not use this log as a substitute for food-safety or building advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-food-opening-tool-check",
+      "title": "Checking everyday food-opening tools for accessibility",
+      "category": "Food & water",
+      "summary": "Identify which stored foods require tools and whether household members can use them.",
+      "tags": [
+        "can opener",
+        "jars",
+        "packaging",
+        "accessibility",
+        "manual tools"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Match food",
+          "Check tool",
+          "Record access"
+        ],
+        "alt": "Original schematic for checking everyday food-opening tools for accessibility: Match food, Check tool, Record access. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Nonprocedural tool-access check; this does not demonstrate cutting or opening techniques."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Match food to practical access",
+          "paragraphs": [
+            "Look at common stored products and note whether they need a tin opener, bottle opener, grip aid or other everyday tool. Check that a suitable tool is present where it can be found without relying on a powered appliance.",
+            "Consider differences in grip strength, dexterity, vision and reach among people who may need the food. A supply is less useful when nobody present can open its packaging."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check condition without risky improvisation",
+          "paragraphs": [
+            "Inspect the tool for visible damage, loose parts or an uncomfortable grip. Follow the maker's care instructions and replace unsuitable tools instead of attempting unsafe repairs or using knives as improvised opening devices.",
+            "If the tool is unfamiliar, consult its product instructions in a calm setting. Keep sharp edges and detached lids away from children and avoid treating an inventory check as proof of safe use."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep a simple alternative",
+          "paragraphs": [
+            "Record a suitable alternative for a frequently used package where feasible, such as a different container format that the household can manage. Make the list accessible offline alongside the pantry inventory.",
+            "Review the list when household needs change or when new food formats are purchased."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-donation-separation-notes",
+      "title": "Separating food intended for donation from household reserves",
+      "category": "Food & water",
+      "summary": "Keep donated goods distinct from supplies the household still depends on.",
+      "tags": [
+        "donation",
+        "food bank",
+        "pantry",
+        "charity",
+        "stock"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Household",
+          "Donation",
+          "Handover"
+        ],
+        "alt": "Original schematic for separating food intended for donation from household reserves: Household, Donation, Handover. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "A conceptual separation of supplies, not a food-safety assessment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Define the two purposes",
+          "paragraphs": [
+            "Choose an obvious location or inventory label for items intended for donation and another for ordinary household use. This reduces accidental depletion of essential supplies and makes it easier to count what is available.",
+            "Ask the receiving organisation which types of goods it currently accepts. Do not assume every unopened or shelf-stable product is appropriate for donation."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Preserve useful information",
+          "paragraphs": [
+            "Keep original packaging, date labels, allergen information and storage instructions intact. Note any visible damage or uncertainty and follow the recipient organisation's acceptance policy rather than making independent safety claims.",
+            "Avoid transferring donated food into unlabelled containers. A donation list should describe the product and quantity without exposing personal information about the recipient."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Arrange a realistic handover",
+          "paragraphs": [
+            "Record the agreed collection or drop-off arrangements and keep donation items separate until transfer. Reconcile the household inventory after the goods actually leave.",
+            "If plans change, update the record so food is not counted simultaneously as both a household reserve and an outgoing donation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-handwashing-access-observation",
+      "title": "Checking whether a kitchen handwashing point is accessible",
+      "category": "Household hygiene",
+      "summary": "Record practical obstacles to reaching and using an everyday handwashing point.",
+      "tags": [
+        "handwashing",
+        "kitchen",
+        "accessibility",
+        "sink",
+        "supplies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Reach sink",
+          "Find supplies",
+          "Report faults"
+        ],
+        "alt": "Original schematic for checking whether a kitchen handwashing point is accessible: Reach sink, Find supplies, Report faults. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Accessibility overview, not an instructional hygiene technique."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Observe everyday access",
+          "paragraphs": [
+            "Look for blocked routes, cluttered sink edges, inaccessible soap storage and other practical obstacles that may prevent a person from reaching the normal handwashing area. Consider the needs of children, visitors and household members with limited mobility.",
+            "Record the issue in neutral terms, such as 'soap kept beyond reach', rather than assigning blame. Do not make unverified claims about water cleanliness or public-health safety."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Identify household responsibilities",
+          "paragraphs": [
+            "Agree who can remove clutter, replenish ordinary supplies or report a fixture problem. If the water supply or sink is not functioning, use appropriate provider or property guidance rather than inventing an alternative sanitation procedure.",
+            "Store routine supplies in a way that does not create spills, trip hazards or accidental access to inappropriate cleaning chemicals."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review the layout",
+          "paragraphs": [
+            "Recheck after reorganising the kitchen, moving appliances or changing household routines. A short note about what was resolved is more useful than a permanent warning with no owner.",
+            "This guide covers access and recordkeeping only; it is not an infection-control protocol."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-duplicate-product-identification",
+      "title": "Distinguishing similar-looking products in a pantry",
+      "category": "Food & water",
+      "summary": "Reduce mix-ups between products that share colours, containers or brand designs.",
+      "tags": [
+        "similar packaging",
+        "inventory",
+        "labels",
+        "allergens",
+        "identification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Product A",
+          "Product B",
+          "Check label"
+        ],
+        "alt": "Original schematic for distinguishing similar-looking products in a pantry: Product A, Product B, Check label. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Visual separation helps identification but cannot establish dietary suitability."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Look beyond the front of the pack",
+          "paragraphs": [
+            "Identify products that look similar from a distance but have different ingredients, dietary properties or intended uses. Examples may include different varieties in the same range or two jars with similar labels.",
+            "Record the complete product name and useful distinguishing details from its own packaging. Never infer allergen suitability from colour or shelf position alone."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Use legible location cues",
+          "paragraphs": [
+            "Separate easily confused items where practical, and use short shelf or container labels that remain understandable without colour alone. Keep the original product packaging and ingredient information available.",
+            "Avoid small handwritten abbreviations that only one person understands. If a label is damaged or missing, treat identification as unresolved rather than guessing."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check after restocking",
+          "paragraphs": [
+            "During routine restocking, compare the new item with the existing inventory entry before placing it in a familiar location. Update variant details when packaging changes.",
+            "For allergies or special diets, always verify the actual current product label and seek appropriate professional advice where needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-water-vessel-cleaning-record",
+      "title": "Keeping records for reusable household water vessels",
+      "category": "Food & water",
+      "summary": "Track which reusable vessels need attention without claiming a universal sanitising method.",
+      "tags": [
+        "water bottles",
+        "reusable",
+        "cleaning record",
+        "vessels",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Log condition",
+          "Review"
+        ],
+        "alt": "Original schematic for keeping records for reusable household water vessels: Identify, Log condition, Review. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Recordkeeping schematic only; no cleaning method or safety guarantee is depicted."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify each vessel",
+          "paragraphs": [
+            "Give reusable water bottles, jugs or other household vessels a recognisable name or location. Note whether the manufacturer provides care instructions and where those instructions can be found offline.",
+            "Distinguish containers intended for drinking water from vessels used for other purposes. Do not assume a container is suitable for drinking water simply because it looks clean."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Log observations and care",
+          "paragraphs": [
+            "Record visible damage, missing lids, unusual odours or difficulty accessing parts. Follow the vessel manufacturer's cleaning and replacement guidance; this article does not prescribe temperatures, disinfectants or a guaranteed sanitation procedure.",
+            "Keep a simple date and responsible-person field if a shared household needs a record. A checked box is evidence of a recorded action, not independent proof that a vessel is safe."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Resolve uncertainty",
+          "paragraphs": [
+            "Set aside damaged or unidentified vessels for appropriate assessment or replacement rather than silently returning them to service. Review the record when vessels change owners or uses.",
+            "For suspected contamination of the water supply itself, follow the relevant water supplier or public-health instructions instead of this organisational guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-planning-ingredient-overlap",
+      "title": "Finding shared ingredients across planned household meals",
+      "category": "Food & water",
+      "summary": "Reduce unnecessary purchases by comparing ingredients across several ordinary meals.",
+      "tags": [
+        "meal planning",
+        "ingredients",
+        "pantry",
+        "shopping",
+        "waste"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "List meals",
+          "Compare stock",
+          "Update list"
+        ],
+        "alt": "Original schematic for finding shared ingredients across planned household meals: List meals, Compare stock, Update list. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "A lightweight planning sequence, not a recipe or dietary recommendation."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "List meals and their inputs",
+          "paragraphs": [
+            "Write down a few familiar meals the household actually eats and the packaged or fresh ingredients each one uses. Mark which ingredients appear more than once, keeping dietary restrictions visible.",
+            "Use ordinary language such as 'tinned tomatoes' or 'rice' rather than brand-only names. Do not assume two products are interchangeable when allergens or preparation needs differ."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Compare with what is available",
+          "paragraphs": [
+            "Check the actual pantry and refrigerator before adding repeated ingredients to a shopping list. Record the amount or package count in consistent units without guessing how much is usable.",
+            "Keep date labels and product storage instructions in view. A meal plan is not evidence that an ingredient is suitable to eat."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Leave room for change",
+          "paragraphs": [
+            "Note one or two realistic alternatives for meals that depend on unavailable ingredients or equipment. Avoid a rigid plan that assumes every person can prepare every dish.",
+            "Review the list after shopping or when household preferences change. This is a planning aid, not nutritional or food-safety advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-disposable-supply-alternatives",
+      "title": "Planning alternatives to disposable kitchen supplies",
+      "category": "Household hygiene",
+      "summary": "Identify which everyday disposable supplies have practical reusable alternatives.",
+      "tags": [
+        "paper towels",
+        "reusables",
+        "cloths",
+        "kitchen",
+        "sustainability"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify use",
+          "Check option",
+          "Review upkeep"
+        ],
+        "alt": "Original schematic for planning alternatives to disposable kitchen supplies: Identify use, Check option, Review upkeep. These labelled elements are conceptual organisational cues, not technical or medical procedures.",
+        "caption": "Comparison of supply types; not a cleaning or disinfection protocol."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify routine uses",
+          "paragraphs": [
+            "List common disposable kitchen items, such as paper towels or single-use wipes, and the tasks for which the household actually uses them. Some uses may require different handling because of contamination concerns or product instructions.",
+            "Avoid assuming one reusable item is appropriate for every task. Consider storage space, access to laundry facilities and the preferences of household members."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Assess practical alternatives",
+          "paragraphs": [
+            "For nonhazardous everyday tasks, compare whether a washable cloth or other reusable item is convenient, clearly identified and easy to store. Keep separate records for tasks that require product-specific or professional hygiene guidance.",
+            "Do not substitute an unverified cleaning method for food-contact or infectious-material handling. Manufacturer and applicable public-health guidance take precedence."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review cost and upkeep",
+          "paragraphs": [
+            "Record whether the reusable alternative actually reduces purchasing and waste after accounting for laundering, replacement and storage. A change is only useful if people can sustain it.",
+            "Revisit the choice after an outage or appliance failure, when laundry and water availability may be different."
+          ]
+        }
+      ]
+    }
+  ]
+}
