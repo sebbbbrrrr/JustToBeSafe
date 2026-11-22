@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-folding-wear",
+      "title": "Recognise wear along paper-map folds",
+      "category": "Outdoor skills & navigation",
+      "summary": "Repeated folding can obscure printed details and weaken the paper.",
+      "tags": [
+        "map",
+        "folds",
+        "care",
+        "print"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Inspect the folds",
+          "paragraphs": [
+            "A paper map is often folded repeatedly along the same creases. Printed path lines and place names can become hard to read where ink has worn away.",
+            "A split along a fold can make neighbouring symbols appear disconnected even when the underlying geography has not changed."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Prepare a readable copy",
+          "paragraphs": [
+            "Unfold the map on a clean, dry surface before an ordinary outing and check whether important labels remain legible at the fold intersections.",
+            "Use a protective sleeve or an appropriate replacement map rather than relying on a damaged section as your only reference."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Understand the limitation",
+          "paragraphs": [
+            "Tape or improvised repairs can hide small markings and do not restore missing information.",
+            "A clear, current independent reference is important when a damaged map would otherwise affect a route decision."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Unfold",
+          "Inspect",
+          "Replace"
+        ],
+        "alt": "A three-item inspection checklist for a folded paper map: unfold it, inspect creases and replace an unreadable copy.",
+        "caption": "Fold damage is easiest to spot while the whole map is open."
+      }
+    },
+    {
+      "id": "outdoor-gear-colour-inventory",
+      "title": "Use colour cues to organise small outdoor accessories",
+      "category": "Outdoor skills & navigation",
+      "summary": "A consistent colour system can make ordinary items easier to find without relying on memory.",
+      "tags": [
+        "equipment",
+        "organisation",
+        "colour",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose a small set",
+          "paragraphs": [
+            "Small accessories such as spare laces, cleaning cloths and storage pouches can look alike when packed together.",
+            "A simple colour cue can help identify their storage location, but colour alone may not be accessible to everyone."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Pair colour with words",
+          "paragraphs": [
+            "Add a short written label or tactile identifier to each pouch so that items remain distinguishable in poor light or for people with colour-vision differences.",
+            "Use a few stable categories, such as maps, clothing care and spare accessories, instead of assigning a different colour to every object."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Keep the system useful",
+          "paragraphs": [
+            "Check that labels are still readable after ordinary wear and that no essential item depends on a colour-only code.",
+            "This is an organisation aid, not a substitute for checking that the correct equipment is present and serviceable."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Maps",
+          "Clothing",
+          "Spares"
+        ],
+        "alt": "Three labelled storage groups organise map accessories, clothing-care items and spare equipment; written labels accompany any colours.",
+        "caption": "Written labels make a colour-based system more accessible."
+      }
+    },
+    {
+      "id": "outdoor-paper-route-notes-legibility",
+      "title": "Keep handwritten walking notes legible after packing",
+      "category": "Outdoor skills & navigation",
+      "summary": "Ink, paper and storage choices affect whether a personal route note can still be read.",
+      "tags": [
+        "route",
+        "notes",
+        "writing",
+        "paper"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Notice common problems",
+          "paragraphs": [
+            "Handwritten notes may smear when damp, fade with handling or become unreadable where a sheet is folded.",
+            "Very small writing and unexplained abbreviations make a note harder for someone else to interpret."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Make a clear reference",
+          "paragraphs": [
+            "Write a plain-language heading and date, leave space between entries and use a pen suited to the paper you carry.",
+            "Keep notes in a dry protective folder and check their readability at home rather than assuming a packed sheet remains usable."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Know what notes cannot show",
+          "paragraphs": [
+            "Personal notes are not an authoritative or current map, and conditions can change after they were written.",
+            "For unfamiliar routes, use suitable up-to-date mapping and local information in addition to any personal reminders."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Heading",
+          "Readable text",
+          "Dry storage"
+        ],
+        "alt": "A three-part checklist showing a dated heading, readable written notes and a protective dry-storage sleeve.",
+        "caption": "Check readability before relying on a paper reminder."
+      }
+    },
+    {
+      "id": "outdoor-bag-inner-lining-check",
+      "title": "Inspect the inner lining of an everyday daypack",
+      "category": "Outdoor skills & navigation",
+      "summary": "Loose lining fabric can hide small items or interfere with a bag compartment.",
+      "tags": [
+        "daypack",
+        "lining",
+        "inspection",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the lining",
+          "paragraphs": [
+            "Some daypacks use a separate fabric lining inside their compartments. Wear can create gaps between the lining and the outer shell.",
+            "Small accessories may slip into those gaps and appear to be missing even though they remain inside the bag."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Check an empty bag",
+          "paragraphs": [
+            "Empty the compartment on a clean surface, then look for loose stitching, tears and fabric caught near a zip track.",
+            "Avoid pulling at damaged seams. If the lining is compromised, follow the maker's repair advice or use another suitable bag."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Record the result",
+          "paragraphs": [
+            "Note which compartment is affected and keep loose objects in a separate pouch until the bag has been assessed.",
+            "An intact lining is not proof that straps, closures or the bag's overall load capacity are sound."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Empty",
+          "Inspect",
+          "Record"
+        ],
+        "alt": "A simple three-stage sequence for checking an emptied daypack compartment: empty contents, inspect the inner lining and record any damage.",
+        "caption": "An empty compartment makes loose lining easier to notice."
+      }
+    }
+  ]
+}
