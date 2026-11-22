@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-toothbrush-storage",
+      "title": "Keeping household toothbrushes identifiable and separate",
+      "category": "First aid & household hygiene",
+      "summary": "Organise toothbrush storage so everyday items are not confused between people.",
+      "tags": [
+        "toothbrush",
+        "oral hygiene",
+        "bathroom",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Assign place",
+          "Separate items",
+          "Review labels"
+        ],
+        "alt": "A three-part offline checklist for keeping household toothbrushes identifiable and separate: Assign place, Separate items, Review labels. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Give each person's toothbrush an identifiable place rather than relying on identical handles or memory. A simple label on a holder or storage position is easier to maintain than marking a brush where the marking may wear away. Keep personal items distinct, including during visits or shared accommodation."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Choose a holder that allows the items to be stored without unnecessary contact with other people's brushes. Consider reach, stability and accessibility for children or anyone with limited dexterity. Do not assume a decorative closed container is suitable for damp brushes; consult the manufacturer's care instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "Review the arrangement when brushes are replaced, someone moves in, or the bathroom is rearranged. Discard unidentified or damaged personal items according to their product instructions rather than guessing ownership."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-hygiene-travel-pouch",
+      "title": "Preparing a labelled personal hygiene pouch for short trips",
+      "category": "First aid & household hygiene",
+      "summary": "Keep ordinary personal-care essentials identifiable without sharing sensitive details.",
+      "tags": [
+        "travel",
+        "hygiene",
+        "toiletries",
+        "packing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Pack separately",
+          "Recheck"
+        ],
+        "alt": "A three-part offline checklist for preparing a labelled personal hygiene pouch for short trips: Identify, Pack separately, Recheck. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "List the everyday non-medicated toiletries a person normally uses and distinguish them from prescription medicines or specialist clinical supplies. Pack only products in sound, identifiable containers with their original safety information available. Consider travel restrictions and leak protection without transferring chemicals into unmarked bottles."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Separate clean items from used or damp items with suitable washable or replaceable pouches. Make frequently needed products accessible, especially for someone with mobility, vision or sensory needs. Avoid putting confidential health information on the outside of the pouch."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "After returning, remove damp contents, inspect for leaks and replenish ordinary consumables. Keep a small dated list of missing items rather than assuming the pouch is ready for the next trip."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-hairbrush-comb-organisation",
+      "title": "Keeping personal combs and hairbrushes organised at home",
+      "category": "First aid & household hygiene",
+      "summary": "Reduce mix-ups and make routine cleaning instructions easy to find.",
+      "tags": [
+        "hairbrush",
+        "comb",
+        "personal care",
+        "hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify owner",
+          "Store",
+          "Inspect"
+        ],
+        "alt": "A three-part offline checklist for keeping personal combs and hairbrushes organised at home: Identify owner, Store, Inspect. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Identify which combs, brushes and accessories belong to each person, particularly when similar items are kept together. Use individual storage positions or simple labels where helpful. Avoid sharing personal grooming tools when someone has been advised not to share them for a specific health reason."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Keep the manufacturer's cleaning and drying directions accessible, especially for brushes with cushions, wood, electrical parts or delicate finishes. Store items away from obvious contamination and excessive moisture, and check that handles and bristles remain in serviceable condition."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "Review storage after guests leave, children change routines or equipment is replaced. A clear ownership system is more useful than an elaborate inventory that nobody maintains."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-nail-tool-record",
+      "title": "Organising personal nail-care tools without confusing ownership",
+      "category": "First aid & household hygiene",
+      "summary": "Make everyday grooming tools easy to identify and maintain.",
+      "tags": [
+        "nail care",
+        "clippers",
+        "personal tools",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Store securely",
+          "Review"
+        ],
+        "alt": "A three-part offline checklist for organising personal nail-care tools without confusing ownership: Identify, Store securely, Review. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Keep a small record or labelled compartment for each person's everyday nail-care tools. Distinguish ordinary grooming tools from any equipment provided for a medical condition or professional treatment. Do not treat household tools as sterile clinical instruments."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Store sharp-edged grooming tools securely, particularly where children can access them, and follow the maker's care and cleaning information. Check for damaged edges, loose parts or corrosion; replace unsuitable tools instead of attempting improvised repairs."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "When tools are borrowed, lost or replaced, update the storage arrangement. People with specific foot, skin or circulation concerns should follow individual professional advice rather than relying on generic grooming instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-washable-face-cloth-rotation",
+      "title": "Setting up a simple rotation for washable face cloths",
+      "category": "First aid & household hygiene",
+      "summary": "Keep clean and used personal washcloths clearly distinguishable.",
+      "tags": [
+        "washcloth",
+        "face cloth",
+        "laundry",
+        "personal hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Clean storage",
+          "Used collection",
+          "Restock"
+        ],
+        "alt": "A three-part offline checklist for setting up a simple rotation for washable face cloths: Clean storage, Used collection, Restock. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Assign a clean storage area and a separate collection point for used cloths. In shared bathrooms, make ownership or intended use clear so a face cloth is not mistaken for a cleaning rag or another person's personal item. Use plain-language labels rather than relying only on colour."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Follow the textile care label and the household's usual laundry arrangements. Damp cloths left in an enclosed pile can become unpleasant and difficult to manage; choose a practical collection arrangement that can be emptied routinely. Avoid promising that a particular washing routine sterilises textiles."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "Check that clean cloths are genuinely available before marking the storage area stocked. Replace worn textiles and review the arrangement when laundry access or household needs change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-soap-dispenser-identification",
+      "title": "Identifying and maintaining everyday hand-soap dispensers",
+      "category": "First aid & household hygiene",
+      "summary": "Keep ordinary handwashing supplies easy to recognise and replenish.",
+      "tags": [
+        "soap",
+        "handwashing",
+        "dispenser",
+        "bathroom"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify product",
+          "Check access",
+          "Replenish"
+        ],
+        "alt": "A three-part offline checklist for identifying and maintaining everyday hand-soap dispensers: Identify product, Check access, Replenish. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Identify the intended hand-soap product and the dispenser it belongs in. Keep the original packaging or product information accessible for refills and any precautions. Do not pour unknown cleaning products into a soap dispenser or mix different formulations without manufacturer guidance."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Place the dispenser where intended users can reach it without creating clutter or spills around a sink. Consider pump effort, legibility and whether a refillable or sealed product is easier for the household to manage. Make the handwashing point usable without requiring an app or network connection."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "Check remaining stock during ordinary household routines and note when a pump is damaged or leaking. Clean or replace equipment according to its maker's instructions; a filled dispenser is not necessarily working if the pump fails."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-care-expiry-index",
+      "title": "Creating an expiry and condition index for non-medicated toiletries",
+      "category": "First aid & household hygiene",
+      "summary": "Avoid relying on unidentified or deteriorated everyday personal-care products.",
+      "tags": [
+        "toiletries",
+        "expiry",
+        "condition",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify label",
+          "Check condition",
+          "Update index"
+        ],
+        "alt": "A three-part offline checklist for creating an expiry and condition index for non-medicated toiletries: Identify label, Check condition, Update index. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Record the product name, intended user or shared location and any date or period-after-opening information printed by the manufacturer. Different products use different markings; do not invent a universal shelf life. Keep the original container so instructions and warnings remain available."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Inspect for obvious leaks, damaged packaging, unreadable labels or changes that warrant checking the maker's advice. Separate medicines and medical devices into their own review process rather than treating them as ordinary cosmetics. Do not use appearance alone to declare a product safe."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "Review the index when products are opened, replaced or moved. Remove entries for items no longer present, and avoid storing sensitive personal details in a shared household inventory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-guest-hygiene-supply-station",
+      "title": "Preparing a small guest hygiene supplies area",
+      "category": "First aid & household hygiene",
+      "summary": "Offer clearly identified basic supplies without mixing personal belongings.",
+      "tags": [
+        "guests",
+        "bathroom",
+        "hygiene",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Guest supplies",
+          "Clear access",
+          "Restock"
+        ],
+        "alt": "A three-part offline checklist for preparing a small guest hygiene supplies area: Guest supplies, Clear access, Restock. It illustrates organisation only, not medical treatment or hygiene efficacy.",
+        "caption": "Household organisation reference; follow product instructions and individual professional advice where relevant."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the everyday need",
+          "paragraphs": [
+            "Choose a small set of ordinary unopened or clearly designated guest supplies such as soap and spare tissues, based on what the household can realistically maintain. Keep these separate from residents' personal grooming tools and any clinical equipment. Avoid suggesting that shared products are suitable for every allergy or skin need."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Organise for practical access",
+          "paragraphs": [
+            "Use a simple, legible label and put supplies in a location visitors can reach without searching private cupboards. Ask about accessibility needs where appropriate instead of making assumptions. Provide a way to dispose of ordinary packaging and used tissues consistent with local arrangements."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and update",
+          "paragraphs": [
+            "After a visit, check what was used, replace depleted items and clean the storage surface according to the material's instructions. Keep the setup modest and easy to maintain rather than creating a misleading impression of medically approved hygiene facilities."
+          ]
+        }
+      ]
+    }
+  ]
+}
