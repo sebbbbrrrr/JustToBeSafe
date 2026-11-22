@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-broadband-outage-service-log",
+      "title": "Keeping a broadband outage and provider response log",
+      "category": "Urban infrastructure",
+      "summary": "A dated record distinguishes observed connectivity problems from provider-confirmed updates.",
+      "tags": [
+        "broadband",
+        "internet",
+        "outage",
+        "provider",
+        "records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observation",
+          "Provider reply",
+          "Follow-up"
+        ],
+        "alt": "A three-item offline checklist labelled Observation, Provider reply, Follow-up for organising information about keeping a broadband outage and provider response log; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Record what is actually unavailable",
+          "paragraphs": [
+            "Write the first time a connection problem was noticed, which household devices were affected, and whether the issue appears limited to one device or the wider connection. Note observations rather than diagnosing network equipment or assuming a regional outage.",
+            "Keep a short record of the provider's stated reference number, contact method and any follow-up date. A message from a neighbour can be useful context but is not proof of the provider's network status."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep the record usable offline",
+          "paragraphs": [
+            "Store the provider's verified support details in a paper or offline contact list, without writing passwords or account security answers on a shared sheet.",
+            "If internet access is needed for essential work or contact, note alternative agreed communication channels in advance. This guide is a recordkeeping aid, not a live service-status checker."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-temporary-accommodation-enquiry",
+      "title": "Organising questions for temporary accommodation after home disruption",
+      "category": "Household communication",
+      "summary": "A short enquiry sheet can reduce missed practical questions when accommodation is being arranged.",
+      "tags": [
+        "accommodation",
+        "housing",
+        "displacement",
+        "accessibility",
+        "records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Contact",
+          "Needs",
+          "Confirmation"
+        ],
+        "alt": "A three-item offline checklist labelled Contact, Needs, Confirmation for organising information about organising questions for temporary accommodation after home disruption; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Capture the essential arrangements",
+          "paragraphs": [
+            "Write the name and verified contact channel of the organisation offering accommodation, the dates being discussed and whether an offer is provisional or confirmed. Avoid sharing personal identity documents through an unverified message.",
+            "Ask about accessibility, household size, pets, travel arrangements and any costs before relying on the arrangement. Keep the answers together so different household members are not working from conflicting versions."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Separate planning from urgent safety",
+          "paragraphs": [
+            "Record what belongings and essential documents may be needed, but do not return to an unsafe property to collect them. Follow the instructions of competent responders and property managers.",
+            "A generic offline checklist cannot determine eligibility for housing assistance or guarantee availability. Confirm arrangements with the relevant provider or authority through a trusted channel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-storm-tree-observation",
+      "title": "Reporting a damaged public tree after severe weather",
+      "category": "Urban infrastructure",
+      "summary": "Ground-level observations can support a report without approaching unstable branches.",
+      "tags": [
+        "storm",
+        "trees",
+        "public-space",
+        "reporting",
+        "safety"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "record",
+          "title": "Observe only from a safe location",
+          "paragraphs": [
+            "Record a nearby street name or public landmark and describe visible fallen branches, obstruction or leaning from a distance. Do not stand beneath damaged trees, touch hanging branches or enter a cordoned area to obtain a photograph.",
+            "If there is an immediate danger to people or traffic, use the appropriate emergency reporting route. For non-urgent observations, use the relevant council, landowner or highways operator's verified reporting channel."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Avoid creating additional risk",
+          "paragraphs": [
+            "Note the time of observation and whether the route was already restricted. Do not infer that an apparently clear path is safe or that a tree has been inspected.",
+            "Keep any report reference for follow-up, and avoid circulating unverified claims that a road or park has reopened. Only the responsible operator can confirm its current access arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-rail-ticket-disruption-record",
+      "title": "Keeping rail ticket and disruption evidence organised",
+      "category": "Urban transport",
+      "summary": "A travel record can help explain a disrupted journey without assuming compensation eligibility.",
+      "tags": [
+        "rail",
+        "tickets",
+        "delays",
+        "refunds",
+        "records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Journey",
+          "Evidence",
+          "Operator rules"
+        ],
+        "alt": "A three-item offline checklist labelled Journey, Evidence, Operator rules for organising information about keeping rail ticket and disruption evidence organised; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Preserve the journey details",
+          "paragraphs": [
+            "Keep the planned origin, destination, date, service details and ticket type in one offline note. Record actual travel changes separately from what an app or notice predicted.",
+            "Retain the original ticket or permitted digital proof and any relevant operator messages. If a service was cancelled or a route changed, write down the source and date of that information rather than relying on memory."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Check the operator's own rules",
+          "paragraphs": [
+            "Refund, delay compensation and alternative travel conditions depend on the ticket and operator. Consult the applicable terms and verified contact route rather than assuming a fixed entitlement.",
+            "Avoid publishing tickets, QR codes or personal booking references in a community post. Store them privately and share only what a legitimate claim process requires."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-flood-property-access-status",
+      "title": "Keeping a clear record of property access restrictions after flooding",
+      "category": "Flood and weather readiness",
+      "summary": "A status note can prevent household members mistaking an unconfirmed reopening for permission to enter.",
+      "tags": [
+        "flood",
+        "property",
+        "access",
+        "restrictions",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Source",
+          "Restriction",
+          "Recheck"
+        ],
+        "alt": "A three-item offline checklist labelled Source, Restriction, Recheck for organising information about keeping a clear record of property access restrictions after flooding; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Record who gave the instruction",
+          "paragraphs": [
+            "Write down the source, time and wording of any property access restriction communicated by responders, a building manager or another responsible authority. Distinguish a direct instruction from a neighbour's report.",
+            "Use plain status labels such as 'access not confirmed' rather than predicting when an area will reopen. If different messages conflict, contact the responsible authority through a verified channel."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Share without encouraging unsafe entry",
+          "paragraphs": [
+            "Tell household members where the latest confirmed information is kept and who will check for updates. Do not distribute a speculative reopening time as fact.",
+            "Floodwater, damaged structures and affected services can remain hazardous after water recedes. Do not enter a restricted property to check possessions or utilities; follow current directions from responsible professionals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-service-appointment-backup",
+      "title": "Preparing a backup record for a cancelled public-service appointment",
+      "category": "Household communication",
+      "summary": "An offline appointment record helps separate cancellations, rescheduling and outstanding documents.",
+      "tags": [
+        "appointments",
+        "public-services",
+        "offline",
+        "rescheduling",
+        "records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Original booking",
+          "Change",
+          "Next contact"
+        ],
+        "alt": "A three-item offline checklist labelled Original booking, Change, Next contact for organising information about preparing a backup record for a cancelled public-service appointment; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Keep the appointment facts together",
+          "paragraphs": [
+            "Write the service name, location, original date, appointment reference if provided, and the verified contact method. Store private identifiers separately from any shared household planner.",
+            "If an appointment changes, note who communicated the change and whether a replacement slot is confirmed or merely requested. Do not assume a missed automated message means an appointment was cancelled."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Plan the next contact",
+          "paragraphs": [
+            "Keep a brief list of documents or questions still needed, and record when the service asks you to follow up. Check any time-sensitive requirement directly with the provider.",
+            "A printed note can help when a booking portal is offline, but it cannot update a live booking. Confirm any revised arrangement through the organisation's official channel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-neighbourhood-information-boundaries",
+      "title": "Separating neighbourhood observations from official disruption instructions",
+      "category": "Household communication",
+      "summary": "A simple information ledger makes uncertainty visible when local messages spread quickly.",
+      "tags": [
+        "rumours",
+        "community",
+        "verification",
+        "communications",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observed",
+          "Verified",
+          "Needs checking"
+        ],
+        "alt": "A three-item offline checklist labelled Observed, Verified, Needs checking for organising information about separating neighbourhood observations from official disruption instructions; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Label information by its origin",
+          "paragraphs": [
+            "For each useful message, write whether it came from personal observation, a named organisation or an unattributed forward. Record the date and the area the information concerns.",
+            "Avoid turning a neighbour's observation into a claim about the whole town. Where a message could affect safety or travel, look for confirmation from the responsible authority before acting on it."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Share the uncertainty as well as the message",
+          "paragraphs": [
+            "If you pass information to someone else, include the source and whether it has been verified. Do not forward private addresses, contact details or images of vulnerable people without consent.",
+            "An offline note is a snapshot, not a live alert. Clearly mark older entries for rechecking and use current official instructions when available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-venue-capacity-enquiry",
+      "title": "Checking practical details before relying on a community venue during disruption",
+      "category": "Urban infrastructure",
+      "summary": "An enquiry card records accessibility and facilities without claiming a venue is an emergency shelter.",
+      "tags": [
+        "community-venue",
+        "accessibility",
+        "facilities",
+        "opening",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Access",
+          "Confirmation"
+        ],
+        "alt": "A three-item offline checklist labelled Service, Access, Confirmation for organising information about checking practical details before relying on a community venue during disruption; it does not show live conditions or direct a hazardous procedure.",
+        "caption": "Use this as a personal planning aid; confirm current arrangements with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "record",
+          "title": "Ask about the intended use",
+          "paragraphs": [
+            "Record the venue's name and verified contact route, then ask whether the specific service or activity is actually being offered. A building normally open to the public is not automatically an emergency rest centre.",
+            "Check practical needs such as step-free access, toilets, seating, charging availability and any booking requirements directly with the operator. Write down the date of the answer because arrangements can change."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep plans conditional",
+          "paragraphs": [
+            "Make a separate note of transport options and any support a household member might require, without posting private personal details in a public list.",
+            "Do not treat an old opening-hours card as confirmation that the venue is currently available or safe. Follow local authority and venue instructions for incident-specific arrangements."
+          ]
+        }
+      ]
+    }
+  ]
+}
