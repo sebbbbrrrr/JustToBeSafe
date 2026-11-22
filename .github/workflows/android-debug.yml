@@ -2,6 +2,13 @@ name: Android debug APK (manual)
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feature/family-profile-foundation
+    paths:
+      - '.github/workflows/android-debug.yml'
+      - 'app/build.gradle.kts'
+      - 'app/src/main/java/**'
 
 permissions:
   contents: read
@@ -18,14 +25,23 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Configure Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Locate Android SDK
+        run: |
+          echo "ANDROID_HOME=${ANDROID_HOME:-/usr/local/lib/android/sdk}" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=${ANDROID_HOME:-/usr/local/lib/android/sdk}" >> "$GITHUB_ENV"
+          test -d "${ANDROID_HOME:-/usr/local/lib/android/sdk}"
       - name: Configure Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.13'
-      - name: Install Android SDK 36
-        run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+      - name: Install Android command-line tools and SDK 36
+        run: |
+          mkdir -p "$ANDROID_HOME/cmdline-tools/latest"
+          curl -fLsS --retry 3 -o /tmp/android-tools.zip "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip"
+          unzip -q /tmp/android-tools.zip -d /tmp/android-tools
+          cp -r /tmp/android-tools/cmdline-tools/. "$ANDROID_HOME/cmdline-tools/latest/"
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
       - name: Run checks and assemble debug APK
         run: gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon
       - name: Upload debug APK

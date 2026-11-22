@@ -105,8 +105,8 @@ private fun SupplyRow(item: SupplyItem, selected: Boolean, onToggle: () -> Unit)
 }
 
 @Composable
-fun SuppliesScreen(checked: Set<String>, onToggle: (String) -> Unit) {
-    var selected by rememberSaveable { mutableStateOf("checklist") }
+fun SuppliesScreen(checked: Set<String>, onToggle: (String) -> Unit, initialSection: String = "checklist") {
+    var selected by rememberSaveable { mutableStateOf(initialSection) }
     Column {
         Row(
             modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),

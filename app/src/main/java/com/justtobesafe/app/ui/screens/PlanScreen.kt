@@ -21,7 +21,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Add
 import androidx.compose.material.icons.outlined.DeleteOutline
 import androidx.compose.material.icons.outlined.Edit
-import androidx.compose.material.icons.outlined.LockOutline
+import androidx.compose.material.icons.outlined.Lock
 import androidx.compose.material.icons.outlined.PeopleOutline
 import androidx.compose.material.icons.outlined.Place
 import androidx.compose.material3.AlertDialog
@@ -201,7 +201,7 @@ fun PlanScreen(plan: HouseholdPlan, loaded: Boolean, error: String?,
                 SoftCard {
                     Row(Modifier.padding(17.dp), verticalAlignment = Alignment.Top,
                         horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Icon(Icons.Outlined.LockOutline, contentDescription = null,
+                        Icon(Icons.Outlined.Lock, contentDescription = null,
                             tint = colors.primary)
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
                             Text("Private by design", style = MaterialTheme.typography.titleMedium)
