@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-closure-method-reference",
+      "title": "Identifying closure methods for opened pantry packages",
+      "category": "Food & water",
+      "summary": "Make the available clips, ties and original closures easy to identify without assuming any closure changes a product's safe storage life.",
+      "tags": [
+        "package closures",
+        "clips",
+        "ties",
+        "pantry",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate.",
+          "Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method.",
+          [
+            "Original seal",
+            "Matching clip",
+            "Label retained"
+          ]
+        ],
+        "alt": "An offline checklist diagram with labelled elements Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate., Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method., Original seal,Matching clip,Label retained. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate. · Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method. · Original seal,Matching clip,Label retained."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Check the packaging",
+          "paragraphs": [
+            "Identify the original closure supplied with each commonly opened dry-food package. Record whether the package has a built-in zip, fold-over flap, lid or separate clip, and where the matching closure is kept.",
+            "Do not assume a clip or seal makes a product airtight or suitable for storage after opening. Keep the manufacturer's storage directions and label information with the food."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Make equipment findable",
+          "paragraphs": [
+            "Keep spare clips and ties in one labelled location, separated from cleaning chemicals and other non-food supplies. Note which closures are difficult for household members to operate.",
+            "Replace damaged closures or packaging according to the product's instructions. This guide describes equipment identification, not a food-preservation method."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-serving-utensil-register",
+      "title": "Keeping serving utensils available for planned meals",
+      "category": "Food & water",
+      "summary": "Track basic serving utensils so meal plans do not depend on equipment that is missing or inaccessible.",
+      "tags": [
+        "ladle",
+        "serving spoon",
+        "tongs",
+        "meals",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned.",
+          "Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance.",
+          [
+            "Meal",
+            "Utensil",
+            "Storage spot"
+          ]
+        ],
+        "alt": "An offline checklist diagram with labelled elements Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned., Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance., Meal,Utensil,Storage spot. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned. · Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance. · Meal,Utensil,Storage spot."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "List the utensils actually used",
+          "paragraphs": [
+            "For regular household meals, identify any ladle, serving spoon, tongs or scoop needed to portion food. Note its storage location and whether a member of the household can comfortably reach and handle it.",
+            "Distinguish serving tools from cooking equipment and from utensils reserved for a specific household need. Do not infer that a tool is suitable for food contact without checking its intended use."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Prepare a simple equipment reference",
+          "paragraphs": [
+            "Attach a short equipment note to meal plans that require a particular utensil. If the item is shared or frequently moved, agree where it should be returned.",
+            "Check for loose handles or other visible damage and follow the manufacturer's care instructions. Food hygiene and allergen controls need separate, reviewed guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-bottle-cap-pairing",
+      "title": "Matching reusable water bottles with their caps",
+      "category": "Food & water",
+      "summary": "Prevent misplaced bottle caps and confusing spare parts through a simple household matching reference.",
+      "tags": [
+        "water bottle",
+        "cap",
+        "lid",
+        "reusable",
+        "parts"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together.",
+          "When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute.",
+          [
+            "Bottle",
+            "Matching cap",
+            "Spare parts"
+          ]
+        ],
+        "alt": "An offline checklist diagram with labelled elements Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together., When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute., Bottle,Matching cap,Spare parts. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together. · When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute. · Bottle,Matching cap,Spare parts."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify matching components",
+          "paragraphs": [
+            "Group each reusable bottle with the lid or cap designed for that exact model. Record identifying features such as shape, colour and manufacturer marking when several bottles look similar.",
+            "A cap that appears to fit may not be the correct part. Avoid treating a visual match as proof of leak resistance, hygiene or drinking-water suitability."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Store and review",
+          "paragraphs": [
+            "Choose a consistent place for spare caps, seals and manufacturer's instructions. A small labelled tray can prevent unrelated components from being mixed together.",
+            "When a seal is missing or a component is damaged, consult the product instructions or manufacturer rather than improvising a substitute."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry-nonfood-item-boundaries",
+      "title": "Keeping non-food household supplies distinct from pantry foods",
+      "category": "Food & water",
+      "summary": "Use clear storage boundaries to reduce confusion between edible supplies and unrelated household consumables.",
+      "tags": [
+        "pantry",
+        "nonfood",
+        "batteries",
+        "paper goods",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items.",
+          "Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance.",
+          [
+            "Food",
+            "Equipment",
+            "Non-food"
+          ]
+        ],
+        "alt": "An offline shelf layout diagram with labelled elements Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items., Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance., Food,Equipment,Non-food. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items. · Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance. · Food,Equipment,Non-food."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Define the categories",
+          "paragraphs": [
+            "List non-food supplies that currently share a cupboard with food, such as paper goods, batteries or spare packaging. Identify a separate labelled area for these items where practical.",
+            "Never place household chemicals or cleaning products in food containers. Follow each product's storage and separation instructions, especially where children or pets could access the cupboard."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Make boundaries visible",
+          "paragraphs": [
+            "Use plain-language shelf labels rather than relying on colour alone. A household member should be able to tell at a glance whether an area holds food, serving equipment or non-food items.",
+            "Review the layout after a major restock. This is an organisational guide, not a substitute for product-specific chemical safety or food-storage guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-container-visibility-key",
+      "title": "Creating a visibility key for opaque food containers",
+      "category": "Food & water",
+      "summary": "Help household members identify opaque containers without opening several of them or losing original food labels.",
+      "tags": [
+        "opaque containers",
+        "labels",
+        "pantry",
+        "identification",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one.",
+          "Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging.",
+          [
+            "Container",
+            "Readable label",
+            "Shelf key"
+          ]
+        ],
+        "alt": "An offline checklist diagram with labelled elements Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one., Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging., Container,Readable label,Shelf key. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one. · Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging. · Container,Readable label,Shelf key."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Record what can be seen",
+          "paragraphs": [
+            "For opaque containers already used in the household, note the visible label, container shape and shelf location. Keep the original product identity, date markings and instructions attached or separately linked.",
+            "Do not identify a food solely from its colour, texture or smell. If the contents cannot be reliably established, mark the record uncertain rather than guessing."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep the key current",
+          "paragraphs": [
+            "Use large, legible text and a stable location code that still makes sense when the cupboard is reorganised. Keep an offline paper copy if other household members need one.",
+            "Update the key whenever contents change. This guide does not endorse transferring particular foods out of their original packaging."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-meal-kit-components",
+      "title": "Keeping the components of a familiar meal together in a planning list",
+      "category": "Food & water",
+      "summary": "Make an offline component list for routine meals without repacking foods or promising nutritional completeness.",
+      "tags": [
+        "meal components",
+        "shopping",
+        "offline list",
+        "ingredients",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Describe a complete familiar meal",
+          "paragraphs": [
+            "For a few regular meals, list the separate ingredients and utensils normally required, including any condiments or accompaniments easily forgotten. Use the exact product names where dietary requirements make them important.",
+            "A planning list is not a safety approval for storage, preparation or consumption. Keep manufacturer directions and dietary restrictions as the controlling information."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Make substitutions explicit",
+          "paragraphs": [
+            "Mark components that are optional and those for which the household has already agreed an acceptable alternative. Avoid assuming an unfamiliar substitute meets allergy or dietary needs.",
+            "Keep the list short enough to scan while shopping or checking a cupboard. Revise it when the household's routine changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-sponge-cloth-identification",
+      "title": "Identifying reusable kitchen cloths and cleaning accessories",
+      "category": "Food & water",
+      "summary": "Keep everyday cleaning cloths and accessories recognisable without giving unreviewed sanitation instructions.",
+      "tags": [
+        "cloth",
+        "sponge",
+        "cleaning",
+        "kitchen",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention.",
+          "This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe.",
+          [
+            "Cloths",
+            "Brushes",
+            "Spare area"
+          ]
+        ],
+        "alt": "An offline checklist diagram with labelled elements Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention., This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe., Cloths,Brushes,Spare area. It supports household identification and organisation, not food treatment or sanitation procedures.",
+        "caption": "Household reference: Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention. · This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe. · Cloths,Brushes,Spare area."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Make supplies identifiable",
+          "paragraphs": [
+            "Record where ordinary kitchen cloths, brushes and other accessories are stored. Where the household already separates items by task, write down those categories in plain language.",
+            "Do not assume that colour-coding alone establishes hygienic separation. Any cleaning, disinfection or replacement procedures should follow relevant product instructions and reviewed public-health guidance."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Reduce storage confusion",
+          "paragraphs": [
+            "Keep spare accessories in a clearly labelled area, away from food ingredients. Note when a cloth or brush has become visibly damaged and needs attention.",
+            "This article is an inventory and identification aid; it does not specify how to disinfect surfaces or decide when equipment is microbiologically safe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offline-food-supplier-order-details",
+      "title": "Saving essential order details for regular food suppliers",
+      "category": "Food & water",
+      "summary": "Preserve the basic details needed to identify a grocery order when an app or connection is unavailable.",
+      "tags": [
+        "grocery order",
+        "supplier",
+        "receipt",
+        "offline",
+        "delivery"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Capture useful order references",
+          "paragraphs": [
+            "For regular food orders, retain the supplier name, order reference, collection or delivery arrangement and any customer-service contact information already provided on the receipt. Do not put payment credentials in the record.",
+            "Record the date the details were copied. Supplier arrangements and contact numbers can change, so the offline note must not be presented as live confirmation."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep personal details private",
+          "paragraphs": [
+            "Store any household-specific order references in a private household notebook or app area rather than a public guide or shared repository. Use a simple template with blank fields, not real customer examples.",
+            "If an order cannot be confirmed, check directly with the supplier when communications are restored. A saved order reference does not establish that a delivery is scheduled or guaranteed."
+          ]
+        }
+      ]
+    }
+  ]
+}
