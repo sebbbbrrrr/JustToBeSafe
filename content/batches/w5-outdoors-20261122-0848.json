@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-coordinate-datum-notes",
+      "title": "Compare different map datum labels before sharing coordinates",
+      "category": "Outdoor navigation",
+      "summary": "Understand why coordinate values need their reference system when shared.",
+      "tags": [
+        "datum",
+        "coordinates",
+        "map",
+        "gps",
+        "reference",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the reference system",
+          "paragraphs": [
+            "Check the map margin, digital map settings or device information for the coordinate system and datum associated with a saved position. Similar-looking numbers can refer to different places when interpreted under different systems.",
+            "Record the exact format beside the coordinates, rather than assuming everyone in a group uses the same settings. An easting and northing, a latitude and longitude, and a what3words-style reference are not interchangeable labels."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Communicate without ambiguity",
+          "paragraphs": [
+            "When sharing a planned meeting position, include the location name, coordinate notation, and the source or map edition used. Read the full reference back to the other person where practical, including hemisphere or direction markers.",
+            "If two devices show different values for what appears to be the same spot, stop treating either set as authoritative until the format and reference system have been checked. Do not rely on a single coordinate string for a safety-critical journey."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep a readable backup",
+          "paragraphs": [
+            "Keep a plain-language description of the intended place alongside the digital reference, such as a named entrance or signed junction. That helps identify transcription mistakes without suggesting that an approximate description is precise.",
+            "Review saved notes after changing mapping software or importing a route file. This is an organisational check, not a substitute for trained navigation in difficult terrain."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check system",
+          "Record format",
+          "Confirm place"
+        ],
+        "alt": "Schematic checklist illustration for compare different map datum labels before sharing coordinates, showing Check system, Record format, Confirm place as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for compare different map datum labels before sharing coordinates; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-regional-map-file-index",
+      "title": "Organise offline map files for more than one region",
+      "category": "Outdoor navigation",
+      "summary": "Keep multiple regional maps recognisable without mixing editions.",
+      "tags": [
+        "map",
+        "regions",
+        "offline",
+        "storage",
+        "downloads",
+        "files"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Separate areas clearly",
+          "paragraphs": [
+            "Use region names and a consistent file naming convention so that a downloaded map can be distinguished from a similarly named area elsewhere. Include a broad geographic label rather than relying on cryptic download codes.",
+            "Check the actual geographic extent of each file in the mapping app while connectivity is available. A file being present does not prove the full route or surrounding alternatives are covered."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check versions and storage",
+          "paragraphs": [
+            "Record the download date and provider where available, and avoid presenting old saved data as a current access or path-status notice. Keep enough device storage free for the app to open and use its local files.",
+            "When moving files between devices, test that the receiving app can read them without network access. A copied filename or thumbnail is not evidence that the underlying map tiles transferred."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Make retrieval straightforward",
+          "paragraphs": [
+            "Group regional maps under a short folder or collection name and keep the most relevant files easy to find. Avoid storing multiple indistinguishable copies that make the intended version uncertain.",
+            "A small paper index of map coverage can help people who share a device, but it should not expose private travel plans in a publicly accessible place."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "North region",
+          "South region",
+          "Archive"
+        ],
+        "alt": "Schematic shelves illustration for organise offline map files for more than one region, showing North region, South region, Archive as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for organise offline map files for more than one region; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-sit-mat-care",
+      "title": "Check a reusable sit mat before a routine outing",
+      "category": "Outdoor equipment",
+      "summary": "Inspect a small ground-insulation accessory for everyday comfort.",
+      "tags": [
+        "sit mat",
+        "foam",
+        "outdoor",
+        "equipment",
+        "inspection",
+        "cleaning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Look for visible wear",
+          "paragraphs": [
+            "Unfold or unroll the mat in a clean space and check for cracks, loose pieces, sharp edges or trapped debris. Pay particular attention to hinges and folding points that experience repeated stress.",
+            "Compare its condition with the manufacturer's intended use. A compact foam sit mat is a comfort accessory, not a certified substitute for protective equipment in hazardous cold conditions."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Clean and dry it appropriately",
+          "paragraphs": [
+            "Remove loose dirt using a method compatible with the material and any care instructions. Avoid harsh cleaners or high heat that could damage coatings or foam.",
+            "Allow both faces and folds to dry before storing. If the mat has absorbed a persistent smell or shows material breakdown, note it for replacement rather than concealing the problem by packing it tightly."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Pack it without obstruction",
+          "paragraphs": [
+            "Keep the mat in an accessible but secure part of the bag so it does not fall away or cover visibility accessories. Check straps or pockets do not snag on the material.",
+            "After an outing, inspect it again and record any damage. This simple equipment routine is not a guide to managing cold exposure."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect",
+          "Dry",
+          "Store"
+        ],
+        "alt": "Schematic sequence illustration for check a reusable sit mat before a routine outing, showing Inspect, Dry, Store as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for check a reusable sit mat before a routine outing; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-route-guidebook-index",
+      "title": "Maintain a personal index of public route guidebooks",
+      "category": "Outdoor navigation",
+      "summary": "Make printed walking references findable and distinguish old information.",
+      "tags": [
+        "guidebook",
+        "route",
+        "index",
+        "edition",
+        "books",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record each book's coverage",
+          "paragraphs": [
+            "Write down the title, publisher, edition or publication year, and the broad area covered. Keep the list short enough to scan when choosing which book to pack.",
+            "A guidebook can provide helpful background but may not reflect current closures, land access arrangements or damaged infrastructure. Treat the publication date as context rather than proof of present conditions."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Match a guide to a plan",
+          "paragraphs": [
+            "Check that the route description and accompanying map refer to the same named place and direction of travel. Where routes have similarly named sections, note the exact page and route identifier.",
+            "If the book refers to a path or facility that is not shown on a more recent authoritative map, record the disagreement rather than silently selecting whichever description is more convenient."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Protect the index offline",
+          "paragraphs": [
+            "Keep the catalogue in a local note or on paper with clear titles and edition labels. Avoid copying entire copyrighted guidebook pages into shared app content.",
+            "Update the index when a book is replaced or loaned out, so the reference list does not imply a copy is available when it is not."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Catalogue",
+          "Cross-check",
+          "Update"
+        ],
+        "alt": "Schematic checklist illustration for maintain a personal index of public route guidebooks, showing Catalogue, Cross-check, Update as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for maintain a personal index of public route guidebooks; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-daypack-attachment-straps",
+      "title": "Inspect reusable cable ties and straps on a daypack",
+      "category": "Outdoor equipment",
+      "summary": "Check small external attachment accessories before carrying gear.",
+      "tags": [
+        "straps",
+        "ties",
+        "daypack",
+        "fasteners",
+        "inspection",
+        "packing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the attachment's job",
+          "paragraphs": [
+            "List which straps or reusable ties secure lightweight, nonessential accessories and which belong to the bag's original load-bearing system. Do not replace manufacturer load-bearing components with improvised ties.",
+            "Look for splits, fraying, weakened fasteners and sharp edges. A strap that closes in a static test may still be unsuitable if its material is visibly damaged."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Avoid snagging and imbalance",
+          "paragraphs": [
+            "Keep loose ends controlled and ensure attachments do not cover reflectors, snag on handrails or obstruct access to the main bag. Recheck that the load remains comfortable and stable during ordinary movement.",
+            "Avoid attaching heavy or hazardous items externally unless the bag manufacturer explicitly supports the configuration. A tidy appearance alone does not establish safe load capacity."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Record and replace",
+          "paragraphs": [
+            "Set aside damaged ties for disposal and record the type or size needed if replacement is appropriate. Follow product instructions for cleaning and storage.",
+            "Inspect attachment points again after travel. This article concerns everyday organisation, not climbing, rescue or load-bearing safety systems."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Inspect",
+          "Secure"
+        ],
+        "alt": "Schematic sequence illustration for inspect reusable cable ties and straps on a daypack, showing Identify, Inspect, Secure as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for inspect reusable cable ties and straps on a daypack; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-trailhead-transport-links",
+      "title": "Keep a paper record of public transport links to trail starts",
+      "category": "Outdoor planning",
+      "summary": "Organise published travel links without treating timetables as live.",
+      "tags": [
+        "trailhead",
+        "transport",
+        "bus",
+        "rail",
+        "offline",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "List the relevant stops",
+          "paragraphs": [
+            "Record the stop or station name, the service operator, and the general connection to a walking route start. Distinguish the actual boarding point from a similarly named stop on the opposite side of a road.",
+            "Write down how you obtained the information and when it was checked. Timetables, routes and stop locations can change, especially during works or seasonal service revisions."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Separate fixed facts from live service",
+          "paragraphs": [
+            "Keep the route's starting location and transport notes together, but label departure times as last-checked rather than guaranteed. Offline notes cannot confirm a service is running today.",
+            "Before relying on a connection, consult the operator's current information when possible. If it cannot be checked, acknowledge the uncertainty rather than implying the paper record is authoritative."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep alternatives proportionate",
+          "paragraphs": [
+            "Note an accessible way to contact the operator and a broad fallback for a missed connection, without inventing specific live availability or fares.",
+            "If travelling as a group, make sure everyone understands which stop and service were discussed. Do not publish personal meeting times or phone numbers in shared content."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Arrival stop",
+          "Walking start",
+          "Return stop"
+        ],
+        "alt": "Schematic route illustration for keep a paper record of public transport links to trail starts, showing Arrival stop, Walking start, Return stop as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for keep a paper record of public transport links to trail starts; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-shared-equipment-case-labels",
+      "title": "Choose clear labels for shared outdoor equipment cases",
+      "category": "Outdoor equipment",
+      "summary": "Prevent similar equipment cases being confused in a group.",
+      "tags": [
+        "case",
+        "label",
+        "shared",
+        "equipment",
+        "storage",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Use recognisable names",
+          "paragraphs": [
+            "Label cases with the type of equipment inside and a short distinguishing detail, such as size or compatible device. Avoid relying only on colour, since colours may be hard to distinguish in low light.",
+            "If the case contains batteries or sensitive electronics, keep the manufacturer's handling information available. A label should not replace appropriate packaging or protection."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Include useful handling context",
+          "paragraphs": [
+            "Add a small note about whether a case contains fragile items, removable accessories or items that must remain dry, without making unsupported claims of waterproof performance.",
+            "Keep labels short enough to read on a small screen or physical tag. Long strings, abbreviations known only to one person and faded handwriting make a shared inventory harder to use."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Review during returns",
+          "paragraphs": [
+            "Check the case contents against a short list after shared use. Record missing pieces separately rather than marking the whole case complete because it was returned.",
+            "Replace unreadable labels and avoid writing personal contact details on cases that may be left in public. Keep any ownership record private."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Case label",
+          "Contents",
+          "Return check"
+        ],
+        "alt": "Schematic shelves illustration for choose clear labels for shared outdoor equipment cases, showing Case label, Contents, Return check as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for choose clear labels for shared outdoor equipment cases; not a live or safety-certified reference."
+      }
+    },
+    {
+      "id": "outdoor-phone-route-distance-limits",
+      "title": "Understand the limitations of route distance shown by a phone",
+      "category": "Outdoor navigation",
+      "summary": "Interpret estimated route length without treating a phone reading as exact.",
+      "tags": [
+        "distance",
+        "gps",
+        "phone",
+        "route",
+        "tracking",
+        "accuracy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Recognise different measurements",
+          "paragraphs": [
+            "A planned route distance may follow mapped paths, while a recorded distance comes from successive position estimates. Those measurements answer different questions and may not match.",
+            "A phone's location estimates can be affected by signal conditions, buildings, tree cover and recording settings. Small position errors can accumulate in a track and change the reported total."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Compare like with like",
+          "paragraphs": [
+            "When reviewing an outing, note whether a distance came from a planned map line, a recorded track or an app summary. Avoid combining values without explaining the source.",
+            "If the recorded trace contains large jumps or missing sections, treat the distance as uncertain. Do not use a single distance reading to infer terrain difficulty or travel time for everyone."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep the context",
+          "paragraphs": [
+            "Record the route name, date and measurement method beside any saved distance. A clear note is more useful than a number with false precision.",
+            "For decisions involving unfamiliar terrain, use current appropriate mapping and judgement rather than assuming a phone's total-distance figure describes conditions ahead."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Plan length",
+          "Track length",
+          "Review gaps"
+        ],
+        "alt": "Schematic sequence illustration for understand the limitations of route distance shown by a phone, showing Plan length, Track length, Review gaps as distinct labelled concepts, not precise technical or emergency instructions.",
+        "caption": "Concept diagram for understand the limitations of route distance shown by a phone; not a live or safety-certified reference."
+      }
+    }
+  ]
+}
