@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "household-health-communication-language",
+      "title": "Planning language support for a healthcare conversation",
+      "category": "First aid",
+      "summary": "Prepare practical language and communication support without relying on a mobile connection.",
+      "tags": [
+        "language",
+        "interpreter",
+        "communication",
+        "healthcare",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Preferred language",
+          "Support contact",
+          "Backup notes"
+        ],
+        "alt": "An original checklist schematic for the household preparation topic planning language support for a healthcare conversation, with labelled elements Preferred language, Support contact, Backup notes; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Preferred language · Support contact · Backup notes."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record communication needs",
+          "paragraphs": [
+            "Write down the language or communication format that helps each person understand healthcare information. Include whether written notes, large print, hearing support or a qualified interpreter might be needed, without assuming one family member can interpret sensitive information accurately.",
+            "Keep the record brief and accessible to the person concerned. Ask their permission before sharing any details about communication needs or healthcare appointments."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Arrange support in advance",
+          "paragraphs": [
+            "Where possible, ask the healthcare service how to request language or accessibility support before an appointment. Note the service's contact route and whether confirmation is needed rather than assuming help will be available automatically.",
+            "Prepare a short list of non-sensitive questions in the preferred language. If an interpreter or accessible material cannot be arranged, ask the service about appropriate alternatives rather than relying on an unverified translation of clinical instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep an offline backup",
+          "paragraphs": [
+            "Store a paper or offline copy of communication preferences where the person can find it. Check that it remains accurate after a change in contact details or preferences.",
+            "This is a preparation and access guide, not a translation of treatment instructions. Decisions about care should be discussed with an appropriate healthcare professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accessible-health-information-format",
+      "title": "Making health information readable in accessible formats",
+      "category": "First aid",
+      "summary": "Organise household reference notes for people who need larger text, audio or simpler layouts.",
+      "tags": [
+        "large print",
+        "audio",
+        "accessible",
+        "readability",
+        "health information"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose format",
+          "Check legibility",
+          "Keep updated"
+        ],
+        "alt": "An original checklist schematic for the household preparation topic making health information readable in accessible formats, with labelled elements Choose format, Check legibility, Keep updated; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Choose format · Check legibility · Keep updated."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify usable formats",
+          "paragraphs": [
+            "Ask the person who will use the information whether they prefer large print, plain-language notes, accessible digital text or another format. Do not assume that a visual diagram is useful to everyone.",
+            "Use descriptive headings, short paragraphs and clear labels for household information such as appointment locations and nonclinical contact routes. Keep the original official material available where possible."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check access without connectivity",
+          "paragraphs": [
+            "Confirm that any digital note opens without a network connection and that the device's accessibility settings work as expected. If a paper copy is preferred, test readability in ordinary indoor lighting.",
+            "Avoid placing confidential details in a shared or publicly visible file. If a helper needs access, agree what information they should be able to see."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review changes",
+          "paragraphs": [
+            "After a device change, new prescription or change in support needs, check whether the preferred format is still practical. Make it clear when an offline note is out of date.",
+            "Do not simplify or rephrase medication directions in a way that could alter their meaning; ask a pharmacist or clinician for an accessible official version instead."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medical-device-power-dependency-register",
+      "title": "Documenting household equipment that depends on electricity",
+      "category": "First aid",
+      "summary": "Create a private nonclinical register of essential powered care equipment and support contacts.",
+      "tags": [
+        "medical device",
+        "electricity",
+        "power",
+        "equipment",
+        "backup",
+        "care"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Device details",
+          "Support contacts",
+          "Power notes"
+        ],
+        "alt": "An original shelves schematic for the household preparation topic documenting household equipment that depends on electricity, with labelled elements Device details, Support contacts, Power notes; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Device details · Support contacts · Power notes."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify essential equipment",
+          "paragraphs": [
+            "With the equipment user's consent, record the device's exact name, model and where its official manual is kept. Note whether the equipment is essential to daily care and which household members know where it is stored.",
+            "Avoid copying technical operating settings into an informal guide. Equipment and backup power requirements vary by model, and guessing them can create serious risks."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Record verified support routes",
+          "paragraphs": [
+            "Keep the supplier, clinical team and relevant electricity-network contact information in an accessible offline location. Ask the responsible professional or supplier what interruption planning applies to the specific device.",
+            "Record whether a manufacturer-approved backup arrangement exists and where its instructions are kept. Do not assume that a household power bank, extension lead or improvised battery can safely run medical equipment."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain the register",
+          "paragraphs": [
+            "Review contact details and equipment changes periodically, especially after servicing or a replacement device. Ensure any shared household copy contains only information the person has agreed to disclose.",
+            "This article is an administrative planning aid. A person reliant on life-sustaining equipment needs an individual plan from their clinical team and supplier, not generic technical advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-health-supply-delivery-record",
+      "title": "Tracking deliveries of essential household care supplies",
+      "category": "First aid",
+      "summary": "Keep a simple offline record of expected deliveries, shortages and supplier contact routes.",
+      "tags": [
+        "care supplies",
+        "delivery",
+        "stock",
+        "supplier",
+        "shortage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Expected",
+          "Received",
+          "Follow up"
+        ],
+        "alt": "An original sequence schematic for the household preparation topic tracking deliveries of essential household care supplies, with labelled elements Expected, Received, Follow up; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Expected · Received · Follow up."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "List recurring supplies",
+          "paragraphs": [
+            "Record the name of each recurring nonclinical care supply, its usual supplier, the storage location and who is authorised to arrange replacements. Keep account credentials and payment information out of shared notes.",
+            "For prescription medicines or specialist clinical items, use the provider's official ordering system and do not substitute products without appropriate professional advice."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate expected from received",
+          "paragraphs": [
+            "A planned delivery is not the same as stock physically available at home. Mark items as received only after checking the package and confirming that it belongs to the intended recipient.",
+            "Record missing or damaged parcels without publishing personal health information in delivery photographs or publicly accessible messages. Keep packaging details when needed for a supplier query."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Plan follow-up",
+          "paragraphs": [
+            "Keep an offline telephone number or other verified route for reporting supply problems. If an essential clinical item is running low, contact the responsible provider early for appropriate advice.",
+            "Review the list after a supplier or care arrangement changes. This guide covers organisation and communication, not clinical decisions about replacement products."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-visitor-infection-boundaries",
+      "title": "Agreeing household visiting arrangements during illness",
+      "category": "First aid",
+      "summary": "Discuss practical visitor communication and privacy without making medical isolation claims.",
+      "tags": [
+        "visitors",
+        "illness",
+        "household",
+        "communication",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Agree who needs information",
+          "paragraphs": [
+            "When someone is unwell, ask what they want visitors, relatives or delivery workers to know. A short message about postponing a visit may be enough; a diagnosis is usually not necessary for routine household coordination.",
+            "Avoid sharing a person's health status with neighbours or group chats without their consent. Consider whether essential carers require a different arrangement from social visitors."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check current professional advice",
+          "paragraphs": [
+            "If there is a suspected infectious illness, consult current public-health or clinical advice relevant to the situation rather than applying a universal household rule. People receiving home care may have service-specific procedures.",
+            "Keep everyday household arrangements separate from clinical decisions about isolation, protective equipment or return to work or school. These may vary by illness and individual circumstances."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Make changes easy to communicate",
+          "paragraphs": [
+            "Maintain a simple list of people whose visits may need rescheduling and how to contact them. Where the person needs help communicating, agree who can send a message on their behalf.",
+            "Review the arrangement when circumstances change, and avoid leaving outdated notices visible after they are no longer needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care-equipment-loan-return-log",
+      "title": "Keeping track of borrowed household care equipment",
+      "category": "First aid",
+      "summary": "Record ownership, collection and return details for equipment loaned by a service.",
+      "tags": [
+        "loan",
+        "care equipment",
+        "return",
+        "supplier",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Owner",
+          "Condition",
+          "Return"
+        ],
+        "alt": "An original checklist schematic for the household preparation topic keeping track of borrowed household care equipment, with labelled elements Owner, Condition, Return; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Owner · Condition · Return."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the lender",
+          "paragraphs": [
+            "For each borrowed item, record the organisation that supplied it, any inventory or reference number and the contact method for questions. Keep the loan agreement or official paperwork with household records.",
+            "Do not assume that an item is household property simply because it has been present for a long time. Some equipment may need servicing or return through the original provider."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Note condition and changes",
+          "paragraphs": [
+            "Record the date the item arrived and any visible damage or missing accessories without attempting technical repairs. If an item appears unsafe or unsuitable, contact the lender for guidance.",
+            "Keep the manufacturer's or provider's instructions available and avoid modifying a loaned device or using parts from another model without authorisation."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Arrange collection or return",
+          "paragraphs": [
+            "When the item is no longer required, ask the lender about the correct return process, cleaning requirements and collection arrangements. Keep confirmation of collection or transfer.",
+            "This record is for administration and accountability, not for deciding when clinical equipment is no longer needed; those decisions belong with the responsible professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-friendly-health-question-list",
+      "title": "Helping children prepare questions for a healthcare visit",
+      "category": "First aid",
+      "summary": "Support age-appropriate questions and preferences without asking children to manage clinical decisions.",
+      "tags": [
+        "children",
+        "questions",
+        "appointment",
+        "family",
+        "communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Invite the child's questions",
+          "paragraphs": [
+            "Ask the child, in language suitable for their age, what they would like to know about the visit. Record their words where possible rather than replacing them with an adult's assumptions.",
+            "A child may prefer to draw a question or point to a picture, while another may want a short written list. Do not require them to share private concerns with a wider household group."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Plan practical reassurance",
+          "paragraphs": [
+            "Explain nonclinical details that are known, such as where the appointment is and who is expected to accompany them. If the child asks what a procedure will feel like, seek an accurate explanation from the healthcare team rather than making promises.",
+            "Leave space for the child to change their mind or ask something privately. Caregivers should follow the service's safeguarding and consent arrangements."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Use the list appropriately",
+          "paragraphs": [
+            "Bring the questions to the appointment and allow the healthcare professional to answer clinical points. Afterwards, ask whether the child has any further questions and whether information should be explained differently.",
+            "This guide supports communication and preparation; it does not provide medical advice or replace professional discussion with the child and caregiver."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-support-contact-permission",
+      "title": "Agreeing who may be contacted about a household health concern",
+      "category": "First aid",
+      "summary": "Clarify consent and communication boundaries for routine health-related household coordination.",
+      "tags": [
+        "consent",
+        "privacy",
+        "contacts",
+        "care",
+        "permission"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Ask permission",
+          "Record choices",
+          "Review"
+        ],
+        "alt": "An original sequence schematic for the household preparation topic agreeing who may be contacted about a household health concern, with labelled elements Ask permission, Record choices, Review; it does not depict a medical treatment procedure.",
+        "caption": "Nonclinical organisation diagram: Ask permission · Record choices · Review."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Discuss preferred contacts",
+          "paragraphs": [
+            "Ask each person which trusted people they would want contacted for routine practical support, such as transport or collecting supplies. Do not assume that being a relative automatically grants access to private medical information.",
+            "A contact list can record names and preferred communication channels without including diagnoses, treatment details or confidential identifiers."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate practical help from clinical authority",
+          "paragraphs": [
+            "Helping someone arrange a journey or collect household items is different from making healthcare decisions for them. Record the practical tasks a person has agreed to share and avoid implying that a household note grants legal decision-making authority.",
+            "For formal care permissions, capacity questions or access to medical records, use the relevant healthcare service's process and seek qualified advice where necessary."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep consent current",
+          "paragraphs": [
+            "Review choices after changes in relationships, care needs or household arrangements. Make it straightforward for someone to withdraw permission or ask for an outdated note to be removed.",
+            "Keep private contact information secure and only accessible to people with a genuine need. This is a nonclinical household planning guide."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "healthcare-accessibility-communication-card",
+      "title": "Preparing a communication preferences card for healthcare visits",
+      "category": "Communication",
+      "summary": "Keep practical communication needs available when attending an unfamiliar service.",
+      "tags": [
+        "communication",
+        "accessibility",
+        "interpreter",
+        "hearing",
+        "vision",
+        "healthcare"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Preferences",
+          "Support",
+          "Review"
+        ],
+        "alt": "Original offline schematic for preparing a communication preferences card for healthcare visits, with labelled stages: Preferences, Support, Review. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Preferences · Support · Review. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify useful preferences",
+          "paragraphs": [
+            "Write down how the person prefers to receive information, such as spoken explanations, large print, written summaries or a qualified interpreter. Ask the person what they want shared rather than assuming that a disability or language determines their preferences.",
+            "A communication card should describe practical support, not a diagnosis. Avoid including more personal health information than the person wants to disclose."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep the information usable",
+          "paragraphs": [
+            "Use short, readable statements and a clear heading so reception staff or clinicians can understand the request quickly. If a trusted supporter may attend, record what role the person wants them to have, without treating the supporter as an automatic decision-maker.",
+            "Keep a paper copy in an accessible place if a phone may be unavailable. Confirm that any chosen format can be read without relying on an online account."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review and respect choice",
+          "paragraphs": [
+            "Check the card with the person after appointments and whenever communication needs or preferences change. A printed card cannot replace a conversation about consent or capacity.",
+            "If the person cannot communicate a preference in the moment, staff should follow the applicable professional and legal process rather than relying solely on an old note."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-illness-comfort-area",
+      "title": "Organising a comfortable rest area during a minor illness",
+      "category": "Household health",
+      "summary": "Prepare an accessible, uncluttered space for rest without presenting medical treatment advice.",
+      "tags": [
+        "rest",
+        "comfort",
+        "illness",
+        "accessibility",
+        "bedside",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Within reach",
+          "Clear access",
+          "Easy to clean"
+        ],
+        "alt": "Original offline schematic for organising a comfortable rest area during a minor illness, with labelled stages: Within reach, Clear access, Easy to clean. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Within reach · Clear access · Easy to clean. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose an accessible location",
+          "paragraphs": [
+            "Think about where a household member can rest with adequate ventilation, lighting and reasonable access to a bathroom. Keep paths clear of bags, cables and other trip hazards, especially when someone feels weak or tired.",
+            "Avoid blocking doors, exits or essential household controls. A comfortable setup does not replace clinical assessment if someone is becoming seriously unwell."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Arrange everyday essentials",
+          "paragraphs": [
+            "Place a drinking vessel, tissues, a waste container and a way to contact another household member within easy reach where appropriate. Store medicines separately according to their labels and any advice from a pharmacist.",
+            "Choose surfaces and containers that can be cleaned easily. Avoid sharing personal items where this may spread illness, and follow current public-health advice for specific infections."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Restore the space afterwards",
+          "paragraphs": [
+            "When the space is no longer needed, clean commonly touched household surfaces using product instructions and replace used disposable supplies. Check that any reusable equipment is appropriate for the next user.",
+            "Ask the person what was difficult to reach or use, then adjust the household setup before it is needed again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-appointment-transport-contingency",
+      "title": "Planning a backup journey to an important healthcare appointment",
+      "category": "Household planning",
+      "summary": "Reduce disruption when transport, a lift or mobile connectivity fails.",
+      "tags": [
+        "appointment",
+        "transport",
+        "access",
+        "backup",
+        "mobility",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Primary trip",
+          "Backup trip",
+          "Contact"
+        ],
+        "alt": "Original offline schematic for planning a backup journey to an important healthcare appointment, with labelled stages: Primary trip, Backup trip, Contact. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Primary trip · Backup trip · Contact. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Plan the usual journey",
+          "paragraphs": [
+            "Record the appointment location, the department or entrance if known, and the journey method that is realistic for the person travelling. Include accessibility needs such as step-free access, suitable seating or a companion when relevant.",
+            "Check the location details with the provider rather than assuming a hospital campus has a single entrance. Avoid placing appointment letters with sensitive details in a publicly shared plan."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Prepare a fallback",
+          "paragraphs": [
+            "Identify one reasonable alternative for a transport cancellation or local disruption, such as another available route or an agreed lift. Record the provider's contact number separately so the person can explain delays or rearrange if needed.",
+            "A backup plan is not a guarantee that transport will operate. Services, accessibility arrangements and opening hours can change, so verify them close to travel."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Keep an offline copy",
+          "paragraphs": [
+            "Save the essential destination and contact details on paper or in an offline note that the traveller can access without mobile data. If the person depends on specialist transport, check the provider's own booking and cancellation rules.",
+            "After the appointment, remove outdated details and retain only information that is genuinely useful for future journeys."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-visitor-hygiene-preparation",
+      "title": "Preparing a clean space for a visiting care professional",
+      "category": "Household hygiene",
+      "summary": "Make routine household visits easier while leaving clinical infection-control decisions to professionals.",
+      "tags": [
+        "visiting-care",
+        "hygiene",
+        "access",
+        "home",
+        "cleaning",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Clear access",
+          "Clean surface",
+          "Privacy"
+        ],
+        "alt": "Original offline schematic for preparing a clean space for a visiting care professional, with labelled stages: Clear access, Clean surface, Privacy. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Clear access · Clean surface · Privacy. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Prepare access and privacy",
+          "paragraphs": [
+            "Confirm where the visitor should arrive and whether entry arrangements are straightforward. Clear a sensible path through the home and identify a private place to discuss information if the resident wishes.",
+            "Do not share door codes or personal medical information in an unsecured group message. Ask the resident before changing their room arrangement or involving another person."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep the environment practical",
+          "paragraphs": [
+            "Provide a clean, uncluttered surface for everyday paperwork and ensure there is sufficient light to read labels or instructions. Follow ordinary household cleaning product directions, keeping chemicals away from children and pets.",
+            "Do not attempt to create a sterile treatment area using household products. Visiting professionals should determine any clinical infection-prevention requirements and bring or request appropriate equipment."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Close out the visit",
+          "paragraphs": [
+            "Ask whether there are nonclinical household actions to remember, such as making another appointment or storing written instructions in the agreed location. Record only what the resident consents to keep.",
+            "Restore clear access routes and dispose of ordinary household waste appropriately. Any clinical waste or sharps must be handled according to the professional's instructions, not improvised household methods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "childcare-health-information-boundaries",
+      "title": "Sharing essential health information with a temporary childcare helper",
+      "category": "Household planning",
+      "summary": "Prepare proportionate contact and access information without exposing unnecessary child data.",
+      "tags": [
+        "childcare",
+        "contacts",
+        "privacy",
+        "handover",
+        "consent",
+        "allergies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Agree what the helper needs",
+          "paragraphs": [
+            "Discuss with the child's parent or legal guardian what the helper needs to know for the agreed period, including how to reach a responsible adult and where to find existing written care instructions.",
+            "Do not assume the helper should receive a full medical history. Share only necessary details through an agreed private channel and clarify any limits on the helper's role."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Make contacts easy to use",
+          "paragraphs": [
+            "Provide an up-to-date primary contact and an agreed backup, plus the child's usual location and relevant collection arrangements. Ensure the helper knows where to find approved instructions from a parent or healthcare professional if an existing care plan applies.",
+            "A household note must not invent medication directions, allergy treatment steps or consent rules. Any emergency action plan should come from an appropriate clinician and be reviewed by the responsible adult."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Collect and update copies",
+          "paragraphs": [
+            "At the end of the arrangement, ask for temporary paper copies to be returned or securely destroyed if no longer needed. Review the information before another helper uses it.",
+            "If circumstances or authorised contacts change, update the handover before relying on it. Avoid storing names, birth dates or medical information in a shared public document."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-hygiene-product-instructions",
+      "title": "Keeping cleaning and hygiene product instructions accessible offline",
+      "category": "Household hygiene",
+      "summary": "Preserve the information needed to use ordinary cleaning products as labelled.",
+      "tags": [
+        "cleaning",
+        "instructions",
+        "labels",
+        "hygiene",
+        "storage",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Keep label",
+          "Store safely",
+          "Check updates"
+        ],
+        "alt": "Original offline schematic for keeping cleaning and hygiene product instructions accessible offline, with labelled stages: Keep label, Store safely, Check updates. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Keep label · Store safely · Check updates. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Retain the original directions",
+          "paragraphs": [
+            "Keep products in their original labelled containers whenever possible. Read the manufacturer's instructions and hazard statements before use; similar-looking bottles can have different intended surfaces, ventilation needs or restrictions.",
+            "Do not mix cleaning chemicals or transfer them into unlabelled drink containers. An app summary cannot replace the label for a specific formulation."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Organise reference copies",
+          "paragraphs": [
+            "If labels become difficult to read, consider a legible photograph or a printed copy of the relevant manufacturer's directions stored with household reference material. Make sure the copy identifies the exact product and does not expose private account details.",
+            "A saved image may become outdated if the formulation changes. Prefer checking the current physical packaging and manufacturer information whenever possible."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review damaged or missing labels",
+          "paragraphs": [
+            "If the contents or directions cannot be reliably identified, do not guess what the product is or how it should be used. Follow the relevant local waste or hazardous-material advice for uncertain containers.",
+            "Keep cleaning products out of children's reach and away from food. This article concerns information organisation, not chemical handling or decontamination procedures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthcare-followup-action-tracker",
+      "title": "Recording nonclinical follow-up tasks after a healthcare visit",
+      "category": "Household planning",
+      "summary": "Turn administrative follow-ups into a private, manageable checklist.",
+      "tags": [
+        "follow-up",
+        "appointment",
+        "referral",
+        "admin",
+        "records",
+        "reminders"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Action",
+          "Contact",
+          "Done"
+        ],
+        "alt": "Original offline schematic for recording nonclinical follow-up tasks after a healthcare visit, with labelled stages: Action, Contact, Done. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Action · Contact · Done. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Separate tasks from clinical decisions",
+          "paragraphs": [
+            "Write down administrative actions agreed during a visit, such as arranging a review appointment, requesting a copy of a letter or confirming who will contact whom. Keep exact medical instructions in the clinician's original documents rather than rewriting them from memory.",
+            "Avoid adding guessed test interpretations, treatment changes or medicine schedules to a generic household task list. Ask the service to clarify anything unclear."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Give each action an owner",
+          "paragraphs": [
+            "For each task, record who is responsible, the appropriate contact method and any date that was explicitly provided. Mark the task as pending until it has actually been completed, not merely until a reminder appears.",
+            "Store the list privately and use the minimum personal information necessary. If another household member helps, agree which tasks they may see or manage."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Close the loop",
+          "paragraphs": [
+            "After completing a task, note the outcome in simple administrative terms and remove details that are no longer useful. Check unresolved actions against the original discharge or appointment paperwork.",
+            "If there is concern about new or worsening symptoms, use appropriate healthcare advice rather than waiting for an administrative reminder to become due."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared-bathroom-hygiene-organisation",
+      "title": "Organising shared bathroom hygiene supplies",
+      "category": "Household hygiene",
+      "summary": "Reduce clutter and make personal items easier to distinguish in a shared home.",
+      "tags": [
+        "bathroom",
+        "shared-home",
+        "hygiene",
+        "storage",
+        "personal-items",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Personal",
+          "Shared",
+          "Restock"
+        ],
+        "alt": "Original offline schematic for organising shared bathroom hygiene supplies, with labelled stages: Personal, Shared, Restock. This is an organisational aid rather than medical treatment guidance.",
+        "caption": "Planning illustration: Personal · Shared · Restock. Follow individual professional and product instructions where applicable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Separate personal and shared items",
+          "paragraphs": [
+            "Agree which everyday items are personal, such as toothbrushes, and which supplies can be shared, such as unopened cleaning materials. Give personal items distinct storage positions or labels without placing private medical information on public shelves.",
+            "Avoid overcrowding shelves and keep items away from wet areas where packaging or electrical accessories could be damaged."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep supplies easy to find",
+          "paragraphs": [
+            "Group spare soap, toilet tissue and other ordinary consumables in a dry location that household members can access. Store household chemicals according to their labels and keep them separate from personal care products.",
+            "Consider people with limited reach, grip or vision when deciding shelf height and labelling. A storage plan should not require someone to move heavy items or climb to reach essentials."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Check the arrangement periodically",
+          "paragraphs": [
+            "During routine cleaning, identify empty containers, damaged packaging and products that no longer belong in the space. Replace ordinary supplies as needed without accumulating excessive duplicates.",
+            "Ask household members whether the arrangement works for them. A clear, predictable layout can reduce confusion during an illness or temporary disruption."
+          ]
+        }
+      ]
+    }
+  ]
+}

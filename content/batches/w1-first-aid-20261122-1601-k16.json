@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-nosebleed-awareness",
+      "title": "Nosebleeds: recognising when professional help is needed",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "nasal bleeding",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "A nosebleed can follow irritation, illness or injury; appearance alone cannot establish the cause.",
+            "Record whether there was a fall or impact and whether other symptoms are present."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Heavy or persistent bleeding, or a person becoming unwell, needs prompt professional assessment.",
+            "Seek emergency assistance for severe symptoms rather than relying on unreviewed treatment advice."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Tell a clinician when bleeding began and whether this has happened before.",
+            "Mention relevant medicines or bleeding conditions if known, without guessing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-concussion-awareness",
+      "title": "Possible concussion after a head impact: information for responders",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "head injury",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "A head impact can cause problems even without an obvious external wound.",
+            "Record the mechanism and any changes in memory, awareness, speech or behaviour."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Increasing drowsiness, seizures or other severe symptoms warrant emergency assessment.",
+            "Do not use this draft to decide that a head injury is safe to monitor at home."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Share the approximate time and circumstances of the impact.",
+            "Describe reported changes without attempting a diagnosis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-sprain-awareness",
+      "title": "Suspected sprain or joint injury: recognising assessment needs",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "joint injury",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "Pain and swelling after a twist or fall can have several causes, including fracture.",
+            "Describe which joint was affected and whether the person can use the limb."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Severe pain, deformity or numbness warrants urgent assessment.",
+            "Do not attempt to reposition a joint using an unreviewed diagram."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Record when and how the injury occurred and how symptoms changed.",
+            "A clinician can determine appropriate investigation and follow-up."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-blister-awareness",
+      "title": "Blisters and skin friction: recognising problems beyond routine discomfort",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "skin friction",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "Blisters may follow friction, pressure or other skin irritation; causes differ.",
+            "Note the location and whether burns or chemicals were involved."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Spreading skin changes, fever or substantial pain should prompt medical advice.",
+            "This draft does not instruct on puncturing, draining or dressing blisters."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Record approximate onset and relevant activity or footwear.",
+            "Describe changes to a clinician while protecting personal privacy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-insect-sting-awareness",
+      "title": "Insect stings: distinguishing local observations from emergency warning signs",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "insect sting",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "A sting may cause local discomfort or a more serious reaction.",
+            "Record the approximate time and suspected insect without approaching a nest."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Breathing difficulty, collapse or rapidly developing widespread symptoms are emergencies.",
+            "Contact emergency services promptly and follow any existing individual care plan."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Tell responders the symptom timeline and known allergies if confirmed.",
+            "Do not delay help to identify the insect or inspect the sting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-animal-bite-awareness",
+      "title": "Animal bites: information to share when seeking assessment",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "animal bite",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "Bites can cause injury or infection even when visible marks appear small.",
+            "Record the animal type and circumstances without attempting to catch it."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Deep injury, significant bleeding or serious illness needs prompt assessment.",
+            "Ask a clinician about wound evaluation and relevant infection considerations."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Share the time and setting of the bite and verified animal details.",
+            "Do not speculate about infection status or expose private information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-fever-awareness",
+      "title": "Fever and worsening illness: recording useful observations",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "fever",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "A raised temperature is only one observation and cannot establish a diagnosis.",
+            "Note changes in behaviour, breathing, drinking and ability to communicate."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Confusion, unresponsiveness or severe breathing problems require urgent assessment.",
+            "Babies and medically vulnerable people may require earlier professional advice."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Record actual readings with device and time when available.",
+            "Share a concise timeline without delaying urgent care to complete it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-vomiting-awareness",
+      "title": "Vomiting and diarrhoea: recognising when an illness needs assessment",
+      "category": "First aid",
+      "summary": "Draft recognition and communication guide; not a treatment protocol.",
+      "tags": [
+        "stomach illness",
+        "first aid",
+        "recognition"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Any clinical illustration requires qualified review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Recognise and describe",
+          "paragraphs": [
+            "Vomiting and diarrhoea have many causes; frequency alone does not determine severity.",
+            "Record onset, associated symptoms and whether the person is becoming weaker."
+          ]
+        },
+        {
+          "id": "escalate",
+          "title": "When to seek help",
+          "paragraphs": [
+            "Blood, severe pain or altered consciousness requires urgent medical advice.",
+            "Young children, older adults and medically vulnerable people may need earlier assessment."
+          ]
+        },
+        {
+          "id": "communicate",
+          "title": "Information for professionals",
+          "paragraphs": [
+            "Keep a short timeline and any professional instructions already received.",
+            "Protect privacy and follow applicable current public-health guidance."
+          ]
+        }
+      ]
+    }
+  ]
+}

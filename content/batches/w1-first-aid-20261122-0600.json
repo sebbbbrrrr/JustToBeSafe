@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-fainting-awareness",
+      "title": "Fainting: recognising a possible loss of consciousness",
+      "category": "First aid",
+      "summary": "Recognise concerning changes in awareness and prepare information for professional help.",
+      "tags": [
+        "fainting",
+        "collapse",
+        "unconscious",
+        "awareness",
+        "injury",
+        "medical assessment"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "What this situation may involve",
+          "paragraphs": [
+            "A person may become briefly unresponsive or collapse for several reasons. An apparent faint cannot be diagnosed from a short description, and other urgent conditions can look similar.",
+            "Observe what you can without making assumptions about the cause. Whether the person is responsive, breathing normally, injured or experiencing other symptoms matters when communicating with emergency services."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "When urgent help matters",
+          "paragraphs": [
+            "A person who remains unresponsive, has abnormal breathing, experiences chest discomfort or has a serious injury needs urgent emergency assessment. Do not rely on an offline guide to determine that a collapse is harmless.",
+            "In the UK, 999 or 112 connects to emergency services. Follow the call handler's current instructions rather than improvising a treatment based on an unreviewed article."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "What to communicate and review",
+          "paragraphs": [
+            "If safe, note approximately when the event began, any preceding complaints, known conditions and changes in responsiveness. Give factual observations rather than guessing a diagnosis.",
+            "Afterwards, document any professional advice and arrange follow-up as instructed. This article requires clinical review before it can serve as first-aid guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-seizure-awareness",
+      "title": "Seizures: observations and emergency escalation",
+      "category": "First aid",
+      "summary": "Understand why seizure-like events require careful observation and sometimes urgent assistance.",
+      "tags": [
+        "seizure",
+        "convulsion",
+        "shaking",
+        "awareness",
+        "neurology",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise uncertainty",
+          "paragraphs": [
+            "A seizure can involve changes in movement, awareness, sensation or behaviour. Not every episode looks like dramatic shaking, and not all shaking is caused by a seizure.",
+            "Avoid diagnosing an event from appearance alone. If the person has an established individual care plan, responders should be told that it exists without assuming it applies to every situation."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Recognise reasons to call for help",
+          "paragraphs": [
+            "A first suspected seizure, difficulty breathing, significant injury, repeated episodes without recovery or a prolonged event can indicate an emergency. A qualified reviewer must confirm precise thresholds and treatment instructions.",
+            "Contact UK emergency services on 999 or 112 when there is immediate danger, and follow the dispatcher. Do not attempt unreviewed restraint, mouth interventions or other improvised procedures."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record helpful facts",
+          "paragraphs": [
+            "If it is safe to observe, note the approximate start and end of visible changes, whether the person responded, injuries noticed and what happened after the event.",
+            "Share factual observations and any available care-plan information with qualified responders. No treatment positioning or medication procedure is authorised by this draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-chest-pain-alert",
+      "title": "Chest discomfort: when to seek urgent assessment",
+      "category": "First aid",
+      "summary": "Understand why new chest symptoms should not be self-diagnosed from an offline article.",
+      "tags": [
+        "chest pain",
+        "pressure",
+        "heart",
+        "breathing",
+        "urgent care",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Symptoms can have different causes",
+          "paragraphs": [
+            "Chest discomfort may be described as pain, pressure, tightness or another unusual sensation. The location and intensity alone cannot reliably identify its cause.",
+            "Breathlessness, sweating, nausea, faintness or pain elsewhere may accompany serious illness, but their absence does not rule out an emergency. An offline draft cannot triage an individual."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Do not delay emergency assessment",
+          "paragraphs": [
+            "New, severe or concerning chest symptoms warrant prompt professional assessment; suspected heart attack or immediate danger calls for emergency services. Use 999 or 112 in the UK.",
+            "Do not drive yourself to hospital or rely on an app to decide that a symptom is safe. A dispatcher or clinician can provide situation-specific advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Communicate clearly",
+          "paragraphs": [
+            "Describe when the symptoms began, their nature, associated changes and any relevant known history if available. Avoid speculative explanations such as assuming indigestion or anxiety.",
+            "Record the professional guidance provided for later follow-up. Treatment and medication instructions must come from qualified sources, not this unreviewed draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-severe-allergy-awareness",
+      "title": "Severe allergic reactions: recognising urgent warning signs",
+      "category": "First aid",
+      "summary": "Distinguish ordinary uncertainty from signs that may require emergency allergy care.",
+      "tags": [
+        "allergy",
+        "anaphylaxis",
+        "swelling",
+        "breathing",
+        "food",
+        "medicine",
+        "sting"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Why symptoms matter",
+          "paragraphs": [
+            "An allergic reaction can involve skin, breathing, circulation or digestive symptoms. Rapid changes, breathing difficulty, throat or tongue swelling, or collapse may signal a life-threatening reaction.",
+            "A person may have an individual allergy action plan and prescribed emergency medication. This draft does not establish whether an individual should use a particular medicine or how to administer it."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate without relying on this draft",
+          "paragraphs": [
+            "Suspected anaphylaxis is an emergency: call 999 or 112 in the UK and follow the emergency operator's advice and any clinically prescribed action plan.",
+            "Do not wait for a rash to appear or use this text to rule out a serious reaction. Medication techniques and positioning require professionally reviewed guidance."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Information for responders",
+          "paragraphs": [
+            "If known, note a suspected trigger, approximate timing, observed changes, relevant prescribed treatments and what has already been done. Do not delay the emergency call to collect details.",
+            "After professional care, ensure any revised allergy plan and emergency contacts are updated with the person's consent. Instructional diagrams are deferred for specialist review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-suspected-fracture",
+      "title": "Suspected fractures: recognising a need for assessment",
+      "category": "First aid",
+      "summary": "Learn why pain, deformity or inability to use a limb may need urgent professional evaluation.",
+      "tags": [
+        "fracture",
+        "broken bone",
+        "injury",
+        "limb",
+        "fall",
+        "deformity"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Signs do not prove the diagnosis",
+          "paragraphs": [
+            "After an impact or fall, marked pain, swelling, deformity or inability to use a body part may indicate a fracture or another injury. A normal-looking limb does not exclude a serious problem.",
+            "A suspected spinal, neck or head injury raises additional concerns. Do not use a generic article to decide that moving an injured person or manipulating a limb is safe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid improvised treatment",
+          "paragraphs": [
+            "Severe injury, open wounds, circulation concerns, major deformity or inability to move safely may require emergency services. In the UK call 999 or 112 for immediate danger.",
+            "Do not attempt to straighten a suspected fracture or perform an unreviewed splinting technique. Follow professional instructions appropriate to the specific injury."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share relevant details",
+          "paragraphs": [
+            "Tell responders how the injury occurred, where pain is reported, what changed afterwards and any other symptoms. Describe observed facts without assuming the exact bone or tissue involved.",
+            "Treatment, immobilisation and transport decisions require expert guidance. A procedural illustration is intentionally withheld pending qualified review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-breathing-difficulty",
+      "title": "Breathing difficulty: noticing concerning changes",
+      "category": "First aid",
+      "summary": "Understand the importance of urgent assessment for new or worsening breathing problems.",
+      "tags": [
+        "breathing",
+        "shortness of breath",
+        "wheeze",
+        "asthma",
+        "respiratory",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "What to notice",
+          "paragraphs": [
+            "Breathing difficulty may be described as shortness of breath, noisy breathing, inability to speak normally or an unusual effort to breathe. Causes vary and cannot be safely established by this article.",
+            "A person may have a diagnosed respiratory condition and an individual clinician-approved plan. Do not assume a familiar diagnosis explains every new episode."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Urgent escalation",
+          "paragraphs": [
+            "Severe or rapidly worsening breathing difficulty, blue or grey colour changes, reduced responsiveness or inability to speak normally can indicate immediate danger. Call 999 or 112 in the UK.",
+            "Follow emergency-service guidance and the person's prescribed action plan where appropriate. This draft does not provide inhaler, oxygen or other treatment instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Information that can help",
+          "paragraphs": [
+            "If it does not delay help, report when symptoms began, any known relevant condition, possible exposure and observed changes in breathing or responsiveness.",
+            "Keep care plans and contact details accessible only to authorised people. Clinical reviewers must approve any future illustrations of assessment or treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-heat-illness-awareness",
+      "title": "Heat-related illness: recognising warning signs",
+      "category": "First aid",
+      "summary": "Know why heat exposure and changes in awareness can require urgent care.",
+      "tags": [
+        "heat exhaustion",
+        "heatstroke",
+        "hot weather",
+        "dehydration",
+        "temperature",
+        "confusion"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Heat affects people differently",
+          "paragraphs": [
+            "High temperatures, exertion and some health circumstances can contribute to heat-related illness. Symptoms may include unusual weakness, dizziness, headache, nausea or confusion.",
+            "These signs overlap with other conditions. Do not assume an affected person has only a mild heat problem because the symptoms seem familiar."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Identify urgent concerns",
+          "paragraphs": [
+            "Confusion, collapse, seizures or reduced responsiveness in a hot environment can indicate a medical emergency. Contact 999 or 112 in the UK for immediate danger.",
+            "Do not wait for an offline article to confirm heatstroke or follow improvised cooling or fluid procedures. A reviewed guide should provide precise situation-specific first-aid instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record the context",
+          "paragraphs": [
+            "If safe and without delaying assistance, note approximate exposure duration, activity, environmental conditions and the changes observed.",
+            "The clinical severity and treatment cannot be inferred from this information alone. Any diagram showing cooling or treatment steps is deferred for expert review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-cold-exposure-awareness",
+      "title": "Cold exposure: recognising possible hypothermia",
+      "category": "First aid",
+      "summary": "Understand why cold exposure, altered awareness and impaired movement can be serious.",
+      "tags": [
+        "hypothermia",
+        "cold",
+        "exposure",
+        "shivering",
+        "confusion",
+        "outdoors"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical review required before adding any actionable recognition, treatment, positioning or medication illustration.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Exposure is not just about temperature",
+          "paragraphs": [
+            "Cold, wet conditions and prolonged exposure can affect the body even when the air is above freezing. Shivering, unusual tiredness, poor coordination or altered awareness may be concerning.",
+            "Not everyone shows the same symptoms, and another illness or injury may coexist. A short offline article cannot determine severity."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Recognise emergency warning signs",
+          "paragraphs": [
+            "Marked confusion, collapse, reduced responsiveness or abnormal breathing after cold exposure can indicate immediate danger. Call 999 or 112 in the UK.",
+            "Avoid unreviewed rapid-rewarming techniques, handling or other procedures. Emergency professionals can provide guidance suitable for the circumstances."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Useful observations",
+          "paragraphs": [
+            "Share the environment, approximate exposure time, wet clothing or shelter circumstances, and observed changes if doing so does not delay help.",
+            "Any warming, movement or evacuation instructions require qualified review. A clinical procedure illustration is deliberately deferred."
+          ]
+        }
+      ]
+    }
+  ]
+}

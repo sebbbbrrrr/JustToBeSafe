@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-dental-injury-awareness",
+      "title": "Recognising a dental injury that needs urgent assessment",
+      "category": "First aid",
+      "summary": "Dental injuries can affect teeth, gums and the jaw; this guide helps communicate what happened without attempting treatment.",
+      "tags": [
+        "dental injury",
+        "tooth",
+        "mouth",
+        "urgent assessment"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise what happened",
+          "paragraphs": [
+            "A knocked, cracked or displaced tooth, mouth bleeding, or a jaw injury can require prompt dental or emergency assessment. The appearance alone does not reliably show the extent of damage.",
+            "Note whether the injury followed a fall, collision or another event, and whether there are other injuries that may be more urgent."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Describe the concern",
+          "paragraphs": [
+            "Record when the incident occurred, which part of the mouth seems affected and any difficulty speaking, swallowing or breathing. Do not delay urgent help to complete a record.",
+            "Contact an urgent dental service or appropriate emergency service for advice; the correct route depends on the symptoms and severity."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Preserve accurate information",
+          "paragraphs": [
+            "If a professional gives specific instructions, follow those rather than relying on a general offline article. Avoid trying to reposition a tooth or jaw based on an unreviewed diagram.",
+            "Share relevant medical information and the circumstances of the incident with the clinician."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-button-battery-ingestion-awareness",
+      "title": "Suspected button battery swallowing: information for an emergency call",
+      "category": "First aid",
+      "summary": "A suspected swallowed button battery is time-critical even when a person appears well.",
+      "tags": [
+        "button battery",
+        "swallowing",
+        "child",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the possibility",
+          "paragraphs": [
+            "Small button batteries may be found in toys, remotes and other household items. A missing battery and a possible swallowing event warrant immediate emergency assessment; symptoms may initially be absent.",
+            "Do not wait for discomfort or visible injury to decide whether to seek help."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Contact emergency care promptly",
+          "paragraphs": [
+            "Seek emergency medical help immediately if a button battery may have been swallowed. Tell the responder what is suspected and approximately when it may have happened.",
+            "Do not try to make the person vomit or attempt an improvised retrieval. Follow the emergency service's individual instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share the product details",
+          "paragraphs": [
+            "If it can be done without delay, identify the device or battery packaging and provide the size or type shown on it. Uncertainty should be stated plainly.",
+            "Keep any available product information for the clinical team, but never postpone urgent assessment to search for it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-magnet-ingestion-awareness",
+      "title": "Suspected swallowed magnets: recognising a serious hazard",
+      "category": "First aid",
+      "summary": "Multiple swallowed magnets, or a magnet with another metal object, can cause serious internal injury.",
+      "tags": [
+        "magnet",
+        "swallowing",
+        "child",
+        "foreign object"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand the risk",
+          "paragraphs": [
+            "Small high-strength magnets can be mistaken for harmless play pieces. More than one swallowed magnet, or a magnet with another metal object, may cause serious internal harm.",
+            "Symptoms may not appear immediately, so an apparently comfortable person cannot be assumed safe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek professional assessment",
+          "paragraphs": [
+            "If swallowing is suspected, seek urgent medical assessment and explain the number and type of objects that may be missing. Do not wait for pain or other symptoms.",
+            "Do not attempt home remedies or induce vomiting. Follow advice from the receiving emergency service."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Provide a factual account",
+          "paragraphs": [
+            "Record the time last seen with the object and whether other magnets may be missing. Bring packaging or a matching unused item if it is immediately available and safe to carry.",
+            "Do not delay assessment while searching for missing pieces or trying to prove exactly what was swallowed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-chemical-eye-exposure-awareness",
+      "title": "Recognising possible chemical exposure to the eyes",
+      "category": "First aid",
+      "summary": "An eye splash involving cleaning or industrial products needs prompt professional advice.",
+      "tags": [
+        "chemical splash",
+        "eye",
+        "cleaning product",
+        "exposure"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the exposure",
+          "paragraphs": [
+            "Cleaning agents, solvents and other products can injure eyes. The substance, concentration and time of exposure matter, but the appearance of the eye is not a reliable measure of safety.",
+            "Avoid approaching spilled material or exposing another person while gathering information."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate without delay",
+          "paragraphs": [
+            "Seek immediate appropriate emergency or specialist advice after suspected harmful eye exposure. Follow the responder's instructions for the specific product and situation.",
+            "This draft does not provide a treatment sequence or substitute for first-aid training. Do not delay seeking help to read the whole article."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep useful details",
+          "paragraphs": [
+            "When safe and readily available, provide the product name and label or safety information to the professional. Describe what happened without guessing the chemical identity.",
+            "Do not mix products or perform improvised chemical neutralisation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-tick-bite-information",
+      "title": "Recording a tick bite and recognising when to seek medical advice",
+      "category": "First aid",
+      "summary": "A short factual record can help a clinician assess a possible tick-related illness.",
+      "tags": [
+        "tick",
+        "bite",
+        "skin",
+        "outdoors"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand the context",
+          "paragraphs": [
+            "Ticks may attach to skin after time in grassland, woodland or gardens. Not every bite leads to illness, and a person's symptoms and exposure history matter more than assumptions.",
+            "Record the approximate date and location of exposure if known, without sharing a private home address unnecessarily."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Notice changes",
+          "paragraphs": [
+            "A spreading rash, fever or other new symptoms after possible tick exposure should be discussed with an appropriate healthcare professional. Not all relevant rashes look the same.",
+            "Do not use photographs or this offline article to diagnose an infection or decide that symptoms are harmless."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Prepare a concise account",
+          "paragraphs": [
+            "Note when a tick was noticed, what symptoms appeared and whether professional advice was sought. If a tick is still attached, use current reputable first-aid guidance or seek help rather than relying on an unreviewed diagram.",
+            "This guide deliberately omits removal technique until clinical review is completed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-frostbite-awareness",
+      "title": "Possible frostbite: recognising a cold-related injury",
+      "category": "First aid",
+      "summary": "Cold exposure can damage skin and deeper tissues, requiring careful assessment.",
+      "tags": [
+        "frostbite",
+        "cold",
+        "skin",
+        "winter"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the concern",
+          "paragraphs": [
+            "Skin that becomes unusually numb, pale, hard or discoloured after cold exposure may indicate a cold injury. Severe cold exposure can also be associated with hypothermia.",
+            "The exact appearance varies; do not use a colour chart alone to decide whether an injury is mild."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prioritise safety and assessment",
+          "paragraphs": [
+            "Move away from ongoing environmental danger when it is safe to do so and seek appropriate medical assessment, particularly for persistent numbness, blistering or extensive injury.",
+            "Do not rub or mechanically manipulate affected skin based on unreviewed instructions. Follow professional advice for the situation."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Describe the exposure",
+          "paragraphs": [
+            "Record the conditions, approximate duration, affected area and any associated symptoms. Mention other injuries or changes in alertness to responders.",
+            "Treatment diagrams, warming methods and clinical grading are deferred for specialist review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-lightning-injury-awareness",
+      "title": "Lightning incidents: recognising the need for emergency response",
+      "category": "First aid",
+      "summary": "A lightning strike or nearby strike can cause serious injury even when external marks are limited.",
+      "tags": [
+        "lightning",
+        "storm",
+        "injury",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the event",
+          "paragraphs": [
+            "A direct or nearby lightning strike may affect the heart, nervous system, hearing or skin. A person may have serious injuries without obvious external burns.",
+            "An ongoing thunderstorm can endanger bystanders as well as the affected person; do not create another casualty."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Contact emergency services",
+          "paragraphs": [
+            "Call emergency services promptly for anyone suspected of being struck by lightning. Give the location, what was observed and whether there are continuing hazards.",
+            "Follow the dispatcher’s instructions. This draft does not teach resuscitation or other emergency procedures."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Prepare a useful handover",
+          "paragraphs": [
+            "Share whether the person collapsed, lost consciousness, experienced breathing difficulties or sustained a fall, without trying to diagnose the injury.",
+            "Any instructional rescue or treatment diagram must be approved by qualified experts before inclusion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-crush-injury-awareness",
+      "title": "Recognising a potentially serious crush injury",
+      "category": "First aid",
+      "summary": "Heavy-object and compression incidents can cause hidden damage as well as visible injuries.",
+      "tags": [
+        "crush injury",
+        "compression",
+        "heavy object",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "illustration_status": "needed_for_expert_review",
+      "illustration_review_note": "Potential recognition or response illustration requires clinical review; no procedural diagram supplied.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand the situation",
+          "paragraphs": [
+            "A trapped or compressed body part may be injured beneath the skin, and prolonged compression can have serious systemic effects. The absence of major bleeding does not rule out danger.",
+            "Machinery, unstable loads and damaged structures can present continuing hazards to helpers."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek urgent professional help",
+          "paragraphs": [
+            "Call emergency services for serious entrapment, major compression or concerning symptoms. Describe the object involved, whether the person remains trapped and any danger to responders.",
+            "Do not attempt hazardous lifting, machinery operation or improvised release procedures from an unreviewed article."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Communicate observations",
+          "paragraphs": [
+            "Note the approximate time and duration of compression if known, visible changes and any changes in alertness or breathing. Avoid making clinical predictions.",
+            "Specialist rescue, release and treatment instructions are intentionally excluded pending professional review."
+          ]
+        }
+      ]
+    }
+  ]
+}

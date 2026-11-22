@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-kit-storage-and-access",
+      "title": "Where to store a household first aid kit",
+      "category": "First aid",
+      "summary": "Choose an accessible location, protect supplies and help household members find the kit.",
+      "tags": [
+        "first aid",
+        "kit",
+        "storage",
+        "location",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Choose place",
+          "Label kit",
+          "Recheck"
+        ],
+        "alt": "Three connected schematic circles show the nonclinical household process of choosing an accessible first aid kit location, labelling the kit and checking access later.",
+        "caption": "A storage planning sequence, not a treatment procedure."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose a sensible home location",
+          "paragraphs": [
+            "Place the kit somewhere household members can locate quickly, without climbing or moving heavy objects. Consider a dry, stable storage area away from sources of heat and moisture, while keeping medicines or hazardous contents appropriately secured from children.",
+            "Tell household members where the kit is kept and make sure the location remains usable during a power cut. A kit hidden behind rarely used equipment may be technically present but not practically accessible."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Make contents recognisable",
+          "paragraphs": [
+            "Use a clear label and group items so that a person can identify what is present without emptying the entire kit. Retain manufacturer packaging and instructions where they contain important safety or expiry information.",
+            "Keep personal prescriptions and confidential medical information separate from general shared supplies when privacy or storage requirements differ."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review access after changes",
+          "paragraphs": [
+            "Recheck the storage location after moving home, rearranging cupboards or changes in household mobility. A kit should not block a doorway or be stored where a leak could damage it.",
+            "This article concerns household organisation only; it does not instruct readers to administer treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-supplies-packaging-labels",
+      "title": "Reading labels on first aid supplies",
+      "category": "First aid",
+      "summary": "Understand which packaging details matter before using or replacing supplies.",
+      "tags": [
+        "labels",
+        "sterile",
+        "expiry",
+        "manufacturer",
+        "packaging"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the product correctly",
+          "paragraphs": [
+            "Keep the original packaging for dressings, gloves and other supplies where practical. Read the product name, intended use and any manufacturer warnings rather than assuming visually similar products are interchangeable.",
+            "Check whether a product is described as sterile, single use or reusable, and note any special storage requirements. These words have specific implications that should not be guessed from the item's appearance."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Look for condition and dates",
+          "paragraphs": [
+            "Inspect packaging for tears, moisture, contamination or damage and note any labelled expiry date. If packaging or sterility is uncertain, set the item aside for replacement rather than treating it as verified ready.",
+            "Do not repackage sterile supplies into unlabelled containers merely to save space; it can remove important instructions and make their condition difficult to assess."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Record what needs replacing",
+          "paragraphs": [
+            "A brief inventory can record the item type, location and replacement need. Keep the manufacturer's instructions available for unfamiliar equipment and seek qualified advice where clinical use is unclear.",
+            "This is a supply-identification guide, not advice on applying a dressing or using a medical device."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-health-contact-sheet",
+      "title": "Creating a household health contact sheet",
+      "category": "First aid",
+      "summary": "Prepare a privacy-conscious directory of relevant medical contacts and service information.",
+      "tags": [
+        "contacts",
+        "health",
+        "offline",
+        "directory",
+        "privacy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Verify contacts",
+          "Limit details",
+          "Review dates"
+        ],
+        "alt": "A three-row schematic checklist illustrates verifying healthcare contact details, limiting personal information on a shared sheet and reviewing entries when circumstances change.",
+        "caption": "An offline contact directory should remain accurate and privacy-conscious."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record useful contact routes",
+          "paragraphs": [
+            "Write down the name and contact details of relevant healthcare providers and trusted emergency contacts that household members may need when internet access is unavailable. Check numbers against current official information before recording them.",
+            "Include the local emergency-service number only after confirming the country and circumstances. Do not assume an offline list contains current opening hours or service availability."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Protect sensitive information",
+          "paragraphs": [
+            "Decide whether a shared sheet needs any medical details at all. Personal health information may be sensitive and should be accessible only to people who genuinely need it.",
+            "A directory can point to a separately secured personal medical record rather than displaying diagnoses, medication lists or identifying information in a public household area."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep it current",
+          "paragraphs": [
+            "Review the sheet after changes of address, care provider or contact details. Include a date checked so household members know whether a number may need reconfirming.",
+            "Keep a paper copy in a known place if it is important that the information remains accessible when devices are unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personal-medical-documents-folder",
+      "title": "Organising personal medical documents for emergencies",
+      "category": "First aid",
+      "summary": "Keep essential medical paperwork findable without exposing private records.",
+      "tags": [
+        "documents",
+        "medical",
+        "privacy",
+        "records",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the records that matter",
+          "paragraphs": [
+            "Consider which existing documents a person may need to locate quickly, such as appointment letters, care plans or clinician-provided summaries. Retain originals and avoid rewriting clinical instructions from memory.",
+            "Not every document belongs in a shared folder. Use individual folders or access controls when household members have different privacy needs."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Make the folder resilient",
+          "paragraphs": [
+            "A labelled paper folder can work without electricity, while an appropriately secured offline digital copy may help when travelling. Protect both against unauthorised access, moisture, device loss and accidental disclosure.",
+            "If storing copies on a device, check whether they can genuinely be opened without a network connection or account login."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and dispose safely",
+          "paragraphs": [
+            "Update the folder when a clinician replaces a care plan or an important document becomes obsolete. Clearly separate old versions to reduce confusion, and dispose of sensitive paperwork securely.",
+            "This is a records-organisation guide. Decisions about which clinical documents are essential should be confirmed with the relevant care professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-hygiene-supplies-inventory",
+      "title": "Building a household hygiene supplies inventory",
+      "category": "First aid",
+      "summary": "Track basic cleaning and personal hygiene supplies without confusing stock counts with readiness.",
+      "tags": [
+        "hygiene",
+        "soap",
+        "inventory",
+        "cleaning",
+        "supplies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Personal care",
+          "Cleaning stock",
+          "Check dates"
+        ],
+        "alt": "A three-shelf schematic represents separate labelled storage groups for personal hygiene items, household cleaning supplies and products awaiting a condition or date check.",
+        "caption": "Illustrative inventory categories; always follow product-specific storage rules."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "List what the household actually uses",
+          "paragraphs": [
+            "Start with ordinary supplies such as soap, paper products, suitable cleaning products and personal hygiene items. Record an understandable item name and where it is stored.",
+            "Consider the needs of household members rather than relying on a universal shopping list. Fragrances, accessibility, allergies and individual preferences can affect which items are suitable."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Check conditions and separation",
+          "paragraphs": [
+            "Keep products in their labelled original containers and follow the manufacturer's storage warnings. Separate incompatible chemicals and ensure children cannot access hazardous cleaning products.",
+            "Never infer that combining cleaning products improves effectiveness. Inventory organisation is not a substitute for chemical safety instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Update after real checks",
+          "paragraphs": [
+            "Record quantities after physically checking shelves rather than assuming a barcode scan proves an item is present or usable. Note damaged or missing products for replacement.",
+            "A simple location and last-checked date often provides more value than complicated stock forecasting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-kit-travel-check",
+      "title": "Checking a portable first aid kit before travel",
+      "category": "First aid",
+      "summary": "Prepare a small kit for an outing by checking location, condition and suitability.",
+      "tags": [
+        "travel",
+        "first aid",
+        "portable",
+        "packing",
+        "checklist"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Plan needs",
+          "Check kit",
+          "Restock"
+        ],
+        "alt": "Three connected circles show a portable first aid kit preparation workflow: consider the trip, inspect the packed kit and restock supplies after returning.",
+        "caption": "A nonclinical packing reminder; specialist advice may be needed for trip-specific risks."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Match the kit to the trip",
+          "paragraphs": [
+            "Consider trip duration, weather, remoteness and the needs of the people travelling. A short local outing and a remote journey may need different preparations; seek advice from qualified organisations for activity-specific medical equipment.",
+            "Confirm that personal medication arrangements are suitable with a clinician or pharmacist where relevant, rather than relying on a generic kit list."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Inspect before leaving",
+          "paragraphs": [
+            "Check that the kit can be reached without unpacking every bag. Review packaging condition, product labels and expiry dates and replace damaged or unsuitable items.",
+            "Tell another responsible person where the kit is kept. Avoid placing it next to liquids or objects likely to puncture packaging."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Restock after returning",
+          "paragraphs": [
+            "After the trip, check whether anything was used, damaged or exposed to moisture. Record what needs replacing before the next journey.",
+            "This is a packing and inventory guide; it does not explain clinical procedures or guarantee that a kit is sufficient for every emergency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supporting-someone-at-medical-appointment",
+      "title": "Helping someone prepare for a medical appointment",
+      "category": "First aid",
+      "summary": "Organise questions, practical access needs and follow-up notes while respecting consent.",
+      "tags": [
+        "appointment",
+        "support",
+        "accessibility",
+        "questions",
+        "notes"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Agree what help is wanted",
+          "paragraphs": [
+            "Ask the person whether they want assistance arranging transport, writing questions or remembering appointment details. Do not assume they want another household member to hear private medical information.",
+            "If accompanying someone, clarify what information they consent to share and whether they would prefer parts of the consultation to remain private."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare practical details",
+          "paragraphs": [
+            "Record the appointment location, time, accessibility arrangements and any documents the provider requested. Write a short list of the person's own questions, leaving room for answers.",
+            "Do not use an unverified offline guide to interpret test results or replace professional clinical explanations."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep follow-up notes accurate",
+          "paragraphs": [
+            "If the person agrees, note agreed next steps in their own words and confirm any unclear instructions with the clinician. Store sensitive notes securely and avoid circulating them in a shared household chat without permission.",
+            "This guide supports appointment organisation, not diagnosis or medical decision-making."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care-supplies-accessibility-check",
+      "title": "Making household care supplies easier to access",
+      "category": "First aid",
+      "summary": "Review reachability, clear labelling and practical barriers for people with different mobility needs.",
+      "tags": [
+        "accessibility",
+        "mobility",
+        "supplies",
+        "storage",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find barriers",
+          "Improve access",
+          "Test again"
+        ],
+        "alt": "A three-row household accessibility checklist shows finding barriers to ordinary care supplies, improving their storage location and checking access with household members.",
+        "caption": "Accessible storage should be tested with the people who actually use it."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify everyday access barriers",
+          "paragraphs": [
+            "Walk through the locations of ordinary care and hygiene supplies with the people who use them. Notice heavy containers, high shelves, difficult lids and poor lighting that make routine access harder.",
+            "Ask users what arrangements work for them rather than treating one storage height or labelling format as suitable for everyone."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Improve organisation without creating hazards",
+          "paragraphs": [
+            "Move frequently used nonhazardous supplies to reachable locations, keep walking routes clear and use legible labels. Avoid placing dangerous chemicals or medication where children or unauthorised people can access them.",
+            "Consider larger print or tactile markers where useful, but do not obscure manufacturer warnings or remove product identities."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check with real users",
+          "paragraphs": [
+            "Invite household members to try finding the supplies under ordinary conditions and note where they struggle. Review the arrangement after a change in mobility, living arrangements or equipment.",
+            "Changes involving specialist mobility equipment or clinical care should be discussed with an appropriate professional."
+          ]
+        }
+      ]
+    }
+  ]
+}

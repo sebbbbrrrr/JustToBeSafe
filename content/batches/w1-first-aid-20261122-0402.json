@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "injury-event-observation-note",
+      "title": "Recording observations after a household injury",
+      "category": "First aid",
+      "summary": "Create a factual timeline that can be shared with a clinician without attempting to diagnose an injury.",
+      "tags": [
+        "injury",
+        "incident",
+        "timeline",
+        "observations",
+        "healthcare",
+        "handover"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Time and place",
+          "What was observed",
+          "Who was contacted"
+        ],
+        "alt": "Three linked stages show how to organise a factual injury event record: note the time and place, record direct observations, and identify whom the household contacted. No clinical procedure is depicted.",
+        "caption": "A factual record supports a later conversation; it is not an injury assessment."
+      },
+      "sections": [
+        {
+          "id": "start",
+          "title": "Record the event, not a diagnosis",
+          "paragraphs": [
+            "If someone is injured, attending to immediate safety and obtaining appropriate medical help takes priority over paperwork. Once practical, note the date, approximate time, location and what the person says happened in their own words.",
+            "Distinguish what you witnessed from what another person reported. Avoid speculating about the cause, severity or medical diagnosis, especially if the information may later be used by a healthcare professional."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Capture useful changes and contact",
+          "paragraphs": [
+            "If it is safe and appropriate, record changes the person reports and when they were noticed. Do not delay urgent assistance in order to complete a form or collect photographs.",
+            "Note when help was requested, which service was contacted and any reference details provided. Keep any instructions received from a qualified clinician separate from your own observations."
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Store and share respectfully",
+          "paragraphs": [
+            "Treat an injury record as private health information. Share it only with the injured person or someone appropriately authorised to assist, and avoid adding sensitive details to a shared household noticeboard.",
+            "A concise chronological note can make a later conversation clearer, but cannot replace an examination or emergency assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-kit-seal-status",
+      "title": "Marking a first aid kit as ready for restocking",
+      "category": "First aid",
+      "summary": "Use a simple visible status so household members know when supplies have been used or packaging needs attention.",
+      "tags": [
+        "first aid kit",
+        "restock",
+        "status",
+        "label",
+        "inspection",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Used item",
+          "Restock needed",
+          "Recheck kit"
+        ],
+        "alt": "A three-row checklist represents the nonclinical process of noting a used first aid kit item, flagging a restock requirement, and checking the kit again once supplies are replaced.",
+        "caption": "A restock label records a task, not proof that every item is suitable for use."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Separate availability from readiness",
+          "paragraphs": [
+            "A first aid box may be physically present but missing essential contents after use. Use a clear label or inventory status to distinguish a kit that has been checked from one that needs restocking.",
+            "Keep the status easy to recognise without depending only on colour. For example, write 'restock needed' rather than using a red sticker with no explanation."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record what needs attention",
+          "paragraphs": [
+            "When an item is used, note its name and any important packaging details needed to obtain an appropriate replacement. Avoid returning opened, contaminated or damaged sterile packaging to a ready-to-use section.",
+            "If a product has special storage conditions or is supplied for an individual, follow its instructions and ask an appropriate professional about replacement rather than substituting an unrelated item."
+          ]
+        },
+        {
+          "id": "close",
+          "title": "Close the task only after a check",
+          "paragraphs": [
+            "Once replacement supplies are obtained, check the actual contents and packaging before changing the kit status. A dismissed reminder is not evidence that the item is back in the box.",
+            "This is an inventory workflow; it does not establish the correct clinical contents or use of a first aid kit for every household."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spare-vision-aids-access",
+      "title": "Keeping spare glasses and vision aids accessible",
+      "category": "First aid",
+      "summary": "Plan how household members can locate personal vision aids if their everyday pair is misplaced or damaged.",
+      "tags": [
+        "glasses",
+        "spectacles",
+        "vision",
+        "accessibility",
+        "spare",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Daily pair",
+          "Spare pair",
+          "Protective case"
+        ],
+        "alt": "A three-level storage illustration labels an everyday pair of glasses, a spare pair, and a protective case as separate household storage categories. It does not show medical fitting or treatment.",
+        "caption": "Keep personal vision aids identifiable, protected and easy for their owner to reach."
+      },
+      "sections": [
+        {
+          "id": "needs",
+          "title": "Identify what the person actually uses",
+          "paragraphs": [
+            "Ask the person which glasses, contact lens accessories or other vision aids they rely on in ordinary activities. Do not assume an old pair has a suitable prescription or that another household member's glasses can be substituted.",
+            "Record only the location and practical access information needed for the household plan; prescription details are personal and may be better kept privately with the owner."
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Choose a protected location",
+          "paragraphs": [
+            "Store a suitable spare pair in a protective case where the owner can find it without assistance if possible. Avoid places where frames can be crushed, exposed to unsuitable temperatures or mixed up with other people's belongings.",
+            "For contact lenses and related solutions, follow the manufacturer's and eye-care professional's hygiene and replacement instructions. Do not treat generic storage suggestions as lens-care guidance."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review after a prescription change",
+          "paragraphs": [
+            "Check whether the backup remains appropriate after a new prescription, broken frame or changed vision needs. An outdated backup may be less useful than expected.",
+            "If vision changes suddenly or there is an eye injury, seek appropriate professional assessment; locating spare spectacles is not a substitute for care."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-health-access-path",
+      "title": "Keeping access routes clear for someone needing assistance",
+      "category": "First aid",
+      "summary": "Review everyday paths to essential supplies and exits without attempting to move an injured person.",
+      "tags": [
+        "access",
+        "mobility",
+        "doorway",
+        "trip hazard",
+        "first aid",
+        "home"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Main room",
+          "Supply location",
+          "Clear exit"
+        ],
+        "alt": "Three connected route markers show a household planning path between a main room, a supply location, and a clear exit. The schematic is not a patient-transfer or evacuation procedure.",
+        "caption": "Plan clear household routes; never use a diagram to justify moving an injured person."
+      },
+      "sections": [
+        {
+          "id": "map",
+          "title": "Identify ordinary access routes",
+          "paragraphs": [
+            "Walk through the normal route to a phone, first aid kit and household exit when conditions are safe. Look for stored objects, loose rugs, narrow gaps or other everyday obstacles that may delay access.",
+            "Consider the needs of people who use mobility aids or need more room to turn. A generic route drawing cannot confirm that a path is accessible for a particular person."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep access practical",
+          "paragraphs": [
+            "Agree where frequently used supplies should be stored so they do not block doorways, stairs or shared escape routes. Where furniture or storage needs changing, check that the change does not create a new hazard.",
+            "Do not attempt to carry or reposition an injured person using household route notes. Moving someone after a fall or injury may require trained assistance."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Recheck when the household changes",
+          "paragraphs": [
+            "Revisit the route after moving furniture, receiving new equipment or noticing a repeated obstruction. Ask affected household members whether they can actually reach the supplies independently.",
+            "This article covers environmental organisation, not emergency evacuation, manual handling or clinical mobility assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "head-injury-information-handover",
+      "title": "Information to share when seeking help for a possible head injury",
+      "category": "First aid",
+      "summary": "Understand which observations may be relevant to a professional assessment without attempting home diagnosis.",
+      "tags": [
+        "head injury",
+        "fall",
+        "concussion",
+        "observation",
+        "medical assessment"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "recognise",
+          "title": "Do not assume an injury is minor",
+          "paragraphs": [
+            "A blow to the head or a fall may require medical assessment even when there is no obvious external wound. The significance of symptoms depends on the circumstances and the person affected.",
+            "Loss of consciousness, a seizure, marked confusion, repeated vomiting or other serious changes can signal a medical emergency. Seek urgent help rather than relying on this unreviewed draft to decide severity."
+          ]
+        },
+        {
+          "id": "describe",
+          "title": "Provide a factual account",
+          "paragraphs": [
+            "When contacting an appropriate service, describe what happened, when it happened, whether anyone witnessed it and any changes you have noticed. If the person can speak for themselves, allow them to describe how they feel.",
+            "If relevant and known, tell the clinician about medicines or existing conditions that may affect assessment. Do not make guesses or delay care while searching for complete records."
+          ]
+        },
+        {
+          "id": "follow",
+          "title": "Use professional advice for monitoring",
+          "paragraphs": [
+            "Follow instructions given by the healthcare professional about assessment, observation and return precautions. This article deliberately does not specify home monitoring intervals or concussion management procedures.",
+            "Any instructional diagram for head injury assessment or monitoring is needed_for_expert_review and has not been generated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eye-injury-hazard-information",
+      "title": "Recognising when an eye exposure needs professional advice",
+      "category": "First aid",
+      "summary": "Describe possible eye injury causes and the limits of household first aid reference material.",
+      "tags": [
+        "eye",
+        "injury",
+        "chemical splash",
+        "foreign object",
+        "vision change",
+        "assessment"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "causes",
+          "title": "Different causes require different responses",
+          "paragraphs": [
+            "Eye problems after an impact, chemical exposure, heat, sharp object or sudden vision change should not be treated as interchangeable. Some injuries are serious even when there is little visible damage.",
+            "A chemical label, product container or a description of the event may help professionals understand the exposure, but retrieving it must not delay urgent assistance or create further exposure."
+          ]
+        },
+        {
+          "id": "seek",
+          "title": "Prioritise appropriate help",
+          "paragraphs": [
+            "Severe pain, sudden visual disturbance, a penetrating injury or a suspected harmful chemical exposure warrants prompt professional advice or emergency assistance according to the situation.",
+            "Do not attempt to remove an embedded object or use improvised eye treatments. This unreviewed draft cannot determine whether an exposure can be managed at home."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Share useful information without delay",
+          "paragraphs": [
+            "Where safe, note the time, the product or object involved, and any instructions already given by an appropriate professional. If packaging is available, retain the identifying information for the responder.",
+            "Detailed eye irrigation, shielding and treatment illustrations are needed_for_expert_review and are not included here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bites-stings-assessment-information",
+      "title": "What to record after a bite or sting",
+      "category": "First aid",
+      "summary": "Prepare relevant incident details for a professional while recognising that some reactions can be urgent.",
+      "tags": [
+        "bite",
+        "sting",
+        "insect",
+        "animal",
+        "allergic reaction",
+        "incident"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the situation without approaching a hazard",
+          "paragraphs": [
+            "A bite or sting may involve an insect, animal or an unknown source. The animal or insect does not need to be captured or approached to make a household note.",
+            "A rapidly developing severe allergic reaction, breathing difficulty or collapse requires emergency assistance. This draft is not a substitute for recognising and treating anaphylaxis through qualified guidance."
+          ]
+        },
+        {
+          "id": "notes",
+          "title": "Record what is known",
+          "paragraphs": [
+            "If it is safe, note when and where the event occurred, what the person observed, and whether the animal or insect was identifiable. Distinguish confirmed information from a guess.",
+            "For animal bites, details about the animal and contact circumstances may be useful to a clinician or relevant authority, but do not risk further injury to collect them."
+          ]
+        },
+        {
+          "id": "help",
+          "title": "Follow individual care advice",
+          "paragraphs": [
+            "Seek suitable medical advice for the event and follow the person's existing clinician-approved emergency plan if they have one. Do not use unverified home remedies or generic medication instructions from an app draft.",
+            "Illustrations of sting removal, wound treatment or allergy medication use are needed_for_expert_review and have not been generated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suspected-poisoning-product-details",
+      "title": "Collecting product details after a suspected harmful exposure",
+      "category": "First aid",
+      "summary": "Identify useful packaging information to communicate when seeking urgent toxicology or medical advice.",
+      "tags": [
+        "poisoning",
+        "exposure",
+        "medicine",
+        "cleaning product",
+        "label",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "safety",
+          "title": "Do not create a second exposure",
+          "paragraphs": [
+            "A suspected harmful exposure can involve medicine, household chemicals, gases or other substances. Move away from immediate danger when possible and seek urgent professional help for serious symptoms or unsafe surroundings.",
+            "Do not taste, smell closely or handle an unknown substance to identify it. Do not induce vomiting or attempt improvised neutralisation; different substances require different responses."
+          ]
+        },
+        {
+          "id": "details",
+          "title": "Use existing labels when safely available",
+          "paragraphs": [
+            "If packaging is already accessible without risk, the product name, ingredients or concentration, container details and time of possible exposure may help an emergency adviser.",
+            "Share what is known and clearly say what is uncertain. Do not delay a call to find an exact product code or to reconstruct the amount involved."
+          ]
+        },
+        {
+          "id": "handover",
+          "title": "Follow qualified instructions",
+          "paragraphs": [
+            "Use emergency services where there is immediate danger and follow advice from appropriate poison-information or medical professionals. The app cannot evaluate toxicity from a label or a household description.",
+            "Any decontamination, antidote or poisoning-treatment illustration is needed_for_expert_review and has not been produced."
+          ]
+        }
+      ]
+    }
+  ]
+}

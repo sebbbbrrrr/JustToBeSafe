@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-ambulance-contact-handoff",
+      "title": "Preparing a household emergency contact handoff for ambulance crews",
+      "category": "First aid",
+      "summary": "Make key practical information available to responders without exposing sensitive records.",
+      "tags": [
+        "ambulance",
+        "responder",
+        "handoff",
+        "access",
+        "contact"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep a brief practical handoff",
+          "paragraphs": [
+            "Identify a suitable place for a short household reference that can be found quickly by authorised helpers. Include a trusted contact route and any access arrangements that could delay a visit, without displaying private details in public areas.",
+            "Keep the note separate from clinical records and make clear who is responsible for updating it. A reference card is not a substitute for speaking to emergency services or following their instructions."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check consent and accuracy",
+          "paragraphs": [
+            "Ask household members what information they consent to share and avoid copying diagnoses or medication lists into communal spaces. Consider secure access to more detailed information when a person cannot communicate.",
+            "Review the contact route when phone numbers, occupants or entry arrangements change. During an emergency, prioritise contacting the appropriate emergency service rather than searching for paperwork."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-private-symptom-diary",
+      "title": "Organising a private household symptom diary",
+      "category": "Household health",
+      "summary": "Record observations for a future professional conversation without self-diagnosing.",
+      "tags": [
+        "symptom diary",
+        "timeline",
+        "privacy",
+        "appointment",
+        "observation"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record observations, not conclusions",
+          "paragraphs": [
+            "If a clinician asks for a symptom history, record when an issue was noticed, its general pattern and relevant contextual observations in the person's own words. Distinguish what was directly observed from guesses about its cause.",
+            "Avoid treating an app entry or a daily score as proof of a diagnosis. Sudden or severe changes may need prompt professional assessment rather than waiting to complete a diary."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Protect and share selectively",
+          "paragraphs": [
+            "Keep notes in a private location under the person's control, particularly where other household members share a device. Record only information that will help the intended conversation.",
+            "Before an appointment, ask the person whether they want to bring the notes and which parts they are comfortable discussing. Delete outdated copies when they are no longer needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-dressing-supply-preparation",
+      "title": "Preparing a clean area for everyday wound dressing supplies",
+      "category": "First aid",
+      "summary": "Organise unopened supplies and a tidy surface without giving clinical dressing instructions.",
+      "tags": [
+        "dressings",
+        "supplies",
+        "clean area",
+        "storage",
+        "hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Clear surface",
+          "Keep packs sealed",
+          "Check supplies"
+        ],
+        "alt": "A three-row checklist illustrates preparation of a clear work area, retaining unopened packaging and reviewing supply condition without depicting wound treatment.",
+        "caption": "Preparation checklist only; it does not explain how to dress a wound."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose a practical preparation area",
+          "paragraphs": [
+            "Select a dry, uncluttered surface away from food preparation, household chemicals and damp storage. Keep packaged supplies in their original wrapping so names, dates and manufacturer instructions remain legible.",
+            "Check that the area has suitable lighting and a place for clean items to remain separate from used materials. Do not open sterile packs in advance merely to make a display or kit look ready."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan safe cleanup and replacement",
+          "paragraphs": [
+            "Keep a waste bag and routine hand-cleaning facilities available for everyday hygiene, while following local arrangements for any potentially contaminated waste. Do not assume ordinary household waste is suitable for every item.",
+            "After use, identify which unopened items need replacing and which packaging is damaged. Decisions about wound care, infection signs and dressing technique require appropriate reviewed guidance or professional advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-thermometer-information",
+      "title": "Keeping a household thermometer and its instructions together",
+      "category": "Household health",
+      "summary": "Find model-specific instructions and keep measurement records understandable.",
+      "tags": [
+        "thermometer",
+        "manual",
+        "battery",
+        "temperature",
+        "device"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Find manual",
+          "Check device",
+          "Record context"
+        ],
+        "alt": "A three-stage schematic connects finding the thermometer instructions, checking its condition and recording contextual information, without illustrating a clinical measurement technique.",
+        "caption": "Device readiness overview; follow the manufacturer's instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the device and instructions",
+          "paragraphs": [
+            "Record the thermometer model and where its manufacturer instructions are kept, including the intended measurement method and any age-related restrictions stated by the maker. Different devices can produce readings that are not directly interchangeable.",
+            "Keep a suitable replacement battery or charging arrangement if the device needs one, and check its condition according to the manufacturer. Avoid guessing a temperature threshold or using a device outside its specified conditions."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record context when sharing readings",
+          "paragraphs": [
+            "When a professional asks about a reading, note the date, time, device and measurement location so the information is interpretable. Do not infer that a single reading establishes or excludes illness.",
+            "Keep the device clean and stored as its instructions require. Seek timely clinical advice for concerning symptoms instead of delaying help to repeat measurements or find equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-health-information-folder-index",
+      "title": "Setting up a labelled household health information folder",
+      "category": "Household health",
+      "summary": "Use a simple folder index without placing sensitive medical details on public display.",
+      "tags": [
+        "folder",
+        "index",
+        "health records",
+        "privacy",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Contacts",
+          "Instructions",
+          "Letters"
+        ],
+        "alt": "A three-tier schematic represents broad document categories in a private household folder; it does not display personal health data.",
+        "caption": "Illustrative folder categories, not a requirement to disclose medical records."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Create a minimal index",
+          "paragraphs": [
+            "Use broad dividers such as contacts, appointments, instructions and correspondence. Label where a document belongs rather than writing private diagnoses or account numbers on the outside of the folder.",
+            "Choose a format that can be understood by someone unfamiliar with the household, including readable text and consistent labels. A folder should help locate documents, not replace original records or professional advice."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Limit access and maintain it",
+          "paragraphs": [
+            "Store the folder in a location known to the relevant person or authorised helper, with appropriate protection from casual access, theft or water damage. Avoid photographing identity documents into an unprotected shared album.",
+            "Review the index after major changes and remove duplicate or obsolete paperwork. When sharing a document, check that it belongs to the intended person and that sharing is authorised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-pharmacy-questions",
+      "title": "Preparing for a non-emergency pharmacy conversation",
+      "category": "Household health",
+      "summary": "Gather packaging and questions for a pharmacist without offering medication advice.",
+      "tags": [
+        "pharmacist",
+        "medicine",
+        "packaging",
+        "questions",
+        "consultation"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Gather relevant product details",
+          "paragraphs": [
+            "Before speaking to a pharmacist, identify the product name and keep its original packaging or leaflet available. Write down the question you want answered, such as storage, labelling or how to understand the manufacturer's instructions.",
+            "Avoid relying on a photo of an unlabelled tablet or an old shopping list to establish what a medicine is. Do not change or combine medicines based on an unreviewed household guide."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Clarify the next step",
+          "paragraphs": [
+            "Ask who to contact if the question cannot be resolved in a routine pharmacy conversation. Make a note of any follow-up the professional recommends, without presenting the note as a prescription.",
+            "Urgent symptoms or a suspected harmful exposure need the appropriate urgent service, not a delayed routine enquiry. Keep private medication information out of shared public notes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-handwashing-station-supplies",
+      "title": "Planning a household handwashing supplies station",
+      "category": "Household hygiene",
+      "summary": "Keep soap, drying supplies and replenishment visible without implying clinical infection control.",
+      "tags": [
+        "handwashing",
+        "soap",
+        "drying",
+        "sink",
+        "replenishment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Soap",
+          "Drying",
+          "Refills"
+        ],
+        "alt": "Three illustrated shelves show soap, a hand-drying supply and refills as an organisational overview of a household washing station.",
+        "caption": "Example supply layout; follow product and public-health instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Make everyday supplies easy to reach",
+          "paragraphs": [
+            "Choose a regularly used sink and check that soap and a practical hand-drying option are available. Account for household members who have difficulty reaching shelves or operating dispensers.",
+            "Keep refills and spare towels away from damp or contaminated storage, and use clear labels for products that look similar. The presence of supplies alone does not guarantee appropriate hygiene."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Maintain the station",
+          "paragraphs": [
+            "Assign a simple check for empty dispensers, damaged containers and damp shared textiles. Keep a small record of what needs replenishing rather than relying on a reminder being dismissed.",
+            "Follow product labels and relevant public-health advice for special situations. This organisational guide is not a clinical handwashing technique or infection-control protocol."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-training-certificate-record",
+      "title": "Planning household access to a first aid course certificate",
+      "category": "First aid",
+      "summary": "Keep evidence of training and course details accessible without treating certificates as permanent competence.",
+      "tags": [
+        "training",
+        "certificate",
+        "provider",
+        "expiry",
+        "skills"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep the record useful",
+          "paragraphs": [
+            "Record the course title, provider, completion date and any renewal guidance supplied by the provider. Store the certificate or confirmation in a private but retrievable place alongside other important training records.",
+            "Do not assume a course certificate means every possible emergency procedure was covered or that skills remain current. Practical competence depends on the course, practice and any subsequent updates."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan an appropriate refresher",
+          "paragraphs": [
+            "Use the provider's stated validity or refresher recommendations rather than inventing a universal renewal interval. Note who may want training and any accessibility or language requirements when choosing a course.",
+            "If training details are lost, contact the provider rather than reconstructing a certificate. A household reference guide cannot replace supervised first-aid education."
+          ]
+        }
+      ]
+    }
+  ]
+}

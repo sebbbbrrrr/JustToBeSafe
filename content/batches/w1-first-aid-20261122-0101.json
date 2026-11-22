@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-supply-replacement-log",
+      "title": "Tracking first aid supplies that need replacing",
+      "category": "Equipment",
+      "summary": "Keep a simple record of used, missing or damaged supplies without confusing a stock count with a safety inspection.",
+      "tags": [
+        "restock",
+        "consumables",
+        "replacement",
+        "first aid kit"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record what changed",
+          "Check the item itself",
+          "Close the loop"
+        ],
+        "alt": "An original three-part schematic for tracking first aid supplies that need replacing, showing Record what changed, then Check the item itself, then Close the loop as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Record what changed · Check the item itself · Close the loop. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "After using an item",
+          "paragraphs": [
+            "When a first aid supply is used, note its plain-language name, the kit it came from and whether another usable item remains. Avoid recording details of a person's injury in a shared household inventory; supply replenishment and medical records serve different purposes.",
+            "If several kits contain similar items, distinguish them by location or kit name. A generic label such as 'bandage' can conceal differences in size, packaging and intended use, so retain the manufacturer's product description."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Before marking it available",
+          "paragraphs": [
+            "A quantity entered in an app does not confirm that an item is clean, sealed, within its stated date or suitable for a particular person. Check the physical packaging and manufacturer instructions before treating a replacement as ready for use.",
+            "Separate items with torn wrappers, unclear labels or visible damage from usable supplies. Do not return an item to the kit simply because the database still lists it as available."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Finish the replenishment",
+          "paragraphs": [
+            "Record when the replacement was physically placed in the correct kit, rather than when it was merely ordered. If a supply cannot be replaced promptly, flag the gap so household members do not assume the kit is complete.",
+            "Review recurring shortages periodically; frequent use may justify changing the inventory target, but product selection and clinical suitability should follow qualified advice when necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care-equipment-instructions-index",
+      "title": "Finding instructions for household care equipment",
+      "category": "Household health",
+      "summary": "Organise model-specific manuals and contact details so unfamiliar equipment can be identified without guessing its operation.",
+      "tags": [
+        "manual",
+        "care equipment",
+        "manufacturer",
+        "instructions",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Locate manual",
+          "Verify version"
+        ],
+        "alt": "An original three-part schematic for finding instructions for household care equipment, showing Identify, then Locate manual, then Verify version as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Identify · Locate manual · Verify version. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the exact device",
+          "paragraphs": [
+            "Write down the manufacturer, model designation and where the device is stored. Similar-looking equipment may have different controls or warnings, so a general article or picture is not a substitute for the instructions for that specific model.",
+            "Where appropriate, note whether accessories belong to a particular unit. Avoid storing serial numbers or other identifiers in public shared documents unless they are genuinely needed."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep an accessible manual",
+          "paragraphs": [
+            "Save an authorised offline copy of the user manual where permitted, or record the location of the paper instructions. Make sure the document is readable without signing into a cloud account, and test opening it while disconnected.",
+            "Organise manuals by device rather than scattering screenshots through a general photo album. If a household member needs large print or an accessible format, look for an official accessible version."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain a reliable reference",
+          "paragraphs": [
+            "When equipment is replaced, archive or remove obsolete instructions to prevent accidental mix-ups. Check that any emergency support contact and warranty information still relates to the equipment in use.",
+            "Do not improvise operation, settings or maintenance from an unrelated device manual. For safety-critical equipment, obtain training and support from the supplier or responsible healthcare professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-kit-location-map",
+      "title": "Mapping first aid kit locations in a shared building",
+      "category": "Household planning",
+      "summary": "Make kit locations easy to communicate while respecting building access, privacy and existing emergency arrangements.",
+      "tags": [
+        "kit locations",
+        "shared building",
+        "access",
+        "floor plan"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Identify spaces",
+          "Mark kits",
+          "Review access"
+        ],
+        "alt": "An original three-part schematic for mapping first aid kit locations in a shared building, showing Identify spaces, then Mark kits, then Review access as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Identify spaces · Mark kits · Review access. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the spaces people use",
+          "paragraphs": [
+            "Start with a simple list of rooms, floors or shared areas where household members regularly spend time. Use familiar location names rather than codes only one person understands.",
+            "For communal or managed premises, check who owns and maintains any shared first aid kit before including it in a household plan. A kit seen in a corridor is not necessarily available to residents."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Mark actual kit locations",
+          "paragraphs": [
+            "Create a plain-language map of the household's own kit locations. Describe landmarks such as 'hall cupboard, middle shelf' and distinguish permanent storage from a travel kit that may be absent.",
+            "A location diagram is for finding stored equipment, not a route to take during a fire, evacuation or other live incident. Do not place kit symbols over exits or imply that the map replaces a building's safety plan."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep access information current",
+          "paragraphs": [
+            "Ask whether a person with limited reach, mobility or vision can locate the kit, and record an accessible alternative if necessary. Check that locked storage and key arrangements do not make the reference misleading.",
+            "Review the map when rooms are reorganised or equipment moves. Avoid publishing a private household floor plan or sensitive access details in a public repository."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-medication-storage-questions",
+      "title": "Questions to ask about safe medicine storage at home",
+      "category": "Household health",
+      "summary": "Prepare useful questions for a pharmacist about product-specific storage, security and access.",
+      "tags": [
+        "medicines",
+        "pharmacist",
+        "storage",
+        "labels",
+        "household"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Different medicines have different rules",
+          "paragraphs": [
+            "Read the actual packaging and patient information for each product rather than applying one household temperature or storage rule to everything. Some products have special refrigeration, light-protection or handling requirements.",
+            "If instructions are missing, damaged or contradictory, ask a pharmacist or the prescribing service before changing storage arrangements. Do not assume that a medicine remains suitable after a power cut or temperature excursion."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Consider people and access",
+          "paragraphs": [
+            "Think about children, visitors, pets and anyone who might confuse similar containers. A storage location needs to balance preventing accidental access with the needs of the person who legitimately uses the medicine.",
+            "Ask a pharmacist how to manage medicines requiring controlled access, special devices or help from a carer. Do not transfer products into unlabelled containers just to make shelves tidier."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Plan for changes and disposal",
+          "paragraphs": [
+            "When a prescription or household routine changes, check that old and new packaging are not being mixed up. Keep identifying labels and written instructions with the correct medicine.",
+            "Ask a community pharmacy how to return unwanted or expired medicines rather than discarding them casually. This article is a question-planning aid, not a medicine-storage or treatment protocol."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medical-alert-information-review",
+      "title": "Reviewing medical alert information for accuracy",
+      "category": "Household health",
+      "summary": "Keep personal medical alert details current without exposing private information unnecessarily.",
+      "tags": [
+        "medical alert",
+        "allergy",
+        "identification",
+        "privacy",
+        "review"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand what the alert is for",
+          "paragraphs": [
+            "Some people choose to carry or display medical alert information because a clinician has advised it or because their circumstances warrant it. The details and wording should be appropriate to that person, not copied from a generic example.",
+            "Do not invent a diagnosis, allergy, medication status or emergency instruction for another household member. Ask the person and, where needed, their clinician which information should be included."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check readability and privacy",
+          "paragraphs": [
+            "Look at whether the information can be read easily and whether it uses familiar, unambiguous terminology. A decorative badge or phone wallpaper may be missed, and a digital-only record may be unavailable if the phone is locked or flat.",
+            "Avoid sharing identifiable medical information in communal spaces or public code repositories. Respect the person's preferences, consent and ability to control who sees their information."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the information current",
+          "paragraphs": [
+            "After relevant medical or contact changes, prompt the person to check their alert details with an appropriate professional. An old alert can be misleading even when its physical condition looks fine.",
+            "Treat an alert as supplementary information rather than proof of a diagnosis or a substitute for professional assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caregiver-handover-notes-template",
+      "title": "Preparing a temporary caregiver handover note",
+      "category": "Household planning",
+      "summary": "Create a concise, consent-aware reference for an authorised person supporting a household member.",
+      "tags": [
+        "carer",
+        "handover",
+        "consent",
+        "contacts",
+        "routine"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree scope",
+          "Write essentials",
+          "Review handover"
+        ],
+        "alt": "An original three-part schematic for preparing a temporary caregiver handover note, showing Agree scope, then Write essentials, then Review handover as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Agree scope · Write essentials · Review handover. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Agree what the helper needs",
+          "paragraphs": [
+            "Ask the person receiving support, or their authorised representative where appropriate, what can be shared and why. A short handover should help a temporary caregiver understand routines and whom to contact, not become an unrestricted medical file.",
+            "Separate everyday practical information, such as where essential supplies are kept, from sensitive health information. Include only details needed for the agreed task."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Write usable information",
+          "paragraphs": [
+            "Use clear headings for contact preferences, agreed daily routines, communication or accessibility needs, and the location of approved instructions. Where a task requires clinical training, direct the helper to the responsible professional rather than writing an improvised procedure.",
+            "Identify any parts of the plan that are uncertain or awaiting confirmation. Avoid shorthand, unexplained abbreviations and references that require an internet connection if offline access matters."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Hand over and withdraw access",
+          "paragraphs": [
+            "Review the note with the helper and check that they can locate the relevant resources. Keep a version date so older copies are easier to recognise.",
+            "Once the arrangement ends, collect or securely delete unnecessary copies where feasible. Respect confidentiality and do not treat a convenience note as legal authorisation for healthcare decisions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-supplies-clean-dry-storage",
+      "title": "Keeping non-medicated care supplies clean and dry",
+      "category": "Household hygiene",
+      "summary": "Reduce avoidable storage damage to household care consumables without making unsupported sterility claims.",
+      "tags": [
+        "storage",
+        "packaging",
+        "dry",
+        "clean",
+        "consumables"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Choose location",
+          "Inspect wrappers",
+          "Rotate stock"
+        ],
+        "alt": "An original three-part schematic for keeping non-medicated care supplies clean and dry, showing Choose location, then Inspect wrappers, then Rotate stock as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Choose location · Inspect wrappers · Rotate stock. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose a suitable location",
+          "paragraphs": [
+            "Keep non-medicated care consumables in a location consistent with the product's own storage instructions. Consider dampness, spills, dust, pests and whether the item might be crushed by heavier household goods.",
+            "Do not assume that a tidy cupboard is a sterile environment. Products sold as sterile rely on their specified packaging and use conditions, not simply on the appearance of the shelf."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Inspect before use",
+          "paragraphs": [
+            "Check that labels remain legible and that protective wrappers have not been opened or damaged. Where the manufacturer specifies a use-by date or storage condition, follow it rather than inventing a universal rule.",
+            "Separate visibly compromised supplies for assessment or replacement. An item that looks clean may still be unsuitable if its sterile barrier has been breached."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Rotate with care",
+          "paragraphs": [
+            "Place older eligible stock where it can be identified without repeatedly handling or opening individual packs. Use the recorded expiry information where relevant, while checking the physical label before actual use.",
+            "Review supplies after leaks, building work or other events that could have affected storage. This is an organisation guide, not an instruction for cleaning or re-sterilising medical equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-training-record",
+      "title": "Keeping a record of first aid training and refreshers",
+      "category": "Household planning",
+      "summary": "Track who has completed recognised training and where to find the provider's current materials.",
+      "tags": [
+        "training",
+        "first aid course",
+        "certificate",
+        "refreshers",
+        "skills"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record course",
+          "Check currency",
+          "Plan refresher"
+        ],
+        "alt": "An original three-part schematic for keeping a record of first aid training and refreshers, showing Record course, then Check currency, then Plan refresher as labelled planning concepts rather than clinical treatment instructions.",
+        "caption": "Planning overview: Record course · Check currency · Plan refresher. Check the article and relevant product guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record the training actually completed",
+          "paragraphs": [
+            "Write down the course name, training provider and completion date, using the certificate's exact wording. A short introductory talk, a practical assessed course and a workplace qualification are not interchangeable.",
+            "Keep any certificate in an appropriately private location. A household training record should not imply that someone is a qualified clinician or authorised to perform procedures beyond their competence."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Check what remains current",
+          "paragraphs": [
+            "If the course or employer has a renewal requirement, record it from the relevant provider rather than assuming every certificate has the same expiry. Skills can become less familiar even when a certificate is still within its stated validity period.",
+            "Save a link or offline reference to the provider's official refresher materials where reuse is permitted. Do not copy restricted course diagrams or present an unreviewed article as a replacement for hands-on instruction."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Use the record constructively",
+          "paragraphs": [
+            "When planning future learning, identify topics that household members want to understand and look for recognised training appropriate to their needs. The record should make it easier to seek instruction, not create pressure to attempt unfamiliar interventions.",
+            "In an actual emergency, seek appropriate emergency assistance and follow current professional guidance; a course log does not replace incident-specific assessment."
+          ]
+        }
+      ]
+    }
+  ]
+}

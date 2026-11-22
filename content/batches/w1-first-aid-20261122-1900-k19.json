@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-period-supplies-access",
+      "title": "Keeping menstrual supplies accessible during household disruption",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for keeping menstrual supplies accessible during household disruption.",
+      "tags": [
+        "period supplies",
+        "menstrual products",
+        "accessible storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify supplies",
+          "Choose location",
+          "Review stock"
+        ],
+        "alt": "Three-item organisational checklist: Identify supplies; Choose location; Review stock. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Group everyday supplies by type and individual preference rather than assuming everyone uses the same product."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Choose a discreet, dry and reachable storage location, with clear identification for household members who need it. Keep packaging or product instructions available, especially where different products look similar."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Check stock after travel, visitors or a change in routine. Record what needs replacing without collecting unnecessary personal information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-continence-supplies-location",
+      "title": "Creating a private location index for continence supplies",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for creating a private location index for continence supplies.",
+      "tags": [
+        "continence products",
+        "personal care",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "List locations",
+          "Respect privacy",
+          "Update index"
+        ],
+        "alt": "Three-item organisational checklist: List locations; Respect privacy; Update index. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "List the locations of routinely used non-prescription personal-care supplies without recording a person's diagnosis or private health history."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Distinguish sealed reserve packs from everyday items and note where disposal bags or other ordinary accessories are stored. Ensure the arrangement is usable by the person concerned and any authorised helper."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Review the index when supplies change, storage moves or assistance arrangements change. Clinical product selection and use remain matters for the person's professional care plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-contact-lens-accessory-index",
+      "title": "Keeping contact-lens accessories and manufacturer information together",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for keeping contact-lens accessories and manufacturer information together.",
+      "tags": [
+        "contact lenses",
+        "case",
+        "manufacturer",
+        "eye care"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify products",
+          "Keep labels",
+          "Check changes"
+        ],
+        "alt": "Three-item organisational checklist: Identify products; Keep labels; Check changes. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Identify the exact lens and accessory products a household member uses, including any case or labelled solution container. Similar-looking products are not necessarily interchangeable."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Keep original labels and manufacturer instructions available offline or with the products. Avoid decanting solutions into unmarked containers or making assumptions about compatibility and replacement schedules."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Review the record when prescriptions or products change. For eye pain, redness, injury or concerns about safe lens use, seek advice from an appropriate eye-care professional rather than relying on this organisational index."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-tissue-station",
+      "title": "Planning accessible tissue and disposal locations around the home",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for planning accessible tissue and disposal locations around the home.",
+      "tags": [
+        "tissues",
+        "waste bins",
+        "accessibility",
+        "household hygiene"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find locations",
+          "Keep access clear",
+          "Replenish"
+        ],
+        "alt": "Three-item organisational checklist: Find locations; Keep access clear; Replenish. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Identify rooms where tissues are routinely needed, including bedrooms and spaces used by people with limited mobility. A small number of predictable locations can be more useful than scattered spare boxes."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Place supplies where they can be reached without obstructing movement or placing bins on a route. Distinguish ordinary household waste from any waste subject to specific care instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Review supplies and bin condition during regular household checks. This arrangement is for convenience and cleanliness; it does not replace infection-control advice for illness or clinical care."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-nonmedicated-skin-care-index",
+      "title": "Creating an index of everyday non-medicated skin-care products",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for creating an index of everyday non-medicated skin-care products.",
+      "tags": [
+        "skin care",
+        "moisturiser",
+        "toiletries",
+        "labels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify items",
+          "Retain labels",
+          "Update list"
+        ],
+        "alt": "Three-item organisational checklist: Identify items; Retain labels; Update list. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Record the names and usual storage places of everyday non-medicated products that household members want to locate quickly. Keep medicinal creams and prescribed treatments in a separate, clearly identified category."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Preserve the original container and ingredient information rather than copying incomplete instructions onto a new label. A product may be unsuitable for an individual even if others use it routinely."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Update the index when products are replaced or sensitivities are reported. For a rash, broken skin or treatment question, use appropriate professional guidance rather than this household inventory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-spare-hygiene-clothing-kit",
+      "title": "Organising a small change-of-clothes and hygiene kit for household interruptions",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for organising a small change-of-clothes and hygiene kit for household interruptions.",
+      "tags": [
+        "spare clothes",
+        "hygiene",
+        "accessible packing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose items",
+          "Pack separately",
+          "Recheck fit"
+        ],
+        "alt": "Three-item organisational checklist: Choose items; Pack separately; Recheck fit. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Identify the ordinary clothing and personal hygiene items that would help someone remain comfortable if a journey is delayed or a household routine is interrupted."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Pack clean items separately from used or damp items and make the kit easy to recognise without exposing private health details. Consider sizing, sensory preferences and whether the intended person can open the container."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Inspect the kit when seasons, clothing sizes or household needs change. Replace used items promptly and avoid treating a packed kit as evidence that medical or emergency needs have been covered."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-bathroom-accessibility-supply-map",
+      "title": "Making a simple bathroom personal-care supply map",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for making a simple bathroom personal-care supply map.",
+      "tags": [
+        "bathroom",
+        "accessibility",
+        "toiletries",
+        "location map"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Name locations",
+          "Label clearly",
+          "Review changes"
+        ],
+        "alt": "Three-item organisational checklist: Name locations; Label clearly; Review changes. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Identify the everyday supplies someone needs to find independently, such as spare toilet paper, towels and personal hygiene products. Include only information the person agrees to share."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Use plain-language shelf or drawer labels that match the actual layout. Avoid relying on colour alone, tiny print or a high cupboard that is difficult to reach. Keep hazardous cleaning products distinct from personal-care supplies."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Check the map after cupboards are reorganised. A location map helps retrieval but cannot establish that a bathroom is clinically suitable or physically accessible for every person."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-personal-care-expiry-notes",
+      "title": "Recording replacement dates for everyday personal-care accessories",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline household organisation guide for recording replacement dates for everyday personal-care accessories.",
+      "tags": [
+        "personal care",
+        "replacement",
+        "product record"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify model",
+          "Record date",
+          "Review"
+        ],
+        "alt": "Three-item organisational checklist: Identify model; Record date; Review. The graphic describes household supply management, not a medical procedure.",
+        "caption": "An offline reference for organising personal-care supplies, not clinical guidance."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the need",
+          "paragraphs": [
+            "Create a modest record for accessories whose manufacturer provides a replacement or service date, such as detachable grooming heads or reusable personal-care components."
+          ]
+        },
+        {
+          "id": "arrange",
+          "title": "Make information and supplies usable",
+          "paragraphs": [
+            "Record the exact model and the date shown by the manufacturer rather than inventing a universal replacement interval. Keep a reference to the original instructions, especially when similar accessories fit different products."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and limits",
+          "paragraphs": [
+            "Review the note when an accessory is replaced or its condition changes. Visible damage or uncertainty should prompt consultation of the product guidance, not a guess based solely on the record."
+          ]
+        }
+      ]
+    }
+  ]
+}
