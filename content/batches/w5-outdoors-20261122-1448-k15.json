@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-gps-location-permissions",
+      "title": "Review location permissions before using an offline walking map",
+      "category": "Outdoor navigation",
+      "summary": "Understand what a downloaded map can show without granting continuous location access.",
+      "tags": [
+        "location permission",
+        "GPS",
+        "privacy",
+        "offline maps"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "distinguish",
+          "title": "Separate map storage from positioning",
+          "paragraphs": [
+            "An offline map can display stored streets, paths and terrain without knowing where the phone is. Showing a moving position marker is a separate feature that may require device location permission.",
+            "Before leaving home, open the map with location access disabled and check which basic browsing functions still work. Then check the app's permission explanation rather than assuming that every offline feature requires tracking."
+          ]
+        },
+        {
+          "id": "settings",
+          "title": "Review device and app settings",
+          "paragraphs": [
+            "Inspect whether the app has permission only while in use or broader background access. Choose the least access that meets the intended feature and confirm whether any location history is retained on the device.",
+            "Do not confuse a device's GPS reception with an internet connection. Some positioning features can operate without mobile data, but map coverage, accuracy and app behaviour differ by device and location."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep a privacy-aware fallback",
+          "paragraphs": [
+            "Record how to find the downloaded map and its region name without needing a live position dot. Carry an appropriate independent navigation reference for the route and your own ability.",
+            "A permission change can alter navigation behaviour. Test it on a familiar, low-risk route rather than discovering a missing function in an unfamiliar or hazardous area."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Stored map",
+          "Location access",
+          "Privacy check"
+        ],
+        "alt": "Three-row checklist distinguishes an already downloaded map from the optional live position feature and a separate review of privacy settings.",
+        "caption": "Offline map availability and device positioning are different capabilities."
+      }
+    },
+    {
+      "id": "outdoor-trail-marker-consistency",
+      "title": "Record inconsistent waymark signs on a familiar public path",
+      "category": "Outdoor navigation",
+      "summary": "Document confusing or damaged waymarks without treating signs as guaranteed current route authority.",
+      "tags": [
+        "waymark",
+        "trail signs",
+        "path maintenance",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Note what the sign actually shows",
+          "paragraphs": [
+            "On a familiar low-risk path, record the visible colour, arrow, destination or route symbol on a waymark. Different routes may share posts or use similar colours, so a single marker can be ambiguous.",
+            "Note whether a marker is missing, rotated, obscured or inconsistent with the next sign. Do not assume an arrow confirms legal access, a safe crossing or a current diversion."
+          ]
+        },
+        {
+          "id": "document",
+          "title": "Capture useful maintenance details",
+          "paragraphs": [
+            "Record the nearest named path junction, the date and a description of the issue. A photograph can help a path-maintenance team, but avoid publishing identifiable images of other walkers or private property.",
+            "Separate observations from interpretations: 'arrow points left' is more useful than asserting the correct route without checking a current authoritative map and access notice."
+          ]
+        },
+        {
+          "id": "followup",
+          "title": "Report without changing signs",
+          "paragraphs": [
+            "Where appropriate, use the responsible council, land manager or path authority's ordinary reporting channel. Do not move, repaint or replace markers yourself.",
+            "If the route is uncertain, choose a familiar alternative or postpone the walk. This guide is about recording signage, not navigating dangerous terrain."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Describe",
+          "Report"
+        ],
+        "alt": "Three connected steps show noticing a waymark inconsistency, writing an objective location-specific description and passing it to the relevant path authority.",
+        "caption": "Record what is visible; do not alter waymarks or rely on them alone."
+      }
+    },
+    {
+      "id": "outdoor-hipbelt-condition",
+      "title": "Inspect a daypack hip belt and its adjustment hardware",
+      "category": "Outdoor equipment",
+      "summary": "Identify ordinary wear and fit problems in non-technical walking pack waist belts.",
+      "tags": [
+        "hip belt",
+        "rucksack",
+        "webbing",
+        "pack fit"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Locate the belt components",
+          "paragraphs": [
+            "Check whether the pack has a padded hip belt, a simple webbing waist strap or no waist support. Different designs serve different loads, so do not assume a thin strap is intended to transfer substantial weight.",
+            "Identify the buckle, adjustment sliders, stitching and attachment points. Follow the manufacturer's instructions for intended use and any replacement parts."
+          ]
+        },
+        {
+          "id": "inspect",
+          "title": "Look for visible wear",
+          "paragraphs": [
+            "With the pack unloaded, look for frayed webbing, torn stitching, cracked plastic and straps that slip through their adjusters. Check that the buckle closes and opens normally without force.",
+            "A belt that releases unexpectedly or cannot be adjusted reliably should not be relied on. Avoid sewing, gluing or improvising a load-bearing repair without competent advice."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Try a routine fit",
+          "paragraphs": [
+            "On level ground with a normal light day-walk load, check that the belt does not rub sharply or obstruct breathing and movement. Stop if the fit causes pain or limits mobility.",
+            "Record the model and problem for replacement or manufacturer support. This check does not establish suitability for mountaineering, climbing or other technical use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Webbing",
+          "Buckle",
+          "Fit"
+        ],
+        "alt": "Three-row equipment inspection checklist identifies belt webbing, closure hardware and ordinary walking fit as separate observations.",
+        "caption": "Check the manufacturer's intended load and replace damaged components."
+      }
+    },
+    {
+      "id": "outdoor-bug-mesh-storage",
+      "title": "Store and inspect a reusable insect head net",
+      "category": "Outdoor equipment",
+      "summary": "Keep a simple non-chemical insect barrier clean, intact and easy to identify.",
+      "tags": [
+        "insect net",
+        "mesh",
+        "outdoor accessories",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "inspect",
+          "title": "Check the mesh and seams",
+          "paragraphs": [
+            "Unfold the head net in good light and look for holes, pulled threads, loose seams or damaged drawcords. Even a small tear can reduce its usefulness as a physical barrier.",
+            "Confirm that the net is the correct type for its intended ordinary outdoor use and can be worn without obscuring vision or catching on equipment. It is not a substitute for suitable protective clothing or local health advice."
+          ]
+        },
+        {
+          "id": "care",
+          "title": "Clean and dry appropriately",
+          "paragraphs": [
+            "Follow the maker's washing instructions and remove dirt without aggressive scrubbing that could distort fine mesh. Let the net dry fully before packing to avoid trapped moisture and odour.",
+            "Keep it separate from sharp objects, hook-and-loop fasteners and other items that may snag the fibres. Do not apply insecticides or other chemical treatments unless the product is specifically designed for them and instructions are followed."
+          ]
+        },
+        {
+          "id": "store",
+          "title": "Make it easy to retrieve",
+          "paragraphs": [
+            "Use a breathable labelled pouch or the original case and note where it lives in the walking kit. Check the drawcord does not tighten unexpectedly or create an entanglement issue.",
+            "This is a maintenance guide, not advice for treating bites or avoiding insect-borne disease. Consult appropriate regional health guidance when travel risks differ."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect mesh",
+          "Dry fully",
+          "Store apart"
+        ],
+        "alt": "Three-step care diagram shows a mesh inspection, complete drying after cleaning and separate storage away from snagging objects.",
+        "caption": "Protect fine mesh from tears and damp storage."
+      }
+    }
+  ]
+}
