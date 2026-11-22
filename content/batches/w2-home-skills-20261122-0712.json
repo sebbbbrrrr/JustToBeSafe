@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "garage-door-condition-log",
+      "title": "Recording garage door movement and visible wear",
+      "category": "Home maintenance",
+      "summary": "Create a safe observation and service record for garage doors without adjusting tensioned components.",
+      "tags": [
+        "garage",
+        "door",
+        "rollers",
+        "tracks",
+        "spring",
+        "service",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Report",
+          "Record"
+        ],
+        "alt": "Three connected stages represent noticing a garage door concern, reporting it to a qualified service provider, and recording the outcome.",
+        "caption": "An observation workflow only; it does not show garage door repair steps."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe without intervening",
+          "paragraphs": [
+            "From a safe position, record changes such as new scraping sounds, uneven movement, visible panel damage or water entering around the door. A door that appears to move normally can still have hidden faults, so observations are not a safety certification.",
+            "Keep people and pets clear of a door that is stuck, unstable or moving unexpectedly. Do not attempt to adjust springs, cables, counterweights, tracks or motor mechanisms; these may store substantial energy even when the door is stationary."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep useful service details",
+          "paragraphs": [
+            "Record the door type, manufacturer or model where known, date of the symptom and whether the issue occurs consistently or intermittently. Keep photos only when they can be taken without approaching a moving or unstable assembly.",
+            "Store service reports, inspection recommendations and the name of the competent installer or technician. Note any manual-release instructions supplied by the manufacturer without improvising a release procedure."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Track follow-up",
+          "paragraphs": [
+            "Mark a concern as reported, booked or completed rather than assuming that a call-out resolves the fault. If the door forms part of a shared building, use the building manager's reporting route.",
+            "Do not use a damaged or unreliable door as an access route when doing so may place someone in danger. Seek professional inspection for movement or security concerns, and keep this draft separate from an approved maintenance procedure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainwater-downpipe-observation",
+      "title": "Observing rainwater downpipes from ground level",
+      "category": "Property exterior",
+      "summary": "Notice visible downpipe discharge and damage without working at height or dismantling drainage.",
+      "tags": [
+        "rainwater",
+        "downpipe",
+        "drainage",
+        "wall",
+        "overflow",
+        "exterior",
+        "gutter"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Roof edge",
+          "Pipe run",
+          "Ground"
+        ],
+        "alt": "A simplified three-point schematic identifies the roof-edge collection area, the visible vertical pipe run, and the ground-level outlet as locations to describe.",
+        "caption": "Location reference only; not a diagram of drainage repair or safe ladder access."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Know what can be observed",
+          "paragraphs": [
+            "From a safe ground-level position, look for displaced pipe sections, staining near joints, persistent splashing against walls or discharge that appears to pool beside the building. Weather and ground conditions affect what is visible.",
+            "Do not climb ladders, reach over edges or open underground drainage to investigate. Standing water may hide holes or contaminated material; avoid contact and keep others away from obvious hazards."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a location-specific note",
+          "paragraphs": [
+            "Record which side of the property is affected, the approximate position of the outlet and whether observations were made during rain or after it stopped. A simple sketch of the building sides can help a contractor locate the concern.",
+            "Avoid assuming that a damp patch proves a blocked downpipe: surface grading, leaks and other sources may contribute. Use neutral descriptions such as 'water observed at the base' rather than a diagnosis."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange appropriate review",
+          "paragraphs": [
+            "Report repeated pooling, loose sections or water near building entrances to the owner or suitable drainage contractor. In rented or shared properties, record the maintenance contact and reference number.",
+            "Keep follow-up photographs and completion notes in the property record. The article is for observation and communication, not instructions to clear, disconnect or redirect drainage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portable-fan-care-record",
+      "title": "Keeping a portable fan clean and serviceable",
+      "category": "Equipment",
+      "summary": "Record safe manufacturer-led care and recognise signs a portable fan needs replacing or inspection.",
+      "tags": [
+        "fan",
+        "portable",
+        "airflow",
+        "dust",
+        "guard",
+        "cord",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Check condition",
+          "Record"
+        ],
+        "alt": "A three-row checklist symbolises identifying the fan model, noting its visible condition, and recording the inspection result.",
+        "caption": "Use manufacturer instructions for actual cleaning and servicing; this is a recordkeeping diagram."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the equipment",
+          "paragraphs": [
+            "Record the fan's make, model, storage location and whether the manufacturer's care instructions are available offline. Note the type of power connection without opening the housing.",
+            "Check only visible external condition while the appliance is switched off and disconnected according to its instructions. If a cable, plug or casing looks damaged, do not energise the appliance to test it."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan routine care",
+          "paragraphs": [
+            "Follow the manufacturer's specified cleaning method and restrictions; different models have different removable guards and moisture sensitivities. Keep loose fabric, paper and other objects away from moving blades during normal use.",
+            "Do not put fingers or tools through a guard or defeat a safety interlock. An unusual burning smell, overheating, grinding noise or unstable operation warrants stopping use and arranging appropriate advice or replacement."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep a simple history",
+          "paragraphs": [
+            "Record the date the fan was last checked, whether cleaning was completed and whether a fault remains unresolved. A 'check due' reminder should not be recorded as a completed physical inspection.",
+            "Store replacement part details only when the manufacturer explicitly supports them. Dispose of an unsafe or failed appliance through an appropriate electrical recycling route rather than passing it on without warning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-softener-service-record",
+      "title": "Organising a household water-softener service record",
+      "category": "Plumbing equipment",
+      "summary": "Track model-specific consumables, service history and observed changes without altering pipework.",
+      "tags": [
+        "water softener",
+        "salt",
+        "regeneration",
+        "plumbing",
+        "filter",
+        "service",
+        "water"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Model details",
+          "Observations",
+          "Service log"
+        ],
+        "alt": "Three linked circles show a water-softener record moving from model identification to observations and a professional service history.",
+        "caption": "Equipment documentation workflow; no plumbing adjustment or water-treatment steps."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record the installed system",
+          "paragraphs": [
+            "Identify the water softener's manufacturer, model and installer, if known, from accessible labels or household paperwork. Keep the user manual and any water supplier information alongside its service history.",
+            "Not every property has a softener, and different systems use different consumables or maintenance intervals. Do not assume that a generic salt product, cleaning chemical or regeneration setting suits a particular unit."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Track observations and supplies",
+          "paragraphs": [
+            "Note dates when an authorised household member checked the consumable level or noticed an error message, unusual leakage or a change in operation. Record the exact product specification recommended by the manufacturer before buying replacements.",
+            "Avoid opening pressurised connections, bypassing valves or altering plumbing to investigate a fault. Keep the area accessible for a qualified technician and prevent stored supplies from blocking nearby utilities."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Document professional follow-up",
+          "paragraphs": [
+            "Keep receipts and service findings, including whether a fault was confirmed or only suspected. For water-quality concerns, rely on the water supplier or a competent specialist rather than treating an appliance display as proof that water is safe.",
+            "If the equipment leaks near electrical items or creates a slip hazard, avoid the area and seek appropriate assistance. This draft provides an equipment record, not water-treatment instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stair-tread-wear-observation",
+      "title": "Documenting wear on stair treads and nosings",
+      "category": "Home safety",
+      "summary": "Identify and report visible walking-surface wear without attempting structural repairs.",
+      "tags": [
+        "stairs",
+        "tread",
+        "nosing",
+        "wear",
+        "slip",
+        "surface",
+        "steps"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate step",
+          "Describe wear",
+          "Report"
+        ],
+        "alt": "A three-row observation checklist indicates identifying the affected step, describing visible wear, and reporting it for assessment.",
+        "caption": "This checklist records a concern; it does not teach stair construction or repair."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Look for visible changes",
+          "paragraphs": [
+            "From a stable, unobstructed position, note worn or lifting stair-edge coverings, loose-looking trim, unexpected gaps, uneven surfaces or repeated slipping at a particular step. Lighting and footwear can change how a surface feels.",
+            "Do not stand on an unstable step or deliberately test a suspected loose edge. Keep people away from an obvious hazard and use a safe alternative route where one exists."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Describe the location clearly",
+          "paragraphs": [
+            "Record the staircase, approximate step number counted consistently from one end, the date and the visible symptom. A photograph taken without putting yourself at risk can help a landlord or contractor understand the location.",
+            "Distinguish a loose surface finish from a possible problem with the underlying step; neither can be diagnosed reliably from a short written description. Do not glue, nail or cover an uncertain defect as an improvised repair."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange and verify follow-up",
+          "paragraphs": [
+            "Report the issue through the relevant owner, building manager or maintenance service and ask what interim access arrangements are appropriate. Give priority to a hazard affecting children, mobility-aid users or the only normal route through a home.",
+            "Keep the inspection outcome and completion date, rather than marking the task complete when merely reported. This draft is an observation guide and is not an assessment of structural safety."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chimney-fireplace-service-history",
+      "title": "Keeping fireplace and chimney service records",
+      "category": "Property utilities",
+      "summary": "Maintain documentation of fireplace inspections and professional servicing without giving combustion or sweeping procedures.",
+      "tags": [
+        "fireplace",
+        "chimney",
+        "flue",
+        "sweep",
+        "stove",
+        "carbon monoxide",
+        "service"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify what is installed",
+          "paragraphs": [
+            "Record whether the property has a decorative fireplace, an operational open fire or a stove, and retain any installer documentation, appliance manual and relevant inspection certificates. A visible chimney breast does not establish that an appliance is suitable for use.",
+            "Do not light an unused or uncertain fireplace to find out whether it works. Combustion appliances can involve fire, fumes and carbon-monoxide hazards that are not detectable by appearance alone."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Maintain a professional history",
+          "paragraphs": [
+            "Keep dates and findings from competent chimney sweeps, installers and other qualified professionals, including any restrictions on use. Record the appliance fuel and model only from reliable labels or documents, not guesswork.",
+            "A reminder for a service is not evidence that a flue is clear or safe. Follow the applicable manufacturer, installer and local requirements; intervals vary with equipment and use."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Respond to concerns",
+          "paragraphs": [
+            "Unusual smoke escape, suspected flue damage, alarm activation or symptoms of possible exposure require appropriate immediate safety action and professional or emergency advice, not home experimentation. Do not re-enter or continue using an unsafe area to collect notes.",
+            "Keep reports of remedial work and any explicit return-to-use clearance. The article is an administrative guide and must not be interpreted as permission to operate, clean or repair a combustion appliance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-hand-tools-storage",
+      "title": "Organising a safe household hand-tool storage area",
+      "category": "Equipment",
+      "summary": "Keep everyday hand tools identifiable, accessible to authorised users and separated from damaged items.",
+      "tags": [
+        "hand tools",
+        "toolbox",
+        "storage",
+        "screwdriver",
+        "hammer",
+        "inventory",
+        "maintenance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Measure",
+          "Fasten",
+          "Inspect"
+        ],
+        "alt": "Three illustrated shelf rows represent separate storage groups for measuring tools, fastening tools, and items awaiting condition checks.",
+        "caption": "Example organisation categories, not instructions for mounting shelves or using tools."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose a sensible storage place",
+          "paragraphs": [
+            "List the tools a household actually owns and group them by purpose and approximate size, such as measuring, fastening and general hand tools. Keep heavy items low enough to retrieve without unstable lifting.",
+            "Choose a dry, stable storage area that does not obstruct exits, electrical equipment or utility access. Restrict access to sharp or potentially dangerous tools where children or other vulnerable household members may reach them."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Recognise damaged equipment",
+          "paragraphs": [
+            "During routine organisation, note visibly cracked handles, missing protective covers, bent shafts or corrosion that may affect use. Set aside questionable tools for suitable assessment, repair by a competent person or disposal.",
+            "Do not test a damaged tool by applying force, and do not assume that a homemade repair restores its original strength. Keep power-tool batteries and charging arrangements subject to their own manufacturer instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Make the inventory useful",
+          "paragraphs": [
+            "Record the tool name, broad purpose, storage location and any essential accessories so the household can find items without rummaging through an overloaded box. A labelled drawer or small tray can reduce repeated searching.",
+            "Periodically remove duplicate or unsuitable items, update the list after lending tools, and record disposal of damaged equipment. A neat tool store is not evidence that someone is trained to use every item safely."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doorbell-intercom-fault-log",
+      "title": "Recording doorbell and entry-intercom problems",
+      "category": "Home equipment",
+      "summary": "Describe entry communication faults clearly while avoiding electrical or access-control interference.",
+      "tags": [
+        "doorbell",
+        "intercom",
+        "entry",
+        "buzzer",
+        "access",
+        "visitor",
+        "fault"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice issue",
+          "Contact support",
+          "Confirm outcome"
+        ],
+        "alt": "Three connected stages show a household member noting an entry-intercom problem, contacting authorised support, and recording the result.",
+        "caption": "A reporting sequence only; it does not depict wiring, bypassing entry controls or repair."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Describe the symptom",
+          "paragraphs": [
+            "Record whether the concern is a missing chime, intermittent sound, unclear speech, a failed display or a reported problem with the visitor call function. Note when it was observed without repeatedly operating a suspect or damaged unit.",
+            "Some doorbells use batteries while others connect to fixed wiring or shared access systems. Do not remove covers, touch exposed conductors or bypass locks and entry controls to investigate."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Preserve privacy and security",
+          "paragraphs": [
+            "Note the model and maintenance contact from documentation where available, but do not include entry codes, recordings of visitors or private addresses in public reports. For a shared intercom, contact the managing agent or authorised building service.",
+            "A malfunctioning entry system may affect accessibility and building security. Keep alternative contact arrangements consistent with building rules, and avoid granting entry to unknown visitors solely to test the system."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record the resolution",
+          "paragraphs": [
+            "Log the date reported, reference number, technician findings and whether a practical check by an authorised user confirmed normal operation afterward. Keep any warranty or installation paperwork with the record.",
+            "Do not describe a fault as fixed merely because it stopped occurring once. Recurrent or security-related problems merit appropriate professional review, not an improvised wiring or lock repair."
+          ]
+        }
+      ]
+    }
+  ]
+}
