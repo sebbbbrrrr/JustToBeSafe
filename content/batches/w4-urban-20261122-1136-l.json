@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-bus-stop-suspension",
+      "title": "Checking a temporarily suspended bus stop",
+      "category": "Urban transport",
+      "summary": "A stop may be skipped even while the wider bus route continues. An offline record can help a household identify what to confirm before setting out.",
+      "tags": [
+        "bus",
+        "stop",
+        "suspension",
+        "walking",
+        "accessibility",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Find notice",
+          "Check access",
+          "Reconfirm"
+        ],
+        "alt": "Conceptual sequence diagram for checking a temporarily suspended bus stop: Find notice; Check access; Reconfirm. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Read the operator's dated notice and identify the exact stop name, direction and route number; a stop on the opposite side of the road may have different arrangements.",
+            "Record the stated alternative boarding point only if the operator has identified it. Do not assume the next physical stop is served, step into the carriageway to flag a bus, or treat an old screenshot as a current instruction."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Compare the alternative with the traveller's walking distance, step-free access and need for a safe crossing. Ask the operator about an accessible arrangement when the suggested point is unsuitable.",
+            "Keep a short paper note of the route, stop identifier and operator contact. Check current notices again before travelling, since temporary arrangements can change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-tram-stop-relocation",
+      "title": "Preparing for a temporary tram stop relocation",
+      "category": "Urban transport",
+      "summary": "A temporary tram boarding point can change the path between the street and the platform, particularly for people who need step-free access.",
+      "tags": [
+        "tram",
+        "stop",
+        "relocation",
+        "accessibility",
+        "interchange",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual stop",
+          "New stop",
+          "Check access"
+        ],
+        "alt": "Conceptual route diagram for preparing for a temporary tram stop relocation: Usual stop; New stop; Check access. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Distinguish a stop relocation from a line closure. Write down the line, travel direction, new stop name and any date range shown in the operator's notice.",
+            "Look for specific information about lifts, ramps, crossings and interchange distance rather than assuming a relocated stop has the same accessibility features as the usual one."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Create a small comparison card with the normal stop, operator-named replacement and a question mark beside anything not confirmed. The card is a memory aid, not a route authorisation.",
+            "Check the operator's latest information before departure and follow staff instructions and site signs. If the replacement is inaccessible, contact the operator for an appropriate alternative rather than improvising a trackside route."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-cycle-hire-dock-outage",
+      "title": "Planning around an unavailable cycle-hire docking station",
+      "category": "Urban transport",
+      "summary": "A cycle-hire journey depends on both collecting and returning a bicycle, and a docking station can be unavailable without the entire scheme stopping.",
+      "tags": [
+        "cycle hire",
+        "dock",
+        "bike",
+        "payment",
+        "return",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Return plan",
+          "Backup trip",
+          "Support"
+        ],
+        "alt": "Conceptual checklist diagram for planning around an unavailable cycle-hire docking station: Return plan; Backup trip; Support. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Before relying on a shared cycle, note the scheme's official help contact, return rules and the location of other legitimate docking areas.",
+            "Do not infer that a dock is working from an old map or an offline screenshot. A payment or app outage may also prevent unlocking or ending a hire."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Allow for a non-cycle fallback when arrival time matters. Record the operator's instructions for a failed return rather than leaving a bicycle unsecured or assuming a rental has ended.",
+            "If a hire cannot be closed correctly, keep the transaction or bicycle reference privately and use the operator's support channel when available. Avoid publishing account identifiers in public reports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-station-locker-closure",
+      "title": "Preparing when station luggage lockers are unavailable",
+      "category": "Urban transport",
+      "summary": "A station storage closure can disrupt a journey involving heavy bags, accessibility needs or an onward appointment.",
+      "tags": [
+        "station",
+        "luggage",
+        "lockers",
+        "storage",
+        "travel",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Claim ticket",
+          "Provider contact",
+          "Plan B"
+        ],
+        "alt": "Conceptual shelves diagram for preparing when station luggage lockers are unavailable: Claim ticket; Provider contact; Plan B. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Check whether the notice concerns self-service lockers, a staffed left-luggage desk or both. They can have different opening hours and acceptance rules.",
+            "Write down the operator's official enquiry channel and any published collection arrangements for items already stored. Do not assume a closure notice permits access to a restricted area."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Plan to carry less luggage or arrange an authorised alternative before travel. Consider whether the alternative is accessible and whether its operating hours match the journey.",
+            "Keep claim receipts and item identifiers in a private place, not on a shared noticeboard. Follow the storage provider's instructions for retrieving belongings and confirm changes before travelling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-transport-app-account-outage",
+      "title": "Keeping travel options when a transport app account is unavailable",
+      "category": "Household communication",
+      "summary": "An app login problem is different from a service cancellation, but it can prevent access to tickets or travel records.",
+      "tags": [
+        "travel app",
+        "login",
+        "tickets",
+        "offline",
+        "account",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Ticket rules",
+          "Fallback",
+          "Check charges"
+        ],
+        "alt": "Conceptual sequence diagram for keeping travel options when a transport app account is unavailable: Ticket rules; Fallback; Check charges. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Identify which journeys depend on an app login, a mobile ticket or a payment card. Some ticket products are not valid as screenshots, so never assume an image is acceptable proof of travel.",
+            "Before a journey, check the operator's permitted offline ticket access and customer-support routes. Keep non-secret booking references separately where useful, without saving passwords or authentication codes on a shared card."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "If the account cannot be opened, use an operator-approved alternative purchase or validation method rather than bypassing barriers or relying on an unaccepted screenshot.",
+            "Record the issue and any support reference for later follow-up. After access returns, check for duplicate purchases or charges before making a repeat booking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-blue-badge-bay-suspension",
+      "title": "Understanding a temporary accessible parking bay suspension",
+      "category": "Urban access",
+      "summary": "A temporary parking suspension can remove a familiar accessible arrival point even when the destination remains open.",
+      "tags": [
+        "accessible parking",
+        "bay",
+        "suspension",
+        "blue badge",
+        "mobility",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Bay notice",
+          "Alternative",
+          "Step-free"
+        ],
+        "alt": "Conceptual checklist diagram for understanding a temporary accessible parking bay suspension: Bay notice; Alternative; Step-free. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Read the authority's posted notice for the precise bay, dates and restrictions. An accessible parking permit does not automatically override a signed temporary suspension.",
+            "Identify whether the destination has an authorised alternative drop-off or parking arrangement. Avoid assuming that nearby loading bays, footways or closed roads are lawful substitutes."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Record the destination's accessibility contact and ask about step-free access from the alternative arrival point, including kerbs and crossing points.",
+            "Recheck official signs on arrival. If an essential visit becomes inaccessible, contact the venue or responsible authority to discuss options instead of parking in a restricted or unsafe place."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-helpline-hours",
+      "title": "Making an offline record of public-service helpline hours",
+      "category": "Household communication",
+      "summary": "A saved telephone number is less useful without knowing which team it reaches and whether it is an ordinary-hours contact.",
+      "tags": [
+        "helpline",
+        "office hours",
+        "public service",
+        "contact",
+        "offline",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Hours",
+          "Checked"
+        ],
+        "alt": "Conceptual checklist diagram for making an offline record of public-service helpline hours: Service; Hours; Checked. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "For each essential public service, record its official name, purpose, published number and the date the details were checked. Keep emergency contact information distinct from general enquiries.",
+            "Do not invent an out-of-hours service or assume a call centre is staffed around the clock. A printed number may change, so label the record as an offline reference rather than a live directory."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Use a readable two-column paper format: service and contact details. Add an alternative accessible contact method only if the organisation officially offers it.",
+            "Review entries periodically and after a provider change. Keep personal case numbers separate from any household card that visitors might see."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-rail-platform-change-access",
+      "title": "Checking accessibility after a rail platform change",
+      "category": "Urban transport",
+      "summary": "A platform alteration may change the step-free route through a station even if the booked train is still running.",
+      "tags": [
+        "rail",
+        "platform",
+        "step-free",
+        "lift",
+        "station",
+        "urban",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Train details",
+          "Step-free route",
+          "Ask staff"
+        ],
+        "alt": "Conceptual route diagram for checking accessibility after a rail platform change: Train details; Step-free route; Ask staff. These are planning prompts, not a live map, verified service status or permission to enter restricted areas.",
+        "caption": "Offline planning aid only; check current operator or authority information."
+      },
+      "sections": [
+        {
+          "id": "understand",
+          "title": "Understand the change",
+          "paragraphs": [
+            "Treat a platform shown on an old ticket or screenshot as provisional. Platform allocations can change, and a platform number alone does not establish a step-free path.",
+            "Check the rail operator or station's current information about accessible routes and any assistance arrangements. Avoid entering staff-only passages, crossing tracks or using an unauthorised shortcut."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Keep the train service, station contact and booked assistance details together for quick reference, without exposing personal identifiers in a public note.",
+            "Allow time to speak with authorised staff when a changed platform makes the planned route difficult. Follow current announcements and signs rather than relying solely on the offline note."
+          ]
+        }
+      ]
+    }
+  ]
+}
