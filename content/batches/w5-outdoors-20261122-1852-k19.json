@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-compass-magnetic-interference",
+      "title": "Recognise magnetic interference near a walking compass",
+      "category": "Outdoor skills & navigation",
+      "summary": "Nearby metal and electronics can affect a magnetic compass reading.",
+      "tags": [
+        "compass",
+        "magnetism",
+        "navigation",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify likely interference",
+          "paragraphs": [
+            "A magnetic compass responds to the local magnetic field, not just the Earth's field. Large metal objects, magnets and some electronic accessories can distort a reading.",
+            "The effect varies with distance and object, so a compass that seems normal in one position may behave differently beside another item."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Keep observations separate",
+          "paragraphs": [
+            "When practising in a familiar, low-risk place, compare the needle's behaviour away from and near carried equipment without using that experiment to navigate.",
+            "Store the compass away from magnetic closures and check its maker's care guidance before a trip."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Know the limit",
+          "paragraphs": [
+            "An apparently steady needle is not proof of accuracy, and this guide does not teach bearings or remote-terrain navigation.",
+            "For consequential navigation decisions use appropriate training, suitable maps and independent checks rather than trusting one uncertain instrument."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Separate",
+          "Observe",
+          "Cross-check"
+        ],
+        "alt": "Three stages show separating a compass from potential interference, observing its needle and checking with another appropriate reference.",
+        "caption": "Keep possible interference in mind when assessing compass reliability."
+      }
+    },
+    {
+      "id": "outdoor-headtorch-hinge-check",
+      "title": "Inspect a headtorch tilt hinge before routine use",
+      "category": "Outdoor skills & navigation",
+      "summary": "A worn hinge may let a light point away from the intended area.",
+      "tags": [
+        "headtorch",
+        "hinge",
+        "lighting",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the moving part",
+          "paragraphs": [
+            "Many headtorches have a pivot between the lamp housing and its headband mount. Repeated movement can loosen the hinge or damage its stops.",
+            "Check the manufacturer's intended adjustment range; not every model has a tilting head."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Inspect without forcing",
+          "paragraphs": [
+            "With the lamp switched off, look for visible cracks, missing hinge pieces and unexpected looseness.",
+            "Move the housing only through its normal adjustment range and confirm it holds its position without pressing against a damaged joint."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Keep lighting dependable",
+          "paragraphs": [
+            "A stable hinge does not prove that batteries, seals or the light source are working; check those separately before use.",
+            "Replace a damaged mount according to manufacturer instructions instead of improvising a repair that could detach during use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Housing",
+          "Pivot",
+          "Position"
+        ],
+        "alt": "A checklist distinguishes the lamp housing, tilt pivot and whether the headtorch retains its intended position.",
+        "caption": "Inspect the mount as well as the lamp."
+      }
+    },
+    {
+      "id": "outdoor-pack-compression-straps",
+      "title": "Check daypack compression straps without over-tightening",
+      "category": "Outdoor skills & navigation",
+      "summary": "Compression straps can secure ordinary pack contents but should not distort a bag or obstruct access.",
+      "tags": [
+        "daypack",
+        "compression straps",
+        "rucksack",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand their purpose",
+          "paragraphs": [
+            "Side or front compression straps on a daypack are usually intended to reduce slack around a partly filled bag.",
+            "Their presence does not make the bag a load-rated hauling system, and strap layouts vary between models."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Look for simple wear",
+          "paragraphs": [
+            "Check webbing for frayed edges, buckles for cracks and stitching for obvious separation before an ordinary walk.",
+            "Adjust straps evenly enough to avoid dangling loops, without crushing fragile items or trapping zips."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Avoid mistaken uses",
+          "paragraphs": [
+            "Do not use everyday compression straps for climbing, towing, lifting people or supporting safety-critical loads.",
+            "Follow the maker's load and attachment guidance; replace damaged parts rather than tying improvised high-load knots."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Webbing",
+          "Buckle",
+          "Access"
+        ],
+        "alt": "A three-part checklist checks compression-strap webbing, buckle condition and continued access to bag compartments.",
+        "caption": "Secure the pack without creating new snags."
+      }
+    },
+    {
+      "id": "outdoor-paper-map-grid-lines",
+      "title": "Understand the role of grid lines on a paper walking map",
+      "category": "Outdoor skills & navigation",
+      "summary": "A printed grid is a reference system whose spacing and labels depend on the map.",
+      "tags": [
+        "paper map",
+        "grid",
+        "coordinates",
+        "legend"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the grid",
+          "paragraphs": [
+            "Some walking maps display regularly spaced lines with numbered margins, while others use a different grid or no visible grid.",
+            "The printed grid is not necessarily the same as latitude and longitude, and its reference system should be identified from the map legend."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Keep labels together",
+          "paragraphs": [
+            "When copying a small map extract for study, retain enough margin labels and scale information to interpret its grid.",
+            "If a page is rotated or cropped, note its original orientation and edition rather than guessing coordinates from a bare square."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Respect precision limits",
+          "paragraphs": [
+            "A grid square describes an area, not an exact point, and a short reference can be ambiguous without its region or grid system.",
+            "Do not combine coordinates from different datums or projections without understanding the conversion; seek trained help for consequential use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Grid",
+          "Labels",
+          "System"
+        ],
+        "alt": "Three labelled layers identify grid lines, edge labels and the coordinate system that gives them meaning.",
+        "caption": "A grid reference needs its map context."
+      }
+    },
+    {
+      "id": "outdoor-insulated-flask-seal",
+      "title": "Inspect an insulated flask lid and seal before a walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "A worn or misplaced seal can allow leaks even when the flask body looks sound.",
+      "tags": [
+        "flask",
+        "seal",
+        "lid",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Find the sealing surfaces",
+          "paragraphs": [
+            "Reusable insulated flasks may use removable gaskets, threaded lids or drinking spouts, depending on the model.",
+            "Check the manufacturer's instructions to identify parts that are meant to be removed for routine cleaning."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Observe condition",
+          "paragraphs": [
+            "Look for missing, twisted or visibly damaged seals and for cracks around the lid or threads.",
+            "Reassemble only as instructed and test with cool water over a sink before packing; a cool-water test does not certify safe use with hot contents."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Avoid unsafe assumptions",
+          "paragraphs": [
+            "Do not assume a flask is leakproof merely because the cap turns firmly, and do not use improvised sealants.",
+            "Hot liquids can cause burns if a closure fails; follow the manufacturer's temperature and handling guidance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Seal",
+          "Thread",
+          "Cool test"
+        ],
+        "alt": "A checklist separates gasket condition, lid-thread condition and a cautious cool-water leak check.",
+        "caption": "Check closure integrity before packing a flask."
+      }
+    },
+    {
+      "id": "outdoor-map-app-airplane-mode",
+      "title": "Understand offline maps and phone airplane mode",
+      "category": "Outdoor skills & navigation",
+      "summary": "Offline map data and satellite positioning are different phone functions.",
+      "tags": [
+        "offline map",
+        "airplane mode",
+        "gps",
+        "phone"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Separate the functions",
+          "paragraphs": [
+            "A downloaded map provides stored geographic information, while satellite positioning uses signals received by the phone.",
+            "Airplane mode disables some wireless connections, but whether location services continue to work depends on the device and settings."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Test at home",
+          "paragraphs": [
+            "Before travelling, check whether the intended map area is actually downloaded and opens without mobile data.",
+            "In a familiar location, check the phone's location settings and the mapping app's offline behaviour rather than assuming a saved route guarantees map coverage."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Keep expectations realistic",
+          "paragraphs": [
+            "A location marker may be delayed or inaccurate near buildings, under tree cover or where reception is poor.",
+            "Offline maps do not provide live closures or weather updates; keep a suitable independent navigation reference for activities where a phone failure matters."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Download",
+          "Disconnect",
+          "Check"
+        ],
+        "alt": "Three stages show downloading map coverage, testing without mobile data and checking whether the app behaves as expected.",
+        "caption": "Verify offline map access before depending on it."
+      }
+    },
+    {
+      "id": "outdoor-reflective-accessory-care",
+      "title": "Inspect reflective accessories on everyday walking gear",
+      "category": "Outdoor skills & navigation",
+      "summary": "Reflective trim can become obscured or damaged through routine use.",
+      "tags": [
+        "visibility",
+        "reflective",
+        "accessories",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the material",
+          "paragraphs": [
+            "Some bags and clothing use reflective patches, piping or detachable accessories that return light toward a source.",
+            "Reflective material is different from a light source and may be difficult to notice without illumination."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Check visible condition",
+          "paragraphs": [
+            "Inspect for peeling, heavy dirt, abrasion and loose attachments in ordinary lighting.",
+            "Clean only as the maker recommends and check that accessories do not obstruct zips, straps or normal movement."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Understand its limits",
+          "paragraphs": [
+            "Reflective details do not guarantee that other people or drivers will see you, especially in poor weather or from every angle.",
+            "Do not treat an accessory as a substitute for suitable route choice, lighting and local road-safety guidance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Surface",
+          "Attachment",
+          "Limit"
+        ],
+        "alt": "Three checks show reflective surface condition, secure attachment and the need to understand visibility limits.",
+        "caption": "Reflective accessories are supplemental, not a guarantee of visibility."
+      }
+    },
+    {
+      "id": "outdoor-trail-guide-publication-date",
+      "title": "Check publication dates on walking guidebooks and route cards",
+      "category": "Outdoor skills & navigation",
+      "summary": "Printed route descriptions may remain readable after their practical details become outdated.",
+      "tags": [
+        "guidebook",
+        "route card",
+        "edition",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Find the provenance",
+          "paragraphs": [
+            "Look for the edition, publication date, publisher and any stated map references on a printed guidebook or route card.",
+            "A recent printing is not necessarily a recent field survey, and a reprint may retain older route descriptions."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Record what is known",
+          "paragraphs": [
+            "Keep the edition and page reference with personal route notes so you can distinguish versions later.",
+            "Check current authoritative access and transport information before a trip where connectivity permits, especially for routes with changing restrictions."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Do not infer current conditions",
+          "paragraphs": [
+            "A printed route description cannot confirm today's path closures, bridge condition, daylight or weather.",
+            "Use the guide as historical planning context, not as a live safety notice or an assurance that a route remains passable."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Edition",
+          "Source",
+          "Check"
+        ],
+        "alt": "Three labelled reference slots show edition information, original publisher and the need for current checks.",
+        "caption": "Keep a guidebook's publication context visible."
+      }
+    }
+  ]
+}
