@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "pantry-drink-dilution-identity",
+      "title": "Distinguishing concentrated and ready-to-drink products in household stock",
+      "category": "Food & water",
+      "summary": "Keep beverage concentrates and ready-to-drink containers identifiable without assuming their preparation or suitability.",
+      "tags": [
+        "concentrate",
+        "drinks",
+        "packaging",
+        "pantry",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Recognise the product form",
+          "paragraphs": [
+            "A bottle or carton may resemble another product while containing a concentrate rather than a ready-to-drink beverage. A generic inventory entry such as 'juice' can hide this difference and cause someone to plan around an item that cannot be used in the way they expect.",
+            "Record the exact product description and variant from the original packaging. Keep the product's own instructions available, especially when the outer carton is likely to be discarded."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make the distinction visible",
+          "paragraphs": [
+            "Use separate inventory entries for concentrate and ready-to-drink versions, even when they share a flavour or brand. A short descriptive label is more useful than a coloured dot that cannot be interpreted without a legend.",
+            "When sharing a shopping or meal plan, identify which form is required. Do not invent dilution ratios or treat a stored concentrate as an equivalent volume of prepared drink."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review substitutions carefully",
+          "paragraphs": [
+            "If a replacement product arrives, compare its actual label and intended use before changing the record. Mark uncertain or unreadable packaging as needing confirmation rather than guessing.",
+            "This article concerns identification and inventory accuracy. Follow the manufacturer and relevant official advice for preparation, storage and suitability; an offline stock record cannot certify drinking-water safety."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Read label",
+          "Record form",
+          "Check variant"
+        ],
+        "alt": "Offline checklist diagram with 3 labelled parts: Read label; Record form; Check variant. It shows how to organise household information, not how to determine food safety.",
+        "caption": "A compact reference for household organisation; check original product instructions separately."
+      }
+    },
+    {
+      "id": "pantry-packet-outer-box-record",
+      "title": "Keeping loose inner food packets identifiable after an outer box is discarded",
+      "category": "Food & water",
+      "summary": "Preserve useful product identity when individually wrapped portions become separated from their original carton.",
+      "tags": [
+        "inner packets",
+        "outer box",
+        "identity",
+        "pantry",
+        "labels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Notice what the outer box provides",
+          "paragraphs": [
+            "Some foods come as several plain or minimally labelled inner packets inside a printed carton. Once the carton is discarded, the inner packet may no longer clearly identify the product, its ingredients or the manufacturer's instructions.",
+            "Before reorganising such products, compare the information printed on each inner packet with the outer box. Do not assume every individually wrapped item carries all of the information a household may need."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep a reliable association",
+          "paragraphs": [
+            "Where practical, retain the original carton or a legible reference to the product information alongside the matching packets. If several similar products share a cupboard, store them in distinct, clearly identified groups.",
+            "A handwritten note should identify the actual product, not replace unreadable allergen or other safety information with a guess. If the association becomes uncertain, record that uncertainty rather than assigning a confident identity."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain the record after changes",
+          "paragraphs": [
+            "When the last packet is used, remove outdated references. When a different product variant is bought, verify the label again instead of reusing a previous description automatically.",
+            "This is a household information-organisation guide, not approval to use food with missing or uncertain safety information. Product-specific instructions and appropriate food-safety advice take precedence."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Original carton",
+          "Matching packets",
+          "Reference note"
+        ],
+        "alt": "Offline shelves diagram with 3 labelled parts: Original carton; Matching packets; Reference note. It shows how to organise household information, not how to determine food safety.",
+        "caption": "A compact reference for household organisation; check original product instructions separately."
+      }
+    },
+    {
+      "id": "kitchen-reusable-food-cover-index",
+      "title": "Making reusable food covers and lids easy to match to their containers",
+      "category": "Food & water",
+      "summary": "Create a practical compatibility record for reusable covers without assuming they suit every food or use.",
+      "tags": [
+        "covers",
+        "lids",
+        "reusable",
+        "kitchen",
+        "containers"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the cover's intended role",
+          "paragraphs": [
+            "Households often accumulate stretch covers, rigid lids and reusable wraps that look interchangeable but fit different containers. A drawer full of unmatched covers can make a planned meal or routine storage task slower.",
+            "List only the covers that are actually in use. Record a recognisable feature, such as a printed model, shape or compatible container, rather than relying on a vague size label."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Arrange a simple matching reference",
+          "paragraphs": [
+            "Keep compatible covers near their usual containers where practical, or create a small location note when storage space requires separation. Distinguish covers for bowls from lids that belong to specific bottles or dispensers.",
+            "Avoid marking a cover as suitable for heating, freezing or direct food contact unless its original product information supports that use. A visual match is not evidence of material suitability."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review condition and replacements",
+          "paragraphs": [
+            "If a cover is missing, damaged or no longer matches its container, update the record and identify the replacement requirement. Retain the manufacturer's cleaning and care instructions when available.",
+            "The record is an aid to finding and matching equipment, not a food-safety certification. Uncertain materials and uses need product-specific confirmation."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify cover",
+          "Match container",
+          "Check instructions"
+        ],
+        "alt": "Offline checklist diagram with 3 labelled parts: Identify cover; Match container; Check instructions. It shows how to organise household information, not how to determine food safety.",
+        "caption": "A compact reference for household organisation; check original product instructions separately."
+      }
+    },
+    {
+      "id": "food-stock-inventory-confidence",
+      "title": "Marking uncertain pantry counts without turning guesses into stock totals",
+      "category": "Food & water",
+      "summary": "Distinguish verified quantities from estimates and unconfirmed entries in an offline household inventory.",
+      "tags": [
+        "inventory",
+        "uncertainty",
+        "stocktake",
+        "pantry",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Separate observation from estimate",
+          "paragraphs": [
+            "An inventory may contain quantities copied from a receipt, remembered from a previous shop or checked directly on a shelf. Treating these equally can create a false impression that the household has more usable stock than anyone has seen.",
+            "Use a plain status such as 'checked', 'estimated' or 'not confirmed' next to the quantity. Record when a count was last observed if that helps other household members understand its reliability."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Make uncertainty useful",
+          "paragraphs": [
+            "Keep an estimated count visible for planning, but do not silently add it to a verified total when the distinction matters. If a package is partly used, a descriptive note may be more honest than an exact-looking number.",
+            "A brief reason such as 'cupboard not checked' or 'receipt only' helps someone resolve the uncertainty later. Avoid collecting unnecessary personal information about who made a mistake."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Close the verification loop",
+          "paragraphs": [
+            "During the next ordinary cupboard check, confirm the physical stock and replace the estimate with the observed quantity. Where two devices disagree, keep both changes visible until someone can reconcile them.",
+            "Stock confidence describes record quality, not whether a product is safe or suitable to consume. Continue to rely on product labels and appropriate safety advice for those decisions."
+          ]
+        }
+      ]
+    }
+  ]
+}
