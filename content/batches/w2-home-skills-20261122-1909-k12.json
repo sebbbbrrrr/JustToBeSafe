@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "window-trickle-vent-identification",
+      "title": "Identifying window trickle vents and recording their condition",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for identifying window trickle vents and recording their condition, with safe limits and follow-up notes.",
+      "tags": [
+        "window",
+        "trickle vent",
+        "ventilation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Vent cover",
+          "Control",
+          "Window frame"
+        ],
+        "alt": "Three labelled observation areas: Vent cover, Control, Window frame. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "A trickle vent is a small purpose-made opening, often near the top of a window frame. Designs differ, and not every narrow slot is a vent.",
+              "Use a visible maker marking or window paperwork to identify it; do not assume that one vent provides sufficient ventilation.",
+              "From a safe standing position, note missing covers, visible obstruction or damaged controls without removing any parts.",
+              "Record the room, window and symptom, such as a draught or suspected blockage. A photograph from floor level may help a specialist.",
+              "Check the window manufacturer's instructions before operating unfamiliar controls; never force a stuck fitting.",
+              "Persistent dampness or air-quality concerns need appropriate assessment rather than a guessed adjustment to one vent."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "washing-machine-foot-stability-observation",
+      "title": "Recognising washing-machine movement and foot-level concerns",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for recognising washing-machine movement and foot-level concerns, with safe limits and follow-up notes.",
+      "tags": [
+        "washing machine",
+        "vibration",
+        "appliance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Floor",
+          "Machine",
+          "Feet"
+        ],
+        "alt": "Three labelled observation areas: Floor, Machine, Feet. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "A machine that shifts or makes new knocking sounds during normal use may have an installation, loading or mechanical problem.",
+              "Noise alone does not identify a faulty foot; observe from a safe distance without touching an operating machine.",
+              "Record the model and when movement occurs during an ordinary cycle. Note any visible floor gap without tilting the machine.",
+              "Do not pull a connected appliance out of a recess or reach beneath it. Hidden hoses and electrical connections may be disturbed.",
+              "If movement is severe, a leak appears or electrical trouble is suspected, stop relying on the machine and arrange help.",
+              "Keep installation records available for an installer or technician to assess the floor, levelling and appliance condition."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "fridge-door-gasket-visible-condition",
+      "title": "Checking a refrigerator door gasket for visible wear",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for checking a refrigerator door gasket for visible wear, with safe limits and follow-up notes.",
+      "tags": [
+        "fridge",
+        "refrigerator",
+        "door seal"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Seal edge",
+          "Corners",
+          "Door contact"
+        ],
+        "alt": "Three labelled observation areas: Seal edge, Corners, Door contact. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "The gasket is the flexible strip around the door that meets the cabinet when it closes. Some designs are integrated into the door.",
+              "Look for obvious splits, folds or trapped packaging during ordinary opening, without pulling out or cutting the seal.",
+              "Record the model and which corner or edge looks affected. A door that does not close flush can have causes other than the gasket.",
+              "Visual appearance alone cannot confirm a safe storage temperature; follow appliance guidance and food-safety information separately.",
+              "Save a clear photograph and model details for manufacturer or service support, since replacement parts differ between models.",
+              "Avoid improvised adhesives or heating methods. Arrange assessment if the door repeatedly fails to close or cooling is in doubt."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "outside-tap-identification-record",
+      "title": "Making a household outside-tap identification record",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for making a household outside-tap identification record, with safe limits and follow-up notes.",
+      "tags": [
+        "garden",
+        "outside tap",
+        "plumbing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Tap location",
+          "Wall entry",
+          "Service notes"
+        ],
+        "alt": "Three labelled observation areas: Tap location, Wall entry, Service notes. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "Record each outdoor tap's location using a name another household member could recognise, such as rear garden wall.",
+              "Do not assume a visible tap has its own isolation valve or that a particular fitting is frost-resistant.",
+              "Note any readable maker details, visible dripping or missing handle from an accessible location.",
+              "Do not open panels, loosen connections or enter confined spaces to trace pipework; record uncertainty instead.",
+              "Keep manufacturer documents and a suitable plumbing contact with the household property records.",
+              "Never improvise pipe heating or use naked flames near frozen fittings. A location record does not replace winter maintenance advice."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "undersink-cabinet-moisture-record",
+      "title": "Recording moisture signs inside an under-sink cupboard",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for recording moisture signs inside an under-sink cupboard, with safe limits and follow-up notes.",
+      "tags": [
+        "sink",
+        "cupboard",
+        "damp",
+        "plumbing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Cabinet base",
+          "Back panel",
+          "Pipe area"
+        ],
+        "alt": "Three labelled observation areas: Cabinet base, Back panel, Pipe area. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "An under-sink cupboard may contain pipes, stored chemicals and electrical equipment. Marks or swelling do not identify a specific leak.",
+              "Observe only through normal cupboard access without touching wet electrical equipment or dismantling connections.",
+              "Note where moisture appears and when it was first noticed. Record any change without repeatedly running water to recreate a leak.",
+              "Keep stored products closed and avoid shifting installed equipment to investigate inaccessible areas.",
+              "If water is actively escaping, damage is spreading or electricity may be affected, keep clear and seek suitable assistance.",
+              "A photograph and short timeline can help a plumber or property manager assess the concern; surface drying alone may not resolve it."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "door-threshold-weatherstrip-observation",
+      "title": "Recognising wear in door threshold weatherstrips",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for recognising wear in door threshold weatherstrips, with safe limits and follow-up notes.",
+      "tags": [
+        "door",
+        "threshold",
+        "draught",
+        "weatherstrip"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Threshold",
+          "Seal edge",
+          "Clearance"
+        ],
+        "alt": "Three labelled observation areas: Threshold, Seal edge, Clearance. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "A weatherstrip may be a door sweep, threshold strip or frame seal. Different designs address draughts and water entry.",
+              "Observe torn, detached or catching strips during normal use, without removing anything from a fire-rated or unfamiliar door.",
+              "Record which entrance and edge are affected, and whether the symptom is scraping, water entry or failure to latch.",
+              "Do not wedge open a shared fire door or change hardware that may affect accessibility or safe closure.",
+              "Consult the door maker or property manager before selecting a replacement part; similar-looking seals may differ.",
+              "Arrange appropriate help if the door does not latch, is fire-rated, or shows persistent water damage."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "bathroom-extractor-grille-condition",
+      "title": "Observing a bathroom extractor grille without opening the fan",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for observing a bathroom extractor grille without opening the fan, with safe limits and follow-up notes.",
+      "tags": [
+        "bathroom",
+        "extractor",
+        "ventilation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Grille face",
+          "Visible dust",
+          "Service notes"
+        ],
+        "alt": "Three labelled observation areas: Grille face, Visible dust, Service notes. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "An extractor grille is the visible cover of a fan or duct opening. Its construction varies by model.",
+              "From floor level note obvious damage or staining; never touch a running fan or remove covers to inspect internal parts.",
+              "Record whether the concern is noise, visible dust or poor apparent ventilation. Appearance cannot confirm airflow performance.",
+              "Keep the room and model details from existing paperwork, avoiding unnecessary photographs of personal belongings.",
+              "Consult the manufacturer's instructions to identify authorised maintenance and suitable servicing arrangements.",
+              "High access, electrical concerns or persistent dampness warrant professional assessment; do not block the opening."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    },
+    {
+      "id": "household-appliance-model-label-index",
+      "title": "Building a household appliance model-label index",
+      "category": "Home maintenance",
+      "summary": "An offline observational reference for building a household appliance model-label index, with safe limits and follow-up notes.",
+      "tags": [
+        "appliance",
+        "model number",
+        "manual"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Appliance",
+          "Model ID",
+          "Manual"
+        ],
+        "alt": "Three labelled observation areas: Appliance, Model ID, Manual. A non-instructional schematic for recording visible condition, without depicting repairs.",
+        "caption": "Identify and record the concern without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the component",
+          "paragraphs": [
+            [
+              "Record each major appliance's room, manufacturer and exact model when readily available from paperwork or a visible label.",
+              "Similar-looking products may require different parts, so do not infer a model number from appearance alone.",
+              "Group entries by room and save the location of an offline or paper manual. Avoid putting private account details into a shared index.",
+              "Do not pull heavy connected appliances forward or open covers just to find a label; mark uncertain details unconfirmed.",
+              "Update the index after equipment is replaced, moved or sold, with a simple date for each change.",
+              "Check that saved manuals open without a connection. Identification records support servicing but do not authorise hazardous repair."
+            ]
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record observations safely",
+          "paragraphs": []
+        },
+        {
+          "id": "s3",
+          "title": "Plan a suitable follow-up",
+          "paragraphs": []
+        }
+      ]
+    }
+  ]
+}
