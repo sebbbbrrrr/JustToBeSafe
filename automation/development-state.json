@@ -101,16 +101,33 @@
       "worker": "diagnostic",
       "status": "blocked_infrastructure",
       "notes": "Seven isolated fixture tests pass on reconstructed source. QA still requires real repository environment; false retry reset from 1 to 0."
+    },
+    {
+      "cycle_id": 1,
+      "worker": "pipeline_setup",
+      "status": "runner_committed_not_executed",
+      "notes": "Added bounded Python runner on coordination + cycle branch, state validator and runbook; existing execution blocker retained."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
   "verification_status": "blocked_infrastructure",
   "verification_blocker": {
-    "reason": "Full generated-index verification requires runnable project checkout and assets; GitHub content connector cannot execute checkout-based tests. GitHub Actions quota intentionally not used.",
+    "reason": "QA runner and state validator are committed, but no available approved unattended checkout/runner to execute full integration tests. GitHub Actions quota intentionally not consumed.",
     "required_checks": [
-      "python3 scripts/test_search_shard_integrity.py in repository checkout",
-      "python3 scripts/check_fulltext_index.py with generated offline index assets"
+      "On real checkout autodev/cycle-001: python3 automation/run_validation.py --output validation-report.json --timeout 120",
+      "Review report, exit codes, commit SHA and env",
+      "Check Android build separately if required by future task"
     ],
-    "resume_condition": "Provide approved executable checkout or restore available CI; then clear blocked and rerun Worker 4 on the same cycle."
+    "resume_condition": "After actual runner executes and produces evidence, atomically clear blocked and rerun QA; never advance on file existence alone."
+  },
+  "validation_runner": {
+    "path": "automation/run_validation.py",
+    "work_branch": "autodev/cycle-001",
+    "runner_commit": "818fe00e970bbd37a2cc91e171bc12ad2af56142",
+    "coordination_commit": "17b814493d928abdfddc23bfda0a273bcbc916b7",
+    "state_validator": "automation/check_state.py",
+    "state_validator_commit": "4b1e61c287a8ebe26cee04266ccc0aeb82cfb14e",
+    "execution_status": "not_executed_in_real_checkout",
+    "runner_scope": "offline-content-and-index-Python-only"
   }
 }
