@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-light-switch-faceplate-observation",
+      "title": "Recording visible switch and socket faceplate damage",
+      "category": "Electrical awareness",
+      "summary": "A non-contact observation record for visible electrical accessory damage.",
+      "tags": [
+        "switch",
+        "socket",
+        "faceplate",
+        "crack",
+        "discolouration"
+      ],
+      "risk": "electrical",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise a concern",
+          "paragraphs": [
+            "From a normal, safe viewing position, note cracked covers, unusual discolouration, looseness or signs of moisture near an electrical accessory. Do not touch a damaged faceplate or remove covers to investigate; the visible appearance cannot establish whether wiring is safe.",
+            "If there is smoke, sparking, a burning smell or other immediate danger, keep people clear and seek appropriate emergency or qualified electrical assistance. A photo taken without approaching danger may help describe a concern."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record and escalate",
+          "paragraphs": [
+            "Write down the room, approximate location and date, and describe the visible symptom without claiming a diagnosis. If it is safe to do so, note whether the problem was first noticed after cleaning, a leak or other event, but do not test a suspect accessory.",
+            "Report concerns to the property owner or a competent electrician. Avoid treating a lack of visible damage as evidence that an electrical installation is safe."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Close the record",
+          "paragraphs": [
+            "Keep the electrician's findings, any inspection documentation and completion date with the property maintenance history. Distinguish work requested from work actually confirmed complete.",
+            "Do not copy photographs showing private address details into a public shared repository. This guide is observational only, not an electrical repair procedure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-patio-paving-condition-log",
+      "title": "Observing loose paving and patio trip hazards",
+      "category": "Outdoor maintenance",
+      "summary": "A ground-level inspection log for changes in outdoor walking surfaces.",
+      "tags": [
+        "patio",
+        "paving",
+        "path",
+        "trip",
+        "garden"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Entrance",
+          "Walkway",
+          "Gate"
+        ],
+        "alt": "A conceptual route line joins the entrance, outdoor walkway and gate to prompt inspection of everyday walking surfaces.",
+        "caption": "Conceptual walking-route checklist, not a measured site map."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Survey everyday routes",
+          "paragraphs": [
+            "Walk familiar outdoor routes in normal daylight when conditions are safe. Look for uneven edges, rocking slabs, damaged surface joints, pooling water or objects narrowing the path.",
+            "Pay particular attention to steps, entrances and routes used while carrying shopping. Do not deliberately stand on an unstable slab to test whether it moves."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record useful details",
+          "paragraphs": [
+            "Describe the location using a fixed reference such as the back door or garden gate. Note whether the concern is a raised edge, a slippery surface or an obstruction, rather than calling every issue a structural failure.",
+            "Photographs from a safe standing position can help show changes over time. Avoid placing temporary markers where they create another trip hazard."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange appropriate attention",
+          "paragraphs": [
+            "Keep the route clear where possible without lifting heavy slabs or attempting unsupported repairs. Tell household members about an identified hazard and use an alternative safe route if available.",
+            "Where paving movement is extensive, adjacent to a retaining structure or involves a shared path, request suitable property or specialist advice before repair work."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-cupboard-shelf-load-review",
+      "title": "Reviewing cupboard shelf loads and storage stability",
+      "category": "Storage",
+      "summary": "Organise household shelves so heavy items and unstable stacks are easier to recognise.",
+      "tags": [
+        "shelf",
+        "cupboard",
+        "weight",
+        "storage",
+        "falling"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Light items",
+          "Daily use",
+          "Heavy items"
+        ],
+        "alt": "Three conceptual shelf tiers remind readers to assess accessibility and manufacturer load limits rather than assuming all shelving is equally strong.",
+        "caption": "Storage planning schematic; actual safe load depends on the shelf and fixings."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify overloaded-looking storage",
+          "paragraphs": [
+            "Look for visibly bowed shelves, loose brackets, tilting containers or objects protruding beyond the shelf edge. Do not pull on damaged supports or stand beneath visibly unstable stored objects.",
+            "The appearance of a shelf does not establish its load rating. Manufacturer instructions and the construction of the unit matter more than a generic weight estimate."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Improve everyday access",
+          "paragraphs": [
+            "Keep frequently used objects at comfortable reach heights and avoid stacking heavy or breakable items where they could fall during retrieval. Make sure cupboards and doors can open without striking unstable piles.",
+            "If rearranging involves lifting heavy objects, use appropriate assistance and avoid standing on improvised supports. Do not use a visibly damaged shelf until its condition has been assessed."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Maintain a simple record",
+          "paragraphs": [
+            "Note the cupboard location, any visible changes and whether the household has asked for repair or replacement. For fitted units or suspected wall-fixing problems, obtain competent assessment rather than guessing at the fix.",
+            "Review storage when household contents change. A tidy cupboard is not proof that its shelf fixings or structure are sound."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-internal-door-clearance-log",
+      "title": "Recording internal door sticking and clearance changes",
+      "category": "Doors and windows",
+      "summary": "Distinguish seasonal door movement from persistent opening or closing problems.",
+      "tags": [
+        "internal door",
+        "sticking",
+        "clearance",
+        "hinge",
+        "frame"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice",
+          "Record",
+          "Report"
+        ],
+        "alt": "Three connected circles represent noticing door resistance, recording where it occurs, and reporting a persistent problem.",
+        "caption": "A documentation sequence, not instructions for altering a door."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Notice the pattern",
+          "paragraphs": [
+            "Record whether an internal door rubs against its frame, catches the floor covering or needs unusual force to close. Note whether the issue happens consistently or only after changes in humidity or room conditions.",
+            "Avoid forcing a jammed door or modifying hinges, frames or fire-rated components without understanding their requirements. A door that protects an escape route needs particular attention."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Document the location",
+          "paragraphs": [
+            "Identify the room and whether the contact appears near the top, side or bottom from a normal visual observation. A short note and safe photograph may be more useful to a contractor than a guess about the cause.",
+            "Check whether a rug or movable object is obstructing the opening, without removing door components or defeating any closer or latch."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Escalate important changes",
+          "paragraphs": [
+            "If the door cannot be opened or closed reliably, especially on an essential access route, request prompt property maintenance advice. Fire doors should not be planed, wedged open or altered casually.",
+            "Keep the completion date and professional findings in the household record. Do not assume that a door returning to normal in dry weather resolves an underlying problem."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-bathroom-grout-condition-record",
+      "title": "Documenting bathroom grout and tile-edge changes",
+      "category": "Bathrooms",
+      "summary": "Track visible grout gaps, loose tiles and recurring moisture around tiled areas.",
+      "tags": [
+        "grout",
+        "tile",
+        "bathroom",
+        "crack",
+        "moisture"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate",
+          "Describe",
+          "Follow up"
+        ],
+        "alt": "A three-line conceptual checklist prompts recording a bathroom tile or grout concern and following up after inspection.",
+        "caption": "Record observations; this is not a waterproofing procedure."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Look for visible changes",
+          "paragraphs": [
+            "During ordinary cleaning, notice missing grout, cracked joints, loose-looking tiles or repeated discolouration around wet areas. Do not pry tiles loose or scrape suspicious materials to investigate.",
+            "Surface marks have many causes, and appearance alone cannot establish hidden water damage or mould species. Note whether the issue recurs after routine cleaning."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Separate observation from repair",
+          "paragraphs": [
+            "Write down the wall or floor location, approximate extent and when the change was first noticed. Photograph only from a safe position, without standing on slippery surfaces.",
+            "If water appears to be reaching adjacent rooms or electrical fittings, avoid the affected area and seek qualified property assistance. Do not treat new sealant as a guaranteed remedy for an unknown leak."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Track the response",
+          "paragraphs": [
+            "Record who was contacted, any inspection and the outcome. Keep maintenance notes with the property's other bathroom records so repeated symptoms are not forgotten.",
+            "For rental or shared properties, follow the appropriate reporting route. The guide does not provide waterproofing or tile-repair instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-utility-bill-meter-reference",
+      "title": "Matching utility account records to meter locations",
+      "category": "Household utilities",
+      "summary": "Keep private meter identifiers and utility contact records easy to find during account queries.",
+      "tags": [
+        "utility",
+        "account",
+        "meter",
+        "serial",
+        "billing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Service",
+          "Location",
+          "Reference"
+        ],
+        "alt": "A compact three-row checklist groups a household utility service, its known meter location and its private account reference.",
+        "caption": "Store actual identifiers privately; this graphic contains no personal details."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Locate reliable references",
+          "paragraphs": [
+            "Find a recent utility statement and note which service it covers, such as water, electricity or gas. A property may have more than one meter or a shared arrangement, so do not infer the account from the nearest device.",
+            "Only identify meters from normal accessible locations and existing account paperwork. Do not open sealed cabinets, interfere with equipment or access restricted plant rooms."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Create a private cross-reference",
+          "paragraphs": [
+            "In a secure household record, link the service name, supplier contact route, meter location description and relevant reference numbers. Use the supplier's own instructions to check which identifier belongs to the account.",
+            "Account numbers, full addresses and meter identifiers can be sensitive in combination. Do not publish real details in app examples, screenshots or shared repositories."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review after changes",
+          "paragraphs": [
+            "Update the reference when moving, changing supplier or receiving a corrected bill. Keep a note of disputed readings or correspondence without assuming a meter is faulty.",
+            "If an identifier appears inconsistent, contact the supplier or property manager rather than changing meter labels or equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-stair-handrail-visual-log",
+      "title": "Observing stair handrail and banister condition",
+      "category": "Access and safety",
+      "summary": "A non-destructive record of visible changes around household stair support features.",
+      "tags": [
+        "stairs",
+        "handrail",
+        "banister",
+        "loose",
+        "fall"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Report",
+          "Confirm"
+        ],
+        "alt": "Three connected stages show a non-destructive handrail concern being observed, reported and followed up after inspection.",
+        "caption": "Observation and reporting only; never test a suspect rail by loading it."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify visible concerns",
+          "paragraphs": [
+            "From a safe position, note a missing section, visibly loose-looking joint, damaged bracket or obstruction along the stair route. Do not shake a suspect rail or lean your weight on it to test its strength.",
+            "Check whether stored items, trailing cords or poor visibility make the stairs harder to use. The presence of a rail does not guarantee that its fixings are safe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Describe without testing",
+          "paragraphs": [
+            "Record the stair location, which side is affected and the visible symptom. Keep observations separate from guesses about wall structure or hidden fixings.",
+            "Avoid making repairs to a shared, protected or structurally important stair assembly without competent advice. Do not place warning objects on a step where they could cause a fall."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Report and follow up",
+          "paragraphs": [
+            "Inform the property owner or responsible maintenance service promptly when a support feature appears compromised. Where a route is unsafe, seek a safer alternative and suitable help.",
+            "Record inspection and repair outcomes. This overview is not a specification for handrail dimensions, structural fixings or building-regulation compliance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-freezer-defrost-planning",
+      "title": "Planning a freezer defrost and contents review",
+      "category": "Appliance care",
+      "summary": "Plan an appliance-specific freezer cleanout without improvising unsafe defrost methods.",
+      "tags": [
+        "freezer",
+        "defrost",
+        "food",
+        "ice",
+        "appliance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check manual",
+          "Plan storage",
+          "Log outcome"
+        ],
+        "alt": "Three circles represent checking freezer instructions, arranging suitable food storage and recording the result.",
+        "caption": "A planning sequence only; follow the appliance maker's actual instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Read the appliance instructions",
+          "paragraphs": [
+            "Check whether the freezer is frost-free or has a manufacturer-recommended defrost routine. Look up the exact model guidance before planning any maintenance; different designs have different drainage and handling requirements.",
+            "Do not use knives, sharp tools, open flames or improvised heaters to remove ice. Do not interfere with electrical components or refrigerant circuits."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Plan for stored food",
+          "paragraphs": [
+            "List the food that would need temporary suitable cold storage, and avoid starting a defrost unless safe storage can be maintained. Food safety depends on actual temperature and time, not a universal guess from appearance.",
+            "If suitable cold storage is unavailable, postpone the task or seek appliance-specific advice. Keep raw and ready-to-eat foods separated according to their storage needs."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record completion",
+          "paragraphs": [
+            "After following the manufacturer's approved process, record the date, any persistent heavy ice buildup and whether the door closes normally. Repeated ice accumulation can warrant a professional appliance assessment.",
+            "Do not treat a defrost as proof that a defective seal or temperature-control problem has been fixed. This is a planning overview rather than an appliance repair manual."
+          ]
+        }
+      ]
+    }
+  ]
+}

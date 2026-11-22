@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "curtain-track-glider-condition",
+      "title": "Recognising wear in curtain tracks and gliders",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for recognising wear in curtain tracks and gliders.",
+      "tags": [
+        "curtains",
+        "track",
+        "glider",
+        "window dressing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Track",
+          "Gliders",
+          "End stops"
+        ],
+        "alt": "Three-part offline schematic naming track, gliders, end stops as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Look for runners that snag, missing end stops or a track that visibly sags while the curtains are at rest.",
+            "Do not pull hard against a jammed curtain or work from an unstable chair. Avoid touching brackets fixed high above reach."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Record the room, track type and which section catches; a short photograph taken from floor level may clarify the problem.",
+            "Keep the curtain undisturbed if its fixings appear loose. A falling rail or heavy curtain can injure someone."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Check the maker's model information for compatible replacement gliders and end stops.",
+            "Arrange appropriate assistance for overhead work or suspect wall fixings; never assume a cosmetic-looking fault is safe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drawer-runner-visible-wear",
+      "title": "Observing drawer runner wear without dismantling furniture",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for observing drawer runner wear without dismantling furniture.",
+      "tags": [
+        "drawer",
+        "runner",
+        "cabinet",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Front gap",
+          "Runner",
+          "Cabinet"
+        ],
+        "alt": "Three-part offline schematic naming front gap, runner, cabinet as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Notice whether a drawer moves unevenly during normal use, rubs its frame or no longer closes flush.",
+            "Do not force a stuck drawer or pull it completely out unless the furniture instructions explicitly permit it; heavy drawers can tip."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Note the drawer location, its approximate contents and whether the problem changes when it is lightly loaded.",
+            "If the furniture rocks or several drawers open together, stop using it until stability has been assessed."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Keep any manufacturer identification and installation documents with the maintenance record.",
+            "For damaged slides, loose cabinet anchors or suspected tipping, arrange a suitable repair rather than improvising hardware."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bath-mat-grip-condition",
+      "title": "Checking removable bath mats for loss of grip",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for checking removable bath mats for loss of grip.",
+      "tags": [
+        "bath mat",
+        "non-slip",
+        "bathroom",
+        "floor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Edges",
+          "Backing",
+          "Surface"
+        ],
+        "alt": "Three-part offline schematic naming edges, backing, surface as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Observe whether a removable mat lies flat and whether its backing has cracked, curled or become visibly worn.",
+            "Do not deliberately test traction by stepping on a wet mat. A mat that moves during ordinary use is not reliable."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Check whether the mat suits the actual floor or bath surface according to its product instructions.",
+            "Record persistent curling or slipping, and keep the affected area clear while considering a suitable replacement."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Clean and dry the mat only in accordance with the care label, without mixing cleaning products.",
+            "Replace mats with degraded backing rather than adding makeshift adhesive that could leave residue or create new hazards."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hose-reel-visible-condition",
+      "title": "Inspecting a garden hose reel from ground level",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for inspecting a garden hose reel from ground level.",
+      "tags": [
+        "garden hose",
+        "hose reel",
+        "storage",
+        "garden"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Frame",
+          "Hose",
+          "Handle"
+        ],
+        "alt": "Three-part offline schematic naming frame, hose, handle as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Identify the reel type and observe whether its frame stands evenly, its handle is intact and its hose is visibly kinked.",
+            "Do not pull against a jammed reel or reach into moving winding parts. Avoid using a hose near electrical equipment."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Record cracked plastic, loose-looking mounting points or hose abrasion without removing any fixed brackets.",
+            "If the reel is wall mounted and appears insecure, keep people away from the area beneath it and seek appropriate help."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Store the hose according to the manufacturer's guidance, allowing for local frost and weather exposure.",
+            "Keep connector and reel model details together so replacements can be matched without guesswork."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "window-blind-control-safety-record",
+      "title": "Recording window-blind control condition and child-safety concerns",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for recording window-blind control condition and child-safety concerns.",
+      "tags": [
+        "window blind",
+        "cord",
+        "chain",
+        "child safety"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Identify whether the blind has a cord, looped chain or cordless control and note any missing or damaged safety components.",
+            "Loose loops and accessible cords can pose a serious strangulation hazard to children. Keep children away and seek competent advice promptly."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Record the blind location, manufacturer if known and whether the control or restraint is damaged, without testing its strength.",
+            "Do not improvise cord knots, attachments or tensioning arrangements; suitability depends on the particular blind system."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Check the original installation and product information for the intended safety components.",
+            "Arrange prompt professional or manufacturer guidance where controls are damaged or safety arrangements are uncertain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sink-overflow-visible-observation",
+      "title": "Recognising visible changes around a basin overflow opening",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for recognising visible changes around a basin overflow opening.",
+      "tags": [
+        "basin",
+        "overflow",
+        "bathroom",
+        "plumbing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Opening",
+          "Trim",
+          "Nearby seal"
+        ],
+        "alt": "Three-part offline schematic naming opening, trim, nearby seal as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Locate the overflow opening, if fitted, and observe from the basin side whether its trim is loose or its surface visibly discoloured.",
+            "An overflow is not a guarantee against flooding. Do not deliberately fill a basin to test it or put tools into the opening."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Record odours, staining or recurring dampness nearby, distinguishing what was seen from assumptions about the cause.",
+            "If water escapes outside the basin or there is evidence of leakage, stop the affected use and contact the responsible person."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Keep the basin model or property maintenance contact in a household record.",
+            "Arrange an appropriate plumbing assessment for suspected internal blockage or leaks; do not dismantle concealed fittings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-door-hinge-observation",
+      "title": "Recording wardrobe door hinge movement and alignment",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for recording wardrobe door hinge movement and alignment.",
+      "tags": [
+        "wardrobe",
+        "hinge",
+        "furniture",
+        "door"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Door gap",
+          "Hinge",
+          "Cabinet"
+        ],
+        "alt": "Three-part offline schematic naming door gap, hinge, cabinet as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Notice whether a wardrobe door closes unevenly, rubs its neighbour or has visibly damaged hinge cups.",
+            "Avoid leaning on a loose door or opening several heavy doors simultaneously on unstable furniture."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Note which door and hinge is affected and whether the cabinet itself appears level or wobbly.",
+            "A wardrobe that rocks, leans or has loose wall restraints needs stability assessment before continued use."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Retain the maker's assembly guide and hardware identifiers if available.",
+            "Use suitable professional assistance for damaged fixings or heavy doors rather than attempting an unsupported adjustment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doormat-edge-condition",
+      "title": "Checking entrance doormats for curled edges and movement",
+      "category": "Home maintenance",
+      "summary": "A practical non-invasive household condition check and record for checking entrance doormats for curled edges and movement.",
+      "tags": [
+        "doormat",
+        "entrance",
+        "trip hazard",
+        "threshold"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Corners",
+          "Backing",
+          "Route"
+        ],
+        "alt": "Three-part offline schematic naming corners, backing, route as separate observation areas; it does not depict repair, loading or hazardous testing.",
+        "caption": "Identify visible condition and record concerns; not a repair instruction."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the condition",
+          "paragraphs": [
+            "Look for lifted corners, fraying, uneven backing and a mat that shifts during ordinary foot traffic.",
+            "Do not place a loose mat across an accessible route, fire exit or door swing where it may obstruct movement."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record what is visible",
+          "paragraphs": [
+            "Record whether the mat is indoors or outdoors, the underlying surface and where it moves.",
+            "Remove or isolate an obvious trip hazard when safe, keeping the entrance usable for others."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a suitable follow-up",
+          "paragraphs": [
+            "Check the intended surface compatibility and care instructions before selecting a replacement.",
+            "Reassess after rain or routine cleaning because moisture and debris can change how a mat sits."
+          ]
+        }
+      ]
+    }
+  ]
+}

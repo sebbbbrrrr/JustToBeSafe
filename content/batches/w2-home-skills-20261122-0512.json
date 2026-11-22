@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-vacuum-maintenance-log",
+      "title": "Checking a vacuum cleaner's removable parts",
+      "category": "Equipment",
+      "summary": "Create a simple condition record for accessible vacuum components without attempting electrical repairs.",
+      "tags": [
+        "vacuum",
+        "filter",
+        "brush",
+        "dust bin",
+        "cleaning",
+        "manual"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify removable components",
+          "paragraphs": [
+            "Use the appliance manual to identify the dust container, user-serviceable filter and brush attachment. Similar-looking models can have different cleaning and replacement requirements, so keep the model reference with the checklist.",
+            "Record whether each component is present and visibly intact before cleaning. Do not remove guards or panels that the manufacturer does not describe as user-serviceable."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Inspect without dismantling",
+          "paragraphs": [
+            "With the appliance switched off and disconnected from power, check accessible components for accumulated debris or damage. Follow the manufacturer's instructions for emptying and cleaning; not every filter is washable, and wet parts may require complete drying before reuse.",
+            "If a cable, plug, housing or powered brush looks damaged, stop using the appliance and arrange appropriate professional assessment rather than improvising a repair."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Record follow-up",
+          "paragraphs": [
+            "Note the date, component checked, visible condition and any replacement part number. Keep a reminder tied to the actual maintenance guidance rather than assuming a universal replacement interval.",
+            "A record helps avoid unnecessary purchases and makes it easier to explain recurring problems to a repair service."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Inspect",
+          "Record"
+        ],
+        "alt": "A three-row maintenance checklist for locating user-serviceable vacuum components, checking their condition and recording the outcome.",
+        "caption": "Use the appliance-specific manual before removing or washing any part."
+      }
+    },
+    {
+      "id": "home-dehumidifier-water-tank-care",
+      "title": "Keeping a dehumidifier collection tank hygienic",
+      "category": "Equipment",
+      "summary": "Understand routine tank observations, manufacturer cleaning guidance and safe placement.",
+      "tags": [
+        "dehumidifier",
+        "water tank",
+        "humidity",
+        "condensation",
+        "cleaning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check the collection area",
+          "paragraphs": [
+            "Identify whether the appliance collects water in a removable tank or uses a manufacturer-approved drain connection. Note how the tank-full indicator behaves and where the appliance is placed.",
+            "Observe whether the tank has residue, odour or visible deposits. Treat collected condensate as wastewater, not drinking water."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Follow the approved cleaning routine",
+          "paragraphs": [
+            "Switch off and disconnect the unit before user-permitted tank handling. Empty the tank as directed and use only cleaning methods and products approved by its manual; avoid mixing cleaning chemicals.",
+            "Do not reach into electrical or refrigerant compartments. Persistent leaks, unusual noises or damaged housings call for professional service rather than continued operation."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Keep an observation record",
+          "paragraphs": [
+            "Record emptying and cleaning dates, any unexpected tank overflow and changes in the room's moisture conditions. Check that the tank is correctly seated before normal use.",
+            "If dampness persists, investigate possible building moisture sources rather than treating the appliance as a permanent solution to an unknown leak."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Clean",
+          "Log"
+        ],
+        "alt": "Three connected stages depict a dehumidifier tank care cycle: observe the tank, clean it according to the manual and log the result.",
+        "caption": "This is a maintenance-record sequence, not a repair or chemical-treatment diagram."
+      }
+    },
+    {
+      "id": "home-toilet-flush-symptom-notes",
+      "title": "Recording recurring toilet flush problems",
+      "category": "Home & utilities",
+      "summary": "Capture symptoms that help a plumber distinguish intermittent filling, running water and weak flushing.",
+      "tags": [
+        "toilet",
+        "cistern",
+        "flush",
+        "plumber",
+        "water use",
+        "symptoms"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Describe what happens",
+          "paragraphs": [
+            "Record whether the issue occurs before, during or after flushing. Distinguish a cistern that keeps making filling sounds from a bowl that empties slowly, without assuming the same cause.",
+            "Note whether the problem is constant or occasional and whether other fixtures show similar symptoms. Avoid repeated flushing when the bowl appears at risk of overflowing."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Observe from a safe position",
+          "paragraphs": [
+            "Listen for continuing water flow and check accessible surfaces for moisture without removing fixed panels or touching hidden plumbing. Record the approximate duration of an unusual sound if it can be observed safely.",
+            "If sewage backs up, water escapes or the toilet cannot be used hygienically, restrict use and contact an appropriate plumber or building manager promptly."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare useful information",
+          "paragraphs": [
+            "Write down the fixture location, symptom timeline, photographs where appropriate and any previous repair dates. For rented property, use the agreed maintenance-reporting channel.",
+            "A clear description can reduce repeated visits and helps a professional decide what needs inspection; it does not establish a diagnosis."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Notice",
+          "Describe",
+          "Report"
+        ],
+        "alt": "Three circles show how to record a toilet flush problem: notice a symptom, describe when it happens and report it for assessment.",
+        "caption": "An observation workflow only; it does not show cistern dismantling."
+      }
+    },
+    {
+      "id": "home-dishwasher-consumables-guide",
+      "title": "Identifying dishwasher salt and rinse-aid supplies",
+      "category": "Equipment",
+      "summary": "Keep consumable records that match the dishwasher model and local water conditions.",
+      "tags": [
+        "dishwasher",
+        "salt",
+        "rinse aid",
+        "detergent",
+        "manual",
+        "appliance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Find model-specific instructions",
+          "paragraphs": [
+            "Locate the dishwasher model number and read the user manual's description of detergent, rinse aid and dishwasher salt compartments. Different machines and detergent products may have different settings or requirements.",
+            "Do not assume that table salt or an unrelated cleaning product can replace dishwasher salt. Keep packaging information available so household members can identify the correct product."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Keep products separated",
+          "paragraphs": [
+            "Store cleaning supplies in their original labelled containers away from children and pets. Avoid combining products or transferring them into unmarked bottles, particularly when packaging looks similar.",
+            "If a product has been placed in the wrong compartment, follow the manufacturer's guidance before using the machine. Do not improvise chemical mixtures to correct it."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Track replenishment",
+          "paragraphs": [
+            "Note which consumables are used, the last refill date and any model-specific settings. Observe persistent spotting or residue without assuming a single cause.",
+            "A short supply list prevents duplicate purchases and can be checked alongside the appliance manual when results change."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Detergent",
+          "Rinse aid",
+          "Salt"
+        ],
+        "alt": "Three schematic shelf rows separate labelled dishwasher detergent, rinse-aid and dishwasher salt supplies to discourage product confusion.",
+        "caption": "Keep products in original packaging; the diagram does not depict appliance compartments."
+      }
+    },
+    {
+      "id": "home-sink-strainer-upkeep",
+      "title": "Maintaining an accessible sink strainer",
+      "category": "Home & utilities",
+      "summary": "Recognise removable sink strainers and keep a simple non-invasive cleaning routine.",
+      "tags": [
+        "sink",
+        "strainer",
+        "drain",
+        "kitchen",
+        "debris",
+        "cleaning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the removable piece",
+          "paragraphs": [
+            "Check whether the sink has a lift-out basket or strainer intended to catch food particles or hair. Some drain fittings are fixed, so use the manufacturer's instructions before attempting removal.",
+            "Avoid forcing a component that does not lift freely or loosening plumbing connections under the sink. Record the type and dimensions only if a replacement is needed."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Remove visible debris",
+          "paragraphs": [
+            "For a user-removable strainer, collect visible debris into suitable waste rather than pushing it further into the drain. Rinse and clean the removable component using a method compatible with its material.",
+            "Do not pour chemical drain cleaners into a sink to compensate for a poorly fitting strainer. If water backs up or there is a leak, stop and seek appropriate help."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Check fit and condition",
+          "paragraphs": [
+            "After routine cleaning, check that the strainer sits correctly and has no sharp edges or broken parts. Record recurring blockages or unusual odours for later assessment.",
+            "This low-effort routine can help reduce debris entering a drain, but it does not diagnose hidden pipework problems."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Clear debris",
+          "Check fit"
+        ],
+        "alt": "Three-step schematic shows identifying a removable sink strainer, clearing visible collected debris and checking that the strainer fits again.",
+        "caption": "Only handle removable user-serviceable strainers; do not open pipework."
+      }
+    },
+    {
+      "id": "home-window-opening-condition",
+      "title": "Observing window opening and closing resistance",
+      "category": "Home & utilities",
+      "summary": "Record changes in accessible window operation without adjusting safety-critical hardware.",
+      "tags": [
+        "window",
+        "handle",
+        "hinge",
+        "opening",
+        "sticking",
+        "seal"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Compare normal operation",
+          "paragraphs": [
+            "From a safe indoor position, note whether a window opens and closes normally or feels unusually stiff. Observe whether the handle, frame or accessible track has visible damage.",
+            "Do not lean out, force a stuck window or bypass restrictors, especially on upper floors. Some windows are designed to limit opening for safety."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Document patterns",
+          "paragraphs": [
+            "Record which window is affected, the weather conditions, whether the issue is seasonal and when it was first noticed. Photographs of accessible parts may help explain the issue to a professional.",
+            "If a window cannot close securely or appears at risk of falling or breaking, restrict access and arrange suitable assessment rather than testing it repeatedly."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Escalate appropriately",
+          "paragraphs": [
+            "Check any manufacturer care guidance for cleaning accessible surfaces, but leave hinge adjustment, glazing and safety-device repairs to competent personnel where needed.",
+            "Keep repair records with the window's location and hardware details so future maintenance does not rely on guesswork."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-water-pressure-pattern-log",
+      "title": "Logging changes in household tap flow",
+      "category": "Home & utilities",
+      "summary": "Observe patterns in tap flow to give a water provider or plumber a clearer report.",
+      "tags": [
+        "tap",
+        "flow",
+        "pressure",
+        "water",
+        "plumber",
+        "utility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Describe the change",
+          "paragraphs": [
+            "Note whether water flow feels weaker than usual at one fixture or across several fixtures. Distinguish hot and cold outlets when observations can be made safely, without touching excessively hot water.",
+            "A change at one outlet may have different causes from a whole-property change. Avoid claiming a measured pressure value based only on how fast a tap appears to run."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Capture timing and context",
+          "paragraphs": [
+            "Record the time of day, affected rooms and whether neighbours or the water supplier have reported planned work. Use official supplier channels for current information rather than treating offline guidance as live status.",
+            "If water is discoloured, smells unusual or a significant leak is suspected, stop using affected fixtures as appropriate and seek current supplier or professional advice."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare an accurate report",
+          "paragraphs": [
+            "Share the observations, property type and any accessible meter reading if relevant, without publishing private account details. Ask the responsible provider or plumber what additional checks they need.",
+            "Avoid adjusting pressure-control devices or dismantling fittings without competent guidance; an observation log is not a diagnosis."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Which taps?",
+          "When?",
+          "Report"
+        ],
+        "alt": "Three checklist rows illustrate noting which taps have changed flow, when the change occurs and what to report to the water supplier or plumber.",
+        "caption": "A symptom log does not measure water pressure or confirm the cause."
+      }
+    },
+    {
+      "id": "home-laundry-drying-space-check",
+      "title": "Planning a practical indoor laundry-drying space",
+      "category": "Household planning",
+      "summary": "Assess airflow, moisture observations and clear access routes when drying laundry indoors.",
+      "tags": [
+        "laundry",
+        "drying",
+        "airflow",
+        "humidity",
+        "condensation",
+        "space"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose an appropriate location",
+          "paragraphs": [
+            "Identify a stable place for a drying rack where it will not obstruct exits, stairs, heaters or frequently used walkways. Account for children, pets and anyone who needs additional space to move safely.",
+            "Avoid placing fabrics on or immediately against heat-producing appliances, and follow equipment instructions for any heated drying product."
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "Observe moisture and ventilation",
+          "paragraphs": [
+            "Drying clothes indoors adds moisture to the room. Watch for persistent condensation, damp smells or visible mould and use available ventilation or moisture-management equipment according to building and appliance guidance.",
+            "Do not block ventilation openings to make a room feel warmer. Where moisture persists, seek advice about the building's ventilation or underlying dampness."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Review the arrangement",
+          "paragraphs": [
+            "Check that the rack remains stable, the floor is not wet or slippery and the laundry can dry without restricting normal household activities. Note recurring problems for a future layout change.",
+            "A practical arrangement should fit the household rather than relying on one universal drying time or humidity target."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Clear routes",
+          "Airflow",
+          "Check damp"
+        ],
+        "alt": "Three-tier schematic labels considerations for an indoor laundry-drying area: clear walking routes, available airflow and observation for persistent damp.",
+        "caption": "A space-planning reminder, not a depiction of safe distances from heaters."
+      }
+    }
+  ]
+}

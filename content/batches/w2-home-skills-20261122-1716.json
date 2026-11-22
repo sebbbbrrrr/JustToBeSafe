@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "portable-clothes-airer-condition",
+      "title": "Checking a folding clothes airer for wear before use",
+      "category": "Home maintenance",
+      "summary": "A visual and handling check of a non-powered folding airer before normal use.",
+      "tags": [
+        "laundry",
+        "airer",
+        "folding rack",
+        "indoor drying"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Feet",
+          "Joints",
+          "Rails"
+        ],
+        "alt": "An unloaded folding clothes airer represented by a three-part condition checklist for feet, folding joints and horizontal rails; no load or repair procedure is depicted.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Check the airer while empty on a level floor. Look for bent rails, cracked plastic joints, missing end caps and feet that no longer sit evenly. A rack that rocks when empty should not be treated as stable just because it holds light laundry.",
+            "Open and close only as the manufacturer intends, keeping fingers clear of hinges. Do not force a seized joint or improvise a brace with wire or tape; folding frames can collapse unexpectedly."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Keep a simple note of the model, affected joint and whether the fault appears only when folding or also when standing. Photograph a damaged connection while the rack is unloaded, without putting hands into a pinch point.",
+            "If the airer is damaged, set it aside from household use until suitable replacement parts or a replacement unit are arranged. Keep routes and exits clear when storing it."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Use the maker's care instructions to decide whether a removable foot or cap is replaceable. Avoid assumptions about safe load capacity, especially when drying heavy wet bedding.",
+            "After a replacement or permitted maintenance action, check the unloaded rack again before returning it to normal use. Record recurring failures rather than repeatedly working around them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-door-wedge-condition",
+      "title": "Checking removable door wedges and stops for wear",
+      "category": "Home maintenance",
+      "summary": "How to identify when a removable door stop is becoming an obstruction rather than a useful accessory.",
+      "tags": [
+        "door wedge",
+        "door stop",
+        "floor",
+        "access"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Door type",
+          "Floor",
+          "Access"
+        ],
+        "alt": "A checklist of door type, adjacent floor surface and clear access, showing the decision factors for a removable wedge rather than a door-repair sequence.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify which doors use loose wedges, floor stops or small movable stoppers. Note whether they protrude into a walking route, slide on the floor or have cracked surfaces that could leave fragments.",
+            "Do not wedge a fire door open or interfere with a self-closing door. A door's fire and access function cannot be established from its appearance; ask the building's responsible person where uncertain."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Observe during ordinary door use rather than deliberately slamming a door against a stopper. Record the room, type of stop and whether the floor surface makes it slip.",
+            "If a loose wedge creates a trip risk, remove it from the walking route when safe and notify others who rely on that doorway. Avoid placing a replacement where it creates a new obstacle."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "For non-critical doors, check the product's intended floor compatibility and ordinary care information before choosing a replacement. Fixed stops or door closer adjustments may require a responsible installer.",
+            "Keep any report specific: 'loose rubber wedge slides on tiled hallway floor' is more actionable than 'door broken'. Recheck shared spaces after layout changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-window-insect-screen",
+      "title": "Recording removable window insect-screen condition",
+      "category": "Home maintenance",
+      "summary": "A low-risk condition check for removable mesh screens, separate from window safety or glazing repairs.",
+      "tags": [
+        "window",
+        "insect screen",
+        "mesh",
+        "removable"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Mesh",
+          "Edge",
+          "Storage"
+        ],
+        "alt": "Three labelled areas for an insect screen's mesh, edge attachment and protected storage; a non-procedural condition overview.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify whether the screen is a removable insert, magnetic mesh or another manufacturer-defined accessory. Look for tears, loose edging, bent corners and dirt that makes the mesh difficult to see through.",
+            "Do not lean out of an opening, remove fixed window safety devices or rely on an insect screen as a fall barrier. Keep children and pets away from an open window during any check."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Record which window and which screen panel are affected. A photograph taken from inside the room can show a torn edge without disturbing the window frame.",
+            "Distinguish screen defects from window-seal problems: insect mesh is not a substitute for a weather seal, lock or ventilation requirement. Report those separately."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Use only manufacturer-approved cleaning and attachment methods for the specific screen. If safe access or removal is unclear, leave the screen in place and seek help.",
+            "Store a detached screen where it cannot bend or block a route, and label it with its original window location. Recheck its fit before ordinary use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-shelf-liner-condition",
+      "title": "Inspecting removable cupboard shelf liners for damage",
+      "category": "Home maintenance",
+      "summary": "A practical way to notice worn removable liners without hiding moisture or damage underneath.",
+      "tags": [
+        "cupboard",
+        "shelf liner",
+        "storage",
+        "moisture"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify loose or removable liners in everyday cupboards and drawers. Look for curled corners, torn material, staining and sections that bunch up when objects are moved.",
+            "A liner should not conceal a leak, mould-like growth or damage to the shelf beneath. If there is a persistent damp smell or visible deterioration, document it and seek property-appropriate advice rather than covering it over."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Check an accessible liner only where contents can be moved safely without lifting heavy or unstable objects. Note the location, material and visible change, using a photo if useful.",
+            "Keep food-contact or chemical-storage areas distinct: do not assume a decorative liner is approved for direct food contact or for use around cleaning products."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "For routine replacement, consult the liner maker's instructions about surface compatibility and cleaning. Avoid adhesives on rented or sensitive finishes without permission.",
+            "If the underlying shelf is damaged or unstable, stop treating the issue as cosmetic. Record it as a separate maintenance concern and arrange competent assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonpowered-garden-watering-can",
+      "title": "Checking watering cans and detachable rose heads",
+      "category": "Home maintenance",
+      "summary": "A basic inspection of non-powered watering equipment for leaks, sharp edges and missing parts.",
+      "tags": [
+        "watering can",
+        "garden",
+        "rose head",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Handle",
+          "Spout",
+          "Body"
+        ],
+        "alt": "An overview checklist of a watering can's handle, spout and body, highlighting the three components to identify while the can is empty.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify the watering can's body, handle, spout and any detachable sprinkler rose. Check for splits, jagged plastic, corrosion, loose connections and a handle that flexes unexpectedly.",
+            "Inspect when empty and on stable ground. Do not carry a heavy full can to test a doubtful handle, and do not use containers that previously held unknown chemicals for garden watering."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Record whether the problem is a drip at the rose, a split in the body or a damaged grip. These have different consequences for usability and may need different replacement parts.",
+            "Keep detachable pieces with the correct can and note the maker or approximate size. A rose head that looks similar may not fit securely."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Empty and store the can according to its material and manufacturer guidance. Position it so it cannot collect standing water or become an obstruction in a shared route.",
+            "Retire a can with sharp edges or an unreliable carrying handle rather than relying on makeshift repairs. Recheck the equipment before the next season of use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-step-stool-record",
+      "title": "Keeping a condition record for a household step stool",
+      "category": "Home maintenance",
+      "summary": "A conservative condition record for a small household step stool, not an instruction to work at height.",
+      "tags": [
+        "step stool",
+        "access equipment",
+        "feet",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Treads",
+          "Feet",
+          "Label"
+        ],
+        "alt": "A non-actionable identification checklist for a step stool's tread surfaces, feet and manufacturer label; no person is shown climbing.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify the stool's maker, model and stated intended use if a label is present. Observe visible cracks, missing feet, damaged tread surfaces, loose fasteners or distortion while it is unloaded on the floor.",
+            "Do not stand on a stool to test a suspected defect. A visual check is not a structural certification, and improvised repairs to load-bearing parts may fail."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Note the room where the stool is stored, the defect and when it was noticed. Avoid describing it as 'safe' merely because it looks undamaged.",
+            "If a stool is damaged or of uncertain provenance, separate it from use and follow the manufacturer's guidance or obtain competent advice. Never substitute a chair or unstable furniture for access equipment."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Keep the stool dry and accessible without blocking exits. Review its condition when it is moved between households or used in a new setting.",
+            "Some tasks require specialist access equipment or a professional. The purpose of the record is to identify a concern and prevent accidental reuse, not to approve work at height."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-shower-caddy-condition",
+      "title": "Checking removable shower caddies and baskets",
+      "category": "Home maintenance",
+      "summary": "How to observe deterioration in removable bathroom organisers without altering plumbing or wall fixings.",
+      "tags": [
+        "bathroom",
+        "shower caddy",
+        "basket",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Mount",
+          "Basket",
+          "Items"
+        ],
+        "alt": "A three-zone overview of a removable shower organiser: its mount, storage basket and contents; no drilling or attachment steps.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Identify whether the organiser rests on a surface, hangs from a fitting or uses a manufacturer-approved removable mount. Look for corrosion, cracks, sharp edges, water accumulation and items that are close to falling.",
+            "Do not pull on a mounted caddy to test its strength. Avoid placing heavy containers overhead, and do not alter shower plumbing or fixed wall fittings as part of this check."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Record the affected organiser, its attachment type and which items it normally holds. Note whether rust marks or water stains appear on nearby surfaces.",
+            "If a caddy is loose or damaged, take it out of use when this can be done safely without disturbing a fixture. Do not rely on a temporary adhesive patch to support falling objects."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Use the product's own cleaning and care instructions, including any limits on stored weight or compatible surfaces. Keep sharp or fragile items away from areas where they could fall onto someone.",
+            "If deterioration involves the wall, tiles or permanent attachment, report that separately to the owner or a suitable professional. A storage accessory check cannot establish waterproofing integrity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-rug-underlay-condition",
+      "title": "Observing rug underlay and edge movement",
+      "category": "Home maintenance",
+      "summary": "A focused way to document slipping or curling in a removable rug and its underlay.",
+      "tags": [
+        "rug",
+        "underlay",
+        "floor",
+        "trip hazard"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Edges",
+          "Movement",
+          "Floor"
+        ],
+        "alt": "A checklist schematic showing rug edges, observed movement and underlying floor condition, without depicting a person testing a slipping rug.",
+        "caption": "Offline condition-identification schematic; not an approval to repair or use damaged equipment."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise and observe",
+          "paragraphs": [
+            "Notice whether a rug edge curls, a corner lifts or the rug moves during normal walking. Check from a stable standing position rather than deliberately stepping onto a slippery area.",
+            "A loose rug can be particularly difficult for people using mobility aids. Keep a clear alternative route and do not assume that adding a generic gripper solves every floor compatibility problem."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Record the concern",
+          "paragraphs": [
+            "Record the rug's location, floor material and whether movement happens near a doorway, furniture or a change in floor level. Photographs can show curling without staging a hazardous test.",
+            "Distinguish a damaged rug from an uneven or wet underlying floor. A flooring defect may need landlord or specialist attention rather than a replacement underlay."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Consult the rug and flooring makers' care instructions before choosing a compatible non-slip product; some materials can stain or affect finished floors.",
+            "If a rug cannot be kept flat and secure, remove it from circulation where practical and tell affected household members. Review the arrangement after cleaning or moving furniture."
+          ]
+        }
+      ]
+    }
+  ]
+}

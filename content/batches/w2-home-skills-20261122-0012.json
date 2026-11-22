@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-meter-reading-record",
+      "title": "Keeping a household meter-reading record",
+      "category": "Home & utilities",
+      "summary": "Create a private record of water, gas and electricity meter readings without handling live equipment.",
+      "tags": [
+        "meter",
+        "reading",
+        "bill",
+        "usage",
+        "utility"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the meter safely",
+          "paragraphs": [
+            "Use the supplier account or tenancy documents to establish which meter belongs to the household; flats may have meters in shared or locked cupboards. Do not open electrical cabinets, remove seals or enter restricted service spaces to find a meter.",
+            "A meter identifier and its displayed reading are different things. Check the supplier's instructions for the correct units and register layout, particularly where the display cycles through several screens."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record consistently",
+          "paragraphs": [
+            "When a meter can be viewed safely and access is authorised, note the date, displayed digits, units and whether the reading was estimated or observed. A private photograph may help resolve later transcription mistakes.",
+            "Keep personal account numbers and property identifiers in a protected household record, not in a public guide or shared community post."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Investigate discrepancies",
+          "paragraphs": [
+            "Compare successive readings with supplier statements over a meaningful period; seasonal use and tariff changes can affect bills even when equipment is working normally.",
+            "If the reading seems implausible or the display is damaged, contact the supplier or responsible building manager rather than attempting to reset, dismantle or repair the meter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-appliance-manual-index",
+      "title": "Building an offline appliance manual index",
+      "category": "Equipment",
+      "summary": "Make product instructions, model identifiers and service contacts easy to retrieve during an outage.",
+      "tags": [
+        "manual",
+        "appliance",
+        "model",
+        "warranty",
+        "instructions"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Model",
+          "Manual",
+          "Review"
+        ],
+        "alt": "A three-row checklist showing how an appliance model is linked to its locally stored manual and periodically reviewed.",
+        "caption": "Illustrative document organisation, not appliance operating instructions."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Locate the right documents",
+          "paragraphs": [
+            "List household equipment that has safety, cleaning, filter or maintenance instructions, including heating controls, ventilation, kitchen appliances and portable power products.",
+            "Record the manufacturer and exact model shown on an accessible label or purchase record. Similar-looking appliances may require different procedures, replacement parts or maintenance intervals."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep offline references",
+          "paragraphs": [
+            "Save permitted copies of the manufacturer's manual to a secure offline folder or retain paper copies. A simple index should describe where each document lives rather than duplicating an entire manual into an unprotected note.",
+            "Check that the saved version matches the model and language, and that the pages needed for warnings, faults and servicing are legible without a network connection."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Review and retire",
+          "paragraphs": [
+            "Update the index when equipment is replaced, serviced or moved. Note the date of a professional inspection separately from an ordinary household check.",
+            "Dispose of obsolete instructions carefully if they include account information, and keep relevant warranty or tenancy records in an appropriate private location."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-condensation-observation-log",
+      "title": "Recording condensation and damp patterns",
+      "category": "Home maintenance",
+      "summary": "Distinguish recurring moisture observations from assumptions about the underlying cause.",
+      "tags": [
+        "condensation",
+        "damp",
+        "mould",
+        "humidity",
+        "window"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Record",
+          "Report"
+        ],
+        "alt": "Three connected stages represent observing a damp pattern, keeping dated records and reporting persistent concerns.",
+        "caption": "A documentation workflow; it does not diagnose moisture or mould."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Observe without disturbing damage",
+          "paragraphs": [
+            "Note where water droplets, staining or musty odours occur and whether they follow cooking, bathing, rainfall or cold weather. A pattern can help a landlord or specialist investigate.",
+            "Avoid scraping, sanding or opening suspected damaged or mouldy materials to diagnose the problem. Water ingress, poor ventilation, leaks and building defects may have similar visible symptoms."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Document the pattern",
+          "paragraphs": [
+            "Keep dated notes and photographs of affected areas, including whether a window, extractor or radiator was in normal use. Do not record sensitive household details in a public issue report.",
+            "If safe and available, note humidity or temperature observations as context, but do not use a single consumer reading to conclude that the building is safe or that a particular defect is proven."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Escalate persistent problems",
+          "paragraphs": [
+            "Report recurring damp, significant mould, unexplained leaks or damaged surfaces to the landlord, building manager or suitable professional. Seek appropriate health advice where symptoms or vulnerability make exposure a concern.",
+            "Do not cover serious staining with paint or seal materials as a substitute for investigating the source. Follow any property-specific ventilation and maintenance instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-radiator-room-heat-check",
+      "title": "Checking uneven room heating",
+      "category": "Home maintenance",
+      "summary": "Collect useful observations about heating performance before requesting qualified maintenance.",
+      "tags": [
+        "radiator",
+        "heating",
+        "thermostat",
+        "cold room",
+        "boiler"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Map the symptoms",
+          "paragraphs": [
+            "Identify which rooms feel unusually cold or warm, whether the problem is persistent and what the thermostat or programmed schedule appears to request.",
+            "Check ordinary user controls only as described by the appliance manual. Avoid opening a boiler, altering gas components, removing covers or using unknown service settings."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record context",
+          "paragraphs": [
+            "Note dates, occupied rooms, normal control settings and whether other hot-water or heating functions appear affected. Distinguish a heating complaint from an actual gas, smoke or carbon-monoxide warning.",
+            "A radiator that feels cool at one moment is not necessarily faulty: demand, schedules and system design vary. Avoid universal diagnoses based on a single touch or temperature reading."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Consult the appliance instructions, landlord or competent heating engineer for persistent problems. Keep emergency contact routes separate from routine service requests.",
+            "If an alarm activates, gas is suspected or combustion safety is in doubt, follow the relevant official emergency instructions rather than troubleshooting from this draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-door-hardware-condition",
+      "title": "Inspecting everyday door hardware",
+      "category": "Home maintenance",
+      "summary": "Spot loose, damaged or unreliable handles and latches without compromising fire safety.",
+      "tags": [
+        "door",
+        "handle",
+        "hinge",
+        "latch",
+        "lock",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Observe",
+          "Report"
+        ],
+        "alt": "A three-row checklist reminds the reader to identify the type of door, observe visible hardware and report concerns.",
+        "caption": "Do not alter fire-door or escape-door components without approval."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the door type",
+          "paragraphs": [
+            "Distinguish an ordinary internal door from a fire-resisting door, communal entrance or designated escape door. Those special doors can have specific legal, building and manufacturer requirements.",
+            "Observe whether a handle returns normally, a latch engages, or visible fittings appear loose or damaged. Avoid repeatedly forcing a stuck lock or testing a suspect exit in a way that traps occupants."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep an observation record",
+          "paragraphs": [
+            "Note the door location, symptom, date and whether it affects access, security or an escape route. A photograph of a visible defect can help a maintenance professional understand the concern.",
+            "Do not remove self-closing devices, alter fire-door seals, wedge a fire door open or substitute generic hardware without appropriate approval."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prioritise repairs",
+          "paragraphs": [
+            "Treat unreliable exits, fire-door defects and failed security doors as matters for prompt responsible management. Routine cosmetic wear can be tracked separately.",
+            "For rented and shared buildings, contact the responsible landlord or managing agent before changing fittings that may belong to the building."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-drainage-early-warning",
+      "title": "Recognising slow household drainage",
+      "category": "Home & utilities",
+      "summary": "Observe drainage changes and know when a problem needs plumbing or building-management help.",
+      "tags": [
+        "drain",
+        "sink",
+        "bath",
+        "blockage",
+        "plumbing"
+      ],
+      "risk": "utilities",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the affected fixtures",
+          "paragraphs": [
+            "Record whether a sink, bath, shower or other fixture drains more slowly than usual, and whether multiple fixtures show problems together.",
+            "Several affected fixtures, repeated backing-up or wastewater appearing where it should not can indicate a wider issue. Avoid assuming the cause is confined to the nearest visible trap."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Avoid risky shortcuts",
+          "paragraphs": [
+            "Do not combine drain-cleaning chemicals or pour unfamiliar substances into plumbing. Chemical products may create hazardous exposure and can complicate later professional work.",
+            "Avoid dismantling concealed or communal drainage, using high-pressure tools or attempting repairs that could cause flooding or contaminate the home."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Report and track",
+          "paragraphs": [
+            "Note dates, affected rooms, odours, unusual sounds and any visible overflow. Keep children and pets away from contaminated water and arrange appropriate assistance.",
+            "If wastewater is backing up or electrical fittings are threatened, avoid contact with affected areas and seek the responsible emergency or qualified service."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-spare-parts-identification",
+      "title": "Organising compatible household spare parts",
+      "category": "Equipment",
+      "summary": "Keep useful consumables identifiable without buying unsafe or mismatched replacements.",
+      "tags": [
+        "spare parts",
+        "filter",
+        "battery",
+        "seal",
+        "replacement",
+        "model"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Match model",
+          "Keep labels",
+          "Review"
+        ],
+        "alt": "Three labelled shelves represent matching spare parts to models, preserving packaging and checking stock.",
+        "caption": "Storage schematic only; it does not certify part compatibility."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify before buying",
+          "paragraphs": [
+            "Start with frequently replaced nonhazardous consumables, such as manufacturer-specified vacuum bags or simple removable accessories. Record the appliance's exact model and the part number from its documentation.",
+            "Do not assume that visually similar filters, fuses, seals or electrical components are interchangeable. Safety-critical replacements need manufacturer guidance and sometimes a qualified installer."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Store with context",
+          "paragraphs": [
+            "Keep unopened parts with their original packaging and labels. Note which appliance they belong to and any storage conditions specified by the manufacturer.",
+            "Avoid accumulating mystery parts without provenance. A photograph of packaging and a clear shelf location can make inventory more useful than a bare quantity count."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Check before use",
+          "paragraphs": [
+            "Inspect packaging for damage and confirm that the part still matches the equipment after repairs or replacements. Record when stock is used and remove obsolete entries.",
+            "Do not use a stored part simply because it fits physically; ratings, materials, approvals and model revisions may differ."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-maintenance-request-tracker",
+      "title": "Tracking landlord and contractor maintenance requests",
+      "category": "Household planning",
+      "summary": "Create a clear timeline of property issues, responses and completed work.",
+      "tags": [
+        "landlord",
+        "repair",
+        "contractor",
+        "ticket",
+        "maintenance",
+        "tenancy"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Log issue",
+          "Track reply",
+          "Verify"
+        ],
+        "alt": "Three connected circles show logging a property concern, tracking correspondence and checking the outcome.",
+        "caption": "Keep sensitive household details in private records."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Capture the problem",
+          "paragraphs": [
+            "Record a short description, location, first observed date and practical impact. Distinguish urgent safety concerns from routine cosmetic defects without claiming a universal legal response time.",
+            "Include relevant photographs only when appropriate, and avoid placing names, access codes or personal contact information in a publicly shared issue log."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Track responsibility and communication",
+          "paragraphs": [
+            "Note when the issue was reported, to whom, any reference number and the agreed next action. Keep copies of important correspondence in a private offline folder.",
+            "A request marked sent does not prove receipt, and a contractor visit does not necessarily prove a repair is complete. Record what actually happened rather than relying only on status labels."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Close with evidence",
+          "paragraphs": [
+            "After work, note the date, the part of the problem addressed and any follow-up needed. If an issue recurs, link it to the earlier record rather than losing the history.",
+            "For safety-critical defects or disputes about responsibility, seek the relevant professional or housing advice rather than relying on a generic app checklist."
+          ]
+        }
+      ]
+    }
+  ]
+}

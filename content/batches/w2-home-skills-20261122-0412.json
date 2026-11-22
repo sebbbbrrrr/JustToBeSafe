@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-fridge-door-gasket-observations",
+      "title": "Observing refrigerator door gasket condition",
+      "category": "Home & utilities",
+      "summary": "Identify visible gasket wear without dismantling or adjusting the appliance.",
+      "tags": [
+        "fridge",
+        "refrigerator",
+        "gasket",
+        "door",
+        "seal",
+        "appliance"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Look",
+          "Record",
+          "Follow up"
+        ],
+        "alt": "A simple conceptual sequence diagram for observing refrigerator door gasket condition, showing Look, Record, Follow up as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Look · Record · Follow up. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Check the visible perimeter",
+          "paragraphs": [
+            "With the refrigerator operating normally, look at the flexible seal around the closed door for obvious gaps, dirt, folds or torn sections. Avoid trapping fingers and do not force the door or remove the seal for inspection.",
+            "Notice whether the door is being obstructed by food packaging, a protruding shelf item or an unevenly positioned container. An apparent sealing problem may have several causes; an observation alone does not diagnose a failed gasket."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record what is changing",
+          "paragraphs": [
+            "Write down the appliance make and model, which door or edge is affected, and the date of the observation. A photograph of the outside of the seal can help compare visible changes without disturbing any appliance components.",
+            "Keep notes about repeated difficulty closing the door or visible moisture near the opening. Do not rely on a single observation to conclude that stored food is safe or that a temperature problem has been resolved."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Consult the manufacturer instructions for approved cleaning and care, and ask a competent repairer about persistent gaps, damage or unexplained warming. Avoid improvised seal reshaping, adhesives or modifications to door hinges.",
+            "If food-storage temperatures or safety are in doubt, seek current food-safety guidance rather than treating this maintenance record as a food-safety assessment. Record any service visit and the outcome for future reference."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-washing-machine-hose-visual-record",
+      "title": "Recording visible washing-machine hose condition",
+      "category": "Home & utilities",
+      "summary": "Create a visual record of accessible hose areas without disconnecting plumbing.",
+      "tags": [
+        "washing machine",
+        "hose",
+        "laundry",
+        "leak",
+        "appliance",
+        "plumbing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Accessible view",
+          "Visible signs",
+          "Report"
+        ],
+        "alt": "A simple conceptual checklist diagram for recording visible washing-machine hose condition, showing Accessible view, Visible signs, Report as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Accessible view · Visible signs · Report. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify what can be seen safely",
+          "paragraphs": [
+            "From an accessible position, identify the washing machine's visible inlet and drain hoses without pulling the machine away from the wall. Do not move a heavy appliance or reach behind it into a cramped or wet space.",
+            "Look for obvious crushing, kinks, drips, or staining only where the hose is already visible. Do not touch electrical connections, loosen fittings or assume that an unseen connection is sound."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep a useful observation log",
+          "paragraphs": [
+            "Note the machine model, approximate hose location, date and whether any dampness is visible on the surrounding floor or cabinet. Use a photograph taken from a safe standing position when that makes the description clearer.",
+            "Separate what you observed from what you suspect. For example, 'damp patch by the left side' is more useful than declaring a hose failure without a proper inspection."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Escalate changes appropriately",
+          "paragraphs": [
+            "If active water escape is visible, prioritise personal safety and use your household's documented emergency reporting or isolation arrangements only if safe and understood. Seek qualified help for hidden leaks or damaged connections.",
+            "Check the appliance manual or a competent installer for model-specific hose inspection and replacement requirements. Record professional findings and do not treat a visual checklist as proof that hoses are leak-free."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-shower-screen-edge-observation",
+      "title": "Monitoring shower-screen edges and seals",
+      "category": "Home & utilities",
+      "summary": "Document visible changes to shower-screen edges without dismantling fittings.",
+      "tags": [
+        "bathroom",
+        "shower",
+        "screen",
+        "seal",
+        "silicone",
+        "water"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Compare",
+          "Report"
+        ],
+        "alt": "A simple conceptual sequence diagram for monitoring shower-screen edges and seals, showing Observe, Compare, Report as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Observe · Compare · Report. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Look at accessible edges",
+          "paragraphs": [
+            "From a dry, stable standing position, examine the visible lower and side edges of a shower screen for gaps, discolouration, loose-looking trim or water escaping beyond the normal shower area. Do not lean on glass or pull at seals.",
+            "Be cautious around cracked glass, loose hinges and slippery surfaces. These are reasons to stop the observation and seek suitable maintenance help rather than testing how much movement the screen can tolerate."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record the pattern rather than guessing",
+          "paragraphs": [
+            "Note which edge appears affected and whether water is found after normal use. A simple dated photograph from the same angle can show whether a visible gap or mark is getting larger.",
+            "Distinguish surface marks from confirmed water penetration. Dampness near a shower can have several causes, so avoid prescribing sealant or other repairs based only on the appearance of a joint."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Arrange appropriate attention",
+          "paragraphs": [
+            "Use the manufacturer's care guidance for routine cleaning of accessible surfaces. If glass, fixings or water containment seem compromised, report the issue to the property owner or a suitable professional.",
+            "Keep records of what was inspected or repaired and whether the problem reappears. Avoid covering unexplained dampness with cosmetic products before the source has been assessed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-skirt-board-damp-observation",
+      "title": "Observing skirting-board and wall-edge changes",
+      "category": "Home & utilities",
+      "summary": "Recognise and record visible wall-edge changes without opening building fabric.",
+      "tags": [
+        "skirting",
+        "baseboard",
+        "wall",
+        "damp",
+        "paint",
+        "floor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Appearance",
+          "Date"
+        ],
+        "alt": "A simple conceptual checklist diagram for observing skirting-board and wall-edge changes, showing Location, Appearance, Date as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Location · Appearance · Date. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Notice changes at room edges",
+          "paragraphs": [
+            "Look for visible staining, flaking paint, lifting trim or an unusual gap between the floor and skirting board. Check only from accessible areas; do not prise off trim, scrape suspect coatings or disturb materials.",
+            "A mark near a wall edge does not by itself establish whether the cause is condensation, plumbing, rain penetration or another issue. Treat the observation as a prompt for investigation, not a diagnosis."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Describe the evidence precisely",
+          "paragraphs": [
+            "Record the room, approximate wall position, date and whether the appearance changes after rain, heating use or ordinary household activity. Photos from consistent positions are often more useful than a vague note that a wall is 'damp'.",
+            "If the area is close to electrical fittings, avoid contact and seek competent assessment. Keep children and pets away from loose or damaged building materials until the risk is understood."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Follow up without concealing damage",
+          "paragraphs": [
+            "Tell the responsible landlord, managing agent or qualified contractor about spreading stains, crumbling surfaces or recurrent moisture. Share observations and photographs rather than prescribing invasive repairs.",
+            "Do not paint over unexplained deterioration as a substitute for investigating the cause. Record the response and any follow-up inspection, and seek suitable advice if conditions worsen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-extractor-fan-service-record",
+      "title": "Keeping a bathroom extractor-fan service record",
+      "category": "Home & utilities",
+      "summary": "Organise manufacturer guidance and service history for ventilation equipment.",
+      "tags": [
+        "bathroom",
+        "extractor",
+        "ventilation",
+        "fan",
+        "manual",
+        "service"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Model",
+          "Manual",
+          "Service"
+        ],
+        "alt": "A simple conceptual checklist diagram for keeping a bathroom extractor-fan service record, showing Model, Manual, Service as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Model · Manual · Service. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the equipment without opening it",
+          "paragraphs": [
+            "Record the extractor fan's make, model and room location using accessible labels, invoices or previous service paperwork. Do not remove covers, reach into a fan or work on electrical parts to identify a model.",
+            "Keep any manufacturer instructions available offline and note who is responsible for servicing the unit. A working indicator or audible fan noise does not prove that ventilation is adequate."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Capture observations for a professional",
+          "paragraphs": [
+            "Note unusual noise, repeated failure to start under normal controls or visible obstruction of an accessible external grille. Avoid testing live wiring, disabling controls or interfering with a shared-building ventilation system.",
+            "Use neutral descriptions such as 'fan sounds different from last month' and include dates. Do not assume that dampness or condensation has a single cause based solely on the fan's apparent behaviour."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Maintain a clear service history",
+          "paragraphs": [
+            "Record inspection dates, contractor details, reported findings and any manufacturer-approved maintenance completed by an appropriate person. Keep warranties and receipts together with the manual index.",
+            "Escalate persistent faults or unusual smells to a competent professional or property manager. Do not attempt internal electrical cleaning or repairs from an unreviewed offline guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-door-threshold-draught-record",
+      "title": "Recording draughts around door thresholds",
+      "category": "Home & utilities",
+      "summary": "Describe where a door appears draughty without changing locks or safety hardware.",
+      "tags": [
+        "door",
+        "threshold",
+        "draught",
+        "weatherstrip",
+        "entry",
+        "seal"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Threshold",
+          "Frame",
+          "Report"
+        ],
+        "alt": "A simple conceptual route diagram for recording draughts around door thresholds, showing Threshold, Frame, Report as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Threshold · Frame · Report. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the affected area",
+          "paragraphs": [
+            "Note whether a draught seems to come from the bottom, sides or top of a regularly used door. Observe during ordinary use without blocking the door, altering its latch or holding a fire door open.",
+            "Avoid treating all gaps as defects: some doors and building systems have ventilation or fire-safety requirements. Do not cover vents or change fire-door seals without competent advice."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Describe the pattern",
+          "paragraphs": [
+            "Record the room or entrance, approximate position of the draught and whether it is most noticeable in windy conditions. A photograph of visible wear can support a maintenance request.",
+            "Separate perceived airflow from a confirmed fault. A door that does not close or latch properly is a distinct safety concern and should be reported promptly rather than masked by improvised draught excluders."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Plan the right follow-up",
+          "paragraphs": [
+            "Check the property documentation for door type and maintenance responsibility. Seek the landlord, managing agent or a qualified door specialist where seals, thresholds or latching appear compromised.",
+            "Keep any work record and confirm that access, ventilation and fire-safety functions have not been obstructed. This guide does not authorise alterations to fire doors or security fittings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-garden-hose-storage-check",
+      "title": "Checking garden-hose storage and condition",
+      "category": "Home & utilities",
+      "summary": "Keep an outdoor hose organised and identify visible damage before seasonal use.",
+      "tags": [
+        "garden",
+        "hose",
+        "storage",
+        "outdoor",
+        "watering",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate",
+          "Inspect",
+          "Store"
+        ],
+        "alt": "A simple conceptual sequence diagram for checking garden-hose storage and condition, showing Locate, Inspect, Store as labelled stages or areas. It is not a technical repair instruction.",
+        "caption": "A non-technical visual aid: Locate · Inspect · Store. Observe and record without dismantling equipment."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Locate the hose and attachments",
+          "paragraphs": [
+            "Identify the hose, reel and removable accessories in a dry and accessible storage location. Keep the route to the storage area free of trip hazards and avoid leaving long coils across walkways.",
+            "Check visible surfaces for cracking, severe kinks, damaged connectors or mouldy residue without pressurising a suspect hose. Do not handle any accessory that is connected to electrical equipment."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Make a seasonal condition note",
+          "paragraphs": [
+            "Record the hose's approximate length, storage location, connector type and visible condition. Note if the reel or holder looks loose, rather than assuming that the mounting can support a heavy load.",
+            "Separate reusable parts from damaged items awaiting proper disposal or replacement. Do not store the hose where it blocks access to a meter, exit, emergency equipment or other essential household fitting."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Use manufacturer guidance for storage",
+          "paragraphs": [
+            "Follow the hose and connector maker's recommendations for cleaning, draining and storage, particularly during cold weather. Avoid promising that one storage method prevents every type of freeze damage.",
+            "Before future use, review the recorded condition and inspect for new visible problems. If the hose connects to a drinking-water supply, follow applicable backflow-prevention and local water-supplier requirements rather than improvising fittings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-attic-access-panel-record",
+      "title": "Documenting an attic access panel from the room below",
+      "category": "Home & utilities",
+      "summary": "Record visible access-panel condition without climbing into a loft.",
+      "tags": [
+        "loft",
+        "attic",
+        "hatch",
+        "access",
+        "ceiling",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Observe without opening the hatch",
+          "paragraphs": [
+            "From the room below, note whether the loft or attic access panel appears flush, visibly cracked, stained or misaligned. Keep a safe distance if the panel or surrounding ceiling appears unstable.",
+            "Do not stand on furniture, open a damaged hatch or enter an unfamiliar roof space for this record. The guide is limited to identifying and reporting visible conditions from a normal occupied room."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Document changes for the responsible person",
+          "paragraphs": [
+            "Record the room location, date and a short description of any new gap, discolouration or unusual movement seen during ordinary use. Photos taken safely from floor level can help show the pattern.",
+            "Do not interpret a stained ceiling or panel as proof of a particular roof defect. Possible causes require suitable inspection, and older building materials may need specialist handling."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Arrange safe access if needed",
+          "paragraphs": [
+            "If the panel is damaged, falling, wet or difficult to secure, notify the landlord, building manager or competent contractor. Describe the visible issue and avoid disturbing insulation or ceiling materials.",
+            "Keep the inspection outcome and maintenance contact with household records. A visual check from below cannot establish roof-space safety, insulation condition or structural soundness."
+          ]
+        }
+      ]
+    }
+  ]
+}

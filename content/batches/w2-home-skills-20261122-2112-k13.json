@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "removable-furniture-felt-pad-care",
+      "title": "Checking removable felt pads beneath furniture",
+      "category": "Home maintenance",
+      "summary": "Furniture felt pads can reduce scuffs on suitable floors, but loose pads can trap grit or leave adhesive residue.",
+      "tags": [
+        "furniture",
+        "felt pads",
+        "floor protection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate pads",
+          "Check edges",
+          "Record wear"
+        ],
+        "alt": "Three-item observation checklist for checking removable felt pads beneath furniture: Locate pads, Check edges, Record wear. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the contact points",
+          "paragraphs": [
+            "Look at accessible chair and table feet while the furniture is stationary. Felt pads are usually attached to the underside where a leg meets the floor.",
+            "Different floors and furniture finishes require different protection. A pad that suits one surface may mark another, so consult the furniture and floor-care instructions."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe without moving heavy items",
+          "paragraphs": [
+            "From a comfortable position, check whether visible pads are curling, missing, contaminated with grit or leaving marks. Do not tip heavy furniture or reach beneath an unstable object.",
+            "Record which furniture leg and floor area are affected. A close photograph of an accessible foot can help identify the size and material without guesswork."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Plan an appropriate replacement",
+          "paragraphs": [
+            "For a loose or damaged pad, check the manufacturer's advice for suitable materials and cleaning methods before fitting a replacement.",
+            "Keep adhesives away from children and pets, and avoid solvent-based improvisations. Persistent floor marks may need advice from the flooring supplier."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-cushion-cover-fastener-check",
+      "title": "Recognising wear on removable cushion-cover fasteners",
+      "category": "Home maintenance",
+      "summary": "A simple inspection record helps distinguish ordinary wear from a cover that is difficult to close.",
+      "tags": [
+        "cushion",
+        "zip",
+        "fastener",
+        "upholstery"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Zip track",
+          "Pull tab",
+          "Seam"
+        ],
+        "alt": "Three-item observation checklist for recognising wear on removable cushion-cover fasteners: Zip track, Pull tab, Seam. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the closure",
+          "paragraphs": [
+            "Cushion covers may use zips, buttons or hook-and-loop strips. Identify the type before assuming a snagged closure needs repair.",
+            "Some decorative covers are not intended to be removed. Look for a care label and follow the manufacturer's washing or handling guidance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Inspect gently",
+          "paragraphs": [
+            "With the cushion resting on a stable surface, note visible fraying, missing teeth, loose stitching or a damaged pull tab. Do not force a jammed zip.",
+            "Record the affected side and whether the cover is under unusual tension. A photograph may help a repairer match the fastener."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a low-risk follow-up",
+          "paragraphs": [
+            "Avoid pulling hard on fabric or using oils and chemicals that could stain upholstery. If the fastener has sharp exposed parts, keep it away from children until addressed.",
+            "For valuable or delicate fabric, use a suitable upholstery repair service rather than experimenting with a replacement closure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-table-leg-cap-inspection",
+      "title": "Inspecting removable table-leg end caps",
+      "category": "Home maintenance",
+      "summary": "End caps on lightweight furniture can loosen, exposing edges that may scratch flooring.",
+      "tags": [
+        "table",
+        "leg cap",
+        "furniture",
+        "feet"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Cap edge",
+          "Leg end",
+          "Floor mark"
+        ],
+        "alt": "Three-item observation checklist for inspecting removable table-leg end caps: Cap edge, Leg end, Floor mark. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the end cap",
+          "paragraphs": [
+            "Some metal or plastic furniture legs have a fitted cap or glide at the end. It may be made from rubber, plastic or another material.",
+            "Not every exposed leg end is designed for a detachable cap. Compare visible legs and any product documentation before selecting a part."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Look for wear",
+          "paragraphs": [
+            "On stable, lightweight furniture, look for missing caps, splits, wobbling or scuff marks without placing fingers beneath a loaded leg.",
+            "If furniture is unstable, stop using it rather than testing its balance. Record the leg location and any visible part markings."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Document the next action",
+          "paragraphs": [
+            "Find the manufacturer's replacement part guidance; caps vary by leg shape, internal dimensions and floor type.",
+            "Avoid forcing an ill-fitting cap or using makeshift sharp inserts. Check the floor finish separately if scratches have appeared."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-cabinet-handle-surface-wear",
+      "title": "Recording visible wear on cupboard handles and knobs",
+      "category": "Home maintenance",
+      "summary": "Handle condition notes help separate cosmetic changes from loose or sharp fittings.",
+      "tags": [
+        "cupboard",
+        "handle",
+        "knob",
+        "hardware"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Handle",
+          "Base",
+          "Surface"
+        ],
+        "alt": "Three-item observation checklist for recording visible wear on cupboard handles and knobs: Handle, Base, Surface. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the fitting",
+          "paragraphs": [
+            "Cabinet handles and knobs are frequently touched, and their finish can wear differently from surrounding doors. Record the type and location.",
+            "Discolouration may be cosmetic, while sharp edges or looseness can affect everyday use. Do not assume a particular cleaning chemical is safe for the finish."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check accessible surfaces",
+          "paragraphs": [
+            "Observe whether the handle is visibly cracked, sharp, or separating from its mounting without dismantling the door.",
+            "Photograph the front and the surrounding finish in good light. Do not tug a loose handle to test it, particularly on glass or damaged panels."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange proportionate care",
+          "paragraphs": [
+            "Use manufacturer-approved cleaning guidance for the material. Keep abrasive pads and unknown solvents away from plated or painted finishes.",
+            "A handle with sharp edges or obvious instability should be repaired or replaced using appropriate parts before normal use resumes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-lampshade-condition-record",
+      "title": "Keeping a visible condition record for a removable lampshade",
+      "category": "Home maintenance",
+      "summary": "A shade can show dust, cracks or heat-related marks that deserve attention without requiring electrical work.",
+      "tags": [
+        "lampshade",
+        "lighting",
+        "shade",
+        "condition"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Shade",
+          "Frame",
+          "Marks"
+        ],
+        "alt": "Three-item observation checklist for keeping a visible condition record for a removable lampshade: Shade, Frame, Marks. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the shade type",
+          "paragraphs": [
+            "Note whether the shade is fabric, paper, glass or another material, and whether it appears to be part of a manufacturer-specified light fitting.",
+            "Some shades are fixed or require electrical access to remove. This guide covers only visual observation and recordkeeping, not lamp dismantling."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe from a safe position",
+          "paragraphs": [
+            "With the light switched off and cool, look for visible tears, sagging, discolouration or cracks without touching bulbs or wiring.",
+            "If you notice scorching, smoke, unusual smell or damaged electrical parts, stop using the fitting and seek qualified assessment rather than investigating internally."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Plan suitable care",
+          "paragraphs": [
+            "Check the manufacturer's instructions for shade compatibility, permitted cleaning and any restrictions on lamp types.",
+            "Do not substitute an unknown shade or place flammable decorations near a lamp. Keep a record of the model and concern for the supplier or electrician."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-reusable-storage-crate-check",
+      "title": "Checking reusable household storage crates for damage",
+      "category": "Home maintenance",
+      "summary": "Routine visual checks can prevent cracked crates from becoming awkward or unreliable storage.",
+      "tags": [
+        "storage",
+        "crate",
+        "plastic",
+        "handles"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Base",
+          "Handles",
+          "Stack"
+        ],
+        "alt": "Three-item observation checklist for checking reusable household storage crates for damage: Base, Handles, Stack. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise common designs",
+          "paragraphs": [
+            "Reusable crates may have rigid sides, folding joints, cut-out handles or lids. Their capacity and stacking arrangements vary.",
+            "A crate's appearance does not establish its safe load rating. Read any moulded label or manufacturer's guidance before storing heavy items."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Inspect the empty crate",
+          "paragraphs": [
+            "On the floor, look for cracks around handles, broken corners, missing clips or distorted folding joints. Keep fingers clear of pinch points.",
+            "Avoid climbing on crates or using them as seats or steps. If a damaged crate is carrying items, unload it carefully rather than testing its strength."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Organise safe storage",
+          "paragraphs": [
+            "Keep frequently used crates in reachable positions, with heavy contents low and unstable stacks avoided.",
+            "Label the contents rather than relying on transparent sides alone. Retire badly damaged containers and follow local recycling instructions for their material."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-desk-drawer-organiser-care",
+      "title": "Maintaining removable drawer organisers without damaging furniture",
+      "category": "Home maintenance",
+      "summary": "Organisers can make small items easier to find, but poor fit and trapped grit can mark drawers.",
+      "tags": [
+        "drawer",
+        "organiser",
+        "storage",
+        "desk"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fit",
+          "Corners",
+          "Contents"
+        ],
+        "alt": "Three-item observation checklist for maintaining removable drawer organisers without damaging furniture: Fit, Corners, Contents. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the organiser",
+          "paragraphs": [
+            "A removable tray or divider sits inside a drawer and is distinct from the drawer runner or cabinet structure.",
+            "Check whether it is loose, clipped in place or supplied as part of the furniture. Do not force out fixed fittings."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe fit and cleanliness",
+          "paragraphs": [
+            "When the drawer opens normally, look for trapped debris, sharp broken corners or an organiser that catches the opening.",
+            "Remove only lightweight loose trays where the manufacturer's instructions permit. Avoid overfilling, which may prevent the drawer from closing."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep a simple maintenance note",
+          "paragraphs": [
+            "Match cleaning methods to the organiser material and dry parts as directed before returning paper or sensitive contents.",
+            "If the drawer itself sticks or tilts, do not assume the tray is the cause; record the symptom separately for appropriate furniture assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-window-sill-plant-tray-check",
+      "title": "Checking indoor plant trays on window sills",
+      "category": "Home maintenance",
+      "summary": "A plant tray can catch ordinary watering drips, but overflow may leave moisture on vulnerable surfaces.",
+      "tags": [
+        "plant tray",
+        "window sill",
+        "water",
+        "indoor plants"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Tray rim",
+          "Sill",
+          "Moisture"
+        ],
+        "alt": "Three-item observation checklist for checking indoor plant trays on window sills: Tray rim, Sill, Moisture. It illustrates what to identify and record, not a dismantling or repair procedure.",
+        "caption": "Record visible condition first; follow product guidance for any further action."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the surface and tray",
+          "paragraphs": [
+            "Indoor plant saucers and trays vary in depth and material. A shallow saucer may not contain every spill, especially on a narrow sill.",
+            "Check that the container rests securely and does not obstruct window controls or ventilation. Do not place heavy pots where they could fall."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Look for visible water marks",
+          "paragraphs": [
+            "From a safe standing position, check for pooled water, staining or swelling around the tray after normal watering.",
+            "Do not lean out of windows or climb to reach plants. Note any repeated damp patches rather than assuming the tray is the only cause."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Adjust the arrangement safely",
+          "paragraphs": [
+            "Use a suitable stable tray and follow the window-sill finish manufacturer's care instructions; avoid leaving standing water against wood or painted joints.",
+            "If damp persists or affects a wall, seek appropriate property advice. Keep trays and plants away from electrical outlets and trailing leads."
+          ]
+        }
+      ]
+    }
+  ]
+}

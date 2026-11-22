@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "w2-household-paint-and-finish-records",
+      "title": "Household paint and finish records",
+      "category": "Home & utilities",
+      "summary": "Keep an accurate record of decorative finishes without guessing at product compatibility.",
+      "tags": [
+        "paint",
+        "decorating",
+        "finish",
+        "colour"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record existing finishes",
+          "paragraphs": [
+            "For each room, record the surface, colour name or product code if verified, and the location of retained labels or receipts. Photos may assist but lighting changes colour appearance.",
+            "Mark uncertain product names clearly; similar-looking paints can have different properties and should not be treated as interchangeable."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep references together",
+          "paragraphs": [
+            "Record the maker, finish, date and any manufacturer care notes visible on the original packaging. Retain only safe, appropriately stored samples.",
+            "Older coatings and disturbed surfaces can require specialist assessment. This is a record-keeping guide, not a stripping or sanding procedure."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review after changes",
+          "paragraphs": [
+            "Update the record after redecoration, noting who completed the work and any new care requirements.",
+            "Avoid overwriting previous notes when an issue remains unresolved or the surface needs professional assessment."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Room",
+          "Finish",
+          "Reference"
+        ],
+        "alt": "A compact schematic showing the Room then Finish then Reference stages for household paint and finish records; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-furniture-care-records",
+      "title": "Furniture care records",
+      "category": "Home & utilities",
+      "summary": "Organise product care details and observations for frequently used furniture.",
+      "tags": [
+        "furniture",
+        "upholstery",
+        "wood",
+        "care"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify each item",
+          "paragraphs": [
+            "Record the maker or model where known, the material described by its manufacturer and where assembly instructions are kept.",
+            "A fabric or timber appearance does not reliably establish cleaning compatibility or structural soundness."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check care information",
+          "paragraphs": [
+            "Keep the maker's cleaning restrictions and load information available offline, with dated notes of wear or damage.",
+            "If a chair, table or shelf appears unstable, stop relying on it until suitable assessment or repair."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Update the register",
+          "paragraphs": [
+            "Note replacements, professional repairs and changes in location rather than deleting older observations.",
+            "Revisit the register when household needs or access arrangements change."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Care",
+          "Update"
+        ],
+        "alt": "A compact schematic showing the Identify then Care then Update stages for furniture care records; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-external-door-seasonal-observations",
+      "title": "External door seasonal observations",
+      "category": "Home & utilities",
+      "summary": "Record external door condition without attempting unsafe fire-door or lock modifications.",
+      "tags": [
+        "door",
+        "threshold",
+        "weather",
+        "seal"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Observe closure",
+          "paragraphs": [
+            "From a safe position, note whether the door closes normally, draughts appear or the threshold shows visible damage.",
+            "Do not force a misaligned door or modify a fire-rated, security or communal door without permission and competent guidance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Track patterns",
+          "paragraphs": [
+            "Record whether sticking or moisture marks coincide with particular weather and capture dated photographs if useful.",
+            "Keep photographs of locks and access points private; a visual check cannot establish security performance."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Escalate concerns",
+          "paragraphs": [
+            "Report persistent closure faults, damage or water ingress to the responsible property contact.",
+            "If the door forms part of an escape route, seek building-specific competent advice rather than a general DIY fix."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observe",
+          "Record",
+          "Report"
+        ],
+        "alt": "A compact schematic showing the Observe then Record then Report stages for external door seasonal observations; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-waste-bin-and-recycling-equipment-log",
+      "title": "Waste bin and recycling equipment log",
+      "category": "Equipment",
+      "summary": "Track waste containers and report defects without guessing local collection rules.",
+      "tags": [
+        "bins",
+        "recycling",
+        "waste",
+        "lids"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "List containers",
+          "paragraphs": [
+            "Record indoor caddies and outdoor bins by location, condition and locally assigned waste stream.",
+            "Do not infer what is recyclable from bin colour alone; local collection requirements differ."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe condition",
+          "paragraphs": [
+            "Check visible lids, wheels and handles without lifting overloaded containers or reaching into unknown waste.",
+            "Record contamination or sharp hazards for the responsible collection or property service instead of handling them."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Follow up",
+          "paragraphs": [
+            "Log replacement requests, reference numbers and confirmed collection changes.",
+            "Keep equipment away from emergency exits and update the record when arrangements change."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Indoor",
+          "Outdoor",
+          "Follow-up"
+        ],
+        "alt": "A compact schematic showing the Indoor then Outdoor then Follow-up stages for waste bin and recycling equipment log; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-tap-and-fixture-identification-records",
+      "title": "Tap and fixture identification records",
+      "category": "Home & utilities",
+      "summary": "Record visible household fixture details to support appropriate maintenance enquiries.",
+      "tags": [
+        "tap",
+        "plumbing",
+        "fixture",
+        "model"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify fixtures",
+          "paragraphs": [
+            "Record each sink or basin location, visible manufacturer markings and any retained installation documentation.",
+            "Similar-looking taps can have incompatible internal components; do not guess hidden fittings from appearance."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Document symptoms",
+          "paragraphs": [
+            "Note dripping, stiffness or staining with dates and photographs without disassembling parts.",
+            "Active leakage near electrical equipment or uncertainty about isolation warrants appropriate professional assistance."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Prepare an enquiry",
+          "paragraphs": [
+            "Share the location, symptoms and verified model information with an authorised tradesperson or property manager.",
+            "After professional work, record any confirmed replacement part reference and care instructions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify",
+          "Describe",
+          "Enquire"
+        ],
+        "alt": "A compact schematic showing the Identify then Describe then Enquire stages for tap and fixture identification records; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-household-repair-priority-register",
+      "title": "Household repair priority register",
+      "category": "Household planning",
+      "summary": "Track defects, contacts and outcomes without presenting an app's labels as a safety assessment.",
+      "tags": [
+        "repair",
+        "maintenance",
+        "defect",
+        "priority"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Capture observations",
+          "paragraphs": [
+            "Record the location, date, observed symptoms and any photograph that can be shared safely.",
+            "Separate observed facts from speculation about causes and keep personal property information private."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Route concerns",
+          "paragraphs": [
+            "Flag immediate danger, essential-service loss, active water ingress and obstructed access for appropriate prompt escalation.",
+            "A generic priority label cannot determine statutory urgency or replace emergency services and competent advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Confirm outcomes",
+          "paragraphs": [
+            "Log who was contacted, the reference number and whether a visit resolved the problem.",
+            "Keep recurring issues visible rather than treating a scheduled appointment as completed maintenance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Describe",
+          "Escalate",
+          "Confirm"
+        ],
+        "alt": "A compact schematic showing the Describe then Escalate then Confirm stages for household repair priority register; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    },
+    {
+      "id": "w2-curtain-and-blind-condition-records",
+      "title": "Curtain and blind condition records",
+      "category": "Home & utilities",
+      "summary": "Observe window covering condition and retain manufacturer safety information.",
+      "tags": [
+        "curtains",
+        "blinds",
+        "cords",
+        "window"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify coverings",
+          "paragraphs": [
+            "Record the type of curtain or blind at each window and where its manufacturer instructions can be found.",
+            "Different coverings have different cleaning and child-safety requirements; avoid generic product assumptions."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe concerns",
+          "paragraphs": [
+            "Note visible damage, jamming, loose-looking fittings or accessible cords from a safe position.",
+            "Do not climb onto furniture or alter child-safety devices without suitable instructions and competent help."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Arrange follow-up",
+          "paragraphs": [
+            "Record whether professional inspection, replacement or manufacturer advice is needed.",
+            "Where children may access cords or loops, seek current applicable safety guidance promptly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w2-private-household-key-and-access-inventory",
+      "title": "Private household key and access inventory",
+      "category": "Household planning",
+      "summary": "Organise authorised access information without publishing codes or key-cut details.",
+      "tags": [
+        "keys",
+        "fobs",
+        "access",
+        "security"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "List categories",
+          "paragraphs": [
+            "Record which doors or facilities use keys or fobs without publishing access codes, key photographs or private addresses.",
+            "Store actual key locations and authorised holders only in an appropriately protected household record."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check availability",
+          "paragraphs": [
+            "Confirm that authorised members know how to reach essential areas and identify missing credentials.",
+            "Do not copy restricted keys, bypass locks or alter shared access systems without permission."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review changes",
+          "paragraphs": [
+            "Update holders and property-management contacts after moves, lost keys or changes in household membership.",
+            "A missing key with identifying information may require professional security advice rather than simply making a spare."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "List",
+          "Check",
+          "Review"
+        ],
+        "alt": "A compact schematic showing the List then Check then Review stages for private household key and access inventory; it is an organisational aid, not a repair procedure.",
+        "caption": "Offline reference schematic only; follow applicable manufacturer or professional guidance."
+      }
+    }
+  ]
+}
