@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-vaccination-record-index",
+      "title": "Keeping a private index of vaccination records",
+      "category": "First aid",
+      "summary": "Help a household locate official vaccination records without guessing immunisation status.",
+      "tags": [
+        "vaccination",
+        "immunisation",
+        "records",
+        "privacy",
+        "health"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Record",
+          "Location",
+          "Review"
+        ],
+        "alt": "A compact three-row offline checklist labelled Record, Location, Review. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the original record",
+          "paragraphs": [
+            "Record where an NHS app entry, clinic document or personal health record can be found, including the provider and the date shown. A handwritten list is a finding aid, not proof that a vaccine was administered or protection is current.",
+            "Avoid copying sensitive identifiers into shared notes. If entries disagree or are missing, ask the relevant healthcare service to clarify rather than filling gaps from memory."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a compact index",
+          "paragraphs": [
+            "List the document type, who controls access, and where the authoritative record can be retrieved. Distinguish the date of the vaccination from the date you last checked the record.",
+            "Keep the index private and accessible only to the person concerned or someone they authorise. Do not assume that one record contains every vaccination given by different providers."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Review when circumstances change",
+          "paragraphs": [
+            "Update the index after receiving a new official record or changing healthcare providers. For travel, school or employment evidence, check the actual requirements with the requesting organisation.",
+            "This guide does not recommend a vaccine schedule or determine immunity; clinical advice must come from a qualified professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-specialist-referral-tracker",
+      "title": "Tracking a healthcare referral without losing the original details",
+      "category": "First aid",
+      "summary": "Organise a referral status note while avoiding assumptions about waiting times or clinical priority.",
+      "tags": [
+        "referral",
+        "appointment",
+        "healthcare",
+        "records",
+        "follow-up"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Referral",
+          "Status",
+          "Contact"
+        ],
+        "alt": "A compact three-row offline checklist labelled Referral, Status, Contact. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the referral",
+          "paragraphs": [
+            "Keep the referring service, destination service, date of referral and any reference number together. Record only information supplied by the provider; a request being sent does not always mean an appointment is booked.",
+            "Keep copies of relevant letters or messages in a private location and preserve their dates. Avoid including diagnostic information in shared household calendars."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Track what is confirmed",
+          "paragraphs": [
+            "Separate 'referred', 'acknowledged', 'appointment offered' and 'attended' so the record does not imply a stage has happened prematurely. Note which service to contact about administrative queries.",
+            "If an expected message has not arrived, use the service's published contact method to ask about status. Do not invent waiting-time deadlines or interpret delays as evidence of clinical safety."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Respond to changing needs",
+          "paragraphs": [
+            "A referral tracker is not a substitute for clinical assessment. If symptoms worsen or new urgent symptoms develop, seek appropriate medical advice rather than waiting for a routine appointment.",
+            "Retire outdated contact information and close the note once the referral has been resolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-hospital-discharge-paperwork",
+      "title": "Organising hospital discharge information for later reference",
+      "category": "First aid",
+      "summary": "Keep the official discharge documents findable without replacing personalised instructions.",
+      "tags": [
+        "discharge",
+        "hospital",
+        "paperwork",
+        "medication",
+        "follow-up"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Documents",
+          "Contacts",
+          "Follow-up"
+        ],
+        "alt": "A compact three-row offline checklist labelled Documents, Contacts, Follow-up. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Preserve the original instructions",
+          "paragraphs": [
+            "After a hospital visit, keep the discharge summary and any separate medicine, follow-up or equipment instructions together. Check that the documents belong to the correct person and visit.",
+            "If instructions are unclear, missing or appear contradictory, ask the discharging service or appropriate clinician to clarify. Do not rewrite clinical directions from memory."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make a retrieval index",
+          "paragraphs": [
+            "Create a short note showing where the original paperwork is stored, which service issued it and any follow-up contact information. Mark the date and keep later corrections alongside the original rather than silently replacing it.",
+            "Do not turn a general household checklist into a treatment plan. Individual medicine changes, restrictions and warning signs must come from the person's own clinical instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Protect privacy and continuity",
+          "paragraphs": [
+            "Share documents only with the patient or people authorised to assist. Avoid leaving sensitive details on a communal noticeboard or unlocked device.",
+            "If a new urgent concern develops after discharge, seek appropriate professional help instead of assuming the original paperwork covers every possible change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-hearing-aid-information-kit",
+      "title": "Keeping hearing-aid model and support information together",
+      "category": "First aid",
+      "summary": "Make everyday hearing support easier to maintain without improvising device repairs.",
+      "tags": [
+        "hearing aid",
+        "accessibility",
+        "batteries",
+        "device",
+        "support"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Device",
+          "Supplies",
+          "Support"
+        ],
+        "alt": "A compact three-row offline checklist labelled Device, Supplies, Support. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the equipment",
+          "paragraphs": [
+            "Record the hearing-aid make, model and provider contact details from the original documentation. Keep the manufacturer's instructions and any charging or battery compatibility information easy to find.",
+            "Different models use different consumables and cleaning arrangements. Do not substitute batteries or dismantle the device based on a generic guide."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Organise everyday support",
+          "paragraphs": [
+            "Keep an appropriate labelled case and approved accessories together in a dry, accessible place. Note where replacement consumables can be obtained and whether the person prefers written, visual or spoken communication.",
+            "Avoid storing small batteries where children or pets can reach them. A swallowed button battery is an emergency requiring immediate professional advice."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Plan for service interruptions",
+          "paragraphs": [
+            "Write down how to contact the fitting service or manufacturer for faults, lost devices or adjustments. A device that stops working may create important communication barriers during a disruption.",
+            "Ask the wearer what support is useful rather than assuming their communication preferences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-appointment-question-card",
+      "title": "Preparing a short question card for a healthcare appointment",
+      "category": "First aid",
+      "summary": "Help a person explain priorities and remember answers without turning notes into medical advice.",
+      "tags": [
+        "appointment",
+        "questions",
+        "communication",
+        "accessibility",
+        "notes"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Questions",
+          "Answers",
+          "Next step"
+        ],
+        "alt": "A compact three-row offline checklist labelled Questions, Answers, Next step. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose the main questions",
+          "paragraphs": [
+            "Before a routine appointment, write two or three questions in the person's own words. Include what they most want to understand, such as the purpose of a test or how to obtain a copy of instructions.",
+            "Leave room for the clinician's answer and for uncertainties. Avoid collecting more personal details than the person wants to share."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Make the card accessible",
+          "paragraphs": [
+            "Use readable type, generous spacing and plain language. A paper card or offline note can be helpful when phone signal, battery or concentration is limited.",
+            "Ask whether a companion, interpreter or accessible format would help; the patient should control what is shared and who attends."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Check understanding afterward",
+          "paragraphs": [
+            "Record any agreed next step using the professional's wording, and ask for written information when useful. If something remains unclear, contact the relevant service for clarification rather than guessing.",
+            "Do not treat the card as a prescription, diagnosis or substitute for a clinical record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-home-medical-device-manual-index",
+      "title": "Creating an offline index of home medical device manuals",
+      "category": "First aid",
+      "summary": "Keep model-specific instructions accessible when an internet connection is unavailable.",
+      "tags": [
+        "medical device",
+        "manual",
+        "offline",
+        "equipment",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Model",
+          "Manual",
+          "Support"
+        ],
+        "alt": "A compact three-row offline checklist labelled Model, Manual, Support. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify each device precisely",
+          "paragraphs": [
+            "Record the manufacturer's model name and the location of its original manual for equipment already used in the household. Include a service contact and the date the manual was obtained.",
+            "Avoid placing serial numbers, account details or health information in public repository files or shared templates. Model differences can make a generic instruction unsafe."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep an offline reference",
+          "paragraphs": [
+            "Where permitted, save a legitimate copy of the correct manual locally or keep the printed instructions with the device. Check that the manual matches the exact model and language needs.",
+            "An offline manual can become outdated; retain revision details and check for official safety notices when connectivity is available."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Know the limits",
+          "paragraphs": [
+            "Do not attempt repairs, calibration, settings changes or treatment adjustments using this general index. Contact the device provider for faults and follow the individual's clinical plan.",
+            "If failure of essential equipment creates an immediate health emergency, seek emergency assistance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-care-plan-version-record",
+      "title": "Distinguishing current and older personal care plans",
+      "category": "First aid",
+      "summary": "Prevent confusion between outdated and current clinician-issued care documents.",
+      "tags": [
+        "care plan",
+        "version",
+        "health records",
+        "privacy",
+        "review"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Source",
+          "Version",
+          "Confirm"
+        ],
+        "alt": "A compact three-row offline checklist labelled Source, Version, Confirm. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the issuing source",
+          "paragraphs": [
+            "A household may hold several versions of a care plan after appointments or changes in services. Record the document's date, issuing clinician or service and any explicit revision identifier.",
+            "Do not assume the newest file timestamp makes a plan clinically current; confirm with the responsible healthcare professional if documents conflict."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Keep versions clearly separated",
+          "paragraphs": [
+            "Store the plan believed current where authorised carers can find it, and label older copies as superseded only when a responsible professional has confirmed the replacement.",
+            "Preserve necessary historical records securely rather than destroying them casually. Keep personal details out of public or communal lists."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Confirm before acting",
+          "paragraphs": [
+            "If an instruction is ambiguous or inconsistent, contact the relevant care team. Do not combine sections from different plans or infer new medication instructions.",
+            "Review access permissions when a helper changes, and keep a simple record of when the index was last checked."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-healthcare-communication-preferences",
+      "title": "Recording communication preferences for healthcare conversations",
+      "category": "First aid",
+      "summary": "Make consent-based communication support findable in stressful or disrupted situations.",
+      "tags": [
+        "communication",
+        "accessibility",
+        "interpreter",
+        "healthcare",
+        "consent"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Preference",
+          "Format",
+          "Consent"
+        ],
+        "alt": "A compact three-row offline checklist labelled Preference, Format, Consent. It organises administrative information only and does not depict a clinical procedure.",
+        "caption": "A private information-finding aid, not clinical instructions."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Ask rather than assume",
+          "paragraphs": [
+            "With the person's agreement, record whether they prefer large print, written explanations, a qualified interpreter, hearing support or another accessible communication method.",
+            "Communication needs can vary by setting and over time. Avoid assigning a diagnosis or assuming that a companion can interpret confidential clinical information."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Create a minimal preference card",
+          "paragraphs": [
+            "Use a few short, practical phrases about preferred formats and how to request support from the healthcare service. Keep the card separate from unnecessary medical details.",
+            "If the person uses an assistive communication tool, note where it is kept and how to request help with it, without storing passwords or private identifiers."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep control with the person",
+          "paragraphs": [
+            "Ask permission before sharing the card, and let the person update or withdraw preferences. Check that the chosen format remains usable offline if mobile connectivity fails.",
+            "The card does not replace a healthcare provider's duty to assess communication and consent needs."
+          ]
+        }
+      ]
+    }
+  ]
+}
