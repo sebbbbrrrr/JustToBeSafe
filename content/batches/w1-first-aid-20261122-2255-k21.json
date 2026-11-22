@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-spare-spectacles-index",
+      "title": "Keeping spare spectacles and their prescription details findable",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline reference for keeping spare spectacles and their prescription details findable, with clear ownership, accessible storage and appropriate review boundaries.",
+      "tags": [
+        "spare glasses",
+        "prescription record",
+        "accessibility",
+        "vision"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Label case",
+          "Record details",
+          "Check usability"
+        ],
+        "alt": "A three-part text-labelled offline checklist for keeping spare spectacles and their prescription details findable: Label case; Record details; Check usability. It depicts nonclinical organisation, not medical treatment.",
+        "caption": "An offline organisation reminder; product-specific and professional instructions take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the correct pair",
+          "paragraphs": [
+            "A spare pair of spectacles can be difficult to identify when several people share a home or old pairs are stored together.",
+            "Record whose pair it is, the case location and the date of the prescription information without assuming that an older prescription is still suitable."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep a usable backup",
+          "paragraphs": [
+            "Store spare spectacles in a protective case at a consistent, reachable location.",
+            "A large-print label can help another household member locate the right case without opening multiple drawers or exposing private prescription details."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review changes",
+          "paragraphs": [
+            "Check periodically whether the spare pair remains physically usable and whether its prescription details are still current.",
+            "Ask an optician about changed vision, damaged lenses or uncertainty over suitability rather than relying on an outdated record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-retainer-case-index",
+      "title": "Organising removable dental retainer cases and their instructions",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline reference for organising removable dental retainer cases and their instructions, with clear ownership, accessible storage and appropriate review boundaries.",
+      "tags": [
+        "retainer",
+        "dental appliance",
+        "case",
+        "professional instructions"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Match case",
+          "Keep instructions",
+          "Review condition"
+        ],
+        "alt": "A three-part text-labelled offline checklist for organising removable dental retainer cases and their instructions: Match case; Keep instructions; Review condition. It depicts nonclinical organisation, not medical treatment.",
+        "caption": "An offline organisation reminder; product-specific and professional instructions take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the appliance",
+          "paragraphs": [
+            "Removable dental appliances and their cases can look alike, especially when more than one person in a household uses them.",
+            "Keep a discreet ownership label on the correct case and preserve any written instructions supplied by the issuing dental practice."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Separate storage from treatment advice",
+          "paragraphs": [
+            "Record the issuing practice and where the original instructions can be found offline.",
+            "Keep personal treatment details out of shared labels, and do not substitute generic cleaning or adjustment advice for instructions specific to the appliance."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Update the record",
+          "paragraphs": [
+            "Check whether the case closes properly and remains clearly identifiable.",
+            "If the appliance is lost, damaged or uncomfortable, contact the dental team rather than attempting to alter its fit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-accessible-care-shelf",
+      "title": "Preparing an accessible personal-care shelf for someone with limited reach",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline reference for preparing an accessible personal-care shelf for someone with limited reach, with clear ownership, accessible storage and appropriate review boundaries.",
+      "tags": [
+        "accessibility",
+        "limited reach",
+        "bathroom",
+        "personal care"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Ask user",
+          "Place in reach",
+          "Recheck access"
+        ],
+        "alt": "A three-part text-labelled offline checklist for preparing an accessible personal-care shelf for someone with limited reach: Ask user; Place in reach; Recheck access. It depicts nonclinical organisation, not medical treatment.",
+        "caption": "An offline organisation reminder; product-specific and professional instructions take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Understand reach needs",
+          "paragraphs": [
+            "A frequently used personal-care item is not genuinely accessible when it sits behind heavy containers or above comfortable reach.",
+            "Ask the person who uses the space which items matter most and how they prefer them to be arranged."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Arrange predictable access",
+          "paragraphs": [
+            "Group light everyday supplies at a comfortable height, with readable labels and enough room to grasp individual items.",
+            "Do not obstruct grab rails, switches, exits or mobility equipment while changing the arrangement."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review with the user",
+          "paragraphs": [
+            "Invite the person to try the shelf during an ordinary routine and identify anything still difficult to reach.",
+            "Adjust locations and labels when needs change rather than assuming that one layout suits everyone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-eyewear-cloth-separation",
+      "title": "Keeping spectacle-cleaning cloths separate from general cleaning rags",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline reference for keeping spectacle-cleaning cloths separate from general cleaning rags, with clear ownership, accessible storage and appropriate review boundaries.",
+      "tags": [
+        "spectacles",
+        "microfibre",
+        "personal care",
+        "cloth storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Eyewear only",
+          "Store apart",
+          "Inspect cloth"
+        ],
+        "alt": "A three-part text-labelled offline checklist for keeping spectacle-cleaning cloths separate from general cleaning rags: Eyewear only; Store apart; Inspect cloth. It depicts nonclinical organisation, not medical treatment.",
+        "caption": "An offline organisation reminder; product-specific and professional instructions take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the cloth's purpose",
+          "paragraphs": [
+            "A small microfibre cloth used for spectacles can easily be confused with a general surface-cleaning rag.",
+            "Mixing the two purposes may transfer grit or cleaning-product residue onto eyewear."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Avoid mix-ups",
+          "paragraphs": [
+            "Keep eyewear cloths in a labelled pocket or case near the spectacles and away from general household cleaning supplies.",
+            "Separate used cloths from clean replacements, and follow the lens and cloth manufacturers' care instructions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Maintain the system",
+          "paragraphs": [
+            "Look for visible grit, heavy staining or damaged fabric before reusing a cloth.",
+            "Replace cloths that no longer appear suitable rather than treating an organisational label as proof of cleanliness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-hearing-protection-index",
+      "title": "Creating a household index of personal hearing protection",
+      "category": "First aid & household hygiene",
+      "summary": "A practical offline reference for creating a household index of personal hearing protection, with clear ownership, accessible storage and appropriate review boundaries.",
+      "tags": [
+        "ear defenders",
+        "hearing protection",
+        "equipment",
+        "personal fit"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify model",
+          "Store by user",
+          "Check wear"
+        ],
+        "alt": "A three-part text-labelled offline checklist for creating a household index of personal hearing protection: Identify model; Store by user; Check wear. It depicts nonclinical organisation, not medical treatment.",
+        "caption": "An offline organisation reminder; product-specific and professional instructions take precedence."
+      },
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify each item",
+          "paragraphs": [
+            "Ear defenders and other nonmedical hearing-protection products vary in size, intended use and design.",
+            "Record the product model and the person or ordinary activity associated with each item without making unsupported protection claims."
+          ]
+        },
+        {
+          "id": "organise",
+          "title": "Keep information together",
+          "paragraphs": [
+            "Keep original packaging or a concise manufacturer reference available offline.",
+            "Store individual items separately when shared ownership would create uncertainty about fit or hygiene."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review suitability",
+          "paragraphs": [
+            "Look for visibly worn cushions, broken headbands and missing parts.",
+            "Follow the manufacturer for maintenance and suitability; appearance alone cannot establish the level of hearing protection provided."
+          ]
+        }
+      ]
+    }
+  ]
+}
