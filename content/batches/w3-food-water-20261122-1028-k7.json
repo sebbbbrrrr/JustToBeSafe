@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "kitchen-measurement-tools-offline",
+      "title": "Keeping kitchen measuring tools and units understandable",
+      "category": "Food & water",
+      "summary": "Identify measuring equipment and the units it uses so everyday recipes remain workable without an online conversion tool.",
+      "tags": [
+        "measuring jug",
+        "spoons",
+        "kitchen scales",
+        "units",
+        "recipe",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find tool",
+          "Read units",
+          "Store together"
+        ],
+        "alt": "A checklist diagram with three labelled elements: Find tool, Read units, Store together. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Find tool · Read units · Store together."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify each tool",
+          "paragraphs": [
+            "Make a small inventory of measuring jugs, spoons, cups and scales used for routine food preparation. Note whether markings show millilitres, litres, grams or another unit; similarly shaped tools can have different capacities.",
+            "Read the markings on the actual tool rather than inferring capacity from its appearance. For electronic scales, record whether the display and controls are legible and where its instructions are kept."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep recipes unambiguous",
+          "paragraphs": [
+            "When transcribing a familiar recipe for offline use, preserve the original units and distinguish volume measurements from mass measurements. A number without its unit is not enough for another household member to reproduce the intended quantity.",
+            "Do not assume a cup, mug or serving spoon is a standard measure. Where a recipe depends on a specific tool, identify that tool by name and storage location rather than silently substituting another."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Maintain a practical reference",
+          "paragraphs": [
+            "Keep the most frequently used measuring items together where they can be reached without moving heavy objects. Record damaged, faded or missing markings so they are not relied upon for precise quantities.",
+            "This is an equipment and recordkeeping guide, not food-safety, nutrition or water-treatment advice. Follow product instructions and any recipe-specific requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelf-stable-preparation-directions",
+      "title": "Saving preparation directions for shelf-stable staples",
+      "category": "Food & water",
+      "summary": "Retain the product-specific directions that may be lost when staple foods are decanted or their packaging is discarded.",
+      "tags": [
+        "rice",
+        "pasta",
+        "oats",
+        "preparation directions",
+        "package",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify pack",
+          "Copy directions",
+          "Keep reference"
+        ],
+        "alt": "A checklist diagram with three labelled elements: Identify pack, Copy directions, Keep reference. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Identify pack · Copy directions · Keep reference."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Capture the useful directions",
+          "paragraphs": [
+            "For each staple regularly used at home, note the exact product or variety and copy its preparation directions from the original packaging into a clearly labelled offline record. Different products sold under a broad name may require different handling.",
+            "Include relevant equipment and ingredient requirements exactly as stated by the manufacturer, without inventing times or quantities. If the label is unreadable, mark the record incomplete rather than reconstructing it from memory."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep identity attached",
+          "paragraphs": [
+            "Store the reference with the pantry inventory entry or a nearby paper folder so that people can tell which directions belong to which food. A generic note labelled only 'grains' can easily be applied to the wrong product.",
+            "When repackaging, retain the product name and other essential label information. This guide does not establish that repackaging or any particular storage condition is suitable for a given food."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review after a product change",
+          "paragraphs": [
+            "Check the reference whenever a brand, variety, package size or recipe changes. Remove outdated directions so the offline copy does not compete with the current pack.",
+            "Preparation directions are not a substitute for current food-safety advice or product warnings. Follow the original packaging and seek authoritative guidance when information conflicts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen-timer-access-plan",
+      "title": "Planning access to a simple kitchen timer",
+      "category": "Food & water",
+      "summary": "Make routine timing equipment easy to identify and use without depending on an internet-connected phone.",
+      "tags": [
+        "kitchen timer",
+        "clock",
+        "battery",
+        "cooking equipment",
+        "accessibility",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find timer",
+          "Check display",
+          "Keep instructions"
+        ],
+        "alt": "A checklist diagram with three labelled elements: Find timer, Check display, Keep instructions. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Find timer · Check display · Keep instructions."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the timing method",
+          "paragraphs": [
+            "List any standalone kitchen timer, oven timer or clearly readable clock that household members use for ordinary meal preparation. Note where it is kept and whether its controls are tactile, audible or visible enough for intended users.",
+            "Do not assume a device will work during an electricity interruption. Identify which items require mains power, batteries or a phone connection, and record the manufacturer's instructions where available."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Check usability, not accuracy by guesswork",
+          "paragraphs": [
+            "Try the normal user controls in a noncritical setting to see whether labels, alerts and reset functions are understandable. Note any difficulty hearing an alarm or reading a small display, and agree how to communicate that limitation.",
+            "A timer is only an aid to following appropriate instructions; it cannot confirm that food is safe or adequately cooked. Do not infer safe cooking conditions from an alarm alone."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep the setup easy to recover",
+          "paragraphs": [
+            "Return the timer to a predictable place after use and keep any spare compatible batteries with general equipment supplies where appropriate. Avoid leaving small removable batteries accessible to children.",
+            "Record broken buttons or unreliable alerts and replace or service equipment according to its instructions. No cooking time or food-safety threshold is prescribed here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-cupboard-door-clearance",
+      "title": "Checking access around food cupboard doors",
+      "category": "Food & water",
+      "summary": "Record cupboard-opening obstructions that make ordinary food supplies difficult to reach, particularly in cramped kitchens.",
+      "tags": [
+        "cupboard",
+        "door clearance",
+        "accessibility",
+        "kitchen",
+        "storage",
+        "mobility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Approach",
+          "Open door",
+          "Reach shelf"
+        ],
+        "alt": "A route diagram with three labelled elements: Approach, Open door, Reach shelf. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Approach · Open door · Reach shelf."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Observe the everyday approach",
+          "paragraphs": [
+            "Look at the route used to reach food cupboards during normal household activity. Note whether bins, stools, loose bags or movable appliances obstruct the door swing or a person's ability to stand safely nearby.",
+            "Consider different household members' reach and mobility needs rather than assuming the tallest person can access every shelf. Record the cupboard location without including private home layouts in public records."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Describe the obstruction precisely",
+          "paragraphs": [
+            "Distinguish a door that cannot open fully from an item that is merely hard to see or reach. A short note such as 'bin blocks lower cupboard when lid is open' is more actionable than a general complaint about clutter.",
+            "Do not climb furniture, move heavy fixed units or attempt repairs to hinges or fittings as part of this check. Refer damaged or unstable cabinetry to an appropriate person."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Keep routes usable",
+          "paragraphs": [
+            "Agree a normal parking place for movable items that leaves the cupboard approach clear. Recheck after deliveries or rearrangements, especially when supplies are stored temporarily.",
+            "The schematic is an access reminder, not a structural or load-bearing assessment. Any damaged doors, shelves or fixtures need separate evaluation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelf-stable-snack-allocation",
+      "title": "Making shelf-stable snacks easy to distinguish from meal ingredients",
+      "category": "Food & water",
+      "summary": "Separate everyday ready-to-eat snacks from ingredients reserved for planned meals without imposing restrictive food rules.",
+      "tags": [
+        "snacks",
+        "pantry",
+        "meal planning",
+        "shared household",
+        "inventory",
+        "labels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Snacks",
+          "Meal items",
+          "Shared note"
+        ],
+        "alt": "A shelves diagram with three labelled elements: Snacks, Meal items, Shared note. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Snacks · Meal items · Shared note."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Clarify the purpose of each group",
+          "paragraphs": [
+            "Some packaged foods are intended for convenient snacks, while others are ingredients needed for a planned household meal. Make that distinction visible in an inventory or on shelf labels so ordinary use does not unexpectedly remove a meal component.",
+            "Keep labels neutral and practical. Avoid categorising food as morally 'good' or 'bad', or using the arrangement to restrict someone's access to necessary food."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Make exceptions easy to communicate",
+          "paragraphs": [
+            "Agree how household members can flag when a meal ingredient has been used for another purpose. A brief inventory update or note is more reliable than assuming everyone remembers a conversation.",
+            "Account for visitors, children and people with different dietary needs. Do not imply that a labelled shelf determines whether a product is allergen-safe or suitable for any individual."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Review the layout",
+          "paragraphs": [
+            "Revisit the grouping when shopping habits or planned meals change. Keep original product labels and storage requirements intact and avoid moving items to unsuitable conditions for the sake of neatness.",
+            "This is a shared-organisation approach, not advice on food preservation, nutrition or emergency rationing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-drink-dispenser-identification",
+      "title": "Identifying household drink dispensers and their components",
+      "category": "Food & water",
+      "summary": "Keep removable taps, lids and stands associated with the correct everyday beverage dispenser.",
+      "tags": [
+        "drink dispenser",
+        "lid",
+        "tap",
+        "jug",
+        "spare parts",
+        "kitchen equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find model",
+          "Match parts",
+          "Store spares"
+        ],
+        "alt": "A checklist diagram with three labelled elements: Find model, Match parts, Store spares. It illustrates the nonhazardous household organisation described in the article, not a food-safety procedure.",
+        "caption": "Offline household organisation reference: Find model · Match parts · Store spares."
+      },
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Identify the equipment",
+          "paragraphs": [
+            "List reusable drink dispensers or large serving jugs that are used for ordinary beverages. Record the manufacturer or model if available, and distinguish the main container from detachable lids, stands and dispensing fittings.",
+            "Similar-looking taps, seals and lids may not fit securely or be approved for the same equipment. Keep product-specific instructions and part identifiers with the record."
+          ]
+        },
+        {
+          "id": "section-2",
+          "title": "Keep parts associated",
+          "paragraphs": [
+            "Use a simple storage note to identify where each dispenser's loose parts are kept. If multiple dispensers share a cupboard, use a non-permanent label or bag for spare components without covering safety or care information.",
+            "Check visually for missing or visibly damaged parts before putting equipment into ordinary use. Do not attempt to repair a leaking or damaged pressure-rated or electrical dispenser from this guide."
+          ]
+        },
+        {
+          "id": "section-3",
+          "title": "Know the limits of the record",
+          "paragraphs": [
+            "A component list does not establish that a vessel is food-safe, clean or suitable for storing drinking water. Follow the actual manufacturer's cleaning and intended-use guidance.",
+            "During a drinking-water incident, an ordinary beverage dispenser is not a treatment system. Current supplier and public-health advice takes priority over an offline equipment note."
+          ]
+        }
+      ]
+    }
+  ]
+}
