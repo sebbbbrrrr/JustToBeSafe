@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-emergency-whistle-check",
+      "title": "Inspect and carry a signalling whistle",
+      "category": "Outdoor skills & navigation",
+      "summary": "Check a simple whistle as a piece of carried equipment without assuming it guarantees rescue.",
+      "tags": [
+        "whistle",
+        "signal",
+        "kit",
+        "attachment",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate",
+          "Inspect",
+          "Carry"
+        ],
+        "alt": "Three-stage accessible schematic for inspect and carry a signalling whistle: Locate, Inspect, Carry. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Know what the item can do",
+          "paragraphs": [
+            "A small signalling whistle can provide an audible way to attract attention, but its range depends on wind, terrain, background noise and whether anyone is nearby. It is not a substitute for a route plan, communications or appropriate emergency assistance.",
+            "Identify the whistle in your kit and check the maker's guidance for care, use and any detachable parts. Avoid relying on unverified claims about audibility or specific signal patterns."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check its condition",
+          "paragraphs": [
+            "Inspect the body for cracks, obstruction, dirt and damaged attachment points before an outing. A damaged or blocked whistle may not work as expected; replace it if its condition is uncertain.",
+            "Keep the whistle accessible without attaching it in a way that creates an entanglement risk. Check any cord or clip for secure attachment and suitability for the wearer."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Record a practical backup",
+          "paragraphs": [
+            "Include the whistle in a pre-trip equipment check and note where it is carried. A whistle does not provide location information, so a trusted contact should still know the planned route and expected check-in.",
+            "After a wet or muddy trip, clean and dry the item according to its manufacturer's instructions. Recheck the attachment before storing it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-route-surface-notes",
+      "title": "Record expected walking surfaces on a route",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep surface descriptions with offline route notes so the group can judge suitability.",
+      "tags": [
+        "path",
+        "surface",
+        "mud",
+        "gravel",
+        "steps",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Source",
+          "Surface",
+          "Review"
+        ],
+        "alt": "Three-stage accessible schematic for record expected walking surfaces on a route: Source, Surface, Review. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Describe surfaces precisely",
+          "paragraphs": [
+            "When planning, distinguish paved paths, loose gravel, grass, mud, steps and uneven tracks using the route publisher's available descriptions. Avoid describing a route as accessible based only on a map line or an attractive photograph.",
+            "Record where surface information came from and when it was checked. A surface that was firm in one season may change after rain, maintenance or heavy use."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Match the route to the group",
+          "paragraphs": [
+            "Consider footwear, mobility aids, fatigue, gradient and any surfaces that members of the group may find difficult. A short distance alone does not establish that a route is suitable.",
+            "If a route description omits steps, barriers or the condition of a crossing, treat that as missing information rather than assuming the feature is absent."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Keep notes usable offline",
+          "paragraphs": [
+            "Use short descriptions linked to named route sections or landmarks rather than vague phrases such as 'rough near the end'. Preserve alternative route information where a trustworthy source provides it.",
+            "Check current access information before departure and do not treat old offline surface notes as a live condition report."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-spare-battery-organisation",
+      "title": "Organise spare batteries for outdoor equipment",
+      "category": "Outdoor skills & navigation",
+      "summary": "Avoid mix-ups and damaged spare cells in a compact outdoor equipment kit.",
+      "tags": [
+        "battery",
+        "torch",
+        "radio",
+        "storage",
+        "compatibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Match",
+          "Protect",
+          "Review"
+        ],
+        "alt": "Three-stage accessible schematic for organise spare batteries for outdoor equipment: Match, Protect, Review. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Match batteries to equipment",
+          "paragraphs": [
+            "List the battery type stated by the manufacturer for each torch, radio or other item. Similar-looking cells can have different chemistry, voltage and charging requirements, so never substitute a type simply because it fits.",
+            "Check whether the device uses replaceable cells or a rechargeable pack. Keep charging and handling instructions with the equipment record, particularly when several people share a kit."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Store without damage",
+          "paragraphs": [
+            "Use suitable cases or original packaging that prevent loose metal objects from contacting battery terminals. Avoid storing spare cells where they can be crushed, punctured, overheated or exposed to moisture.",
+            "Do not carry visibly swollen, leaking, damaged or unusually hot batteries as normal spares. Follow manufacturer and local recycling guidance rather than attempting repairs."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Check before leaving",
+          "paragraphs": [
+            "Confirm the correct quantity and type of usable spares are present, and that the device itself works. A spare battery is not proof that a light or radio will function when needed.",
+            "Review storage dates and equipment condition periodically, and keep the checklist separate from any claim that the device has been physically tested."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trip-notes-waterproofing",
+      "title": "Keep outdoor trip notes readable in wet conditions",
+      "category": "Outdoor skills & navigation",
+      "summary": "Protect handwritten reference notes without losing key details.",
+      "tags": [
+        "notes",
+        "waterproof",
+        "notebook",
+        "pencil",
+        "route",
+        "contact"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Write",
+          "Protect",
+          "Verify"
+        ],
+        "alt": "Three-stage accessible schematic for keep outdoor trip notes readable in wet conditions: Write, Protect, Verify. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose useful information",
+          "paragraphs": [
+            "Keep concise route identifiers, relevant map references, contact arrangements and a note of the source and date of important information. Do not place unnecessary personal identifiers in a notebook that could be lost.",
+            "Write legibly with a suitable pen or pencil for the paper in use. Test the combination before departure rather than assuming every 'waterproof' notebook works with every writing tool."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Protect the information",
+          "paragraphs": [
+            "Use a protective sleeve or notebook cover that allows the notes to be read when needed. Keep it separate from liquids and items likely to abrade or puncture the cover.",
+            "A cover can fail through damaged seals, condensation or repeated opening. Where notes are important, consider a second independently protected copy rather than relying on one item."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review after use",
+          "paragraphs": [
+            "Check that written notes still match the route and meeting arrangements before reusing them. Date the information so an old copy is not mistaken for a current plan.",
+            "Dry and store the notebook according to its materials. Replace pages that are illegible rather than trying to interpret ambiguous instructions in poor conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trekking-sock-care",
+      "title": "Choose and maintain walking socks for a trip",
+      "category": "Outdoor skills & navigation",
+      "summary": "Inspect walking socks as part of a comfortable, practical footwear setup.",
+      "tags": [
+        "socks",
+        "footwear",
+        "moisture",
+        "fit",
+        "blisters",
+        "packing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Fit",
+          "Check",
+          "Dry"
+        ],
+        "alt": "Three-stage accessible schematic for choose and maintain walking socks for a trip: Fit, Check, Dry. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check fit and material",
+          "paragraphs": [
+            "Choose socks that fit inside the intended footwear without bunching or creating pressure. Thickness and fabric affect comfort and drying; there is no single material or thickness suitable for every foot or climate.",
+            "Try the socks with the footwear you intend to use before a longer walk. A new combination can feel different from the same boots with familiar socks."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Inspect before packing",
+          "paragraphs": [
+            "Look for worn heels, loose seams, holes and areas that rub. Pack a suitable spare pair where wet conditions or a longer outing make one useful, keeping it protected from rain.",
+            "Socks are only one factor in foot comfort. Route length, footwear fit, surface and individual needs also matter; do not treat a particular sock as a guaranteed prevention for skin injury."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Care after use",
+          "paragraphs": [
+            "Follow the care label for washing and drying, and check that socks are fully dry before long-term storage. Avoid exposing delicate fibres to excessive heat.",
+            "Replace pairs that have lost their fit or developed rough areas. Keep the spare pair in a known location so it is easy to find."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-waypoint-naming",
+      "title": "Name offline route waypoints so they remain understandable",
+      "category": "Outdoor skills & navigation",
+      "summary": "Use consistent labels that reduce confusion between saved points.",
+      "tags": [
+        "waypoint",
+        "gps",
+        "map",
+        "labels",
+        "coordinates",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Name",
+          "Describe",
+          "Cross-check"
+        ],
+        "alt": "Three-stage accessible schematic for name offline route waypoints so they remain understandable: Name, Describe, Cross-check. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Use distinctive names",
+          "paragraphs": [
+            "Give saved points short, specific names such as a named car park, mapped junction or agreed meeting location. Avoid sequences of nearly identical names that are difficult to distinguish on a small phone screen.",
+            "Record what a waypoint represents and the map or route source used to identify it. A saved point may be inaccurate, moved or placed on the wrong side of a barrier."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep context with the point",
+          "paragraphs": [
+            "Where supported, include the coordinate format, relevant grid system, and a brief description of the point's surroundings. Do not assume different apps interpret coordinates or map projections identically.",
+            "Check any imported waypoints against the intended map while online. A point shown near a path is not proof that a legal or safe route reaches it."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Make the list resilient",
+          "paragraphs": [
+            "Arrange key points in a consistent order and retain an offline copy in a format the group can open without an account or mobile signal. Keep sensitive personal locations out of public shared files.",
+            "Before leaving, open the waypoint list with connectivity disabled and verify the labels, map coverage and intended order are readable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-equipment-repair-kit-inventory",
+      "title": "Inventory a small nonhazardous outdoor repair kit",
+      "category": "Outdoor skills & navigation",
+      "summary": "Record simple replacement and maintenance supplies without improvising safety-critical repairs.",
+      "tags": [
+        "repair",
+        "kit",
+        "tape",
+        "strap",
+        "buckle",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "List",
+          "Check",
+          "Limit"
+        ],
+        "alt": "Three-stage accessible schematic for inventory a small nonhazardous outdoor repair kit: List, Check, Limit. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify routine needs",
+          "paragraphs": [
+            "List the nonhazardous items you are authorised and competent to maintain, such as a spare compatible buckle, fabric patch or manufacturer-approved repair tape. Keep the kit appropriate to the actual equipment carried.",
+            "Do not assume adhesive tape, cord or a universal spare can safely restore load-bearing, climbing, rescue or protective equipment. Such items require appropriate specialist inspection and replacement."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check compatibility",
+          "paragraphs": [
+            "Record the dimensions or model references of small replacement parts and follow manufacturer instructions. Test routine noncritical repairs at home, where the correct tools and a safe alternative are available.",
+            "Inspect packaging and expiry or storage guidance where applicable. Loose sharp tools, leaking adhesives and damaged containers can make a small kit harder to carry safely."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Separate repair from replacement",
+          "paragraphs": [
+            "Keep a note of faults that require qualified service or replacement rather than a field fix. Mark failed equipment clearly so another person does not unknowingly use it.",
+            "After a trip, replace consumed supplies and update the inventory. A complete repair kit is not evidence that a damaged item is safe to use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-campsite-ground-impact",
+      "title": "Plan a low-impact temporary outdoor stop",
+      "category": "Outdoor skills & navigation",
+      "summary": "Choose temporary stopping places with access and environmental care in mind.",
+      "tags": [
+        "outdoors",
+        "stop",
+        "ground",
+        "litter",
+        "access",
+        "habitat"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check access",
+          "Use durable ground",
+          "Leave clean"
+        ],
+        "alt": "Three-stage accessible schematic for plan a low-impact temporary outdoor stop: Check access, Use durable ground, Leave clean. These are conceptual planning cues, not a physical route or safety procedure.",
+        "caption": "Use these prompts as an offline planning aid; verify real conditions and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check permission and rules",
+          "paragraphs": [
+            "Before choosing a stop, check current land-access information, local restrictions and any site-specific instructions. Access to a walking route does not automatically permit camping, fires or overnight stays.",
+            "Avoid assuming that a location shown on a social-media post is legally or environmentally suitable. A photo may omit seasonal restrictions, private boundaries or sensitive habitats."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Minimise avoidable damage",
+          "paragraphs": [
+            "Prefer established authorised stopping areas and durable surfaces where available, rather than trampling fragile vegetation or obstructing paths and gates. Keep clear of working land, wildlife and other users.",
+            "Treat water edges, steep ground and unstable surfaces as potential hazards requiring appropriate judgment. This guide does not assess a particular site or provide a safe-camping certification."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Leave the area usable",
+          "paragraphs": [
+            "Take away litter and personal belongings, and follow local arrangements for waste and sanitation. Do not create new fire rings, move boundary markers or damage natural features.",
+            "Before leaving, look over the area for small items that are easy to miss. Respect any instruction from site staff or land managers and update future plans if the site proves unsuitable."
+          ]
+        }
+      ]
+    }
+  ]
+}
