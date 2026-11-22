@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "first-aid-stroke-warning-awareness",
+      "title": "Stroke warning signs: recognising a possible emergency",
+      "category": "First aid",
+      "summary": "Sudden changes in movement, speech, vision or awareness may require immediate emergency assessment.",
+      "tags": [
+        "stroke",
+        "face",
+        "speech",
+        "weakness",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise a sudden change",
+          "paragraphs": [
+            "A stroke may affect facial movement, arm strength, speech, sight, balance or understanding. Symptoms can vary and may not all appear together; a person can still be seriously unwell without an obvious facial change.",
+            "A brief or improving episode is not proof that danger has passed. Record when the person was last known to be well if that information is readily available, but do not delay contacting emergency services to reconstruct a timeline."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek urgent assessment",
+          "paragraphs": [
+            "In the UK, call 999 for suspected stroke. Tell the call handler what changed and when it was first noticed, following their directions rather than relying on this unreviewed draft.",
+            "Do not use an offline article to decide whether symptoms are genuine or whether to wait for a routine appointment. Only qualified professionals can assess the cause and appropriate treatment."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share useful context",
+          "paragraphs": [
+            "Describe what you actually observed, such as difficulty speaking or a sudden change in walking, without trying to name the diagnosis. Mention any uncertainty about timing clearly.",
+            "An illustration of clinical signs would need qualified review for accuracy, accessibility and the risk of implying that an incomplete checklist rules out stroke."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-choking-emergency-awareness",
+      "title": "Choking: recognising when breathing is obstructed",
+      "category": "First aid",
+      "summary": "Understand why a sudden inability to breathe or communicate is an emergency without using an unreviewed manoeuvre guide.",
+      "tags": [
+        "choking",
+        "airway",
+        "breathing",
+        "emergency",
+        "food"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Notice the situation",
+          "paragraphs": [
+            "A person who suddenly cannot speak, cough effectively or breathe may have a serious airway obstruction. Not every cough while eating indicates the same level of danger, and apparent improvement should not be assumed without assessment.",
+            "Pay attention to whether the person can communicate and whether breathing appears normal. Avoid guessing what is lodged or using this draft as a substitute for hands-on first-aid training."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate promptly",
+          "paragraphs": [
+            "If someone cannot breathe or becomes unresponsive, seek emergency assistance immediately using 999 in the UK and follow the call handler's instructions. A trained responder may use techniques taught by an accredited course; those techniques are deliberately not described here.",
+            "Do not delay an emergency call while searching the library for a diagram. Different ages and circumstances require different approaches, so an unsupervised generic graphic could be dangerous."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "After the incident",
+          "paragraphs": [
+            "Provide responders with a factual account of what happened, including what the person was doing and whether any assistance was given. Do not assume the absence of visible distress proves there is no remaining concern.",
+            "A treatment sequence, hand-position graphic or age-specific manoeuvre illustration is marked for independent clinical review before any publication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-severe-bleeding-awareness",
+      "title": "Severe bleeding: recognising an urgent injury",
+      "category": "First aid",
+      "summary": "Identify situations where bleeding may be serious and professional emergency support should not be delayed.",
+      "tags": [
+        "bleeding",
+        "injury",
+        "blood loss",
+        "emergency",
+        "trauma"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise potential severity",
+          "paragraphs": [
+            "Bleeding that is heavy, persistent or associated with collapse, confusion or a major injury can be life-threatening. The appearance of a wound does not reliably establish how much blood has been lost.",
+            "Bleeding may also be concealed by clothing or the location of an injury. Avoid relying on a single visual sign or making an estimate of blood volume from an offline guide."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Get appropriate help",
+          "paragraphs": [
+            "Call 999 in the UK for suspected life-threatening bleeding and follow the emergency call handler's advice. Do not delay a call to photograph the wound, find a household kit or complete an observation form.",
+            "This draft does not teach wound packing, pressure techniques, tourniquet use or removal of embedded objects. Such procedures need accredited training and clinically reviewed instructions."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Communicate the event",
+          "paragraphs": [
+            "If it can be done without delaying assistance, describe the injury location, the approximate time and any major changes in the person's responsiveness. Tell responders what help has already been given.",
+            "Any visual showing treatment positions or devices is deferred for expert review; an unapproved diagram could convey an incorrect technique."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-sudden-confusion-awareness",
+      "title": "Sudden confusion: when a change in awareness may be urgent",
+      "category": "First aid",
+      "summary": "Understand why an abrupt change in a person's thinking or behaviour deserves prompt assessment.",
+      "tags": [
+        "confusion",
+        "awareness",
+        "delirium",
+        "emergency",
+        "communication"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Notice changes from usual",
+          "paragraphs": [
+            "Sudden disorientation, unusual drowsiness, difficulty following a conversation or marked changes in behaviour can have many possible causes. A familiar person may be best placed to explain what is different from the individual's normal behaviour.",
+            "Do not dismiss an abrupt change as tiredness, age, anxiety or intoxication. Equally, this guide cannot determine the cause or severity from a short description."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek timely assessment",
+          "paragraphs": [
+            "A sudden severe change in awareness, especially with other concerning symptoms, may require emergency assessment. In the UK call 999 when the situation appears immediately dangerous; otherwise seek prompt professional advice through an appropriate urgent service.",
+            "Follow professional instructions and avoid using a checklist to decide that the person is safe to leave alone. The priority is access to qualified assessment, not completing a symptom diary."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Provide a clear account",
+          "paragraphs": [
+            "Describe when the change began, how it differs from usual, and any relevant circumstances that are already known. Distinguish witnessed facts from assumptions, and respect the person's dignity and privacy.",
+            "A diagram comparing clinical mental states would risk false reassurance and is deferred pending qualified review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-diabetic-emergency-awareness",
+      "title": "Diabetes-related emergencies: recognising concerning changes",
+      "category": "First aid",
+      "summary": "An awareness guide to unusual illness or responsiveness in someone with diabetes, without treatment or dosing instructions.",
+      "tags": [
+        "diabetes",
+        "blood sugar",
+        "confusion",
+        "emergency",
+        "medical alert"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise uncertainty",
+          "paragraphs": [
+            "A person with diabetes may become unwell for many reasons, and changes in behaviour, alertness or physical condition do not by themselves identify a particular blood-glucose problem. A medical alert or personal care plan may provide context, but it is not a diagnosis.",
+            "Do not assume every episode is caused by blood sugar or that a particular food, drink or medicine is suitable. Individual treatment plans and professional guidance matter."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Escalate appropriately",
+          "paragraphs": [
+            "If someone is unconscious, has a seizure, cannot respond normally or appears seriously unwell, call 999 in the UK and follow the call handler's directions. For other worrying changes, seek timely qualified advice rather than experimenting with treatment from this draft.",
+            "Do not give insulin, other medication or food based on this article. Practical emergency interventions require professional review and appropriate individual training."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share relevant information",
+          "paragraphs": [
+            "Tell responders what was observed, whether the person has a known diagnosis or care plan, and what help has already been provided if known. Do not delay contacting help to search for a device or records.",
+            "Blood-glucose interpretation charts and treatment sequences are deferred for specialist review and must not be inserted as generic diagrams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-falls-older-adults-awareness",
+      "title": "After a fall: recognising reasons for urgent assessment",
+      "category": "First aid",
+      "summary": "Distinguish a factual description of a fall from assumptions about whether someone is injured.",
+      "tags": [
+        "falls",
+        "mobility",
+        "injury",
+        "older adults",
+        "assessment"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Record what is known",
+          "paragraphs": [
+            "A fall may be associated with pain, a head impact, inability to move normally or a change in awareness, but injuries are not always immediately obvious. Ask what happened if the person can communicate, without insisting on an explanation.",
+            "A person may be reluctant to report symptoms or may not remember the event. Do not assume that standing up or speaking means there is no serious injury."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Recognise escalation needs",
+          "paragraphs": [
+            "If a person is unresponsive, has severe symptoms or may have a serious injury, seek emergency assistance through 999 in the UK. For less immediately dangerous concerns, obtain appropriate prompt clinical advice.",
+            "Avoid moving a person with a suspected serious injury unless directed by emergency professionals or required to escape immediate danger. This draft is not a lifting or transfer manual."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Communicate and follow up",
+          "paragraphs": [
+            "Describe the surface, possible impact and changes observed, without inventing details. Note any relevant mobility equipment or communication needs when speaking with responders.",
+            "Manual handling, immobilisation and injury-assessment diagrams need specialist review; none is supplied in this draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-unresponsive-person-awareness",
+      "title": "Unresponsiveness: understanding why immediate help matters",
+      "category": "First aid",
+      "summary": "Recognise a person who is not responding as a potential emergency, without unreviewed resuscitation diagrams.",
+      "tags": [
+        "unresponsive",
+        "consciousness",
+        "breathing",
+        "999",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise a possible emergency",
+          "paragraphs": [
+            "Someone who does not respond normally to speech or gentle attempts to gain attention may be seriously unwell. It is not possible to establish the cause from appearance alone, and a quiet or still person should not simply be assumed to be sleeping.",
+            "An unresponsive person may need immediate professional guidance about breathing and resuscitation. This text is not a substitute for accredited first-aid training or real-time instructions."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Contact emergency services",
+          "paragraphs": [
+            "Call 999 in the UK immediately when a person is unresponsive and follow the call handler's directions. Explain what you observe and do not postpone the call to find a particular guide or household document.",
+            "Emergency dispatchers can guide actions appropriate to the circumstances. This article deliberately omits CPR, recovery-position and airway manoeuvre steps pending independent clinical review."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Share information carefully",
+          "paragraphs": [
+            "Provide the person's location, observed responsiveness and any relevant known circumstances. If you do not know what happened, say so rather than guessing.",
+            "Any instructional image about checking breathing, positioning or resuscitation is needed_for_expert_review and not approved for offline publication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-aid-serious-infection-awareness",
+      "title": "Serious infection warning signs: when urgent assessment matters",
+      "category": "First aid",
+      "summary": "An awareness guide to concerning deterioration during illness without diagnosing sepsis or teaching treatment.",
+      "tags": [
+        "infection",
+        "sepsis",
+        "deterioration",
+        "fever",
+        "emergency"
+      ],
+      "risk": "medical",
+      "illustration": null,
+      "review": "pending",
+      "needed_for_expert_review": "Clinical recognition and treatment illustrations require qualified medical review; no procedural diagram approved.",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Notice deterioration",
+          "paragraphs": [
+            "A person with an infection or suspected infection can become seriously unwell. Concerning changes may include unusual confusion, marked breathing difficulty, extreme weakness or a significant change from their normal condition; no single symptom confirms or excludes a dangerous infection.",
+            "Fever may be absent in some circumstances, and symptom patterns differ between individuals. Do not use an offline symptom list to rule out sepsis or to decide that a person can safely wait."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Seek urgent professional assessment",
+          "paragraphs": [
+            "When someone appears critically unwell, call 999 in the UK and follow emergency advice. For other worrying deterioration, seek prompt clinical assessment through an appropriate urgent service rather than waiting for a routine review.",
+            "This article cannot determine whether antibiotics, fluids or any other treatment is needed. Do not delay professional help while collecting temperature readings or looking for records."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Describe the change",
+          "paragraphs": [
+            "Explain when the illness began if known, what has changed, and any major difficulty with communication or responsiveness. Avoid interpreting the cause without professional assessment.",
+            "Clinical warning-sign charts or treatment flow diagrams require independent medical review and are deliberately deferred."
+          ]
+        }
+      ]
+    }
+  ]
+}
