@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "removable-furniture-castor-condition",
+      "title": "Inspecting removable furniture castors without lifting heavy items",
+      "category": "Home maintenance",
+      "summary": "A visual check of accessible castor wheels helps identify floor marks, loose fittings and movement problems without tipping furniture.",
+      "tags": [
+        "castors",
+        "wheels",
+        "furniture",
+        "flooring"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Wheel",
+          "Mount",
+          "Floor"
+        ],
+        "alt": "Three-part visual inspection checklist for inspecting removable furniture castors without lifting heavy items: Wheel, Mount, Floor. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the castor",
+          "paragraphs": [
+            "Some chairs, trolleys and light storage units roll on swivelling castors. Identify whether the wheel is part of a manufacturer's fitted base or a removable accessory before planning any maintenance.",
+            "Compare the wheel type and floor surface with the product instructions. A hard wheel intended for one floor may leave marks or behave poorly on another."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe safely",
+          "paragraphs": [
+            "With the furniture stationary and unloaded where practical, look only at accessible wheels for trapped fibres, cracks, flat spots or obvious tilt. Never tip a heavy chair, cabinet or appliance to see underneath.",
+            "Note which wheel seems affected and whether the floor has visible scuffs. If the item moves unpredictably or cannot stand securely, stop using it until a competent person assesses it."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record a suitable next step",
+          "paragraphs": [
+            "Photograph an accessible castor and its attachment from the side rather than guessing a replacement size. Manufacturer parts lists can distinguish stem, plate and integrated designs.",
+            "Do not lubricate or dismantle a castor without the product instructions. Keep small detached parts away from children and seek appropriate help with heavy furniture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indoor-umbrella-stand-condition",
+      "title": "Keeping an indoor umbrella stand stable and dry",
+      "category": "Home maintenance",
+      "summary": "An umbrella stand should hold wet umbrellas without creating a trip hazard or leaving standing water against vulnerable flooring.",
+      "tags": [
+        "umbrella",
+        "entrance",
+        "drip tray",
+        "floor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Placement",
+          "Base",
+          "Moisture"
+        ],
+        "alt": "Three-part visual inspection checklist for keeping an indoor umbrella stand stable and dry: Placement, Base, Moisture. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose a sensible location",
+          "paragraphs": [
+            "Place the stand where umbrellas can be reached without blocking a doorway, narrow hall or mobility-aid route. Check that tall umbrellas do not project into the walking line.",
+            "A stand that looks decorative may be top-heavy when loaded. Consider its base width, the number of umbrellas normally stored and whether children or pets could knock it over."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check the base and moisture",
+          "paragraphs": [
+            "Look for an accessible removable drip insert or water-catching base. Record visible pooled water, corrosion or damp marks without reaching into sharp or damaged metal.",
+            "Follow the manufacturer's cleaning directions and dry the stand and surrounding floor as appropriate. Persistent damp patches near skirting or flooring need further investigation rather than repeated concealment."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep the arrangement usable",
+          "paragraphs": [
+            "Group compact and full-length umbrellas so handles are not tangled. Avoid overfilling a narrow stand or leaning wet umbrellas against electrical equipment.",
+            "Review the position after a busy wet day. A simple entrance checklist can capture whether the stand remains stable, dry and out of the route."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freestanding-shoe-rack-condition",
+      "title": "Checking a freestanding shoe rack for wobble and blocked access",
+      "category": "Home maintenance",
+      "summary": "Shoe racks are convenient but can obstruct routes or become unstable when overloaded or assembled incorrectly.",
+      "tags": [
+        "shoe rack",
+        "hallway",
+        "storage",
+        "stability"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Location",
+          "Frame",
+          "Load"
+        ],
+        "alt": "Three-part visual inspection checklist for checking a freestanding shoe rack for wobble and blocked access: Location, Frame, Load. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Assess its location",
+          "paragraphs": [
+            "Check whether the rack leaves an unobstructed route through the entrance and permits doors to open fully. Shoes placed beside the rack may be a bigger obstacle than the rack itself.",
+            "Think about access for people using walking aids or carrying bags. A low shelf can be difficult to see in dim light, so location matters as much as capacity."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Inspect visible condition",
+          "paragraphs": [
+            "Without pulling on or climbing the rack, look for bent shelves, cracked plastic joints, missing feet or a frame that leans on a level floor. Do not test stability by loading it further.",
+            "If it wobbles, unload it and follow the assembly instructions or ask for suitable help. Wall-anchoring and structural fixings should not be improvised from a generic guide."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Maintain a clear system",
+          "paragraphs": [
+            "Store heavy footwear according to the manufacturer's load limits and keep wet shoes from soaking vulnerable surfaces. Do not stack racks unless the model explicitly supports it.",
+            "Record the rack model and any missing connector so replacement parts can be matched. Remove a damaged rack from use rather than disguising instability with extra items."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fabric-curtain-tieback-condition",
+      "title": "Recognising wear on fabric curtain tiebacks",
+      "category": "Home maintenance",
+      "summary": "Fabric tiebacks can help manage curtains, but their fastenings and placement should not create snagging or child-entanglement risks.",
+      "tags": [
+        "curtains",
+        "tieback",
+        "fabric",
+        "window"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fabric",
+          "Fastener",
+          "Reach"
+        ],
+        "alt": "Three-part visual inspection checklist for recognising wear on fabric curtain tiebacks: Fabric, Fastener, Reach. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the arrangement",
+          "paragraphs": [
+            "Fabric tiebacks may use loops, hook-and-loop strips or separate wall-mounted holders. Identify the type without pulling on a curtain rail or testing its load.",
+            "Distinguish soft decorative fabric from cords, chains or looped blind controls. Long accessible loops and cords require particular caution around young children."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Look for wear",
+          "paragraphs": [
+            "Observe loose stitching, torn loops or sharp fasteners while the curtains hang normally. A tieback that drags across a walking route or catches a window handle may need relocating or removing.",
+            "Do not pull on wall fittings to assess strength. If a fitting is loose, stop using it and seek appropriate installation advice rather than relying on the curtain fabric to hold it."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep use straightforward",
+          "paragraphs": [
+            "Check that curtains can still close and that tiebacks do not obstruct window operation or ventilation. Avoid tying cords together as an improvised substitute.",
+            "For households with children, consult current product-specific blind and curtain safety guidance. Record a need for expert review before producing any diagram of cord or loop arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indoor-plant-pot-feet-check",
+      "title": "Checking plant-pot feet on protected indoor surfaces",
+      "category": "Home maintenance",
+      "summary": "Small pot feet can lift a planter above a tray, but poor fit or uneven support may damage furniture or make the pot unstable.",
+      "tags": [
+        "plant pot",
+        "pot feet",
+        "furniture",
+        "water marks"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Pot",
+          "Supports",
+          "Surface"
+        ],
+        "alt": "Three-part visual inspection checklist for checking plant-pot feet on protected indoor surfaces: Pot, Supports, Surface. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the supports",
+          "paragraphs": [
+            "Some indoor planters rest on separate feet, a raised saucer or moulded ridges. Check which arrangement is intended for the particular pot and whether a tray is still required.",
+            "A raised base is not a guarantee against leaks or condensation. Wood, laminate and painted surfaces may need product-compatible protection beneath the whole arrangement."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe the contact points",
+          "paragraphs": [
+            "From a normal viewing position, note whether the pot appears level and whether a foot has slipped beyond the tray. Do not lift a large or heavy planter alone to inspect its underside.",
+            "Look for accessible damp rings, scratches or staining near the supports. Keep the pot away from electrical sockets and trailing cables if watering spills are possible."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Plan appropriate care",
+          "paragraphs": [
+            "Use the planter's product information to check whether feet are compatible with its weight and shape. Replace cracked accessories with suitable matched components rather than wedges.",
+            "Keep a brief record of where moisture appeared and whether the protective tray was sufficient. Persistent damage may require advice on the furniture finish or flooring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removable-adhesive-wall-hook-inspection",
+      "title": "Inspecting removable adhesive wall hooks and their load labels",
+      "category": "Home maintenance",
+      "summary": "Adhesive hooks vary by surface, preparation and rated load; visual checks can identify slipping without encouraging unsafe mounting.",
+      "tags": [
+        "adhesive hook",
+        "wall",
+        "storage",
+        "load rating"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Label",
+          "Surface",
+          "Load"
+        ],
+        "alt": "Three-part visual inspection checklist for inspecting removable adhesive wall hooks and their load labels: Label, Surface, Load. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Read the intended use",
+          "paragraphs": [
+            "Identify the brand, model and load information on the original packaging. A printed rating may depend on a particular surface and installation method, not every painted or tiled wall.",
+            "Avoid using removable hooks for mirrors, heavy objects, safety equipment or items above a bed. A product advertised as removable is not necessarily suitable for fragile wallpaper or finishes."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check for warning signs",
+          "paragraphs": [
+            "Observe visible peeling edges, a tilted hook or marks below it without tugging or testing the attachment. Remove objects from a suspect hook before they fall.",
+            "Check whether the item hanging there has become heavier or frequently knocked. Do not assume that an apparently secure hook can carry a load indefinitely."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Choose a safe follow-up",
+          "paragraphs": [
+            "Consult the manufacturer's removal and replacement instructions for that exact adhesive system. Improvised solvents, heat or scraping can damage paint and may create additional hazards.",
+            "Keep spare adhesive strips with their original labels so their compatibility is clear. Where a reliable fixed mounting is needed, seek appropriate installation advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-broom-threaded-handle-check",
+      "title": "Checking the threaded connection on a household broom handle",
+      "category": "Home maintenance",
+      "summary": "A loose broom head can make ordinary sweeping awkward and may leave a sharp exposed connector if it detaches.",
+      "tags": [
+        "broom",
+        "handle",
+        "cleaning tools",
+        "thread"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Handle",
+          "Joint",
+          "Head"
+        ],
+        "alt": "Three-part visual inspection checklist for checking the threaded connection on a household broom handle: Handle, Joint, Head. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise the connection",
+          "paragraphs": [
+            "Many household brooms use a screw-threaded handle, while others have a fixed, clipped or push-fit connection. Identify the design from the product rather than assuming every handle is interchangeable.",
+            "Some heads are deliberately angled for a particular task. A tilted head alone does not prove that a joint has failed."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Observe visible wear",
+          "paragraphs": [
+            "With the broom resting on the floor, look for cracks around the socket, damaged threads that are already exposed or a handle that visibly sits askew. Avoid forcing a stuck joint.",
+            "If the head comes loose during normal use, stop sweeping and keep the separated pieces together. Splintered wood or sharp plastic edges warrant replacement rather than makeshift binding."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Record the right part",
+          "paragraphs": [
+            "Note the maker, approximate handle type and any model marking on the head. A photo of the intact connector can help match a manufacturer-approved replacement.",
+            "Store the broom so it cannot fall across a walkway. Keep detachable heads and handles where they will not be mistaken for compatible parts of other tools."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dustpan-flexible-edge-wear",
+      "title": "Recognising wear on the flexible edge of a dustpan",
+      "category": "Home maintenance",
+      "summary": "The soft front lip of a dustpan helps collect fine debris, but curling or splitting can leave grit behind and scratch some floors.",
+      "tags": [
+        "dustpan",
+        "cleaning equipment",
+        "rubber lip",
+        "floor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Edge",
+          "Body",
+          "Floor"
+        ],
+        "alt": "Three-part visual inspection checklist for recognising wear on the flexible edge of a dustpan: Edge, Body, Floor. The labels identify observation areas only, not a repair or load-bearing procedure.",
+        "caption": "Observe accessible parts and follow product-specific instructions before any maintenance."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the lip",
+          "paragraphs": [
+            "A dustpan may have a flexible rubber-like strip, a thin moulded plastic edge or no separate lip at all. Compare the design with the manufacturer's product description.",
+            "The edge is meant to meet the floor gently. A rigid, damaged or contaminated strip may make collection less effective without indicating any problem with the floor itself."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check visible condition",
+          "paragraphs": [
+            "Inspect an empty dustpan for curling, splits, trapped grit or a loose strip. Keep hands away from sharp broken plastic and avoid dragging a damaged edge across delicate flooring.",
+            "Observe whether the pan rests evenly on a flat surface. If the lip has detached, do not glue it back without compatible manufacturer guidance."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Maintain useful equipment",
+          "paragraphs": [
+            "Remove loose debris using the cleaning method suitable for the pan's material and let it dry before storage. Do not mix cleaning chemicals to remove residue.",
+            "If the lip is replaceable, match the exact part; otherwise consider replacing the dustpan. Store it so the front edge is not permanently bent under heavier objects."
+          ]
+        }
+      ]
+    }
+  ]
+}
