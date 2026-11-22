@@ -8,6 +8,7 @@ on:
       - feature/urban-guides-database-foundation
       - feature/full-offline-urban-guides
       - feature/offline-knowledge-library-engine
+      - feature/offline-fulltext-search-and-bulk-pipeline
     paths:
       - '.github/workflows/android-debug.yml'
       - 'app/build.gradle.kts'
@@ -19,6 +20,9 @@ on:
       - 'content/**'
       - 'scripts/build_knowledge_packs.py'
       - 'scripts/check_knowledge_packs.py'
+      - 'scripts/import_knowledge_batches.py'
+      - 'scripts/build_fulltext_index.py'
+      - 'scripts/check_fulltext_index.py'
 
 permissions:
   contents: read
@@ -52,10 +56,13 @@ jobs:
           cp -r /tmp/android-tools/cmdline-tools/. "$ANDROID_HOME/cmdline-tools/latest/"
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
           "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
-      - name: Compile compressed offline knowledge packs
+      - name: Validate and compile offline knowledge packs and full-text index
         run: |
+          python3 scripts/import_knowledge_batches.py
           python3 scripts/build_knowledge_packs.py
           python3 scripts/check_knowledge_packs.py
+          python3 scripts/build_fulltext_index.py
+          python3 scripts/check_fulltext_index.py
       - name: Validate urban guide metadata and static quality
         run: |
           python3 scripts/check_urban_guides.py

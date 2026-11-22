@@ -64,6 +64,7 @@ import com.justtobesafe.app.data.HouseholdPlan
 import com.justtobesafe.app.data.InventoryStore
 import com.justtobesafe.app.data.SecurePlanStore
 import com.justtobesafe.app.data.UrbanGuideCatalogue
+import com.justtobesafe.app.data.OfflineFullTextIndex
 import com.justtobesafe.app.data.OfflineGuideLibrary
 import com.justtobesafe.app.data.OfflineKnowledgeLibrary
 import com.justtobesafe.app.domain.SuppliesCatalog
@@ -130,6 +131,7 @@ fun JustToBeSafeApp() {
     val urbanGuides = remember(context) { UrbanGuideCatalogue.load(context).getOrNull() }
     val offlineGuideArticles = remember(context) { OfflineGuideLibrary.load(context).getOrNull() }
     val knowledge = remember(context) { OfflineKnowledgeLibrary.load(context).getOrNull() }
+    val fullText = remember(context) { OfflineFullTextIndex.load(context).getOrNull() }
     var checked by remember { mutableStateOf(inventory.read()) }
     var plan by remember { mutableStateOf(HouseholdPlan()) }
     var planLoaded by remember { mutableStateOf(false) }
@@ -252,7 +254,8 @@ fun JustToBeSafeApp() {
                     if (selected != null && tab == Destination.GUIDES) {
                         GuidesScreen(
                             catalogue = urbanGuides, offlineLibrary = offlineGuideArticles,
-                            knowledge = knowledge, selectedGuideId = selected,
+                            knowledge = knowledge, fullText = fullText,
+                            selectedGuideId = selected,
                             onSelect = { selectedGuideId = it },
                             onBack = { selectedGuideId = null }, openOfficial = openOfficial
                         )
@@ -269,7 +272,8 @@ fun JustToBeSafeApp() {
                         )
                         Destination.GUIDES -> GuidesScreen(
                             catalogue = urbanGuides, offlineLibrary = offlineGuideArticles,
-                            knowledge = knowledge, onSelect = { selectedGuideId = it }, openOfficial = openOfficial
+                            knowledge = knowledge, fullText = fullText,
+                            onSelect = { selectedGuideId = it }, openOfficial = openOfficial
                         )
                         Destination.SUPPLIES -> SuppliesScreen(checked = checked, onToggle = toggleSupply, initialSection = "pantry")
                         Destination.SCAN -> PantryScreen(startScanning = true,
