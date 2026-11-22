@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-hearing-access-communication-card",
+      "title": "Preparing an accessible communication preference card for disruptions",
+      "category": "Household communication",
+      "summary": "A private card can explain preferred communication methods when calls or announcements are difficult.",
+      "tags": [
+        "accessibility",
+        "hearing",
+        "communication",
+        "offline",
+        "household"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Preferences",
+          "Backup channel",
+          "Share by consent"
+        ],
+        "alt": "A three-item checklist showing communication preferences, a backup channel and consent-based sharing; no personal details are printed in the illustration.",
+        "caption": "A template for preferences, not a substitute for an emergency alert."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Make preferences easy to understand",
+          "paragraphs": [
+            "Write a short, plain-language note describing whether written messages, text, speech-to-text or a trusted contact are helpful. Keep it general enough to show a service desk without disclosing private medical details.",
+            "Record one fallback method that does not depend on a single phone app. A printed copy can help when a device battery or connection fails, but it cannot guarantee an organisation can provide a particular service."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep control of the card",
+          "paragraphs": [
+            "Ask the person concerned which details they want included and who may see them. Avoid storing names, addresses or medical information in public templates or shared photographs.",
+            "Review the card when communication preferences or equipment change. For urgent situations, follow current official instructions and seek direct assistance rather than relying on the card alone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-flood-insurer-contact-log",
+      "title": "Keeping a flood-related insurer contact and reference log",
+      "category": "Flood and weather readiness",
+      "summary": "A dated log separates reported damage, insurer instructions and unanswered questions.",
+      "tags": [
+        "flood",
+        "insurance",
+        "claims",
+        "records",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Date",
+          "Reference",
+          "Next question"
+        ],
+        "alt": "A three-column checklist for a dated insurer contact log, a reference number and the next question; it does not depict flood entry or cleanup.",
+        "caption": "Record conversations without assuming a claim has been accepted."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Capture the conversation accurately",
+          "paragraphs": [
+            "Write the date, contact channel, name or team if supplied, claim reference and a short factual summary of what the insurer said. Separate a confirmed instruction from your own interpretation or a question still awaiting an answer.",
+            "Keep photographs, receipts and correspondence together where they can be retrieved later, but do not put policy numbers or private contact details into a public or shared template. A paper index can point to documents stored securely."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Avoid assumptions about cover",
+          "paragraphs": [
+            "Policy terms, evidence requirements and time limits vary. Use your own policy documents and the insurer's verified contact channel to clarify what applies rather than relying on a generic offline article.",
+            "Do not enter unsafe or contaminated areas to obtain evidence. Immediate personal safety and directions from competent responders take priority over recording damage or meeting administrative deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-local-authority-responsibility-card",
+      "title": "Finding which public authority handles a local infrastructure problem",
+      "category": "Urban infrastructure",
+      "summary": "A simple responsibility card helps route non-urgent reports without guessing who owns a service.",
+      "tags": [
+        "council",
+        "highways",
+        "reporting",
+        "responsibility",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Issue type",
+          "Authority",
+          "Verified channel"
+        ],
+        "alt": "A three-step sequence links a problem type to a responsible authority and a verified contact route; it is not a live service directory.",
+        "caption": "Different roads and assets can have different operators."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Identify the service before reporting",
+          "paragraphs": [
+            "A road, pavement, drain, lighting column, station and private building may each have a different operator. Record the location and visible asset type first rather than assuming the nearest council is responsible.",
+            "Keep a small offline list of authority names and their verified general reporting channels for your area. Label the date checked; administrative boundaries and contractor arrangements can change."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Check and follow up",
+          "paragraphs": [
+            "When connectivity is available, confirm the appropriate organisation using an official website, correspondence or published sign. Avoid forwarding a report containing personal details to several unverified recipients.",
+            "Keep any case reference and the date sent. If an immediate danger is present, do not wait for a routine reporting form; stay clear and use the appropriate emergency or infrastructure contact."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-pavement-surface-defect-report",
+      "title": "Recording a damaged pavement surface for a non-emergency report",
+      "category": "Urban infrastructure",
+      "summary": "Location-based observations can help describe pavement defects without approaching traffic or hazards.",
+      "tags": [
+        "pavement",
+        "footpath",
+        "accessibility",
+        "trip hazard",
+        "report"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Safe viewpoint",
+          "Location",
+          "Visible defect"
+        ],
+        "alt": "A three-item reporting checklist for a safe observation point, location and visible pavement condition, without instructing anyone to repair the surface.",
+        "caption": "Describe what you can see, not an assumed cause."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Observe from a safe position",
+          "paragraphs": [
+            "Record the street, nearest junction or landmark and whether the visible issue is a raised slab, missing paving, hole or obstruction. Note the date and any accessibility impact without attempting to measure a defect in traffic.",
+            "Do not step into a carriageway, move barriers or test a damaged surface to take a photograph. If the route is unsafe or inaccessible, choose a safer alternative and describe the problem remotely."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Send a clear report",
+          "paragraphs": [
+            "Use the verified highway or site owner's reporting channel and include only relevant observations. A photograph is optional and should not expose identifiable passers-by unnecessarily.",
+            "Keep the acknowledgement or reference number. A submitted report is not evidence that a repair or inspection has occurred, and this offline article cannot provide live route conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-shared-fire-door-defect-report",
+      "title": "Reporting a damaged communal fire door without attempting repairs",
+      "category": "Shared-building infrastructure",
+      "summary": "Communal fire-door concerns should be passed to the responsible building manager, not treated as a household DIY task.",
+      "tags": [
+        "fire door",
+        "shared building",
+        "reporting",
+        "safety",
+        "landlord"
+      ],
+      "risk": "fire",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Recognise a concern without testing it",
+          "paragraphs": [
+            "A visibly damaged door, missing hardware, obstruction or door that appears unable to close may warrant reporting. Describe only what you have already observed in normal use; do not dismantle, wedge or repeatedly test a safety door.",
+            "Keep access and escape routes unobstructed and follow the building's current fire-safety arrangements. Do not assume a generic guide can determine whether a particular door is compliant or safe."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Escalate through the correct channel",
+          "paragraphs": [
+            "Record the floor or communal location and the date, then contact the building manager, landlord or responsible person using a verified route. Keep a reference and ask when the concern will be assessed.",
+            "If smoke, fire or immediate danger is present, use emergency procedures and emergency services as appropriate. A routine maintenance report is not an emergency response, and specialist inspection is required for technical conclusions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-weather-map-legend-offline",
+      "title": "Reading the legend and boundaries on a saved weather-risk map",
+      "category": "Flood and weather readiness",
+      "summary": "Map colours and outlines need their original legend, time and geographic context.",
+      "tags": [
+        "weather",
+        "map",
+        "legend",
+        "flood",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Legend",
+          "Area",
+          "Timestamp"
+        ],
+        "alt": "A three-part reading sequence linking a map's colour legend, its mapped area and its saved timestamp; no hazard route or evacuation path is shown.",
+        "caption": "A saved map is a dated reference, never a current warning."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Interpret what the map actually shows",
+          "paragraphs": [
+            "Keep the title, legend and issuing organisation with any saved map image. Colours can represent different variables or thresholds in different products, so an isolated coloured patch is not enough to infer a specific risk.",
+            "Check whether the boundary shows an administrative area, forecast zone or observation footprint. A household near an edge should not assume a sharp boundary corresponds to a real-world change in conditions."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Preserve timing and uncertainty",
+          "paragraphs": [
+            "Write down when the map was issued, the period it covers and when you saved it. A forecast map, historical map and current observation answer different questions even if they look similar.",
+            "When a decision depends on changing conditions, consult up-to-date authoritative information if available. Do not use an old offline image as proof that a road, building or neighbourhood is currently safe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-supply-collection-verification",
+      "title": "Checking the details of a temporary community supply collection notice",
+      "category": "Household communication",
+      "summary": "A short verification checklist helps distinguish a legitimate collection notice from outdated or misleading information.",
+      "tags": [
+        "community",
+        "supplies",
+        "notice",
+        "verification",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Organiser",
+          "Eligibility",
+          "Date and place"
+        ],
+        "alt": "A three-item checklist for verifying the organiser, any eligibility requirements, and the stated date and location before attending a temporary supply point.",
+        "caption": "Check the notice independently; this guide does not confirm any live distribution."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "Check what is actually offered",
+          "paragraphs": [
+            "Read the named organiser, dates, collection hours, eligibility conditions and whether the notice says supplies are free or require registration. A forwarded image without a date or issuing organisation may be incomplete.",
+            "Verify the notice through the organiser's known official channel where possible. Do not assume that a temporary collection point still exists because an old poster or screenshot remains in circulation."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Protect personal information",
+          "paragraphs": [
+            "Be cautious about requests for passwords, bank details or unnecessary identity documents through informal messages. Ask the organiser directly what information is genuinely required before sharing sensitive data.",
+            "If travel is difficult, look for an official contact route to ask about accessibility or alternative arrangements. Do not travel to an uncertain location solely on the basis of an unverified social-media message."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-household-paper-document-index",
+      "title": "Building a private paper index of essential household records",
+      "category": "Household communication",
+      "summary": "An index can show where documents are stored without exposing their contents.",
+      "tags": [
+        "documents",
+        "paper",
+        "privacy",
+        "household",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Document type",
+          "Storage place",
+          "Review date"
+        ],
+        "alt": "A three-column paper index listing document type, general storage location and review date; no account numbers, passwords or personal identifiers are shown.",
+        "caption": "Keep the index useful without making it a directory of secrets."
+      },
+      "sections": [
+        {
+          "id": "prepare",
+          "title": "List categories, not confidential details",
+          "paragraphs": [
+            "Use broad labels such as insurance, tenancy, utility correspondence and travel documents. Record a general storage location known to the household rather than writing full account numbers, access codes or identity-document details.",
+            "Consider which household members need access and whether a paper index could be seen by visitors. A generic example belongs in the app; real personal entries should stay in a protected household record."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the list current",
+          "paragraphs": [
+            "Review the index after moving, changing providers or reorganising storage. Remove references to documents that no longer exist so someone is not sent searching for an outdated folder.",
+            "A paper index helps locate records but does not replace secure backups, current official information or consent-based access to another person's documents."
+          ]
+        }
+      ]
+    }
+  ]
+}
