@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-underpass-closure",
+      "title": "Planning around a closed pedestrian underpass",
+      "category": "Transport",
+      "summary": "A pedestrian underpass may connect neighbourhoods, stations or schools. A closure from water, maintenance or other hazards can make a familiar short route unavailable.",
+      "tags": [
+        "underpass",
+        "flood",
+        "walking",
+        "diversion"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Normal path",
+          "Alternate path",
+          "Recheck"
+        ],
+        "alt": "Offline planning diagram for planning around a closed pedestrian underpass: Normal path, then Alternate path, then Recheck. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Normal path · Alternate path · Recheck. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "A pedestrian underpass may connect neighbourhoods, stations or schools. A closure from water, maintenance or other hazards can make a familiar short route unavailable.",
+            "Record the entrances and destinations it connects before a disruption. A personal route note does not establish current safety or whether access is permitted."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Use official maps to identify an alternative public route and check step-free access, road crossings and lighting for the traveller.",
+            "Keep recognisable landmarks on an offline map or paper card. Respect barriers and never enter floodwater or a closed worksite."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Recheck the alternative before travel where possible, especially after severe weather or roadworks.",
+            "If no suitable accessible route exists, seek assistance from the relevant transport authority or reconsider the journey."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bus-shelter-defect",
+      "title": "Recording damage to a public bus shelter",
+      "category": "Transport",
+      "summary": "Broken shelter glazing, unstable panels or exposed sharp edges can make waiting areas unsafe. Do not touch or test suspect components.",
+      "tags": [
+        "bus",
+        "shelter",
+        "glazing",
+        "defect",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Stop location",
+          "Visible defect",
+          "Report"
+        ],
+        "alt": "Offline planning diagram for recording damage to a public bus shelter: Stop location, then Visible defect, then Report. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Stop location · Visible defect · Report. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "Broken shelter glazing, unstable panels or exposed sharp edges can make waiting areas unsafe. Do not touch or test suspect components.",
+            "Note the stop name, direction of travel and a nearby landmark, because similar stop names can refer to different locations."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Describe the visible defect and distinguish physical damage from missing timetable information or general cleanliness.",
+            "Report through a verified council, transport authority or shelter operator channel, which may differ from the bus company's contact."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "If the shelter is unsafe to use, avoid the damaged area and check suitable nearby stops or service alternatives.",
+            "Keep the report reference for follow-up without assuming that a submitted report means the defect has been repaired."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-footbridge-closure",
+      "title": "Preparing for a temporary public footbridge closure",
+      "category": "Transport",
+      "summary": "A closed footbridge can disrupt a short trip between neighbourhoods, stations and schools. An alternative may be much longer.",
+      "tags": [
+        "footbridge",
+        "pedestrian",
+        "bridge",
+        "diversion"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Usual bridge",
+          "Other crossing",
+          "Check signs"
+        ],
+        "alt": "Offline planning diagram for preparing for a temporary public footbridge closure: Usual bridge, then Other crossing, then Check signs. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Usual bridge · Other crossing · Check signs. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "A closed footbridge can disrupt a short trip between neighbourhoods, stations and schools. An alternative may be much longer.",
+            "Record the usual crossing and nearby landmarks while the route is familiar, including any accessibility constraints."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Check the responsible authority's published diversion and whether it suits wheelchairs, pushchairs or cycles.",
+            "Keep a compact offline note with recognisable landmarks, but treat temporary signs and current restrictions as more authoritative."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Never bypass bridge barriers or attempt an improvised crossing beside a waterway to save time.",
+            "Recheck routes after works or seasonal restrictions, and seek a suitable alternative if the diversion is inaccessible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-school-pickup-change",
+      "title": "Organising a temporary school transport pickup change",
+      "category": "Household communication",
+      "summary": "A changed pickup point may follow roadworks or transport disruption, but forwarded messages can omit dates or route details.",
+      "tags": [
+        "school",
+        "transport",
+        "pickup",
+        "guardian",
+        "bus"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Verify notice",
+          "Agree handover",
+          "Update note"
+        ],
+        "alt": "Offline planning diagram for organising a temporary school transport pickup change: Verify notice, then Agree handover, then Update note. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Verify notice · Agree handover · Update note. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "A changed pickup point may follow roadworks or transport disruption, but forwarded messages can omit dates or route details.",
+            "Verify the affected service, location and date through the school or contracted transport provider using an established channel."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Make sure the authorised adult and child understand the agreed collection arrangement in age-appropriate language.",
+            "Keep accessibility or safeguarding details within the school's private communication channels, not on public notices."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Record the confirmed validity period and remove superseded pickup notes when normal arrangements resume.",
+            "If the pickup is missed or uncertain, contact the school or provider rather than sending a child to an unverified location."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-ev-charger",
+      "title": "Preparing for an unavailable public EV charger",
+      "category": "Transport",
+      "summary": "A public charger may be occupied, faulty or incompatible with a vehicle or payment method. Saved availability can become outdated.",
+      "tags": [
+        "electric",
+        "vehicle",
+        "charging",
+        "journey",
+        "backup"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Check charger",
+          "Backup option",
+          "Recheck"
+        ],
+        "alt": "Offline planning diagram for preparing for an unavailable public ev charger: Check charger, then Backup option, then Recheck. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Check charger · Backup option · Recheck. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "A public charger may be occupied, faulty or incompatible with a vehicle or payment method. Saved availability can become outdated.",
+            "Identify whether an essential journey depends on charging, including any accessibility and connector requirements."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Keep a short offline list of compatible alternatives and operator contacts, with another transport option for urgent appointments.",
+            "Do not store payment credentials or account passwords in an unprotected travel note."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Use only approved vehicle and charging equipment; never improvise electrical connections or interfere with damaged chargers.",
+            "Check current operator information before relying on a stop, and reconsider travel if no suitable charging is available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-park-closure",
+      "title": "Understanding temporary park and public-space closures",
+      "category": "Urban preparedness",
+      "summary": "A temporary closure can affect one path, one entrance or an entire park, so read the specific area and dates on the notice.",
+      "tags": [
+        "park",
+        "public",
+        "space",
+        "closure",
+        "notice"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Area affected",
+          "Verify notice",
+          "Other route"
+        ],
+        "alt": "Offline planning diagram for understanding temporary park and public-space closures: Area affected, then Verify notice, then Other route. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Area affected · Verify notice · Other route. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "A temporary closure can affect one path, one entrance or an entire park, so read the specific area and dates on the notice.",
+            "Old signs and forwarded social posts may remain after conditions change and do not establish current access."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Use a known council or land-manager channel to clarify restrictions, especially after storms or maintenance.",
+            "Identify another public route suitable for the traveller, including lighting and step-free access where needed."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Do not bypass barriers around fallen trees, unstable ground or active works to preserve a familiar shortcut.",
+            "Update offline notes after verified reopening; this article cannot confirm live conditions or route safety."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-notice-qr-offline",
+      "title": "Reading public notices without a working QR code",
+      "category": "Household communication",
+      "summary": "Some notices rely on a QR code that cannot be opened without a signal, compatible device or accessible reader.",
+      "tags": [
+        "qr",
+        "notice",
+        "offline",
+        "accessibility",
+        "verification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Printed details",
+          "Identify issuer",
+          "Verify later"
+        ],
+        "alt": "Offline planning diagram for reading public notices without a working qr code: Printed details, then Identify issuer, then Verify later. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Printed details · Identify issuer · Verify later. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "Some notices rely on a QR code that cannot be opened without a signal, compatible device or accessible reader.",
+            "Look for printed dates, issuer names, contact details and a plain-language explanation of the affected service."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "Record the notice location and visible information without unnecessarily photographing identifiable bystanders.",
+            "Verify the issuer through an established website or phone number later rather than trusting an unverified QR destination."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Do not enter passwords or payment details into a site reached solely from an unverified poster.",
+            "Request a readable text or accessible alternative if the notice provides no usable offline information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-recycling-booking-outage",
+      "title": "Planning around recycling-centre booking outages",
+      "category": "Urban preparedness",
+      "summary": "Some recycling centres require booking, permits or residency evidence while others operate differently.",
+      "tags": [
+        "recycling",
+        "council",
+        "booking",
+        "outage",
+        "waste"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check rules",
+          "Save booking",
+          "Confirm visit"
+        ],
+        "alt": "Offline planning diagram for planning around recycling-centre booking outages: Check rules, then Save booking, then Confirm visit. This is a schematic, not live information or a verified emergency procedure.",
+        "caption": "Planning stages: Check rules · Save booking · Confirm visit. Check current information with the responsible service."
+      },
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the disruption",
+          "paragraphs": [
+            "Some recycling centres require booking, permits or residency evidence while others operate differently.",
+            "Check the relevant council's current access rules and accepted materials rather than relying on another area's arrangements."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Prepare a practical alternative",
+          "paragraphs": [
+            "If the booking website fails, check for an official alternative contact or published service notice.",
+            "Keep a private record of a confirmed booking and distinguish it from an unacknowledged request."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review and avoid assumptions",
+          "paragraphs": [
+            "Do not assume walk-in access, leave waste outside a closed facility or improvise hazardous-waste handling.",
+            "Confirm opening times and booking status before travelling to avoid unnecessary journeys."
+          ]
+        }
+      ]
+    }
+  ]
+}
