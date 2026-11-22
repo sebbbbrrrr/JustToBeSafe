@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-route-grade-definitions",
+      "title": "Compare route difficulty grades between walking publishers",
+      "category": "Outdoor navigation",
+      "summary": "Read each publisher's grade criteria instead of treating route colours as universal.",
+      "tags": [
+        "compare",
+        "route",
+        "difficulty",
+        "outdoors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Find the grading key",
+          "paragraphs": [
+            "A label such as easy or moderate has no single universal meaning across walking publishers. Read the specific publisher's explanation and note whether distance, ascent, surface and navigation are included.",
+            "Record the publisher and edition so a saved rating is not detached from its original context."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Compare measurable details",
+          "paragraphs": [
+            "Write down the stated route length, ascent and described surfaces separately from the overall grade. These details make two guides easier to compare.",
+            "Estimated walking time is not a guarantee; conditions and individual needs can make a route take longer."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Record uncertainty",
+          "paragraphs": [
+            "Mark missing information as unknown rather than assuming the route is accessible or straightforward.",
+            "Offline grades cannot confirm current closures or hazards. Choose a familiar alternative if important details remain unclear."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Grade key",
+          "Route facts",
+          "Unknowns"
+        ],
+        "alt": "A three-part checklist with separate labels Grade key, Route facts, Unknowns for organising the information described in this guide, without claiming to establish safety.",
+        "caption": "A compact reminder of the three considerations explained in the article."
+      }
+    },
+    {
+      "id": "outdoor-exported-map-names",
+      "title": "Name exported offline maps so different editions stay distinct",
+      "category": "Outdoor navigation",
+      "summary": "Keep personal map exports findable without confusing download dates with source editions.",
+      "tags": [
+        "exported",
+        "offline",
+        "different",
+        "outdoors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the region",
+          "paragraphs": [
+            "Give each saved file a concise region label and add an edition only when the source actually supplies one.",
+            "A recent download does not prove the underlying path information is current."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Distinguish versions",
+          "paragraphs": [
+            "Keep an original separate from any annotated or cropped personal copy. Mark modified copies clearly.",
+            "Avoid including private home locations or personal journey details in filenames that might be shared."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Test the file",
+          "paragraphs": [
+            "Open the export without connectivity on a familiar location and check that the intended area appears.",
+            "A file stored on the phone may still require a compatible reader; keep an independent navigation reference."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Region",
+          "Edition",
+          "Offline test"
+        ],
+        "alt": "A three-part checklist with separate labels Region, Edition, Offline test for organising the information described in this guide, without claiming to establish safety.",
+        "caption": "A compact reminder of the three considerations explained in the article."
+      }
+    },
+    {
+      "id": "outdoor-equipment-manual-index",
+      "title": "Keep a compact offline index of outdoor equipment manuals",
+      "category": "Outdoor equipment",
+      "summary": "Make model-specific care instructions retrievable without confusing similar products.",
+      "tags": [
+        "compact",
+        "offline",
+        "index",
+        "outdoors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Record the model",
+          "paragraphs": [
+            "Write down the maker and exact model or variant printed on the item. Similar-looking equipment may have different materials and limits.",
+            "Keep sensitive serial numbers out of shared inventories unless there is a specific reason to disclose them."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Save appropriate guidance",
+          "paragraphs": [
+            "Store a permitted personal copy of manufacturer care instructions or an offline index pointing to the relevant section.",
+            "Generic checklists do not replace maker requirements for safety-critical equipment or specialist inspection."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Maintain the index",
+          "paragraphs": [
+            "Update records when an item is replaced, and label outdated instructions so they cannot be mistaken for current ones.",
+            "Test that saved files open in airplane mode; a web bookmark alone is not an offline manual."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Model",
+          "Care guide",
+          "Offline copy"
+        ],
+        "alt": "A three-part checklist with separate labels Model, Care guide, Offline copy for organising the information described in this guide, without claiming to establish safety.",
+        "caption": "A compact reminder of the three considerations explained in the article."
+      }
+    },
+    {
+      "id": "outdoor-dry-litter-pouch",
+      "title": "Organise a reusable pouch for ordinary dry litter on walks",
+      "category": "Outdoor equipment",
+      "summary": "Contain small packaging waste without mixing it with clean equipment.",
+      "tags": [
+        "organise",
+        "reusable",
+        "pouch",
+        "outdoors"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose the pouch",
+          "paragraphs": [
+            "Use a washable pouch or small reused bag with a reliable closure for ordinary dry wrappers.",
+            "Keep it separate from food and drinking-water openings; this is not a container for sharp or hazardous waste."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Carry responsibly",
+          "paragraphs": [
+            "Place the pouch where it can be reached at a routine stop without obstructing movement or catching on branches.",
+            "Do not collect unidentified sharp objects or potentially contaminated waste from other people."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Empty and maintain",
+          "paragraphs": [
+            "Use an appropriate bin or carry ordinary litter home when no suitable bin is available.",
+            "Clean and dry reusable material according to its care instructions, and replace damaged closures."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Contain",
+          "Carry out",
+          "Clean"
+        ],
+        "alt": "A three-part checklist with separate labels Contain, Carry out, Clean for organising the information described in this guide, without claiming to establish safety.",
+        "caption": "A compact reminder of the three considerations explained in the article."
+      }
+    }
+  ]
+}
