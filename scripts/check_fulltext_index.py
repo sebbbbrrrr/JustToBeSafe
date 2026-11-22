@@ -24,6 +24,39 @@ assert len(set(META["documents"])) == len(META["documents"])
 STOPWORDS = {"how", "to", "a", "an", "the", "do", "i", "can", "what",
              "is", "for", "in", "of", "and", "my", "with", "on", "at"}
 shards = {}
+
+def validate_shards():
+    """Read all shards, including those not touched by sample queries."""
+    for nibble in "0123456789abcdef":
+        path = INDEX / f"terms_{nibble}.json.gz"
+        try:
+            with gzip.open(path, "rt", encoding="utf-8") as stream:
+                payload = json.load(stream)
+        except (OSError, EOFError, UnicodeError, ValueError) as exc:
+            raise AssertionError(f"Invalid or missing search shard {path.name}: {exc}") from exc
+        assert isinstance(payload, dict) and payload.get("version") == 1, (
+            f"Invalid schema in {path.name}"
+        )
+        terms = payload.get("terms")
+        assert isinstance(terms, dict), f"Invalid terms map in {path.name}"
+        for term, postings in terms.items():
+            assert isinstance(term, str) and term, f"Invalid term in {path.name}"
+            assert hashlib.sha256(term.encode("utf-8")).hexdigest()[0] == nibble, (
+                f"Misplaced term {term!r} in {path.name}"
+            )
+            assert isinstance(postings, list) and postings, (
+                f"Invalid postings for {term!r} in {path.name}"
+            )
+            assert all(isinstance(doc_id, str) and doc_id in expected_ids for doc_id in postings), (
+                f"Unknown document in postings for {term!r} in {path.name}"
+            )
+            assert postings == sorted(set(postings)), (
+                f"Unsorted or duplicate postings for {term!r} in {path.name}"
+            )
+        shards[nibble] = terms
+
+validate_shards()
+
 def query(text):
     import re
     words = [w for w in re.findall(r"[^\W_]+", text.lower()) if w not in STOPWORDS]
