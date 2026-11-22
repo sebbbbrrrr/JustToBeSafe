@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "home-gutter-ground-observation",
+      "title": "Observing roof gutters from ground level",
+      "category": "Home maintenance",
+      "summary": "Record visible gutter and downpipe concerns without climbing or attempting repairs.",
+      "tags": [
+        "gutter",
+        "downpipe",
+        "rain",
+        "roof",
+        "inspection",
+        "overflow"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Look from ground",
+          "Note location",
+          "Report concern"
+        ],
+        "alt": "An original schematic for observing roof gutters from ground level, showing Look from ground, Note location, Report concern as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Look from ground · Note location · Report concern. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Observe without climbing",
+          "paragraphs": [
+            "During ordinary daylight and from a safe public or household position, look for visible signs such as vegetation emerging from a gutter, detached sections, persistent staining beneath a downpipe, or water spilling where it normally would not. Do not lean from a window, stand beneath unstable fixtures, or use a ladder to obtain a closer view.",
+            "A photograph taken from ground level can help distinguish one section of a building from another. Record the weather and whether the observation happened during rain or after a dry spell; these details may help a property manager interpret what you saw."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep a useful record",
+          "paragraphs": [
+            "Use a simple entry containing date, building side, approximate location, visible condition and any associated indoor damp observation. Avoid diagnosing a blockage from one photograph; overflow can have several causes.",
+            "If the building is shared or rented, identify the appropriate landlord, managing agent or maintenance contact. Send observations rather than an instruction to carry out a particular repair."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Know when to step away",
+          "paragraphs": [
+            "If a gutter or fitting appears loose, keep away from the area beneath it and report the concern promptly. Do not try to catch, hold or reattach a falling part.",
+            "Where water is entering electrical equipment or causing an immediate hazard, avoid the affected area and use the appropriate building or emergency reporting route. This draft is not a roof-work guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-window-seal-condition-log",
+      "title": "Recording window seal and frame condition",
+      "category": "Home maintenance",
+      "summary": "Compare visible frame, seal and condensation changes without dismantling glazing.",
+      "tags": [
+        "window",
+        "seal",
+        "frame",
+        "condensation",
+        "draught",
+        "glazing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Photograph",
+          "Compare"
+        ],
+        "alt": "An original schematic for recording window seal and frame condition, showing Observe, Photograph, Compare as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Observe · Photograph · Compare. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Describe what you can see",
+          "paragraphs": [
+            "Look for gaps in visible seals, torn flexible strips, damaged finishes or moisture collecting around a frame. Record which window and which side of the room you are observing, rather than treating all windows as interchangeable.",
+            "Distinguish condensation on the glass surface from water apparently entering around the frame. Both deserve attention, but the visible symptom alone does not prove the underlying cause."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Make repeat observations comparable",
+          "paragraphs": [
+            "Photograph the same area in similar light and note weather, heating use and whether the window had been open. A small dated sequence is more informative than a single unlabelled image.",
+            "Avoid forcing stiff mechanisms or removing glazing beads, seals or trim to investigate. A damaged or insecure window may require a qualified tradesperson or landlord."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Share the issue clearly",
+          "paragraphs": [
+            "When reporting, describe the observed location, approximate duration and whether the window can be closed and secured normally. Attach only relevant photographs without exposing personal documents or people.",
+            "Keep the report open until someone has confirmed the condition was assessed or addressed. Do not mark an issue resolved solely because the surface dried temporarily."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-under-sink-cabinet-check",
+      "title": "Checking an under-sink cupboard for early moisture signs",
+      "category": "Home & utilities",
+      "summary": "Notice dampness around accessible storage areas while avoiding pipe disassembly.",
+      "tags": [
+        "sink",
+        "cupboard",
+        "moisture",
+        "leak",
+        "storage",
+        "plumbing"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Clear view",
+          "Check items",
+          "Record signs"
+        ],
+        "alt": "An original schematic for checking an under-sink cupboard for early moisture signs, showing Clear view, Check items, Record signs as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Clear view · Check items · Record signs. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Create a clear viewing area",
+          "paragraphs": [
+            "Identify which everyday items obscure the base of the cupboard, and move only loose, safe-to-handle objects if you can do so without disturbing pipes or electrical equipment. Keep cleaning chemicals in their original containers and away from children.",
+            "Look for swelling in cabinet material, musty odours, damp packaging or visible droplets. A stain may be old; describe what is present rather than asserting that a pipe is currently leaking."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Check without dismantling",
+          "paragraphs": [
+            "If the cupboard is dry and accessible, compare the condition of stored items and the visible cabinet base over time. Do not loosen joints, remove pipe fittings or use tools to probe concealed spaces.",
+            "If water is present near sockets, appliances or damaged cables, do not touch the affected equipment. Keep clear and seek appropriate professional assistance. Do not use the cupboard for storage until the immediate concern is assessed."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Document and escalate",
+          "paragraphs": [
+            "Record date, location, visible changes and whether water was actively present. Include a ground-level photo if it can be taken safely without contact with wet electrical equipment.",
+            "Report recurring moisture, mould or visible leakage to the property owner or responsible maintenance contact. This is an observation guide, not an instruction to repair plumbing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-ventilation-grille-observation",
+      "title": "Checking accessible ventilation grilles for obstruction",
+      "category": "Home maintenance",
+      "summary": "Keep track of visible obstructions without interfering with powered ventilation or gas vents.",
+      "tags": [
+        "ventilation",
+        "grille",
+        "airflow",
+        "extractor",
+        "dust",
+        "vent"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Identify the type of opening",
+          "paragraphs": [
+            "Locate ordinary room ventilation grilles and note which room they serve. Some openings may be associated with combustion appliances, fire safety or building ventilation; their purpose may not be obvious from appearance alone.",
+            "Do not cover, tape, remove or adjust an unknown vent. If a grille is part of a gas appliance or a communal building system, follow the building or manufacturer's instructions and seek competent advice."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Record visible conditions",
+          "paragraphs": [
+            "From an accessible position, note whether furniture, curtains or stored objects are visibly blocking the opening. Record unusual noise, staining or persistent condensation separately instead of assuming a single cause.",
+            "Do not insert tools or fingers into a powered extractor or attempt electrical cleaning. Avoid opening a unit to inspect internal fans or wiring."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Escalate concerns appropriately",
+          "paragraphs": [
+            "For rented or shared property, report suspected faults with the room, date and observed symptom. Include a photo only where it can be taken safely and without disturbing the equipment.",
+            "If a combustion appliance warning or carbon-monoxide alarm activates, treat it as a safety concern and follow the alarm's and local emergency instructions rather than relying on this draft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-appliance-warranty-record",
+      "title": "Keeping appliance warranty and purchase records together",
+      "category": "Equipment",
+      "summary": "Create a private offline reference for service, recall and warranty questions.",
+      "tags": [
+        "appliance",
+        "warranty",
+        "receipt",
+        "serial",
+        "repair",
+        "manual"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify item",
+          "Store proof",
+          "Review status"
+        ],
+        "alt": "An original schematic for keeping appliance warranty and purchase records together, showing Identify item, Store proof, Review status as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Identify item · Store proof · Review status. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Make a minimal inventory",
+          "paragraphs": [
+            "Record the appliance category, make, model and where its manual can be found. A model number is often more useful for support than a vague description such as kitchen machine.",
+            "Store purchase date and warranty information only when known. Do not assume that a warranty has expired merely because the paper receipt is missing; consumer rights and manufacturer policies are separate matters."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Protect purchase information",
+          "paragraphs": [
+            "Keep copies of receipts and service records in a private location that household members with permission can access offline. Remove unnecessary payment details before sharing an image with a repair provider.",
+            "Avoid publishing serial numbers, household addresses or full receipts in a shared community guide or public repository. The app's generic example data should never contain a real customer's records."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Prepare for support or repair",
+          "paragraphs": [
+            "Before contacting a provider, check the exact model and describe the symptom in plain language. Keep notes of the date, case reference and any advice received.",
+            "Do not open sealed appliances or attempt electrical repair as part of a warranty check. For safety recalls, use the manufacturer's or relevant authority's current information when connectivity is available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-floor-surface-trip-observations",
+      "title": "Recording household floor and threshold trip hazards",
+      "category": "Home maintenance",
+      "summary": "Identify changes in walking surfaces and track who needs to assess them.",
+      "tags": [
+        "floor",
+        "threshold",
+        "trip",
+        "tile",
+        "carpet",
+        "mobility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Notice change",
+          "Keep clear",
+          "Report location"
+        ],
+        "alt": "An original schematic for recording household floor and threshold trip hazards, showing Notice change, Keep clear, Report location as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Notice change · Keep clear · Report location. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Notice changes along normal routes",
+          "paragraphs": [
+            "Walk through familiar, well-lit household routes at your usual pace and observe loose edges, curled mats, raised thresholds, uneven boards or items repeatedly left in a walkway. Do not deliberately step onto a suspect surface to test it.",
+            "Pay attention to routes used by children, visitors and people with mobility aids. An obstruction that is easy for one person to step over may be difficult for someone else to see or navigate."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Reduce avoidable exposure",
+          "paragraphs": [
+            "Where safe, move loose everyday clutter out of the route without lifting heavy objects or altering damaged flooring. If a section appears unstable, keep people away from it and use a safe alternative route if available.",
+            "Do not cover a structural defect with a mat or improvise a repair that conceals it. Changes in floor level or loose stair nosings may need prompt assessment by a responsible professional."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Make reports actionable",
+          "paragraphs": [
+            "Record the room, precise threshold or walkway, visible change, date and whether the concern is worsening. A photograph showing the surrounding area may help explain the location.",
+            "Follow up with a landlord or maintenance contact where appropriate, and confirm the route is usable again before marking the item resolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-utility-cupboard-access-check",
+      "title": "Keeping household utility cupboards accessible",
+      "category": "Household planning",
+      "summary": "Organise safe access to important household utility information without operating unfamiliar controls.",
+      "tags": [
+        "utility",
+        "cupboard",
+        "access",
+        "labels",
+        "storage",
+        "emergency"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Access path",
+          "Labels",
+          "Contact info"
+        ],
+        "alt": "An original schematic for keeping household utility cupboards accessible, showing Access path, Labels, Contact info as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Access path · Labels · Contact info. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Know who is responsible",
+          "paragraphs": [
+            "Identify which cupboard or accessible space contains household utility information or controls, and distinguish private household storage from locked communal plant rooms. Do not enter restricted areas or interfere with equipment you are not authorised to operate.",
+            "Record the responsible landlord, building manager or utility provider contact where relevant. A generic guide cannot determine which control belongs to your particular property."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep access routes clear",
+          "paragraphs": [
+            "Avoid stacking household goods where they obstruct a cupboard door, warning label or routine inspection access. Do not store combustible clutter against heat-producing equipment or place objects on electrical panels.",
+            "Do not move fixed protective covers, disturb meters, alter seals or operate unfamiliar switches. If access is blocked by building equipment rather than loose belongings, report it rather than forcing entry."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Review the information periodically",
+          "paragraphs": [
+            "Keep labels legible and contact details current, without attaching new labels to utility equipment unless authorised. Record where manufacturer documentation or a property-specific plan is stored offline.",
+            "If a contractor needs access, confirm their appointment and scope with the responsible person. Never provide keys, access codes or personal household details through a public content record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-contractor-visit-preparation",
+      "title": "Preparing for a household maintenance visit",
+      "category": "Household planning",
+      "summary": "Collect observations and questions before a contractor or landlord attends.",
+      "tags": [
+        "contractor",
+        "appointment",
+        "maintenance",
+        "visit",
+        "photos",
+        "repair"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Describe issue",
+          "Prepare access",
+          "Record outcome"
+        ],
+        "alt": "An original schematic for preparing for a household maintenance visit, showing Describe issue, Prepare access, Record outcome as labelled stages for an accessible offline reference.",
+        "caption": "Conceptual overview: Describe issue · Prepare access · Record outcome. Not a technical repair diagram."
+      },
+      "sections": [
+        {
+          "id": "observe",
+          "title": "Summarise the problem",
+          "paragraphs": [
+            "Write down the affected room, when you first noticed the problem and what has changed. Separate direct observations from guesses about the cause; this helps a professional assess the issue without being led by an assumed diagnosis.",
+            "Gather relevant model details, past service references and photographs if you have them. Avoid taking new photographs in unsafe areas or disturbing damaged equipment to make the problem more visible."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Prepare a safe appointment",
+          "paragraphs": [
+            "Confirm the date, approximate arrival window, identity or company through the responsible booking channel, and any building access arrangements. Arrange for an authorised adult or responsible household member to be present when appropriate.",
+            "Clear ordinary loose clutter from the route if safe, but do not dismantle fixtures or move heavy appliances. Tell the provider beforehand about restricted access, pets or relevant accessibility needs."
+          ]
+        },
+        {
+          "id": "follow-up",
+          "title": "Close the loop after the visit",
+          "paragraphs": [
+            "Record what the professional said was inspected, any remaining concern, reference number and agreed follow-up. Distinguish work proposed from work actually completed.",
+            "Keep warranties, invoices and service records securely. If a hazard remains or the repair fails, report it again rather than assuming that attendance alone means the issue is resolved."
+          ]
+        }
+      ]
+    }
+  ]
+}
