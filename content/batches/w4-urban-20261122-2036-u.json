@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "urban-taxi-booking-offline-reference",
+      "title": "Keeping a taxi or private-hire booking reference when mobile data fails",
+      "category": "Urban transport",
+      "summary": "Preserve booking details without assuming a driver or vehicle is confirmed.",
+      "tags": [
+        "taxi booking",
+        "private hire",
+        "offline reference",
+        "travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Operator",
+          "Booking code",
+          "Pickup point"
+        ],
+        "alt": "A three-item checklist showing the operator name, booking reference and agreed pickup location as separate facts; it does not show a live vehicle position.",
+        "caption": "A saved reference is not proof that a vehicle is arriving."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep the booking facts separate",
+          "paragraphs": [
+            "A booking app may show a journey request, an operator acceptance and an assigned vehicle as different states. A screenshot of a request alone does not prove that transport has been arranged.",
+            "When making an essential journey, record the operator's name, the booking reference if provided, the agreed pickup address and the operator's independent contact method. Avoid copying payment-card details or full account credentials into a travel note."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check changes with the operator",
+          "paragraphs": [
+            "If data connectivity fails, use an already verified operator contact number or an agreed alternative contact method. Ask whether the booking is still accepted and whether the pickup location has changed; do not infer arrival from an old map pin.",
+            "Where accessible transport is needed, record the specific agreed accommodation rather than assuming every replacement vehicle can provide it. This guide does not confirm current service availability or endorse an operator."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-library-closure-loan-record",
+      "title": "Keeping track of library loans during an unexpected branch closure",
+      "category": "Public services",
+      "summary": "Keep a simple loan record and verify changes to return arrangements.",
+      "tags": [
+        "library closure",
+        "book returns",
+        "public services",
+        "offline record"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Loan record",
+          "Closure notice",
+          "Confirm terms"
+        ],
+        "alt": "Three sequential stages distinguish the original library loan record from a dated closure notice and later confirmation of changed return terms.",
+        "caption": "An offline note cannot establish revised library deadlines."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Separate the loan from the closure",
+          "paragraphs": [
+            "A branch closure can affect access to a return box, reservation collection or staffed help desk. A closure notice may not say whether every loan deadline, fine or reservation policy has changed.",
+            "Record the item identifier or a minimal description, the original due date and the issuing library service. Keep the date and source of any closure notice, but avoid assuming a blanket extension without confirmation."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Use the library's own policy",
+          "paragraphs": [
+            "When contact becomes possible, check the library authority's official service channels for alternative return arrangements and any updated terms. A different branch may not accept every item type or provide the same service.",
+            "If you need an accessible return option, ask the service about it before making a journey. Do not publish library-card numbers, account passwords or another person's borrowing history."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-bin-collection-disruption",
+      "title": "Recording a missed household waste collection during street disruption",
+      "category": "Neighbourhood infrastructure",
+      "summary": "Distinguish a scheduled change from an isolated missed collection.",
+      "tags": [
+        "waste collection",
+        "road closure",
+        "council services",
+        "reporting"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Usual day",
+          "Published change",
+          "Report reference"
+        ],
+        "alt": "A three-part checklist records the normal collection date, any dated council announcement and a later report reference without asserting a live collection status.",
+        "caption": "Use the responsible council's current instructions for collection and storage."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the collection arrangement",
+          "paragraphs": [
+            "Roadworks, severe weather or temporary access restrictions may alter a waste collection round. A neighbour's observation that a vehicle did not arrive does not establish a new schedule for every property.",
+            "Record the normal collection day, which collection was expected and the date of any official notice. Check whether the announcement applies to the particular street and waste stream, rather than treating a general area notice as property-specific."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Follow the responsible service",
+          "paragraphs": [
+            "Consult the local authority or contracted service through its published channels for reporting and revised collection instructions. Keep the reference number and date if a missed collection is reported.",
+            "Do not obstruct pavements, accessible routes or emergency access with bins while waiting for an update. This is a record-keeping guide, not advice about hazardous waste handling or sanitation during a health incident."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-public-toilet-closure-access",
+      "title": "Planning accessible toilet stops when public facilities are temporarily closed",
+      "category": "Urban accessibility",
+      "summary": "Prepare a realistic alternative without assuming a nearby venue is available.",
+      "tags": [
+        "public toilets",
+        "accessibility",
+        "travel planning",
+        "facility closure"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Starting point",
+          "Confirmed facility",
+          "Destination"
+        ],
+        "alt": "A conceptual three-stop route highlights the need to confirm a usable facility between departure and destination; it is not a mapped or authorised walking route.",
+        "caption": "Confirm access, opening conditions and suitability before travel."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Plan around the actual need",
+          "paragraphs": [
+            "A temporary closure may affect an accessible toilet, changing facility or ordinary public convenience differently. A map symbol can remain visible even when a facility is unavailable or access conditions have changed.",
+            "For an essential outing, identify which facilities are genuinely required, including step-free access, equipment or opening arrangements. A generic nearby toilet symbol does not prove that those needs are met."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check before relying on an alternative",
+          "paragraphs": [
+            "Use the responsible operator's current contact information to confirm that an alternative is available, suitable and accessible at the intended time. Record a second option or a way to postpone a nonessential journey if confirmation is not possible.",
+            "Do not assume a private business must provide access or that a facility's published hours are current during disruption. Avoid sharing personal health details with strangers to justify a request."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-community-meeting-relocation",
+      "title": "Confirming a relocated neighbourhood meeting after disruption",
+      "category": "Household communication",
+      "summary": "Avoid travelling to an outdated venue or sharing an unverified invitation.",
+      "tags": [
+        "community meeting",
+        "venue change",
+        "local communication",
+        "verification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Original invite",
+          "Verified update",
+          "Share correction"
+        ],
+        "alt": "Three stages show an old meeting invitation being checked against an organiser's confirmed update before a correction is shared with attendees.",
+        "caption": "Share only confirmed venue changes and their effective date."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Keep old and new information distinct",
+          "paragraphs": [
+            "A community meeting may move because of weather, transport disruption or building access problems. Forwarded posters and screenshots can continue circulating after a change, especially when the original date or venue remains visible.",
+            "Keep the organiser name, original date and the source of any proposed change. Check whether the change concerns the venue, start time, format or cancellation; one alteration does not imply that every detail has changed."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Communicate without creating confusion",
+          "paragraphs": [
+            "Verify the update through an established organiser channel before passing it on. When sharing, state which earlier notice is superseded and include the date of the new message so recipients can recognise stale copies.",
+            "For events involving vulnerable attendees, confirm accessibility and travel arrangements directly rather than assuming a replacement venue is equivalent. Do not post private attendance lists or contact numbers publicly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban-delivery-reschedule-disruption",
+      "title": "Managing an essential delivery rescheduled after severe weather",
+      "category": "Household logistics",
+      "summary": "Keep delivery evidence and avoid confusing estimated windows with confirmed handovers.",
+      "tags": [
+        "delivery delay",
+        "weather disruption",
+        "courier",
+        "household supplies"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Order details",
+          "Latest notice",
+          "Safe handover"
+        ],
+        "alt": "A three-item checklist separates the original order reference, a dated carrier update and a mutually agreed handover arrangement.",
+        "caption": "A saved delivery window is not a live tracking result."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Understand what has changed",
+          "paragraphs": [
+            "Severe weather or local access restrictions can affect deliveries even when a tracking page still shows an earlier estimated window. A parcel marked delayed, attempted or delivered may require different follow-up with the retailer or carrier.",
+            "Record the order or consignment reference, the responsible company and the time of the most recent verified message. Keep a distinction between an estimated arrival, a confirmed appointment and a recorded handover."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Arrange an appropriate follow-up",
+          "paragraphs": [
+            "Use the retailer's or carrier's established channel to check rescheduling, collection or authorised recipient options. If the contents are time-sensitive or essential, tell the relevant provider about the dependency rather than assuming a delivery date will be met.",
+            "Do not enter closed or unsafe roads to intercept a vehicle. Avoid posting delivery addresses, tracking links or unattended access instructions on public community channels."
+          ]
+        }
+      ]
+    }
+  ]
+}
