@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-gps-accuracy-indicator",
+      "title": "Understand a phone's location accuracy indicator",
+      "category": "Outdoor skills & navigation",
+      "summary": "A location dot or shaded accuracy area is an estimate, not proof of an exact position.",
+      "tags": [
+        "gps",
+        "accuracy",
+        "offline maps",
+        "location"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "What the indicator means",
+          "paragraphs": [
+            "Many mapping apps draw a dot and sometimes a shaded circle around it. The circle suggests uncertainty in the reported location rather than marking a boundary that is guaranteed correct.",
+            "A small-looking marker can still be misleading when the map is zoomed in or when nearby paths are close together."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Use independent context",
+          "paragraphs": [
+            "Before using a location reading for an ordinary route note, compare the displayed position with recognisable map features and the route you intended to follow.",
+            "If the location appears to jump or drift, record that uncertainty instead of editing your notes to imply precision."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Know the limits",
+          "paragraphs": [
+            "Trees, buildings, device settings and reception conditions can affect the estimate. A saved map does not itself improve the device's location accuracy.",
+            "Never treat the shaded area as a guarantee of safe terrain or accessible paths; use an independent map and appropriate judgement."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Read the display",
+          "Compare with context",
+          "Keep a fallback"
+        ],
+        "alt": "Three-part reference for understand a phone's location accuracy indicator: Read the display, Compare with context, Keep a fallback. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-headtorch-mode-labels",
+      "title": "Identify headtorch lighting modes before a routine outing",
+      "category": "Outdoor skills & navigation",
+      "summary": "A labelled mode reference reduces confusion between brightness, flashing and secondary light settings.",
+      "tags": [
+        "headtorch",
+        "lighting modes",
+        "equipment",
+        "labels"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify controls without guessing",
+          "paragraphs": [
+            "Read the manufacturer's mode descriptions before an outing and distinguish steady light, lower brightness and any flashing or coloured modes.",
+            "A long press or repeated press may do different things on different models, so avoid assuming one headtorch works like another."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Make a compact reference",
+          "paragraphs": [
+            "In a safe indoor setting, note which ordinary controls select the modes you actually use and how the unit is switched fully off.",
+            "Keep the notes with the model name so that a borrowed or replacement headtorch does not inherit incorrect instructions."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Check practical limitations",
+          "paragraphs": [
+            "Mode labels do not prove how long batteries will last or how far the light reaches in real conditions.",
+            "Do not use an unfamiliar flashing setting as a substitute for recognised emergency signalling or dependable route planning."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find controls",
+          "Check modes",
+          "Keep notes"
+        ],
+        "alt": "Three-part reference for identify headtorch lighting modes before a routine outing: Find controls, Check modes, Keep notes. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-boot-eyelet-inspection",
+      "title": "Inspect walking-boot eyelets and lace hooks",
+      "category": "Outdoor skills & navigation",
+      "summary": "Small damaged lace fittings can cause uneven fastening or snag clothing.",
+      "tags": [
+        "footwear",
+        "eyelets",
+        "lace hooks",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the fittings",
+          "paragraphs": [
+            "Walking footwear may use punched eyelets, fabric loops and metal hooks to guide the laces. Their shapes and attachment methods vary by model.",
+            "Look for missing parts, torn surrounding fabric, rust or sharp edges when the footwear is clean and dry."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Inspect without forcing",
+          "paragraphs": [
+            "With the boot off your foot, visually compare fittings on each side and look for a lace that repeatedly catches or frays in the same place.",
+            "Do not bend a damaged hook back into place or pull aggressively on a loose eyelet; such changes can worsen the attachment."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Choose appropriate follow-up",
+          "paragraphs": [
+            "Record the model and affected fitting before seeking a manufacturer-approved repair or replacement.",
+            "A lace that still threads through the boot does not prove that a damaged fitting is secure during walking."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Look closely",
+          "Check edges",
+          "Record wear"
+        ],
+        "alt": "Three-part reference for inspect walking-boot eyelets and lace hooks: Look closely, Check edges, Record wear. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-map-pdf-bookmarks",
+      "title": "Add useful bookmarks to an offline walking-map PDF",
+      "category": "Outdoor skills & navigation",
+      "summary": "Bookmarks can shorten the search for the correct page in a long downloaded map document.",
+      "tags": [
+        "pdf",
+        "map",
+        "bookmarks",
+        "offline files"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose pages worth finding",
+          "paragraphs": [
+            "A long map PDF may contain an overview, a symbol key, multiple geographic sheets and explanatory notes.",
+            "Identify a few pages you would otherwise scroll past repeatedly; do not bookmark every page without a reason."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Use descriptive labels",
+          "paragraphs": [
+            "Name bookmarks for the visible page content, such as 'Legend' or 'North section', rather than using only page numbers.",
+            "If the PDF reader cannot save bookmarks inside the document, keep a separate short page index alongside the file."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Verify the saved copy",
+          "paragraphs": [
+            "Close and reopen the PDF without network access to confirm that the pages and bookmarks still work on the device.",
+            "Bookmarks are navigation aids inside a document; they do not confirm that the underlying map is current or complete."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Choose pages",
+          "Name links",
+          "Test offline"
+        ],
+        "alt": "Three-part reference for add useful bookmarks to an offline walking-map pdf: Choose pages, Name links, Test offline. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-hydration-tube-condition",
+      "title": "Inspect the external condition of a hydration-pack drinking tube",
+      "category": "Outdoor skills & navigation",
+      "summary": "Visible wear or a loose tube connection deserves attention before packing a reusable hydration system.",
+      "tags": [
+        "hydration pack",
+        "drinking tube",
+        "equipment care",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify visible components",
+          "paragraphs": [
+            "Many hydration packs have a flexible tube, a connector and a drinking valve. The exact arrangement depends on the manufacturer.",
+            "Look for visible cracks, pinched sections, discolouration or an obviously loose connector while the system is empty and accessible."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Keep inspection separate from cleaning",
+          "paragraphs": [
+            "Check the tube's outer condition and refer to the maker's instructions for any permitted disassembly or cleaning.",
+            "Avoid using improvised adhesives or unapproved replacement parts on a component intended to contact drinking water."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Record and resolve concerns",
+          "paragraphs": [
+            "If a component is damaged or cannot be cleaned as directed, identify the model and obtain a compatible replacement or professional product advice.",
+            "A visual check cannot establish internal cleanliness or drinking-water safety, and this draft is not a sanitisation procedure."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect tube",
+          "Check joins",
+          "Follow manual"
+        ],
+        "alt": "Three-part reference for inspect the external condition of a hydration-pack drinking tube: Inspect tube, Check joins, Follow manual. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-pack-mesh-pocket-check",
+      "title": "Check stretch-mesh pockets on a walking daypack",
+      "category": "Outdoor skills & navigation",
+      "summary": "A stretched or snagged side pocket may no longer retain small belongings reliably.",
+      "tags": [
+        "daypack",
+        "mesh pocket",
+        "storage",
+        "wear"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand pocket limits",
+          "paragraphs": [
+            "Stretch-mesh pockets are useful for quick access but are not identical to zipped or enclosed storage.",
+            "Their retention depends on fabric elasticity, stitching, the item's shape and how the pack moves."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Look for deterioration",
+          "paragraphs": [
+            "With the bag empty, inspect the mesh for holes, pulled threads, loose seams and an opening that has lost its original shape.",
+            "Avoid testing a suspect pocket by loading it with valuable or breakable items during a walk."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Choose a safer location",
+          "paragraphs": [
+            "Move small essential items to a secure compartment when the pocket is worn or does not suit their shape.",
+            "A repair or replacement should follow the bag maker's guidance; a visually intact pocket is not a guarantee against loss."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect mesh",
+          "Check seams",
+          "Reassign items"
+        ],
+        "alt": "Three-part reference for check stretch-mesh pockets on a walking daypack: Inspect mesh, Check seams, Reassign items. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-paper-map-spot-index",
+      "title": "Create a place-name index for a large paper walking map",
+      "category": "Outdoor skills & navigation",
+      "summary": "A short alphabetical index helps locate familiar places without repeatedly unfolding every sheet.",
+      "tags": [
+        "paper map",
+        "place names",
+        "index",
+        "navigation notes"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose a useful scope",
+          "paragraphs": [
+            "A large paper map may include several towns, car parks and named landmarks. An index is most helpful for places you repeatedly look up.",
+            "Write only a manageable set of names, keeping the spelling exactly as it appears on the map."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Record a reference",
+          "paragraphs": [
+            "Beside each name, add the sheet or panel reference and any printed grid reference only when you can read it confidently.",
+            "Keep the index separate from the original map so you do not obscure printed symbols or important marginal information."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Maintain the index",
+          "paragraphs": [
+            "Check the list against the actual edition of the map when changing sheets or replacing a worn copy.",
+            "An index is a retrieval tool, not a substitute for interpreting a full route or checking current access conditions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "List names",
+          "Add references",
+          "Check clarity"
+        ],
+        "alt": "Three-part reference for create a place-name index for a large paper walking map: List names, Add references, Check clarity. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    },
+    {
+      "id": "outdoor-gear-care-label-symbols",
+      "title": "Keep manufacturer care-label symbols with outdoor gear records",
+      "category": "Outdoor skills & navigation",
+      "summary": "A short care reference helps avoid confusing wash and drying instructions between similar garments.",
+      "tags": [
+        "outdoor clothing",
+        "care labels",
+        "laundry",
+        "equipment records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Locate the original instructions",
+          "paragraphs": [
+            "Technical outdoor clothing can use different fabrics, coatings and trims even when two garments look similar.",
+            "Check the sewn-in care label and any manufacturer documentation before deciding how an item should be cleaned."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Make a legible record",
+          "paragraphs": [
+            "Photograph or transcribe the care label with the garment name and model, taking care not to omit symbols or written exceptions.",
+            "Keep the record offline where you can find it without relying on a retail product page that might change."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Avoid assumptions",
+          "paragraphs": [
+            "Do not interpret an unfamiliar symbol from memory or apply a generic detergent or heat setting across all equipment.",
+            "If the original label is missing or unreadable, seek model-specific manufacturer guidance rather than inventing a cleaning method."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find label",
+          "Record model",
+          "Check directions"
+        ],
+        "alt": "Three-part reference for keep manufacturer care-label symbols with outdoor gear records: Find label, Record model, Check directions. Each label represents a topic to inspect or document, not a guarantee of safety.",
+        "caption": "Use these 3 headings as a compact reminder alongside the full guide."
+      }
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-route-accessibility-notes",
+      "title": "Record practical accessibility details for an outdoor walking route",
+      "category": "Outdoor navigation",
+      "summary": "Make a route description useful to walkers with different mobility and access needs.",
+      "tags": [
+        "accessibility",
+        "route",
+        "mobility",
+        "gradient",
+        "barrier",
+        "surface"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Observe rather than assume",
+          "paragraphs": [
+            "Record whether a route description mentions steps, narrow gaps, gates, steep gradients or uneven surfaces, distinguishing what you personally observed from what a map or third-party description suggests.",
+            "Avoid declaring a route universally accessible. Mobility aids, stamina, weather and temporary obstructions can change what is suitable for different people."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Keep the notes specific",
+          "paragraphs": [
+            "Describe approximate locations of known obstacles in plain language, with the date and direction of travel. Include rest opportunities and accessible facilities only where their availability has been checked.",
+            "Separate a physical observation from an access permission or live closure status. A photo can help describe a feature, but it should not disclose another person's identity or private property details."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Share with care",
+          "paragraphs": [
+            "Invite each participant to assess the route against their own needs and current information rather than treating your notes as a safety guarantee.",
+            "Review the description after a route changes or a participant identifies a missing barrier. Keep a simpler alternative plan when a route's suitability is uncertain."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Observe features",
+          "Date the notes",
+          "Review together"
+        ],
+        "alt": "Original schematic checklist diagram for record practical accessibility details for an outdoor walking route, with three labelled elements: Observe features, Date the notes, Review together. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual checklist illustration: Observe features · Date the notes · Review together. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-group-load-sharing",
+      "title": "Organise shared equipment loads for a group day walk",
+      "category": "Outdoor equipment",
+      "summary": "Avoid forgotten or duplicated shared items without prescribing unsafe carrying loads.",
+      "tags": [
+        "group",
+        "equipment",
+        "inventory",
+        "weight",
+        "responsibility",
+        "daypack"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify genuinely shared items",
+          "paragraphs": [
+            "List items that one person may carry for the group, such as a printed route overview, communal rubbish bag or spare nonhazardous accessories. Keep personal essentials separate from shared gear.",
+            "Agree what each participant needs to carry personally; a shared list must not encourage anyone to leave behind necessary clothing, water or individual medical supplies."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Assign and confirm",
+          "paragraphs": [
+            "Record one named carrier and an optional backup for each shared item. Ask participants to confirm that the equipment is actually packed rather than assuming an assigned name means it is present.",
+            "Consider comfort, physical ability and bag space before allocating anything bulky. Do not assign fixed carrying-weight limits from a generic guide or pressure a person to accept an unsuitable load."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Reconcile after the walk",
+          "paragraphs": [
+            "Check items back into the group inventory, noting damage, wetness, missing accessories and the person responsible for returning borrowed gear.",
+            "Keep the inventory small and readable on paper as well as in the app. Review any unnecessary duplication after the trip without removing useful redundancy from critical personal essentials."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "List shared kit",
+          "Assign carriers",
+          "Check return"
+        ],
+        "alt": "Original schematic checklist diagram for organise shared equipment loads for a group day walk, with three labelled elements: List shared kit, Assign carriers, Check return. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual checklist illustration: List shared kit · Assign carriers · Check return. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-hat-condition-check",
+      "title": "Inspect and store an outdoor walking hat",
+      "category": "Outdoor equipment",
+      "summary": "Check ordinary hats for fit, wear and practical comfort before routine outings.",
+      "tags": [
+        "hat",
+        "headwear",
+        "brim",
+        "sun",
+        "fabric",
+        "storage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Look over the material",
+          "paragraphs": [
+            "Inspect the brim, seams, fastening and any adjustable band for visible tears, loose stitching or damage. A brim that no longer holds its shape may offer less useful shade or obstruct sight.",
+            "Check the care label and product information before washing or reshaping the hat. Different fabrics and coatings may react differently to heat, detergents or machine washing."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Assess comfort and visibility",
+          "paragraphs": [
+            "Try the hat with the clothing and glasses you expect to use. Make sure the fit does not cover your eyes or create pressure points during ordinary movement.",
+            "A hat is one component of weather-appropriate clothing, not a substitute for sun protection, warm layers or checking the conditions. Avoid attaching dangling accessories that could catch on equipment."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Dry and store",
+          "paragraphs": [
+            "Allow damp headwear to dry according to its label before putting it into a closed storage bag. Store it without heavy items crushing the brim.",
+            "Record any repair or replacement needed in your kit list. A damaged hat is a comfort and equipment issue, not a reason to improvise an unsafe outdoor activity."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect",
+          "Try on",
+          "Store dry"
+        ],
+        "alt": "Original schematic sequence diagram for inspect and store an outdoor walking hat, with three labelled elements: Inspect, Try on, Store dry. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual sequence illustration: Inspect · Try on · Store dry. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-zipper-maintenance",
+      "title": "Check zips and pull tabs on outdoor bags",
+      "category": "Outdoor equipment",
+      "summary": "Spot ordinary zip and fastener problems before a bag is needed away from home.",
+      "tags": [
+        "zip",
+        "zipper",
+        "bag",
+        "pull-tab",
+        "fastener",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check without forcing",
+          "paragraphs": [
+            "Inspect the zip teeth, fabric edges, pull tab and stitching for grit, snagged threads or visible damage. Open and close the zip gently while the bag is empty or lightly loaded.",
+            "If the slider jams or teeth separate, stop rather than applying extra force. A failed zip can make contents less secure, and forcing it may damage the fabric or mechanism further."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Keep cleaning product-specific",
+          "paragraphs": [
+            "Use the manufacturer's care guidance for removing loose surface dirt. Avoid applying oils, solvents or unfamiliar lubricants that could affect coatings, fabrics or water resistance.",
+            "Check whether a bag's weather resistance depends on a flap, sealed zip or separate liner. A zip that closes smoothly does not establish that a bag is waterproof."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Record and replace",
+          "paragraphs": [
+            "Mark a problematic compartment in the equipment inventory and choose a suitable alternative container until the fastener is repaired or replaced.",
+            "Test the bag again at home after a permitted repair. Keep small replacement pull tabs with the correct bag rather than mixing incompatible hardware in a general kit."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect teeth",
+          "Move gently",
+          "Log defects"
+        ],
+        "alt": "Original schematic sequence diagram for check zips and pull tabs on outdoor bags, with three labelled elements: Inspect teeth, Move gently, Log defects. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual sequence illustration: Inspect teeth · Move gently · Log defects. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-folding-chair-inspection",
+      "title": "Inspect a portable folding chair before a routine outdoor stop",
+      "category": "Outdoor equipment",
+      "summary": "Identify visible wear on lightweight outdoor seating without attempting structural repairs.",
+      "tags": [
+        "chair",
+        "camping",
+        "folding",
+        "seat",
+        "hinge",
+        "fabric",
+        "stability"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Inspect on level ground",
+          "paragraphs": [
+            "Check the frame, feet, joints and fabric for visible cracks, corrosion, torn seams or missing parts while the chair is unloaded. Consult the manufacturer's model-specific instructions and stated limitations.",
+            "A chair that looks intact may still have concealed damage. Do not assume a generic weight rating or that the chair is suitable for slopes, loose ground or uneven surfaces."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Set up only as intended",
+          "paragraphs": [
+            "Follow the product's unfolding and locking instructions on firm, level ground, keeping fingers away from moving joints. If a locking part will not engage normally, take the chair out of use.",
+            "Do not improvise a replacement pin or use a visibly bent frame. Small lightweight stools and full-size folding chairs may have entirely different mechanisms and stability characteristics."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Clean and put away",
+          "paragraphs": [
+            "Remove loose dirt and dry fabric and frame surfaces according to the care label before storage. Check that any carry bag and fasteners remain with the correct chair.",
+            "Record defects and arrange a manufacturer-approved repair or replacement. The illustration is an inspection reminder, not an assembly or load-bearing safety diagram."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Frame",
+          "Locks",
+          "Fabric"
+        ],
+        "alt": "Original schematic checklist diagram for inspect a portable folding chair before a routine outdoor stop, with three labelled elements: Frame, Locks, Fabric. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual checklist illustration: Frame · Locks · Fabric. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-field-observation-log",
+      "title": "Keep a low-impact nature observation log on a walk",
+      "category": "Outdoor skills",
+      "summary": "Record useful natural observations without disturbing habitats or disclosing sensitive locations.",
+      "tags": [
+        "wildlife",
+        "nature",
+        "observation",
+        "field-notes",
+        "privacy",
+        "habitat"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Choose what to record",
+          "paragraphs": [
+            "Use a simple date, general area, weather description and short observation such as bird calls, flowering plants or visible seasonal changes. Distinguish what you saw from an uncertain species identification.",
+            "A photograph or brief description is often more useful than guessing a name. Avoid picking plants or handling animals simply to improve the record."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Respect people and wildlife",
+          "paragraphs": [
+            "Observe from an appropriate distance and follow site rules. Do not approach nests, dens or protected areas for a closer picture, and avoid leaving marked paths where access is restricted.",
+            "Keep precise locations of vulnerable species or private sites out of public notes. Location metadata in photographs may reveal more than the written caption."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Review observations",
+          "paragraphs": [
+            "Group notes by date or broad location so changes over time can be compared without implying a scientific population survey.",
+            "Correct uncertain identifications as new information becomes available, keeping the original observation separate from later interpretation. A personal log is not an official ecological assessment."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Observe",
+          "Record",
+          "Review"
+        ],
+        "alt": "Original schematic sequence diagram for keep a low-impact nature observation log on a walk, with three labelled elements: Observe, Record, Review. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual sequence illustration: Observe · Record · Review. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-bottle-sleeve-check",
+      "title": "Inspect an insulated sleeve or carrier for a walking bottle",
+      "category": "Outdoor equipment",
+      "summary": "Keep a reusable bottle sleeve secure, clean and compatible with its container.",
+      "tags": [
+        "bottle",
+        "sleeve",
+        "insulation",
+        "carrier",
+        "strap",
+        "hydration"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check the fit",
+          "paragraphs": [
+            "Confirm the sleeve is designed for the bottle's shape and size. Inspect seams, elastic, clips and straps for wear, especially where a full container pulls against the carrier.",
+            "A loose sleeve may let the bottle fall, while a tight one may make it difficult to remove. Do not rely on a fabric carrier to prevent leaks from a damaged bottle lid."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Separate cleaning needs",
+          "paragraphs": [
+            "Follow the sleeve's fabric-care instructions and the bottle maker's cleaning guidance separately. Let both dry before storing them together.",
+            "An insulated sleeve can slow temperature change but does not sterilise drinking water or guarantee a safe temperature. Do not infer food-safety performance from the presence of padding."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Pack for easy access",
+          "paragraphs": [
+            "Place the bottle where it can be reached without pulling dangerously on loose straps. Check that clips cannot snag nearby equipment during ordinary walking.",
+            "After the outing, note any torn seam, odour or failed fastener and replace the carrier if necessary. A short visual inspection is more useful than assuming it is fine because it was packed."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Fit",
+          "Seams",
+          "Dry storage"
+        ],
+        "alt": "Original schematic checklist diagram for inspect an insulated sleeve or carrier for a walking bottle, with three labelled elements: Fit, Seams, Dry storage. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual checklist illustration: Fit · Seams · Dry storage. Check current conditions and product guidance where relevant."
+      }
+    },
+    {
+      "id": "outdoor-route-rest-point-notes",
+      "title": "Plan and document ordinary rest opportunities on a walking route",
+      "category": "Outdoor navigation",
+      "summary": "Make a route description clearer by noting suitable places to pause and their limitations.",
+      "tags": [
+        "rest",
+        "route",
+        "walking",
+        "bench",
+        "break",
+        "facilities"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify possible stopping places",
+          "paragraphs": [
+            "Mark public benches, designated picnic areas or other lawful stopping points shown on a map or observed on a previous visit. Record whether each is a confirmed observation or an unverified suggestion.",
+            "Do not assume a mapped bench is still present, accessible or available. A shaded location in one season may be exposed in another, and weather can change whether a stop is comfortable."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Describe useful characteristics",
+          "paragraphs": [
+            "Note approximate location, whether seating exists, whether there is shelter from ordinary weather and any relevant access barriers. Keep the wording brief enough to scan on a phone.",
+            "Avoid describing a rest point as a guaranteed source of drinking water, emergency shelter or mobile reception. Those conditions can change and may require current checks."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Make the plan adaptable",
+          "paragraphs": [
+            "Share possible breaks with the group and allow extra time when participants have different comfort or mobility needs. A rest point is an option, not a compulsory checkpoint.",
+            "If a planned stopping place is unavailable, reassess the route rather than assuming the next stop will be suitable. Keep notes dated and distinguish planning information from live conditions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Start",
+          "Possible stop",
+          "Next section"
+        ],
+        "alt": "Original schematic route diagram for plan and document ordinary rest opportunities on a walking route, with three labelled elements: Start, Possible stop, Next section. The illustration is conceptual and does not depict technical rescue or medical procedures.",
+        "caption": "Conceptual route illustration: Start · Possible stop · Next section. Check current conditions and product guidance where relevant."
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-north-indicators",
+      "title": "Distinguish north indicators on walking maps",
+      "category": "Navigation",
+      "summary": "Map arrows and north references can differ between a printed sheet and a digital display.",
+      "tags": [
+        "north",
+        "map",
+        "grid north",
+        "true north",
+        "magnetic north",
+        "legend"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Find arrow",
+          "Read legend",
+          "Note reference"
+        ],
+        "alt": "Original schematic showing find arrow, read legend, note reference as a simple visual reminder for the article 'Distinguish north indicators on walking maps'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Find arrow · Read legend · Note reference. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Start with the map's own legend",
+          "paragraphs": [
+            "Before using an arrow labelled north, identify whether the map is describing grid north, true north or magnetic north. These are different reference directions, and a simple north symbol does not establish how a separate compass is configured.",
+            "Record the sheet edition and any printed notes about north references alongside the route. Old printed annotations can become outdated, so do not assume an older figure is suitable for a present-day navigation calculation."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Avoid mixing reference systems",
+          "paragraphs": [
+            "When a route note, compass or navigation app reports a direction, check which north reference that tool uses. A direction copied without its reference can be misleading even when the number appears precise.",
+            "Keep the wording of the reference visible in your personal notes rather than abbreviating every direction to an unexplained N. A training provider or current map documentation can explain any conversions needed for actual field navigation."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep an offline reference",
+          "paragraphs": [
+            "Photograph or transcribe the map legend only where permitted, or retain the original paper sheet with the relevant legend visible. Avoid relying on a cropped image that removes the explanation of its symbols.",
+            "If a map and device disagree, treat that as a reason to review their settings and documentation, not as evidence that either one is automatically correct. This draft is an orientation aid rather than a navigation instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gps-track-uncertainty",
+      "title": "Understand why a recorded GPS track may wander",
+      "category": "Navigation",
+      "summary": "Interpret apparent route deviations without treating a device trace as exact ground truth.",
+      "tags": [
+        "gps",
+        "track log",
+        "satellite",
+        "accuracy",
+        "mapping",
+        "location"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Record track",
+          "Inspect context",
+          "Annotate gaps"
+        ],
+        "alt": "Original schematic showing record track, inspect context, annotate gaps as a simple visual reminder for the article 'Understand why a recorded GPS track may wander'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Record track · Inspect context · Annotate gaps. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Recognise what a track records",
+          "paragraphs": [
+            "A GPS track is a sequence of location estimates rather than a surveyed path. Buildings, steep terrain, dense cover, device settings and interruptions can affect the plotted line.",
+            "A zigzag or apparent shortcut in the record may reflect measurement uncertainty instead of where someone actually walked. The displayed precision of a coordinate is not a guarantee of real-world accuracy."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Review the trace in context",
+          "paragraphs": [
+            "Compare the track with the mapped path and any contemporaneous notes, without using the track alone to infer whether a trail is accessible or safe. Note places where recording stopped or the device was restarted.",
+            "Do not publish a trace that reveals private starting points, home addresses or the routine location of another person without their permission. Consider whether location history should remain only on the device."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Preserve useful annotations",
+          "paragraphs": [
+            "Add a plain-language note such as signal uncertain or recording paused when a suspicious segment cannot be verified. Preserve the original track if edits would otherwise make a corrected line look like direct measurement.",
+            "For important route decisions, consult current mapping, local access information and suitable navigation training. A historical GPS trace is not a live hazard or closure report."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-paper-map-folding",
+      "title": "Fold a paper walking map for repeated reference",
+      "category": "Navigation",
+      "summary": "Keep the relevant area visible while reducing wear and losing less context.",
+      "tags": [
+        "paper map",
+        "fold",
+        "crease",
+        "route",
+        "storage",
+        "sheet"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Locate area",
+          "Fold gently",
+          "Retain legend"
+        ],
+        "alt": "Original schematic showing locate area, fold gently, retain legend as a simple visual reminder for the article 'Fold a paper walking map for repeated reference'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Locate area · Fold gently · Retain legend. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Find the area and supporting information",
+          "paragraphs": [
+            "Identify the planned map area, scale, legend and neighbouring route sections before folding. A very tight fold that hides the only scale bar or symbol explanation can make the map harder to interpret.",
+            "Check whether the map is already designed with a folding pattern. Laminated or waterproof-coated sheets may have different handling recommendations, so avoid forcing sharp new creases through stiff material."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Reduce unnecessary damage",
+          "paragraphs": [
+            "Open the map on a clean, dry surface and use existing folds where possible. A protective sleeve can reduce repeated handling of a damp or dirty sheet without changing its printed information.",
+            "Avoid marking the only copy with permanent changes that might be mistaken for official rights of way or current closures. Put temporary route notes on a removable overlay or separate card instead."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Check readability after folding",
+          "paragraphs": [
+            "Make sure the visible panel still contains enough adjacent context to recognise where the mapped route continues. Keep the full sheet accessible for checking features outside the narrow panel.",
+            "After the walk, unfold and dry the map in accordance with its material guidance, then inspect weak fold lines. Replace a sheet when essential labels or symbols are no longer legible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-drybag-condition",
+      "title": "Inspect a roll-top dry bag before packing",
+      "category": "Equipment",
+      "summary": "Recognise wear and closure problems without assuming a bag is waterproof in every condition.",
+      "tags": [
+        "dry bag",
+        "roll top",
+        "seam",
+        "waterproof",
+        "packing",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect seams",
+          "Check closure",
+          "Protect contents"
+        ],
+        "alt": "Original schematic showing inspect seams, check closure, protect contents as a simple visual reminder for the article 'Inspect a roll-top dry bag before packing'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Inspect seams · Check closure · Protect contents. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Know the bag's intended use",
+          "paragraphs": [
+            "Read the manufacturer's product description and limits before treating a dry bag as waterproof. A bag intended for splash protection may not be suitable for immersion or pressure from other equipment.",
+            "Check for punctures, worn coatings, split seam tape and dirt trapped around the opening. The absence of visible damage does not prove a bag will keep sensitive items dry."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Prepare a clean closure",
+          "paragraphs": [
+            "Keep the closing surfaces free from bulky objects and debris, and follow the manufacturer's specified closure method. Overfilling can make the closure difficult to secure as designed.",
+            "Place fragile electronics and important paper items in an additional suitable protective layer where loss from moisture would be consequential. Do not rely on a single bag as the only protection for essential information."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Maintain and replace responsibly",
+          "paragraphs": [
+            "After use, empty the bag, check for trapped moisture and dry it according to the care label before storage. Avoid storing wet fabric tightly rolled for long periods.",
+            "Record damaged buckles or seam failures for replacement or specialist repair. A homemade patch should not be treated as restoring a manufacturer's original waterproof rating."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-phone-pouch-inspection",
+      "title": "Check a waterproof phone pouch before a walk",
+      "category": "Equipment",
+      "summary": "Inspect seals, screen usability and practical limitations of a protective phone case.",
+      "tags": [
+        "phone pouch",
+        "seal",
+        "touchscreen",
+        "camera",
+        "water protection",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect seal",
+          "Test controls",
+          "Plan backup"
+        ],
+        "alt": "Original schematic showing inspect seal, test controls, plan backup as a simple visual reminder for the article 'Check a waterproof phone pouch before a walk'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Inspect seal · Test controls · Plan backup. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Inspect the case without a phone",
+          "paragraphs": [
+            "Look for tears, grit, distorted seals, damaged clips and a cloudy window that prevents reading the screen. Check the stated water-resistance limits and the product's specific inspection instructions.",
+            "Do not place an important phone inside a visibly damaged pouch and assume that closing its clips will restore protection. Follow any manufacturer-recommended empty-case check rather than improvising a test with the device inside."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check usability before travel",
+          "paragraphs": [
+            "Confirm that essential controls, accessibility features and the screen remain usable when the phone is enclosed. Some cases can reduce touch responsiveness or make charging and audio awkward.",
+            "Plan how you would access information without repeatedly opening the pouch in wet conditions. Keep a separate paper contact card or route summary if the phone becomes unavailable."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Care and storage",
+          "paragraphs": [
+            "Clean and dry the exterior before opening a wet case to reduce moisture transfer to the phone. After the trip, follow the manufacturer's cleaning and storage advice for the seal and closure.",
+            "Keep a record of damaged closures and replace the case when the manufacturer recommends it. The pouch does not turn a mobile phone into an approved emergency communication device."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-visibility-accessories",
+      "title": "Organise visibility accessories for low-light walking",
+      "category": "Equipment",
+      "summary": "Choose and check everyday reflective accessories without implying they make traffic exposure safe.",
+      "tags": [
+        "reflective",
+        "visibility",
+        "low light",
+        "clothing",
+        "walking",
+        "accessories"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find items",
+          "Check condition",
+          "Review context"
+        ],
+        "alt": "Original schematic showing find items, check condition, review context as a simple visual reminder for the article 'Organise visibility accessories for low-light walking'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Find items · Check condition · Review context. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify the accessories you have",
+          "paragraphs": [
+            "List the reflective bands, bright clothing panels or detachable visibility accessories used for routine walks. Keep them with the relevant jacket or daypack so they are easy to locate.",
+            "Different materials behave differently under headlights and daylight. A bright colour, a reflective strip and an active light are not interchangeable, and none removes the need to assess a route's traffic and lighting risks."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Check physical condition",
+          "paragraphs": [
+            "Inspect attachment points, worn reflective surfaces, cracked housings and any removable fasteners. Accessories that fall off or are hidden under another layer may not provide the intended visibility.",
+            "For battery-powered lights, use the manufacturer's charging and battery checks and confirm the device operates before setting out. Avoid interpreting a single successful test as a guarantee of runtime."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Keep expectations realistic",
+          "paragraphs": [
+            "Record which items fit different outer layers and who uses them. Do not rely on visibility accessories as a substitute for safer route choices, appropriate crossings or current local conditions.",
+            "Replace damaged items according to the maker's guidance and keep packaging details if you need to identify a compatible replacement. This article is an equipment inventory aid, not traffic safety certification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-borrowed-gear-handover",
+      "title": "Create a handover checklist for borrowed outdoor gear",
+      "category": "Equipment",
+      "summary": "Record condition, ownership and missing accessories when sharing nonhazardous walking equipment.",
+      "tags": [
+        "borrowed gear",
+        "loan",
+        "inventory",
+        "handover",
+        "equipment",
+        "accessories"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Identify item",
+          "Check condition",
+          "Agree return"
+        ],
+        "alt": "Original schematic showing identify item, check condition, agree return as a simple visual reminder for the article 'Create a handover checklist for borrowed outdoor gear'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Identify item · Check condition · Agree return. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Identify exactly what is being lent",
+          "paragraphs": [
+            "Write down the item name, size, model where relevant, and the accessories included. A bag with removable straps or a headtorch without its charging cable can be difficult to return completely without a simple list.",
+            "Keep the owner's private contact details out of shared public notes. Agree directly where and when the equipment will be returned, rather than adding someone else's location to a public route record."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Describe condition without overclaiming",
+          "paragraphs": [
+            "Note visible damage, missing pieces and any known limitations before the handover. Avoid saying an item is safe merely because it appears clean or has worked on a previous trip.",
+            "For equipment with manufacturer inspection requirements, keep those instructions with the item. Do not lend specialist protective or life-safety equipment based only on this generic checklist."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Close the loop after use",
+          "paragraphs": [
+            "When returning an item, compare the original accessories list and describe any changes noticed during the trip. Clean and dry equipment only according to the maker's care instructions.",
+            "Agree who will handle replacement or professional inspection if damage is found. A neutral record helps avoid confusion without treating an inventory entry as proof of performance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-groundsheet-care",
+      "title": "Pack and care for a lightweight picnic groundsheet",
+      "category": "Equipment",
+      "summary": "Keep a nontechnical ground covering clean, compact and ready for routine outdoor stops.",
+      "tags": [
+        "groundsheet",
+        "picnic",
+        "fabric",
+        "drying",
+        "packing",
+        "outdoor"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect fabric",
+          "Fold loosely",
+          "Dry after use"
+        ],
+        "alt": "Original schematic showing inspect fabric, fold loosely, dry after use as a simple visual reminder for the article 'Pack and care for a lightweight picnic groundsheet'. The labels are conceptual prompts, not certified safety steps.",
+        "caption": "Inspect fabric · Fold loosely · Dry after use. Equipment or map-reference overview only; check current guidance where needed."
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Choose the appropriate covering",
+          "paragraphs": [
+            "Check the material, approximate size and any manufacturer instructions before packing a groundsheet. A picnic covering may be useful for a routine rest but should not be represented as a certified shelter or thermal-protection system.",
+            "Inspect for sharp debris, damaged edges and broken straps before placing it near other belongings. Keep any wet or muddy surface away from clean clothing and food containers."
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Pack with practical access in mind",
+          "paragraphs": [
+            "Fold or roll the sheet according to its material and storage bag, keeping the bundle manageable. A compact cover is only useful if it can be found without emptying the entire pack.",
+            "Consider a separate bag for damp items and label it clearly. Do not compress a wet covering into a sealed compartment for prolonged storage, as moisture can damage materials and other contents."
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Clean and store",
+          "paragraphs": [
+            "After a routine stop, remove loose dirt and follow the care label for washing or wiping the sheet. Allow it to dry fully before long-term storage, including seams and folds.",
+            "Check for tears or worn coatings before the next outing and replace the sheet if it no longer suits its intended everyday purpose. This is a care guide, not advice for exposure emergencies."
+          ]
+        }
+      ]
+    }
+  ]
+}

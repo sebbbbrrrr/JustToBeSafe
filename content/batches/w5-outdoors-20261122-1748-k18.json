@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-print-contrast",
+      "title": "Check print contrast on a paper walking map",
+      "category": "Outdoor skills & navigation",
+      "summary": "A printed map can lose useful distinctions when colours or fine lines reproduce poorly.",
+      "tags": [
+        "paper map",
+        "print",
+        "contrast",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Compare the source and print",
+          "paragraphs": [
+            "Look at a printed extract alongside its source in good light. Thin paths, contour lines and pale labels may disappear on an economical printer.",
+            "Check several kinds of features rather than relying on a single large place name."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Keep the legend usable",
+          "paragraphs": [
+            "Include the map legend, scale, orientation and edition details on or with the print.",
+            "Try a familiar small area first; a greyscale copy may merge symbols that were distinct in colour."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Know what printing cannot confirm",
+          "paragraphs": [
+            "A clear print is not evidence that access rights, closures or ground conditions are current.",
+            "Keep the original map or another suitable reference available and avoid relying on a low-quality print as the only source."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Lines",
+          "Labels",
+          "Legend"
+        ],
+        "alt": "A checklist for checking fine route lines, readable labels and a retained legend on a printed map.",
+        "caption": "Test legibility before treating a printout as a navigation reference."
+      }
+    },
+    {
+      "id": "outdoor-gpx-file-metadata",
+      "title": "Keep useful metadata with an exported walking-route file",
+      "category": "Outdoor skills & navigation",
+      "summary": "A route file may retain coordinates but lose its original context.",
+      "tags": [
+        "gpx",
+        "route",
+        "metadata",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Understand the file",
+          "paragraphs": [
+            "An exported GPX or similar route file commonly stores points or a track, but descriptive details vary by app.",
+            "A filename alone may not explain when the route was planned, which map was used or whether it was walked."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Add a companion note",
+          "paragraphs": [
+            "Keep a short plain-text note with the file containing the intended area, creation date, source and any known assumptions.",
+            "Use a neutral filename without personal addresses or sensitive location details when sharing."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Check portability",
+          "paragraphs": [
+            "Open a copy in the intended offline application before travelling, rather than assuming every app interprets the file identically.",
+            "A saved route is not a live report about path conditions or a substitute for appropriate map coverage."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Export",
+          "Note",
+          "Open"
+        ],
+        "alt": "Three stages show exporting a route file, keeping a companion note and opening a local copy.",
+        "caption": "Retain context as well as coordinates."
+      }
+    },
+    {
+      "id": "outdoor-lens-cloth-storage",
+      "title": "Store lens-cleaning cloths for outdoor optics",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep a reusable cleaning cloth from collecting grit that could scratch lenses.",
+      "tags": [
+        "optics",
+        "cloth",
+        "binoculars",
+        "care"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Recognise the problem",
+          "paragraphs": [
+            "A cloth carried loose among keys, crumbs and sand may pick up particles that can mark coated lenses.",
+            "The same risk applies to camera lenses, binoculars and spare glasses."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Separate clean and used items",
+          "paragraphs": [
+            "Store a clean cloth in a dedicated sleeve or small washable pouch.",
+            "If a cloth feels gritty or visibly dirty, set it aside for suitable cleaning rather than rubbing a lens with it."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Follow equipment guidance",
+          "paragraphs": [
+            "Check the manufacturer's cleaning instructions before using liquids or wiping delicate coatings.",
+            "A cloth is not a repair for scratched optics, and a visibly damaged lens should not be polished experimentally."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Clean",
+          "Sleeve",
+          "Inspect"
+        ],
+        "alt": "A compact checklist showing a clean cloth, protective sleeve and condition inspection.",
+        "caption": "Keep abrasive particles away from optical surfaces."
+      }
+    },
+    {
+      "id": "outdoor-gear-serial-record",
+      "title": "Keep a private identification record for outdoor equipment",
+      "category": "Outdoor skills & navigation",
+      "summary": "A simple inventory can help distinguish similar items and support ownership records.",
+      "tags": [
+        "equipment",
+        "inventory",
+        "serial",
+        "records"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Choose useful fields",
+          "paragraphs": [
+            "Record the item type, maker, model and a non-sensitive distinguishing feature.",
+            "A serial number or purchase reference can be useful when the manufacturer provides one, but not every accessory has such a marking."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Store records sensibly",
+          "paragraphs": [
+            "Keep the record in an offline location you can access and back up appropriately.",
+            "Avoid publishing serial numbers, receipt addresses or detailed personal ownership records in public trip posts."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Update after changes",
+          "paragraphs": [
+            "Mark items that are loaned, replaced or disposed of so the inventory remains understandable.",
+            "The list is an organisational aid, not proof that equipment is safe or fit for a particular activity."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Item",
+          "Identifier",
+          "Status"
+        ],
+        "alt": "Three labelled inventory slots distinguish an equipment item, its private identifier and current status.",
+        "caption": "Keep ownership details private and records current."
+      }
+    },
+    {
+      "id": "outdoor-pack-zip-pull-visibility",
+      "title": "Make bag zip pulls easier to identify without confusing compartments",
+      "category": "Outdoor skills & navigation",
+      "summary": "Small, consistent markers can help locate everyday bag pockets.",
+      "tags": [
+        "rucksack",
+        "zip",
+        "labels",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Notice similar closures",
+          "paragraphs": [
+            "Several identical zip pulls can make a bag hard to use in dim light or when wearing gloves.",
+            "Distinct tactile or high-contrast markers can make frequently used compartments easier to tell apart."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Choose simple markers",
+          "paragraphs": [
+            "Use short, secure, non-sharp markers that do not catch in moving parts or obscure the zip track.",
+            "Keep marker meanings consistent, such as one texture for an outer pocket and another for a document sleeve."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Check for interference",
+          "paragraphs": [
+            "Open and close each pocket normally and confirm the marker does not jam the slider or snag nearby straps.",
+            "Do not attach loose loops where they could create an entanglement hazard or be mistaken for safety equipment."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Distinct",
+          "Secure",
+          "Unsnagged"
+        ],
+        "alt": "Three checks for distinct markers, secure attachment and freedom from snags.",
+        "caption": "Labels should improve recognition without creating a new snag point."
+      }
+    },
+    {
+      "id": "outdoor-walk-log-time-zones",
+      "title": "Record time-zone context in saved walking notes",
+      "category": "Outdoor skills & navigation",
+      "summary": "Timestamps in route records may become confusing after travel or device-setting changes.",
+      "tags": [
+        "time",
+        "route log",
+        "offline",
+        "travel"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify timestamp sources",
+          "paragraphs": [
+            "A phone photo, GPX track and handwritten note may use different time-zone conventions.",
+            "Some exported files store times in UTC while an app displays them in local time."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Write clear context",
+          "paragraphs": [
+            "Include the date and the local time-zone name or offset when a timestamp matters for comparing records.",
+            "Keep the original file unchanged and add explanatory notes rather than silently rewriting times."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Avoid false precision",
+          "paragraphs": [
+            "Automatic clock settings, imported files and device changes can create mismatches.",
+            "Do not use an old timestamp to infer current daylight, transport availability or weather conditions."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Source",
+          "Zone",
+          "Compare"
+        ],
+        "alt": "A three-stage schematic for identifying a timestamp source, recording its time zone and comparing notes.",
+        "caption": "A timestamp is easier to interpret when its time zone is known."
+      }
+    },
+    {
+      "id": "outdoor-bottle-carry-loop-inspection",
+      "title": "Inspect ordinary bottle carry loops and handles",
+      "category": "Outdoor skills & navigation",
+      "summary": "A damaged carrying loop can allow a reusable bottle to fall or leak.",
+      "tags": [
+        "bottle",
+        "handle",
+        "equipment",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Identify the attachment",
+          "paragraphs": [
+            "Some bottle lids have flexible loops, hinged handles or removable straps intended for ordinary carrying.",
+            "The presence of a loop does not imply that the bottle can safely hang from moving equipment or support other loads."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Look for everyday wear",
+          "paragraphs": [
+            "Check for splits, loose fasteners, fraying and deformation where the loop joins the lid or body.",
+            "Inspect the bottle cap and seal separately; a sound handle does not prove the container is leakproof."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Retire unreliable parts",
+          "paragraphs": [
+            "Follow the maker's replacement guidance when a loop or handle is damaged.",
+            "Avoid improvised high-load attachments, and keep the bottle in a suitable pocket if its carrying feature is uncertain."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Joint",
+          "Loop",
+          "Seal"
+        ],
+        "alt": "A checklist distinguishing the attachment joint, carrying loop and separate lid seal.",
+        "caption": "Check the handle and the closure as separate components."
+      }
+    },
+    {
+      "id": "outdoor-map-fold-index-tabs",
+      "title": "Add removable index tabs to a personal paper-map folder",
+      "category": "Outdoor skills & navigation",
+      "summary": "Small tabs can make several map extracts easier to find without hiding map details.",
+      "tags": [
+        "paper map",
+        "index",
+        "folder",
+        "organisation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "context",
+          "title": "Organise the collection",
+          "paragraphs": [
+            "When several printed map extracts share a folder, similar-looking pages can be difficult to retrieve quickly.",
+            "Use short neutral labels based on sheet number or broad area rather than sensitive home or meeting locations."
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "Position labels carefully",
+          "paragraphs": [
+            "Place removable tabs on protective sleeves or folder dividers rather than over paths, scale bars or legends.",
+            "Keep tabs short enough to avoid curling, snagging or obscuring neighbouring sheets."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Maintain the index",
+          "paragraphs": [
+            "Match the folder index to the current contents and remove labels for replaced editions.",
+            "A tab improves retrieval only; it does not verify that the map is complete or current."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Index",
+          "Sleeve",
+          "Sheet"
+        ],
+        "alt": "Three labelled folder layers show an index, protective sleeve and map sheet.",
+        "caption": "Organise paper maps without covering their information."
+      }
+    }
+  ]
+}

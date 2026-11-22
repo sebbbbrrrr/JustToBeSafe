@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-trekking-pole-tip-caps",
+      "title": "Inspect removable rubber tips on walking poles",
+      "category": "Outdoor equipment",
+      "summary": "Check the condition and fit of removable rubber tips used on ordinary walking poles.",
+      "tags": [
+        "walking poles",
+        "rubber tips",
+        "pole accessories",
+        "inspection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the compatible tip",
+          "paragraphs": [
+            "Check the pole manufacturer's accessory information before choosing a replacement rubber tip. Tips vary in shape and fit, and a visually similar part is not necessarily compatible.",
+            "Lay the clean pole on a stable surface and compare both tips for obvious differences. A missing or split tip should be recorded rather than disguised with tape."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check condition and seating",
+          "paragraphs": [
+            "Look for cracks, worn-through rubber, trapped grit and a tip that sits crookedly. Avoid testing a damaged tip by putting body weight onto it.",
+            "Where the maker specifies a removable push-fit accessory, check its seating only as instructed. Do not force an unfamiliar joint or assume a rubber tip provides reliable traction on every surface."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Maintain and retire",
+          "paragraphs": [
+            "Clean dirt from the outside with the maker's recommended method and allow the accessory to dry before storage.",
+            "Replace incompatible or damaged parts with manufacturer-approved alternatives. Walking poles are aids, not fall-arrest equipment, and cannot make hazardous terrain safe."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Match tip",
+          "Inspect wear",
+          "Replace safely"
+        ],
+        "alt": "A checklist schematic with three clearly labelled items: Match tip, Inspect wear, Replace safely. It summarises routine equipment or map-care checks and does not depict a hazardous outdoor procedure.",
+        "caption": "A quick visual reminder; read the full guide for limits and manufacturer-specific advice."
+      }
+    },
+    {
+      "id": "outdoor-map-sleeve-readability",
+      "title": "Choose a readable protective sleeve for a paper map",
+      "category": "Outdoor navigation",
+      "summary": "Assess map visibility and handling through a clear protective cover.",
+      "tags": [
+        "paper map",
+        "map sleeve",
+        "glare",
+        "rain protection"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check the viewing window",
+          "paragraphs": [
+            "Place the folded map inside a clean, dry sleeve and check that place names, symbols and the map scale remain legible through the plastic.",
+            "Look for clouding, creases and reflective glare in ordinary daylight. A cover that hides detail can undermine the usefulness of an otherwise good map."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check handling",
+          "paragraphs": [
+            "Ensure the closure does not trap or tear the paper and that the map can be repositioned without excessive folding.",
+            "Avoid hanging a large sleeve where it blocks movement or catches on surrounding objects. Check whether the attachment suits the bag rather than relying on a weak improvised clip."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Store and reassess",
+          "paragraphs": [
+            "After use, inspect the inside for condensation and dry the sleeve according to its care instructions before putting paper back inside.",
+            "A protective sleeve is not a guarantee of waterproofness. Carry a suitable independent navigation backup and confirm that any printed map remains current enough for its intended use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Read labels",
+          "Check closure",
+          "Dry sleeve"
+        ],
+        "alt": "A checklist schematic with three clearly labelled items: Read labels, Check closure, Dry sleeve. It summarises routine equipment or map-care checks and does not depict a hazardous outdoor procedure.",
+        "caption": "A quick visual reminder; read the full guide for limits and manufacturer-specific advice."
+      }
+    },
+    {
+      "id": "outdoor-walking-pole-locks",
+      "title": "Record the condition of walking-pole adjustment locks",
+      "category": "Outdoor equipment",
+      "summary": "Recognise visible wear and manufacturer-specific adjustment requirements without improvising repairs.",
+      "tags": [
+        "walking poles",
+        "adjustment locks",
+        "equipment checks",
+        "wear"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify the lock design",
+          "paragraphs": [
+            "Check the maker's instructions to identify whether the pole uses a lever, twist or fixed-length design. Different mechanisms have different limits and maintenance requirements.",
+            "Record the model and any visible maximum-extension marks; do not assume that instructions for another pole apply."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Look for warning signs",
+          "paragraphs": [
+            "Examine accessible surfaces for cracks, bent sections, loose parts or damaged markings without dismantling the mechanism.",
+            "If a pole unexpectedly slips or will not hold its normal setting, stop relying on it and consult the manufacturer or a competent repair service. Avoid makeshift tightening beyond published guidance."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep a maintenance note",
+          "paragraphs": [
+            "After ordinary use, remove surface dirt and dry the pole as its maker directs, paying attention to storage recommendations.",
+            "Keep a short record of recurring slippage or unusual noise. Walking poles are not substitutes for appropriate route choice, stable footing or specialist safety equipment."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Identify model",
+          "Note damage",
+          "Seek advice"
+        ],
+        "alt": "A shelves schematic with three clearly labelled items: Identify model, Note damage, Seek advice. It summarises routine equipment or map-care checks and does not depict a hazardous outdoor procedure.",
+        "caption": "A quick visual reminder; read the full guide for limits and manufacturer-specific advice."
+      }
+    },
+    {
+      "id": "outdoor-spare-strap-keepers",
+      "title": "Check loose strap ends on everyday outdoor bags",
+      "category": "Outdoor equipment",
+      "summary": "Keep adjustable bag straps tidy without interfering with their intended operation.",
+      "tags": [
+        "backpack",
+        "strap keepers",
+        "bag fittings",
+        "snag prevention"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Locate free ends",
+          "paragraphs": [
+            "Identify the loose ends of shoulder, waist and compression straps while the bag is empty. Distinguish ordinary adjustment webbing from safety-related or quick-release fittings.",
+            "Photograph the original arrangement if unfamiliar, so it is easier to refer back to the manufacturer's setup."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Inspect the webbing",
+          "paragraphs": [
+            "Look for frayed edges, broken retainers and straps that drag or catch during ordinary walking. A damaged load-bearing strap deserves repair advice rather than a cosmetic cover.",
+            "Use only a compatible keeper or the manufacturer's suggested method for managing excess webbing. Never tie off or obstruct a buckle that needs to open quickly."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Recheck access",
+          "paragraphs": [
+            "Try the bag on with an ordinary light load and verify that adjustment points remain easy to reach and use.",
+            "Do not modify climbing, rescue or fall-protection equipment with general-purpose bag accessories. Replace damaged parts according to the maker's guidance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Find ends",
+          "Inspect wear",
+          "Keep access"
+        ],
+        "alt": "A checklist schematic with three clearly labelled items: Find ends, Inspect wear, Keep access. It summarises routine equipment or map-care checks and does not depict a hazardous outdoor procedure.",
+        "caption": "A quick visual reminder; read the full guide for limits and manufacturer-specific advice."
+      }
+    }
+  ]
+}

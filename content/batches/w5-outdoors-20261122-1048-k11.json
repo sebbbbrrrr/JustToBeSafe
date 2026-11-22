@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-margin-information",
+      "title": "Read the marginal information on a paper walking map",
+      "category": "Outdoor navigation",
+      "summary": "Interpret map border notes without assuming they describe live conditions.",
+      "tags": [
+        "map",
+        "margin",
+        "edition"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Locate the key",
+          "paragraphs": [
+            "A paper map border may show the edition, scale, legend and publisher details that explain its central image. Cropped copies can lose this context.",
+            "Different publishers arrange marginal information differently. Check the specific sheet rather than assuming the same layout every time."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check edition details",
+          "paragraphs": [
+            "Record the map title and edition when sharing route notes so people can identify which version was consulted.",
+            "An older sheet may not reflect current access restrictions or changed conditions. Confirm current information independently before travelling."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Keep notes together",
+          "paragraphs": [
+            "When preparing a permitted extract, preserve relevant symbol and scale explanations alongside the selected area.",
+            "Do not obscure small print with tape or annotations; keep a legible original available where licensing permits."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate the key",
+          "Check edition details",
+          "Keep notes together"
+        ],
+        "alt": "Three labelled reference panels for read the marginal information on a paper walking map: Locate the key, Check edition details, Keep notes together. The panels summarise reading sections and do not depict hazardous procedures.",
+        "caption": "A compact overview of the three checks; the accompanying text explains the details and limitations."
+      }
+    },
+    {
+      "id": "outdoor-pack-buckle-inspection",
+      "title": "Inspect quick-release buckles on an outdoor pack",
+      "category": "Outdoor equipment",
+      "summary": "Recognise worn or damaged fasteners before ordinary use.",
+      "tags": [
+        "backpack",
+        "buckle",
+        "fastener"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify fasteners",
+          "paragraphs": [
+            "Examine the clips and sliders securing removable pack straps and compartments. Look for cracks, missing pieces and twisted webbing.",
+            "Check the pack manufacturer's instructions because similar-looking buckles can have different intended functions and loads."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Check engagement",
+          "paragraphs": [
+            "With the pack empty, operate accessible clips gently and check that both sides engage as intended.",
+            "Do not force a stiff or visibly damaged buckle, or improvise a load-bearing repair with tape or string."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Record replacements",
+          "paragraphs": [
+            "Record the position and model of a failed buckle to help identify a suitable replacement part.",
+            "Store straps without twists or crushing pressure, and check repaired equipment again before relying on it."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify fasteners",
+          "Check engagement",
+          "Record replacements"
+        ],
+        "alt": "Three labelled reference panels for inspect quick-release buckles on an outdoor pack: Identify fasteners, Check engagement, Record replacements. The panels summarise reading sections and do not depict hazardous procedures.",
+        "caption": "A compact overview of the three checks; the accompanying text explains the details and limitations."
+      }
+    },
+    {
+      "id": "outdoor-boot-lace-inspection",
+      "title": "Check and organise spare laces for walking footwear",
+      "category": "Outdoor equipment",
+      "summary": "Spot worn boot laces and prepare compatible replacements.",
+      "tags": [
+        "laces",
+        "footwear",
+        "spares"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Inspect wear",
+          "paragraphs": [
+            "Look along the entire lace, including portions normally hidden by eyelets, for fraying, flattened areas and damaged tips.",
+            "Examine the eyelets for rough edges that might wear through a replacement lace prematurely."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Compare spares",
+          "paragraphs": [
+            "Compare the length and shape of a sound existing lace or consult the footwear manufacturer's recommendations.",
+            "An excessively short spare may not fasten normally; a much longer one can leave loose ends that catch."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Store replacements",
+          "paragraphs": [
+            "Keep clean spare laces in a labelled pouch where they can be found without emptying the whole bag.",
+            "Replace damaged laces before an outing and check that the footwear feels secure and comfortable in ordinary use."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Inspect wear",
+          "Compare spares",
+          "Store replacements"
+        ],
+        "alt": "Three labelled reference panels for check and organise spare laces for walking footwear: Inspect wear, Compare spares, Store replacements. The panels summarise reading sections and do not depict hazardous procedures.",
+        "caption": "A compact overview of the three checks; the accompanying text explains the details and limitations."
+      }
+    },
+    {
+      "id": "outdoor-spare-glasses-case",
+      "title": "Prepare a protective case for spare glasses on a walk",
+      "category": "Outdoor equipment",
+      "summary": "Keep spare eyewear protected and easy to locate.",
+      "tags": [
+        "glasses",
+        "case",
+        "accessibility"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Check the case",
+          "paragraphs": [
+            "Choose a case that fits the glasses without pressing on their lenses or arms. A rigid case may help protect against crushing.",
+            "Check that the closure works and the lining is free from grit that could scratch the lenses."
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Pack carefully",
+          "paragraphs": [
+            "Keep the case away from heavy objects and loose tools that could damage it inside a bag.",
+            "Store a suitable cleaning cloth separately from wet or gritty equipment and avoid putting loose glasses with keys."
+          ]
+        },
+        {
+          "id": "maintain",
+          "title": "Identify clearly",
+          "paragraphs": [
+            "Use a discreet label when several people have similar cases, without adding unnecessary personal information.",
+            "Anyone depending on prescription eyewear should confirm their spare pair is suitable before leaving."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Check the case",
+          "Pack carefully",
+          "Identify clearly"
+        ],
+        "alt": "Three labelled reference panels for prepare a protective case for spare glasses on a walk: Check the case, Pack carefully, Identify clearly. The panels summarise reading sections and do not depict hazardous procedures.",
+        "caption": "A compact overview of the three checks; the accompanying text explains the details and limitations."
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-grid-reference-check",
+      "title": "Read grid-reference formats in offline route notes",
+      "category": "Outdoor skills & navigation",
+      "summary": "Understand the difference between coordinate systems and avoid mixing map references.",
+      "tags": [
+        "grid reference",
+        "coordinates",
+        "easting",
+        "northing",
+        "map datum",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Map system",
+          "Reference",
+          "Cross-check"
+        ],
+        "alt": "Offline schematic for read grid-reference formats in offline route notes: Map system, Reference, Cross-check. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify the reference system",
+          "paragraphs": [
+            "A grid reference is meaningful only when the map and the coordinate notation use a compatible system. A national grid reference, latitude and longitude, and a phone app's coordinate display are not interchangeable labels.",
+            "Read the legend or mapping provider's notes to identify the coordinate system and the expected number of digits. Record that system beside any saved reference rather than keeping a bare string of numbers."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Preserve context",
+          "paragraphs": [
+            "Keep the place name and source map edition with a recorded coordinate. A reference copied from another map may appear plausible while indicating a different location if its datum or format differs.",
+            "Avoid shortening a reference just to save space. If the original includes a prefix or directional symbols, preserve them exactly and check how the source describes their meaning."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Check before relying on it",
+          "paragraphs": [
+            "Compare a saved reference against a clearly identifiable feature on the same offline map. If the point does not match the expected landmark, treat the reference as unverified.",
+            "A grid reference is not proof that a path is open or safe. When uncertain, use an appropriate current mapping source or competent navigation support rather than navigating from an ambiguous entry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-map-edition-audit",
+      "title": "Check the edition and coverage of a downloaded walking map",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep a small audit of offline map coverage and update dates before travelling.",
+      "tags": [
+        "map edition",
+        "coverage",
+        "download",
+        "offline",
+        "map update",
+        "legend"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Coverage",
+          "Edition",
+          "Open offline"
+        ],
+        "alt": "Offline schematic for check the edition and coverage of a downloaded walking map: Coverage, Edition, Open offline. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check the mapped area",
+          "paragraphs": [
+            "Before leaving connectivity, inspect the full intended walking area in the offline map. Include the start, finish, relevant surrounding area and a possible return route rather than downloading only a narrow line.",
+            "Zoom to the levels you expect to use and check that place names, contours and route features remain legible. Some apps display a cached overview but require a connection for detailed tiles."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Record map provenance",
+          "paragraphs": [
+            "Write down the map provider, product or edition, approximate coverage and when it was saved. An offline map can remain readable long after its paths, access arrangements or features have changed.",
+            "Where licensing permits local storage, use the provider's own offline download feature. A screenshot may omit scale, legend, attribution or detailed layers needed for interpretation."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Perform an offline test",
+          "paragraphs": [
+            "Switch the device to airplane mode while still in a safe location and reopen the map. Check several points along the planned route, not just the opening screen.",
+            "If sections are blank or unavailable, resolve the download before departure. Carry another appropriate source of navigation information where the journey warrants it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-powerbank-readiness",
+      "title": "Prepare a power bank for an outdoor day",
+      "category": "Outdoor skills & navigation",
+      "summary": "Assess capacity claims, cable compatibility and safe storage without relying on a single charging device.",
+      "tags": [
+        "power bank",
+        "usb",
+        "cable",
+        "battery",
+        "charging",
+        "portable power"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Check ports",
+          "Charge",
+          "Store safely"
+        ],
+        "alt": "Offline schematic for prepare a power bank for an outdoor day: Check ports, Charge, Store safely. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Check compatibility",
+          "paragraphs": [
+            "Match the charging cable and connector to the devices you intend to carry. Check the manufacturer's instructions for supported output, input and charging indicators rather than assuming any cable will work.",
+            "Nominal battery capacity does not equal usable phone charging capacity. Device condition, temperature and conversion losses affect what a power bank can deliver."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Inspect before packing",
+          "paragraphs": [
+            "Look for damaged casing, unusual swelling, exposed contacts, wet ports or other visible faults. Do not charge or carry a damaged lithium battery as though it were sound; follow appropriate manufacturer and local disposal guidance.",
+            "Charge and test the device in an appropriate indoor setting before the trip. Avoid leaving batteries unattended while charging, and keep ports protected from dirt and moisture."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Plan realistic redundancy",
+          "paragraphs": [
+            "Pack the suitable cable separately from sharp objects and note where the bank is stored. Keep the phone's offline map accessible without requiring a network connection to unlock or refresh it.",
+            "A power bank may stop working in cold or wet conditions. Treat it as an aid to preparedness, not a guarantee of navigation or communication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-group-pace-plan",
+      "title": "Agree a group walking pace and regrouping approach",
+      "category": "Outdoor skills & navigation",
+      "summary": "Make walking plans considerate of different abilities without setting unsafe universal speeds.",
+      "tags": [
+        "group walking",
+        "pace",
+        "rest",
+        "accessibility",
+        "regroup",
+        "walking plan"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Agree pace",
+          "Regroup",
+          "Reassess"
+        ],
+        "alt": "Offline schematic for agree a group walking pace and regrouping approach: Agree pace, Regroup, Reassess. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Plan around the group",
+          "paragraphs": [
+            "Discuss expected distance, gradient, surfaces, mobility needs and breaks before setting out. A pace that is comfortable on a pavement may be unsuitable on a muddy or steep section.",
+            "Avoid assigning a fixed walking speed to everyone. A published route duration is only an estimate and should not be treated as a deadline."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Choose clear regrouping arrangements",
+          "paragraphs": [
+            "Agree in advance that the group stays together or regroups at obvious, suitable locations. Do not rely on an informal assumption that people who fall behind will find the others.",
+            "Record a simple method for communicating a change of plan. Mobile reception may be unreliable, so the arrangement should not depend solely on messaging."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review during the outing",
+          "paragraphs": [
+            "Allow time for breaks and check whether the route still suits everyone. Fatigue, worsening weather or a change in accessibility can make a previously reasonable plan unsuitable.",
+            "If a member cannot comfortably continue, prioritise a sensible reassessment and appropriate help rather than trying to meet the original schedule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-camera-location-records",
+      "title": "Record outdoor landmark photographs without exposing private locations",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep useful visual references alongside route notes while respecting privacy and accuracy.",
+      "tags": [
+        "landmark",
+        "photograph",
+        "privacy",
+        "geotag",
+        "route note",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Identify",
+          "Date",
+          "Protect"
+        ],
+        "alt": "Offline schematic for record outdoor landmark photographs without exposing private locations: Identify, Date, Protect. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Photograph identifiable features",
+          "paragraphs": [
+            "A photo of a public sign, path junction or distinctive landmark may help explain a route note later. Include enough surrounding context to distinguish similar-looking features.",
+            "Do not assume a photograph proves where you were. Camera position, perspective and repeated landscape features can make a scene misleading without a map reference."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep captions useful",
+          "paragraphs": [
+            "Add a short description, approximate location from a trusted map, direction of view if known, and the date. Distinguish observed details from interpretations or uncertain names.",
+            "If the device is offline, confirm the photo and its note are actually stored locally rather than waiting in a cloud-only album."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Respect other people and places",
+          "paragraphs": [
+            "Avoid capturing identifiable people, homes, vehicle registrations or sensitive site details unnecessarily. Consider disabling precise geotags before sharing photos publicly.",
+            "Review metadata and permissions when exporting images. A location hidden in the visible caption may still be present in image metadata."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-bike-walk-transition",
+      "title": "Plan a route that changes between walking and cycling",
+      "category": "Outdoor skills & navigation",
+      "summary": "Record mode-specific route sections and access restrictions before a mixed journey.",
+      "tags": [
+        "cycling",
+        "walking",
+        "bike",
+        "shared path",
+        "access",
+        "mode change"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Cycle section",
+          "Transition",
+          "Walk section"
+        ],
+        "alt": "Offline schematic for plan a route that changes between walking and cycling: Cycle section, Transition, Walk section. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Separate journey modes",
+          "paragraphs": [
+            "A route suitable for walking is not automatically open to cycling. Check the map provider's route classification, posted signs and current local access information for each section.",
+            "Record where a cycling segment ends and a walking segment begins. Avoid assuming a footpath, steps or narrow barrier can be used safely while riding."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Identify practical transitions",
+          "paragraphs": [
+            "Consider where a bicycle can be stopped and handled without blocking others. Note gates, steps, narrow surfaces and other features that may affect a person's ability to manage a bike.",
+            "For a group with different bikes or mobility needs, record uncertainty rather than promising that a route is universally accessible."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review changes before departure",
+          "paragraphs": [
+            "Confirm that downloaded route notes and current access information agree where possible. A map line may not reflect temporary works, closures or local restrictions.",
+            "If the transition is unclear or unsuitable, choose a documented alternative rather than improvising access across private or restricted land."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-shelter-equipment-inventory",
+      "title": "Inventory nonhazardous temporary shelter accessories",
+      "category": "Outdoor skills & navigation",
+      "summary": "Organise a tent or day-shelter kit by components and manufacturer information.",
+      "tags": [
+        "tent",
+        "shelter",
+        "pegs",
+        "poles",
+        "groundsheet",
+        "inventory"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Fabric",
+          "Supports",
+          "Accessories"
+        ],
+        "alt": "Offline schematic for inventory nonhazardous temporary shelter accessories: Fabric, Supports, Accessories. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify what belongs together",
+          "paragraphs": [
+            "Lay out the tent or day-shelter components in a safe dry place and compare them with the manufacturer's packing list. Note the fabric, poles, pegs, groundsheet and any supplied repair materials.",
+            "Different models use different pole systems and attachment methods. A generic component list is not a substitute for the specific maker's assembly instructions."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Inspect without improvising repairs",
+          "paragraphs": [
+            "Check for visible tears, bent parts, missing connectors and damaged storage bags. Record the fault and use manufacturer-approved replacement parts where available.",
+            "Do not assume a makeshift fix is suitable for strong winds, exposure or other demanding conditions. Shelter performance depends on the full system and its correct use."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Store components for next time",
+          "paragraphs": [
+            "Dry and clean equipment according to the manufacturer's guidance before long-term storage. Group small components in a labelled pouch so they are not lost between trips.",
+            "Keep a concise offline inventory with model details and missing parts. A complete inventory does not guarantee that a shelter is appropriate for forecast conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-route-version-history",
+      "title": "Maintain a change log for saved outdoor routes",
+      "category": "Outdoor skills & navigation",
+      "summary": "Distinguish old route notes from current plans and preserve reasons for revisions.",
+      "tags": [
+        "route version",
+        "revision",
+        "offline",
+        "change log",
+        "map notes",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Version",
+          "Reason",
+          "Confirm"
+        ],
+        "alt": "Offline schematic for maintain a change log for saved outdoor routes: Version, Reason, Confirm. This diagram represents a planning or organisation concept, not a verified physical route or emergency procedure.",
+        "caption": "Conceptual offline reference only; verify actual conditions, access and equipment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Name each route revision",
+          "paragraphs": [
+            "Give a saved route a descriptive name and revision date. Keep the intended start, finish and major waypoints with the version so two similarly named walks are not confused.",
+            "When a route is edited, preserve a short note about what changed. For example, a new access point or a removed section is more informative than simply writing 'updated'."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Avoid stale copies",
+          "paragraphs": [
+            "Check whether the same route exists as a GPX file, a phone bookmark, a paper printout and a message attachment. Multiple copies can disagree even when they share a title.",
+            "Choose one clearly labelled current plan for the group and mark older copies as superseded. Keep an older copy only when it is useful for recordkeeping, not as an unlabelled backup."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Recheck conditions and access",
+          "paragraphs": [
+            "Before a new trip, compare the current plan with reliable mapping and access information. An earlier successful walk does not establish that a path remains open or suitable.",
+            "Tell anyone relying on the route which version they have. If a change cannot be verified, record the uncertainty instead of presenting it as settled."
+          ]
+        }
+      ]
+    }
+  ]
+}

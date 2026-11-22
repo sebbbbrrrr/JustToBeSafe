@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-route-elevation-profile",
+      "title": "Understand elevation profiles on a planned walk",
+      "category": "Navigation",
+      "summary": "Use ascent and descent information as planning context rather than a promise of route difficulty.",
+      "tags": [
+        "elevation",
+        "ascent",
+        "descent",
+        "route",
+        "map",
+        "profile"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Start",
+          "High point",
+          "Finish"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Start, High point, Finish. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Read the profile alongside the route",
+          "paragraphs": [
+            "An elevation profile summarises how mapped height changes along a planned route. Look for the overall shape, sustained rises and descents, and where they appear relative to landmarks or planned stops.",
+            "A profile is an interpretation of map data, not a view of the actual ground. Its accuracy depends on the mapping source, route alignment and how closely elevation samples represent the path."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Avoid false precision",
+          "paragraphs": [
+            "Check whether the vertical and horizontal scales differ. A steep-looking line may be exaggerated by the display, and a short profile can hide uneven surfaces or steps.",
+            "Record notable height changes as planning considerations, not guarantees of speed, accessibility or safety. Weather, fatigue and terrain can make an apparently modest change more demanding."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep context with offline copies",
+          "paragraphs": [
+            "Save the map area and the route notes alongside any profile image or numbers. Include the source and date so an old screenshot is not mistaken for a current route assessment.",
+            "If the profile conflicts with local signs, path closures or actual conditions, do not treat the profile as authority. Reassess the plan using current reliable information before proceeding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-contour-pattern-reading",
+      "title": "Recognise common contour patterns on walking maps",
+      "category": "Navigation",
+      "summary": "Learn what closely spaced, widely spaced and closed contour lines represent.",
+      "tags": [
+        "contour",
+        "topography",
+        "map",
+        "slope",
+        "terrain"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Spacing",
+          "Shape",
+          "Legend"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Spacing, Shape, Legend. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Read the map's contour legend",
+          "paragraphs": [
+            "Contour lines connect points of equal mapped elevation. The legend or marginal information explains the interval between adjacent lines, which varies by map product.",
+            "A series of close lines usually indicates more rapid height change across a shorter map distance; widely spaced lines suggest gentler mapped gradients. Neither pattern alone establishes safe footing."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Interpret shapes cautiously",
+          "paragraphs": [
+            "Closed contours can indicate a hill or depression depending on map symbols and height labels. Valleys and ridges create bending patterns that are easier to understand with labelled heights and nearby features.",
+            "Avoid assuming a contour pattern reveals cliffs, obstacles, vegetation or route accessibility. Those may require other symbols, recent mapping or on-site information."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Compare with a real route",
+          "paragraphs": [
+            "Use contour patterns as one input when comparing possible routes, alongside path status, mapped surfaces, forecast conditions and the abilities of the group.",
+            "If the contour interval or symbols are unclear, keep the uncertainty visible in route notes rather than presenting a precise gradient or difficulty rating."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-offline-map-app-check",
+      "title": "Check an offline mapping app before leaving connectivity",
+      "category": "Navigation",
+      "summary": "Confirm saved map tiles, device settings and app access while still online.",
+      "tags": [
+        "offline",
+        "maps",
+        "download",
+        "gps",
+        "app",
+        "coverage"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Download",
+          "Open offline",
+          "Check area"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Download, Open offline, Check area. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Confirm what was actually saved",
+          "paragraphs": [
+            "A saved route line is not necessarily the same as downloaded map imagery. Inspect the app's offline-area settings and ensure the map includes the full planned route and reasonable surrounding context.",
+            "Check the map's scale, labels and geographic coverage while connected. Some apps limit offline access, require sign-in periodically or store different map layers separately."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Test without a connection",
+          "paragraphs": [
+            "Before departure, temporarily disable network access and reopen the app and downloaded area. Confirm the route, legend and essential notes remain accessible without fetching new data.",
+            "A device may still determine a location without mobile data, but location performance and battery use vary. An offline map does not provide live closures, forecasts or emergency communications."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Prepare a fallback",
+          "paragraphs": [
+            "Keep essential meeting information and route notes independently accessible, and consider a suitable paper map where appropriate. Check battery condition and access permissions.",
+            "Record when the map was downloaded. If the app fails the offline test, resolve the issue before relying on it rather than assuming the download completed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-map-symbol-accessibility",
+      "title": "Check whether map symbols are readable for your group",
+      "category": "Navigation",
+      "summary": "Assess labels, contrast and alternative descriptions in offline route materials.",
+      "tags": [
+        "accessibility",
+        "map",
+        "legend",
+        "contrast",
+        "labels",
+        "zoom"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Contrast",
+          "Labels",
+          "Backup"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Contrast, Labels, Backup. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Check symbols at the size actually used",
+          "paragraphs": [
+            "Open the saved map at a comfortable zoom level on the intended device. Verify that paths, water features, boundaries and warnings are distinguishable without relying solely on colour.",
+            "Compare similarly shaped symbols against the map's own legend. A symbol can change meaning between map publishers, and colour differences may be hard to see in glare or low light."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Support different reading needs",
+          "paragraphs": [
+            "Use short written notes for important symbols and decision points, especially where a small icon could be confused with another. Avoid relying on an unexplained abbreviation or a colour-only key.",
+            "Where possible, test the map with enlarged system text, screen magnification and any assistive technology the group uses. A static screenshot may not support text reflow or screen-reader interpretation."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep alternative information available",
+          "paragraphs": [
+            "Save a plain-language route summary that names key locations and uncertainties without duplicating an entire map. This can help if a printed copy becomes damaged or a display is difficult to read.",
+            "Accessibility is specific to the person and route. Ask what format works before travel and do not treat an automated accessibility score as a guarantee of usable terrain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-trailhead-facilities-notes",
+      "title": "Record practical facilities at a walking route start",
+      "category": "Outdoor planning",
+      "summary": "Keep a simple offline record of access, facilities and their verification status.",
+      "tags": [
+        "trailhead",
+        "facilities",
+        "parking",
+        "toilet",
+        "access",
+        "planning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Locate",
+          "Verify",
+          "Record"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Locate, Verify, Record. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Identify facilities that matter",
+          "paragraphs": [
+            "For the planned starting point, list relevant facilities such as public transport connections, toilets, water access, accessible entrances or permitted parking. Separate essential needs from conveniences.",
+            "A map icon or old review does not establish that a facility is operating, accessible or free to use today. Note where information came from and whether it was confirmed by the operator."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Record useful details without overcollection",
+          "paragraphs": [
+            "Write down an understandable location description, an official contact or information source where available, and any published restrictions that matter to the group.",
+            "Avoid storing unnecessary personal information about staff or visitors. A public car park or toilet may have seasonal opening arrangements, closures or access requirements."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Prepare for changes",
+          "paragraphs": [
+            "Check facilities close to departure and consider reasonable alternatives for essential needs. Keep an offline copy of the route start and transport information.",
+            "If a facility is unexpectedly unavailable, reassess the plan rather than relying on a generic statement that services should be present."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-layer-packing-layout",
+      "title": "Organise spare clothing layers for a day walk",
+      "category": "Equipment",
+      "summary": "Keep dry spare layers accessible without assuming one packing list suits every condition.",
+      "tags": [
+        "clothing",
+        "layers",
+        "rucksack",
+        "packing",
+        "drybag",
+        "weather"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Quick access",
+          "Dry spare",
+          "After use"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Quick access, Dry spare, After use. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Choose layers for the actual plan",
+          "paragraphs": [
+            "Review the expected conditions, duration, exertion and personal comfort needs. A spare insulating or weather-resistant layer may be useful, but no universal number of garments suits every route or person.",
+            "Check garment condition and fit before packing. Different fabrics behave differently when wet, and a garment's marketing label does not guarantee warmth or waterproofness."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Arrange the bag for access",
+          "paragraphs": [
+            "Keep frequently needed clothing reachable without unpacking everything. Protect spare dry items using suitable internal storage and separate damp items where practical.",
+            "Avoid overfilling the bag or placing heavy equipment where it creates discomfort or instability. If several people share equipment, agree who carries what and how it can be located."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review after returning",
+          "paragraphs": [
+            "Air and dry used layers according to their care labels, and check for damage before storage. Note anything that was difficult to find or unnecessary on the trip.",
+            "Treat the packing layout as a reusable reminder rather than a safety certification. Adjust it to changing forecasts, accessibility needs and personal circumstances."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-route-permission-check",
+      "title": "Check route access permissions before a walk",
+      "category": "Outdoor planning",
+      "summary": "Distinguish mapped paths from permission to enter or use land.",
+      "tags": [
+        "access",
+        "rights-of-way",
+        "permissions",
+        "path",
+        "landowner",
+        "signs"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Map source",
+          "Access rules",
+          "Recheck"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Map source, Access rules, Recheck. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Distinguish a route line from a right of access",
+          "paragraphs": [
+            "A mapped trail, GPS track or user-shared route does not by itself establish a legal right to walk, cycle or camp there. Rules differ by jurisdiction, land type and activity.",
+            "Look for official access information and relevant route designations. A publicly visible path may still have temporary restrictions, and an informal track may cross private or sensitive land."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Check conditions that can change",
+          "paragraphs": [
+            "Review official notices for temporary closures, seasonal restrictions or conservation requirements where relevant. Record the information source and date rather than treating an old screenshot as permanent permission.",
+            "Where a sign conflicts with an older app route, do not assume the app is correct. Seek reliable local guidance before entering restricted or uncertain areas."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Share a clear, respectful plan",
+          "paragraphs": [
+            "Explain any access uncertainty to the group and choose a lawful alternative when permission cannot be established. Keep gates, livestock and sensitive habitats in mind without inventing universal rules.",
+            "The article is an informational planning checklist, not legal advice. Verify local law and official access guidance for the specific place and activity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-navigation-device-time-settings",
+      "title": "Check time and coordinate settings on navigation devices",
+      "category": "Equipment",
+      "summary": "Identify settings mismatches that can make saved navigation notes confusing.",
+      "tags": [
+        "gps",
+        "coordinates",
+        "datum",
+        "time",
+        "timezone",
+        "device"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Time",
+          "Coordinates",
+          "Units"
+        ],
+        "alt": "An offline schematic with 3 labelled elements: Time, Coordinates, Units. It is a planning aid, not a depiction of actual terrain or current conditions.",
+        "caption": "Conceptual planning illustration; check the full guide and local information."
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Compare time displays",
+          "paragraphs": [
+            "Check that the device time and date make sense before relying on time-stamped notes. Devices may show local time, UTC or a manually selected time zone, and daylight-saving changes can create confusion.",
+            "When sharing route notes, state which time convention was used. A timestamp without a time zone can be misread even when the recorded time was accurate."
+          ]
+        },
+        {
+          "id": "practical",
+          "title": "Check coordinate formats and units",
+          "paragraphs": [
+            "Confirm whether a saved location uses latitude and longitude, a national grid reference or another coordinate system. Note the map datum or grid system when provided rather than silently converting between formats.",
+            "Two coordinate strings can refer to different positions if their formats or reference systems differ. Copy labels exactly and verify with the intended map before using them for planning."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Keep the settings record simple",
+          "paragraphs": [
+            "Record the device or app, coordinate format, distance units and time convention with shared offline notes. Recheck after software updates, device replacement or restoring a backup.",
+            "This is a data-consistency check, not a substitute for navigation training or an assurance of location accuracy."
+          ]
+        }
+      ]
+    }
+  ]
+}

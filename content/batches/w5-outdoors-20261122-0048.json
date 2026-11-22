@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-legend-notes",
+      "title": "Make a quick-reference key for an offline map",
+      "category": "Outdoor skills & navigation",
+      "summary": "Identify map symbols and limitations before leaving mobile coverage.",
+      "tags": [
+        "map",
+        "legend",
+        "symbols",
+        "scale",
+        "offline",
+        "navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Edition",
+          "Legend",
+          "Check"
+        ],
+        "alt": "Three-row schematic checklist showing the information to retain with an offline map: its edition, its original legend and a check of current route conditions.",
+        "caption": "Keep the original legend and edition details with the map."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Identify the map edition",
+          "paragraphs": [
+            "Open the map before setting off and record its publisher, publication or revision date, coverage area and scale. A saved screenshot without its legend or scale can be difficult to interpret and may omit paths or restrictions.",
+            "Keep the original map legend with the offline copy. Symbols for access, boundaries, terrain and services can differ between map products, so do not assume a colour or line style has the same meaning everywhere."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Make a small personal key",
+          "paragraphs": [
+            "List only the symbols you expect to consult, using the map publisher's wording rather than inventing definitions. Add the map's north indication, grid system and scale alongside the key so a detached screenshot remains identifiable.",
+            "Keep notes short enough to scan while stationary. Avoid overlaying a homemade symbol that might be mistaken for an official path, right of way or hazard warning."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Check before relying on it",
+          "paragraphs": [
+            "Compare the map with current official access notices, route information and weather when connectivity is available. Physical signage and closures may differ from an older offline map; if unsure, choose a safer known alternative."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-route-decision-points",
+      "title": "Record decision points on a planned walk",
+      "category": "Outdoor skills & navigation",
+      "summary": "Create recognisable checkpoints without relying on continuous GPS.",
+      "tags": [
+        "waypoints",
+        "junctions",
+        "walking",
+        "landmarks",
+        "navigation",
+        "route"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Start",
+          "Junction",
+          "Finish"
+        ],
+        "alt": "Simple schematic route with three labelled points: a start location, a junction where a choice is made and a planned finish. It is not a real geographic route.",
+        "caption": "Illustrative checkpoints only; use an actual map for directions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose meaningful checkpoints",
+          "paragraphs": [
+            "Identify a small number of unambiguous places where a route choice matters, such as a signed junction, a bridge or a named public entrance. Record the place name as printed on the map and what you expect to see nearby.",
+            "Avoid vague descriptions such as 'turn by the big tree', which can change seasonally or resemble other locations. Do not use private property, unsafe crossings or uncertain access as a checkpoint."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Write an offline route note",
+          "paragraphs": [
+            "For each decision point, record the next intended destination and a conservative alternative such as returning by the known route if conditions or navigation become uncertain. Keep the note usable without an online mapping service.",
+            "A route card supplements a proper map and navigation ability; it does not confirm that a path is currently open, safe or accessible."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Review during the journey",
+          "paragraphs": [
+            "Stop in a safe place before checking the next decision. If landmarks fail to match, avoid guessing or pressing onward; reassess against your map and seek appropriate assistance when needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-compass-care-storage",
+      "title": "Store and inspect a basic walking compass",
+      "category": "Outdoor skills & navigation",
+      "summary": "Protect a compass and notice faults before depending on it.",
+      "tags": [
+        "compass",
+        "magnet",
+        "inspection",
+        "storage",
+        "navigation",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Inspect",
+          "Store",
+          "Recheck"
+        ],
+        "alt": "Three connected schematic circles represent checking a compass for damage, storing it away from interference and checking it again before a walk.",
+        "caption": "A simple care cycle; not a compass-bearing tutorial."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Inspect before a trip",
+          "paragraphs": [
+            "Look for a readable dial, intact housing and a freely moving needle in an undamaged capsule. Compare its general indication with a known reference in a location away from large metal objects or electronics.",
+            "A stuck, leaking or inconsistent compass should not be trusted for navigation. Some compasses have region-specific needle balancing; consult the manufacturer's information."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Reduce interference and damage",
+          "paragraphs": [
+            "Store the compass where it is protected from crushing, high heat and strong magnets. Keep it separated from magnetic closures or equipment that may interfere with readings when in use.",
+            "A compass provides direction information but does not reveal path safety, land access, terrain difficulty or the correct route by itself."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Keep a backup",
+          "paragraphs": [
+            "Record where the compass is stored and whether it passed its last inspection. For unfamiliar walks, use an appropriate map and independent navigation methods rather than relying on one instrument."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-water-container-care",
+      "title": "Prepare reusable drinking-water containers for walks",
+      "category": "Outdoor skills & navigation",
+      "summary": "Organise clean containers and spot storage problems before departure.",
+      "tags": [
+        "water",
+        "bottle",
+        "container",
+        "hydration",
+        "daypack",
+        "cleaning"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Container",
+          "Seal",
+          "Source"
+        ],
+        "alt": "Checklist schematic for an outdoor drinking-water bottle: choose a food-safe container, inspect the cap seal and plan a reliable drinking-water source.",
+        "caption": "Bottle care and supply planning are separate from water treatment."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Choose suitable containers",
+          "paragraphs": [
+            "Select food-contact containers intended for drinking water, with lids and seals that close properly. Check the maker's cleaning instructions, material limitations and whether the container fits securely in your pack.",
+            "Avoid using unlabelled chemical or fuel containers for drinking water even if they appear rinsed. Distinguish drinking-water bottles from containers reserved for other liquids."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Clean and dry appropriately",
+          "paragraphs": [
+            "Wash according to the manufacturer's directions, paying attention to caps, straws and seals. Allow components to dry as recommended before storage to reduce retained moisture and odours.",
+            "Check for cracks, persistent contamination, damaged seals or unusual residue before filling. Replace unsuitable containers rather than assuming a rinse makes them safe."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Plan the journey's supply",
+          "paragraphs": [
+            "Consider the route duration, weather, availability of verified drinking-water points and individual needs. A stream or outdoor tap should not automatically be assumed safe to drink; use reliable water sources and current local advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-footwear-pretrip-check",
+      "title": "Check walking footwear before a day out",
+      "category": "Outdoor skills & navigation",
+      "summary": "Spot obvious wear and fit issues before they interrupt a walk.",
+      "tags": [
+        "boots",
+        "shoes",
+        "laces",
+        "soles",
+        "blisters",
+        "walking"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Sole",
+          "Fit",
+          "Spare"
+        ],
+        "alt": "Three connected schematic stages show a footwear inspection: examine the sole, check the fit with intended socks and prepare a compatible spare lace.",
+        "caption": "Check fit and condition before committing to a route."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Inspect the condition",
+          "paragraphs": [
+            "Check that the soles are attached, the tread is appropriate for the intended surface and the laces or fastenings function. Look for exposed seams, sharp internal edges or trapped debris that could cause discomfort.",
+            "Footwear marketed as waterproof or grippy can lose performance with age and wear. The correct choice depends on terrain and conditions, not a universal boot style."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Check fit with intended socks",
+          "paragraphs": [
+            "Try the footwear with the socks and any orthotic inserts you plan to use. Pay attention to rubbing, pressure points and whether the foot shifts excessively during ordinary walking.",
+            "Avoid relying on an untested new pair for a long outing. If pain or altered sensation occurs, reconsider the fit and seek suitable advice rather than pushing through."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Pack for ordinary wear issues",
+          "paragraphs": [
+            "Carry an appropriate spare lace or other simple compatible item when useful, and know where your footwear can be dried after the walk. Record significant damage for repair or replacement before the next trip."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-weather-forecast-snapshot",
+      "title": "Save a weather forecast for offline reference",
+      "category": "Outdoor skills & navigation",
+      "summary": "Record forecast time, location and uncertainty without treating it as live data.",
+      "tags": [
+        "forecast",
+        "weather",
+        "offline",
+        "wind",
+        "rain",
+        "conditions"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Issued",
+          "Location",
+          "Reassess"
+        ],
+        "alt": "Three-part checklist reminding a walker to record when a weather forecast was issued, where it applies and when conditions should be reassessed.",
+        "caption": "Saved forecasts become stale; they are not live warnings."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Capture the right context",
+          "paragraphs": [
+            "Before leaving coverage, save a forecast from a suitable weather provider for the specific area and expected period. Record when it was issued and the time window it covers, not just a screenshot of weather icons.",
+            "Mountain, coastal and exposed locations may have very different conditions from a nearby town. A forecast is an estimate, not a guarantee of safe conditions."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Note practical implications",
+          "paragraphs": [
+            "Record conditions relevant to the planned activity, such as likely precipitation, wind, temperature variation, daylight and any applicable official warnings. Use the original source wording and avoid inventing numeric danger thresholds.",
+            "Separate a forecast from an active warning. A static offline copy cannot tell you whether warnings have changed after you lose connectivity."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Prepare a conservative alternative",
+          "paragraphs": [
+            "Agree in advance what kinds of deterioration would lead your group to shorten or cancel the trip. If conditions differ materially from the saved forecast, reassess rather than treating the offline snapshot as current."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-group-meeting-plan",
+      "title": "Agree a simple group meeting and check-in plan",
+      "category": "Outdoor skills & navigation",
+      "summary": "Keep walking companions coordinated when phones are unreliable.",
+      "tags": [
+        "group",
+        "check-in",
+        "meeting",
+        "walking",
+        "communication",
+        "offline"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "Meet",
+          "Walk",
+          "Check in"
+        ],
+        "alt": "Schematic three-point group outing plan showing an agreed meeting point, the shared walk and a later check-in point. The drawing contains no real locations.",
+        "caption": "Agree the plan before coverage becomes unreliable."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Agree the plan together",
+          "paragraphs": [
+            "Before departure, discuss the intended route, a clear meeting point and how to communicate changes. Ensure everyone knows the destination, approximate plan and who is responsible for sharing updates.",
+            "Choose a meeting point that is lawful, accessible and away from obvious traffic or terrain hazards. Do not assume everyone has the same walking speed or mobile coverage."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Keep the details available offline",
+          "paragraphs": [
+            "Write the meeting point using an identifiable place name and map reference where appropriate. Include a relevant emergency contact and note the agreed process for an ordinary delay or route change.",
+            "Do not publish private group locations or personal contact details in shared app fixtures. Each person should retain only information they need and consent to share."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Avoid unsafe searching",
+          "paragraphs": [
+            "If someone becomes separated, do not improvise hazardous searches or leave others exposed. Use the pre-agreed communication plan, seek help from appropriate local services when necessary and follow official instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-gear-drying-routine",
+      "title": "Dry and inspect outdoor equipment after use",
+      "category": "Outdoor skills & navigation",
+      "summary": "Reduce avoidable damage to packs, clothing and accessories between trips.",
+      "tags": [
+        "drying",
+        "maintenance",
+        "rucksack",
+        "clothing",
+        "storage",
+        "equipment"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Unpack",
+          "Dry",
+          "Inspect"
+        ],
+        "alt": "Three connected circles depict a nonhazardous outdoor gear care routine: unpack damp items, dry them according to care instructions and inspect before storage.",
+        "caption": "Follow material-specific cleaning and drying instructions."
+      },
+      "sections": [
+        {
+          "id": "part-1",
+          "title": "Unpack and sort",
+          "paragraphs": [
+            "Empty pockets and compartments so damp items, rubbish and small accessories are not forgotten. Separate items that need cleaning from those that only need drying, following each manufacturer's care label.",
+            "Check for mud, salt, damaged buckles or trapped moisture. Some coated fabrics and specialist materials need particular handling; a universal hot-wash or high-heat drying rule is inappropriate."
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Dry without causing damage",
+          "paragraphs": [
+            "Use a suitable ventilated area and manufacturer-approved methods. Keep equipment away from direct heat where labels warn against it, and open pockets or compartments as appropriate.",
+            "Do not store damp textiles tightly packed for long periods. If equipment develops persistent mould, damage or odour, consider whether cleaning or replacement is appropriate."
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Record repairs and repack",
+          "paragraphs": [
+            "Once dry, note missing or broken components and store equipment in an accessible location. Restock consumed items separately; a pack that has been put away is not necessarily ready for its next trip."
+          ]
+        }
+      ]
+    }
+  ]
+}

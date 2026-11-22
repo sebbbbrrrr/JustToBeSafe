@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "publication_state": "internal_draft",
+  "articles": [
+    {
+      "id": "outdoor-map-adjoining-sheets",
+      "title": "Check adjoining map sheets before a long walk",
+      "category": "Outdoor navigation",
+      "summary": "Identify coverage gaps when a walking route crosses the edge of a printed or downloaded map.",
+      "tags": [
+        "map sheets",
+        "map coverage",
+        "offline navigation"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Find the sheet boundary",
+          "paragraphs": [
+            "Locate where the planned route leaves the printed sheet or downloaded map region. A route continuing off the page is not proof that the next section is covered.",
+            "Check the publisher's sheet index and note neighbouring editions or scales; a sheet with a similar title may not contain the required area."
+          ]
+        },
+        {
+          "id": "assess",
+          "title": "Compare coverage",
+          "paragraphs": [
+            "On paper, compare named features near the join and check whether the two sheets overlap. If they do not, record the gap instead of inferring the missing path.",
+            "For downloaded maps, put the device into airplane mode and zoom across the intended boundary. Verify that labels and route detail are still available without a connection."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep a coverage record",
+          "paragraphs": [
+            "List the sheet names, editions and offline regions with the route notes. Mark uncertain joins for checking against a current authoritative source before travel.",
+            "Map coverage says nothing about present access or conditions. Confirm closures and restrictions separately; do not improvise a crossing because the map appears continuous."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "route",
+        "labels": [
+          "First sheet",
+          "Shared area",
+          "Next sheet"
+        ],
+        "alt": "A route schematic with three labelled elements: First sheet; Shared area; Next sheet. It summarises ordinary map preparation or equipment identification, not a hazardous procedure or live route condition.",
+        "caption": "Use the diagram as an overview; consult the full guide and current information where relevant."
+      }
+    },
+    {
+      "id": "outdoor-accessory-clip-rating",
+      "title": "Distinguish everyday gear clips from safety-rated connectors",
+      "category": "Outdoor equipment",
+      "summary": "Avoid confusing a carabiner-shaped accessory with technical fall-protection equipment.",
+      "tags": [
+        "gear clips",
+        "carabiners",
+        "equipment identification"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Identify intended use",
+          "paragraphs": [
+            "Many small clips are intended only for keys, mugs or other lightweight belongings. Their shape does not establish suitability for climbing or rescue.",
+            "Read the manufacturer's product information and markings. When the purpose is unclear, treat the clip as an ordinary accessory rather than assuming a safety rating."
+          ]
+        },
+        {
+          "id": "assess",
+          "title": "Inspect accessory condition",
+          "paragraphs": [
+            "For ordinary accessory use, check for bent gates, corrosion, sharp edges and loose springs. Remove damaged clips from service rather than improvising repairs.",
+            "Do not hang objects where they may fall onto someone, and keep clips away from bag releases that must remain accessible."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Separate technical equipment",
+          "paragraphs": [
+            "Store and label ordinary accessory clips separately from any specialist protective equipment. Avoid mixing visually similar items in a shared kit.",
+            "Never substitute an accessory clip for a connector specified by a climbing, rescue or fall-protection system. Technical selection and inspection need competent specialist guidance."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "shelves",
+        "labels": [
+          "Accessory only",
+          "Read markings",
+          "Store apart"
+        ],
+        "alt": "A shelves schematic with three labelled elements: Accessory only; Read markings; Store apart. It summarises ordinary map preparation or equipment identification, not a hazardous procedure or live route condition.",
+        "caption": "Use the diagram as an overview; consult the full guide and current information where relevant."
+      }
+    },
+    {
+      "id": "outdoor-route-turnback-notes",
+      "title": "Write change-of-plan notes for an ordinary day walk",
+      "category": "Outdoor planning",
+      "summary": "Create understandable route revision notes without treating a saved plan as a live safety instruction.",
+      "tags": [
+        "route planning",
+        "turnaround notes",
+        "group communication"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Record the original plan",
+          "paragraphs": [
+            "Write down the intended route, expected return arrangements and who should receive a change-of-plan message. Date the note so its age is obvious.",
+            "An agreed turnaround location is an organisational reference, not a promise that continuing to it will always be sensible."
+          ]
+        },
+        {
+          "id": "assess",
+          "title": "Identify reasons to reconsider",
+          "paragraphs": [
+            "Include reminders to reassess when daylight, transport, weather, access or group needs differ from expectations. A saved forecast is not a current warning.",
+            "For a group, agree who will share an updated plan and how everyone will confirm they understood it. Avoid pressure to complete a route merely because it was written down."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Keep changes clear",
+          "paragraphs": [
+            "Distinguish the initial route from later amendments, and retain the source and date of any access information. Check current official notices when available.",
+            "This article does not teach hazardous-terrain navigation or emergency rescue. In immediate danger, seek appropriate local emergency help rather than following an old itinerary."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "sequence",
+        "labels": [
+          "Original plan",
+          "Review change",
+          "Tell group"
+        ],
+        "alt": "A sequence schematic with three labelled elements: Original plan; Review change; Tell group. It summarises ordinary map preparation or equipment identification, not a hazardous procedure or live route condition.",
+        "caption": "Use the diagram as an overview; consult the full guide and current information where relevant."
+      }
+    },
+    {
+      "id": "outdoor-map-reading-magnifier",
+      "title": "Check a pocket magnifier for reading small map details",
+      "category": "Outdoor navigation",
+      "summary": "Assess whether a compact magnifier improves printed map readability without hiding context.",
+      "tags": [
+        "map magnifier",
+        "accessible maps",
+        "printed symbols"
+      ],
+      "risk": "general",
+      "illustration": null,
+      "review": "pending",
+      "sections": [
+        {
+          "id": "identify",
+          "title": "Test legibility",
+          "paragraphs": [
+            "Try the magnifier on a familiar map in good light. Compare small grid numbers, contour labels and legend symbols with the view without magnification.",
+            "Check whether edge distortion, glare or a narrow viewing area makes nearby features harder to compare even when individual letters appear larger."
+          ]
+        },
+        {
+          "id": "assess",
+          "title": "Inspect and carry",
+          "paragraphs": [
+            "Look for lens scratches, cracks or a loose frame, and use a sleeve to prevent abrasion from grit or keys.",
+            "Carry the magnifier where it is easy to retrieve without obstructing the map or creating a snag hazard with a dangling attachment."
+          ]
+        },
+        {
+          "id": "record",
+          "title": "Choose alternatives",
+          "paragraphs": [
+            "Compare it with a larger-scale map or an accessible digital display. No one should be expected to guess at symbols they cannot read.",
+            "Magnification cannot fix an outdated map or missing coverage. Record symbols that remain unclear and consult the publisher's full legend before travel."
+          ]
+        }
+      ],
+      "visual": {
+        "kind": "checklist",
+        "labels": [
+          "Test clarity",
+          "Inspect lens",
+          "Plan backup"
+        ],
+        "alt": "A checklist schematic with three labelled elements: Test clarity; Inspect lens; Plan backup. It summarises ordinary map preparation or equipment identification, not a hazardous procedure or live route condition.",
+        "caption": "Use the diagram as an overview; consult the full guide and current information where relevant."
+      }
+    }
+  ]
+}
