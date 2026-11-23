@@ -61,7 +61,13 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 4,
+    "cycle_id": 5,
+    "claimed_at": "2026-11-23T12:37:16Z",
+    "expires_at": "2026-11-23T14:37:16Z",
+    "purpose": "Independent QA review cycle 005"
+  },
   "last_handoff": {
     "from": 3,
     "to": 4,
