@@ -22,5 +22,15 @@ jobs:
         run: |
           echo "HEAD_SHA=$(git rev-parse HEAD)"
           test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
-      - name: Run twelve isolated stdlib index corruption regression tests
+      - name: Run fourteen isolated stdlib index corruption regression tests
         run: python3 -m unittest discover -s scripts -p 'test_fulltext_index_corruption.py' -v
+      - name: Run complete seven-check offline pipeline
+        run: python3 automation/run_validation.py --output validation-report.json --timeout 120
+      - name: Publish machine-readable validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle-004-validation-${{ github.sha }}
+          path: validation-report.json
+          if-no-files-found: warn
+          retention-days: 7
