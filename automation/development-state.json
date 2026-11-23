@@ -330,6 +330,12 @@
       "tests": "14/14 isolated and 7/7 integration checks passed",
       "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
       "notes": "Repaired missing runner/test mismatch; matched exact PR head and artifacts. Not merged."
+    },
+    {
+      "cycle_id": 4,
+      "worker": "pipeline_improvement",
+      "status": "qa_policy_and_ci_upgraded",
+      "notes": "Five workers updated for QA risk profiles and feature-first tasks; shared workflow smoke checked successfully 45165034438; old cycle 004 blocker fully resolved."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
@@ -399,5 +405,27 @@
     "evidence_scope": "Python offline content+index only; Android/device not verified",
     "run_budget_minutes": 12,
     "risk": "medium"
+  },
+  "pipeline_policy": {
+    "qa_policy_path": "docs/AUTODEV_QA_POLICY.md",
+    "reusable_workflow": ".github/workflows/autodev-reusable-qa.yml",
+    "reusable_smoke_run": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45165034438",
+    "qa_profiles": [
+      "docs",
+      "python-isolated",
+      "python-index",
+      "python-content",
+      "android",
+      "safety-content",
+      "mixed"
+    ],
+    "feature_priority_percentages": {
+      "features_ux": 60,
+      "reliability_performance": 20,
+      "content_infrastructure": 15,
+      "housekeeping": 5
+    },
+    "priority_scope": "Founder-approved Android prototype only, Phase 0 safeguards; review unmerged PRs, no release",
+    "updated": "2026-11-23"
   }
 }
