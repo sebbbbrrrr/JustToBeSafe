@@ -3,7 +3,7 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "awaiting_validation",
+  "status": "awaiting_ci_results",
   "paused": false,
   "blocked": true,
   "cycle_id": 1,
@@ -107,18 +107,26 @@
       "worker": "pipeline_setup",
       "status": "runner_committed_not_executed",
       "notes": "Added bounded Python runner on coordination + cycle branch, state validator and runbook; existing execution blocker retained."
+    },
+    {
+      "cycle_id": 1,
+      "worker": "operator",
+      "status": "public_ci_configured",
+      "pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
+      "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
+      "notes": "Changed previous assumption about public standard runners; draft PR created as CI evidence checkpoint. No result yet."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "blocked_infrastructure",
+  "verification_status": "awaiting_public_ci",
   "verification_blocker": {
-    "reason": "QA runner and state validator are committed, but no available approved unattended checkout/runner to execute full integration tests. GitHub Actions quota intentionally not consumed.",
+    "reason": "Public standard GitHub Actions runner configured on work branch; draft PR #22 opened to trigger PR-based evidence. CI status not yet observed, and full test results must be verified before QA pass.",
     "required_checks": [
-      "On real checkout autodev/cycle-001: python3 automation/run_validation.py --output validation-report.json --timeout 120",
-      "Review report, exit codes, commit SHA and env",
-      "Check Android build separately if required by future task"
+      "python3 automation/run_validation.py --output validation-report.json --timeout 120",
+      "Check run for exact head SHA fb32d71b12faa2be8f565fecd0f91e96c454651c",
+      "Inspect validation-report artifact and failure output"
     ],
-    "resume_condition": "After actual runner executes and produces evidence, atomically clear blocked and rerun QA; never advance on file existence alone."
+    "resume_condition": "Worker 4 verifies matching successful check and all required report checks; then clear blocked and advance to Worker 5."
   },
   "validation_runner": {
     "path": "automation/run_validation.py",
@@ -129,5 +137,7 @@
     "state_validator_commit": "4b1e61c287a8ebe26cee04266ccc0aeb82cfb14e",
     "execution_status": "not_executed_in_real_checkout",
     "runner_scope": "offline-content-and-index-Python-only"
-  }
+  },
+  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
+  "work_head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c"
 }
