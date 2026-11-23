@@ -1,0 +1,45 @@
+name: AutoDev pilot Python QA
+on:
+  push:
+    branches:
+      - autodev/cycle-001
+    paths:
+      - '.github/workflows/autodev-pilot-qa.yml'
+      - 'scripts/check_fulltext_index.py'
+      - 'scripts/test_search_shard_integrity.py'
+      - 'automation/run_validation.py'
+  pull_request:
+    branches:
+      - feature/offline-illustration-pipeline-throughput
+    paths:
+      - '.github/workflows/autodev-pilot-qa.yml'
+      - 'scripts/check_fulltext_index.py'
+      - 'scripts/test_search_shard_integrity.py'
+      - 'automation/run_validation.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: autodev-pilot-qa-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  python-offline-qa:
+    if: github.repository == 'sebbbbrrrr/JustToBeSafe'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Python version
+        run: python3 --version
+      - name: Validate offline knowledge and search pipeline
+        run: python3 automation/run_validation.py --output validation-report.json --timeout 120
+      - name: Upload validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autodev-pilot-validation-${{ github.sha }}
+          path: validation-report.json
+          if-no-files-found: warn
+          retention-days: 7
