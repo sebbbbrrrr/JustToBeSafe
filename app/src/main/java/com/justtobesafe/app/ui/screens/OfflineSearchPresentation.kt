@@ -46,8 +46,9 @@ internal object OfflineSearchPresentation {
             val hit = Regex("[\\p{L}\\p{N}]+").findAll(lower)
                 .firstOrNull { word -> terms.any { word.value.startsWith(it) } } ?: continue
             if (clean.length <= limit) return clean
+            // Do not clamp to the paragraph's final full-width window: a match
+            // near the end needs a shorter excerpt, not a truncated token.
             val start = (hit.range.first - 48).coerceAtLeast(0)
-                .coerceAtMost(clean.length - limit)
             val end = (start + limit - 2).coerceAtMost(clean.length)
             val safeStart = if (start > 0 && Character.isLowSurrogate(clean[start])) start + 1 else start
             val safeEnd = if (end < clean.length && Character.isHighSurrogate(clean[end - 1])) end - 1 else end
