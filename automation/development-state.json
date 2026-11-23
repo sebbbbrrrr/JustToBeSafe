@@ -46,7 +46,12 @@
   "awaiting_merge": true,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 5,
+    "cycle_id": 1,
+    "expires_utc": "2026-11-23T02:30:00Z",
+    "purpose": "roadmap verified handoff manual test"
+  },
   "last_handoff": {
     "from": 4,
     "to": 5,
