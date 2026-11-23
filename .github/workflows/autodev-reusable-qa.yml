@@ -1,0 +1,94 @@
+name: Reusable AutoDev risk-based QA
+on:
+  workflow_call:
+    inputs:
+      profile:
+        description: One of docs, python-isolated, python-index, python-content, android
+        type: string
+        required: true
+permissions:
+  contents: read
+jobs:
+  docs:
+    if: inputs.profile == 'docs'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate text patch
+        run: |
+          git diff --check HEAD~1 HEAD
+  python-isolated:
+    if: inputs.profile == 'python-isolated'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate Python syntax
+        run: python3 -m compileall -q scripts
+      - name: Run isolated fixture regressions
+        run: python3 -m unittest discover -s scripts -p 'test_*corruption.py' -v
+  python-index:
+    if: inputs.profile == 'python-index'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run full index and article pipeline
+        run: |
+          python3 scripts/import_knowledge_batches.py
+          python3 scripts/check_content_quality.py
+          python3 scripts/build_knowledge_packs.py
+          python3 scripts/check_knowledge_packs.py
+          python3 scripts/build_fulltext_index.py
+          python3 scripts/check_fulltext_index.py
+      - name: Run relevant isolated fixtures when available
+        run: |
+          if test -f scripts/test_fulltext_index_corruption.py; then
+            python3 scripts/test_fulltext_index_corruption.py
+          fi
+          if test -f scripts/test_search_shard_integrity.py; then
+            python3 scripts/test_search_shard_integrity.py
+          fi
+  python-content:
+    if: inputs.profile == 'python-content'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Build and check offline knowledge packs
+        run: |
+          python3 scripts/import_knowledge_batches.py
+          python3 scripts/check_content_quality.py
+          python3 scripts/build_knowledge_packs.py
+          python3 scripts/check_knowledge_packs.py
+      - name: Run pack integrity fixtures when available
+        run: |
+          if test -f scripts/test_knowledge_pack_corruption.py; then
+            python3 scripts/test_knowledge_pack_corruption.py
+          fi
+  android:
+    if: inputs.profile == 'android'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Verify Android project
+        run: |
+          test -f gradlew
+          chmod +x gradlew
+          ./gradlew :app:testDebugUnitTest :app:assembleDebug --no-daemon --stacktrace
