@@ -3,7 +3,7 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "architecture_complete",
+  "status": "developer_in_progress",
   "paused": false,
   "blocked": false,
   "cycle_id": 4,
@@ -39,7 +39,12 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 2,
+    "cycle_id": 4,
+    "claimed_at": "2026-11-23T06:16:27Z",
+    "expires_at": "2026-11-23T08:16:27Z"
+  },
   "last_handoff": {
     "from": 1,
     "to": 2,
