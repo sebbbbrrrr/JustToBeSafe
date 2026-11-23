@@ -57,7 +57,13 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 3,
+    "cycle_id": 5,
+    "claimed_at": "2026-11-23T12:22:08Z",
+    "expires_at": "2026-11-23T14:22:08Z",
+    "purpose": "refinement"
+  },
   "last_handoff": {
     "from": 2,
     "to": 3,
