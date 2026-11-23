@@ -58,6 +58,21 @@ class OfflineSearchPresentationTest {
         assertTrue(excerpt.contains("cupboard"))
     }
 
+    @Test fun surrogatePairAtExcerptBoundaryDoesNotSplitEmoji() {
+        val paragraph = "a".repeat(47) + "😀" + " cupboard " + "b".repeat(250)
+        val excerpt = OfflineSearchPresentation.snippet("cupboard", listOf(paragraph))!!
+        assertTrue(excerpt.length <= 180)
+        assertTrue(excerpt.contains("cupboard"))
+        assertFalse(excerpt.any { Character.isSurrogate(it) } &&
+            excerpt.indices.any { i ->
+                val ch = excerpt[i]
+                (Character.isHighSurrogate(ch) &&
+                    (i + 1 == excerpt.length || !Character.isLowSurrogate(excerpt[i + 1]))) ||
+                    (Character.isLowSurrogate(ch) &&
+                        (i == 0 || !Character.isHighSurrogate(excerpt[i - 1])))
+            })
+    }
+
     @Test fun failedOrMissingIndexShowsMetadataOnly() {
         assertEquals(OfflineSearchPresentation.IndexState.MetadataOnly,
             OfflineSearchPresentation.indexState("power", null))
