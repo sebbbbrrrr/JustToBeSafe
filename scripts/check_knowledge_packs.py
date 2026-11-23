@@ -5,6 +5,7 @@ import gzip
 import json
 from pathlib import Path
 import sys
+import zlib
 
 
 def check(root: Path) -> str:
@@ -47,7 +48,7 @@ def check(root: Path) -> str:
         try:
             with gzip.open(path, "rt", encoding="utf-8") as handle:
                 contents = json.load(handle)
-        except (OSError, EOFError, UnicodeError, json.JSONDecodeError) as exc:
+        except (OSError, EOFError, UnicodeError, json.JSONDecodeError, zlib.error) as exc:
             raise ValueError(f"{path}: missing, corrupt gzip, or malformed pack JSON: {exc}") from exc
         if not isinstance(contents, dict) or contents.get("schema_version") != 1 or not isinstance(contents.get("articles"), list):
             raise ValueError(f"{path}: invalid pack schema")
