@@ -16,10 +16,12 @@ internal object OfflineSearchPresentation {
         when {
             query.isBlank() -> IndexState.Catalogue
             search == null -> IndexState.MetadataOnly
-            else -> search().fold(
+            // An index reader can throw before returning Result (for example on a
+            // malformed local shard). Preserve honest metadata-only fallback.
+            else -> runCatching { search() }.getOrNull()?.fold(
                 onSuccess = { IndexState.FullText(it) },
                 onFailure = { IndexState.MetadataOnly }
-            )
+            ) ?: IndexState.MetadataOnly
         }
 
     fun metadataMatches(query: String, fields: List<String>): Boolean {
