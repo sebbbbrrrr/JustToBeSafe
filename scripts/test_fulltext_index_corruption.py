@@ -110,6 +110,14 @@ class IndexCorruptionTests(unittest.TestCase):
         self.save_shards()
         self.run_checker(1, "sorted and unique")
 
+    def test_malformed_source_id_type(self):
+        self.write_json(self.merged, {"articles": [{"id": ["not", "hashable"]}]})
+        self.run_checker(1, "article IDs must be nonempty strings")
+
+    def test_empty_source_id(self):
+        self.write_json(self.urban, {"articles": [{"topic_id": ""}]})
+        self.run_checker(1, "article IDs must be nonempty strings")
+
     def test_duplicate_manifest_ids(self):
         manifest = json.loads((self.index / "manifest.json").read_text())
         manifest["documents"].append("fixture-home")
