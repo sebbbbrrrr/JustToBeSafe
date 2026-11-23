@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "refinement_complete",
+  "status": "qa_failed_code",
   "paused": false,
   "blocked": false,
   "cycle_id": 5,
-  "next_worker": 4,
+  "next_worker": 2,
   "task": {
     "task_id": "JTS-AUTODEV-005",
     "original_goal": "Implement an Android Calm Utility prototype offline search results slice that displays a short, readable matched-text snippet for full-body search hits, with clear no-match and unavailable-index states, entirely offline and without changing search index schema or safety review status.",
@@ -59,53 +59,37 @@
   ],
   "qa_passed": false,
   "awaiting_merge": false,
-  "retry_count": 0,
+  "retry_count": 1,
   "max_retries": 3,
-  "lease": {
-    "worker": 4,
-    "cycle_id": 5,
-    "claimed_at": "2026-11-23T12:37:16Z",
-    "expires_at": "2026-11-23T14:37:16Z",
-    "purpose": "Independent QA review cycle 005"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 3,
-    "to": 4,
+    "from": 4,
+    "to": 2,
     "cycle_id": 5,
     "task_id": "JTS-AUTODEV-005",
     "branch": "autodev/cycle-005",
-    "commits": [
-      "c54be7cb602a7eb51d8241e2f164e2c3993ffb16",
-      "bd7d2b97e6c6ac8af810eaa370ca1a6176498622",
-      "1f92db73a0eb2f305a58917c539919138778374d",
-      "e396ac4e406ba2726bfe57f914c5c9f6ead46eb4"
-    ],
     "head_sha": "e396ac4e406ba2726bfe57f914c5c9f6ead46eb4",
-    "changed_paths": [
-      "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
-      "app/src/test/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentationTest.kt",
-      "docs/autodev-cycle-005-implementation.md"
-    ],
-    "improvements": [
-      "Explicit urban missing-body excerpt fallback without invented quotes",
-      "Actual newline normalization fixture and surrogate-boundary regression test",
-      "Refinement evidence report"
-    ],
     "qa_profile": "android",
     "tests_run": [],
     "tests_unverified": [
-      "Exact-head :app:testDebugUnitTest",
+      ":app:testDebugUnitTest",
       ":app:assembleDebug",
       "Huawei P30 device",
       "Accessibility visual and screen reader"
     ],
-    "ci_status": "awaiting_ci",
-    "evidence_urls": [
-      "https://github.com/sebbbbrrrr/JustToBeSafe/commit/e396ac4e406ba2726bfe57f914c5c9f6ead46eb4",
-      "https://github.com/sebbbbrrrr/JustToBeSafe/actions?query=branch%3Aautodev%2Fcycle-005"
+    "qa_passed": false,
+    "retry_count": 1,
+    "defects": [
+      {
+        "file": "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
+        "location": "UrbanGuideRow invocation, snippet argument",
+        "severity": "build_blocking",
+        "reproduction": "At exact commit e396ac4e406ba2726bfe57f914c5c9f6ead46eb4 inspect `snippet = excerpt ?: if (bodyOnly)\\n                            \"Article excerpt unavailable...\"`. The two characters backslash and n occur outside a Kotlin string; this is invalid Kotlin source syntax. Replace with an actual newline/whitespace and run Gradle compilation.",
+        "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/blob/e396ac4e406ba2726bfe57f914c5c9f6ead46eb4/app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
+        "verification": "Direct exact-commit source inspection; Gradle not executed; no CI run found in PR-triggered lookup; commit combined statuses empty"
+      }
     ],
-    "outstanding_defects": [],
-    "next_action": "Worker 4 inspect exact-head public read-only Actions job and Gradle logs; do not infer pass from previous head."
+    "next_action": "Worker 2 fix literal backslash-n outside Kotlin string, commit to isolated branch; Worker 3 re-review; Worker 4 require exact-new-head Gradle unit tests and assembleDebug on approved public runner."
   },
   "history": [
     {
@@ -399,7 +383,7 @@
     }
   ],
   "notes": "Cycle 004 verified in draft PR only. Cycle 005 queued with approved S2 user-facing Android UX objective; Architect must verify current implementation and dependency safety before freezing.",
-  "verification_status": "awaiting_ci",
+  "verification_status": "failed_code",
   "verification_blocker": null,
   "validation_runner": null,
   "qa_pull_request": null,
@@ -472,5 +456,15 @@
     },
     "priority_scope": "Founder-approved Android prototype only, Phase 0 safeguards; review unmerged PRs, no release",
     "updated": "2026-11-23"
-  }
+  },
+  "outstanding_defects": [
+    {
+      "file": "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
+      "location": "UrbanGuideRow invocation, snippet argument",
+      "severity": "build_blocking",
+      "reproduction": "At exact commit e396ac4e406ba2726bfe57f914c5c9f6ead46eb4 inspect `snippet = excerpt ?: if (bodyOnly)\\n                            \"Article excerpt unavailable...\"`. The two characters backslash and n occur outside a Kotlin string; this is invalid Kotlin source syntax. Replace with an actual newline/whitespace and run Gradle compilation.",
+      "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/blob/e396ac4e406ba2726bfe57f914c5c9f6ead46eb4/app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
+      "verification": "Direct exact-commit source inspection; Gradle not executed; no CI run found in PR-triggered lookup; commit combined statuses empty"
+    }
+  ]
 }
