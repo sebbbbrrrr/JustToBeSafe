@@ -3,79 +3,52 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_passed_awaiting_human_review",
+  "status": "queued",
   "paused": false,
   "blocked": false,
-  "cycle_id": 3,
-  "next_worker": 5,
+  "cycle_id": 4,
+  "next_worker": 1,
   "task": {
-    "task_id": "JTS-AUTODEV-003",
-    "original_goal": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S1/S5; pack integrity and honest failure diagnostics",
+    "task_id": "JTS-AUTODEV-004",
+    "original_goal": "Add isolated deterministic standard-library regression tests for corrupted or inconsistent compressed offline full-text search index shards/manifests, verifying checker failures and actionable diagnostics. Preserve normal valid index behavior and stable article IDs; no Android or shipped content changes.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S1/S5; missing/corrupt index diagnostics and stable-ID coverage",
     "integration_base": "feature/offline-illustration-pipeline-throughput",
     "dependencies": [],
-    "implementation_hint": "Add a separate stdlib unittest fixture harness for scripts/check_knowledge_packs.py; refactor checker only as necessary to accept temporary root paths without changing default CLI behavior.",
-    "frozen_at": "2026-11-23T00:55:10Z"
+    "implementation_hint": "Inspect scripts/check_fulltext_index.py and existing test harnesses; use temporary synthetic index/manifest fixtures, narrow checker refactor only if needed; test exact-head on a scoped read-only public CI runner.",
+    "queued_at": "2026-11-23T05:45:08Z"
   },
-  "task_id": "JTS-AUTODEV-003",
+  "task_id": "JTS-AUTODEV-004",
   "acceptance_criteria": [
-    "Using temporary directories and synthetic internal_draft article/manifest/gzip fixtures, verify a valid minimal pack passes the existing checker without accessing repository-generated assets.",
-    "Verify a manifest reference to a missing pack fails with a nonzero process exit and a diagnostic identifying the missing pack.",
-    "Verify truncated or invalid gzip bytes and valid gzip containing malformed JSON each fail nonzero with an actionable pack-specific diagnostic.",
-    "Verify a manifest entry whose article ID is absent from its referenced pack fails nonzero with a diagnostic naming the article ID; also cover a manifest/source ID mismatch.",
-    "Ensure tests are deterministic, standard-library-only, do not modify real content or generated assets, and clean up temporary fixtures.",
-    "Provide a narrowly scoped public read-only GitHub Actions test run on the isolated task branch; capture run URL, head SHA, exact exit status and test counts. Report any unexecuted integration checks as unverified."
+    "Valid minimal synthetic search manifest and gzip shard pass checker without repository-generated assets.",
+    "Missing referenced shard, invalid/truncated gzip and malformed JSON fail nonzero with shard-specific diagnostics.",
+    "Manifest/postings mismatches, unknown article IDs and invalid shard mapping fail nonzero with actionable diagnostics where existing schema supports them.",
+    "Tests use stdlib and temporary fixtures, preserve valid-index CLI behavior, do not modify generated/shipped assets, and avoid dependencies on unmerged PRs #22–#24.",
+    "Run scoped read-only public CI at exact task head; capture URL, SHA, exit codes and test count; distinguish isolated from integration/Android verification."
   ],
   "excluded_scope": [
-    "No Android runtime/UI or device claims",
-    "No shipped guide edits, editorial approval, or publication",
-    "No new third-party dependencies, network calls, production infrastructure or deployments",
-    "No reliance on unmerged PR #22 or #23",
-    "No changes to pack format, stable article IDs or normal valid-pack behavior",
-    "No automatic merge or release"
+    "No Android/device/UI or full app claims",
+    "No shipped articles or safety publication",
+    "No index format or tokenization changes unless explicitly approved",
+    "No reliance on unmerged PRs #22, #23, #24",
+    "No third-party dependencies, production hooks, auto-merge or release"
   ],
-  "work_branch": "autodev/cycle-003",
-  "commits": [
-    "5984a3bf0850b8d407e07eb74bcfe93dde7cef0c",
-    "4b67f8e5eb2ebeee613657b73270a4bb4f3937c1",
-    "82a208faf9ded96bd5b9784d34d827feee356e21",
-    "122fdf7f1bb17a5521134d6e06c242efd1d29200",
-    "05122d13a7e022a5382381e0d4d73d89876a7fbc",
-    "6491ef27a2db4219cc994baaba20e75583739b8b"
-  ],
-  "qa_passed": true,
-  "awaiting_merge": true,
+  "work_branch": null,
+  "commits": [],
+  "qa_passed": false,
+  "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 5,
-    "cycle_id": 3,
-    "claimed_at": "2026-11-23T05:45:08Z",
-    "expires_at": "2026-11-23T07:45:08Z",
-    "purpose": "verify QA and roadmap handoff"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 5,
-    "cycle_id": 3,
-    "task_id": "JTS-AUTODEV-003",
-    "branch": "autodev/cycle-003",
-    "commits": [
-      "6491ef27a2db4219cc994baaba20e75583739b8b"
-    ],
-    "changed_paths": [
-      "scripts/check_knowledge_packs.py",
-      "scripts/test_knowledge_pack_corruption.py",
-      ".github/workflows/autodev-cycle-003-qa.yml"
-    ],
-    "tests": "9/9 Python fixture tests passed in exact-head public CI run 45094226290; Android and full pipeline not executed",
-    "verification_status": "passed_isolated",
-    "outstanding_defects": [],
-    "evidence": [
-      "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45094226290",
-      "https://github.com/sebbbbrrrr/JustToBeSafe/pull/24"
-    ],
-    "next_stage": 5
+    "from": 5,
+    "to": 1,
+    "cycle_id": 4,
+    "completed_cycle_id": 3,
+    "completed_task_id": "JTS-AUTODEV-003",
+    "completed_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/24",
+    "completed_qa_run": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45094226290",
+    "next_task_id": "JTS-AUTODEV-004",
+    "next_stage": 1
   },
   "history": [
     {
@@ -249,10 +222,22 @@
       "tests": "9/9 isolated Python fixture tests passed; runner exit 0",
       "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/24",
       "notes": "Recovered push-triggered run evidence from full Actions run list and job logs; Android/full integration unverified; no merge"
+    },
+    {
+      "cycle_id": 3,
+      "worker": 5,
+      "status": "verified_in_pr",
+      "task_id": "JTS-AUTODEV-003",
+      "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/24",
+      "qa_run": 45094226290,
+      "head_sha": "6491ef27a2db4219cc994baaba20e75583739b8b",
+      "release_status": "unmerged",
+      "verification_status": "passed_isolated",
+      "notes": "Nine Python corruption fixtures verified on exact-head public CI; Android/full pipeline unverified. Queued independent search-index corruption test objective."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "passed_isolated",
+  "verification_status": "unverified",
   "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
@@ -264,21 +249,9 @@
     "execution_status": "not_executed_in_real_checkout",
     "runner_scope": "offline-content-and-index-Python-only"
   },
-  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/24",
-  "work_head_sha": "6491ef27a2db4219cc994baaba20e75583739b8b",
-  "qa_evidence": {
-    "status": "passed_isolated",
-    "head_sha": "6491ef27a2db4219cc994baaba20e75583739b8b",
-    "workflow": ".github/workflows/autodev-cycle-003-qa.yml",
-    "workflow_run_id": 45094226290,
-    "workflow_run_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45094226290",
-    "job_id": 137430333535,
-    "job_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45094226290/job/137430333535",
-    "checks": "9/9 stdlib unittest fixture tests passed; workflow and job success, exit 0",
-    "runner": "GitHub-hosted ubuntu-26.04, contents:read",
-    "scope": "Isolated Python knowledge-pack corruption fixtures only; Android/device/full integration unverified",
-    "artifacts": "none; verified original job logs"
-  },
+  "qa_pull_request": null,
+  "work_head_sha": null,
+  "qa_evidence": null,
   "blocker_events": [
     {
       "event_key": "cycle-003-w4-no-approved-ci-execution-6491ef27",
@@ -294,5 +267,7 @@
       ],
       "next_action": "Confirm a standard read-only GitHub Actions run for exact head and inspect nine unittest results/logs, or provide approved checkout runner; only then reassess QA."
     }
-  ]
+  ],
+  "completion_notification_cycle_id": 3,
+  "completion_report": "Cycle 3 JTS-AUTODEV-003: isolated corruption-fixture coverage and actionable pack diagnostics in scripts/check_knowledge_packs.py, scripts/test_knowledge_pack_corruption.py and .github/workflows/autodev-cycle-003-qa.yml. Draft PR #24 head 6491ef27a2db4219cc994baaba20e75583739b8b; Actions 45094226290 job 137430333535 succeeded 9/9 tests, exit 0. Android/device and full offline pipeline unverified. Unmerged. Next: isolated full-text search-index corruption fixture regression tests on approved integration base."
 }
