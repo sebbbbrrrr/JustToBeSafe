@@ -339,7 +339,9 @@ fun GuidesScreen(
                                 Column(Modifier.weight(1f),
                                     verticalArrangement = Arrangement.spacedBy(4.dp)) {
                                     Text(entry.title, style = MaterialTheme.typography.titleMedium)
-                                    Text(excerpt ?: entry.summary.ifBlank {
+                                    Text(excerpt ?: if (bodyOnly) {
+                                        "Matched article text could not be shown; open to check the local draft."
+                                    } else entry.summary.ifBlank {
                                         "Article preview unavailable; open to check local text."
                                     }, style = MaterialTheme.typography.bodySmall,
                                         color = colors.onSurfaceVariant, maxLines = 2,
