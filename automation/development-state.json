@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "awaiting_ci_results",
+  "status": "qa_passed_awaiting_human_merge",
   "paused": false,
-  "blocked": true,
+  "blocked": false,
   "cycle_id": 1,
-  "next_worker": 4,
+  "next_worker": 5,
   "task": {
     "id": "JTS-AUTODEV-001",
     "title": "Harden offline search index integrity checks",
@@ -42,30 +42,35 @@
     "16853c023e066bf715df0a353b2a1024ae6f3ca2",
     "3f83c39ddf277b2ca8d0721984c46221c9599aa0"
   ],
-  "qa_passed": false,
-  "awaiting_merge": false,
+  "qa_passed": true,
+  "awaiting_merge": true,
   "retry_count": 0,
   "max_retries": 3,
   "lease": null,
   "last_handoff": {
-    "from": "diagnostic",
-    "to": 4,
+    "from": 4,
+    "to": 5,
     "task_id": "JTS-AUTODEV-001",
     "branch": "autodev/cycle-001",
-    "verification_status": "blocked_infrastructure",
+    "commits": [
+      "16853c023e066bf715df0a353b2a1024ae6f3ca2",
+      "3f83c39ddf277b2ca8d0721984c46221c9599aa0",
+      "fb32d71b12faa2be8f565fecd0f91e96c454651c"
+    ],
     "tests_run": [
       {
-        "name": "Local isolated Python regression harness reconstructed from committed function and test source",
-        "result": "7/7 pass",
-        "scope": "isolated source-copy harness; NOT full repository"
+        "name": "public GitHub Actions Python offline QA",
+        "result": "passed_integration",
+        "checks": "7/7",
+        "workflow_run_id": 45086722850,
+        "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c"
       }
     ],
     "tests_unverified": [
-      "python3 scripts/test_search_shard_integrity.py in repository checkout",
-      "python3 scripts/check_fulltext_index.py with generated offline index assets"
+      "Android build and Huawei P30 live device test (not required by this narrow Python verifier task)"
     ],
-    "code_defects_confirmed": 0,
-    "notes": "Corrected prior misclassification of unavailable tests as a code-repair failure; no code or project integration test failed."
+    "result": "Independent public CI verified seven of seven Python checks; draft PR #22 opened for human review and left unmerged.",
+    "blockers": []
   },
   "history": [
     {
@@ -115,19 +120,20 @@
       "pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
       "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
       "notes": "Changed previous assumption about public standard runners; draft PR created as CI evidence checkpoint. No result yet."
+    },
+    {
+      "cycle_id": 1,
+      "worker": 4,
+      "status": "qa_passed",
+      "workflow_run_id": 45086722850,
+      "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
+      "checks": "7/7 passed",
+      "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22"
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "awaiting_public_ci",
-  "verification_blocker": {
-    "reason": "Public standard GitHub Actions runner configured on work branch; draft PR #22 opened to trigger PR-based evidence. CI status not yet observed, and full test results must be verified before QA pass.",
-    "required_checks": [
-      "python3 automation/run_validation.py --output validation-report.json --timeout 120",
-      "Check run for exact head SHA fb32d71b12faa2be8f565fecd0f91e96c454651c",
-      "Inspect validation-report artifact and failure output"
-    ],
-    "resume_condition": "Worker 4 verifies matching successful check and all required report checks; then clear blocked and advance to Worker 5."
-  },
+  "verification_status": "passed_integration",
+  "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
     "work_branch": "autodev/cycle-001",
@@ -139,5 +145,17 @@
     "runner_scope": "offline-content-and-index-Python-only"
   },
   "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
-  "work_head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c"
+  "work_head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
+  "qa_evidence": {
+    "workflow_run_id": 45086722850,
+    "workflow_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45086722850",
+    "job_id": 137406929087,
+    "job_conclusion": "success",
+    "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
+    "checked_out_pr_merge_sha": "1f538c22c2f3fdc175ff22573ee2d3a62a451cbe",
+    "passed": 7,
+    "expected": 7,
+    "artifact_id": 14779194382,
+    "scope": "Python offline content and index integration only; Android build and P30 device validation not performed"
+  }
 }
