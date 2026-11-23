@@ -37,6 +37,21 @@ class OfflineSearchPresentationTest {
         assertTrue(OfflineSearchPresentation.snippet("lantern", listOf(end))!!.contains("lantern"))
     }
 
+    @Test fun finalTokenRemainsWholeNearEndOfLongParagraph() {
+        val paragraph = "a".repeat(400) + " lantern"
+        val excerpt = OfflineSearchPresentation.snippet("lantern", listOf(paragraph))!!
+        assertTrue(excerpt.contains("lantern"))
+        assertTrue(excerpt.endsWith("lantern"))
+        assertTrue(excerpt.length <= 180)
+    }
+
+    @Test fun trailingUnicodeMatchRemainsWhole() {
+        val paragraph = "a".repeat(400) + " Café"
+        val excerpt = OfflineSearchPresentation.snippet("CAFÉ", listOf(paragraph))!!
+        assertTrue(excerpt.endsWith("Café"))
+        assertTrue(excerpt.length <= 180)
+    }
+
     @Test fun caseUnicodeAndPrefix() {
         assertEquals("Café supplies",
             OfflineSearchPresentation.snippet("CAFÉ", listOf("Café supplies")))
