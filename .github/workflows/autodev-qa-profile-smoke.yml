@@ -1,0 +1,16 @@
+name: AutoDev reusable QA profile smoke
+on:
+  pull_request:
+    branches:
+      - feature/offline-illustration-pipeline-throughput
+    paths:
+      - '.github/workflows/autodev-qa-profile-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  smoke:
+    uses: sebbbbrrrr/JustToBeSafe/.github/workflows/autodev-reusable-qa.yml@automation/five-stage-development-pipeline
+    with:
+      profile: python-index
+    permissions:
+      contents: read
