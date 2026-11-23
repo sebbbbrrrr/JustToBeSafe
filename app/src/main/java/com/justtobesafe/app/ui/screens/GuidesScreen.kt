@@ -55,7 +55,7 @@ import com.justtobesafe.app.ui.components.SmallBadge
 import com.justtobesafe.app.ui.components.SoftCard
 
 @Composable
-private fun UrbanGuideRow(topic: UrbanGuideTopic, onClick: () -> Unit) {
+private fun UrbanGuideRow(topic: UrbanGuideTopic, snippet: String? = null, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     SoftCard {
         Row(
@@ -76,6 +76,8 @@ private fun UrbanGuideRow(topic: UrbanGuideTopic, onClick: () -> Unit) {
                     "Development order " + topic.priority + " · " + scopeLabel(topic.geographicScope),
                     style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant
                 )
+                if (snippet != null) Text(snippet, style = MaterialTheme.typography.bodySmall,
+                    color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text("OFFLINE ARTICLE · Unreviewed draft",
                     style = MaterialTheme.typography.labelSmall, color = colors.primary)
             }
@@ -108,9 +110,12 @@ fun GuidesScreen(
     var query by rememberSaveable { mutableStateOf("") }
     var category by rememberSaveable { mutableStateOf("All") }
     val colors = MaterialTheme.colorScheme
-    val matchingIds = androidx.compose.runtime.remember(query, fullText) {
-        if (query.isBlank()) null else fullText?.search(query)?.getOrNull()
+    val indexState = androidx.compose.runtime.remember(query, fullText) {
+        OfflineSearchPresentation.indexState(query,
+            fullText?.let { index -> { index.search(query) } })
     }
+    val matchingIds = (indexState as? OfflineSearchPresentation.IndexState.FullText)?.ids
+    val metadataOnly = indexState is OfflineSearchPresentation.IndexState.MetadataOnly
     val selected = catalogue?.find(selectedGuideId)
     val knowledgeSelected = knowledge?.find(selectedGuideId)
     val knowledgeArticle = androidx.compose.runtime.remember(knowledge, selectedGuideId) {
@@ -287,6 +292,10 @@ fun GuidesScreen(
                     }
                 )
             }
+            if (metadataOnly) item(key = "fts-fallback") {
+                SafetyNotice("Full article search is unavailable on this installation. " +
+                    "Showing title and topic matches only; some body matches may be missing.")
+            }
             if (knowledge != null) {
                 item(key = "knowledge-filters") {
                     Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
@@ -309,6 +318,16 @@ fun GuidesScreen(
                             " in-app articles · no connection required")
                     }
                     items(results, key = { "knowledge-" + it.id }) { entry ->
+                        // Only inflate the pack for visible full-body-only hits.
+                        val bodyOnly = matchingIds != null &&
+                            !OfflineSearchPresentation.metadataMatches(query,
+                                listOf(entry.title, entry.summary, entry.category) + entry.tags)
+                        val excerpt = androidx.compose.runtime.remember(
+                            entry.id, query, knowledge, bodyOnly
+                        ) {
+                            if (bodyOnly) OfflineSearchPresentation.knowledgeSnippet(
+                                query, knowledge.readArticle(entry.id).getOrNull()) else null
+                        }
                         SoftCard {
                             Row(Modifier.fillMaxWidth()
                                 .clickable(onClickLabel = "Read " + entry.title,
@@ -320,8 +339,11 @@ fun GuidesScreen(
                                 Column(Modifier.weight(1f),
                                     verticalArrangement = Arrangement.spacedBy(4.dp)) {
                                     Text(entry.title, style = MaterialTheme.typography.titleMedium)
-                                    Text(entry.summary, style = MaterialTheme.typography.bodySmall,
-                                        color = colors.onSurfaceVariant)
+                                    Text(excerpt ?: entry.summary.ifBlank {
+                                        "Article preview unavailable; open to check local text."
+                                    }, style = MaterialTheme.typography.bodySmall,
+                                        color = colors.onSurfaceVariant, maxLines = 2,
+                                        overflow = TextOverflow.Ellipsis)
                                     Text(entry.category + " · Offline draft",
                                         style = MaterialTheme.typography.labelSmall,
                                         color = colors.primary)
@@ -377,11 +399,18 @@ fun GuidesScreen(
                         SectionTitle("Urban emergencies", "12 situational articles")
                     }
                     items(visible, key = { it.id }) { topic ->
-                        UrbanGuideRow(topic, onClick = { onSelect(topic.id) })
+                        val bodyOnly = matchingIds != null &&
+                            !OfflineSearchPresentation.metadataMatches(query,
+                                listOf(topic.title, topic.geographicScope))
+                        val excerpt = androidx.compose.runtime.remember(
+                            topic.id, query, offlineLibrary, bodyOnly
+                        ) {
+                            if (bodyOnly) OfflineSearchPresentation.urbanSnippet(
+                                query, offlineLibrary?.articleFor(topic.id)) else null
+                        }
+                        UrbanGuideRow(topic, snippet = excerpt,
+                            onClick = { onSelect(topic.id) })
                     }
-                }
-                if (query.isNotBlank() && fullText == null) item(key = "fts-unavailable") {
-                    SafetyNotice("Full-text index is unavailable. Showing title and topic matches only.")
                 }
                 item(key = "draft-notice") {
                     SafetyNotice("These articles are readable offline, but remain unreviewed editorial " +
