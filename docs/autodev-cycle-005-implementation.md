@@ -13,3 +13,12 @@ No network calls, index schema/assets, safety guide publication, new dependencie
 
 ## Validation
 Initial central reusable Android CI: [run 45172971644](https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45172971644) failed with exit 1 at `test -f gradlew`, before any unit tests or compilation. It is an execution configuration defect, not a confirmed Kotlin defect. Replacement task-specific CI must be checked on its exact head; until then Kotlin tests, APK build, UI rendering and Huawei P30 remain unverified. Vendored skill consulted: `.agents/skills/justtobesafe-design-workflow/SKILL.md`; no external design hooks executed.
+
+## Worker 3 refinement — 23 November 2026
+- Reviewed frozen cycle-005 acceptance criteria and Android QA profile against the installed-body implementation, accessibility labels, category filters, index error states and unreviewed safety notices.
+- For urban body-only search matches whose local article cannot yield a real excerpt, show an explicit non-quoted availability fallback instead of a blank snippet; preserve title, priority, draft badge and navigation.
+- Corrected a regression fixture that previously used a literal backslash-n instead of a real newline; added a surrogate-pair boundary test for Unicode excerpt clipping.
+- Reviewed repo-local `.agents/skills/justtobesafe-design-workflow/SKILL.md`, `.agents/skills/impeccable/SKILL.md`, `.agents/skills/impeccable/reference/harden.md`, `.agents/skills/impeccable/reference/craft-floor.md`, and `.agents/skills/impeccable/reference/android.md`. No executable hooks or downloads were run.
+- Refinement commits: `c54be7cb602a7eb51d8241e2f164e2c3993ffb16`, `bd7d2b97e6c6ac8af810eaa370ca1a6176498622`, `1f92db73a0eb2f305a58917c539919138778374d`.
+- Exact-head Gradle unit tests and `:app:assembleDebug` remain **unverified** pending public Actions evidence on the final head. Earlier run `45173120364` failed at a previous head and is not a valid pass for this refinement. Physical Huawei P30, emulator screenshots, font scaling and screen reader remain unverified.
+- QA must confirm exact-head Actions run, job logs, command exit codes, Android compile, deterministic tests, and static scope/accessibility review. No merge or release is authorised.
