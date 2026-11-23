@@ -7,6 +7,13 @@ on:
       - 'scripts/check_fulltext_index.py'
       - 'scripts/test_fulltext_index_corruption.py'
       - '.github/workflows/autodev-cycle-004-qa.yml'
+  pull_request:
+    branches: [feature/offline-illustration-pipeline-throughput]
+    paths:
+      - 'automation/run_validation.py'
+      - 'scripts/check_fulltext_index.py'
+      - 'scripts/test_fulltext_index_corruption.py'
+      - '.github/workflows/autodev-cycle-004-qa.yml'
   workflow_dispatch:
 permissions:
   contents: read
