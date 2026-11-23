@@ -408,7 +408,8 @@ fun GuidesScreen(
                             if (bodyOnly) OfflineSearchPresentation.urbanSnippet(
                                 query, offlineLibrary?.articleFor(topic.id)) else null
                         }
-                        UrbanGuideRow(topic, snippet = excerpt ?: if (bodyOnly)\n                            "Article excerpt unavailable; open to check local text." else null,
+                        UrbanGuideRow(topic, snippet = excerpt ?: if (bodyOnly)
+                            "Article excerpt unavailable; open to check local text." else null,
                             onClick = { onSelect(topic.id) })
                     }
                 }
