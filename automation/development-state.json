@@ -23,7 +23,12 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 1,
+    "cycle_id": 2,
+    "expires_utc": "2026-11-23T02:30:00Z",
+    "purpose": "architect cycle 002"
+  },
   "last_handoff": {
     "from": 5,
     "to": 1,
