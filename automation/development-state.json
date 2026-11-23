@@ -47,7 +47,12 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 3,
+    "cycle_id": 2,
+    "expires_utc": "2026-11-23T03:00:00Z",
+    "purpose": "refine benchmark + tests"
+  },
   "last_handoff": {
     "from": 2,
     "to": 3,
