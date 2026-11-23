@@ -3,41 +3,70 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "ready_for_architecture",
+  "status": "architecture_complete",
   "paused": false,
   "blocked": false,
   "cycle_id": 2,
-  "next_worker": 1,
+  "next_worker": 2,
   "task": {
-    "queued_objective": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S4",
+    "id": "JTS-AUTODEV-002",
+    "title": "Synthetic offline search scale benchmark",
+    "original_goal": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S4 — 100 / 1,000 / 10,000 article benchmarks",
+    "scope": "Add a standalone stdlib-only Python benchmark under scripts/ which generates completely fictional in-memory content and temporary files to measure build times, compressed index size and representative query latency. Preserve app/runtime formats and never touch shipping assets.",
     "dependencies": [],
-    "selected_by": 5
+    "integration_base": "feature/offline-illustration-pipeline-throughput",
+    "verification_plan": [
+      "Run script --help and small smoke run with e.g. 100 synthetic documents in GitHub Actions or approved runner",
+      "Verify fixed seed gives same generated term/postings counts and deterministic shard file hashes across repeated runs",
+      "Verify output JSON contains document count, compressed bytes, build and query timings and clear hardware caveats",
+      "Ensure no writes to app/src/main/assets or content/offline_knowledge_articles.json",
+      "At larger 1000/10000 sizes test in bounded public CI only where time budget allows"
+    ]
   },
-  "task_id": null,
-  "acceptance_criteria": [],
-  "excluded_scope": [],
+  "task_id": "JTS-AUTODEV-002",
+  "acceptance_criteria": [
+    "Script generates strictly synthetic fixture documents at 100, 1000, and 10000 counts; no user-visible guides",
+    "Deterministic seeded fixture text and index contents, using temporary directory rather than tracked assets",
+    "Outputs machine-readable size, build duration and cold query timing per count; labels results as CI-host metrics not P30/device measurements",
+    "Standard-library only; bounded runtime and peak memory where possible; no network or third-party packages",
+    "Automated smoke/determinism test included and executed in CI with actual logs; no modifications to runtime search logic or published content"
+  ],
+  "excluded_scope": [
+    "Android runtime/UI or real-content changes",
+    "Publishing synthetic fixtures into APK or shipping guides",
+    "Assuming Linux CI timings predict P30 device latency",
+    "Automatic merging, deployment, user data, CI secrets"
+  ],
   "work_branch": null,
   "commits": [],
   "qa_passed": false,
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 1,
-    "cycle_id": 2,
-    "expires_utc": "2026-11-23T02:30:00Z",
-    "purpose": "architect cycle 002"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 5,
-    "to": 1,
+    "from": 1,
+    "to": 2,
     "cycle_id": 2,
-    "prior_task": "JTS-AUTODEV-001",
-    "prior_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
-    "qa_evidence": "run 45086722850, 7 of 7 Python checks",
-    "queued_task": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
-    "notes": "Scope independent of unmerged PR; human review remains required for cycle 001."
+    "task_id": "JTS-AUTODEV-002",
+    "goal": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
+    "scope": "Add a standalone stdlib-only Python benchmark under scripts/ which generates completely fictional in-memory content and temporary files to measure build times, compressed index size and representative query latency. Preserve app/runtime formats and never touch shipping assets.",
+    "acceptance_criteria": [
+      "Script generates strictly synthetic fixture documents at 100, 1000, and 10000 counts; no user-visible guides",
+      "Deterministic seeded fixture text and index contents, using temporary directory rather than tracked assets",
+      "Outputs machine-readable size, build duration and cold query timing per count; labels results as CI-host metrics not P30/device measurements",
+      "Standard-library only; bounded runtime and peak memory where possible; no network or third-party packages",
+      "Automated smoke/determinism test included and executed in CI with actual logs; no modifications to runtime search logic or published content"
+    ],
+    "verification_plan": [
+      "Run script --help and small smoke run with e.g. 100 synthetic documents in GitHub Actions or approved runner",
+      "Verify fixed seed gives same generated term/postings counts and deterministic shard file hashes across repeated runs",
+      "Verify output JSON contains document count, compressed bytes, build and query timings and clear hardware caveats",
+      "Ensure no writes to app/src/main/assets or content/offline_knowledge_articles.json",
+      "At larger 1000/10000 sizes test in bounded public CI only where time budget allows"
+    ],
+    "notes": "Independent S4 measurement; previous PR #22 remains draft/unmerged."
   },
   "history": [
     {
@@ -107,6 +136,13 @@
       "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
       "release_status": "unmerged",
       "notes": "Independent GitHub check job succeeded; queue separate S4 synthetic search benchmark, no dependence on unmerged verifier."
+    },
+    {
+      "cycle_id": 2,
+      "worker": 1,
+      "status": "architecture_complete",
+      "task_id": "JTS-AUTODEV-002",
+      "notes": "Frozen scope and verification for independent S4 synthetic CI benchmark."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
