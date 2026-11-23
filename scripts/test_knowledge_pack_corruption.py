@@ -76,6 +76,14 @@ class PackCheckerFixtures(unittest.TestCase):
         self.write_pack([dict(self.article, id="another-id")])
         self.assert_failure("pack_01.json.gz", "fixture-one", "missing")
 
+    def test_malformed_article_record_in_pack(self):
+        self.write_pack([None])
+        self.assert_failure("pack_01.json.gz", "invalid article record")
+
+    def test_malformed_manifest_entry(self):
+        self.write_manifest([None])
+        self.assert_failure("manifest.json", "invalid manifest entry")
+
     def test_manifest_source_id_mismatch(self):
         self.write_manifest([dict(self.entry, id="manifest-only")])
         self.assert_failure("manifest.json", "source/manifest ID mismatch", "manifest-only")
