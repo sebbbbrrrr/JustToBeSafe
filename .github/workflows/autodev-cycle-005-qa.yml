@@ -7,8 +7,22 @@ permissions:
   contents: read
 jobs:
   android:
-    uses: sebbbbrrrr/JustToBeSafe/.github/workflows/autodev-reusable-qa.yml@automation/five-stage-development-pipeline
-    with:
-      profile: android
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
     permissions:
       contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      # The approved integration base has no gradlew or wrapper JAR.
+      # Use the standard runner's installed Gradle distribution instead.
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - name: Focused Android unit tests and debug compilation
+        run: gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon --stacktrace
