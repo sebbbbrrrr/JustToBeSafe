@@ -3,79 +3,36 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_passed_awaiting_human_merge",
+  "status": "ready_for_architecture",
   "paused": false,
   "blocked": false,
-  "cycle_id": 1,
-  "next_worker": 5,
+  "cycle_id": 2,
+  "next_worker": 1,
   "task": {
-    "id": "JTS-AUTODEV-001",
-    "title": "Harden offline search index integrity checks",
-    "original_goal": "Strengthen existing offline full-text index validation so damaged or missing shard data cannot pass unnoticed, without altering app runtime, content, generated assets or publishing.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md — S1 deterministic index verification and launch requirement for corrupted index diagnostics",
-    "scope": "scripts/check_fulltext_index.py and optional isolated standard-library regression test only; existing indexing source formats unchanged.",
+    "queued_objective": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S4",
     "dependencies": [],
-    "verification_plan": [
-      "Inspect existing index schema and verifier first",
-      "Run existing Python full-text verification if generated assets are present",
-      "Run standard-library regression test or a temporary-copy corruption scenario without modifying checked-in generated assets",
-      "Report unexecuted checks honestly"
-    ]
+    "selected_by": 5
   },
-  "task_id": "JTS-AUTODEV-001",
-  "acceptance_criteria": [
-    "Verifier fails clearly on missing one of sixteen compressed shard files or malformed gzip/JSON",
-    "Verifier detects malformed shard term/postings structure, rather than reporting a false PASS",
-    "Existing legitimate index remains valid; expected document coverage and natural-language checks preserved",
-    "No Android runtime behaviour, public safety guidance, CI workflows or generated index assets modified",
-    "Tests or exact reproducible manual validation included for corruption cases"
-  ],
-  "excluded_scope": [
-    "Any public safety-content changes",
-    "Android UI changes",
-    "CI execution or new workflows",
-    "New dependencies",
-    "Production release or merge"
-  ],
-  "work_branch": "autodev/cycle-001",
-  "commits": [
-    "16853c023e066bf715df0a353b2a1024ae6f3ca2",
-    "3f83c39ddf277b2ca8d0721984c46221c9599aa0"
-  ],
-  "qa_passed": true,
-  "awaiting_merge": true,
+  "task_id": null,
+  "acceptance_criteria": [],
+  "excluded_scope": [],
+  "work_branch": null,
+  "commits": [],
+  "qa_passed": false,
+  "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 5,
-    "cycle_id": 1,
-    "expires_utc": "2026-11-23T02:30:00Z",
-    "purpose": "roadmap verified handoff manual test"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 5,
-    "task_id": "JTS-AUTODEV-001",
-    "branch": "autodev/cycle-001",
-    "commits": [
-      "16853c023e066bf715df0a353b2a1024ae6f3ca2",
-      "3f83c39ddf277b2ca8d0721984c46221c9599aa0",
-      "fb32d71b12faa2be8f565fecd0f91e96c454651c"
-    ],
-    "tests_run": [
-      {
-        "name": "public GitHub Actions Python offline QA",
-        "result": "passed_integration",
-        "checks": "7/7",
-        "workflow_run_id": 45086722850,
-        "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c"
-      }
-    ],
-    "tests_unverified": [
-      "Android build and Huawei P30 live device test (not required by this narrow Python verifier task)"
-    ],
-    "result": "Independent public CI verified seven of seven Python checks; draft PR #22 opened for human review and left unmerged.",
-    "blockers": []
+    "from": 5,
+    "to": 1,
+    "cycle_id": 2,
+    "prior_task": "JTS-AUTODEV-001",
+    "prior_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
+    "qa_evidence": "run 45086722850, 7 of 7 Python checks",
+    "queued_task": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
+    "notes": "Scope independent of unmerged PR; human review remains required for cycle 001."
   },
   "history": [
     {
@@ -134,10 +91,21 @@
       "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
       "checks": "7/7 passed",
       "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22"
+    },
+    {
+      "cycle_id": 1,
+      "worker": 5,
+      "status": "verified_in_pr",
+      "task_id": "JTS-AUTODEV-001",
+      "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
+      "qa_run": 45086722850,
+      "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
+      "release_status": "unmerged",
+      "notes": "Independent GitHub check job succeeded; queue separate S4 synthetic search benchmark, no dependence on unmerged verifier."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "passed_integration",
+  "verification_status": null,
   "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
@@ -149,18 +117,7 @@
     "execution_status": "not_executed_in_real_checkout",
     "runner_scope": "offline-content-and-index-Python-only"
   },
-  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/22",
-  "work_head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
-  "qa_evidence": {
-    "workflow_run_id": 45086722850,
-    "workflow_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45086722850",
-    "job_id": 137406929087,
-    "job_conclusion": "success",
-    "head_sha": "fb32d71b12faa2be8f565fecd0f91e96c454651c",
-    "checked_out_pr_merge_sha": "1f538c22c2f3fdc175ff22573ee2d3a62a451cbe",
-    "passed": 7,
-    "expected": 7,
-    "artifact_id": 14779194382,
-    "scope": "Python offline content and index integration only; Android build and P30 device validation not performed"
-  }
+  "qa_pull_request": null,
+  "work_head_sha": null,
+  "qa_evidence": null
 }
