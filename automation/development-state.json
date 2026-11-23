@@ -47,7 +47,13 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 4,
+    "cycle_id": 3,
+    "claimed_at": "2026-11-23T05:39:01Z",
+    "expires_at": "2026-11-23T07:39:01Z",
+    "purpose": "verify exact-head push CI evidence and handoff"
+  },
   "last_handoff": {
     "from": 3,
     "to": 4,
