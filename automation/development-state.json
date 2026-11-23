@@ -65,7 +65,13 @@
   "awaiting_merge": false,
   "retry_count": 1,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 4,
+    "cycle_id": 5,
+    "claimed_at": "2026-11-23T17:32:09Z",
+    "expires_at": "2026-11-23T19:32:09Z",
+    "purpose": "independent QA exact-head failed Android CI investigation"
+  },
   "last_handoff": {
     "from": 3,
     "to": 4,
