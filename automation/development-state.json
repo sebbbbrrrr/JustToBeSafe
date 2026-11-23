@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "in_progress",
+  "status": "implementation_repaired",
   "paused": false,
   "blocked": false,
   "cycle_id": 5,
-  "next_worker": 2,
+  "next_worker": 3,
   "task": {
     "task_id": "JTS-AUTODEV-005",
     "original_goal": "Implement an Android Calm Utility prototype offline search results slice that displays a short, readable matched-text snippet for full-body search hits, with clear no-match and unavailable-index states, entirely offline and without changing search index schema or safety review status.",
@@ -59,53 +59,39 @@
     "0f808aca3d9ff7952414d81900d8176dd2514a89",
     "ebc746052b8b05f6d4630d1dc4413ca619b3dca9",
     "d13a001cedde7146320a1cf323a001e75e595bdd",
-    "fea4c7441ad8cbcaa11096f577e79251975f60fe"
+    "fea4c7441ad8cbcaa11096f577e79251975f60fe",
+    "e56c163c57e4baba6e07760173326ce9e8c71646",
+    "97acc2280a049c03be419e84b755d025aa3d61d1",
+    "435439f6605bf29af173ab64ec6ef782186c42a9"
   ],
   "qa_passed": false,
   "awaiting_merge": false,
   "retry_count": 2,
   "max_retries": 3,
-  "lease": {
-    "worker": 2,
-    "cycle_id": 5,
-    "claimed_at": "2026-11-23T18:16:00Z",
-    "expires_at": "2026-11-23T20:16:00Z",
-    "purpose": "Repair QA-confirmed snippet truncation defect"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 2,
+    "from": 2,
+    "to": 3,
     "cycle_id": 5,
     "task_id": "JTS-AUTODEV-005",
     "branch": "autodev/cycle-005",
-    "head_sha": "fea4c7441ad8cbcaa11096f577e79251975f60fe",
-    "qa_profile": "android",
-    "tests_run": [
-      {
-        "command": "gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon --stacktrace",
-        "run_id": 45183321123,
-        "job_id": 137722431930,
-        "head_sha": "fea4c7441ad8cbcaa11096f577e79251975f60fe",
-        "result": "failed_code",
-        "details": "Kotlin main and test sources compiled; 28 unit tests executed, 1 failure in matchInMiddleAndEnd; Gradle exit 1; assembleDebug not reached"
-      }
+    "head_sha": "435439f6605bf29af173ab64ec6ef782186c42a9",
+    "repair_retry": 2,
+    "changed_paths": [
+      "app/src/main/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentation.kt",
+      "app/src/test/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentationTest.kt",
+      "docs/autodev-cycle-005-worker2-repair-2.md"
     ],
+    "tests_run": [],
     "tests_unverified": [
+      "Exact-head gradle :app:testDebugUnitTest",
       ":app:assembleDebug",
-      "Huawei P30 physical test",
-      "visual Compose accessibility smoke test"
+      "Physical Huawei P30",
+      "Compose visual smoke test"
     ],
-    "defects": [
-      {
-        "type": "failed_code",
-        "file": "app/src/main/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentation.kt",
-        "test": "OfflineSearchPresentationTest.matchInMiddleAndEnd",
-        "test_file": "app/src/test/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentationTest.kt:37",
-        "reproduction": "On exact head fea4c744, run gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon --stacktrace. 28 tests run, one fails. With paragraph 'a'.repeat(250)+' lantern', snippet('lantern', ...) truncates the match because window start is capped at clean.length-limit and end uses start+limit-2; excerpt omits final letters of lantern. Ensure full matching token stays inside 180-char excerpt, including ellipses and Unicode-safe boundaries.",
-        "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45183321123/job/137722431930"
-      }
-    ],
-    "handoff_at": "2026-11-23T17:32:09Z"
+    "prior_failure_run": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45183321123",
+    "notes": "Removed over-restrictive window start clamp causing final token truncation; added two deterministic regression tests. CI push workflow exists; exact-head run ID and outcome not yet verified.",
+    "handoff_at": "2026-11-23T18:20:00Z"
   },
   "history": [
     {
@@ -416,14 +402,26 @@
       "head_sha": "fea4c7441ad8cbcaa11096f577e79251975f60fe",
       "run_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45183321123",
       "notes": "Exact-head Android CI failed 1/28 Kotlin unit tests; code defect reproduced by deterministic fixture; repair retry 2, Worker 2 assigned; no debug APK build or device evidence."
+    },
+    {
+      "cycle_id": 5,
+      "worker": 2,
+      "status": "implementation_repaired",
+      "head_sha": "435439f6605bf29af173ab64ec6ef782186c42a9",
+      "commits": [
+        "e56c163c57e4baba6e07760173326ce9e8c71646",
+        "97acc2280a049c03be419e84b755d025aa3d61d1",
+        "435439f6605bf29af173ab64ec6ef782186c42a9"
+      ],
+      "notes": "QA retry 2 fixed trailing token truncation; focused tests added; CI unverified pending exact-head run."
     }
   ],
   "notes": "Cycle 004 verified in draft PR only. Cycle 005 queued with approved S2 user-facing Android UX objective; Architect must verify current implementation and dependency safety before freezing.",
-  "verification_status": "failed_code",
+  "verification_status": "unverified_integration",
   "verification_blocker": null,
   "validation_runner": null,
   "qa_pull_request": null,
-  "work_head_sha": "fea4c7441ad8cbcaa11096f577e79251975f60fe",
+  "work_head_sha": "435439f6605bf29af173ab64ec6ef782186c42a9",
   "qa_evidence": null,
   "blocker_events": [
     {
@@ -493,14 +491,5 @@
     "priority_scope": "Founder-approved Android prototype only, Phase 0 safeguards; review unmerged PRs, no release",
     "updated": "2026-11-23"
   },
-  "outstanding_defects": [
-    {
-      "type": "failed_code",
-      "file": "app/src/main/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentation.kt",
-      "test": "OfflineSearchPresentationTest.matchInMiddleAndEnd",
-      "test_file": "app/src/test/java/com/justtobesafe/app/ui/screens/OfflineSearchPresentationTest.kt:37",
-      "reproduction": "On exact head fea4c744, run gradle :app:testDebugUnitTest :app:assembleDebug --no-daemon --stacktrace. 28 tests run, one fails. With paragraph 'a'.repeat(250)+' lantern', snippet('lantern', ...) truncates the match because window start is capped at clean.length-limit and end uses start+limit-2; excerpt omits final letters of lantern. Ensure full matching token stays inside 180-char excerpt, including ellipses and Unicode-safe boundaries.",
-      "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45183321123/job/137722431930"
-    }
-  ]
+  "outstanding_defects": []
 }
