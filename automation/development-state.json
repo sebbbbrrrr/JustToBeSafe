@@ -47,7 +47,13 @@
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 4,
+    "cycle_id": 4,
+    "claimed_at": "2026-11-23T06:38:00Z",
+    "expires_at": "2026-11-23T08:38:00Z",
+    "purpose": "independent_qa"
+  },
   "last_handoff": {
     "from": 3,
     "to": 4,
