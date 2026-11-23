@@ -47,7 +47,13 @@
   "awaiting_merge": true,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 5,
+    "cycle_id": 4,
+    "claimed_at": "2026-11-23T11:46:06Z",
+    "expires_at": "2026-11-23T13:46:06Z",
+    "purpose": "verify cycle 004 and roadmap handoff"
+  },
   "last_handoff": {
     "from": 4,
     "to": 5,
