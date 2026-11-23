@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "architecture_in_progress",
+  "status": "architecture_complete",
   "paused": false,
   "blocked": false,
   "cycle_id": 5,
-  "next_worker": 1,
+  "next_worker": 2,
   "task": {
     "task_id": "JTS-AUTODEV-005",
     "original_goal": "Implement an Android Calm Utility prototype offline search results slice that displays a short, readable matched-text snippet for full-body search hits, with clear no-match and unavailable-index states, entirely offline and without changing search index schema or safety review status.",
@@ -15,48 +15,56 @@
     "integration_base": "feature/offline-illustration-pipeline-throughput",
     "dependencies": [],
     "implementation_hint": "Worker 1 first inspect current Android search UI, result models and available text retrieval on the approved integration base, and all open draft PRs #22-#25. Freeze an achievable vertical slice: reuse existing indexed result IDs and installed article content; show a bounded context snippet around matched query terms, with accessible fallback for title-only matches and corrupt/unavailable index. Do not copy unmerged PR code, add network requests, publish new guides or imply expert review. If equivalent UI already exists or approved base lacks required APIs, select a different independently buildable approved S2 Android slice before freezing.",
-    "queued_at": "2026-11-23T11:46:06Z"
+    "queued_at": "2026-11-23T11:46:06Z",
+    "scope_frozen_at": "2026-11-23T11:57:12Z",
+    "implementation_paths": [
+      "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
+      "app/src/main/java/com/justtobesafe/app/data/OfflineKnowledgeLibrary.kt (only if needed for bounded on-demand body retrieval)",
+      "app/src/main/java/com/justtobesafe/app/data/OfflineGuideLibrary.kt (only if needed for urban body retrieval)",
+      "app/src/test/java/com/justtobesafe/app/ (new focused Kotlin tests)"
+    ],
+    "verified_baseline": "GuidesScreen.kt shows knowledge entry.summary and urban title/status, not body-match snippets; OfflineFullTextIndex.search returns IDs only; OfflineKnowledgeLibrary.readArticle loads a single on-demand pack with 2-pack LRU; OfflineGuideLibrary.articleFor returns installed urban sections; existing search uses getOrNull and silently falls back to metadata when shard fails.",
+    "delivery": "Pure deterministic bounded snippet formatter (new Kotlin helper permissible) + GuidesScreen wiring for full-body hits and honest error states; preserve metadata fallback, stable IDs, navigation, category filters and draft warnings.",
+    "work_branch": "autodev/cycle-005"
   },
   "task_id": "JTS-AUTODEV-005",
   "acceptance_criteria": [
-    "Worker 1 verifies on the approved integration base that the chosen search-results snippet UI is not already implemented and freezes precise affected paths and test plan.",
-    "Android search results display concise bounded text context for an offline body-text match, with readable fallback when no context is available; retain stable guide navigation and category filters.",
-    "Empty query, zero results and missing/corrupt index present honest accessible states without claiming live warnings, verified safety content or network connectivity.",
-    "No external search requests, new permissions, schema/tokenizer changes, unreviewed content publication or dependency on unmerged PRs #22-#25.",
-    "Run focused Android tests and Gradle debug compile on exact branch head in read-only standard public CI; record job, head SHA, pass/fail and unverified physical P30 testing."
+    "For a nonblank query whose ID appears in OfflineFullTextIndex.search but not in title/summary/tags, GuidesScreen shows a concise readable excerpt from the installed article body with matching term context, bounded to <= 180 visible characters and no more than 2 lines; do not eagerly decode all knowledge packs.",
+    "For title-only, summary-only or unavailable article-body cases show the existing metadata summary or a clear non-misleading fallback; no invented matched quote and no publication/review claim.",
+    "For a blank query show normal category-filtered catalogue without snippets; for zero results show explicit no-match state; for null, corrupt or failed full-text index show a distinct accessible title/topic-only fallback notice, never silently pretend full-text results are complete.",
+    "Keep existing stable guide ID navigation, category chips, draft safety labels and offline-only search; no network, analytics, schema/tokenizer, index assets or permissions changes.",
+    "Add deterministic Kotlin tests covering match in middle/end, case and Unicode, no term, whitespace, long paragraph truncation, missing body and failed index-result UI-state selection; demonstrate an actual installed-body match through a focused UI-state/unit integration fixture.",
+    "On exact task-branch head run focused Gradle unit tests and :app:assembleDebug in read-only standard public GitHub Actions (<=12 minutes), plus static review for accessibility, content claims and no network; record run ID, head SHA, exit codes, and physical P30 testing as unverified."
   ],
   "excluded_scope": [
-    "No production launch, merge, APK release, payments or personal-data collection",
-    "No safety guide changes, external requests, live alerts or expert-review claims",
-    "No index builder/schema migration or use of unmerged PR changes",
-    "No visual rebrand or unrelated feature expansion"
+    "No new guides, safety publication, source edits or claims of professional review",
+    "No index builder, tokenizer, manifest/schema, asset format or permissions changes",
+    "No new packages, remote search, analytics, persistence of queries or external requests",
+    "No changes to unmerged PRs #22-#25, production, main, merges, releases, payments or personal data",
+    "No broad redesign or unrelated feature expansion"
   ],
-  "work_branch": null,
+  "work_branch": "autodev/cycle-005",
   "commits": [],
   "qa_passed": false,
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 1,
-    "cycle_id": 5,
-    "claimed_at": "2026-11-23T11:57:12Z",
-    "expires_at": "2026-11-23T13:57:12Z",
-    "purpose": "architect_scope_cycle_005"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 5,
-    "to": 1,
+    "from": 1,
+    "to": 2,
     "cycle_id": 5,
     "task_id": "JTS-AUTODEV-005",
-    "branch": null,
+    "branch": "autodev/cycle-005",
     "commits": [],
-    "changed_paths": [],
+    "changed_paths": [
+      "automation/development-state.json"
+    ],
     "tests_run": [],
     "tests_unverified": [
-      "New task not implemented or tested"
+      "Android Gradle compile, focused unit tests, emulator and physical P30 not executed by Architect"
     ],
-    "result": "Cycle 004 verified in draft PR; queued Android offline search UX objective for Architect to inspect and freeze."
+    "result": "Frozen Android offline matched-snippet vertical slice based on inspected approved base; Worker 2 to implement in isolated branch."
   },
   "history": [
     {
@@ -322,6 +330,13 @@
       ],
       "merge_status": "draft_open_unmerged",
       "notes": "Prior missing seven-check report was resolved; no release or merge."
+    },
+    {
+      "cycle_id": 5,
+      "worker": 1,
+      "status": "architecture_complete",
+      "task_id": "JTS-AUTODEV-005",
+      "notes": "Inspected GuidesScreen, OfflineFullTextIndex, OfflineKnowledgeLibrary, OfflineGuideLibrary, S2 roadmap, Phase 0 constraints and open PRs #22-#25. Frozen risk-scoped Android QA. No app code changed."
     }
   ],
   "notes": "Cycle 004 verified in draft PR only. Cycle 005 queued with approved S2 user-facing Android UX objective; Architect must verify current implementation and dependency safety before freezing.",
@@ -366,14 +381,14 @@
   "qa_plan": {
     "profile": "android",
     "required_checks": [
-      "Focused unit/UI-state tests for matched snippets, empty/missing-index fallback and existing result navigation",
-      "Gradle Android debug compilation or assembly on exact task head",
-      "Static accessibility and offline/no-network review of changed search UI"
+      "Deterministic Kotlin snippet/state tests including real local article body fixture and corrupt-index fallback",
+      "Exact-head Gradle :app:testDebugUnitTest and :app:assembleDebug using standard read-only public runner",
+      "Static review of accessible empty/error labels, stable navigation/category filters, offline/no-network and draft safety status"
     ],
     "optional_checks": [
-      "Emulator screenshot or UI smoke test when available"
+      "Emulator screenshot and Compose UI smoke test if runner supports it without extra dependencies"
     ],
-    "evidence_scope": "Android prototype compile and deterministic tests only; physical Huawei P30 not verified",
+    "evidence_scope": "Prototype Android Kotlin UI and offline article retrieval only; CI build and deterministic fixture demonstrate behavior; physical Huawei P30 and release suitability unverified",
     "run_budget_minutes": 12,
     "risk": "medium"
   },
