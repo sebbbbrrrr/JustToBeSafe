@@ -1,0 +1,14 @@
+name: AutoDev cycle 005 Android QA
+on:
+  push:
+    branches: [autodev/cycle-005]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  android:
+    uses: sebbbbrrrr/JustToBeSafe/.github/workflows/autodev-reusable-qa.yml@automation/five-stage-development-pipeline
+    with:
+      profile: android
+    permissions:
+      contents: read
