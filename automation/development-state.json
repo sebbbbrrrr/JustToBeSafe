@@ -3,7 +3,7 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_failed_code",
+  "status": "developer_repair_in_progress",
   "paused": false,
   "blocked": false,
   "cycle_id": 5,
@@ -61,7 +61,13 @@
   "awaiting_merge": false,
   "retry_count": 1,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 2,
+    "cycle_id": 5,
+    "claimed_at": "2026-11-23T13:12:00Z",
+    "expires_at": "2026-11-23T15:12:00Z",
+    "task_id": "JTS-AUTODEV-005"
+  },
   "last_handoff": {
     "from": 4,
     "to": 2,
