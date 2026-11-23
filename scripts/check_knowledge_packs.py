@@ -27,8 +27,12 @@ def check(root: Path) -> str:
     entries = manifest.get("entries")
     if not isinstance(articles, list) or not isinstance(entries, list):
         raise ValueError(f"{manifest_path}: articles/entries must be lists")
-    source_ids = [a.get("id") for a in articles]
-    entry_ids = [e.get("id") for e in entries]
+    if any(not isinstance(a, dict) or not isinstance(a.get("id"), str) for a in articles):
+        raise ValueError(f"{source_path}: invalid source article ID or record")
+    if any(not isinstance(e, dict) or not isinstance(e.get("id"), str) for e in entries):
+        raise ValueError(f"{manifest_path}: invalid manifest entry ID or record")
+    source_ids = [a["id"] for a in articles]
+    entry_ids = [e["id"] for e in entries]
     if len(source_ids) != len(set(source_ids)) or len(entry_ids) != len(set(entry_ids)):
         raise ValueError(f"{manifest_path}: duplicate article IDs")
     missing = sorted(set(source_ids) - set(entry_ids))
@@ -52,7 +56,9 @@ def check(root: Path) -> str:
             raise ValueError(f"{path}: missing, corrupt gzip, or malformed pack JSON: {exc}") from exc
         if not isinstance(contents, dict) or contents.get("schema_version") != 1 or not isinstance(contents.get("articles"), list):
             raise ValueError(f"{path}: invalid pack schema")
-        records = {a.get("id"): a for a in contents["articles"]}
+        if any(not isinstance(a, dict) or not isinstance(a.get("id"), str) for a in contents["articles"]):
+            raise ValueError(f"{path}: invalid article record or ID in pack")
+        records = {a["id"]: a for a in contents["articles"]}
         for entry in references:
             ident = entry["id"]
             if ident not in records:
