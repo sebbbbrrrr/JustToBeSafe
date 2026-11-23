@@ -3,41 +3,56 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "architecture_in_progress",
+  "status": "architecture_complete",
   "paused": false,
   "blocked": false,
   "cycle_id": 3,
-  "next_worker": 1,
+  "next_worker": 2,
   "task": {
-    "queued_objective": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md — S1/S5 package integrity and publication validation",
+    "task_id": "JTS-AUTODEV-003",
+    "original_goal": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S1/S5; pack integrity and honest failure diagnostics",
+    "integration_base": "feature/offline-illustration-pipeline-throughput",
     "dependencies": [],
-    "selected_by": 5
+    "implementation_hint": "Add a separate stdlib unittest fixture harness for scripts/check_knowledge_packs.py; refactor checker only as necessary to accept temporary root paths without changing default CLI behavior.",
+    "frozen_at": "2026-11-23T00:55:10Z"
   },
-  "task_id": null,
-  "acceptance_criteria": [],
-  "excluded_scope": [],
-  "work_branch": null,
+  "task_id": "JTS-AUTODEV-003",
+  "acceptance_criteria": [
+    "Using temporary directories and synthetic internal_draft article/manifest/gzip fixtures, verify a valid minimal pack passes the existing checker without accessing repository-generated assets.",
+    "Verify a manifest reference to a missing pack fails with a nonzero process exit and a diagnostic identifying the missing pack.",
+    "Verify truncated or invalid gzip bytes and valid gzip containing malformed JSON each fail nonzero with an actionable pack-specific diagnostic.",
+    "Verify a manifest entry whose article ID is absent from its referenced pack fails nonzero with a diagnostic naming the article ID; also cover a manifest/source ID mismatch.",
+    "Ensure tests are deterministic, standard-library-only, do not modify real content or generated assets, and clean up temporary fixtures.",
+    "Provide a narrowly scoped public read-only GitHub Actions test run on the isolated task branch; capture run URL, head SHA, exact exit status and test counts. Report any unexecuted integration checks as unverified."
+  ],
+  "excluded_scope": [
+    "No Android runtime/UI or device claims",
+    "No shipped guide edits, editorial approval, or publication",
+    "No new third-party dependencies, network calls, production infrastructure or deployments",
+    "No reliance on unmerged PR #22 or #23",
+    "No changes to pack format, stable article IDs or normal valid-pack behavior",
+    "No automatic merge or release"
+  ],
+  "work_branch": "autodev/cycle-003",
   "commits": [],
   "qa_passed": false,
   "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 1,
-    "cycle_id": 3,
-    "claimed_at": "2026-11-23T00:55:10Z",
-    "expires_at": "2026-11-23T02:55:10Z",
-    "purpose": "architecture"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 5,
-    "to": 1,
+    "from": 1,
+    "to": 2,
     "cycle_id": 3,
-    "prior_task": "JTS-AUTODEV-002",
-    "prior_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
-    "qa_evidence": "run 45087171434 success, four Python regression tests, three benchmark sizes",
-    "queued_task": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23."
+    "task_id": "JTS-AUTODEV-003",
+    "branch": "autodev/cycle-003",
+    "acceptance_frozen": true,
+    "tests": "not executed — architecture only",
+    "evidence": [
+      "https://github.com/sebbbbrrrr/JustToBeSafe/blob/feature/offline-illustration-pipeline-throughput/scripts/check_knowledge_packs.py",
+      "https://github.com/sebbbbrrrr/JustToBeSafe/blob/automation/five-stage-development-pipeline/docs/OFFLINE_SEARCH_BULK_ROADMAP.md"
+    ]
   },
   "history": [
     {
@@ -162,6 +177,13 @@
       "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
       "release_status": "unmerged",
       "notes": "Independent CI verified four regression tests and 100/1000/10000 synthetic scale runs; queue separate offline pack corruption QA task."
+    },
+    {
+      "cycle_id": 3,
+      "worker": 1,
+      "status": "architecture_complete",
+      "task_id": "JTS-AUTODEV-003",
+      "notes": "Frozen isolated corruption-fixture regression scope; reviewed checker, builder, importer and Phase 0 guardrails; no tests executed."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
