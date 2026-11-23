@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "awaiting_validation",
+  "status": "qa_passed_awaiting_human_merge",
   "paused": false,
-  "blocked": true,
+  "blocked": false,
   "cycle_id": 4,
-  "next_worker": 4,
+  "next_worker": 5,
   "task": {
     "task_id": "JTS-AUTODEV-004",
     "original_goal": "Create deterministic stdlib regression coverage for corrupt, missing, malformed and inconsistent offline full-text index manifests and compressed shards, preserving valid index CLI behavior and stable IDs.",
@@ -43,30 +43,52 @@
     "e7d1c9f7ec8a21d1370b47aef3819b00c873e525",
     "ed19d47235402fd990205b484082cc548a88c465"
   ],
-  "qa_passed": false,
-  "awaiting_merge": false,
+  "qa_passed": true,
+  "awaiting_merge": true,
   "retry_count": 0,
   "max_retries": 3,
   "lease": null,
   "last_handoff": {
-    "from": 3,
-    "to": 4,
+    "from": 4,
+    "to": 5,
     "cycle_id": 4,
     "task_id": "JTS-AUTODEV-004",
     "branch": "autodev/cycle-004",
-    "head_sha": "ed19d47235402fd990205b484082cc548a88c465",
+    "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
     "commits": [
+      "aa3219241a334cd0a4f13f938d2309537cec9239",
+      "34ef4847ba3bf9348200467b3abac17931dce941",
+      "4f376a60acc23365ecc17ca4c8ae04dc5706f791",
+      "4c01b291b7895b9f755e1bf6e8fb988b591ba1db",
+      "b56304a45b2a655e2d3590376c7f35eec84fd40e",
       "e7d1c9f7ec8a21d1370b47aef3819b00c873e525",
-      "ed19d47235402fd990205b484082cc548a88c465"
+      "ed19d47235402fd990205b484082cc548a88c465",
+      "765a535faa83c21cb8ddf2fbb4a1fa4d3ee849f9",
+      "2a80da3dda687271095b86c0761d465602ef2fb5",
+      "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b"
     ],
     "changed_paths": [
+      "automation/run_validation.py",
+      ".github/workflows/autodev-cycle-004-qa.yml",
       "scripts/check_fulltext_index.py",
       "scripts/test_fulltext_index_corruption.py"
     ],
-    "improvements": "Reject empty/non-string source article IDs without uncaught TypeError, add two deterministic CLI regression fixtures",
-    "tests": "Worker 2 exact-head CI 45123135421 passed 12/12 before refinement; new 14-case head not yet verified; QA must confirm exact-head Actions run",
-    "outstanding_defects": [],
-    "next_stage": "QA"
+    "tests_run": [
+      {
+        "name": "isolated corruption fixtures",
+        "result": "14/14 pass",
+        "run_id": 45164826394
+      },
+      {
+        "name": "full offline pipeline",
+        "result": "7/7 pass",
+        "run_id": 45164826394
+      }
+    ],
+    "tests_unverified": [
+      "Android build/real-device test (not relevant to narrow Python verifier task)"
+    ],
+    "result": "QA passed all task-specific and full-index integration checks. Draft PR awaits human merge."
   },
   "history": [
     {
@@ -298,11 +320,21 @@
       "workflow_run_id": 45124319787,
       "tests": "14/14 isolated fixtures passed, exit 0; required seven-check validation runner not executed",
       "notes": "Full validation report and per-check exit codes unavailable; no retry consumed; QA not passed."
+    },
+    {
+      "cycle_id": 4,
+      "worker": 4,
+      "status": "qa_passed",
+      "workflow_run_id": 45164826394,
+      "head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
+      "tests": "14/14 isolated and 7/7 integration checks passed",
+      "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
+      "notes": "Repaired missing runner/test mismatch; matched exact PR head and artifacts. Not merged."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "blocked_infrastructure",
-  "verification_blocker": "Exact-head GitHub Actions run 45124319787 passed 14/14 isolated stdlib fixtures, but required automation/run_validation.py --output validation-report.json --timeout 120 was not executed; no validation-report.json artifact or seven-check exit-code report exists. Approved full offline pipeline validation required before QA approval.",
+  "verification_status": "passed_integration",
+  "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
     "work_branch": "autodev/cycle-001",
@@ -313,18 +345,18 @@
     "execution_status": "not_executed_in_real_checkout",
     "runner_scope": "offline-content-and-index-Python-only"
   },
-  "qa_pull_request": null,
-  "work_head_sha": "ed19d47235402fd990205b484082cc548a88c465",
+  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
+  "work_head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
   "qa_evidence": {
-    "workflow_run_id": 45124319787,
-    "job_id": 137525073095,
-    "url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45124319787",
-    "head_sha": "ed19d47235402fd990205b484082cc548a88c465",
-    "tests": "14/14 isolated stdlib corruption fixtures passed",
-    "exit_code": 0,
-    "scope": "isolated fixture CLI only; full offline pipeline not executed",
-    "validation_report": "absent",
-    "full_pipeline": "unverified"
+    "workflow_run_id": 45164826394,
+    "job_id": 137658942064,
+    "url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45164826394",
+    "head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
+    "checked_out_pr_merge_sha": "b72620fb3eeb2100a8b5c12c3513e896990e0dba",
+    "isolated_tests": "14/14 passed",
+    "full_pipeline": "passed_integration: 7/7 checks",
+    "artifact_id": 14814796955,
+    "scope": "Exact-head PR merge checkout Python integration; Android and physical device tests unverified"
   },
   "blocker_events": [
     {
@@ -357,5 +389,15 @@
     }
   ],
   "completion_notification_cycle_id": 3,
-  "completion_report": "Cycle 3 JTS-AUTODEV-003: isolated corruption-fixture coverage and actionable pack diagnostics in scripts/check_knowledge_packs.py, scripts/test_knowledge_pack_corruption.py and .github/workflows/autodev-cycle-003-qa.yml. Draft PR #24 head 6491ef27a2db4219cc994baaba20e75583739b8b; Actions 45094226290 job 137430333535 succeeded 9/9 tests, exit 0. Android/device and full offline pipeline unverified. Unmerged. Next: isolated full-text search-index corruption fixture regression tests on approved integration base."
+  "completion_report": "Cycle 3 JTS-AUTODEV-003: isolated corruption-fixture coverage and actionable pack diagnostics in scripts/check_knowledge_packs.py, scripts/test_knowledge_pack_corruption.py and .github/workflows/autodev-cycle-003-qa.yml. Draft PR #24 head 6491ef27a2db4219cc994baaba20e75583739b8b; Actions 45094226290 job 137430333535 succeeded 9/9 tests, exit 0. Android/device and full offline pipeline unverified. Unmerged. Next: isolated full-text search-index corruption fixture regression tests on approved integration base.",
+  "qa_plan": {
+    "profile": "python-index",
+    "required_checks": [
+      "14 isolated stdlib fulltext corruption regression tests",
+      "7-check offline import/pack/index validation runner"
+    ],
+    "evidence_scope": "Python offline content+index only; Android/device not verified",
+    "run_budget_minutes": 12,
+    "risk": "medium"
+  }
 }
