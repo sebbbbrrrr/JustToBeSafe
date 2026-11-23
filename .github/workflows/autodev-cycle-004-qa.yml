@@ -1,0 +1,43 @@
+name: AutoDev cycle 004 full-text index fixture QA
+on:
+  push:
+    branches: [autodev/cycle-004]
+    paths:
+      - 'automation/run_validation.py'
+      - 'scripts/check_fulltext_index.py'
+      - 'scripts/test_fulltext_index_corruption.py'
+      - '.github/workflows/autodev-cycle-004-qa.yml'
+  pull_request:
+    branches: [feature/offline-illustration-pipeline-throughput]
+    paths:
+      - 'automation/run_validation.py'
+      - 'scripts/check_fulltext_index.py'
+      - 'scripts/test_fulltext_index_corruption.py'
+      - '.github/workflows/autodev-cycle-004-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  index-fixtures:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify exact checkout SHA
+        run: |
+          echo "HEAD_SHA=$(git rev-parse HEAD)"
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Run fourteen isolated stdlib index corruption regression tests
+        run: python3 -m unittest discover -s scripts -p 'test_fulltext_index_corruption.py' -v
+      - name: Run complete seven-check offline pipeline
+        run: python3 automation/run_validation.py --output validation-report.json --timeout 120
+      - name: Publish machine-readable validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle-004-validation-${{ github.sha }}
+          path: validation-report.json
+          if-no-files-found: warn
+          retention-days: 7
