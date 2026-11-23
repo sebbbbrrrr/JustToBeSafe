@@ -3,98 +3,54 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_passed_awaiting_human_merge",
+  "status": "queued_for_architect",
   "paused": false,
   "blocked": false,
-  "cycle_id": 4,
-  "next_worker": 5,
+  "cycle_id": 5,
+  "next_worker": 1,
   "task": {
-    "task_id": "JTS-AUTODEV-004",
-    "original_goal": "Create deterministic stdlib regression coverage for corrupt, missing, malformed and inconsistent offline full-text index manifests and compressed shards, preserving valid index CLI behavior and stable IDs.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S1/S5",
+    "task_id": "JTS-AUTODEV-005",
+    "original_goal": "Implement an Android Calm Utility prototype offline search results slice that displays a short, readable matched-text snippet for full-body search hits, with clear no-match and unavailable-index states, entirely offline and without changing search index schema or safety review status.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S2 (relevance and search UX); DESIGN.md Calm Utility; docs/PRODUCT_BRIEF.md offline reference prototype",
     "integration_base": "feature/offline-illustration-pipeline-throughput",
     "dependencies": [],
-    "implementation_hint": "Build synthetic temporary manifests/shards and source records; refactor scripts/check_fulltext_index.py only narrowly to expose testable validation and diagnostic errors while preserving existing CLI and normal query assertions; avoid reliance on PRs #22–#24.",
-    "queued_at": "2026-11-23T05:45:08Z",
-    "frozen_at": "2026-11-23T05:56:19Z"
+    "implementation_hint": "Worker 1 first inspect current Android search UI, result models and available text retrieval on the approved integration base, and all open draft PRs #22-#25. Freeze an achievable vertical slice: reuse existing indexed result IDs and installed article content; show a bounded context snippet around matched query terms, with accessible fallback for title-only matches and corrupt/unavailable index. Do not copy unmerged PR code, add network requests, publish new guides or imply expert review. If equivalent UI already exists or approved base lacks required APIs, select a different independently buildable approved S2 Android slice before freezing.",
+    "queued_at": "2026-11-23T11:46:06Z"
   },
-  "task_id": "JTS-AUTODEV-004",
+  "task_id": "JTS-AUTODEV-005",
   "acceptance_criteria": [
-    "A valid minimal synthetic manifest with all 16 correctly mapped gzip shards, matching document IDs and source fixtures passes checker without shipped/generated repository assets.",
-    "Missing referenced shard, truncated or invalid gzip, malformed shard JSON, and malformed manifest each exit nonzero with an actionable file/shard-specific error.",
-    "Mismatched manifest document IDs, unknown posting article IDs, invalid nibble shard placement, and malformed postings fail nonzero with clear diagnostics; only enforce invariants supported by the existing schema.",
-    "Tests use Python standard library, isolated temporary fixtures and deterministic ordering; retain normal valid-index CLI behavior, stable article IDs and existing full-text query regression expectations.",
-    "A narrow read-only public GitHub Actions job tests the exact cycle branch head, capturing run URL/ID, head SHA, exit codes and test counts; isolated tests are not Android or full integration proof."
+    "Worker 1 verifies on the approved integration base that the chosen search-results snippet UI is not already implemented and freezes precise affected paths and test plan.",
+    "Android search results display concise bounded text context for an offline body-text match, with readable fallback when no context is available; retain stable guide navigation and category filters.",
+    "Empty query, zero results and missing/corrupt index present honest accessible states without claiming live warnings, verified safety content or network connectivity.",
+    "No external search requests, new permissions, schema/tokenizer changes, unreviewed content publication or dependency on unmerged PRs #22-#25.",
+    "Run focused Android tests and Gradle debug compile on exact branch head in read-only standard public CI; record job, head SHA, pass/fail and unverified physical P30 testing."
   ],
   "excluded_scope": [
-    "No Android/UI/device work, APK claim or product feature",
-    "No shipped article, generated assets, safety publication or source data changes",
-    "No tokenizer/index schema change or unapproved dependencies",
-    "No reliance on unmerged PRs #22–#24",
-    "No production changes, merge, deployment, paid runners or external network hooks"
+    "No production launch, merge, APK release, payments or personal-data collection",
+    "No safety guide changes, external requests, live alerts or expert-review claims",
+    "No index builder/schema migration or use of unmerged PR changes",
+    "No visual rebrand or unrelated feature expansion"
   ],
-  "work_branch": "autodev/cycle-004",
-  "commits": [
-    "aa3219241a334cd0a4f13f938d2309537cec9239",
-    "34ef4847ba3bf9348200467b3abac17931dce941",
-    "4f376a60acc23365ecc17ca4c8ae04dc5706f791",
-    "4c01b291b7895b9f755e1bf6e8fb988b591ba1db",
-    "b56304a45b2a655e2d3590376c7f35eec84fd40e",
-    "e7d1c9f7ec8a21d1370b47aef3819b00c873e525",
-    "ed19d47235402fd990205b484082cc548a88c465"
-  ],
-  "qa_passed": true,
-  "awaiting_merge": true,
+  "work_branch": null,
+  "commits": [],
+  "qa_passed": false,
+  "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 5,
-    "cycle_id": 4,
-    "claimed_at": "2026-11-23T11:46:06Z",
-    "expires_at": "2026-11-23T13:46:06Z",
-    "purpose": "verify cycle 004 and roadmap handoff"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 5,
-    "cycle_id": 4,
-    "task_id": "JTS-AUTODEV-004",
-    "branch": "autodev/cycle-004",
-    "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
-    "commits": [
-      "aa3219241a334cd0a4f13f938d2309537cec9239",
-      "34ef4847ba3bf9348200467b3abac17931dce941",
-      "4f376a60acc23365ecc17ca4c8ae04dc5706f791",
-      "4c01b291b7895b9f755e1bf6e8fb988b591ba1db",
-      "b56304a45b2a655e2d3590376c7f35eec84fd40e",
-      "e7d1c9f7ec8a21d1370b47aef3819b00c873e525",
-      "ed19d47235402fd990205b484082cc548a88c465",
-      "765a535faa83c21cb8ddf2fbb4a1fa4d3ee849f9",
-      "2a80da3dda687271095b86c0761d465602ef2fb5",
-      "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b"
-    ],
-    "changed_paths": [
-      "automation/run_validation.py",
-      ".github/workflows/autodev-cycle-004-qa.yml",
-      "scripts/check_fulltext_index.py",
-      "scripts/test_fulltext_index_corruption.py"
-    ],
-    "tests_run": [
-      {
-        "name": "isolated corruption fixtures",
-        "result": "14/14 pass",
-        "run_id": 45164826394
-      },
-      {
-        "name": "full offline pipeline",
-        "result": "7/7 pass",
-        "run_id": 45164826394
-      }
-    ],
+    "from": 5,
+    "to": 1,
+    "cycle_id": 5,
+    "task_id": "JTS-AUTODEV-005",
+    "branch": null,
+    "commits": [],
+    "changed_paths": [],
+    "tests_run": [],
     "tests_unverified": [
-      "Android build/real-device test (not relevant to narrow Python verifier task)"
+      "New task not implemented or tested"
     ],
-    "result": "QA passed all task-specific and full-index integration checks. Draft PR awaits human merge."
+    "result": "Cycle 004 verified in draft PR; queued Android offline search UX objective for Architect to inspect and freeze."
   },
   "history": [
     {
@@ -342,34 +298,33 @@
       "worker": "pipeline_improvement",
       "status": "qa_policy_and_ci_upgraded",
       "notes": "Five workers updated for QA risk profiles and feature-first tasks; shared workflow smoke checked successfully 45165034438; old cycle 004 blocker fully resolved."
+    },
+    {
+      "cycle_id": 4,
+      "worker": 5,
+      "status": "verified_in_pr",
+      "task_id": "JTS-AUTODEV-004",
+      "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
+      "head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
+      "workflow_run_id": 45164826394,
+      "job_id": 137658942064,
+      "artifact_id": 14814796955,
+      "tests": "14/14 isolated fixtures; 7/7 full offline pipeline; CI job success",
+      "unverified": [
+        "Android build",
+        "Huawei P30 device"
+      ],
+      "merge_status": "draft_open_unmerged",
+      "notes": "Prior missing seven-check report was resolved; no release or merge."
     }
   ],
-  "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "passed_integration",
+  "notes": "Cycle 004 verified in draft PR only. Cycle 005 queued with approved S2 user-facing Android UX objective; Architect must verify current implementation and dependency safety before freezing.",
+  "verification_status": "not_started",
   "verification_blocker": null,
-  "validation_runner": {
-    "path": "automation/run_validation.py",
-    "work_branch": "autodev/cycle-001",
-    "runner_commit": "818fe00e970bbd37a2cc91e171bc12ad2af56142",
-    "coordination_commit": "17b814493d928abdfddc23bfda0a273bcbc916b7",
-    "state_validator": "automation/check_state.py",
-    "state_validator_commit": "4b1e61c287a8ebe26cee04266ccc0aeb82cfb14e",
-    "execution_status": "not_executed_in_real_checkout",
-    "runner_scope": "offline-content-and-index-Python-only"
-  },
-  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/25",
-  "work_head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
-  "qa_evidence": {
-    "workflow_run_id": 45164826394,
-    "job_id": 137658942064,
-    "url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45164826394",
-    "head_sha": "d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b",
-    "checked_out_pr_merge_sha": "b72620fb3eeb2100a8b5c12c3513e896990e0dba",
-    "isolated_tests": "14/14 passed",
-    "full_pipeline": "passed_integration: 7/7 checks",
-    "artifact_id": 14814796955,
-    "scope": "Exact-head PR merge checkout Python integration; Android and physical device tests unverified"
-  },
+  "validation_runner": null,
+  "qa_pull_request": null,
+  "work_head_sha": null,
+  "qa_evidence": null,
   "blocker_events": [
     {
       "event_key": "cycle-003-w4-no-approved-ci-execution-6491ef27",
@@ -400,15 +355,19 @@
       "next_action": "Run python3 automation/run_validation.py --output validation-report.json --timeout 120 on exact cycle-004 head using approved standard public runner; retain report, seven exit codes and commit SHA, then recheck QA."
     }
   ],
-  "completion_notification_cycle_id": 3,
-  "completion_report": "Cycle 3 JTS-AUTODEV-003: isolated corruption-fixture coverage and actionable pack diagnostics in scripts/check_knowledge_packs.py, scripts/test_knowledge_pack_corruption.py and .github/workflows/autodev-cycle-003-qa.yml. Draft PR #24 head 6491ef27a2db4219cc994baaba20e75583739b8b; Actions 45094226290 job 137430333535 succeeded 9/9 tests, exit 0. Android/device and full offline pipeline unverified. Unmerged. Next: isolated full-text search-index corruption fixture regression tests on approved integration base.",
+  "completion_notification_cycle_id": 4,
+  "completion_report": "Cycle 4 JTS-AUTODEV-004: scripts/check_fulltext_index.py, scripts/test_fulltext_index_corruption.py, automation/run_validation.py and .github/workflows/autodev-cycle-004-qa.yml; draft PR #25 head d5dc7d315bceccab5ee43a01ca9d8f8185b06b0b, Actions 45164826394 job 137658942064 success: 14/14 isolated corruption fixtures and 7/7 offline integration checks, artifact 14814796955; Android/device unverified. Earlier missing full validation blocker resolved by rework. Unmerged. Next: founder-approved Android prototype offline search results with readable match snippets (S2), no changes to index schema or unmerged PRs.",
   "qa_plan": {
-    "profile": "python-index",
+    "profile": "android",
     "required_checks": [
-      "14 isolated stdlib fulltext corruption regression tests",
-      "7-check offline import/pack/index validation runner"
+      "Focused unit/UI-state tests for matched snippets, empty/missing-index fallback and existing result navigation",
+      "Gradle Android debug compilation or assembly on exact task head",
+      "Static accessibility and offline/no-network review of changed search UI"
     ],
-    "evidence_scope": "Python offline content+index only; Android/device not verified",
+    "optional_checks": [
+      "Emulator screenshot or UI smoke test when available"
+    ],
+    "evidence_scope": "Android prototype compile and deterministic tests only; physical Huawei P30 not verified",
     "run_budget_minutes": 12,
     "risk": "medium"
   },
