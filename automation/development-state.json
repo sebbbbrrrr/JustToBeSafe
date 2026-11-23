@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "developer_repair_in_progress",
+  "status": "awaiting_refinement",
   "paused": false,
   "blocked": false,
   "cycle_id": 5,
-  "next_worker": 2,
+  "next_worker": 3,
   "task": {
     "task_id": "JTS-AUTODEV-005",
     "original_goal": "Implement an Android Calm Utility prototype offline search results slice that displays a short, readable matched-text snippet for full-body search hits, with clear no-match and unavailable-index states, entirely offline and without changing search index schema or safety review status.",
@@ -55,47 +55,35 @@
     "c54be7cb602a7eb51d8241e2f164e2c3993ffb16",
     "bd7d2b97e6c6ac8af810eaa370ca1a6176498622",
     "1f92db73a0eb2f305a58917c539919138778374d",
-    "e396ac4e406ba2726bfe57f914c5c9f6ead46eb4"
+    "e396ac4e406ba2726bfe57f914c5c9f6ead46eb4",
+    "0f808aca3d9ff7952414d81900d8176dd2514a89"
   ],
   "qa_passed": false,
   "awaiting_merge": false,
   "retry_count": 1,
   "max_retries": 3,
-  "lease": {
-    "worker": 2,
-    "cycle_id": 5,
-    "claimed_at": "2026-11-23T13:12:00Z",
-    "expires_at": "2026-11-23T15:12:00Z",
-    "task_id": "JTS-AUTODEV-005"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 2,
+    "from": 2,
+    "to": 3,
     "cycle_id": 5,
     "task_id": "JTS-AUTODEV-005",
     "branch": "autodev/cycle-005",
-    "head_sha": "e396ac4e406ba2726bfe57f914c5c9f6ead46eb4",
-    "qa_profile": "android",
+    "head_sha": "0f808aca3d9ff7952414d81900d8176dd2514a89",
+    "changed_paths": [
+      "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt"
+    ],
+    "repair": "Removed literal backslash-n outside Kotlin string in UrbanGuideRow snippet expression; syntax corrected",
     "tests_run": [],
     "tests_unverified": [
       ":app:testDebugUnitTest",
       ":app:assembleDebug",
-      "Huawei P30 device",
-      "Accessibility visual and screen reader"
+      "Huawei P30 device"
     ],
-    "qa_passed": false,
+    "ci_status": "No exact-head run confirmed at handoff; push-triggered workflow exists, QA must verify actual run and logs",
     "retry_count": 1,
-    "defects": [
-      {
-        "file": "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
-        "location": "UrbanGuideRow invocation, snippet argument",
-        "severity": "build_blocking",
-        "reproduction": "At exact commit e396ac4e406ba2726bfe57f914c5c9f6ead46eb4 inspect `snippet = excerpt ?: if (bodyOnly)\\n                            \"Article excerpt unavailable...\"`. The two characters backslash and n occur outside a Kotlin string; this is invalid Kotlin source syntax. Replace with an actual newline/whitespace and run Gradle compilation.",
-        "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/blob/e396ac4e406ba2726bfe57f914c5c9f6ead46eb4/app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
-        "verification": "Direct exact-commit source inspection; Gradle not executed; no CI run found in PR-triggered lookup; commit combined statuses empty"
-      }
-    ],
-    "next_action": "Worker 2 fix literal backslash-n outside Kotlin string, commit to isolated branch; Worker 3 re-review; Worker 4 require exact-new-head Gradle unit tests and assembleDebug on approved public runner."
+    "qa_profile": "android",
+    "handoff_at": "2026-11-23T13:15:00Z"
   },
   "history": [
     {
@@ -463,14 +451,5 @@
     "priority_scope": "Founder-approved Android prototype only, Phase 0 safeguards; review unmerged PRs, no release",
     "updated": "2026-11-23"
   },
-  "outstanding_defects": [
-    {
-      "file": "app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
-      "location": "UrbanGuideRow invocation, snippet argument",
-      "severity": "build_blocking",
-      "reproduction": "At exact commit e396ac4e406ba2726bfe57f914c5c9f6ead46eb4 inspect `snippet = excerpt ?: if (bodyOnly)\\n                            \"Article excerpt unavailable...\"`. The two characters backslash and n occur outside a Kotlin string; this is invalid Kotlin source syntax. Replace with an actual newline/whitespace and run Gradle compilation.",
-      "evidence_url": "https://github.com/sebbbbrrrr/JustToBeSafe/blob/e396ac4e406ba2726bfe57f914c5c9f6ead46eb4/app/src/main/java/com/justtobesafe/app/ui/screens/GuidesScreen.kt",
-      "verification": "Direct exact-commit source inspection; Gradle not executed; no CI run found in PR-triggered lookup; commit combined statuses empty"
-    }
-  ]
+  "outstanding_defects": []
 }
