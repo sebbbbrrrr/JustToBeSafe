@@ -51,10 +51,10 @@ class OfflineSearchPresentationTest {
     }
 
     @Test fun whitespaceAndBoundedLongParagraph() {
-        val paragraph = "Before\\n   the " + "word ".repeat(70) + "cupboard " + "after ".repeat(80)
+        val paragraph = "Before\n   the " + "word ".repeat(70) + "cupboard " + "after ".repeat(80)
         val excerpt = OfflineSearchPresentation.snippet("cupboard", listOf(paragraph))!!
         assertTrue(excerpt.length <= 180)
-        assertFalse(excerpt.contains("\\n"))
+        assertFalse(excerpt.contains("\n"))
         assertTrue(excerpt.contains("cupboard"))
     }
 
