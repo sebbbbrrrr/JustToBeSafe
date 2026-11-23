@@ -82,6 +82,13 @@ class OfflineSearchPresentationTest {
             })
     }
 
+    @Test fun thrownIndexReaderErrorFallsBackWithoutCrashing() {
+        assertEquals(OfflineSearchPresentation.IndexState.MetadataOnly,
+            OfflineSearchPresentation.indexState("power") {
+                throw IllegalArgumentException("Malformed local index shard")
+            })
+    }
+
     @Test fun blankQuerySkipsIndexAndShowsCatalogue() {
         assertEquals(OfflineSearchPresentation.IndexState.Catalogue,
             OfflineSearchPresentation.indexState("  ") {
