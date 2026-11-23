@@ -50,6 +50,8 @@ def validate(index: Path, merged: Path, urban_path: Path, *, fixture: bool = Fal
             a["topic_id"] for a in urban["articles"]]
     except (TypeError, KeyError) as exc:
         raise IndexErrorDetail(f"source fixtures {merged} / {urban_path}: malformed articles: {exc}") from exc
+    if not all(isinstance(article_id, str) and article_id for article_id in source_ids):
+        raise IndexErrorDetail(f"source fixtures {merged} / {urban_path}: article IDs must be nonempty strings")
     if len(source_ids) != len(set(source_ids)):
         raise IndexErrorDetail("source articles: duplicate article IDs")
     expected_ids = set(source_ids)
