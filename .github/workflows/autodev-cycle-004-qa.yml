@@ -3,6 +3,7 @@ on:
   push:
     branches: [autodev/cycle-004]
     paths:
+      - 'automation/run_validation.py'
       - 'scripts/check_fulltext_index.py'
       - 'scripts/test_fulltext_index_corruption.py'
       - '.github/workflows/autodev-cycle-004-qa.yml'
