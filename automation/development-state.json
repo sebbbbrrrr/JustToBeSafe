@@ -3,82 +3,35 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "qa_passed_awaiting_human_merge",
+  "status": "ready_for_architecture",
   "paused": false,
   "blocked": false,
-  "cycle_id": 2,
-  "next_worker": 5,
+  "cycle_id": 3,
+  "next_worker": 1,
   "task": {
-    "id": "JTS-AUTODEV-002",
-    "title": "Synthetic offline search scale benchmark",
-    "original_goal": "Create a deterministic synthetic offline search/index benchmark fixture generator for 100, 1,000 and 10,000 fictional articles; create fixtures only in temporary benchmark directories and measure index size/build time. Do not change runtime guides, generated shipping assets, CI or existing production index; avoid dependencies on unmerged cycle 001.",
-    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md S4 — 100 / 1,000 / 10,000 article benchmarks",
-    "scope": "Add a standalone stdlib-only Python benchmark under scripts/ which generates completely fictional in-memory content and temporary files to measure build times, compressed index size and representative query latency. Preserve app/runtime formats and never touch shipping assets.",
+    "queued_objective": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23.",
+    "roadmap_source": "docs/OFFLINE_SEARCH_BULK_ROADMAP.md — S1/S5 package integrity and publication validation",
     "dependencies": [],
-    "integration_base": "feature/offline-illustration-pipeline-throughput",
-    "verification_plan": [
-      "Run script --help and small smoke run with e.g. 100 synthetic documents in GitHub Actions or approved runner",
-      "Verify fixed seed gives same generated term/postings counts and deterministic shard file hashes across repeated runs",
-      "Verify output JSON contains document count, compressed bytes, build and query timings and clear hardware caveats",
-      "Ensure no writes to app/src/main/assets or content/offline_knowledge_articles.json",
-      "At larger 1000/10000 sizes test in bounded public CI only where time budget allows"
-    ]
+    "selected_by": 5
   },
-  "task_id": "JTS-AUTODEV-002",
-  "acceptance_criteria": [
-    "Script generates strictly synthetic fixture documents at 100, 1000, and 10000 counts; no user-visible guides",
-    "Deterministic seeded fixture text and index contents, using temporary directory rather than tracked assets",
-    "Outputs machine-readable size, build duration and cold query timing per count; labels results as CI-host metrics not P30/device measurements",
-    "Standard-library only; bounded runtime and peak memory where possible; no network or third-party packages",
-    "Automated smoke/determinism test included and executed in CI with actual logs; no modifications to runtime search logic or published content"
-  ],
-  "excluded_scope": [
-    "Android runtime/UI or real-content changes",
-    "Publishing synthetic fixtures into APK or shipping guides",
-    "Assuming Linux CI timings predict P30 device latency",
-    "Automatic merging, deployment, user data, CI secrets"
-  ],
-  "work_branch": "autodev/cycle-002",
-  "commits": [
-    "688bb3188fb6a6aa1a6b307ee58f784b8d8f9b46",
-    "8410bc712c5a6bbe0e18ad3f12274f59869ff362",
-    "072bad6d6f6bfd24d652ed3e1a4206d9ba74fbf3",
-    "0dac636453879eb5d230579e45e6e59c5a01acbb"
-  ],
-  "qa_passed": true,
-  "awaiting_merge": true,
+  "task_id": null,
+  "acceptance_criteria": [],
+  "excluded_scope": [],
+  "work_branch": null,
+  "commits": [],
+  "qa_passed": false,
+  "awaiting_merge": false,
   "retry_count": 0,
   "max_retries": 3,
-  "lease": {
-    "worker": 5,
-    "cycle_id": 2,
-    "expires_utc": "2026-11-23T03:00:00Z",
-    "purpose": "roadmap stage for cycle002"
-  },
+  "lease": null,
   "last_handoff": {
-    "from": 4,
-    "to": 5,
-    "cycle_id": 2,
-    "task_id": "JTS-AUTODEV-002",
-    "branch": "autodev/cycle-002",
-    "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
-    "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
-    "tests_run": [
-      {
-        "name": "Python unit/regression",
-        "result": "4/4 passed",
-        "source": "CI job logs"
-      },
-      {
-        "name": "Synthetic 100/1000/10000 indexes",
-        "result": "completed",
-        "source": "CI job logs and artifact"
-      }
-    ],
-    "tests_unverified": [
-      "Android P30 measurements, explicitly not part of task"
-    ],
-    "result": "QA passed in public GitHub Actions; draft PR remains unmerged"
+    "from": 5,
+    "to": 1,
+    "cycle_id": 3,
+    "prior_task": "JTS-AUTODEV-002",
+    "prior_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
+    "qa_evidence": "run 45087171434 success, four Python regression tests, three benchmark sizes",
+    "queued_task": "Add isolated temporary-fixture corruption regression tests for the existing compressed offline knowledge pack reader/checker. Cover missing or malformed gzip pack entries, invalid article references and clear failures; no Android runtime or shipped guide changes. Do not depend on unmerged PRs #22 or #23."
   },
   "history": [
     {
@@ -192,10 +145,21 @@
       "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
       "tests": "4 regression tests and three benchmark sizes completed",
       "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23"
+    },
+    {
+      "cycle_id": 2,
+      "worker": 5,
+      "status": "verified_in_pr",
+      "task_id": "JTS-AUTODEV-002",
+      "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
+      "qa_run": 45087171434,
+      "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
+      "release_status": "unmerged",
+      "notes": "Independent CI verified four regression tests and 100/1000/10000 synthetic scale runs; queue separate offline pack corruption QA task."
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "passed_integration",
+  "verification_status": null,
   "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
@@ -207,22 +171,7 @@
     "execution_status": "not_executed_in_real_checkout",
     "runner_scope": "offline-content-and-index-Python-only"
   },
-  "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
-  "work_head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
-  "qa_evidence": {
-    "workflow_run_id": 45087171434,
-    "workflow_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45087171434",
-    "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
-    "checked_out_pr_merge_sha": "bffeb941813e279c32a200c924e7ac70ce0ed1c2",
-    "job_id": 137408332591,
-    "job_conclusion": "success",
-    "regression_tests": "4/4 passed",
-    "benchmark_sizes": [
-      100,
-      1000,
-      10000
-    ],
-    "artifact_id": 14780120419,
-    "scope": "Python-host synthetic-only benchmarking; no Android tests"
-  }
+  "qa_pull_request": null,
+  "work_head_sha": null,
+  "qa_evidence": null
 }
