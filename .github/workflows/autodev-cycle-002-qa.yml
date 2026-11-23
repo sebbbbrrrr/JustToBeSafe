@@ -1,0 +1,36 @@
+name: AutoDev cycle 002 synthetic benchmark QA
+on:
+  pull_request:
+    branches:
+      - feature/offline-illustration-pipeline-throughput
+    paths:
+      - 'scripts/benchmark_synthetic_search.py'
+      - 'scripts/test_synthetic_search_benchmark.py'
+      - '.github/workflows/autodev-cycle-002-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: autodev-benchmark-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  benchmark-qa:
+    if: github.repository == 'sebbbbrrrr/JustToBeSafe'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run deterministic benchmark tests
+        run: python3 scripts/test_synthetic_search_benchmark.py
+      - name: Run synthetic scale measurements
+        run: python3 scripts/benchmark_synthetic_search.py --sizes 100 1000 10000 --output synthetic-benchmark-report.json
+      - name: Upload benchmark evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autodev-cycle-002-benchmark-${{ github.sha }}
+          path: synthetic-benchmark-report.json
+          if-no-files-found: warn
+          retention-days: 7
