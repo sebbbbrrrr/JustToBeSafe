@@ -27,7 +27,7 @@ def compact(value):
                       separators=(",", ":")).encode("utf-8")
 
 def tokens(text):
-    words = set(re.findall(r"[^\\W_]+", text.lower(), flags=re.UNICODE)) - STOPWORDS
+    words = set(re.findall(r"[^\W_]+", text.lower(), flags=re.UNICODE)) - STOPWORDS
     output = set(words)
     for word in words:
         for length in range(4, min(len(word), 9)):
