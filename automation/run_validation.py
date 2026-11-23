@@ -20,7 +20,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_CHECKS = [
-    ("shard-corruption-regressions", [sys.executable, "scripts/test_search_shard_integrity.py"]),
+    ("index-corruption-regressions", [sys.executable, "scripts/test_fulltext_index_corruption.py"]),
     ("batch-import", [sys.executable, "scripts/import_knowledge_batches.py"]),
     ("knowledge-quality", [sys.executable, "scripts/check_content_quality.py"]),
     ("knowledge-packs-build", [sys.executable, "scripts/build_knowledge_packs.py"]),
