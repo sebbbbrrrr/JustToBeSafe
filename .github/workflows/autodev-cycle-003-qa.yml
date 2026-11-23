@@ -1,0 +1,21 @@
+name: AutoDev cycle 003 pack fixture QA
+on:
+  push:
+    branches: [autodev/cycle-003]
+    paths:
+      - 'scripts/check_knowledge_packs.py'
+      - 'scripts/test_knowledge_pack_corruption.py'
+      - '.github/workflows/autodev-cycle-003-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pack-fixtures:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run isolated stdlib corruption regression tests
+        run: python3 -m unittest discover -s scripts -p 'test_knowledge_pack_corruption.py' -v
