@@ -3,11 +3,11 @@
   "project": "sebbbbrrrr/JustToBeSafe",
   "coordination_branch": "automation/five-stage-development-pipeline",
   "integration_base": "feature/offline-illustration-pipeline-throughput",
-  "status": "awaiting_ci_results",
+  "status": "qa_passed_awaiting_human_merge",
   "paused": false,
-  "blocked": true,
+  "blocked": false,
   "cycle_id": 2,
-  "next_worker": 4,
+  "next_worker": 5,
   "task": {
     "id": "JTS-AUTODEV-002",
     "title": "Synthetic offline search scale benchmark",
@@ -45,24 +45,35 @@
     "072bad6d6f6bfd24d652ed3e1a4206d9ba74fbf3",
     "0dac636453879eb5d230579e45e6e59c5a01acbb"
   ],
-  "qa_passed": false,
-  "awaiting_merge": false,
+  "qa_passed": true,
+  "awaiting_merge": true,
   "retry_count": 0,
   "max_retries": 3,
   "lease": null,
   "last_handoff": {
     "from": 4,
-    "to": 4,
+    "to": 5,
     "cycle_id": 2,
     "task_id": "JTS-AUTODEV-002",
     "branch": "autodev/cycle-002",
-    "tests_run": [],
-    "tests_unverified": [
-      "python3 scripts/test_synthetic_search_benchmark.py",
-      "python3 scripts/benchmark_synthetic_search.py --sizes 100 1000 10000 --output synthetic-benchmark-report.json"
+    "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
+    "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
+    "tests_run": [
+      {
+        "name": "Python unit/regression",
+        "result": "4/4 passed",
+        "source": "CI job logs"
+      },
+      {
+        "name": "Synthetic 100/1000/10000 indexes",
+        "result": "completed",
+        "source": "CI job logs and artifact"
+      }
     ],
-    "result": "QA awaiting actual GitHub Actions logs and artifact",
-    "pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23"
+    "tests_unverified": [
+      "Android P30 measurements, explicitly not part of task"
+    ],
+    "result": "QA passed in public GitHub Actions; draft PR remains unmerged"
   },
   "history": [
     {
@@ -167,18 +178,20 @@
       "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
       "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
       "notes": "Draft PR created; workflow not yet confirmed. QA not passed."
+    },
+    {
+      "cycle_id": 2,
+      "worker": 4,
+      "status": "qa_passed",
+      "workflow_run_id": 45087171434,
+      "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
+      "tests": "4 regression tests and three benchmark sizes completed",
+      "draft_pr": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23"
     }
   ],
   "notes": "Initial pilot: choose one small, safe, roadmap-backed task; no automatic merges, CI triggers or production changes.",
-  "verification_status": "awaiting_public_ci",
-  "verification_blocker": {
-    "reason": "Draft PR #23 created, but no completed matching workflow run was visible at inspection; cannot claim test success.",
-    "required_checks": [
-      "python3 scripts/test_synthetic_search_benchmark.py",
-      "python3 scripts/benchmark_synthetic_search.py --sizes 100 1000 10000 --output synthetic-benchmark-report.json"
-    ],
-    "resume_condition": "Worker 4 verifies matching successful workflow run, source SHA, regression test and benchmark artifact; no merge."
-  },
+  "verification_status": "passed_integration",
+  "verification_blocker": null,
   "validation_runner": {
     "path": "automation/run_validation.py",
     "work_branch": "autodev/cycle-001",
@@ -191,5 +204,20 @@
   },
   "qa_pull_request": "https://github.com/sebbbbrrrr/JustToBeSafe/pull/23",
   "work_head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
-  "qa_evidence": null
+  "qa_evidence": {
+    "workflow_run_id": 45087171434,
+    "workflow_url": "https://github.com/sebbbbrrrr/JustToBeSafe/actions/runs/45087171434",
+    "head_sha": "0dac636453879eb5d230579e45e6e59c5a01acbb",
+    "checked_out_pr_merge_sha": "bffeb941813e279c32a200c924e7ac70ce0ed1c2",
+    "job_id": 137408332591,
+    "job_conclusion": "success",
+    "regression_tests": "4/4 passed",
+    "benchmark_sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "artifact_id": 14780120419,
+    "scope": "Python-host synthetic-only benchmarking; no Android tests"
+  }
 }
