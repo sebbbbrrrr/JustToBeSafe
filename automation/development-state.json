@@ -70,7 +70,12 @@
   "awaiting_merge": false,
   "retry_count": 2,
   "max_retries": 3,
-  "lease": null,
+  "lease": {
+    "worker": 4,
+    "cycle_id": 5,
+    "claimed_at": "2026-11-24T16:36:02Z",
+    "expires_at": "2026-11-24T18:36:02Z"
+  },
   "last_handoff": {
     "from": 3,
     "to": 4,
