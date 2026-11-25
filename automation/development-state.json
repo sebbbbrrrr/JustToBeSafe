@@ -5,7 +5,7 @@
   "integration_base": "feature/offline-illustration-pipeline-throughput",
   "status": "refinement_complete",
   "paused": false,
-  "blocked": false,
+  "blocked": true,
   "cycle_id": 5,
   "next_worker": 4,
   "task": {
@@ -437,7 +437,7 @@
     }
   ],
   "notes": "Cycle 004 verified in draft PR only. Cycle 005 queued with approved S2 user-facing Android UX objective; Architect must verify current implementation and dependency safety before freezing.",
-  "verification_status": "unverified_integration",
+  "verification_status": "blocked_stale_lease",
   "verification_blocker": null,
   "validation_runner": null,
   "qa_pull_request": null,
@@ -471,6 +471,19 @@
         "https://github.com/sebbbbrrrr/JustToBeSafe/commit/ed19d47235402fd990205b484082cc548a88c465"
       ],
       "next_action": "Run python3 automation/run_validation.py --output validation-report.json --timeout 120 on exact cycle-004 head using approved standard public runner; retain report, seven exit codes and commit SHA, then recheck QA."
+    },
+    {
+      "event_key": "cycle-005-w4-stale-lease-20261124T183602Z",
+      "cycle_id": 5,
+      "worker": 4,
+      "timestamp": "2026-11-25T01:36:04Z",
+      "reason": "Expired Worker 4 lease; ownership cannot safely be assumed",
+      "impacted_task": "JTS-AUTODEV-005",
+      "work_branch": "autodev/cycle-005",
+      "evidence_urls": [
+        "https://github.com/sebbbbrrrr/JustToBeSafe/blob/automation/five-stage-development-pipeline/automation/development-state.json"
+      ],
+      "next_action": "Operator reconcile expired lease and inspect exact-head Android CI before resuming QA."
     }
   ],
   "completion_notification_cycle_id": 4,
